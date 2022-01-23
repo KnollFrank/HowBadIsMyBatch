@@ -1,1 +1,3 @@
 # HowBadIsMyBatch
+
+jupyter notebook
