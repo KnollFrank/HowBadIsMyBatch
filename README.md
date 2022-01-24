@@ -3,7 +3,7 @@
 jupyter notebook
 
 FK-TODO:
-- VAX_LOT-Spalte normalisieren, d.h. toUpperCase(), Format des jeweiligen Herstellers berücksichtigen und "verschmutzte" Einträge Säubern, denn sie stellen alle dieselbe Charge dar:
+- VAX_LOT-Spalte normalisieren, d.h. toUpperCase(), Format des jeweiligen Herstellers berücksichtigen und "verschmutzte" Einträge säubern, denn sie stellen alle dieselbe Charge dar:
 039k20a
 MOD039K20A
 #039K20A
