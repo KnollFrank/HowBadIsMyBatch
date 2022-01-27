@@ -1,7 +1,9 @@
 jupyter notebook
 
 FK-TODO:
-- VAX_LOT-Spalte normalisieren, d.h. toUpperCase(), Format des jeweiligen Herstellers berücksichtigen und "verschmutzte" Einträge säubern, denn sie stellen alle dieselbe Charge dar:
+- Prüfe, ob die VAERS_ID wirklich eindeutig ist.
+- VAX_LOT-Spalte normalisieren, d.h. mindestens toUpperCase() darauf anwenden
+- Format des jeweiligen Herstellers berücksichtigen und "verschmutzte" Einträge säubern, denn sie stellen alle dieselbe Charge dar:
 039k20a
 MOD039K20A
 #039K20A
