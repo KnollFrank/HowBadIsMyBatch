@@ -6,7 +6,7 @@ FK-TODO:
   Repeat for second dose and third dose separately. The cumulative effect will then appear.
   It should be analysed separately anyway, because adverse reactions increase with each dose."
   # 1. filter the vax table first for just C19 vaccines
-  # 2. and for just n-tn (n \in {1, 2, 3}) dose => VAERSDATA --> VAERSVAX ist 1:1-Beziehung statt 1:n und kann einfacher in eine einzige Tabelle gemergt werden
+  # 2. and for just n-th (VAERSVAX.VAX_DOSE_SERIES == n \in {1, 2, 3}) dose => VAERSDATA --> VAERSVAX ist 1:1-Beziehung statt 1:n und kann einfacher in eine einzige Tabelle gemergt werden
   # 3. filter for manufacturer
 - Prüfe, ob die VAERS_ID wirklich eindeutig ist. Antwort: VAERS_ID ist in der VAERSVAX-Tabelle nicht eindeutig, da es mehrere Impfungen pro Person geben kann.
 - VAX_LOT-Spalte normalisieren, d.h. mindestens toUpperCase() darauf anwenden
@@ -15,7 +15,7 @@ FK-TODO:
 MOD039K20A
 #039K20A
 039K20A-MODERNA
-039K20A-2A
+039K20A-2A (vielleicht nicht)
 039K20A or 039L
 Moderna/039K20A
 MODERNA 039K20A
@@ -34,3 +34,6 @@ u039k20a
 039K20A & 031M2
 039K20A and 032
 039K20A, 011L20
+
+
+df[df.index.duplicated(False)].to_excel('results/pfizer_duplicates.xlsx')
