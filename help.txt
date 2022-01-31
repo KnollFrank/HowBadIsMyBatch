@@ -1,7 +1,6 @@
 jupyter notebook
 
 FK-TODO:
-- Tabelle von https://www.howbadismybatch.com/combined.html nachprogrammieren
 - "I would suggest that you filter the vax table first for just C19 vaccines, and for just first dose.
   Then carry out the analysis as before.
   Repeat for second dose and third dose separately. The cumulative effect will then appear.
