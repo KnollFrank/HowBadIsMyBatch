@@ -1,7 +1,8 @@
 jupyter notebook
 
 FK-TODO:
-- "I would suggest that you filter the vax table first for just C19 vaccines, and for just first dose.
+- https://www.howbadismybatch.com/firstsecond.html:
+ "I would suggest that you filter the vax table first for just C19 vaccines, and for just first dose.
   Then carry out the analysis as before.
   Repeat for second dose and third dose separately. The cumulative effect will then appear.
   It should be analysed separately anyway, because adverse reactions increase with each dose."
