@@ -1,14 +1,7 @@
 jupyter notebook
 
 FK-TODO:
-- https://www.howbadismybatch.com/firstsecond.html:
- "I would suggest that you filter the vax table first for just C19 vaccines, and for just first dose.
-  Then carry out the analysis as before.
-  Repeat for second dose and third dose separately. The cumulative effect will then appear.
-  It should be analysed separately anyway, because adverse reactions increase with each dose."
-  # 1. filter the vax table first for just C19 vaccines  and for just n-th (VAERSVAX.VAX_DOSE_SERIES == n \in {1, 2, 3}) dose
-  # 2. filter for manufacturer
-- Prüfe, ob die VAERS_ID wirklich eindeutig ist. Antwort: VAERS_ID ist in der VAERSVAX-Tabelle nicht eindeutig, da es mehrere Impfungen pro Person geben kann.
+- https://www.howbadismybatch.com/firstsecond.html nachprogrammieren
 - VAX_LOT-Spalte normalisieren, d.h. mindestens toUpperCase() darauf anwenden
 - Format des jeweiligen Herstellers berücksichtigen und "verschmutzte" Einträge säubern, denn sie stellen alle dieselbe Charge dar:
 039k20a
