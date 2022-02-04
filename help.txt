@@ -6,6 +6,7 @@ get VAERS data:
 FK-TODO:
 - https://www.howbadismybatch.com/firstsecond.html nachprogrammieren
 - VAX_LOT-Spalte normalisieren, d.h. mindestens toUpperCase() darauf anwenden
+- handle VAX_DOSE_SERIES = 'UNK' or 'N/A' like '1'?
 - Format des jeweiligen Herstellers berücksichtigen und "verschmutzte" Einträge säubern, denn sie stellen alle dieselbe Charge dar:
 039k20a
 MOD039K20A
