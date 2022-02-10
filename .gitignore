@@ -1,4 +1,4 @@
-/VAERS/
+src/VAERS/
 .ipynb_checkpoints/
-config/
-results/
+src/config/
+src/results/
