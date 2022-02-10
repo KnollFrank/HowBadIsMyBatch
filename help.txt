@@ -3,6 +3,9 @@ jupyter notebook
 get VAERS data:
 - download data (e.g. 2022VAERSData.zip) from https://vaers.hhs.gov/data/datasets.html and save and unzip in VAERS folder
 
+FK-FIXME:
+- Anzahl 'DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL' und 'ER_VISIT' MÜSSEN immer noch korrekt gezählt werden nach createDataFrameFromDescr()
+
 FK-TODO:
 - publish all figures and tables (as interactive HTML-Pages?)
 - Vergleich Grippe mit Covid19
