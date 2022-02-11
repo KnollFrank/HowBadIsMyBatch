@@ -7,6 +7,7 @@ FK-FIXME:
 - Anzahl 'DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL' und 'ER_VISIT' MÜSSEN immer noch korrekt gezählt werden nach createDataFrameFromDescr()
 
 FK-TODO:
+- rename project and html-page to VaccineAdverseEventInfo ?
 - publish all figures and tables (as interactive HTML-Pages?)
 - Vergleich Grippe mit Covid19
 - https://www.howbadismybatch.com/geography.html nachprogrammieren

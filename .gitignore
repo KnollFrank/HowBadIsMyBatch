@@ -1,4 +1,5 @@
 src/VAERS/
 .ipynb_checkpoints/
+.history/
 src/config/
 src/results/
