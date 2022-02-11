@@ -14,14 +14,32 @@
     src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
   <script>
     $(document).ready(function () {
-      $('#batchCodeTable').DataTable();
+      $('#batchCodeTable').DataTable({
+        language: {
+          searchPlaceholder: "Enter Moderna Batch Code"
+        },
+        search: {
+          return: false
+        },
+        "order": [[1, "desc"]]
+      });
     });
   </script>
+  <style>
+    .dataTables_filter {
+      float: left !important;
+    }
+
+    .dataTables_length {
+      float: right !important;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Moderna batch codes</h1>
   <p>
+    <b>Check out your Moderna batch code </b>&emsp;<font size="-2">(last updated 29th December 2021)</font>
   <table border="0" class="dataframe display" id="batchCodeTable">
     <thead>
       <tr style="text-align: unset;">
