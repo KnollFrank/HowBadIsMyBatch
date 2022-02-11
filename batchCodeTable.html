@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>batch codes</title>
+  <!-- FK-TODO: keine externen Links -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+  <!-- FK-TODO: keine externen Links -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- FK-TODO: keine externen Links -->
+  <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+  <script>
+    function capitalizeFirstLetter(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1)
+    }
+
+    $(document).ready(function () {
+      const searchParams = new URLSearchParams(window.location.search);
+      const company = searchParams.get('company');
+      const companyName = searchParams.get('companyName');
+      const title = searchParams.get('title');
+      document.title = title;
+      document.querySelectorAll(".title").forEach(element => element.textContent = title);
+      document.querySelectorAll(".companyName").forEach(element => element.textContent = companyName);
+      $("#table").load("src/results/batchCodes/" + company + ".html", function () {
+        $('#batchCodeTable').DataTable({
+          language: {
+            searchPlaceholder: "Enter " + companyName + " Batch Code"
+          },
+          search: {
+            return: false
+          },
+          "order": [[1, "desc"]]
+        });
+      });
+    });
+  </script>
+  <style>
+    .dataTables_filter {
+      float: left !important;
+    }
+
+    .dataTables_length {
+      float: right !important;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title"></h1>
+  <p>
+    <b>Check out your <span class="companyName"></span> batch code </b>&emsp;<font size="-2">(last updated 29th December
+      2021)</font>
+  <div id="table"></div>
+  </p>
+</body>
+
+</html>
