@@ -25,7 +25,7 @@
       document.title = title;
       document.querySelectorAll(".title").forEach(element => element.textContent = title);
       document.querySelectorAll(".companyName").forEach(element => element.textContent = companyName);
-      $("#table").load("src/results/batchCodes/" + company + ".html", function () {
+      $("#table").load("data/" + company + ".html", function () {
         $('#batchCodeTable').DataTable({
           language: {
             searchPlaceholder: "Enter " + companyName + " Batch Code"

@@ -3,3 +3,4 @@ src/VAERS/
 .history/
 src/config/
 src/results/
+data/*.xlsx
