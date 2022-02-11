@@ -7,28 +7,36 @@
   <title>batch codes</title>
   <!-- FK-TODO: keine externen Links -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+  <link rel="stylesheet" type="text/css" href="forkMeOnGitHub.css">
   <!-- FK-TODO: keine externen Links -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- FK-TODO: keine externen Links -->
   <script type="text/javascript" charset="utf8"
     src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
   <script>
-    function capitalizeFirstLetter(str) {
-      return str.charAt(0).toUpperCase() + str.slice(1)
+    function getSearchParams() {
+      const searchParams = new URLSearchParams(window.location.search);
+      return {
+        company: searchParams.get('company'),
+        companyName: searchParams.get('companyName'),
+        title: searchParams.get('title')
+      };
     }
 
-    $(document).ready(function () {
-      const searchParams = new URLSearchParams(window.location.search);
-      const company = searchParams.get('company');
-      const companyName = searchParams.get('companyName');
-      const title = searchParams.get('title');
-      document.title = title;
-      document.querySelectorAll(".title").forEach(element => element.textContent = title);
-      document.querySelectorAll(".companyName").forEach(element => element.textContent = companyName);
-      $("#table").load("data/" + company + ".html", function () {
+    function replaceCssClassesWithStrs({ title, companyName }) {
+      replaceCssClassWithStr(".title", title);
+      replaceCssClassWithStr(".companyName", companyName);
+    }
+
+    function replaceCssClassWithStr(cssClass, str) {
+      document.querySelectorAll(cssClass).forEach(element => element.textContent = str);
+    }
+
+    function loadBatchCodeTable(file, searchPlaceholder) {
+      $("#batchCodeTableWrapper").load(file, function () {
         $('#batchCodeTable').DataTable({
           language: {
-            searchPlaceholder: "Enter " + companyName + " Batch Code"
+            searchPlaceholder: searchPlaceholder
           },
           search: {
             return: false
@@ -36,6 +44,13 @@
           "order": [[1, "desc"]]
         });
       });
+    }
+
+    $(document).ready(function () {
+      const { company, companyName, title } = getSearchParams();
+      document.title = title;
+      replaceCssClassesWithStrs({ title, companyName });
+      loadBatchCodeTable("data/" + company + ".html", "Enter " + companyName + " Batch Code");
     });
   </script>
   <style>
@@ -50,74 +65,12 @@
 </head>
 
 <body>
-  <!-- adapted from https://codepo8.github.io/css-fork-on-github-ribbon/ -->
-  <style>
-    #forkongithub a {
-      background: #000;
-      color: #fff;
-      text-decoration: none;
-      font-family: arial, sans-serif;
-      text-align: center;
-      font-weight: bold;
-      padding: 5px 40px;
-      font-size: 1rem;
-      line-height: 2rem;
-      position: relative;
-      transition: 0.5s;
-    }
-
-    #forkongithub a:hover {
-      background: #c11;
-      color: #fff;
-    }
-
-    #forkongithub a::before,
-    #forkongithub a::after {
-      content: "";
-      width: 100%;
-      display: block;
-      position: absolute;
-      top: 1px;
-      left: 0;
-      height: 1px;
-      background: #fff;
-    }
-
-    #forkongithub a::after {
-      bottom: 1px;
-      top: auto;
-    }
-
-    @media screen and (min-width:800px) {
-      #forkongithub {
-        position: absolute;
-        display: block;
-        top: 0;
-        right: 0;
-        width: 200px;
-        overflow: hidden;
-        height: 200px;
-        z-index: 9999;
-      }
-
-      #forkongithub a {
-        width: 200px;
-        position: absolute;
-        top: 60px;
-        right: -60px;
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
-      }
-    }
-  </style><span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
+  <span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
   <h1 class="title"></h1>
   <p>
-    <b>Check out your <span class="companyName"></span> batch code </b>&emsp;<font size="-2">(last updated 11th February 2022)</font>
-  <div id="table"></div>
+    <b>Check out your <span class="companyName"></span> batch code </b>&emsp;<font size="-2">(last updated 11th February
+      2022)</font>
+  <div id="batchCodeTableWrapper"></div>
   </p>
 </body>
 
