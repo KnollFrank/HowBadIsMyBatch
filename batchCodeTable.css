@@ -1,0 +1,7 @@
+.dataTables_filter {
+    float: left !important;
+}
+
+.dataTables_length {
+    float: right !important;
+}
