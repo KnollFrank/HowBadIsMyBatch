@@ -4,3 +4,4 @@ src/VAERS/
 src/config/
 src/results/
 data/*.xlsx
+data/*.html

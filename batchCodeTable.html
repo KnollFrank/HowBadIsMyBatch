@@ -34,16 +34,17 @@
     }
 
     function loadBatchCodeTable(file, searchPlaceholder) {
-      $("#batchCodeTableWrapper").load(file, function () {
-        $('#batchCodeTable').DataTable({
-          language: {
-            searchPlaceholder: searchPlaceholder
-          },
-          search: {
-            return: false
-          },
-          "order": [[1, "desc"]]
-        });
+      $('#batchCodeTable').DataTable({
+        ajax: file,
+        language: {
+          searchPlaceholder: searchPlaceholder
+        },
+        search: {
+          return: false
+        },
+        processing: true,
+        deferRender: true,
+        order: [[1, "desc"]]
       });
     }
 
@@ -51,7 +52,7 @@
       const { company, companyName, title } = getSearchParams();
       document.title = title;
       replaceCssClassesWithStrs({ title, companyName });
-      loadBatchCodeTable("data/" + company + ".html", "Enter " + companyName + " Batch Code");
+      loadBatchCodeTable("data/" + company + ".json", "Enter " + companyName + " Batch Code");
     });
   </script>
 </head>
@@ -62,8 +63,17 @@
   <p>
     <b>Check out your <span class="companyName"></span> batch code </b>&emsp;<font size="-2">(last updated 11th February
       2022)</font>
-  <div id="batchCodeTableWrapper"></div>
-  </p>
+  <table class="display" id="batchCodeTable">
+    <thead>
+      <tr>
+        <th>VAX_LOT</th>
+        <th>ADRs</th>
+        <th>DEATHS</th>
+        <th>DISABILITIES</th>
+        <th>LIFE THREATENING ILLNESSES</th>
+      </tr>
+    </thead>
+    </p>
 </body>
 
 </html>
