@@ -34,18 +34,28 @@
     }
 
     function loadBatchCodeTable(file, searchPlaceholder) {
-      $('#batchCodeTable').DataTable({
-        ajax: file,
-        language: {
-          searchPlaceholder: searchPlaceholder
-        },
-        search: {
-          return: false
-        },
-        processing: true,
-        deferRender: true,
-        order: [[1, "desc"]]
-      });
+      $('#batchCodeTable').DataTable(
+        {
+          ajax: file,
+          language:
+          {
+            searchPlaceholder: searchPlaceholder
+          },
+          search:
+          {
+            return: false
+          },
+          processing: true,
+          deferRender: true,
+          order: [[1, "desc"]],
+          columnDefs:
+            [
+              {
+                searchable: false,
+                targets: [1, 2, 3, 4]
+              }
+            ]
+        });
     }
 
     $(document).ready(function () {
