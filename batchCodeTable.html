@@ -40,8 +40,15 @@
         });
     }
 
+    function selectInput() {
+      const input = document.querySelector(".dataTables_filter input");
+      input.focus();
+      input.select();
+    }
+    
     $(document).ready(function () {
       loadBatchCodeTable();
+      selectInput();
     });
   </script>
 </head>
