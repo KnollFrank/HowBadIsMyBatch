@@ -4,7 +4,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>batch codes</title>
+  <title>Batch codes</title>
   <!-- FK-TODO: keine externen Links -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
   <link rel="stylesheet" type="text/css" href="batchCodeTable.css">
@@ -15,31 +15,13 @@
   <script type="text/javascript" charset="utf8"
     src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
   <script>
-    function getSearchParams() {
-      const searchParams = new URLSearchParams(window.location.search);
-      return {
-        company: searchParams.get('company'),
-        companyName: searchParams.get('companyName'),
-        title: searchParams.get('title')
-      };
-    }
-
-    function replaceCssClassesWithStrs({ title, companyName }) {
-      replaceCssClassWithStr(".title", title);
-      replaceCssClassWithStr(".companyName", companyName);
-    }
-
-    function replaceCssClassWithStr(cssClass, str) {
-      document.querySelectorAll(cssClass).forEach(element => element.textContent = str);
-    }
-
-    function loadBatchCodeTable(file, searchPlaceholder) {
+    function loadBatchCodeTable() {
       $('#batchCodeTable').DataTable(
         {
-          ajax: file,
+          ajax: "data/batchCodeTable.json",
           language:
           {
-            searchPlaceholder: searchPlaceholder
+            searchPlaceholder: "Enter Batch Code"
           },
           search:
           {
@@ -52,26 +34,23 @@
             [
               {
                 searchable: false,
-                targets: [1, 2, 3, 4]
+                targets: [1, 2, 3, 4, 5]
               }
             ]
         });
     }
 
     $(document).ready(function () {
-      const { company, companyName, title } = getSearchParams();
-      document.title = title;
-      replaceCssClassesWithStrs({ title, companyName });
-      loadBatchCodeTable("data/" + company + ".json", "Enter " + companyName + " Batch Code");
+      loadBatchCodeTable();
     });
   </script>
 </head>
 
 <body>
   <span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
-  <h1 class="title"></h1>
+  <h1>Batch codes</h1>
   <p>
-    <b>Check out your <span class="companyName"></span> batch code </b>&emsp;<font size="-2">(last updated 11th February
+    <b>Check out your batch code </b>&emsp;<font size="-2">(last updated 11th February
       2022)</font>
   <table class="display" id="batchCodeTable">
     <thead>
@@ -81,6 +60,7 @@
         <th>DEATHS</th>
         <th>DISABILITIES</th>
         <th>LIFE THREATENING ILLNESSES</th>
+        <th>COMPANY</th>
       </tr>
     </thead>
   </table>
