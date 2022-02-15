@@ -31,7 +31,11 @@
             [
               {
                 searchable: false,
-                targets: [1, 2, 3, 4, 5]
+                targets: [1, 2, 3, 4, 5, 6]
+              },
+              {
+                render: (data, type, row) => data.toFixed(2) + " %",
+                targets: [6]
               }
             ]
         });
@@ -64,6 +68,7 @@
         <th>Disabilities</th>
         <th>Life Threatening Illnesses</th>
         <th>Company</th>
+        <th>Lethality (%)</th>
       </tr>
     </thead>
   </table>
