@@ -20,7 +20,7 @@
         'Disabilities': 3,
         'Life Threatening Illnesses': 4,
         'Company': 5,
-        'Lethality (%)': 6
+        'Lethality': 6
       };
       $('#batchCodeTable').DataTable(
         {
@@ -46,7 +46,7 @@
                   columnIndex['Disabilities'],
                   columnIndex['Life Threatening Illnesses'],
                   columnIndex['Company'],
-                  columnIndex['Lethality (%)']
+                  columnIndex['Lethality']
                 ]
               },
               {
@@ -54,7 +54,7 @@
                   const lethality = parseFloat(data);
                   return !isNaN(lethality) ? lethality.toFixed(2) + " %" : '';
                 },
-                targets: [columnIndex['Lethality (%)']]
+                targets: [columnIndex['Lethality']]
               }
             ]
         });
@@ -87,7 +87,7 @@
         <th>Disabilities</th>
         <th>Life Threatening Illnesses</th>
         <th>Company</th>
-        <th>Lethality (%)</th>
+        <th>Lethality</th>
       </tr>
     </thead>
   </table>
