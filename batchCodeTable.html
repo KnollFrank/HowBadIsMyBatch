@@ -13,6 +13,15 @@
     src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
   <script>
     function loadBatchCodeTable() {
+      const columnIndex = {
+        'Batch': 0,
+        'Total Number of Adverse Reaction Reports': 1,
+        'Deaths': 2,
+        'Disabilities': 3,
+        'Life Threatening Illnesses': 4,
+        'Company': 5,
+        'Lethality (%)': 6
+      };
       $('#batchCodeTable').DataTable(
         {
           ajax: "data/batchCodeTable.json",
@@ -26,12 +35,26 @@
           },
           processing: true,
           deferRender: true,
-          order: [[1, "desc"]],
+          order: [[columnIndex['Total Number of Adverse Reaction Reports'], "desc"]],
           columnDefs:
             [
               {
                 searchable: false,
-                targets: [1, 2, 3, 4, 5]
+                targets: [
+                  columnIndex['Total Number of Adverse Reaction Reports'],
+                  columnIndex['Deaths'],
+                  columnIndex['Disabilities'],
+                  columnIndex['Life Threatening Illnesses'],
+                  columnIndex['Company'],
+                  columnIndex['Lethality (%)']
+                ]
+              },
+              {
+                render: (data, type, row) => {
+                  const lethality = parseFloat(data);
+                  return !isNaN(lethality) ? lethality.toFixed(2) + " %" : '';
+                },
+                targets: [columnIndex['Lethality (%)']]
               }
             ]
         });
@@ -64,6 +87,7 @@
         <th>Disabilities</th>
         <th>Life Threatening Illnesses</th>
         <th>Company</th>
+        <th>Lethality (%)</th>
       </tr>
     </thead>
   </table>
