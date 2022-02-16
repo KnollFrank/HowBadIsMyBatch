@@ -9,7 +9,10 @@ FK-FIXME:
 FK-TODO:
 - rename project and html-page to VaccineAdverseEventInfo ?
 - publish all figures and tables (as interactive HTML-Pages?)
-- Vergleich Grippe mit Covid19
+- Vergleich Grippe mit Covid19:
+  - https://www.bitchute.com/video/4HlIyBmOEJeY/
+  - https://www.bitchute.com/video/8wJYP2NpGwN2/
+  - https://www.howbad.info/expiry.html
 - https://www.howbadismybatch.com/geography.html nachprogrammieren
 - handle VAX_DOSE_SERIES = 'UNK' or 'N/A' like '1'?
 - Format des jeweiligen Herstellers berücksichtigen und "verschmutzte" Einträge säubern, denn sie stellen alle dieselbe Charge dar:
