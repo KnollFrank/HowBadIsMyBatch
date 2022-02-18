@@ -13,6 +13,9 @@ FK-TODO:
   - https://www.bitchute.com/video/4HlIyBmOEJeY/
   - https://www.bitchute.com/video/8wJYP2NpGwN2/
   - https://www.howbad.info/expiry.html
+  - https://www.howbadismybatch.com/moderna20A21A.pdf
+  - https://www.howbadismybatch.com/deathbylottery.pdf
+  - https://dailyexpose.uk/2021/10/31/100-percent-of-covid-19-vaccine-deaths-caused-by-just-5-percent-of-the-batches-produced/?fbclid=IwAR0U4RWwoehj2mEQpDixoQYfo9JpRhZvuP_6w4z_At2Z-Tez-EVvToW4PX4
 - https://www.howbadismybatch.com/geography.html nachprogrammieren
 - handle VAX_DOSE_SERIES = 'UNK' or 'N/A' like '1'?
 - Format des jeweiligen Herstellers berücksichtigen und "verschmutzte" Einträge säubern, denn sie stellen alle dieselbe Charge dar:
