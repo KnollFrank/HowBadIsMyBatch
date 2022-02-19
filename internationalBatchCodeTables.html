@@ -14,7 +14,7 @@
   <script>
     function createEmptyBatchCodeTable() {
       const columnIndex = {
-        'VAX_LOT': 0,
+        'Batch': 0,
         'Total Number of Adverse Reaction Reports': 1,
         'Deaths': 2,
         'Disabilities': 3,
@@ -48,10 +48,10 @@
               },
               {
                 render: (data, type, row) => {
-                  const lethality = parseFloat(data);
-                  return !isNaN(lethality) ? lethality.toFixed(2) + " %" : '';
+                  const severeReports = parseFloat(data);
+                  return !isNaN(severeReports) ? severeReports.toFixed(2) + " %" : '';
                 },
-                targets: [columnIndex['Lethality']]
+                targets: [columnIndex['Severe reports (%)']]
               }
             ]
         });
@@ -107,7 +107,7 @@
   <table class="display" id="batchCodeTable">
     <thead>
       <tr>
-        <th>VAX_LOT</th>
+        <th>Batch</th>
         <th>Total Number of Adverse Reaction Reports</th>
         <th>Deaths</th>
         <th>Disabilities</th>
