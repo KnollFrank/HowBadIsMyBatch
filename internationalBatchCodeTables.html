@@ -19,7 +19,7 @@
         'Deaths': 2,
         'Disabilities': 3,
         'Life Threatening Illnesses': 4,
-        'Severe reports (%)': 5,
+        'Severe reports': 5,
       };
       return $('#batchCodeTable').DataTable(
         {
@@ -43,7 +43,7 @@
                   columnIndex['Deaths'],
                   columnIndex['Disabilities'],
                   columnIndex['Life Threatening Illnesses'],
-                  columnIndex['Severe reports (%)']
+                  columnIndex['Severe reports']
                 ]
               },
               {
@@ -51,7 +51,7 @@
                   const severeReports = parseFloat(data);
                   return !isNaN(severeReports) ? severeReports.toFixed(2) + " %" : '';
                 },
-                targets: [columnIndex['Severe reports (%)']]
+                targets: [columnIndex['Severe reports']]
               }
             ]
         });
@@ -112,7 +112,7 @@
         <th>Deaths</th>
         <th>Disabilities</th>
         <th>Life Threatening Illnesses</th>
-        <th>Severe reports (%)</th>
+        <th>Severe reports</th>
       </tr>
     </thead>
   </table>
