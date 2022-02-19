@@ -10,6 +10,7 @@ FK-TODO:
 - rename project and html-page to VaccineAdverseEventInfo ?
 - move html pages to docs folder
 - publish all figures and tables (as interactive HTML-Pages?)
+- add menu in order to make pages internationalBatchCodeTables.html and batchCodeTable.html navigatable
 - Vergleich Grippe mit Covid19:
   - https://www.bitchute.com/video/4HlIyBmOEJeY/
   - https://www.bitchute.com/video/8wJYP2NpGwN2/
