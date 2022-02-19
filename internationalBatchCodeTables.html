@@ -19,8 +19,9 @@
         'Deaths': 2,
         'Disabilities': 3,
         'Life Threatening Illnesses': 4,
-        'Severe reports': 5,
-        'Lethality': 6
+        'Company': 5,
+        'Severe reports': 6,
+        'Lethality': 7
       };
       return $('#batchCodeTable').DataTable(
         {
@@ -44,6 +45,7 @@
                   columnIndex['Deaths'],
                   columnIndex['Disabilities'],
                   columnIndex['Life Threatening Illnesses'],
+                  columnIndex['Company'],
                   columnIndex['Severe reports'],
                   columnIndex['Lethality']
                 ]
@@ -114,6 +116,7 @@
         <th>Deaths</th>
         <th>Disabilities</th>
         <th>Life Threatening Illnesses</th>
+        <th>Company</th>
         <th>Severe reports</th>
         <th>Lethality</th>
       </tr>
