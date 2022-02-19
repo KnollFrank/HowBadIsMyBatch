@@ -4,7 +4,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Batch Codes</title>
+  <title>International Batch Codes</title>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
   <link rel="stylesheet" type="text/css" href="batchCodeTable.css">
   <link rel="stylesheet" type="text/css" href="forkMeOnGitHub.css">
@@ -12,19 +12,17 @@
   <script type="text/javascript" charset="utf8"
     src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
   <script>
-    function loadBatchCodeTable() {
+    function createEmptyBatchCodeTable() {
       const columnIndex = {
-        'Batch': 0,
+        'VAX_LOT': 0,
         'Total Number of Adverse Reaction Reports': 1,
         'Deaths': 2,
         'Disabilities': 3,
         'Life Threatening Illnesses': 4,
-        'Company': 5,
-        'Lethality': 6
+        'Severe reports (%)': 5,
       };
-      $('#batchCodeTable').DataTable(
+      return $('#batchCodeTable').DataTable(
         {
-          ajax: "data/batchCodeTable.json",
           language:
           {
             searchPlaceholder: "Enter Batch Code"
@@ -45,8 +43,7 @@
                   columnIndex['Deaths'],
                   columnIndex['Disabilities'],
                   columnIndex['Life Threatening Illnesses'],
-                  columnIndex['Company'],
-                  columnIndex['Lethality']
+                  columnIndex['Severe reports (%)']
                 ]
               },
               {
@@ -67,27 +64,55 @@
     }
 
     $(document).ready(function () {
-      loadBatchCodeTable();
-      selectInput();
+      const batchCodeTable = createEmptyBatchCodeTable();
+      document.querySelector('#country').addEventListener(
+        'change',
+        event => {
+          const country = event.target.value;
+          const result = document.querySelector('.result');
+          result.textContent = `Batch Codes for ${country}`;
+          batchCodeTable.ajax.url(`data/${country}.json`).load();
+          selectInput();
+        });
     });
   </script>
 </head>
 
 <body>
   <span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
-  <h1>Batch Codes</h1>
+  <h1>International Batch Codes</h1>
+  <p>
+    <label>Select country:
+      <select id="country" name="country">
+        <option value="">Select One …</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="France">France</option>
+        <option value="Germany">Germany</option>
+        <option value="Japan">Japan</option>
+        <option value="Italy">Italy</option>
+        <option value="Austria">Austria</option>
+        <option value="Netherlands">Netherlands</option>
+        <option value="Spain">Spain</option>
+        <option value="Belgium">Belgium</option>
+        <option value="Sweden">Sweden</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </label>
+  <h2 class="result"></h2>
   <p>
     <b>Check out your batch code</b> (last updated 16th February 2022)
+  </p>
+  <p>
   <table class="display" id="batchCodeTable">
     <thead>
       <tr>
-        <th>Batch</th>
+        <th>VAX_LOT</th>
         <th>Total Number of Adverse Reaction Reports</th>
         <th>Deaths</th>
         <th>Disabilities</th>
         <th>Life Threatening Illnesses</th>
-        <th>Company</th>
-        <th>Lethality</th>
+        <th>Severe reports (%)</th>
       </tr>
     </thead>
   </table>
