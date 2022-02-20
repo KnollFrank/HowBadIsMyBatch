@@ -11,77 +11,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" charset="utf8"
     src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+  <script src="./batchCodeTable.js"></script>
   <script>
-    function createEmptyBatchCodeTable() {
-      const columnIndex = {
-        'Batch': 0,
-        'Adverse Reaction Reports': 1,
-        'Deaths': 2,
-        'Disabilities': 3,
-        'Life Threatening Illnesses': 4,
-        'Company': 5,
-        'Severe reports': 6,
-        'Lethality': 7
-      };
-      return $('#batchCodeTable').DataTable(
-        {
-          language:
-          {
-            searchPlaceholder: "Enter Batch Code"
-          },
-          search:
-          {
-            return: false
-          },
-          processing: true,
-          deferRender: true,
-          order: [[columnIndex['Adverse Reaction Reports'], "desc"]],
-          columnDefs:
-            [
-              {
-                searchable: false,
-                targets: [
-                  columnIndex['Adverse Reaction Reports'],
-                  columnIndex['Deaths'],
-                  columnIndex['Disabilities'],
-                  columnIndex['Life Threatening Illnesses'],
-                  columnIndex['Company'],
-                  columnIndex['Severe reports'],
-                  columnIndex['Lethality']
-                ]
-              },
-              {
-                render: (data, type, row) => {
-                  const numberInPercent = parseFloat(data);
-                  return !isNaN(numberInPercent) ? numberInPercent.toFixed(2) + " %" : '';
-                },
-                targets: [columnIndex['Severe reports'], columnIndex['Lethality']]
-              }
-            ]
-        });
-    }
-
-    function selectInput() {
-      const input = document.querySelector(".dataTables_filter input");
-      input.focus();
-      input.select();
-    }
-
-    function displayCountry(country, batchCodeTable) {
-      document.querySelector('.heading').textContent = country == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${country}`;
-      batchCodeTable.ajax.url(`data/${country}.json`).load();
-      selectInput();
-    }
-
     $(document).ready(function () {
-      const batchCodeTable = createEmptyBatchCodeTable();
-      document.querySelector('#countrySelect').addEventListener(
-        'change',
-        event => {
-          const country = event.target.value;
-          displayCountry(country, batchCodeTable);
-        });
-      displayCountry('Global', batchCodeTable)
+      const batchCodeTableInitializer =
+        new BatchCodeTableInitializer(
+          {
+            heading: document.querySelector('.heading'),
+            countrySelect: document.querySelector('#countrySelect'),
+            batchCodeTableElement: $('#batchCodeTable')
+          });
+      batchCodeTableInitializer.initialize();
     });
   </script>
 </head>
