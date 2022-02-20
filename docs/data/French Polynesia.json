@@ -1,1 +1,1 @@
-{"columns":["Batch","Total Number of Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Severe reports","Lethality"],"data":[["EJ6789",1,1,0,0,"PFIZER\\BIONTECH",null,null],["EW6126",1,0,0,0,"PFIZER\\BIONTECH",null,null]]}
+{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Severe reports","Lethality"],"data":[["EJ6789",1,1,0,0,"PFIZER\\BIONTECH",null,null],["EW6126",1,0,0,0,"PFIZER\\BIONTECH",null,null]]}

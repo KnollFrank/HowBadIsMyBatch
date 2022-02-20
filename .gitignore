@@ -3,5 +3,5 @@ src/VAERS/
 .history/
 src/config/
 src/results/
-data/*.xlsx
-data/*.html
+docs/data/*.xlsx
+docs/data/*.html

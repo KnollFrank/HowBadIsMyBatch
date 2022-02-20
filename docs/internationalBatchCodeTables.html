@@ -15,7 +15,7 @@
     function createEmptyBatchCodeTable() {
       const columnIndex = {
         'Batch': 0,
-        'Total Number of Adverse Reaction Reports': 1,
+        'Adverse Reaction Reports': 1,
         'Deaths': 2,
         'Disabilities': 3,
         'Life Threatening Illnesses': 4,
@@ -35,13 +35,13 @@
           },
           processing: true,
           deferRender: true,
-          order: [[columnIndex['Total Number of Adverse Reaction Reports'], "desc"]],
+          order: [[columnIndex['Adverse Reaction Reports'], "desc"]],
           columnDefs:
             [
               {
                 searchable: false,
                 targets: [
-                  columnIndex['Total Number of Adverse Reaction Reports'],
+                  columnIndex['Adverse Reaction Reports'],
                   columnIndex['Deaths'],
                   columnIndex['Disabilities'],
                   columnIndex['Life Threatening Illnesses'],
@@ -268,7 +268,7 @@
     <thead>
       <tr>
         <th>Batch</th>
-        <th>Total Number of Adverse Reaction Reports</th>
+        <th>Adverse Reaction Reports</th>
         <th>Deaths</th>
         <th>Disabilities</th>
         <th>Life Threatening Illnesses</th>
