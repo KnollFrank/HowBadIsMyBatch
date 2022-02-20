@@ -67,16 +67,21 @@
       input.select();
     }
 
+    function displayCountry(country, batchCodeTable) {
+      document.querySelector('.heading').textContent = `Batch Codes for ${country}`;
+      batchCodeTable.ajax.url(`data/${country}.json`).load();
+      selectInput();
+    }
+
     $(document).ready(function () {
       const batchCodeTable = createEmptyBatchCodeTable();
-      document.querySelector('#country').addEventListener(
+      document.querySelector('#countrySelect').addEventListener(
         'change',
         event => {
           const country = event.target.value;
-          const result = document.querySelector('.result');
-          result.textContent = `Batch Codes for ${country}`;
-          batchCodeTable.ajax.url(`data/${country}.json`).load();
-          selectInput();
+          if (country != 'Select country ...') {
+            displayCountry(country, batchCodeTable);
+          }
         });
     });
   </script>
@@ -87,8 +92,8 @@
   <h1>International Batch Codes</h1>
   <p>
     <label>Select country:
-      <select id="country" name="country">
-        <option value="">Select One …</option>
+      <select id="countrySelect" name="country">
+        <option value="Select country ...">Select country ...</option>
         <option value="Afghanistan">Afghanistan</option>
         <option value="Albania">Albania</option>
         <option value="Algeria">Algeria</option>
@@ -254,7 +259,7 @@
         <option value="Zimbabwe">Zimbabwe</option>
       </select>
     </label>
-  <h2 class="result"></h2>
+  <h2 class="heading"></h2>
   <p>
     <b>Check out your batch code</b> (last updated 16th February 2022)
   </p>

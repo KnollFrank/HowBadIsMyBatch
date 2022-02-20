@@ -46,3 +46,5 @@ u039k20a
 
 
 df[df.index.duplicated(False)].to_excel('results/pfizer_duplicates.xlsx')
+
+http://www.howbadismybatch.info/internationalBatchCodeTables.html
