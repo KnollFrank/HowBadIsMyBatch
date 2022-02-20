@@ -68,7 +68,7 @@
     }
 
     function displayCountry(country, batchCodeTable) {
-      document.querySelector('.heading').textContent = `Batch Codes for ${country}`;
+      document.querySelector('.heading').textContent = country == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${country}`;
       batchCodeTable.ajax.url(`data/${country}.json`).load();
       selectInput();
     }
@@ -79,10 +79,9 @@
         'change',
         event => {
           const country = event.target.value;
-          if (country != 'Select country ...') {
-            displayCountry(country, batchCodeTable);
-          }
+          displayCountry(country, batchCodeTable);
         });
+      displayCountry('Global', batchCodeTable)
     });
   </script>
 </head>
@@ -93,7 +92,7 @@
   <p>
     <label>Select country:
       <select id="countrySelect" name="country">
-        <option value="Select country ...">Select country ...</option>
+        <option value="Global" selected>Global</option>
         <option value="Afghanistan">Afghanistan</option>
         <option value="Albania">Albania</option>
         <option value="Algeria">Algeria</option>
