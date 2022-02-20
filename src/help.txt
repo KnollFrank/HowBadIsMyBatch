@@ -7,6 +7,9 @@ FK-FIXME:
 - Anzahl 'DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL' und 'ER_VISIT' MÜSSEN immer noch korrekt gezählt werden nach createDataFrameFromDescr()
 
 FK-TODO:
+- brauchen Datenbank
+  - WORLDWIDE (oder GLOBAL), Kombination aus: "2020", "2021", "2022" aus vaers-Datenbank + nonDomestic-DB
+  - nur USA ("2020", "2021", "2022" aus vaers-Datenbank), nur Germany (aus nonDomestic-DB), nur United Kingdom (aus nonDomestic-DB), ...
 - rename project and html-page to VaccineAdverseEventInfo ?
 - publish all figures and tables (as interactive HTML-Pages?)
 - add menu in order to make pages internationalBatchCodeTables.html and batchCodeTable.html navigatable
