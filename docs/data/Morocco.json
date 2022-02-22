@@ -1,1 +1,1 @@
-{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Severe reports","Lethality"],"data":[["UNKNOWN",4,1,0,0,"PFIZER\\BIONTECH",null,null],["FE1573",1,0,0,0,"PFIZER\\BIONTECH",null,null]]}
+{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality"],"data":[["UNKNOWN",4,1,0,0,"PFIZER\\BIONTECH","Morocco",null,null],["FE1573",1,0,0,0,"PFIZER\\BIONTECH","Morocco",null,null]]}

@@ -25,8 +25,9 @@ class BatchCodeTableInitializer {
             'Disabilities': 3,
             'Life Threatening Illnesses': 4,
             'Company': 5,
-            'Severe reports': 6,
-            'Lethality': 7
+            'Countries': 6,
+            'Severe reports': 7,
+            'Lethality': 8
         };
         return this.#batchCodeTableElement.DataTable(
             {
@@ -51,9 +52,14 @@ class BatchCodeTableInitializer {
                                 columnIndex['Disabilities'],
                                 columnIndex['Life Threatening Illnesses'],
                                 columnIndex['Company'],
+                                columnIndex['Countries'],
                                 columnIndex['Severe reports'],
                                 columnIndex['Lethality']
                             ]
+                        },
+                        {
+                            orderable: false,
+                            targets: columnIndex['Countries']
                         },
                         {
                             render: (data, type, row) => {
