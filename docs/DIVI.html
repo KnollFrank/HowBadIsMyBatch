@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batch Codes of Coronavirus 2019 Vaccines</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.js"
+    integrity="sha512-YxkN22rlXL1kQXIh4Py4u7O6BrxxuR0yKcnT3myFJGdibXfoSHPFBs9ap8Xowi25YRwHv38DoLf2T6nAc5w/Cw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@^2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      displayChart("data/DIVI/data-de.csv", document.getElementById('deChart'), 'Deutschland, Erwachsenen-Intensivstationen');
+      displayChart("data/DIVI/data-bw.csv", document.getElementById('bwChart'), 'Baden-Württemberg, Erwachsenen-Intensivstationen');
+    });
+
+    function displayChart(file, canvas, title) {
+      Papa.parse(file, {
+        header: true,
+        dynamicTyping: true,
+        download: true,
+        complete: function (results) {
+          // console.log(results);
+          const myChart =
+            new Chart(
+              canvas,
+              {
+                type: 'bar',
+                data: getData(results.data),
+                options: getOptions(title)
+              });
+        }
+      });
+    }
+
+    function getData(data) {
+      return {
+        datasets: [
+          {
+            label: 'Belegte Betten',
+            data: data,
+            parsing: {
+              yAxisKey: 'Belegte Betten'
+            },
+            backgroundColor: 'rgba(255, 0, 0, 1)',
+          },
+          {
+            label: 'Freie Betten',
+            data: data,
+            parsing: {
+              yAxisKey: 'Freie Betten'
+            },
+            backgroundColor: 'rgba(0, 255, 0, 1)',
+          },
+          {
+            label: 'Notfallreserve',
+            data: data,
+            parsing: {
+              yAxisKey: 'Notfallreserve'
+            },
+            backgroundColor: 'rgba(0, 0, 255, 1)',
+          }
+        ]
+      };
+    }
+
+    function getOptions(title) {
+      return {
+        plugins: {
+          title: {
+            display: true,
+            text: title
+          },
+        },
+        responsive: true,
+        scales: {
+          x: {
+            stacked: true,
+            type: 'time',
+            time: {
+              unit: 'month'
+            }
+          },
+          y: {
+            stacked: true
+          }
+        },
+        parsing: {
+          xAxisKey: 'date'
+        }
+      };
+    }
+  </script>
+</head>
+
+<body>
+  <div>
+    <h1>Gesamtzahl gemeldeter Intensivbetten (Betreibbare Betten und Notfallreserve)</h1>
+    <p>
+      <canvas id="deChart"></canvas>
+    </p>
+    <h1>Gesamtzahl gemeldeter Intensivbetten (Betreibbare Betten und Notfallreserve)</h1>
+    <p>
+      <canvas id="bwChart"></canvas>
+    </p>
+  </div>
+</body>
+
+</html>
