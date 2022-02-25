@@ -13,8 +13,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function (event) {
-      displayChart("data/intensivstationen/data-de.csv", document.getElementById('deChart'), 'Deutschland, Erwachsenen-Intensivstationen');
-      displayChart("data/intensivstationen/data-bw.csv", document.getElementById('bwChart'), 'Baden-Württemberg, Erwachsenen-Intensivstationen');
+      displayChart("data/intensivstationen/intensivstationen-de.csv", document.getElementById('deChart'), 'Deutschland, Erwachsenen-Intensivstationen');
+      displayChart("data/intensivstationen/intensivstationen-BADEN_WUERTTEMBERG.csv", document.getElementById('bwChart'), 'Baden-Württemberg, Erwachsenen-Intensivstationen');
     });
 
     function displayChart(file, canvas, title) {
@@ -43,7 +43,7 @@
             label: 'Belegte Betten',
             data: data,
             parsing: {
-              yAxisKey: 'Belegte Betten'
+              yAxisKey: 'Belegte_Intensivbetten'
             },
             backgroundColor: 'rgba(255, 0, 0, 1)',
           },
@@ -51,7 +51,7 @@
             label: 'Freie Betten',
             data: data,
             parsing: {
-              yAxisKey: 'Freie Betten'
+              yAxisKey: 'Freie_Intensivbetten'
             },
             backgroundColor: 'rgba(0, 255, 0, 1)',
           },
@@ -59,7 +59,7 @@
             label: 'Notfallreserve',
             data: data,
             parsing: {
-              yAxisKey: 'Notfallreserve'
+              yAxisKey: '7_Tage_Notfallreserve'
             },
             backgroundColor: 'rgba(0, 0, 255, 1)',
           }
@@ -89,7 +89,7 @@
           }
         },
         parsing: {
-          xAxisKey: 'date'
+          xAxisKey: 'Datum'
         }
       };
     }
