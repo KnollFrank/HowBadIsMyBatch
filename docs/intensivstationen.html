@@ -4,7 +4,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Batch Codes of Coronavirus 2019 Vaccines</title>
+  <title>Intensivstationen Deutschland</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.js"
     integrity="sha512-YxkN22rlXL1kQXIh4Py4u7O6BrxxuR0yKcnT3myFJGdibXfoSHPFBs9ap8Xowi25YRwHv38DoLf2T6nAc5w/Cw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -13,8 +13,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function (event) {
-      displayChart("data/DIVI/data-de.csv", document.getElementById('deChart'), 'Deutschland, Erwachsenen-Intensivstationen');
-      displayChart("data/DIVI/data-bw.csv", document.getElementById('bwChart'), 'Baden-Württemberg, Erwachsenen-Intensivstationen');
+      displayChart("data/intensivstationen/data-de.csv", document.getElementById('deChart'), 'Deutschland, Erwachsenen-Intensivstationen');
+      displayChart("data/intensivstationen/data-bw.csv", document.getElementById('bwChart'), 'Baden-Württemberg, Erwachsenen-Intensivstationen');
     });
 
     function displayChart(file, canvas, title) {
