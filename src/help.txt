@@ -8,7 +8,6 @@ get VAERS data:
 FK-FIXME:
 
 FK-TODO:
-- Für Sonja nachschauen: VAX_LOT = 000139A, Moderna, Vaccination date is 16.12.21
 - Format des jeweiligen Herstellers berücksichtigen:
 039k20a
 MOD039K20A
