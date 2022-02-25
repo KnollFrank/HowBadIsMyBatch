@@ -74,7 +74,7 @@ class BatchCodeTableInitializer {
 
     #displayCountry(country) {
         this.#heading.textContent = country == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${country}`;
-        this.#batchCodeTable.ajax.url(`data/${country}.json`).load();
+        this.#batchCodeTable.ajax.url(`data/batchCodeTables/${country}.json`).load();
         this.#selectInput();
     }
 
