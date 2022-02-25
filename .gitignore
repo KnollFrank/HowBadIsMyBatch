@@ -1,4 +1,5 @@
 src/VAERS/
+src/intensivstationen/
 .ipynb_checkpoints/
 .history/
 src/config/
