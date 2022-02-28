@@ -14,7 +14,8 @@
   <script>
     document.addEventListener("DOMContentLoaded", function (event) {
       displayChart("data/intensivstationen/intensivstationen-de.csv", document.getElementById('deChart'), 'Deutschland, Erwachsenen-Intensivstationen');
-      displayChart("data/intensivstationen/intensivstationen-BADEN_WUERTTEMBERG.csv", document.getElementById('bwChart'), 'Baden-Württemberg, Erwachsenen-Intensivstationen');
+      displayChart("data/intensivstationen/intensivstationen-Tübingen, Landkreis.csv", document.getElementById('tueChart'), 'Tübingen, Erwachsenen-Intensivstationen');
+      displayChart("data/intensivstationen/intensivstationen-Reutlingen, Landkreis.csv", document.getElementById('rtChart'), 'Reutlingen, Erwachsenen-Intensivstationen');
     });
 
     function displayChart(file, canvas, title) {
@@ -90,13 +91,17 @@
 
 <body>
   <div>
-    <h1>Gesamtzahl gemeldeter Intensivbetten (Betreibbare Betten und Notfallreserve)</h1>
+    <h1>Deutschland</h1>
     <p>
       <canvas id="deChart"></canvas>
     </p>
-    <h1>Gesamtzahl gemeldeter Intensivbetten (Betreibbare Betten und Notfallreserve)</h1>
+    <h1>Tübingen</h1>
     <p>
-      <canvas id="bwChart"></canvas>
+      <canvas id="tueChart"></canvas>
+    </p>
+    <h1>Reutlingen</h1>
+    <p>
+      <canvas id="rtChart"></canvas>
     </p>
   </div>
 </body>
