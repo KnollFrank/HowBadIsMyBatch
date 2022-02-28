@@ -32,7 +32,7 @@
         displayIntensiveCareCapacitiesChart(
           intensiveCareCapacitiesChartView,
           document.querySelector(".heading"),
-          'Deutschland',
+          'Alle Landkreise',
           'de');
       });
 
@@ -43,9 +43,10 @@
 </head>
 
 <body>
-  <label>Select Landkreis:
+  <h1>DIVI-Intensivregister auf Landkreisebene</h1>
+  <label>Landkreis:
     <select id="kreisSelect" name="kreis">
-      <option value="de" selected>Deutschland</option>
+      <option value="de" selected>Alle Landkreise</option>
       <option value="Ahrweiler">Ahrweiler</option>
       <option value="Aichach-Friedberg">Aichach-Friedberg</option>
       <option value="Alb-Donau-Kreis">Alb-Donau-Kreis</option>
@@ -425,10 +426,22 @@
       <option value="Zweibrücken">Zweibrücken</option>
       <option value="Zwickau">Zwickau</option>
     </select>
-    <h1 class="heading"></h1>
+    <h2 class="heading"></h2>
     <p>
       <canvas class="canvas"></canvas>
     </p>
+    <dl>
+      <dt>Belegte Betten:</dt>
+      <dd>Anzahl der belegten Intensivbetten (Low- und High-Care), unabhängig von der Behandlungsursache,
+        für Erwachsene und Kinder.</dd>
+      <dt>Freie Betten:</dt>
+      <dd>Anzahl der freien, betreibbaren Intensivbetten (Low- und High-Care) für Erwachsene und Kinder zur
+        Behandlung von allen intensivpflichtigen Erkrankungen.</dd>
+      <dt>Datensatz:</dt>
+      <dd><a href="https://www.intensivregister.de/#/aktuelle-lage/downloads" target="_blank">Landkreis-Daten</a></dd>
+      <dt>Datenstand:</dt>
+      <dd>28.02.2022, 18:18 Uhr</dd>
+    </dl>
 </body>
 
 </html>
