@@ -1,8 +1,18 @@
 class IntensiveCareCapacitiesChartView {
 
-    displayChart({ data, canvas, title }) {
-        new Chart(
-            canvas,
+    #canvas;
+    #chart;
+
+    constructor(canvas) {
+        this.#canvas = canvas;
+    }
+
+    displayChart({ data, title }) {
+        if (this.#chart != null) {
+            this.#chart.destroy();
+        }
+        this.#chart = new Chart(
+            this.#canvas,
             {
                 type: 'bar',
                 data: this.#getData(data),
