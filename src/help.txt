@@ -1,6 +1,12 @@
 jupyter notebook
 
-https://www.intensivregister.de/#/aktuelle-lage/zeitreihen
+zwei Spalten darstellen:
+- linke und rechte Spalte jeweils mit Bundesland-Menu und Landkreise-Submenu des ausgewählten Bundeslandes
+- Dargestellt werden in einem Chart die freien Betten + belegten Betten des ausgewählten Landkreises
+  (analog zu "Gesamtzahl gemeldeter Intensivbetten (Betreibbare Betten und Notfallreserve)", siehe https://www.intensivregister.de/#/aktuelle-lage/zeitreihen)
+- Zugrundegelegter Datensatz: zeitreihe-tagesdaten.csv aus https://www.intensivregister.de/#/aktuelle-lage/downloads
+
+src/intensivstationen/AGS_2022-02-28.json downloaded from https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags
 
 get VAERS data:
 - download data (e.g. 2022VAERSData.zip) from https://vaers.hhs.gov/data/datasets.html and save and unzip in VAERS folder

@@ -43,7 +43,7 @@
             label: 'Belegte Betten',
             data: data,
             parsing: {
-              yAxisKey: 'Belegte_Intensivbetten'
+              yAxisKey: 'betten_belegt'
             },
             backgroundColor: 'rgba(255, 0, 0, 1)',
           },
@@ -51,17 +51,9 @@
             label: 'Freie Betten',
             data: data,
             parsing: {
-              yAxisKey: 'Freie_Intensivbetten'
+              yAxisKey: 'betten_frei'
             },
             backgroundColor: 'rgba(0, 255, 0, 1)',
-          },
-          {
-            label: 'Notfallreserve',
-            data: data,
-            parsing: {
-              yAxisKey: '7_Tage_Notfallreserve'
-            },
-            backgroundColor: 'rgba(0, 0, 255, 1)',
           }
         ]
       };
@@ -89,7 +81,7 @@
           }
         },
         parsing: {
-          xAxisKey: 'Datum'
+          xAxisKey: 'date'
         }
       };
     }

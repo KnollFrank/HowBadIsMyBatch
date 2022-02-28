@@ -1,5 +1,5 @@
 src/VAERS/
-src/intensivstationen/
+src/intensivstationen/zeitreihe-tagesdaten.csv
 .ipynb_checkpoints/
 .history/
 src/config/
