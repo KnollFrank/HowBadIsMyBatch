@@ -22,16 +22,22 @@
           event => {
             const selectedOption = getSelectedOption(event.target);
             displayIntensiveCareCapacitiesChart(
-              intensiveCareCapacitiesChartView,
-              document.querySelector(".heading"),
-              selectedOption.text,
-              selectedOption.value);
+              {
+                intensiveCareCapacitiesChartView: intensiveCareCapacitiesChartView,
+                headingElement: document.querySelector(".heading"),
+                populationElement: document.querySelector(".population"),
+                kreisText: selectedOption.text,
+                kreisValue: selectedOption.value
+              });
           });
         displayIntensiveCareCapacitiesChart(
-          intensiveCareCapacitiesChartView,
-          document.querySelector(".heading"),
-          'Alle Landkreise',
-          'de');
+          {
+            intensiveCareCapacitiesChartView: intensiveCareCapacitiesChartView,
+            headingElement: document.querySelector(".heading"),
+            populationElement: document.querySelector(".population"),
+            kreisText: 'Alle Landkreise',
+            kreisValue: 'de'
+          });
       });
 
     function getSelectedOption(select) {
@@ -432,6 +438,7 @@
       <option value="Zwickau">Zwickau</option>
     </select>
     <h2 class="heading"></h2>
+    Einwohnerzahl: <span class="population"></span>
     <p>
       <canvas class="canvas"></canvas>
     </p>

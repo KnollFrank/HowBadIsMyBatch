@@ -1,6 +1,11 @@
-function displayIntensiveCareCapacitiesChart(intensiveCareCapacitiesChartView, headingElement, kreisText, kreisValue) {
-    headingElement.textContent = kreisText;
+function displayIntensiveCareCapacitiesChart(
+    { intensiveCareCapacitiesChartView, headingElement, populationElement, kreisText, kreisValue }) {
+
+    headingElement.textContent = kreisText
     fetch(`data/intensivstationen/intensivstationen-${kreisValue}.json`)
         .then(response => response.json())
-        .then(json => intensiveCareCapacitiesChartView.displayChart({ data: json, title: kreisText }));
+        .then(json => {
+            populationElement.textContent = json.population;
+            intensiveCareCapacitiesChartView.displayChart({ data: json.data, title: kreisText });
+        });
 }
