@@ -5,7 +5,7 @@ function displayIntensiveCareCapacitiesChart(
     fetch(`data/intensivstationen/intensivstationen-${kreisValue}.json`)
         .then(response => response.json())
         .then(json => {
-            populationElement.textContent = json.population;
+            populationElement.textContent = new Intl.NumberFormat().format(json.population);
             intensiveCareCapacitiesChartView.displayChart({ data: json.data, title: kreisText });
         });
 }
