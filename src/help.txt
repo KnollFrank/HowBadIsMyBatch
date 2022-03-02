@@ -41,3 +41,7 @@ u039k20a
 039K20A & 031M2
 039K20A and 032
 039K20A, 011L20
+
+git checkout pages
+git merge main
+git push
