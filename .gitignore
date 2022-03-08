@@ -3,7 +3,7 @@ src/intensivstationen/zeitreihe-tagesdaten.csv
 src/intensivstationen/geckodriver.log
 .ipynb_checkpoints/
 .history/
-src/config/
+src/tmp/
 src/results/
 docs/data/*.xlsx
 docs/data/*.html
