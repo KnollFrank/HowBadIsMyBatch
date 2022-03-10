@@ -42,21 +42,12 @@ u039k20a
 039K20A and 032
 039K20A, 011L20
 
-Diesen Befehl ausfüren:
-jupyter nbconvert --to notebook --execute /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-pages/src/intensivstationen/Intensivstationen.ipynb
-
 man 5 fcrontab
 
 fcrontab -e
-SHELL=/bin/bash
-
-@ 3 /home/frankknoll/.local/bin/jupyter nbconvert --to notebook --execute /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-pages/src/intensivstationen/Intensivstationen.ipynb
-@ 2 /home/frankknoll/.local/bin/jupyter nbconvert --to notebook --execute /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-publish/src/tmp/test.ipy>
-@ 1 echo "Hello" >>/tmp/tst.txt
 
 fcrontab -l
+@ 3 /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-pages/src/intensivstationen/intensivstationen.sh
 
 systemctl status fcron
 tail -f /var/log/syslog
-
-echo "This is theasdfasdfasdf email body!" | mail -s "Subject of your email" -a "From: Knoll_Frank@web.de" Knoll_Frank@web.de
