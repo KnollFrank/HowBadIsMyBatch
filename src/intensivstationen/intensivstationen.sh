@@ -1,6 +1,5 @@
 #!/bin/bash
 PATH=/home/frankknoll/Dokumente/Corona/phantomjs-2.1.1-linux-x86_64/bin:/home/frankknoll/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
-echo $PATH | mail -s "PATH" -r Knoll_Frank@web.de Knoll_Frank@web.de
 cd /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-pages/src/intensivstationen
 jupyter nbconvert --to notebook --allow-errors --execute Intensivstationen.ipynb
 jupyter nbconvert --to html Intensivstationen.nbconvert.ipynb
