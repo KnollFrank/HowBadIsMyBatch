@@ -17,36 +17,37 @@ class FreeBedsChartView {
                 type: 'line',
                 data: this.#getData(data),
                 options: this.#getOptions(title),
-                plugins: [this.#getPlugin()]
+                plugins: [this.#getBackgroundTrafficLightsPlugin()]
             });
     }
 
-    #getPlugin() {
+    #getBackgroundTrafficLightsPlugin() {
+        function fillRect({ chart, startInPercent, endInPercent, color }) {
+            const ctx = chart.ctx;
+            const chartArea = chart.chartArea;
+            const chartWidth = chartArea.right - chartArea.left;
+            const chartHeight = chartArea.bottom - chartArea.top
+            const y = chartArea.bottom - chartHeight * endInPercent / 100;
+            const height = chartHeight * (endInPercent - startInPercent) / 100;
+            ctx.fillStyle = color;
+            ctx.fillRect(chartArea.left, y, chartWidth, height);
+        }
+
+        function drawTrafficLights(chart) {
+            const RED = 'rgba(240, 59, 32, 0.75)';
+            const YELLOW = 'rgba(254, 178, 76, 0.75)';
+            const GREEN = 'rgba(56, 168, 0, 0.75)';
+            chart.ctx.save();
+            fillRect({ chart: chart, startInPercent: 0, endInPercent: 10, color: RED });
+            fillRect({ chart: chart, startInPercent: 10, endInPercent: 25, color: YELLOW });
+            fillRect({ chart: chart, startInPercent: 25, endInPercent: 100, color: GREEN });
+            chart.ctx.restore();
+        }
+
         return {
             beforeDraw: chart => {
                 if (chart.config.options.chartArea) {
-                    const ctx = chart.ctx;
-                    const chartArea = chart.chartArea;
-                    const width = chartArea.right - chartArea.left;
-                    const height = chartArea.bottom - chartArea.top
-
-                    const green = 'rgba(56, 168, 0, 0.75)';
-                    const yellow = 'rgba(254, 178, 76, 0.75)';
-                    const red = 'rgba(240, 59, 32, 0.75)';
-                    const redHeight = height * 10 / 100;
-                    const yellowHeight = height * 15 / 100;
-                    const greenHeight = height * 75 / 100;
-
-                    ctx.save();
-                    ctx.fillStyle = red;
-                    ctx.fillRect(chartArea.left, chartArea.bottom - redHeight, width, redHeight);
-
-                    ctx.fillStyle = yellow;
-                    ctx.fillRect(chartArea.left, chartArea.bottom - redHeight - yellowHeight, width, yellowHeight);
-
-                    ctx.fillStyle = green;
-                    ctx.fillRect(chartArea.left, chartArea.bottom - redHeight - yellowHeight - greenHeight, width, greenHeight);
-                    ctx.restore();
+                    drawTrafficLights(chart);
                 }
             }
         };
