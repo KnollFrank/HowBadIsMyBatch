@@ -17,8 +17,8 @@
     document.addEventListener(
       "DOMContentLoaded",
       event => {
-        const intensiveCareCapacitiesChartView = new IntensiveCareCapacitiesChartView(document.querySelector(".canvas"));
-        const freeBedsChartView = new FreeBedsChartView(document.getElementById('myChart'));
+        const intensiveCareCapacitiesChartView = new IntensiveCareCapacitiesChartView(document.getElementById("intensiveCareCapacities"));
+        const freeBedsChartView = new FreeBedsChartView(document.getElementById('freeBeds'));
         const kreisSelect = document.querySelector('#kreisSelect');
         onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView);
         kreisSelect.addEventListener(
@@ -447,7 +447,7 @@
   <h2 class="heading"></h2>
   Einwohnerzahl: <span class="population"></span>
   <p>
-    <canvas class="canvas"></canvas>
+    <canvas id="intensiveCareCapacities"></canvas>
   </p>
   <dl>
     <dt>Belegte Betten:</dt>
@@ -462,7 +462,7 @@
     <dd id="Datenstand">12.03.2022, 12:38 Uhr</dd>
   </dl>
   <p>
-    <canvas id="myChart"></canvas>
+    <canvas id="freeBeds"></canvas>
   </p>
 </body>
 
