@@ -44,13 +44,7 @@ class FreeBedsChartView {
             chart.ctx.restore();
         }
 
-        return {
-            beforeDraw: chart => {
-                if (chart.config.options.chartArea) {
-                    drawTrafficLights(chart);
-                }
-            }
-        };
+        return { beforeDraw: drawTrafficLights };
     }
 
     #getData(data) {
@@ -70,8 +64,6 @@ class FreeBedsChartView {
 
     #getOptions(title) {
         return {
-            chartArea: {
-            },
             plugins: {
                 title: {
                     display: true,
