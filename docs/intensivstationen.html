@@ -14,85 +14,38 @@
   <script src="./FreeBedsChartView.js"></script>
   <script src="./intensivstationen.js"></script>
   <script>
-    const labels = [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-    ];
-
-    const data = {
-      labels: labels,
-      datasets: [{
-        label: 'My First dataset',
-        backgroundColor: 'rgb(255, 99, 132)',
-        borderColor: 'rgb(255, 99, 132)',
-        data: [0, 10, 5, 2, 20, 30, 45],
-      }]
-    };
-
-    const config = {
-      type: 'line',
-      data: data,
-      options: {}
-    };
-
-    document.addEventListener(
-      "DOMContentLoaded",
-      event => {
-        //const myChart = new Chart(
-        //  document.getElementById('myChart'),
-        //  config
-        //);
-      });
-  </script>
-  <script>
     document.addEventListener(
       "DOMContentLoaded",
       event => {
         const intensiveCareCapacitiesChartView = new IntensiveCareCapacitiesChartView(document.querySelector(".canvas"));
         const freeBedsChartView = new FreeBedsChartView(document.getElementById('myChart'));
-        document.querySelector('#kreisSelect').addEventListener(
+        const kreisSelect = document.querySelector('#kreisSelect');
+        onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView);
+        kreisSelect.addEventListener(
           'change',
-          event => {
-            const selectedOption = getSelectedOption(event.target);
-            displayIntensiveCareCapacitiesChart(
-              {
-                intensiveCareCapacitiesChartView: intensiveCareCapacitiesChartView,
-                headingElement: document.querySelector(".heading"),
-                populationElement: document.querySelector(".population"),
-                kreisText: selectedOption.text,
-                kreisValue: selectedOption.value
-              });
-            // FK-TODO: extract method
-            fetch(`data/intensivstationen/intensivstationen-${selectedOption.value}.json`)
-              .then(response => response.json())
-              .then(json => {
-                for (const dataElement of json.data) {
-                  dataElement.free_beds_divided_by_all_beds_in_percent = dataElement.betten_frei / (dataElement.betten_frei + dataElement.betten_belegt) * 100;
-                }
-                freeBedsChartView.displayChart({ data: json.data, title: selectedOption.text });
-              });
-          });
-        displayIntensiveCareCapacitiesChart(
-          {
-            intensiveCareCapacitiesChartView: intensiveCareCapacitiesChartView,
-            headingElement: document.querySelector(".heading"),
-            populationElement: document.querySelector(".population"),
-            kreisText: 'Alle Landkreise',
-            kreisValue: 'de'
-          });
-        fetch(`data/intensivstationen/intensivstationen-de.json`)
-          .then(response => response.json())
-          .then(json => {
-            for (const dataElement of json.data) {
-              dataElement.free_beds_divided_by_all_beds_in_percent = dataElement.betten_frei / (dataElement.betten_frei + dataElement.betten_belegt) * 100;
-            }
-            freeBedsChartView.displayChart({ data: json.data, title: 'Alle Landkreise' });
-          });
+          event => onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView));
       });
+
+    function onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView) {
+      const selectedOption = getSelectedOption(kreisSelect);
+      displayIntensiveCareCapacitiesChart(
+        {
+          intensiveCareCapacitiesChartView: intensiveCareCapacitiesChartView,
+          headingElement: document.querySelector(".heading"),
+          populationElement: document.querySelector(".population"),
+          kreisText: selectedOption.text,
+          kreisValue: selectedOption.value
+        });
+      // FK-TODO: extract method
+      fetch(`data/intensivstationen/intensivstationen-${selectedOption.value}.json`)
+        .then(response => response.json())
+        .then(json => {
+          for (const dataElement of json.data) {
+            dataElement.free_beds_divided_by_all_beds_in_percent = dataElement.betten_frei / (dataElement.betten_frei + dataElement.betten_belegt) * 100;
+          }
+          freeBedsChartView.displayChart({ data: json.data, title: selectedOption.text });
+        });
+    }
 
     function getSelectedOption(select) {
       return select.options[select.selectedIndex];
