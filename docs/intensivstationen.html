@@ -36,14 +36,11 @@
           kreisText: selectedOption.text,
           kreisValue: selectedOption.value
         });
-      // FK-TODO: extract method
-      fetch(`data/intensivstationen/intensivstationen-${selectedOption.value}.json`)
-        .then(response => response.json())
-        .then(json => {
-          for (const dataElement of json.data) {
-            dataElement.free_beds_divided_by_all_beds_in_percent = dataElement.betten_frei / (dataElement.betten_frei + dataElement.betten_belegt) * 100;
-          }
-          freeBedsChartView.displayChart({ data: json.data, title: selectedOption.text });
+      displayFreeBedsChart(
+        {
+          freeBedsChartView: freeBedsChartView,
+          kreisText: selectedOption.text,
+          kreisValue: selectedOption.value
         });
     }
   </script>
