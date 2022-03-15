@@ -16,8 +16,40 @@ class FreeBedsChartView {
             {
                 type: 'line',
                 data: this.#getData(data),
-                options: this.#getOptions(title)
+                options: this.#getOptions(title),
+                plugins: [this.#getPlugin()]
             });
+    }
+
+    #getPlugin() {
+        return {
+            beforeDraw: chart => {
+                if (chart.config.options.chartArea) {
+                    const ctx = chart.ctx;
+                    const chartArea = chart.chartArea;
+                    const width = chartArea.right - chartArea.left;
+                    const height = chartArea.bottom - chartArea.top
+
+                    const green = 'rgba(56, 168, 0, 0.75)';
+                    const yellow = 'rgba(254, 178, 76, 0.75)';
+                    const red = 'rgba(240, 59, 32, 0.75)';
+                    const redHeight = height * 10 / 100;
+                    const yellowHeight = height * 15 / 100;
+                    const greenHeight = height * 75 / 100;
+
+                    ctx.save();
+                    ctx.fillStyle = red;
+                    ctx.fillRect(chartArea.left, chartArea.bottom - redHeight, width, redHeight);
+
+                    ctx.fillStyle = yellow;
+                    ctx.fillRect(chartArea.left, chartArea.bottom - redHeight - yellowHeight, width, yellowHeight);
+
+                    ctx.fillStyle = green;
+                    ctx.fillRect(chartArea.left, chartArea.bottom - redHeight - yellowHeight - greenHeight, width, greenHeight);
+                    ctx.restore();
+                }
+            }
+        };
     }
 
     #getData(data) {
@@ -29,7 +61,7 @@ class FreeBedsChartView {
                     parsing: {
                         yAxisKey: 'free_beds_divided_by_all_beds_in_percent'
                     },
-                    backgroundColor: 'rgba(0, 255, 0, 1)'
+                    backgroundColor: 'rgba(0, 0, 150, 1)'
                 }
             ]
         };
@@ -37,6 +69,8 @@ class FreeBedsChartView {
 
     #getOptions(title) {
         return {
+            chartArea: {
+            },
             plugins: {
                 title: {
                     display: true,
@@ -67,8 +101,8 @@ class FreeBedsChartView {
                     }
                 },
                 y: {
-                    // min: 0,
-                    // max: 100,
+                    min: 0,
+                    max: 100,
                     title: {
                         display: true,
                         text: "Anteil freier Betten"
