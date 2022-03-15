@@ -11,5 +11,9 @@ class UIUtils {
             chartViewElement: chartViewElement,
             canvas: chartViewElement.querySelector(".canvas")
         };
-    }    
+    }
+
+    static getSelectedOption(selectElement) {
+        return selectElement.options[selectElement.selectedIndex];
+    }
 }

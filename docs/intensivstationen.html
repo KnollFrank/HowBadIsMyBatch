@@ -27,7 +27,7 @@
       });
 
     function onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView) {
-      const selectedOption = getSelectedOption(kreisSelect);
+      const selectedOption = UIUtils.getSelectedOption(kreisSelect);
       displayIntensiveCareCapacitiesChart(
         {
           intensiveCareCapacitiesChartView: intensiveCareCapacitiesChartView,
@@ -45,10 +45,6 @@
           }
           freeBedsChartView.displayChart({ data: json.data, title: selectedOption.text });
         });
-    }
-
-    function getSelectedOption(select) {
-      return select.options[select.selectedIndex];
     }
   </script>
 </head>
