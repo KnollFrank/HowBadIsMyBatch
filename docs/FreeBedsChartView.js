@@ -1,4 +1,4 @@
-class IntensiveCareCapacitiesChartView {
+class FreeBedsChartView {
 
     #canvas;
     #chart;
@@ -14,7 +14,7 @@ class IntensiveCareCapacitiesChartView {
         this.#chart = new Chart(
             this.#canvas,
             {
-                type: 'bar',
+                type: 'line',
                 data: this.#getData(data),
                 options: this.#getOptions(title)
             });
@@ -24,18 +24,10 @@ class IntensiveCareCapacitiesChartView {
         return {
             datasets: [
                 {
-                    label: 'Belegte Betten',
+                    label: 'Anteil freier Betten',
                     data: data,
                     parsing: {
-                        yAxisKey: 'betten_belegt'
-                    },
-                    backgroundColor: 'rgba(255, 0, 0, 1)'
-                },
-                {
-                    label: 'Freie Betten',
-                    data: data,
-                    parsing: {
-                        yAxisKey: 'betten_frei'
+                        yAxisKey: 'free_beds_divided_by_all_beds'
                     },
                     backgroundColor: 'rgba(0, 255, 0, 1)'
                 }
@@ -50,18 +42,40 @@ class IntensiveCareCapacitiesChartView {
                     display: true,
                     text: title
                 },
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            let label = context.dataset.label || '';
+
+                            if (label) {
+                                label += ': ';
+                            }
+                            if (context.parsed.y !== null) {
+                                label += context.parsed.y.toFixed(1) + "%";
+                            }
+                            return label;
+                        }
+                    }
+                }
             },
             responsive: true,
             scales: {
                 x: {
-                    stacked: true,
                     type: 'time',
                     time: {
                         unit: 'month'
                     }
                 },
                 y: {
-                    stacked: true
+                    // min: 0,
+                    // max: 100,
+                    title: {
+                        display: true,
+                        text: "Anteil freier Betten"
+                    },
+                    ticks: {
+                        callback: value => value + "%"
+                    }
                 }
             },
             parsing: {
