@@ -27,7 +27,7 @@ class FreeBedsChartView {
                     label: 'Anteil freier Betten',
                     data: data,
                     parsing: {
-                        yAxisKey: 'free_beds_divided_by_all_beds'
+                        yAxisKey: 'free_beds_divided_by_all_beds_in_percent'
                     },
                     backgroundColor: 'rgba(0, 255, 0, 1)'
                 }
