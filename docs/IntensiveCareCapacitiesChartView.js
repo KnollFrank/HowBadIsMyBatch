@@ -57,7 +57,11 @@ class IntensiveCareCapacitiesChartView {
                     stacked: true,
                     type: 'time',
                     time: {
-                        unit: 'month'
+                        tooltipFormat: 'DD.MM.YYYY',
+                        unit: 'month',
+                        displayFormats: {
+                            'month': 'MMM YYYY'
+                        }
                     }
                 },
                 y: {

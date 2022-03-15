@@ -90,7 +90,11 @@ class FreeBedsChartView {
                 x: {
                     type: 'time',
                     time: {
-                        unit: 'month'
+                        tooltipFormat: 'DD.MM.YYYY',
+                        unit: 'month',
+                        displayFormats: {
+                            'month': 'MMM YYYY'
+                        }
                     }
                 },
                 y: {
