@@ -29,7 +29,7 @@ class IntensiveCareCapacitiesChartView {
                     parsing: {
                         yAxisKey: 'betten_belegt'
                     },
-                    backgroundColor: 'rgba(255, 0, 0, 1)',
+                    backgroundColor: 'rgba(255, 0, 0, 1)'
                 },
                 {
                     label: 'Freie Betten',
@@ -37,7 +37,7 @@ class IntensiveCareCapacitiesChartView {
                     parsing: {
                         yAxisKey: 'betten_frei'
                     },
-                    backgroundColor: 'rgba(0, 255, 0, 1)',
+                    backgroundColor: 'rgba(0, 255, 0, 1)'
                 }
             ]
         };
