@@ -47,8 +47,8 @@ man 5 fcrontab
 fcrontab -e
 
 fcrontab -l
-# each day at 14:00 Uhr
-00 14 * * * /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-pages/src/intensivstationen/intensivstationen.sh
+# each day at 13:30 Uhr
+30 13 * * * /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-pages/src/intensivstationen/intensivstationen.sh
 
 systemctl status fcron
 tail -f /var/log/syslog

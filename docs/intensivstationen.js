@@ -16,12 +16,18 @@ function displayFreeBedsChart({ freeBedsChartView, kreisText, kreisValue }) {
         .then(json =>
             freeBedsChartView.displayChart(
                 {
-                    data: get_free_beds_divided_by_all_beds_in_percent(json.data),
+                    data: getDataDicts(json.data),
                     title: kreisText
                 }));
 }
 
-function get_free_beds_divided_by_all_beds_in_percent(data) {
+function getDataDicts(data) {
+    const dataDicts = get_free_beds_divided_by_all_beds_in_percent_dataDicts(data);
+    add_median_free_beds_in_percent(dataDicts);
+    return dataDicts;
+}
+
+function get_free_beds_divided_by_all_beds_in_percent_dataDicts(data) {
     return data.map(({ date, betten_frei, betten_belegt }) =>
     (
         {
@@ -29,4 +35,13 @@ function get_free_beds_divided_by_all_beds_in_percent(data) {
             "free_beds_divided_by_all_beds_in_percent": betten_frei / (betten_frei + betten_belegt) * 100
         }
     ));
+}
+
+function add_median_free_beds_in_percent(dataDicts) {
+    const median_free_beds_in_percent =
+        Utils.median(
+            dataDicts.map(dataDict => dataDict.free_beds_divided_by_all_beds_in_percent));
+    for (const dataDict of dataDicts) {
+        dataDict["median_free_beds_in_percent"] = median_free_beds_in_percent;
+    }
 }
