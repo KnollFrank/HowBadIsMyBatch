@@ -57,6 +57,14 @@ class FreeBedsChartView {
                         yAxisKey: 'free_beds_divided_by_all_beds_in_percent'
                     },
                     backgroundColor: 'rgba(0, 0, 150, 1)'
+                },
+                {
+                    label: 'Median des Anteils freier Betten',
+                    data: data,
+                    parsing: {
+                        yAxisKey: 'median_free_beds_in_percent'
+                    },
+                    backgroundColor: 'rgba(0, 150, 150, 1)'
                 }
             ]
         };
