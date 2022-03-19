@@ -11,12 +11,13 @@ class FreeBedsChartView {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
+        const label = 'Anteil freier Betten';
         this.#chart = new Chart(
             this.#canvas,
             {
                 type: 'line',
-                data: this.#getData(data),
-                options: this.#getOptions(title),
+                data: this.#getData(data, label),
+                options: this.#getOptions(title, label),
                 plugins: [this.#getBackgroundTrafficLightsPlugin()]
             });
     }
@@ -47,11 +48,11 @@ class FreeBedsChartView {
         return { beforeDraw: drawTrafficLights };
     }
 
-    #getData(data) {
+    #getData(data, label) {
         return {
             datasets: [
                 {
-                    label: 'Anteil freier Betten',
+                    label: label,
                     data: data,
                     parsing: {
                         yAxisKey: 'free_beds_divided_by_all_beds_in_percent'
@@ -70,7 +71,7 @@ class FreeBedsChartView {
         };
     }
 
-    #getOptions(title) {
+    #getOptions(title, label) {
         return {
             plugins: {
                 title: {
@@ -110,7 +111,7 @@ class FreeBedsChartView {
                     max: 100,
                     title: {
                         display: true,
-                        text: "Anteil freier Betten"
+                        text: label
                     },
                     ticks: {
                         callback: value => value + "%"
