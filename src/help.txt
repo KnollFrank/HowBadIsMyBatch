@@ -18,7 +18,7 @@ FK-FIXME:
 
 FK-TODO:
 - Intensivstationen ergänzen durch Tabelle oder Barchart:
-  Kreis => "Median des Anteils freier Betten", absteigend sortiert nach "Median des Anteils freier Betten".
+  Kreis => "Median der Anteile freier Betten", absteigend sortiert nach "Median der Anteile freier Betten".
 - Darstellung als Dashboard, siehe https://covid-karte.de/ oder https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
 
 man 5 fcrontab

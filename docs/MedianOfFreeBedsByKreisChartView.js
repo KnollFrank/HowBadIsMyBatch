@@ -11,20 +11,21 @@ class MedianOfFreeBedsByKreisChartView {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
+        const label = 'Median der Anteile freier Betten';
         this.#chart = new Chart(
             this.#canvas,
             {
                 type: 'bar',
-                data: this.#getData(data),
-                options: this.#getOptions()
+                data: this.#getData(data, label),
+                options: this.#getOptions(label)
             });
     }
 
-    #getData(data) {
+    #getData(data, label) {
         return {
             datasets: [
                 {
-                    label: 'Kreis',
+                    label: label,
                     data: data,
                     parsing: {
                         yAxisKey: 'median_free_beds_in_percent'
@@ -35,7 +36,7 @@ class MedianOfFreeBedsByKreisChartView {
         };
     }
 
-    #getOptions() {
+    #getOptions(label) {
         return {
             plugins: {
                 title: {
@@ -66,7 +67,7 @@ class MedianOfFreeBedsByKreisChartView {
                     max: 100,
                     title: {
                         display: true,
-                        text: "Median des Anteils freier Betten"
+                        text: label
                     },
                     // FK-TODO: DRY with FreeBedsChartView.js
                     ticks: {
