@@ -41,7 +41,7 @@ class MedianOfFreeBedsByKreisChartView {
             plugins: {
                 title: {
                     display: true,
-                    text: 'some Title'
+                    text: label
                 },
                 tooltip: {
                     callbacks: {
