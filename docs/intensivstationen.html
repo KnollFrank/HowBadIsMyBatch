@@ -13,6 +13,7 @@
   <script src="./UIUtils.js"></script>
   <script src="./IntensiveCareCapacitiesChartView.js"></script>
   <script src="./FreeBedsChartView.js"></script>
+  <script src="./MedianOfFreeBedsByKreisChartView.js"></script>
   <script src="./intensivstationen.js"></script>
   <script>
     document.addEventListener(
@@ -25,6 +26,7 @@
         kreisSelect.addEventListener(
           'change',
           event => onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView));
+        displayMedianOfFreeBedsByKreisChart(document.getElementById('medianOfFreeBedsByKreis'));
       });
 
     function onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView) {
@@ -455,6 +457,9 @@
   <h2>Anteil freier Betten an der Gesamtzahl der Intensivbetten</h2>
   <p>
     <canvas id="freeBeds"></canvas>
+  </p>
+  <p>
+    <canvas id="medianOfFreeBedsByKreis"></canvas>
   </p>
   <dl>
     <dt>Datensatz:</dt>

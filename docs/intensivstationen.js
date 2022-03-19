@@ -45,3 +45,10 @@ function add_median_free_beds_in_percent(dataDicts) {
         dataDict["median_free_beds_in_percent"] = median_free_beds_in_percent;
     }
 }
+
+function displayMedianOfFreeBedsByKreisChart(canvas) {
+    const medianOfFreeBedsByKreisChartView = new MedianOfFreeBedsByKreisChartView(canvas);
+    fetch(`data/intensivstationen/medianOfFreeBedsByKreisTable.json`)
+        .then(response => response.json())
+        .then(json => medianOfFreeBedsByKreisChartView.displayChart(json));
+}
