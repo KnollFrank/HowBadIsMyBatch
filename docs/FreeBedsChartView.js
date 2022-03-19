@@ -80,7 +80,7 @@ class FreeBedsChartView {
                 },
                 tooltip: {
                     callbacks: {
-                        label: UIUtils.labelWithPercentCallback
+                        label: UIUtils.getLabelWithPercent
                     }
                 }
             },
@@ -96,17 +96,7 @@ class FreeBedsChartView {
                         }
                     }
                 },
-                y: {
-                    min: 0,
-                    max: 100,
-                    title: {
-                        display: true,
-                        text: label
-                    },
-                    ticks: {
-                        callback: value => value + "%"
-                    }
-                }
+                y: UIUtils.getPercentageScale(label)
             },
             parsing: {
                 xAxisKey: 'date'

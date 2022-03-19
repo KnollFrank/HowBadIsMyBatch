@@ -17,7 +17,7 @@ class UIUtils {
         return selectElement.options[selectElement.selectedIndex];
     }
 
-    static labelWithPercentCallback(context) {
+    static getLabelWithPercent(context) {
         let label = context.dataset.label || '';
 
         if (label) {
@@ -27,5 +27,19 @@ class UIUtils {
             label += context.parsed.y.toFixed(1) + "%";
         }
         return label;
+    }
+
+    static getPercentageScale(label) {
+        return {
+            min: 0,
+            max: 100,
+            title: {
+                display: true,
+                text: label
+            },
+            ticks: {
+                callback: value => value + "%"
+            }
+        }
     }
 }

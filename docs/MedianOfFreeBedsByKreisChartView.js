@@ -45,24 +45,13 @@ class MedianOfFreeBedsByKreisChartView {
                 },
                 tooltip: {
                     callbacks: {
-                        label: UIUtils.labelWithPercentCallback
+                        label: UIUtils.getLabelWithPercent
                     }
                 }
             },
             responsive: true,
             scales: {
-                y: {
-                    min: 0,
-                    max: 100,
-                    title: {
-                        display: true,
-                        text: label
-                    },
-                    // FK-TODO: DRY with FreeBedsChartView.js
-                    ticks: {
-                        callback: value => value + "%"
-                    }
-                }
+                y: UIUtils.getPercentageScale(label)
             },
             parsing: {
                 xAxisKey: 'Kreis'
