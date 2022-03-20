@@ -56,6 +56,12 @@ class MedianOfFreeBedsByKreisChartView {
             },
             responsive: true,
             scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Landkreis'
+                    }
+                },
                 y: UIUtils.getPercentageScale(label)
             },
             parsing: {
