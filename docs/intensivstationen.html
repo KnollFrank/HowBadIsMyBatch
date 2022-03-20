@@ -25,16 +25,6 @@
     document.addEventListener(
       "DOMContentLoaded",
       event => {
-        const slider = document.getElementById('slider');
-        noUiSlider.create(slider, {
-          start: [20, 80],
-          connect: true,
-          range: {
-            'min': 0,
-            'max': 100
-          }
-        });
-        slider.noUiSlider.on('update', values => console.log(values[0], ' - ', values[1]));
         const intensiveCareCapacitiesChartView = new IntensiveCareCapacitiesChartView(document.getElementById("intensiveCareCapacities"));
         const freeBedsChartView = new FreeBedsChartView(document.getElementById('freeBeds'));
         const kreisSelect = document.querySelector('#kreisSelect');
@@ -42,7 +32,9 @@
         kreisSelect.addEventListener(
           'change',
           event => onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView));
-        displayMedianOfFreeBedsByKreisChart(document.getElementById('medianOfFreeBedsByKreis'));
+        displayMedianOfFreeBedsByKreisChart(
+          document.getElementById('medianOfFreeBedsByKreis'),
+          document.getElementById('slider'));
       });
 
     function onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView) {

@@ -46,9 +46,32 @@ function add_median_free_beds_in_percent(dataDicts) {
     }
 }
 
-function displayMedianOfFreeBedsByKreisChart(canvas) {
-    const medianOfFreeBedsByKreisChartView = new MedianOfFreeBedsByKreisChartView(canvas);
+function displayMedianOfFreeBedsByKreisChart(canvas, slider) {
     fetch(`data/intensivstationen/medianOfFreeBedsByKreisTable.json`)
         .then(response => response.json())
-        .then(json => medianOfFreeBedsByKreisChartView.displayChart(json));
+        .then(json => _displayMedianOfFreeBedsByKreisChart(canvas, slider, json));
+}
+
+function _displayMedianOfFreeBedsByKreisChart(canvas, sliderElement, data) {
+    const medianOfFreeBedsByKreisChartView = new MedianOfFreeBedsByKreisChartView(canvas);
+    medianOfFreeBedsByKreisChartView.displayChart(data);
+    createSlider(
+        sliderElement,
+        {
+            min: 0,
+            max: data.length - 1
+        },
+        values => medianOfFreeBedsByKreisChartView.setData(data.slice(values[0], values[1] + 1)));
+}
+
+function createSlider(sliderElement, range, onUpdate) {
+    noUiSlider.create(
+        sliderElement,
+        {
+            start: [range.min, range.max],
+            connect: true,
+            range: range,
+            step: 1,
+        });
+    sliderElement.noUiSlider.on('update', onUpdate);
 }
