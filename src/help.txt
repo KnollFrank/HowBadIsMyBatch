@@ -15,32 +15,12 @@ get VAERS data:
 - download data (e.g. 2022VAERSData.zip) from https://vaers.hhs.gov/data/datasets.html and save and unzip in VAERS folder
 
 FK-FIXME:
+- Fcron funktioniert nicht, jobs werden im Nachhinein nicht ausgeführt, verwende Autocron statt Fcron
 
 FK-TODO:
-- Format des jeweiligen Herstellers berücksichtigen:
-039k20a
-MOD039K20A
-#039K20A
-039K20A-MODERNA
-039K20A-2A (vielleicht nicht)
-039K20A or 039L
-Moderna/039K20A
-MODERNA 039K20A
-MODERNA039K20A
-Modena 039k20A
-L039K20A
-M039K20A
-MOD; 039K20A
-m0039k20A
-u039k20a
-6/21 039K20A
-2039K20A
-013L20A 039K20A#039K20A
-#039K
-039K20A  12-31-
-039K20A & 031M2
-039K20A and 032
-039K20A, 011L20
+- Darstellung als Dashboard, siehe https://covid-karte.de/ oder https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
+- Rot-Gelb-Grün eingefärbte Deutschland-Karte anzeigen wie in https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
+- Alle Charts mit Slidern versehen?
 
 man 5 fcrontab
 

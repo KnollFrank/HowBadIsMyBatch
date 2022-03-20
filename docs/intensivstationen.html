@@ -24,6 +24,9 @@
         kreisSelect.addEventListener(
           'change',
           event => onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView));
+        displayMedianOfFreeBedsByKreisChart(
+          document.getElementById('medianOfFreeBedsByKreis'),
+          document.getElementById('slider'));
       });
 
     function onKreisOptionSelected(kreisSelect, intensiveCareCapacitiesChartView, freeBedsChartView) {
