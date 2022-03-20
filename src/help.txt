@@ -18,11 +18,9 @@ FK-FIXME:
 - Fcron funktioniert nicht, jobs werden im Nachhinein nicht ausgeführt, verwende Autocron statt Fcron
 
 FK-TODO:
-- Intensivstationen ergänzen durch Tabelle oder Barchart:
-  Kreis => "Median der Anteile freier Betten", absteigend sortiert nach "Median der Anteile freier Betten".
 - Darstellung als Dashboard, siehe https://covid-karte.de/ oder https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
 - Rot-Gelb-Grün eingefärbte Deutschland-Karte anzeigen wie in https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
-- Alle Charts mit Slidern versehen.
+- Alle Charts mit Slidern versehen?
 
 man 5 fcrontab
 
