@@ -9,6 +9,12 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
   <script src="https://cdn.jsdelivr.net/npm/moment@^2"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.1/nouislider.min.js"
+    integrity="sha512-T5Bneq9hePRO8JR0S/0lQ7gdW+ceLThvC80UjwkMRz+8q+4DARVZ4dqKoyENC7FcYresjfJ6ubaOgIE35irf4w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.1/nouislider.css"
+    integrity="sha512-MKxcSu/LDtbIYHBNAWUQwfB3iVoG9xeMCm32QV5hZ/9lFaQZJVaXfz9aFa0IZExWzCpm7OWvp9zq9gVip/nLMg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="./Utils.js"></script>
   <script src="./UIUtils.js"></script>
   <script src="./IntensiveCareCapacitiesChartView.js"></script>
@@ -19,6 +25,16 @@
     document.addEventListener(
       "DOMContentLoaded",
       event => {
+        const slider = document.getElementById('slider');
+        noUiSlider.create(slider, {
+          start: [20, 80],
+          connect: true,
+          range: {
+            'min': 0,
+            'max': 100
+          }
+        });
+        slider.noUiSlider.on('update', values => console.log(values[0], ' - ', values[1]));
         const intensiveCareCapacitiesChartView = new IntensiveCareCapacitiesChartView(document.getElementById("intensiveCareCapacities"));
         const freeBedsChartView = new FreeBedsChartView(document.getElementById('freeBeds'));
         const kreisSelect = document.querySelector('#kreisSelect');
@@ -460,6 +476,7 @@
   </p>
   <p>
     <canvas id="medianOfFreeBedsByKreis"></canvas>
+  <div id="slider"></div>
   </p>
   <dl>
     <dt>Datensatz:</dt>

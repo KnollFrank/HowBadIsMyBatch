@@ -15,6 +15,7 @@ get VAERS data:
 - download data (e.g. 2022VAERSData.zip) from https://vaers.hhs.gov/data/datasets.html and save and unzip in VAERS folder
 
 FK-FIXME:
+- Fcron funktioniert nicht, jobs werden im Nachhinein nicht ausgeführt, verwende Autocron statt Fcron
 
 FK-TODO:
 - Intensivstationen ergänzen durch Tabelle oder Barchart:
