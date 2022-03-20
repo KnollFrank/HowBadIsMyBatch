@@ -22,7 +22,7 @@ FK-TODO:
 - Alle Charts mit Slidern versehen?
 
 anacron job:
-sudo cp /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch/src/intensivstationen/intensivstationen.sh /etc/cron.daily/intensivstationen
+sudo cp src/intensivstationen/intensivstationen.sh /etc/cron.daily/intensivstationen
 
 man 5 fcrontab
 
