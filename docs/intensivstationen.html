@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Die Lage auf den Intensivstationen in meinem Landkreis von 2020 bis heute</title>
-<link href="forkMeOnGitHub.css" rel="stylesheet" type="text/css"/>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@^2"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
-<script src="./Utils.js"></script>
-<script src="./UIUtils.js"></script>
-<script src="./IntensiveCareCapacitiesChartView.js"></script>
-<script src="./FreeBedsChartView.js"></script>
-<script src="./intensivstationen.js"></script>
-<script>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Die Lage auf den Intensivstationen in meinem Landkreis von 2020 bis heute</title>
+  <link href="forkMeOnGitHub.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@^2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.1/nouislider.min.js"
+    integrity="sha512-T5Bneq9hePRO8JR0S/0lQ7gdW+ceLThvC80UjwkMRz+8q+4DARVZ4dqKoyENC7FcYresjfJ6ubaOgIE35irf4w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.1/nouislider.css"
+    integrity="sha512-MKxcSu/LDtbIYHBNAWUQwfB3iVoG9xeMCm32QV5hZ/9lFaQZJVaXfz9aFa0IZExWzCpm7OWvp9zq9gVip/nLMg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./Utils.js"></script>
+  <script src="./UIUtils.js"></script>
+  <script src="./IntensiveCareCapacitiesChartView.js"></script>
+  <script src="./FreeBedsChartView.js"></script>
+  <script src="./MedianOfFreeBedsByKreisChartView.js"></script>
+  <script src="./intensivstationen.js"></script>
+  <script>
     document.addEventListener(
       "DOMContentLoaded",
       event => {
@@ -48,39 +56,432 @@
     }
   </script>
 </head>
+
 <body>
-<span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
-<h1>Die Lage auf den Intensivstationen in meinem Landkreis von 2020 bis heute</h1>
-<label>Landkreis:</label>
-<select id="kreisSelect" name="kreis"><option selected="" value="de">Alle Landkreise</option><option value="Ahrweiler">Ahrweiler</option><option value="Aichach-Friedberg">Aichach-Friedberg</option><option value="Alb-Donau-Kreis">Alb-Donau-Kreis</option><option value="Altenburger Land">Altenburger Land</option><option value="Altenkirchen (Westerwald)">Altenkirchen (Westerwald)</option><option value="Altmarkkreis Salzwedel">Altmarkkreis Salzwedel</option><option value="Altötting">Altötting</option><option value="Alzey-Worms">Alzey-Worms</option><option value="Amberg">Amberg</option><option value="Amberg-Sulzbach">Amberg-Sulzbach</option><option value="Ammerland">Ammerland</option><option value="Anhalt-Bitterfeld">Anhalt-Bitterfeld</option><option value="Ansbach">Ansbach</option><option value="Aschaffenburg">Aschaffenburg</option><option value="Augsburg">Augsburg</option><option value="Aurich">Aurich</option><option value="Bad Dürkheim">Bad Dürkheim</option><option value="Bad Kissingen">Bad Kissingen</option><option value="Bad Kreuznach">Bad Kreuznach</option><option value="Bad Tölz-Wolfratshausen">Bad Tölz-Wolfratshausen</option><option value="Baden-Baden, Stadtkreis">Baden-Baden, Stadtkreis</option><option value="Bamberg">Bamberg</option><option value="Barnim">Barnim</option><option value="Bautzen">Bautzen</option><option value="Bayreuth">Bayreuth</option><option value="Berchtesgadener Land">Berchtesgadener Land</option><option value="Bergstraße">Bergstraße</option><option value="Berlin, Stadt">Berlin, Stadt</option><option value="Bernkastel-Wittlich">Bernkastel-Wittlich</option><option value="Biberach">Biberach</option><option value="Bielefeld, Stadt">Bielefeld, Stadt</option><option value="Birkenfeld">Birkenfeld</option><option value="Bochum, Stadt">Bochum, Stadt</option><option value="Bodenseekreis">Bodenseekreis</option><option value="Bonn, Stadt">Bonn, Stadt</option><option value="Borken">Borken</option><option value="Bottrop, Stadt">Bottrop, Stadt</option><option value="Brandenburg an der Havel, Stadt">Brandenburg an der Havel, Stadt</option><option value="Braunschweig, Stadt">Braunschweig, Stadt</option><option value="Breisgau-Hochschwarzwald">Breisgau-Hochschwarzwald</option><option value="Bremen, Stadt">Bremen, Stadt</option><option value="Bremerhaven, Stadt">Bremerhaven, Stadt</option><option value="Burgenlandkreis">Burgenlandkreis</option><option value="Böblingen">Böblingen</option><option value="Börde">Börde</option><option value="Calw">Calw</option><option value="Celle">Celle</option><option value="Cham">Cham</option><option value="Chemnitz, Stadt">Chemnitz, Stadt</option><option value="Cloppenburg">Cloppenburg</option><option value="Coburg">Coburg</option><option value="Cochem-Zell">Cochem-Zell</option><option value="Coesfeld">Coesfeld</option><option value="Cottbus, Stadt">Cottbus, Stadt</option><option value="Cuxhaven">Cuxhaven</option><option value="Dachau">Dachau</option><option value="Dahme-Spreewald">Dahme-Spreewald</option><option value="Darmstadt, Wissenschaftsstadt">Darmstadt, Wissenschaftsstadt</option><option value="Darmstadt-Dieburg">Darmstadt-Dieburg</option><option value="Deggendorf">Deggendorf</option><option value="Delmenhorst, Stadt">Delmenhorst, Stadt</option><option value="Dessau-Roßlau, Stadt">Dessau-Roßlau, Stadt</option><option value="Diepholz">Diepholz</option><option value="Dillingen a.d.Donau">Dillingen a.d.Donau</option><option value="Dingolfing-Landau">Dingolfing-Landau</option><option value="Dithmarschen">Dithmarschen</option><option value="Donau-Ries">Donau-Ries</option><option value="Donnersbergkreis">Donnersbergkreis</option><option value="Dortmund, Stadt">Dortmund, Stadt</option><option value="Dresden, Stadt">Dresden, Stadt</option><option value="Duisburg, Stadt">Duisburg, Stadt</option><option value="Düren">Düren</option><option value="Düsseldorf, Stadt">Düsseldorf, Stadt</option><option value="Ebersberg">Ebersberg</option><option value="Eichsfeld">Eichsfeld</option><option value="Eichstätt">Eichstätt</option><option value="Eifelkreis Bitburg-Prüm">Eifelkreis Bitburg-Prüm</option><option value="Elbe-Elster">Elbe-Elster</option><option value="Emden, Stadt">Emden, Stadt</option><option value="Emmendingen">Emmendingen</option><option value="Emsland">Emsland</option><option value="Ennepe-Ruhr-Kreis">Ennepe-Ruhr-Kreis</option><option value="Enzkreis">Enzkreis</option><option value="Erding">Erding</option><option value="Erfurt, Stadt">Erfurt, Stadt</option><option value="Erlangen">Erlangen</option><option value="Erlangen-Höchstadt">Erlangen-Höchstadt</option><option value="Erzgebirgskreis">Erzgebirgskreis</option><option value="Essen, Stadt">Essen, Stadt</option><option value="Esslingen">Esslingen</option><option value="Euskirchen">Euskirchen</option><option value="Flensburg, Stadt">Flensburg, Stadt</option><option value="Forchheim">Forchheim</option><option value="Frankenthal (Pfalz), kreisfreie Stadt">Frankenthal (Pfalz), kreisfreie Stadt</option><option value="Frankfurt (Oder), Stadt">Frankfurt (Oder), Stadt</option><option value="Frankfurt am Main, Stadt">Frankfurt am Main, Stadt</option><option value="Freiburg im Breisgau, Stadtkreis">Freiburg im Breisgau, Stadtkreis</option><option value="Freising">Freising</option><option value="Freudenstadt">Freudenstadt</option><option value="Freyung-Grafenau">Freyung-Grafenau</option><option value="Friesland">Friesland</option><option value="Fulda">Fulda</option><option value="Fürstenfeldbruck">Fürstenfeldbruck</option><option value="Fürth">Fürth</option><option value="Garmisch-Partenkirchen">Garmisch-Partenkirchen</option><option value="Gelsenkirchen, Stadt">Gelsenkirchen, Stadt</option><option value="Gera, Stadt">Gera, Stadt</option><option value="Germersheim">Germersheim</option><option value="Gießen">Gießen</option><option value="Gifhorn">Gifhorn</option><option value="Goslar">Goslar</option><option value="Gotha">Gotha</option><option value="Grafschaft Bentheim">Grafschaft Bentheim</option><option value="Greiz">Greiz</option><option value="Groß-Gerau">Groß-Gerau</option><option value="Göppingen">Göppingen</option><option value="Görlitz">Görlitz</option><option value="Göttingen">Göttingen</option><option value="Günzburg">Günzburg</option><option value="Gütersloh">Gütersloh</option><option value="Hagen, Stadt der FernUniversität">Hagen, Stadt der FernUniversität</option><option value="Halle (Saale), Stadt">Halle (Saale), Stadt</option><option value="Hamburg, Freie und Hansestadt">Hamburg, Freie und Hansestadt</option><option value="Hameln-Pyrmont">Hameln-Pyrmont</option><option value="Hamm, Stadt">Hamm, Stadt</option><option value="Harburg">Harburg</option><option value="Harz">Harz</option><option value="Havelland">Havelland</option><option value="Haßberge">Haßberge</option><option value="Heidekreis">Heidekreis</option><option value="Heidelberg, Stadtkreis">Heidelberg, Stadtkreis</option><option value="Heidenheim">Heidenheim</option><option value="Heilbronn">Heilbronn</option><option value="Heilbronn, Stadtkreis">Heilbronn, Stadtkreis</option><option value="Heinsberg">Heinsberg</option><option value="Helmstedt">Helmstedt</option><option value="Herford">Herford</option><option value="Herne, Stadt">Herne, Stadt</option><option value="Hersfeld-Rotenburg">Hersfeld-Rotenburg</option><option value="Herzogtum Lauenburg">Herzogtum Lauenburg</option><option value="Hildburghausen">Hildburghausen</option><option value="Hildesheim">Hildesheim</option><option value="Hochsauerlandkreis">Hochsauerlandkreis</option><option value="Hochtaunuskreis">Hochtaunuskreis</option><option value="Hof">Hof</option><option value="Hohenlohekreis">Hohenlohekreis</option><option value="Holzminden">Holzminden</option><option value="Höxter">Höxter</option><option value="Ilm-Kreis">Ilm-Kreis</option><option value="Ingolstadt">Ingolstadt</option><option value="Jena, Stadt">Jena, Stadt</option><option value="Jerichower Land">Jerichower Land</option><option value="Kaiserslautern">Kaiserslautern</option><option value="Kaiserslautern, kreisfreie Stadt">Kaiserslautern, kreisfreie Stadt</option><option value="Karlsruhe">Karlsruhe</option><option value="Karlsruhe, Stadtkreis">Karlsruhe, Stadtkreis</option><option value="Kassel">Kassel</option><option value="Kassel, documenta-Stadt">Kassel, documenta-Stadt</option><option value="Kaufbeuren">Kaufbeuren</option><option value="Kelheim">Kelheim</option><option value="Kempten (Allgäu)">Kempten (Allgäu)</option><option value="Kiel, Landeshauptstadt">Kiel, Landeshauptstadt</option><option value="Kitzingen">Kitzingen</option><option value="Kleve">Kleve</option><option value="Koblenz, kreisfreie Stadt">Koblenz, kreisfreie Stadt</option><option value="Konstanz">Konstanz</option><option value="Krefeld, Stadt">Krefeld, Stadt</option><option value="Kronach">Kronach</option><option value="Kulmbach">Kulmbach</option><option value="Kusel">Kusel</option><option value="Kyffhäuserkreis">Kyffhäuserkreis</option><option value="Köln, Stadt">Köln, Stadt</option><option value="Lahn-Dill-Kreis">Lahn-Dill-Kreis</option><option value="Landau in der Pfalz, kreisfreie Stadt">Landau in der Pfalz, kreisfreie Stadt</option><option value="Landkreis Rostock">Landkreis Rostock</option><option value="Landsberg am Lech">Landsberg am Lech</option><option value="Landshut">Landshut</option><option value="Leer">Leer</option><option value="Leipzig">Leipzig</option><option value="Leipzig, Stadt">Leipzig, Stadt</option><option value="Leverkusen, Stadt">Leverkusen, Stadt</option><option value="Lichtenfels">Lichtenfels</option><option value="Limburg-Weilburg">Limburg-Weilburg</option><option value="Lindau (Bodensee)">Lindau (Bodensee)</option><option value="Lippe">Lippe</option><option value="Ludwigsburg">Ludwigsburg</option><option value="Ludwigshafen am Rhein, kreisfreie Stadt">Ludwigshafen am Rhein, kreisfreie Stadt</option><option value="Ludwigslust-Parchim">Ludwigslust-Parchim</option><option value="Lörrach">Lörrach</option><option value="Lübeck, Hansestadt">Lübeck, Hansestadt</option><option value="Lüchow-Dannenberg">Lüchow-Dannenberg</option><option value="Lüneburg">Lüneburg</option><option value="Magdeburg, Landeshauptstadt">Magdeburg, Landeshauptstadt</option><option value="Main-Kinzig-Kreis">Main-Kinzig-Kreis</option><option value="Main-Spessart">Main-Spessart</option><option value="Main-Tauber-Kreis">Main-Tauber-Kreis</option><option value="Main-Taunus-Kreis">Main-Taunus-Kreis</option><option value="Mainz, kreisfreie Stadt">Mainz, kreisfreie Stadt</option><option value="Mainz-Bingen">Mainz-Bingen</option><option value="Mannheim, Stadtkreis">Mannheim, Stadtkreis</option><option value="Mansfeld-Südharz">Mansfeld-Südharz</option><option value="Marburg-Biedenkopf">Marburg-Biedenkopf</option><option value="Mayen-Koblenz">Mayen-Koblenz</option><option value="Mecklenburgische Seenplatte">Mecklenburgische Seenplatte</option><option value="Meißen">Meißen</option><option value="Memmingen">Memmingen</option><option value="Merzig-Wadern">Merzig-Wadern</option><option value="Mettmann">Mettmann</option><option value="Miesbach">Miesbach</option><option value="Miltenberg">Miltenberg</option><option value="Minden-Lübbecke">Minden-Lübbecke</option><option value="Mittelsachsen">Mittelsachsen</option><option value="Märkisch-Oderland">Märkisch-Oderland</option><option value="Märkischer Kreis">Märkischer Kreis</option><option value="Mönchengladbach, Stadt">Mönchengladbach, Stadt</option><option value="Mühldorf a.Inn">Mühldorf a.Inn</option><option value="Mülheim an der Ruhr, Stadt">Mülheim an der Ruhr, Stadt</option><option value="München">München</option><option value="München, Landeshauptstadt">München, Landeshauptstadt</option><option value="Münster, Stadt">Münster, Stadt</option><option value="Neckar-Odenwald-Kreis">Neckar-Odenwald-Kreis</option><option value="Neu-Ulm">Neu-Ulm</option><option value="Neuburg-Schrobenhausen">Neuburg-Schrobenhausen</option><option value="Neumarkt i.d.OPf.">Neumarkt i.d.OPf.</option><option value="Neumünster, Stadt">Neumünster, Stadt</option><option value="Neunkirchen">Neunkirchen</option><option value="Neustadt a.d.Aisch-Bad Windsheim">Neustadt a.d.Aisch-Bad Windsheim</option><option value="Neustadt an der Weinstraße, kreisfreie Stadt">Neustadt an der Weinstraße, kreisfreie Stadt</option><option value="Neuwied">Neuwied</option><option value="Nienburg (Weser)">Nienburg (Weser)</option><option value="Nordfriesland">Nordfriesland</option><option value="Nordhausen">Nordhausen</option><option value="Nordsachsen">Nordsachsen</option><option value="Nordwestmecklenburg">Nordwestmecklenburg</option><option value="Northeim">Northeim</option><option value="Nürnberg">Nürnberg</option><option value="Nürnberger Land">Nürnberger Land</option><option value="Oberallgäu">Oberallgäu</option><option value="Oberbergischer Kreis">Oberbergischer Kreis</option><option value="Oberhausen, Stadt">Oberhausen, Stadt</option><option value="Oberhavel">Oberhavel</option><option value="Oberspreewald-Lausitz">Oberspreewald-Lausitz</option><option value="Odenwaldkreis">Odenwaldkreis</option><option value="Oder-Spree">Oder-Spree</option><option value="Offenbach">Offenbach</option><option value="Offenbach am Main, Stadt">Offenbach am Main, Stadt</option><option value="Oldenburg">Oldenburg</option><option value="Oldenburg (Oldenburg), Stadt">Oldenburg (Oldenburg), Stadt</option><option value="Olpe">Olpe</option><option value="Ortenaukreis">Ortenaukreis</option><option value="Osnabrück">Osnabrück</option><option value="Osnabrück, Stadt">Osnabrück, Stadt</option><option value="Ostalbkreis">Ostalbkreis</option><option value="Ostallgäu">Ostallgäu</option><option value="Osterholz">Osterholz</option><option value="Ostholstein">Ostholstein</option><option value="Ostprignitz-Ruppin">Ostprignitz-Ruppin</option><option value="Paderborn">Paderborn</option><option value="Passau">Passau</option><option value="Peine">Peine</option><option value="Pfaffenhofen a.d.Ilm">Pfaffenhofen a.d.Ilm</option><option value="Pforzheim, Stadtkreis">Pforzheim, Stadtkreis</option><option value="Pinneberg">Pinneberg</option><option value="Pirmasens, kreisfreie Stadt">Pirmasens, kreisfreie Stadt</option><option value="Plön">Plön</option><option value="Potsdam, Stadt">Potsdam, Stadt</option><option value="Potsdam-Mittelmark">Potsdam-Mittelmark</option><option value="Prignitz">Prignitz</option><option value="Rastatt">Rastatt</option><option value="Ravensburg">Ravensburg</option><option value="Recklinghausen">Recklinghausen</option><option value="Regen">Regen</option><option value="Regensburg">Regensburg</option><option value="Region Hannover">Region Hannover</option><option value="Regionalverband Saarbrücken">Regionalverband Saarbrücken</option><option value="Rems-Murr-Kreis">Rems-Murr-Kreis</option><option value="Remscheid, Stadt">Remscheid, Stadt</option><option value="Rendsburg-Eckernförde">Rendsburg-Eckernförde</option><option value="Reutlingen">Reutlingen</option><option value="Rhein-Erft-Kreis">Rhein-Erft-Kreis</option><option value="Rhein-Hunsrück-Kreis">Rhein-Hunsrück-Kreis</option><option value="Rhein-Kreis Neuss">Rhein-Kreis Neuss</option><option value="Rhein-Lahn-Kreis">Rhein-Lahn-Kreis</option><option value="Rhein-Neckar-Kreis">Rhein-Neckar-Kreis</option><option value="Rhein-Sieg-Kreis">Rhein-Sieg-Kreis</option><option value="Rheingau-Taunus-Kreis">Rheingau-Taunus-Kreis</option><option value="Rheinisch-Bergischer Kreis">Rheinisch-Bergischer Kreis</option><option value="Rhön-Grabfeld">Rhön-Grabfeld</option><option value="Rosenheim">Rosenheim</option><option value="Rostock">Rostock</option><option value="Rotenburg (Wümme)">Rotenburg (Wümme)</option><option value="Roth">Roth</option><option value="Rottal-Inn">Rottal-Inn</option><option value="Rottweil">Rottweil</option><option value="Saale-Holzland-Kreis">Saale-Holzland-Kreis</option><option value="Saale-Orla-Kreis">Saale-Orla-Kreis</option><option value="Saalekreis">Saalekreis</option><option value="Saalfeld-Rudolstadt">Saalfeld-Rudolstadt</option><option value="Saarlouis">Saarlouis</option><option value="Saarpfalz-Kreis">Saarpfalz-Kreis</option><option value="Salzgitter, Stadt">Salzgitter, Stadt</option><option value="Salzlandkreis">Salzlandkreis</option><option value="Schaumburg">Schaumburg</option><option value="Schleswig-Flensburg">Schleswig-Flensburg</option><option value="Schmalkalden-Meiningen">Schmalkalden-Meiningen</option><option value="Schwabach">Schwabach</option><option value="Schwalm-Eder-Kreis">Schwalm-Eder-Kreis</option><option value="Schwandorf">Schwandorf</option><option value="Schwarzwald-Baar-Kreis">Schwarzwald-Baar-Kreis</option><option value="Schweinfurt">Schweinfurt</option><option value="Schwerin">Schwerin</option><option value="Schwäbisch Hall">Schwäbisch Hall</option><option value="Segeberg">Segeberg</option><option value="Siegen-Wittgenstein">Siegen-Wittgenstein</option><option value="Sigmaringen">Sigmaringen</option><option value="Soest">Soest</option><option value="Solingen, Klingenstadt">Solingen, Klingenstadt</option><option value="Sonneberg">Sonneberg</option><option value="Speyer, kreisfreie Stadt">Speyer, kreisfreie Stadt</option><option value="Spree-Neiße">Spree-Neiße</option><option value="St. Wendel">St. Wendel</option><option value="Stade">Stade</option><option value="Starnberg">Starnberg</option><option value="Steinburg">Steinburg</option><option value="Steinfurt">Steinfurt</option><option value="Stendal">Stendal</option><option value="Stormarn">Stormarn</option><option value="Straubing">Straubing</option><option value="Straubing-Bogen">Straubing-Bogen</option><option value="Stuttgart, Stadtkreis">Stuttgart, Stadtkreis</option><option value="Städteregion Aachen">Städteregion Aachen</option><option value="Suhl, Stadt">Suhl, Stadt</option><option value="Sächsische Schweiz-Osterzgebirge">Sächsische Schweiz-Osterzgebirge</option><option value="Sömmerda">Sömmerda</option><option value="Südliche Weinstraße">Südliche Weinstraße</option><option value="Südwestpfalz">Südwestpfalz</option><option value="Teltow-Fläming">Teltow-Fläming</option><option value="Tirschenreuth">Tirschenreuth</option><option value="Traunstein">Traunstein</option><option value="Trier, kreisfreie Stadt">Trier, kreisfreie Stadt</option><option value="Trier-Saarburg">Trier-Saarburg</option><option value="Tuttlingen">Tuttlingen</option><option value="Tübingen">Tübingen</option><option value="Uckermark">Uckermark</option><option value="Uelzen">Uelzen</option><option value="Ulm, Stadtkreis">Ulm, Stadtkreis</option><option value="Unna">Unna</option><option value="Unstrut-Hainich-Kreis">Unstrut-Hainich-Kreis</option><option value="Unterallgäu">Unterallgäu</option><option value="Vechta">Vechta</option><option value="Verden">Verden</option><option value="Viersen">Viersen</option><option value="Vogelsbergkreis">Vogelsbergkreis</option><option value="Vogtlandkreis">Vogtlandkreis</option><option value="Vorpommern-Greifswald">Vorpommern-Greifswald</option><option value="Vorpommern-Rügen">Vorpommern-Rügen</option><option value="Vulkaneifel">Vulkaneifel</option><option value="Waldeck-Frankenberg">Waldeck-Frankenberg</option><option value="Waldshut">Waldshut</option><option value="Warendorf">Warendorf</option><option value="Wartburgkreis">Wartburgkreis</option><option value="Weiden i.d.OPf.">Weiden i.d.OPf.</option><option value="Weilheim-Schongau">Weilheim-Schongau</option><option value="Weimar, Stadt">Weimar, Stadt</option><option value="Weimarer Land">Weimarer Land</option><option value="Weißenburg-Gunzenhausen">Weißenburg-Gunzenhausen</option><option value="Werra-Meißner-Kreis">Werra-Meißner-Kreis</option><option value="Wesel">Wesel</option><option value="Wesermarsch">Wesermarsch</option><option value="Westerwaldkreis">Westerwaldkreis</option><option value="Wetteraukreis">Wetteraukreis</option><option value="Wiesbaden, Landeshauptstadt">Wiesbaden, Landeshauptstadt</option><option value="Wilhelmshaven, Stadt">Wilhelmshaven, Stadt</option><option value="Wittenberg">Wittenberg</option><option value="Wittmund">Wittmund</option><option value="Wolfenbüttel">Wolfenbüttel</option><option value="Wolfsburg, Stadt">Wolfsburg, Stadt</option><option value="Worms, kreisfreie Stadt">Worms, kreisfreie Stadt</option><option value="Wunsiedel i.Fichtelgebirge">Wunsiedel i.Fichtelgebirge</option><option value="Wuppertal, Stadt">Wuppertal, Stadt</option><option value="Würzburg">Würzburg</option><option value="Zollernalbkreis">Zollernalbkreis</option><option value="Zweibrücken, kreisfreie Stadt">Zweibrücken, kreisfreie Stadt</option><option value="Zwickau">Zwickau</option></select>
-<h2>Freie und belegte Intensivbetten</h2>
-<h3 class="heading"></h3>
+  <span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
+  <h1>Die Lage auf den Intensivstationen in meinem Landkreis von 2020 bis heute</h1>
+  <label>Landkreis:</label>
+  <select id="kreisSelect" name="kreis">
+    <option selected="" value="de">Alle Landkreise</option>
+    <option value="Ahrweiler">Ahrweiler</option>
+    <option value="Aichach-Friedberg">Aichach-Friedberg</option>
+    <option value="Alb-Donau-Kreis">Alb-Donau-Kreis</option>
+    <option value="Altenburger Land">Altenburger Land</option>
+    <option value="Altenkirchen (Westerwald)">Altenkirchen (Westerwald)</option>
+    <option value="Altmarkkreis Salzwedel">Altmarkkreis Salzwedel</option>
+    <option value="Altötting">Altötting</option>
+    <option value="Alzey-Worms">Alzey-Worms</option>
+    <option value="Amberg">Amberg</option>
+    <option value="Amberg-Sulzbach">Amberg-Sulzbach</option>
+    <option value="Ammerland">Ammerland</option>
+    <option value="Anhalt-Bitterfeld">Anhalt-Bitterfeld</option>
+    <option value="Ansbach">Ansbach</option>
+    <option value="Aschaffenburg">Aschaffenburg</option>
+    <option value="Augsburg">Augsburg</option>
+    <option value="Aurich">Aurich</option>
+    <option value="Bad Dürkheim">Bad Dürkheim</option>
+    <option value="Bad Kissingen">Bad Kissingen</option>
+    <option value="Bad Kreuznach">Bad Kreuznach</option>
+    <option value="Bad Tölz-Wolfratshausen">Bad Tölz-Wolfratshausen</option>
+    <option value="Baden-Baden, Stadtkreis">Baden-Baden, Stadtkreis</option>
+    <option value="Bamberg">Bamberg</option>
+    <option value="Barnim">Barnim</option>
+    <option value="Bautzen">Bautzen</option>
+    <option value="Bayreuth">Bayreuth</option>
+    <option value="Berchtesgadener Land">Berchtesgadener Land</option>
+    <option value="Bergstraße">Bergstraße</option>
+    <option value="Berlin, Stadt">Berlin, Stadt</option>
+    <option value="Bernkastel-Wittlich">Bernkastel-Wittlich</option>
+    <option value="Biberach">Biberach</option>
+    <option value="Bielefeld, Stadt">Bielefeld, Stadt</option>
+    <option value="Birkenfeld">Birkenfeld</option>
+    <option value="Bochum, Stadt">Bochum, Stadt</option>
+    <option value="Bodenseekreis">Bodenseekreis</option>
+    <option value="Bonn, Stadt">Bonn, Stadt</option>
+    <option value="Borken">Borken</option>
+    <option value="Bottrop, Stadt">Bottrop, Stadt</option>
+    <option value="Brandenburg an der Havel, Stadt">Brandenburg an der Havel, Stadt</option>
+    <option value="Braunschweig, Stadt">Braunschweig, Stadt</option>
+    <option value="Breisgau-Hochschwarzwald">Breisgau-Hochschwarzwald</option>
+    <option value="Bremen, Stadt">Bremen, Stadt</option>
+    <option value="Bremerhaven, Stadt">Bremerhaven, Stadt</option>
+    <option value="Burgenlandkreis">Burgenlandkreis</option>
+    <option value="Böblingen">Böblingen</option>
+    <option value="Börde">Börde</option>
+    <option value="Calw">Calw</option>
+    <option value="Celle">Celle</option>
+    <option value="Cham">Cham</option>
+    <option value="Chemnitz, Stadt">Chemnitz, Stadt</option>
+    <option value="Cloppenburg">Cloppenburg</option>
+    <option value="Coburg">Coburg</option>
+    <option value="Cochem-Zell">Cochem-Zell</option>
+    <option value="Coesfeld">Coesfeld</option>
+    <option value="Cottbus, Stadt">Cottbus, Stadt</option>
+    <option value="Cuxhaven">Cuxhaven</option>
+    <option value="Dachau">Dachau</option>
+    <option value="Dahme-Spreewald">Dahme-Spreewald</option>
+    <option value="Darmstadt, Wissenschaftsstadt">Darmstadt, Wissenschaftsstadt</option>
+    <option value="Darmstadt-Dieburg">Darmstadt-Dieburg</option>
+    <option value="Deggendorf">Deggendorf</option>
+    <option value="Delmenhorst, Stadt">Delmenhorst, Stadt</option>
+    <option value="Dessau-Roßlau, Stadt">Dessau-Roßlau, Stadt</option>
+    <option value="Diepholz">Diepholz</option>
+    <option value="Dillingen a.d.Donau">Dillingen a.d.Donau</option>
+    <option value="Dingolfing-Landau">Dingolfing-Landau</option>
+    <option value="Dithmarschen">Dithmarschen</option>
+    <option value="Donau-Ries">Donau-Ries</option>
+    <option value="Donnersbergkreis">Donnersbergkreis</option>
+    <option value="Dortmund, Stadt">Dortmund, Stadt</option>
+    <option value="Dresden, Stadt">Dresden, Stadt</option>
+    <option value="Duisburg, Stadt">Duisburg, Stadt</option>
+    <option value="Düren">Düren</option>
+    <option value="Düsseldorf, Stadt">Düsseldorf, Stadt</option>
+    <option value="Ebersberg">Ebersberg</option>
+    <option value="Eichsfeld">Eichsfeld</option>
+    <option value="Eichstätt">Eichstätt</option>
+    <option value="Eifelkreis Bitburg-Prüm">Eifelkreis Bitburg-Prüm</option>
+    <option value="Elbe-Elster">Elbe-Elster</option>
+    <option value="Emden, Stadt">Emden, Stadt</option>
+    <option value="Emmendingen">Emmendingen</option>
+    <option value="Emsland">Emsland</option>
+    <option value="Ennepe-Ruhr-Kreis">Ennepe-Ruhr-Kreis</option>
+    <option value="Enzkreis">Enzkreis</option>
+    <option value="Erding">Erding</option>
+    <option value="Erfurt, Stadt">Erfurt, Stadt</option>
+    <option value="Erlangen">Erlangen</option>
+    <option value="Erlangen-Höchstadt">Erlangen-Höchstadt</option>
+    <option value="Erzgebirgskreis">Erzgebirgskreis</option>
+    <option value="Essen, Stadt">Essen, Stadt</option>
+    <option value="Esslingen">Esslingen</option>
+    <option value="Euskirchen">Euskirchen</option>
+    <option value="Flensburg, Stadt">Flensburg, Stadt</option>
+    <option value="Forchheim">Forchheim</option>
+    <option value="Frankenthal (Pfalz), kreisfreie Stadt">Frankenthal (Pfalz), kreisfreie Stadt</option>
+    <option value="Frankfurt (Oder), Stadt">Frankfurt (Oder), Stadt</option>
+    <option value="Frankfurt am Main, Stadt">Frankfurt am Main, Stadt</option>
+    <option value="Freiburg im Breisgau, Stadtkreis">Freiburg im Breisgau, Stadtkreis</option>
+    <option value="Freising">Freising</option>
+    <option value="Freudenstadt">Freudenstadt</option>
+    <option value="Freyung-Grafenau">Freyung-Grafenau</option>
+    <option value="Friesland">Friesland</option>
+    <option value="Fulda">Fulda</option>
+    <option value="Fürstenfeldbruck">Fürstenfeldbruck</option>
+    <option value="Fürth">Fürth</option>
+    <option value="Garmisch-Partenkirchen">Garmisch-Partenkirchen</option>
+    <option value="Gelsenkirchen, Stadt">Gelsenkirchen, Stadt</option>
+    <option value="Gera, Stadt">Gera, Stadt</option>
+    <option value="Germersheim">Germersheim</option>
+    <option value="Gießen">Gießen</option>
+    <option value="Gifhorn">Gifhorn</option>
+    <option value="Goslar">Goslar</option>
+    <option value="Gotha">Gotha</option>
+    <option value="Grafschaft Bentheim">Grafschaft Bentheim</option>
+    <option value="Greiz">Greiz</option>
+    <option value="Groß-Gerau">Groß-Gerau</option>
+    <option value="Göppingen">Göppingen</option>
+    <option value="Görlitz">Görlitz</option>
+    <option value="Göttingen">Göttingen</option>
+    <option value="Günzburg">Günzburg</option>
+    <option value="Gütersloh">Gütersloh</option>
+    <option value="Hagen, Stadt der FernUniversität">Hagen, Stadt der FernUniversität</option>
+    <option value="Halle (Saale), Stadt">Halle (Saale), Stadt</option>
+    <option value="Hamburg, Freie und Hansestadt">Hamburg, Freie und Hansestadt</option>
+    <option value="Hameln-Pyrmont">Hameln-Pyrmont</option>
+    <option value="Hamm, Stadt">Hamm, Stadt</option>
+    <option value="Harburg">Harburg</option>
+    <option value="Harz">Harz</option>
+    <option value="Havelland">Havelland</option>
+    <option value="Haßberge">Haßberge</option>
+    <option value="Heidekreis">Heidekreis</option>
+    <option value="Heidelberg, Stadtkreis">Heidelberg, Stadtkreis</option>
+    <option value="Heidenheim">Heidenheim</option>
+    <option value="Heilbronn">Heilbronn</option>
+    <option value="Heilbronn, Stadtkreis">Heilbronn, Stadtkreis</option>
+    <option value="Heinsberg">Heinsberg</option>
+    <option value="Helmstedt">Helmstedt</option>
+    <option value="Herford">Herford</option>
+    <option value="Herne, Stadt">Herne, Stadt</option>
+    <option value="Hersfeld-Rotenburg">Hersfeld-Rotenburg</option>
+    <option value="Herzogtum Lauenburg">Herzogtum Lauenburg</option>
+    <option value="Hildburghausen">Hildburghausen</option>
+    <option value="Hildesheim">Hildesheim</option>
+    <option value="Hochsauerlandkreis">Hochsauerlandkreis</option>
+    <option value="Hochtaunuskreis">Hochtaunuskreis</option>
+    <option value="Hof">Hof</option>
+    <option value="Hohenlohekreis">Hohenlohekreis</option>
+    <option value="Holzminden">Holzminden</option>
+    <option value="Höxter">Höxter</option>
+    <option value="Ilm-Kreis">Ilm-Kreis</option>
+    <option value="Ingolstadt">Ingolstadt</option>
+    <option value="Jena, Stadt">Jena, Stadt</option>
+    <option value="Jerichower Land">Jerichower Land</option>
+    <option value="Kaiserslautern">Kaiserslautern</option>
+    <option value="Kaiserslautern, kreisfreie Stadt">Kaiserslautern, kreisfreie Stadt</option>
+    <option value="Karlsruhe">Karlsruhe</option>
+    <option value="Karlsruhe, Stadtkreis">Karlsruhe, Stadtkreis</option>
+    <option value="Kassel">Kassel</option>
+    <option value="Kassel, documenta-Stadt">Kassel, documenta-Stadt</option>
+    <option value="Kaufbeuren">Kaufbeuren</option>
+    <option value="Kelheim">Kelheim</option>
+    <option value="Kempten (Allgäu)">Kempten (Allgäu)</option>
+    <option value="Kiel, Landeshauptstadt">Kiel, Landeshauptstadt</option>
+    <option value="Kitzingen">Kitzingen</option>
+    <option value="Kleve">Kleve</option>
+    <option value="Koblenz, kreisfreie Stadt">Koblenz, kreisfreie Stadt</option>
+    <option value="Konstanz">Konstanz</option>
+    <option value="Krefeld, Stadt">Krefeld, Stadt</option>
+    <option value="Kronach">Kronach</option>
+    <option value="Kulmbach">Kulmbach</option>
+    <option value="Kusel">Kusel</option>
+    <option value="Kyffhäuserkreis">Kyffhäuserkreis</option>
+    <option value="Köln, Stadt">Köln, Stadt</option>
+    <option value="Lahn-Dill-Kreis">Lahn-Dill-Kreis</option>
+    <option value="Landau in der Pfalz, kreisfreie Stadt">Landau in der Pfalz, kreisfreie Stadt</option>
+    <option value="Landkreis Rostock">Landkreis Rostock</option>
+    <option value="Landsberg am Lech">Landsberg am Lech</option>
+    <option value="Landshut">Landshut</option>
+    <option value="Leer">Leer</option>
+    <option value="Leipzig">Leipzig</option>
+    <option value="Leipzig, Stadt">Leipzig, Stadt</option>
+    <option value="Leverkusen, Stadt">Leverkusen, Stadt</option>
+    <option value="Lichtenfels">Lichtenfels</option>
+    <option value="Limburg-Weilburg">Limburg-Weilburg</option>
+    <option value="Lindau (Bodensee)">Lindau (Bodensee)</option>
+    <option value="Lippe">Lippe</option>
+    <option value="Ludwigsburg">Ludwigsburg</option>
+    <option value="Ludwigshafen am Rhein, kreisfreie Stadt">Ludwigshafen am Rhein, kreisfreie Stadt</option>
+    <option value="Ludwigslust-Parchim">Ludwigslust-Parchim</option>
+    <option value="Lörrach">Lörrach</option>
+    <option value="Lübeck, Hansestadt">Lübeck, Hansestadt</option>
+    <option value="Lüchow-Dannenberg">Lüchow-Dannenberg</option>
+    <option value="Lüneburg">Lüneburg</option>
+    <option value="Magdeburg, Landeshauptstadt">Magdeburg, Landeshauptstadt</option>
+    <option value="Main-Kinzig-Kreis">Main-Kinzig-Kreis</option>
+    <option value="Main-Spessart">Main-Spessart</option>
+    <option value="Main-Tauber-Kreis">Main-Tauber-Kreis</option>
+    <option value="Main-Taunus-Kreis">Main-Taunus-Kreis</option>
+    <option value="Mainz, kreisfreie Stadt">Mainz, kreisfreie Stadt</option>
+    <option value="Mainz-Bingen">Mainz-Bingen</option>
+    <option value="Mannheim, Stadtkreis">Mannheim, Stadtkreis</option>
+    <option value="Mansfeld-Südharz">Mansfeld-Südharz</option>
+    <option value="Marburg-Biedenkopf">Marburg-Biedenkopf</option>
+    <option value="Mayen-Koblenz">Mayen-Koblenz</option>
+    <option value="Mecklenburgische Seenplatte">Mecklenburgische Seenplatte</option>
+    <option value="Meißen">Meißen</option>
+    <option value="Memmingen">Memmingen</option>
+    <option value="Merzig-Wadern">Merzig-Wadern</option>
+    <option value="Mettmann">Mettmann</option>
+    <option value="Miesbach">Miesbach</option>
+    <option value="Miltenberg">Miltenberg</option>
+    <option value="Minden-Lübbecke">Minden-Lübbecke</option>
+    <option value="Mittelsachsen">Mittelsachsen</option>
+    <option value="Märkisch-Oderland">Märkisch-Oderland</option>
+    <option value="Märkischer Kreis">Märkischer Kreis</option>
+    <option value="Mönchengladbach, Stadt">Mönchengladbach, Stadt</option>
+    <option value="Mühldorf a.Inn">Mühldorf a.Inn</option>
+    <option value="Mülheim an der Ruhr, Stadt">Mülheim an der Ruhr, Stadt</option>
+    <option value="München">München</option>
+    <option value="München, Landeshauptstadt">München, Landeshauptstadt</option>
+    <option value="Münster, Stadt">Münster, Stadt</option>
+    <option value="Neckar-Odenwald-Kreis">Neckar-Odenwald-Kreis</option>
+    <option value="Neu-Ulm">Neu-Ulm</option>
+    <option value="Neuburg-Schrobenhausen">Neuburg-Schrobenhausen</option>
+    <option value="Neumarkt i.d.OPf.">Neumarkt i.d.OPf.</option>
+    <option value="Neumünster, Stadt">Neumünster, Stadt</option>
+    <option value="Neunkirchen">Neunkirchen</option>
+    <option value="Neustadt a.d.Aisch-Bad Windsheim">Neustadt a.d.Aisch-Bad Windsheim</option>
+    <option value="Neustadt an der Weinstraße, kreisfreie Stadt">Neustadt an der Weinstraße, kreisfreie Stadt</option>
+    <option value="Neuwied">Neuwied</option>
+    <option value="Nienburg (Weser)">Nienburg (Weser)</option>
+    <option value="Nordfriesland">Nordfriesland</option>
+    <option value="Nordhausen">Nordhausen</option>
+    <option value="Nordsachsen">Nordsachsen</option>
+    <option value="Nordwestmecklenburg">Nordwestmecklenburg</option>
+    <option value="Northeim">Northeim</option>
+    <option value="Nürnberg">Nürnberg</option>
+    <option value="Nürnberger Land">Nürnberger Land</option>
+    <option value="Oberallgäu">Oberallgäu</option>
+    <option value="Oberbergischer Kreis">Oberbergischer Kreis</option>
+    <option value="Oberhausen, Stadt">Oberhausen, Stadt</option>
+    <option value="Oberhavel">Oberhavel</option>
+    <option value="Oberspreewald-Lausitz">Oberspreewald-Lausitz</option>
+    <option value="Odenwaldkreis">Odenwaldkreis</option>
+    <option value="Oder-Spree">Oder-Spree</option>
+    <option value="Offenbach">Offenbach</option>
+    <option value="Offenbach am Main, Stadt">Offenbach am Main, Stadt</option>
+    <option value="Oldenburg">Oldenburg</option>
+    <option value="Oldenburg (Oldenburg), Stadt">Oldenburg (Oldenburg), Stadt</option>
+    <option value="Olpe">Olpe</option>
+    <option value="Ortenaukreis">Ortenaukreis</option>
+    <option value="Osnabrück">Osnabrück</option>
+    <option value="Osnabrück, Stadt">Osnabrück, Stadt</option>
+    <option value="Ostalbkreis">Ostalbkreis</option>
+    <option value="Ostallgäu">Ostallgäu</option>
+    <option value="Osterholz">Osterholz</option>
+    <option value="Ostholstein">Ostholstein</option>
+    <option value="Ostprignitz-Ruppin">Ostprignitz-Ruppin</option>
+    <option value="Paderborn">Paderborn</option>
+    <option value="Passau">Passau</option>
+    <option value="Peine">Peine</option>
+    <option value="Pfaffenhofen a.d.Ilm">Pfaffenhofen a.d.Ilm</option>
+    <option value="Pforzheim, Stadtkreis">Pforzheim, Stadtkreis</option>
+    <option value="Pinneberg">Pinneberg</option>
+    <option value="Pirmasens, kreisfreie Stadt">Pirmasens, kreisfreie Stadt</option>
+    <option value="Plön">Plön</option>
+    <option value="Potsdam, Stadt">Potsdam, Stadt</option>
+    <option value="Potsdam-Mittelmark">Potsdam-Mittelmark</option>
+    <option value="Prignitz">Prignitz</option>
+    <option value="Rastatt">Rastatt</option>
+    <option value="Ravensburg">Ravensburg</option>
+    <option value="Recklinghausen">Recklinghausen</option>
+    <option value="Regen">Regen</option>
+    <option value="Regensburg">Regensburg</option>
+    <option value="Region Hannover">Region Hannover</option>
+    <option value="Regionalverband Saarbrücken">Regionalverband Saarbrücken</option>
+    <option value="Rems-Murr-Kreis">Rems-Murr-Kreis</option>
+    <option value="Remscheid, Stadt">Remscheid, Stadt</option>
+    <option value="Rendsburg-Eckernförde">Rendsburg-Eckernförde</option>
+    <option value="Reutlingen">Reutlingen</option>
+    <option value="Rhein-Erft-Kreis">Rhein-Erft-Kreis</option>
+    <option value="Rhein-Hunsrück-Kreis">Rhein-Hunsrück-Kreis</option>
+    <option value="Rhein-Kreis Neuss">Rhein-Kreis Neuss</option>
+    <option value="Rhein-Lahn-Kreis">Rhein-Lahn-Kreis</option>
+    <option value="Rhein-Neckar-Kreis">Rhein-Neckar-Kreis</option>
+    <option value="Rhein-Sieg-Kreis">Rhein-Sieg-Kreis</option>
+    <option value="Rheingau-Taunus-Kreis">Rheingau-Taunus-Kreis</option>
+    <option value="Rheinisch-Bergischer Kreis">Rheinisch-Bergischer Kreis</option>
+    <option value="Rhön-Grabfeld">Rhön-Grabfeld</option>
+    <option value="Rosenheim">Rosenheim</option>
+    <option value="Rostock">Rostock</option>
+    <option value="Rotenburg (Wümme)">Rotenburg (Wümme)</option>
+    <option value="Roth">Roth</option>
+    <option value="Rottal-Inn">Rottal-Inn</option>
+    <option value="Rottweil">Rottweil</option>
+    <option value="Saale-Holzland-Kreis">Saale-Holzland-Kreis</option>
+    <option value="Saale-Orla-Kreis">Saale-Orla-Kreis</option>
+    <option value="Saalekreis">Saalekreis</option>
+    <option value="Saalfeld-Rudolstadt">Saalfeld-Rudolstadt</option>
+    <option value="Saarlouis">Saarlouis</option>
+    <option value="Saarpfalz-Kreis">Saarpfalz-Kreis</option>
+    <option value="Salzgitter, Stadt">Salzgitter, Stadt</option>
+    <option value="Salzlandkreis">Salzlandkreis</option>
+    <option value="Schaumburg">Schaumburg</option>
+    <option value="Schleswig-Flensburg">Schleswig-Flensburg</option>
+    <option value="Schmalkalden-Meiningen">Schmalkalden-Meiningen</option>
+    <option value="Schwabach">Schwabach</option>
+    <option value="Schwalm-Eder-Kreis">Schwalm-Eder-Kreis</option>
+    <option value="Schwandorf">Schwandorf</option>
+    <option value="Schwarzwald-Baar-Kreis">Schwarzwald-Baar-Kreis</option>
+    <option value="Schweinfurt">Schweinfurt</option>
+    <option value="Schwerin">Schwerin</option>
+    <option value="Schwäbisch Hall">Schwäbisch Hall</option>
+    <option value="Segeberg">Segeberg</option>
+    <option value="Siegen-Wittgenstein">Siegen-Wittgenstein</option>
+    <option value="Sigmaringen">Sigmaringen</option>
+    <option value="Soest">Soest</option>
+    <option value="Solingen, Klingenstadt">Solingen, Klingenstadt</option>
+    <option value="Sonneberg">Sonneberg</option>
+    <option value="Speyer, kreisfreie Stadt">Speyer, kreisfreie Stadt</option>
+    <option value="Spree-Neiße">Spree-Neiße</option>
+    <option value="St. Wendel">St. Wendel</option>
+    <option value="Stade">Stade</option>
+    <option value="Starnberg">Starnberg</option>
+    <option value="Steinburg">Steinburg</option>
+    <option value="Steinfurt">Steinfurt</option>
+    <option value="Stendal">Stendal</option>
+    <option value="Stormarn">Stormarn</option>
+    <option value="Straubing">Straubing</option>
+    <option value="Straubing-Bogen">Straubing-Bogen</option>
+    <option value="Stuttgart, Stadtkreis">Stuttgart, Stadtkreis</option>
+    <option value="Städteregion Aachen">Städteregion Aachen</option>
+    <option value="Suhl, Stadt">Suhl, Stadt</option>
+    <option value="Sächsische Schweiz-Osterzgebirge">Sächsische Schweiz-Osterzgebirge</option>
+    <option value="Sömmerda">Sömmerda</option>
+    <option value="Südliche Weinstraße">Südliche Weinstraße</option>
+    <option value="Südwestpfalz">Südwestpfalz</option>
+    <option value="Teltow-Fläming">Teltow-Fläming</option>
+    <option value="Tirschenreuth">Tirschenreuth</option>
+    <option value="Traunstein">Traunstein</option>
+    <option value="Trier, kreisfreie Stadt">Trier, kreisfreie Stadt</option>
+    <option value="Trier-Saarburg">Trier-Saarburg</option>
+    <option value="Tuttlingen">Tuttlingen</option>
+    <option value="Tübingen">Tübingen</option>
+    <option value="Uckermark">Uckermark</option>
+    <option value="Uelzen">Uelzen</option>
+    <option value="Ulm, Stadtkreis">Ulm, Stadtkreis</option>
+    <option value="Unna">Unna</option>
+    <option value="Unstrut-Hainich-Kreis">Unstrut-Hainich-Kreis</option>
+    <option value="Unterallgäu">Unterallgäu</option>
+    <option value="Vechta">Vechta</option>
+    <option value="Verden">Verden</option>
+    <option value="Viersen">Viersen</option>
+    <option value="Vogelsbergkreis">Vogelsbergkreis</option>
+    <option value="Vogtlandkreis">Vogtlandkreis</option>
+    <option value="Vorpommern-Greifswald">Vorpommern-Greifswald</option>
+    <option value="Vorpommern-Rügen">Vorpommern-Rügen</option>
+    <option value="Vulkaneifel">Vulkaneifel</option>
+    <option value="Waldeck-Frankenberg">Waldeck-Frankenberg</option>
+    <option value="Waldshut">Waldshut</option>
+    <option value="Warendorf">Warendorf</option>
+    <option value="Wartburgkreis">Wartburgkreis</option>
+    <option value="Weiden i.d.OPf.">Weiden i.d.OPf.</option>
+    <option value="Weilheim-Schongau">Weilheim-Schongau</option>
+    <option value="Weimar, Stadt">Weimar, Stadt</option>
+    <option value="Weimarer Land">Weimarer Land</option>
+    <option value="Weißenburg-Gunzenhausen">Weißenburg-Gunzenhausen</option>
+    <option value="Werra-Meißner-Kreis">Werra-Meißner-Kreis</option>
+    <option value="Wesel">Wesel</option>
+    <option value="Wesermarsch">Wesermarsch</option>
+    <option value="Westerwaldkreis">Westerwaldkreis</option>
+    <option value="Wetteraukreis">Wetteraukreis</option>
+    <option value="Wiesbaden, Landeshauptstadt">Wiesbaden, Landeshauptstadt</option>
+    <option value="Wilhelmshaven, Stadt">Wilhelmshaven, Stadt</option>
+    <option value="Wittenberg">Wittenberg</option>
+    <option value="Wittmund">Wittmund</option>
+    <option value="Wolfenbüttel">Wolfenbüttel</option>
+    <option value="Wolfsburg, Stadt">Wolfsburg, Stadt</option>
+    <option value="Worms, kreisfreie Stadt">Worms, kreisfreie Stadt</option>
+    <option value="Wunsiedel i.Fichtelgebirge">Wunsiedel i.Fichtelgebirge</option>
+    <option value="Wuppertal, Stadt">Wuppertal, Stadt</option>
+    <option value="Würzburg">Würzburg</option>
+    <option value="Zollernalbkreis">Zollernalbkreis</option>
+    <option value="Zweibrücken, kreisfreie Stadt">Zweibrücken, kreisfreie Stadt</option>
+    <option value="Zwickau">Zwickau</option>
+  </select>
+  <h2>Freie und belegte Intensivbetten</h2>
+  <h3 class="heading"></h3>
   Einwohnerzahl: <span class="population"></span>
-<p>
-<canvas id="intensiveCareCapacities"></canvas>
-</p>
-<dl>
-<dt>Belegte Betten:</dt>
-<dd>Anzahl der belegten Intensivbetten (Low- und High-Care), unabhängig von der Behandlungsursache,
+  <p>
+    <canvas id="intensiveCareCapacities"></canvas>
+  </p>
+  <dl>
+    <dt>Belegte Betten:</dt>
+    <dd>Anzahl der belegten Intensivbetten (Low- und High-Care), unabhängig von der Behandlungsursache,
       für Erwachsene und Kinder.</dd>
-<dt>Freie Betten:</dt>
-<dd>Anzahl der freien, betreibbaren Intensivbetten (Low- und High-Care) für Erwachsene und Kinder zur
+    <dt>Freie Betten:</dt>
+    <dd>Anzahl der freien, betreibbaren Intensivbetten (Low- und High-Care) für Erwachsene und Kinder zur
       Behandlung von allen intensivpflichtigen Erkrankungen.</dd>
-</dl>
-<h2>Anteil freier Betten an der Gesamtzahl der Intensivbetten</h2>
-<p>
-<canvas id="freeBeds"></canvas>
-</p>
-<dl>
-<dt>Datensatz:</dt>
-<dd><a href="https://www.intensivregister.de/#/aktuelle-lage/downloads" target="_blank">Landkreis-Daten</a></dd>
-<dt>siehe auch:</dt>
-<dd><a href="https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba" target="_blank">Dashboard
+  </dl>
+  <h2>Anteil freier Betten an der Gesamtzahl der Intensivbetten</h2>
+  <p>
+    <canvas id="freeBeds"></canvas>
+  </p>
+  <h2>Median der Anteile freier Betten</h2>
+  <p>
+    <canvas id="medianOfFreeBedsByKreis"></canvas>
+  <div id="slider"></div>
+  </p>
+  <dl>
+    <dt>Datensatz:</dt>
+    <dd><a href="https://www.intensivregister.de/#/aktuelle-lage/downloads" target="_blank">Landkreis-Daten</a></dd>
+    <dt>siehe auch:</dt>
+    <dd><a href="https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba" target="_blank">Dashboard
         DIVI-Intensivregister auf Landkreisebene</a></dd>
-<dd><a href="https://www.intensivregister.de/#/aktuelle-lage/kartenansichten" target="_blank">Kartenansichten</a>
-</dd>
-<dt>Datenstand:</dt>
-<dd id="Datenstand">20.03.2022, 12:54 Uhr</dd>
-</dl>
+    <dd><a href="https://www.intensivregister.de/#/aktuelle-lage/kartenansichten" target="_blank">Kartenansichten</a>
+    </dd>
+    <dt>Datenstand:</dt>
+    <dd id="Datenstand">18.03.2022, 12:57 Uhr</dd>
+  </dl>
 </body>
+
 </html>
