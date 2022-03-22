@@ -15,12 +15,14 @@ get VAERS data:
 - download data (e.g. 2022VAERSData.zip) from https://vaers.hhs.gov/data/datasets.html and save and unzip in VAERS folder
 
 FK-FIXME:
-- Fcron funktioniert nicht, jobs werden im Nachhinein nicht ausgeführt, verwende Autocron statt Fcron
 
 FK-TODO:
 - Darstellung als Dashboard, siehe https://covid-karte.de/ oder https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
 - Rot-Gelb-Grün eingefärbte Deutschland-Karte anzeigen wie in https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
 - Alle Charts mit Slidern versehen?
+
+anacron job:
+sudo cp src/intensivstationen/intensivstationen.sh /etc/cron.daily/intensivstationen
 
 man 5 fcrontab
 
