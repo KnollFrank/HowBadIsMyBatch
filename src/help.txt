@@ -18,7 +18,7 @@ FK-FIXME:
 
 FK-TODO:
 - Darstellung als Dashboard, siehe https://covid-karte.de/ oder https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
-- Rot-Gelb-Grün eingefärbte Deutschland-Karte anzeigen wie in https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
+- nach den "Median der Anteile freier Betten"-Werten Rot-Gelb-Grün eingefärbte Deutschland-Karte anzeigen wie in https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba
 - Alle Charts mit Slidern versehen?
 
 anacron job:
