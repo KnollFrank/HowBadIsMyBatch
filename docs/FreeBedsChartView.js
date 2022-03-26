@@ -11,7 +11,7 @@ class FreeBedsChartView {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
-        const label = 'Anteil freier Betten';
+        const label = 'freie Betten';
         this.#chart = new Chart(
             this.#canvas,
             {
@@ -60,7 +60,7 @@ class FreeBedsChartView {
                     backgroundColor: 'rgba(0, 0, 150, 1)'
                 },
                 {
-                    label: 'Median der Anteile freier Betten',
+                    label: 'Median freier Betten',
                     data: data,
                     parsing: {
                         yAxisKey: 'median_free_beds_in_percent'

@@ -11,7 +11,7 @@ class MedianOfFreeBedsByKreisChartView {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
-        const label = 'Median der Anteile freier Betten';
+        const label = 'Median freier Betten';
         this.#chart = new Chart(
             this.#canvas,
             {
