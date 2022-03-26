@@ -35,9 +35,9 @@ class FreeBedsChartView {
         }
 
         function drawTrafficLights(chart) {
-            const RED = 'rgba(240, 59, 32, 0.75)';
-            const YELLOW = 'rgba(254, 178, 76, 0.75)';
-            const GREEN = 'rgba(56, 168, 0, 0.75)';
+            const RED = 'rgba(240, 59, 32, 0.75)'; // #F03B20
+            const YELLOW = 'rgba(254, 178, 76, 0.75)'; // #FEB24C
+            const GREEN = 'rgba(56, 168, 0, 0.75)'; // #38A800
             chart.ctx.save();
             fillRect({ chart: chart, startInPercent: 0, endInPercent: 10, color: RED });
             fillRect({ chart: chart, startInPercent: 10, endInPercent: 25, color: YELLOW });
