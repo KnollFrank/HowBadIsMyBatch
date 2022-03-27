@@ -11,7 +11,7 @@ class FreeBedsChartView {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
-        const label = 'Anteil freier Betten';
+        const label = 'freie Betten';
         this.#chart = new Chart(
             this.#canvas,
             {
@@ -35,9 +35,9 @@ class FreeBedsChartView {
         }
 
         function drawTrafficLights(chart) {
-            const RED = 'rgba(240, 59, 32, 0.75)';
-            const YELLOW = 'rgba(254, 178, 76, 0.75)';
-            const GREEN = 'rgba(56, 168, 0, 0.75)';
+            const RED = 'rgba(240, 59, 32, 0.75)'; // #F03B20
+            const YELLOW = 'rgba(254, 178, 76, 0.75)'; // #FEB24C
+            const GREEN = 'rgba(56, 168, 0, 0.75)'; // #38A800
             chart.ctx.save();
             fillRect({ chart: chart, startInPercent: 0, endInPercent: 10, color: RED });
             fillRect({ chart: chart, startInPercent: 10, endInPercent: 25, color: YELLOW });
@@ -60,7 +60,7 @@ class FreeBedsChartView {
                     backgroundColor: 'rgba(0, 0, 150, 1)'
                 },
                 {
-                    label: 'Median der Anteile freier Betten',
+                    label: 'Median freier Betten',
                     data: data,
                     parsing: {
                         yAxisKey: 'median_free_beds_in_percent'

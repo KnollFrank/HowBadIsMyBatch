@@ -9,3 +9,4 @@ src/tmp/
 src/results/
 docs/data/*.xlsx
 docs/data/*.html
+.env
