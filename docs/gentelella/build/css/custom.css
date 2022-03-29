@@ -296,7 +296,7 @@ body .container.body .right_col {
 
 @media (max-width: 1200px) {
     .x_title h2 {
-        width: 62%;
+        width: 100%;
         font-size: 17px
     }
 
