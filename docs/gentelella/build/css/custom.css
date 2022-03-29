@@ -455,7 +455,7 @@ body {
 }
 
 .page-title .title_left {
-    width: 45%;
+    width: 100%;
     float: left;
     display: block
 }
