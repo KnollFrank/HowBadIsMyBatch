@@ -33,7 +33,7 @@ class MedianOfFreeBedsByKreisChartView {
                     label: label,
                     data: data,
                     parsing: {
-                        yAxisKey: 'median_free_beds_in_percent'
+                        xAxisKey: 'median_free_beds_in_percent'
                     },
                     backgroundColor: 'rgba(0, 255, 0, 1)'
                 }
@@ -43,6 +43,7 @@ class MedianOfFreeBedsByKreisChartView {
 
     #getOptions(label) {
         return {
+            indexAxis: 'y',
             plugins: {
                 title: {
                     display: true,
@@ -56,16 +57,16 @@ class MedianOfFreeBedsByKreisChartView {
             },
             responsive: true,
             scales: {
-                x: {
+                y: {
                     title: {
                         display: true,
                         text: 'Landkreis'
                     }
                 },
-                y: UIUtils.getPercentageScale(label)
+                x: UIUtils.getPercentageScale(label)
             },
             parsing: {
-                xAxisKey: 'Kreis'
+                yAxisKey: 'Kreis'
             }
         };
     }
