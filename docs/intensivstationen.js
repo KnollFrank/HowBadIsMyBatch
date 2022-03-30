@@ -72,7 +72,7 @@ function createSlider(sliderElement, range, onUpdate) {
             connect: true,
             range: range,
             step: 1,
-            orientation: 'horizontal'
+            orientation: 'vertical'
         });
     sliderElement.noUiSlider.on('update', onUpdate);
 }
