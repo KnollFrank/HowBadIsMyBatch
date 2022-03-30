@@ -36,7 +36,7 @@
     top: auto;
 }
 
-@media screen and (min-width:800px) {
+/*@media screen and (min-width:800px) {
     #forkongithub {
         position: absolute;
         display: block;
@@ -60,4 +60,4 @@
         -o-transform: rotate(45deg);
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
     }
-}
+}*/
