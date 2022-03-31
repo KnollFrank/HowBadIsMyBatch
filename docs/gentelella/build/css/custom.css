@@ -4905,6 +4905,16 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
     /*prevent datatables overflowing its container*/
 }
 
-.noUi-target {
-    height: 300px;
-  }
+.chartWithSlider {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.chartWithSlider .chart {
+    flex: 95%;
+}
+
+.chartWithSlider .slider {
+    flex: 5%;
+}

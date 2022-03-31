@@ -61,10 +61,11 @@ function _displayMedianOfFreeBedsByKreisChart(canvas, sliderElement, data) {
             min: 0,
             max: data.length - 1
         },
+        canvas.style.height,
         ([start, end]) => medianOfFreeBedsByKreisChartView.setData(data.slice(start, end + 1)));
 }
 
-function createSlider(sliderElement, range, onUpdate) {
+function createSlider(sliderElement, range, height, onUpdate) {
     noUiSlider.create(
         sliderElement,
         {
@@ -75,4 +76,5 @@ function createSlider(sliderElement, range, onUpdate) {
             orientation: 'vertical'
         });
     sliderElement.noUiSlider.on('update', onUpdate);
+    sliderElement.style.height = height;
 }
