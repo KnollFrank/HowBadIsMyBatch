@@ -17,14 +17,22 @@ class UIUtils {
         return selectElement.options[selectElement.selectedIndex];
     }
 
-    static getLabelWithPercent(context) {
+    static getYLabelWithPercent(context) {
+        return UIUtils._getLabelWithPercent(context, context.parsed.y);
+    }
+
+    static getXLabelWithPercent(context) {
+        return UIUtils._getLabelWithPercent(context, context.parsed.x);
+    }
+
+    static _getLabelWithPercent(context, value) {
         let label = context.dataset.label || '';
 
         if (label) {
             label += ': ';
         }
-        if (context.parsed.y !== null) {
-            label += context.parsed.y.toFixed(1) + "%";
+        if (value !== null) {
+            label += value.toFixed(1) + "%";
         }
         return label;
     }

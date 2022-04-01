@@ -86,7 +86,7 @@ class FreeBedsChartView {
                 },
                 tooltip: {
                     callbacks: {
-                        label: UIUtils.getLabelWithPercent
+                        label: UIUtils.getYLabelWithPercent
                     }
                 }
             },

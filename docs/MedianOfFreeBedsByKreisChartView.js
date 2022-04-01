@@ -51,7 +51,7 @@ class MedianOfFreeBedsByKreisChartView {
                 },
                 tooltip: {
                     callbacks: {
-                        label: UIUtils.getLabelWithPercent
+                        label: UIUtils.getXLabelWithPercent
                     }
                 }
             },
