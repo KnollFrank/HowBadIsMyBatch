@@ -4,31 +4,47 @@ function displayIntensiveCareCapacitiesChart(
     headingElement.textContent = kreisText
     fetch(`data/intensivstationen/intensivstationen-${kreisValue}.json`)
         .then(response => response.json())
-        .then(json => {
-            populationElement.textContent = new Intl.NumberFormat().format(json.population);
-            intensiveCareCapacitiesChartView.displayChart({ data: json.data, title: kreisText });
-            createSlider(
-                {
-                    sliderElement: sliderElement,
-                    range: {
-                        min: 0,
-                        max: json.data.length - 1
-                    },
-                    orientation: 'horizontal',
-                    onUpdate: ([start, end]) => intensiveCareCapacitiesChartView.setData(json.data.slice(start, end + 1))
-                });
+        .then(json => _displayIntensiveCareCapacitiesChart({ intensiveCareCapacitiesChartView, sliderElement, populationElement, kreisText, json }));
+}
+
+function _displayIntensiveCareCapacitiesChart({ intensiveCareCapacitiesChartView, sliderElement, populationElement, kreisText, json }) {
+    populationElement.textContent = new Intl.NumberFormat().format(json.population);
+    intensiveCareCapacitiesChartView.displayChart({ data: json.data, title: kreisText });
+    createSlider(
+        {
+            sliderElement: sliderElement,
+            range: {
+                min: 0,
+                max: json.data.length - 1
+            },
+            orientation: 'horizontal',
+            onUpdate: ([start, end]) => intensiveCareCapacitiesChartView.setData(json.data.slice(start, end + 1))
         });
 }
 
-function displayFreeBedsChart({ freeBedsChartView, kreisText, kreisValue }) {
+function displayFreeBedsChart({ freeBedsChartView, sliderElement, kreisText, kreisValue }) {
     fetch(`data/intensivstationen/intensivstationen-${kreisValue}.json`)
         .then(response => response.json())
-        .then(json =>
-            freeBedsChartView.displayChart(
-                {
-                    data: getDataDicts(json.data),
-                    title: kreisText
-                }));
+        .then(json => _displayFreeBedsChart({ freeBedsChartView, sliderElement, kreisText, json }));
+}
+
+function _displayFreeBedsChart({ freeBedsChartView, sliderElement, kreisText, json }) {
+    const data = getDataDicts(json.data);
+    freeBedsChartView.displayChart(
+        {
+            data: data,
+            title: kreisText
+        });
+    createSlider(
+        {
+            sliderElement: sliderElement,
+            range: {
+                min: 0,
+                max: data.length - 1
+            },
+            orientation: 'horizontal',
+            onUpdate: ([start, end]) => freeBedsChartView.setData(data.slice(start, end + 1))
+        });
 }
 
 function getDataDicts(data) {
@@ -79,6 +95,9 @@ function _displayMedianOfFreeBedsByKreisChart(canvas, sliderElement, data) {
 }
 
 function createSlider({ sliderElement, range, orientation, height = null, onUpdate }) {
+    if ('noUiSlider' in sliderElement) {
+        sliderElement.noUiSlider.destroy();
+    }
     noUiSlider.create(
         sliderElement,
         {
