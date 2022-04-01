@@ -18,7 +18,7 @@ function _displayIntensiveCareCapacitiesChart({ intensiveCareCapacitiesChartView
                 max: json.data.length - 1
             },
             orientation: 'horizontal',
-            onUpdate: ([start, end]) => intensiveCareCapacitiesChartView.setData(json.data.slice(start, end + 1))
+            onUpdate: ({ start, end }) => intensiveCareCapacitiesChartView.setData(json.data.slice(start, end + 1))
         });
 }
 
@@ -43,7 +43,7 @@ function _displayFreeBedsChart({ freeBedsChartView, sliderElement, kreisText, js
                 max: data.length - 1
             },
             orientation: 'horizontal',
-            onUpdate: ([start, end]) => freeBedsChartView.setData(data.slice(start, end + 1))
+            onUpdate: ({ start, end }) => freeBedsChartView.setData(data.slice(start, end + 1))
         });
 }
 
@@ -90,7 +90,7 @@ function _displayMedianOfFreeBedsByKreisChart(canvas, sliderElement, data) {
             },
             orientation: 'vertical',
             height: canvas.style.height,
-            onUpdate: ([start, end]) => medianOfFreeBedsByKreisChartView.setData(data.slice(start, end + 1))
+            onUpdate: ({ start, end }) => medianOfFreeBedsByKreisChartView.setData(data.slice(start, end + 1))
         });
 }
 
@@ -107,7 +107,9 @@ function createSlider({ sliderElement, range, orientation, height = null, onUpda
             step: 1,
             orientation: orientation
         });
-    sliderElement.noUiSlider.on('update', onUpdate);
+    sliderElement.noUiSlider.on(
+        'update',
+        ([start, end]) => onUpdate({ start: parseInt(start, 10), end: parseInt(end, 10) }));
     if (height != null) {
         sliderElement.style.height = height;
     }
