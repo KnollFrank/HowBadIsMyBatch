@@ -49,6 +49,7 @@
       displayIntensiveCareCapacitiesChart(
         {
           intensiveCareCapacitiesChartView: intensiveCareCapacitiesChartView,
+          sliderElement: document.getElementById('slider4intensiveCareCapacities'),
           headingElement: document.querySelector(".heading"),
           populationElement: document.querySelector(".population"),
           kreisText: selectedOption.text,
@@ -536,6 +537,7 @@
                   <h3 class="heading"></h3>
                   Einwohnerzahl: <span class="population"></span>
                   <canvas id="intensiveCareCapacities"></canvas>
+                  <div id="slider4intensiveCareCapacities"></div>
                 </div>
               </div>
             </div>

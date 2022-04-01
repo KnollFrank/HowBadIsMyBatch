@@ -1,5 +1,5 @@
 function displayIntensiveCareCapacitiesChart(
-    { intensiveCareCapacitiesChartView, headingElement, populationElement, kreisText, kreisValue }) {
+    { intensiveCareCapacitiesChartView, sliderElement, headingElement, populationElement, kreisText, kreisValue }) {
 
     headingElement.textContent = kreisText
     fetch(`data/intensivstationen/intensivstationen-${kreisValue}.json`)
@@ -7,6 +7,16 @@ function displayIntensiveCareCapacitiesChart(
         .then(json => {
             populationElement.textContent = new Intl.NumberFormat().format(json.population);
             intensiveCareCapacitiesChartView.displayChart({ data: json.data, title: kreisText });
+            createSlider(
+                {
+                    sliderElement: sliderElement,
+                    range: {
+                        min: 0,
+                        max: json.data.length - 1
+                    },
+                    orientation: 'horizontal',
+                    onUpdate: ([start, end]) => intensiveCareCapacitiesChartView.setData(json.data.slice(start, end + 1))
+                });
         });
 }
 
@@ -56,16 +66,19 @@ function _displayMedianOfFreeBedsByKreisChart(canvas, sliderElement, data) {
     const medianOfFreeBedsByKreisChartView = new MedianOfFreeBedsByKreisChartView(canvas);
     medianOfFreeBedsByKreisChartView.displayChart(data);
     createSlider(
-        sliderElement,
         {
-            min: 0,
-            max: data.length - 1
-        },
-        canvas.style.height,
-        ([start, end]) => medianOfFreeBedsByKreisChartView.setData(data.slice(start, end + 1)));
+            sliderElement: sliderElement,
+            range: {
+                min: 0,
+                max: data.length - 1
+            },
+            orientation: 'vertical',
+            height: canvas.style.height,
+            onUpdate: ([start, end]) => medianOfFreeBedsByKreisChartView.setData(data.slice(start, end + 1))
+        });
 }
 
-function createSlider(sliderElement, range, height, onUpdate) {
+function createSlider({ sliderElement, range, orientation, height = null, onUpdate }) {
     noUiSlider.create(
         sliderElement,
         {
@@ -73,8 +86,10 @@ function createSlider(sliderElement, range, height, onUpdate) {
             connect: true,
             range: range,
             step: 1,
-            orientation: 'vertical'
+            orientation: orientation
         });
     sliderElement.noUiSlider.on('update', onUpdate);
-    sliderElement.style.height = height;
+    if (height != null) {
+        sliderElement.style.height = height;
+    }
 }
