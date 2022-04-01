@@ -48,6 +48,12 @@ class FreeBedsChartView {
         return { beforeDraw: drawTrafficLights };
     }
 
+    setData(data) {
+        this.#chart.config.data.datasets[0].data = data;
+        this.#chart.config.data.datasets[1].data = data;
+        this.#chart.update();
+    }
+
     #getData(data, label) {
         return {
             datasets: [
