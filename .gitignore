@@ -10,3 +10,4 @@ src/results/
 docs/data/*.xlsx
 docs/data/*.html
 .env
+src/captchaImage.jpeg
