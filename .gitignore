@@ -11,3 +11,5 @@ docs/data/*.xlsx
 docs/data/*.html
 .env
 src/captchaImage.jpeg
+src/HowBadIsMyBatch.nbconvert.ipynb
+src/HowBadIsMyBatch.nbconvert.html
