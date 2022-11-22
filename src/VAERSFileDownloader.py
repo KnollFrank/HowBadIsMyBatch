@@ -3,6 +3,8 @@ import time
 from WebDriver import getWebDriver, isCaptchaSolved, saveCaptchaImageAs
 from selenium.webdriver.common.by import By
 from CaptchaReader import getTextInCaptchaImage
+from zipUtils import unzipAndRemove
+
 
 #def getTextInCaptchaImage(captchaImageFile):
 #    baseDir = "~/AndroidStudioProjects/TextRecognizer"
@@ -47,3 +49,9 @@ def downloadVAERSFile(file, downloadDir):
         maxTries = None)
     driver.quit()
     return downloadedFile
+
+def downloadVAERSFileAndUnzip(file, workingDirectory):
+    downloadedFile = downloadVAERSFile(file, workingDirectory + "/VAERS/tmp")
+    unzipAndRemove(
+        zipFile = downloadedFile,
+        dstDir = workingDirectory + '/VAERS/')
