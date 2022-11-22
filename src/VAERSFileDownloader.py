@@ -56,7 +56,8 @@ def downloadVAERSFileAndUnzip(file, workingDirectory):
         zipFile = downloadedFile,
         dstDir = workingDirectory + '/VAERS/')
 
-def updateVAERSFiles(needsUpdate,  workingDirectory):
+def updateVAERSFiles(needsUpdate,  years, workingDirectory):
     if needsUpdate:
-        downloadVAERSFileAndUnzip('2022VAERSData.zip', workingDirectory)
+        for year in years:
+            downloadVAERSFileAndUnzip(f'{year}VAERSData.zip', workingDirectory)
         downloadVAERSFileAndUnzip('NonDomesticVAERSData.zip', workingDirectory)
