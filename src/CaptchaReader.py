@@ -56,18 +56,23 @@ def decode_batch_predictions(pred):
         output_text.append(res)
     return output_text
 
+model = None
+def _getModel():
+    global model
+    if model is None:
+        print("loading model...")
+        model = load_model()
+        model.summary()
+    return model
+
 def load_model():
     _model = keras.models.load_model('model')
-    model = keras.models.Model(
+    __model = keras.models.Model(
         _model.get_layer(name="image").input,
         _model.get_layer(name="dense2").output)
-    return model
+    return __model
 
 def getTextInCaptchaImage(captchaImageFile):
     batchImages = encode_single_sample(captchaImageFile)
-    preds = model.predict(batchImages)
+    preds = _getModel().predict(batchImages)
     return decode_batch_predictions(preds)[0]
-
-print("loading model...")
-model = load_model()
-model.summary()
