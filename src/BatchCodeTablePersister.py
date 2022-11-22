@@ -7,8 +7,7 @@ from HtmlUtils import getCountries
 def createAndSaveBatchCodeTables(internationalVaersCovid19, minADRsForLethality):
     batchCodeTableFactory = BatchCodeTableFactory(internationalVaersCovid19)
     _createAndSaveBatchCodeTablesForCountries(
-        createBatchCodeTableForCountry=lambda country: batchCodeTableFactory.createBatchCodeTableByCountry(
-            country),
+        createBatchCodeTableForCountry=lambda country: batchCodeTableFactory.createBatchCodeTableByCountry(country),
         countries=getCountries(internationalVaersCovid19),
         minADRsForLethality=minADRsForLethality)
     _createAndSaveBatchCodeTableForCountry(
