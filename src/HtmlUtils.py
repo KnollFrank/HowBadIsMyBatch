@@ -1,3 +1,7 @@
+def getCountries(internationalVaersCovid19):
+    return sorted(internationalVaersCovid19['COUNTRY'].unique())
+
+
 def getCountryOptions(countries):
     return ['<option value="Global" selected>Global</option>'] + _getCountryOptions(countries)
 
