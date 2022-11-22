@@ -7,16 +7,16 @@ from DateProvider import DateProvider
 from BatchCodeTablePersister import createAndSaveBatchCodeTables
 
 
-def updateBatchCodeTableHtmlFile(internationalVaersCovid19):
+def updateBatchCodeTableHtmlFile(internationalVaersCovid19, batchCodeTableHtmlFile):
     countryOptions = getCountryOptions(getCountries(internationalVaersCovid19))
-    saveCountryOptions(countryOptions)
-    saveLastUpdatedBatchCodeTable(DateProvider().getLastUpdatedDataSource())
+    _saveCountryOptions(countryOptions, batchCodeTableHtmlFile)
+    _saveLastUpdatedBatchCodeTable(DateProvider().getLastUpdatedDataSource(), batchCodeTableHtmlFile)
     createAndSaveBatchCodeTables(internationalVaersCovid19, minADRsForLethality=100)
 
 
-def saveCountryOptions(countryOptions):
+def _saveCountryOptions(countryOptions, batchCodeTableHtmlFile):
     HtmlTransformerUtil().applySoupTransformerToFile(
-        file = "../docs/batchCodeTable.html",
+        file = batchCodeTableHtmlFile,
         soupTransformer =
             lambda soup:
                 BeautifulSoup(
@@ -24,12 +24,12 @@ def saveCountryOptions(countryOptions):
                     'lxml'))
 
 
-def saveLastUpdatedBatchCodeTable(lastUpdated):
+def _saveLastUpdatedBatchCodeTable(lastUpdated, batchCodeTableHtmlFile):
     def setLastUpdated(soup):
         soup.find(id = "last_updated").string.replace_with(lastUpdated.strftime(DateProvider.DATE_FORMAT))
         return soup
 
     HtmlTransformerUtil().applySoupTransformerToFile(
-        file = "../docs/batchCodeTable.html",
+        file = batchCodeTableHtmlFile,
         soupTransformer = setLastUpdated)
     
