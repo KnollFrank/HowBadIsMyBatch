@@ -10,4 +10,5 @@ dependencies:
   - requests
   - bs4
   - lxml
+  - jupyter
 prefix: /home/frankknoll/anaconda3/envs/howbadismybatch-venv
