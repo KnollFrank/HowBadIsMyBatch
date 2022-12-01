@@ -33,3 +33,8 @@ fcrontab -l
 
 systemctl status fcron
 tail -f /var/log/syslog
+
+conda create --name howbadismybatch-venv python=3
+conda activate howbadismybatch-venv
+conda env export --from-history > environment.yml
+conda env create -f environment.yml

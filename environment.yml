@@ -1,0 +1,14 @@
+name: howbadismybatch-venv
+channels:
+  - defaults
+dependencies:
+  - python=3
+  - ipykernel
+  - numpy
+  - pandas
+  - urllib3
+  - requests
+  - bs4
+  - lxml
+  - jupyter
+prefix: /home/frankknoll/anaconda3/envs/howbadismybatch-venv
