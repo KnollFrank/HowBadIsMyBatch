@@ -8,9 +8,7 @@ jupyter nbconvert --to html Intensivstationen.nbconvert.ipynb
 mailx -a 'Content-Type: text/html' -s "Intensivstationen" -r Knoll_Frank@web.de Knoll_Frank@web.de < Intensivstationen.nbconvert.html
 
 cd /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-pages/src
-conda activate howbadismybatch-venv
-jupyter nbconvert --to notebook --allow-errors --execute HowBadIsMyBatch.ipynb
+conda activate howbadismybatch-venv; jupyter nbconvert --to notebook --allow-errors --execute HowBadIsMyBatch.ipynb
 jupyter nbconvert --to html HowBadIsMyBatch.nbconvert.ipynb
 mailx -a 'Content-Type: text/html' -s "How Bad is My Batch" -r Knoll_Frank@web.de Knoll_Frank@web.de < HowBadIsMyBatch.nbconvert.html
-conda deactivate
 EOF

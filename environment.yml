@@ -11,4 +11,5 @@ dependencies:
   - bs4
   - lxml
   - jupyter
+  - tensorflow
 prefix: /home/frankknoll/anaconda3/envs/howbadismybatch-venv
