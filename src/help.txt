@@ -1,15 +1,5 @@
 jupyter notebook
 
-zwei Spalten darstellen:
-- linke und rechte Spalte jeweils mit Bundesland-Menu und Landkreise-Submenu des ausgewählten Bundeslandes
-- Dargestellt werden in einem Chart die freien Betten + belegten Betten des ausgewählten Landkreises
-  (analog zu "Gesamtzahl gemeldeter Intensivbetten (Betreibbare Betten und Notfallreserve)", siehe https://www.intensivregister.de/#/aktuelle-lage/zeitreihen)
-- Zugrundegelegter Datensatz: zeitreihe-tagesdaten.csv aus https://www.intensivregister.de/#/aktuelle-lage/downloads
-
-src/intensivstationen/AGS_2022-02-28.json downloaded from https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags
-
-04-kreise.xlsx: https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/04-kreise.html
-COVID-19_Todesfaelle.xlsx: https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Projekte_RKI/COVID-19_Todesfaelle.html
 
 get VAERS data:
 - download data (e.g. 2022VAERSData.zip) from https://vaers.hhs.gov/data/datasets.html and save and unzip in VAERS folder
@@ -17,24 +7,13 @@ get VAERS data:
 FK-FIXME:
 
 FK-TODO:
-- Darstellung als Dashboard, siehe https://covid-karte.de/ oder https://experience.arcgis.com/experience/3a132983ad3c4ab8a28704e9addefaba, https://preview.tabler.io/
-- Alle Charts mit Slidern versehen?
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
 
-man 5 fcrontab
-
-fcrontab -e
-
-fcrontab -l
-# each day at 13:30 Uhr
-30 13 * * * /home/frankknoll/Dokumente/Corona/projects/HowBadIsMyBatch-pages/src/intensivstationen/intensivstationen.sh
-
-systemctl status fcron
-tail -f /var/log/syslog
-
 conda create --name howbadismybatch-venv python=3
 conda activate howbadismybatch-venv
+ipython kernel install --user --name=howbadismybatch-venv-kernel
+jupyter kernelspec list
 conda env export --from-history > environment.yml
 conda env create -f environment.yml
