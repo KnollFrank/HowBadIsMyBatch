@@ -12,4 +12,5 @@ dependencies:
   - lxml
   - jupyter
   - tensorflow
+  - nb_conda_kernels
 prefix: /home/frankknoll/anaconda3/envs/howbadismybatch-venv
