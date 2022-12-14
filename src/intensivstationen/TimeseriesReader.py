@@ -1,8 +1,14 @@
 import pandas as pd
 from urllib import request
-
+from ColumnsAdder import ColumnsAdder
+from KreiseReader import readKreise
 
 def readTimeseries(download = False):
+    timeSeries = _readTimeseries(download = download)
+    timeSeries = ColumnsAdder(readKreise()).addKreisAndBundeslandAndEinwohnerzahlColumns(timeSeries)
+    return timeSeries
+
+def _readTimeseries(download = False):
     timeSeriesFile = 'zeitreihe-tagesdaten.csv'
     if download:
         _downloadTimeseries(timeSeriesFile)
