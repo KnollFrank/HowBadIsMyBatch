@@ -1,4 +1,5 @@
 import os
+import json
 
 class IOUtils:
 
@@ -31,6 +32,12 @@ class IOUtils:
             file + '.json',
             orient = "split",
             index = False)
+
+    @staticmethod
+    def saveDictAsJson(dict, file):
+        IOUtils.ensurePath(file)
+        with open(file, 'w') as outfile:
+            json.dump(dict, outfile)
 
     @staticmethod
     def ensurePath(file):
