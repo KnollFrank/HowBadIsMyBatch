@@ -1,9 +1,5 @@
 jupyter notebook
 
-
-get VAERS data:
-- download data (e.g. 2022VAERSData.zip) from https://vaers.hhs.gov/data/datasets.html and save and unzip in VAERS folder
-
 FK-FIXME:
 
 FK-TODO:
