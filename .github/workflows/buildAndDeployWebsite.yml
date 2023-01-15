@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # '*/5 * * * *'
-    - cron: '30 19 * * *'
+    - cron: '30 17 * * *'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
