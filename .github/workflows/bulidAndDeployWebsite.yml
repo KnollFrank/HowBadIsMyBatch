@@ -3,22 +3,22 @@ run-name: build and deploy website
 on:
   workflow_dispatch:
   schedule:
-    # daily at 19:30: '30 19 * * *'
-    - cron: '*/5 * * * *'
+    # '*/5 * * * *'
+    - cron: '30 19 * * *'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
+      - name: Checking out repository code
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.HOW_BAD_IS_MY_BATCH_ACCESS_TOKEN }}
-      - name: installing dependencies
+      - name: Installing dependencies
         uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: howbadismybatch-venv
           environment-file: environment.yml
-      - name: installing Google Chrome
+      - name: Installing Google Chrome
         shell: bash -el {0}
         run: |
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -26,7 +26,7 @@ jobs:
           sudo apt install google-chrome-stable
           pip install selenium webdriver-manager
           pip install pycountry
-      - name: executing HowBadIsMyBatch.ipynb
+      - name: Executing HowBadIsMyBatch.ipynb
         shell: bash -el {0}
         run: |
           git config --global user.email "Knoll_Frank@web.de"
