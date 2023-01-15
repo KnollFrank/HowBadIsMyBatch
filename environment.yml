@@ -1,6 +1,7 @@
 name: howbadismybatch-venv
 channels:
   - defaults
+  # - conda-forge
 dependencies:
   - python=3
   - ipykernel
@@ -13,4 +14,8 @@ dependencies:
   - jupyter
   - tensorflow
   - nb_conda_kernels
+  - pillow
+  # - selenium
+  # - webdriver-manager
+  # - pycountry
 prefix: /home/frankknoll/anaconda3/envs/howbadismybatch-venv
