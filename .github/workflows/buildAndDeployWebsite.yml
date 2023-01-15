@@ -29,14 +29,15 @@ jobs:
       - name: Executing HowBadIsMyBatch.ipynb
         shell: bash -el {0}
         run: |
-          git config --global user.email "Knoll_Frank@web.de"
-          git config --global user.name "FK"
           ipython kernel install --user --name=howbadismybatch-venv-kernel
           cd src
           jupyter nbconvert --ExecutePreprocessor.kernel_name="howbadismybatch-venv-kernel" --to notebook --allow-errors --execute HowBadIsMyBatch.ipynb
           jupyter nbconvert --to html HowBadIsMyBatch.nbconvert.ipynb
-      - name: Archiving HowBadIsMyBatch.nbconvert.html
-        uses: actions/upload-artifact@v3
-        with:
-          name: HowBadIsMyBatch.nbconvert.html
-          path: src/HowBadIsMyBatch.nbconvert.html
+      - name Pushing changes to GitHub Pages
+        shell: bash -el {0}
+        run: |
+          git config --global user.email "Knoll_Frank@web.de"
+          git config --global user.name "FK"
+          git add -A
+          git commit -m "updating data for batch codes"
+          git push
