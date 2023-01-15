@@ -33,7 +33,7 @@ jobs:
           cd src
           jupyter nbconvert --ExecutePreprocessor.kernel_name="howbadismybatch-venv-kernel" --to notebook --allow-errors --execute HowBadIsMyBatch.ipynb
           jupyter nbconvert --to html HowBadIsMyBatch.nbconvert.ipynb
-      - name Pushing changes to GitHub Pages
+      - name: Pushing changes to GitHub Pages
         shell: bash -el {0}
         run: |
           git config --global user.email "Knoll_Frank@web.de"
