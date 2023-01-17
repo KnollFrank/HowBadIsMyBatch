@@ -16,7 +16,7 @@ from zipUtils import unzipAndRemove
 def solveCaptchaAndStartFileDownload(driver, captchaImageFile):
     saveCaptchaImageAs(driver, captchaImageFile)
     textInCaptchaImage = getTextInCaptchaImage(captchaImageFile)
-    display('textInCaptchaImage: ', textInCaptchaImage)
+    print('textInCaptchaImage: ', textInCaptchaImage)
     driver.find_element(By.ID, "verificationCode").send_keys(textInCaptchaImage)
     driver.find_element(By.CSS_SELECTOR, '[name="downloadbut"]').click()
 
@@ -58,5 +58,5 @@ def downloadVAERSFileAndUnzip(file, workingDirectory):
 
 def updateVAERSFiles(years, workingDirectory):
     for year in years:
-        downloadVAERSFileAndUnzip(f'{year}VAERSData.zip', workingDirectory)
+        downloadVAERSFileAndUnzip('{year}VAERSData.zip'.format(year=year), workingDirectory)
     downloadVAERSFileAndUnzip('NonDomesticVAERSData.zip', workingDirectory)
