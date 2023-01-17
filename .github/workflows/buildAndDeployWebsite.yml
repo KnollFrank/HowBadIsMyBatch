@@ -45,7 +45,7 @@ jobs:
       - name: Executing Intensivstationen.ipynb
         shell: bash -el {0}
         run: |
-          src/intensivstationen
+          cd src/intensivstationen
           jupyter nbconvert --ExecutePreprocessor.kernel_name="howbadismybatch-venv-kernel" --to notebook --allow-errors --execute Intensivstationen.ipynb
           jupyter nbconvert --to html Intensivstationen.nbconvert.ipynb
           git add -A
