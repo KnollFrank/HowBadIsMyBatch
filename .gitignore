@@ -1,7 +1,6 @@
 src/VAERS/
 src/intensivstationen/zeitreihe-tagesdaten.csv
 src/intensivstationen/geckodriver.log
-src/intensivstationen/Intensivstationen.nbconvert.ipynb
 src/intensivstationen/Intensivstationen.nbconvert.html
 .ipynb_checkpoints/
 .history/
