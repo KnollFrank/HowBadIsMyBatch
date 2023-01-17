@@ -15,7 +15,7 @@ dependencies:
   - tensorflow
   - nb_conda_kernels
   - pillow
-  - python-decouple
+  # - python-decouple
   # - selenium
   # - webdriver-manager
   # - pycountry

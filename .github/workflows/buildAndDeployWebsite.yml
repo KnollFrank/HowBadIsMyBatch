@@ -30,6 +30,7 @@ jobs:
           sudo apt install google-chrome-stable
           pip install selenium webdriver-manager
           pip install pycountry
+          pip install python-decouple
       - name: Installing ipython kernel
         shell: bash -el {0}
         run: |
