@@ -50,7 +50,7 @@ jobs:
           jupyter nbconvert --to html Intensivstationen.nbconvert.ipynb
           git add -A
           git commit -m "updating data for Intensivstationen"
-      - name: Pushing changes
+      - name: Pushing changes to GitHub Pages
         shell: bash -el {0}
         run: |
           git push
