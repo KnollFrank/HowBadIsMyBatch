@@ -3,7 +3,9 @@ import requests
 from datetime import datetime
 from time import sleep
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.chrome.options import Options
 import pandas as pd
 
 class DateProvider:
@@ -39,14 +41,22 @@ class DateProvider:
         options = Options()
         options.headless = True
         options.add_argument("-profile")
-        # put the root directory your default profile path here, you can check it by opening Firefox and then pasting 'about:profiles' into the url field 
-        options.add_argument("/home/frankknoll/snap/firefox/common/.mozilla/firefox/1j6r2yp6.default")
-        driver = webdriver.Firefox(options = options)
+        driver = self._getWebDriver()
         driver.get('https://www.intensivregister.de/#/aktuelle-lage/downloads')
         sleep(10)
         innerHTML = driver.execute_script("return document.body.innerHTML")
         driver.quit()
         return innerHTML
+
+    def _getWebDriver(self):
+        return webdriver.Chrome(
+            service = ChromeService(executable_path = ChromeDriverManager().install()),
+            options = self._getOptions())
+
+    def _getOptions(self):
+        options = Options()
+        options.headless = True
+        return options
 
     def _asDataFrame(self, html, lastUpdatedColumn):
         dataFrame = pd.read_html(html, parse_dates = [lastUpdatedColumn])[0]
