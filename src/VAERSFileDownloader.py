@@ -16,7 +16,7 @@ from zipUtils import unzipAndRemove
 def solveCaptchaAndStartFileDownload(driver, captchaImageFile):
     saveCaptchaImageAs(driver, captchaImageFile)
     textInCaptchaImage = getTextInCaptchaImage(captchaImageFile)
-    display('textInCaptchaImage: ', textInCaptchaImage)
+    print('textInCaptchaImage:', textInCaptchaImage)
     driver.find_element(By.ID, "verificationCode").send_keys(textInCaptchaImage)
     driver.find_element(By.CSS_SELECTOR, '[name="downloadbut"]').click()
 
