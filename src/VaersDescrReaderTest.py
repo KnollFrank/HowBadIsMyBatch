@@ -22,8 +22,7 @@ class VaersDescrReaderTest(unittest.TestCase):
                     data = [  [pd.to_datetime('01/01/2023', format = "%m/%d/%Y"),   np.nan,  np.nan,    np.nan,     np.nan,     np.nan,    np.nan]],
                     index = pd.Index(
                             name = 'VAERS_ID',
-                            data=[2547730])),
-                check_dtype = False)
+                            data=[2547730])))
         assert_frame_equal(
                 vaersDescr['VAERSVAX'],
                 TestHelper.createDataFrame(
@@ -31,5 +30,20 @@ class VaersDescrReaderTest(unittest.TestCase):
                     data = [  ['COVID19',  'JANSSEN',  '1808982', 'UNK']],
                     index = pd.Index(
                             name = 'VAERS_ID',
-                            data=[2547730])),
-                check_dtype = False)
+                            data=[2547730]),
+                    dtypes = {
+                        'VAX_DOSE_SERIES': 'string',
+                        'VAX_LOT': 'string'}))
+        assert_frame_equal(
+                vaersDescr['VAERSSYMPTOMS'],
+                TestHelper.createDataFrame(
+                    columns = ['SYMPTOM1',                            'SYMPTOM2',                'SYMPTOM3',        'SYMPTOM4',                   'SYMPTOM5'],
+                    data = [  ['Blood pressure orthostatic abnormal', 'COVID-19',                'Coma',            'Computerised tomogram',      'Exposure to SARS-CoV-2'],
+                              ['Head injury',                         'Headache',                'Laboratory test', 'Magnetic resonance imaging', 'SARS-CoV-2 antibody test negative'],
+                              ['SARS-CoV-2 test positive',            'Unresponsive to stimuli', 'X-ray',           np.nan,                       np.nan]],
+                    index = pd.Index(
+                            name = 'VAERS_ID',
+                            data=[
+                                2547730,
+                                2547730,
+                                2547730])))
