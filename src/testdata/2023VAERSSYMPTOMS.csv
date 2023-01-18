@@ -1,0 +1,4 @@
+VAERS_ID,SYMPTOM1,SYMPTOMVERSION1,SYMPTOM2,SYMPTOMVERSION2,SYMPTOM3,SYMPTOMVERSION3,SYMPTOM4,SYMPTOMVERSION4,SYMPTOM5,SYMPTOMVERSION5
+2547730,Blood pressure orthostatic abnormal,25.10,COVID-19,25.10,Coma,25.10,Computerised tomogram,25.10,Exposure to SARS-CoV-2,25.10
+2547730,Head injury,25.10,Headache,25.10,Laboratory test,25.10,Magnetic resonance imaging,25.10,SARS-CoV-2 antibody test negative,25.10
+2547730,SARS-CoV-2 test positive,25.10,Unresponsive to stimuli,25.10,X-ray,25.10,,,,
