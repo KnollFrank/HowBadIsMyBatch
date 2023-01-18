@@ -31,7 +31,11 @@ class VaersDescrReader:
         return self._read_csv(
             file = file,
             usecols = ['VAERS_ID', 'VAX_DOSE_SERIES', 'VAX_TYPE', 'VAX_MANU', 'VAX_LOT'],
-            dtype = {"VAX_DOSE_SERIES": "string"})
+            dtype =
+                {
+                    "VAX_DOSE_SERIES": "string",
+                    "VAX_LOT": "string"
+                })
 
     def _read_csv(self, file, **kwargs):
         return pd.read_csv(
