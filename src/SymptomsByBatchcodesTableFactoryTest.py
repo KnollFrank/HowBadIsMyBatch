@@ -40,8 +40,20 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
         assert_frame_equal(
             symptomsByBatchcodesTable,
             TestHelper.createDataFrame(
-                columns = ['Blood pressure orthostatic abnormal', 'COVID-19', 'Coma', 'Computerised tomogram', 'Exposure to SARS-CoV-2', 'Head injury', 'Headache', 'Laboratory test', 'Magnetic resonance imaging', 'SARS-CoV-2 antibody test negative', 'SARS-CoV-2 test positive', 'Unresponsive to stimuli', 'X-ray'],
-                data = [  [1,                                     1,          1,      1,                        1,                        1,             1,         1,                 1,                            1,                                   1,                          1,                         1]],
+                columns = ['SYMPTOMS'],
+                data = [  ['Blood pressure orthostatic abnormal'],
+                          ['Head injury'],
+                          ['SARS-CoV-2 test positive'],
+                          ['COVID-19'],
+                          ['Headache'],
+                          ['Unresponsive to stimuli'],
+                          ['Coma'],
+                          ['Laboratory test'],
+                          ['X-ray'],
+                          ['Computerised tomogram'],
+                          ['Magnetic resonance imaging'],
+                          ['Exposure to SARS-CoV-2'],
+                          ['SARS-CoV-2 antibody test negative']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [['1808982',  'EW0175']])))
+                    tuples = [['1808982',  'EW0175']] * 13)))
