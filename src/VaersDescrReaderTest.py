@@ -26,11 +26,14 @@ class VaersDescrReaderTest(unittest.TestCase):
         assert_frame_equal(
                 vaersDescr['VAERSVAX'],
                 TestHelper.createDataFrame(
-                    columns = ['VAX_TYPE', 'VAX_MANU', 'VAX_LOT', 'VAX_DOSE_SERIES'],
-                    data = [  ['COVID19',  'JANSSEN',  '1808982', 'UNK']],
+                    columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES'],
+                    data = [  ['COVID19',  'JANSSEN',         '1808982', 'UNK'],
+                              ['COVID19',  'PFIZER\BIONTECH', 'EW0175',  '1']],
                     index = pd.Index(
                             name = 'VAERS_ID',
-                            data=[2547730]),
+                            data=[
+                                2547730,
+                                2547730]),
                     dtypes = {
                         'VAX_DOSE_SERIES': 'string',
                         'VAX_LOT': 'string'}))
