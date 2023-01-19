@@ -13,3 +13,5 @@ ipython kernel install --user --name=howbadismybatch-venv-kernel
 jupyter kernelspec list
 conda env export --from-history > environment.yml
 conda env create -f environment.yml
+
+internationalVaersCovid19.reset_index()['VAERS_ID'].value_counts()
