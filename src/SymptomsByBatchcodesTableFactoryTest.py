@@ -61,9 +61,9 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
     def test_createSymptomsByBatchcodesTable_two_patients_same_symptoms(self):
         # Given
         VAERSVAX = TestHelper.createDataFrame(
-            columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES'],
-            data = [  ['COVID19',  'JANSSEN',         'EW0175',  '1'],
-                      ['COVID19',  'JANSSEN',         'EW0175',  '1']],
+            columns = ['VAX_TYPE', 'VAX_MANU', 'VAX_LOT', 'VAX_DOSE_SERIES'],
+            data = [  ['COVID19',  'JANSSEN',  'EW0175',  '1'],
+                      ['COVID19',  'JANSSEN',  'EW0175',  '1']],
             index = pd.Index(
                     name = 'VAERS_ID',
                     data=[
