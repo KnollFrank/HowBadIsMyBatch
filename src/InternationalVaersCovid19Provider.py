@@ -15,12 +15,12 @@ def getInternationalVaersCovid19(years):
 
 
 def get_international_VAERSVAX_VAERSSYMPTOMS_Covid19(years):
-    international_VAERSVAX, international_VAERSSYMPTOMS = _get_international_VAERSVAX_VAERSSYMPTOMSs(years)
+    international_VAERSVAX, international_VAERSSYMPTOMS = _get_international_VAERSVAX_VAERSSYMPTOMS(years)
     international_VAERSVAX_Covid19 = DataFrameFilter().filterByCovid19(international_VAERSVAX)    
     return international_VAERSVAX_Covid19, international_VAERSSYMPTOMS
 
 
-def _get_international_VAERSVAX_VAERSSYMPTOMSs(years):
+def _get_international_VAERSVAX_VAERSSYMPTOMS(years):
     vaersDescrReader = VaersDescrReader(dataDir = "VAERS")
     internationalVaersDescrs = vaersDescrReader.readVaersDescrsForYears(years) + [vaersDescrReader.readNonDomesticVaersDescr()]
     return _getVaersDescrByName(internationalVaersDescrs, 'VAERSVAX'), _getVaersDescrByName(internationalVaersDescrs, 'VAERSSYMPTOMS')
