@@ -30,7 +30,10 @@ class SymptomsByBatchcodesTableFactory:
     def _getVaxLotsTable(VAERSVAX, index_columns):
         VAX_LOT_LIST_Table = VAERSVAX.groupby("VAERS_ID").agg(VAX_LOT_LIST = pd.NamedAgg(column = 'VAX_LOT', aggfunc = list))
         return pd.DataFrame(
-            [fill(VAX_LOTS, len(index_columns), str(np.nan)) for VAX_LOTS in VAX_LOT_LIST_Table['VAX_LOT_LIST'].tolist()],
+            fillLsts(
+                lsts = VAX_LOT_LIST_Table['VAX_LOT_LIST'].tolist(),
+                desiredLen = len(index_columns),
+                fillValue = str(np.nan)),
             columns = index_columns,
             index = VAX_LOT_LIST_Table.index)
 
@@ -45,5 +48,8 @@ class SymptomsByBatchcodesTableFactory:
                 VAERSSYMPTOMS['SYMPTOM5']
             ]).dropna().to_frame(name = symptomsColumn).reset_index()
 
-def fill(lst, desiredLen, fillValue):
+def fillLsts(lsts, desiredLen, fillValue):
+    return [fillLst(lst, desiredLen, fillValue) for lst in lsts]
+
+def fillLst(lst, desiredLen, fillValue):
     return lst + [fillValue] * (max(desiredLen - len(lst), 0))
