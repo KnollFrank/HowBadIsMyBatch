@@ -92,9 +92,10 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                 columns = ['SYMPTOMS'],
                 data = [  ['Blood pressure orthostatic abnormal'],
                           ['Blood pressure orthostatic abnormal']],
-                index = pd.MultiIndex.from_tuples(
-                    names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [['EW0175', str(np.nan)]] * 2)),
+                index = pd.Index(
+                    name = 'VAX_LOT1',
+                    data = ['EW0175',
+                            'EW0175'])),
                 check_dtype = False)
 
     def test_createSymptomsByBatchcodesTable_two_patients_distinct_symptoms(self):

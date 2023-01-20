@@ -5,12 +5,20 @@ class SymptomsByBatchcodesTableFactory:
 
     @staticmethod
     def createSymptomsByBatchcodesTable(VAERSVAX, VAERSSYMPTOMS):
-        index_columns = ['VAX_LOT1', 'VAX_LOT2']
+        index_columns = SymptomsByBatchcodesTableFactory._getIndexColumns(VAERSVAX)
         return pd.merge(
             SymptomsByBatchcodesTableFactory._get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns),
             SymptomsByBatchcodesTableFactory._getSymptomsTable(VAERSSYMPTOMS),
             on = 'VAERS_ID').set_index(index_columns)[['SYMPTOMS']]
     
+    @staticmethod
+    def _getIndexColumns(VAERSVAX):
+        return [f"VAX_LOT{num}" for num in range(1, SymptomsByBatchcodesTableFactory._getMaxNumShots(VAERSVAX) + 1)]
+
+    @staticmethod
+    def _getMaxNumShots(VAERSVAX):
+        return VAERSVAX.index.value_counts().iloc[0]
+
     @staticmethod
     def _get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns):
         return pd.concat(
@@ -21,7 +29,7 @@ class SymptomsByBatchcodesTableFactory:
     def _getVaxLotsTable(VAERSVAX, index_columns):
         VAX_LOT_LIST_Table = VAERSVAX.groupby("VAERS_ID").agg(VAX_LOT_LIST = pd.NamedAgg(column = 'VAX_LOT', aggfunc = list))
         return pd.DataFrame(
-            [fill(VAX_LOTS, 2, str(np.nan)) for VAX_LOTS in VAX_LOT_LIST_Table['VAX_LOT_LIST'].tolist()],
+            [fill(VAX_LOTS, len(index_columns), str(np.nan)) for VAX_LOTS in VAX_LOT_LIST_Table['VAX_LOT_LIST'].tolist()],
             columns = index_columns,
             index = VAX_LOT_LIST_Table.index)
 
