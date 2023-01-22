@@ -28,7 +28,10 @@ class SymptomsByBatchcodesTableFactory:
 
     @staticmethod
     def _getVaxLotsTable(VAERSVAX, index_columns):
-        VAX_LOT_LIST_Table = VAERSVAX.groupby("VAERS_ID").agg(VAX_LOT_LIST = pd.NamedAgg(column = 'VAX_LOT', aggfunc = list))
+        VAX_LOT_LIST_Table = VAERSVAX.groupby("VAERS_ID").agg(
+            VAX_LOT_LIST = pd.NamedAgg(
+                column = 'VAX_LOT',
+                aggfunc = lambda x: sorted(list(x))))
         return pd.DataFrame(
             fillLsts(
                 lsts = VAX_LOT_LIST_Table['VAX_LOT_LIST'].tolist(),

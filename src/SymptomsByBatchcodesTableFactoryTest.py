@@ -11,8 +11,8 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
         # Given
         VAERSVAX = TestHelper.createDataFrame(
             columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES'],
-            data = [  ['COVID19',  'JANSSEN',         '1808982', 'UNK'],
-                      ['COVID19',  'PFIZER\BIONTECH', 'EW0175',  '1']],
+            data = [  ['COVID19',  'JANSSEN',         'EW0175',  'UNK'],
+                      ['COVID19',  'PFIZER\BIONTECH', '1808982', '1']],
             index = pd.Index(
                     name = 'VAERS_ID',
                     data=[
@@ -56,7 +56,7 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                           ['SARS-CoV-2 antibody test negative']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [['1808982',  'EW0175']] * 13)))
+                    tuples = [['1808982', 'EW0175']] * 13)))
 
     def test_createSymptomsByBatchcodesTable_two_patients_same_symptoms(self):
         # Given
@@ -166,6 +166,6 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                           ['Vision blurred']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [['1808982',  'EW0175']] * 13 + [['EW0175', 'EW0167']] * 10)))
+                    tuples = [['1808982',  'EW0175']] * 13 + [['EW0167', 'EW0175']] * 10)))
 
 
