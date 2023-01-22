@@ -27,11 +27,11 @@ class SymptomsByBatchcodesTableFactory:
             axis='columns').reset_index().drop_duplicates(subset = ['VAERS_ID'] + index_columns)
 
     @staticmethod
-    def _getVaxLotsTable(VAERSVAX, index_columns):
+    def _getVaxLotsTable(VAERSVAX, index_columns):       
         VAX_LOT_LIST_Table = VAERSVAX.groupby("VAERS_ID").agg(
             VAX_LOT_LIST = pd.NamedAgg(
                 column = 'VAX_LOT',
-                aggfunc = lambda x: sorted(list(x))))
+                aggfunc = lambda VAX_LOT_series: list(VAX_LOT_series.sort_values())))
         return pd.DataFrame(
             fillLsts(
                 lsts = VAX_LOT_LIST_Table['VAX_LOT_LIST'].tolist(),

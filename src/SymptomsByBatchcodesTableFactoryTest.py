@@ -5,6 +5,7 @@ from SymptomsByBatchcodesTableFactory import SymptomsByBatchcodesTableFactory
 import pandas as pd
 import numpy as np
 
+# FIXME: brauchen Normalisierung analog zu DataFrameNormalizer.removeUnknownBatchCodes(dataFrame) und DataFrameNormalizer.convertVAX_LOTColumnToUpperCase(dataFrame)
 class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
 
     def test_createSymptomsByBatchcodesTable(self):
@@ -167,5 +168,3 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
                     tuples = [['1808982',  'EW0175']] * 13 + [['EW0167', 'EW0175']] * 10)))
-
-
