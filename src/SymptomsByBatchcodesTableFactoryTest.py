@@ -41,7 +41,7 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
         assert_frame_equal(
             symptomsByBatchcodesTable,
             TestHelper.createDataFrame(
-                columns = ['SYMPTOMS'],
+                columns = ['SYMPTOM'],
                 data = [  ['Blood pressure orthostatic abnormal'],
                           ['Head injury'],
                           ['SARS-CoV-2 test positive'],
@@ -90,7 +90,7 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
         assert_frame_equal(
             symptomsByBatchcodesTable,
             TestHelper.createDataFrame(
-                columns = ['SYMPTOMS'],
+                columns = ['SYMPTOM'],
                 data = [  ['Blood pressure orthostatic abnormal'],
                           ['Blood pressure orthostatic abnormal']],
                 index = pd.Index(
@@ -140,7 +140,7 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
         assert_frame_equal(
             symptomsByBatchcodesTable,
             TestHelper.createDataFrame(
-                columns = ['SYMPTOMS'],
+                columns = ['SYMPTOM'],
                 data = [  ['Blood pressure orthostatic abnormal'],
                           ['Head injury'],
                           ['SARS-CoV-2 test positive'],

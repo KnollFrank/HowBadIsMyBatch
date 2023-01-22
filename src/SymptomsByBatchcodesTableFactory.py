@@ -6,11 +6,11 @@ class SymptomsByBatchcodesTableFactory:
     @staticmethod
     def createSymptomsByBatchcodesTable(VAERSVAX, VAERSSYMPTOMS):
         index_columns = SymptomsByBatchcodesTableFactory._getIndexColumns(VAERSVAX)
-        symptomsColumn = 'SYMPTOMS'
+        symptomColumn = 'SYMPTOM'
         return pd.merge(
             SymptomsByBatchcodesTableFactory._get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns),
-            SymptomsByBatchcodesTableFactory._getSymptomsTable(VAERSSYMPTOMS, symptomsColumn),
-            on = 'VAERS_ID').set_index(index_columns)[[symptomsColumn]]
+            SymptomsByBatchcodesTableFactory._getSymptomsTable(VAERSSYMPTOMS, symptomColumn),
+            on = 'VAERS_ID').set_index(index_columns)[[symptomColumn]]
     
     @staticmethod
     def _getIndexColumns(VAERSVAX):
@@ -41,7 +41,7 @@ class SymptomsByBatchcodesTableFactory:
             index = VAX_LOT_LIST_Table.index)
 
     @staticmethod
-    def _getSymptomsTable(VAERSSYMPTOMS, symptomsColumn):
+    def _getSymptomsTable(VAERSSYMPTOMS, symptomColumn):
         return pd.concat(
             [
                 VAERSSYMPTOMS['SYMPTOM1'],
@@ -49,7 +49,7 @@ class SymptomsByBatchcodesTableFactory:
                 VAERSSYMPTOMS['SYMPTOM3'],
                 VAERSSYMPTOMS['SYMPTOM4'],
                 VAERSSYMPTOMS['SYMPTOM5']
-            ]).dropna().to_frame(name = symptomsColumn).reset_index()
+            ]).dropna().to_frame(name = symptomColumn).reset_index()
 
 def fillLsts(lsts, desiredLen, fillValue):
     return [fillLst(lst, desiredLen, fillValue) for lst in lsts]
