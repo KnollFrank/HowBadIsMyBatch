@@ -1,14 +1,14 @@
 import unittest
 from pandas.testing import assert_frame_equal
 from TestHelper import TestHelper
-from SymptomsByBatchcodesTableFactory import SymptomsByBatchcodesTableFactory
+from SymptomByBatchcodeTableFactory import SymptomByBatchcodeTableFactory
 import pandas as pd
 import numpy as np
 
 # FIXME: brauchen Normalisierung analog zu DataFrameNormalizer.removeUnknownBatchCodes(dataFrame) und DataFrameNormalizer.convertVAX_LOTColumnToUpperCase(dataFrame)
-class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
+class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
 
-    def test_createSymptomsByBatchcodesTable(self):
+    def test_createSymptomByBatchcodeTable(self):
         # Given
         VAERSVAX = TestHelper.createDataFrame(
             columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES'],
@@ -35,11 +35,11 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                         2547730]))
                 
         # When
-        symptomsByBatchcodesTable = SymptomsByBatchcodesTableFactory.createSymptomsByBatchcodesTable(VAERSVAX, VAERSSYMPTOMS)
+        symptomByBatchcodeTable = SymptomByBatchcodeTableFactory.createSymptomByBatchcodeTable(VAERSVAX, VAERSSYMPTOMS)
 
         # Then
         assert_frame_equal(
-            symptomsByBatchcodesTable,
+            symptomByBatchcodeTable,
             TestHelper.createDataFrame(
                 columns = ['SYMPTOM'],
                 data = [  ['Blood pressure orthostatic abnormal'],
@@ -59,7 +59,7 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
                     tuples = [['1808982', 'EW0175']] * 13)))
 
-    def test_createSymptomsByBatchcodesTable_two_patients_same_symptoms(self):
+    def test_createSymptomByBatchcodeTable_two_patients_same_symptoms(self):
         # Given
         VAERSVAX = TestHelper.createDataFrame(
             columns = ['VAX_TYPE', 'VAX_MANU', 'VAX_LOT', 'VAX_DOSE_SERIES'],
@@ -84,11 +84,11 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                         2547731]))
                 
         # When
-        symptomsByBatchcodesTable = SymptomsByBatchcodesTableFactory.createSymptomsByBatchcodesTable(VAERSVAX, VAERSSYMPTOMS)
+        symptomByBatchcodeTable = SymptomByBatchcodeTableFactory.createSymptomByBatchcodeTable(VAERSVAX, VAERSSYMPTOMS)
 
         # Then
         assert_frame_equal(
-            symptomsByBatchcodesTable,
+            symptomByBatchcodeTable,
             TestHelper.createDataFrame(
                 columns = ['SYMPTOM'],
                 data = [  ['Blood pressure orthostatic abnormal'],
@@ -99,7 +99,7 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                             'EW0175'])),
                 check_dtype = False)
 
-    def test_createSymptomsByBatchcodesTable_two_patients_distinct_symptoms(self):
+    def test_createSymptomByBatchcodeTable_two_patients_distinct_symptoms(self):
         # Given
         VAERSVAX = TestHelper.createDataFrame(
             columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES'],
@@ -134,11 +134,11 @@ class SymptomsByBatchcodesTableFactoryTest(unittest.TestCase):
                         2547744]))
                 
         # When
-        symptomsByBatchcodesTable = SymptomsByBatchcodesTableFactory.createSymptomsByBatchcodesTable(VAERSVAX, VAERSSYMPTOMS)
+        symptomByBatchcodeTable = SymptomByBatchcodeTableFactory.createSymptomByBatchcodeTable(VAERSVAX, VAERSSYMPTOMS)
 
         # Then
         assert_frame_equal(
-            symptomsByBatchcodesTable,
+            symptomByBatchcodeTable,
             TestHelper.createDataFrame(
                 columns = ['SYMPTOM'],
                 data = [  ['Blood pressure orthostatic abnormal'],

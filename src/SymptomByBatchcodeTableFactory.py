@@ -1,20 +1,20 @@
 import pandas as pd
 import numpy as np
 
-class SymptomsByBatchcodesTableFactory:
+class SymptomByBatchcodeTableFactory:
 
     @staticmethod
-    def createSymptomsByBatchcodesTable(VAERSVAX, VAERSSYMPTOMS):
-        index_columns = SymptomsByBatchcodesTableFactory._getIndexColumns(VAERSVAX)
+    def createSymptomByBatchcodeTable(VAERSVAX, VAERSSYMPTOMS):
+        index_columns = SymptomByBatchcodeTableFactory._getIndexColumns(VAERSVAX)
         symptomColumn = 'SYMPTOM'
         return pd.merge(
-            SymptomsByBatchcodesTableFactory._get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns),
-            SymptomsByBatchcodesTableFactory._getSymptomsTable(VAERSSYMPTOMS, symptomColumn),
+            SymptomByBatchcodeTableFactory._get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns),
+            SymptomByBatchcodeTableFactory._getSymptomsTable(VAERSSYMPTOMS, symptomColumn),
             on = 'VAERS_ID').set_index(index_columns)[[symptomColumn]]
     
     @staticmethod
     def _getIndexColumns(VAERSVAX):
-        return [f"VAX_LOT{num}" for num in range(1, SymptomsByBatchcodesTableFactory._getMaxNumShots(VAERSVAX) + 1)]
+        return [f"VAX_LOT{num}" for num in range(1, SymptomByBatchcodeTableFactory._getMaxNumShots(VAERSVAX) + 1)]
 
     @staticmethod
     def _getMaxNumShots(VAERSVAX):
@@ -23,7 +23,7 @@ class SymptomsByBatchcodesTableFactory:
     @staticmethod
     def _get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns):
         return pd.concat(
-            [VAERSVAX, SymptomsByBatchcodesTableFactory._getVaxLotsTable(VAERSVAX, index_columns)],
+            [VAERSVAX, SymptomByBatchcodeTableFactory._getVaxLotsTable(VAERSVAX, index_columns)],
             axis='columns').reset_index().drop_duplicates(subset = ['VAERS_ID'] + index_columns)
 
     @staticmethod
