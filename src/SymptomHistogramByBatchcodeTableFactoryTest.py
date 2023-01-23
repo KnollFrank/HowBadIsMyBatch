@@ -11,11 +11,13 @@ class SymptomHistogramByBatchcodeTableFactoryTest(unittest.TestCase):
         symptomByBatchcodeTable = TestHelper.createDataFrame(
                 columns = ['SYMPTOM'],
                 data = [  ['Blood pressure orthostatic abnormal'],
+                          ['Blood pressure orthostatic abnormal'],
                           ['Blood pressure orthostatic abnormal']],
                 index = pd.Index(
                     name = 'VAX_LOT1',
                     data = ['EW0175',
-                            'EW0175']))
+                            'EW0175',
+                            '1808982']))
                 
         # When
         symptomHistogramByBatchcodeTable = SymptomHistogramByBatchcodeTableFactory.createSymptomHistogramByBatchcodeTable(symptomByBatchcodeTable)
@@ -25,8 +27,9 @@ class SymptomHistogramByBatchcodeTableFactoryTest(unittest.TestCase):
             symptomHistogramByBatchcodeTable,
             TestHelper.createDataFrame(
                 columns = ['SYMPTOM_COUNT_BY_VAX_LOT'],
-                data = [  [2]],
+                data = [  [1],
+                          [2]],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'SYMPTOM'],
-                    tuples = [['EW0175',   'Blood pressure orthostatic abnormal']])),
-                check_dtype = False)
+                    tuples = [['1808982',  'Blood pressure orthostatic abnormal'],
+                              ['EW0175',   'Blood pressure orthostatic abnormal']])))
