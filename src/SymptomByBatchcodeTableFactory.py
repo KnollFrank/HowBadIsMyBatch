@@ -1,10 +1,12 @@
 import pandas as pd
 import numpy as np
+from DataFrameNormalizer import DataFrameNormalizer
 
 class SymptomByBatchcodeTableFactory:
 
     @staticmethod
     def createSymptomByBatchcodeTable(VAERSVAX, VAERSSYMPTOMS):
+        DataFrameNormalizer.convertVAX_LOTColumnToUpperCase(VAERSVAX)
         index_columns = SymptomByBatchcodeTableFactory._getIndexColumns(VAERSVAX)
         symptomColumn = 'SYMPTOM'
         return (pd
