@@ -42,14 +42,17 @@ class SymptomByBatchcodeTableFactory:
 
     @staticmethod
     def _getSymptomsTable(VAERSSYMPTOMS, symptomColumn):
-        return pd.concat(
-            [
-                VAERSSYMPTOMS['SYMPTOM1'],
-                VAERSSYMPTOMS['SYMPTOM2'],
-                VAERSSYMPTOMS['SYMPTOM3'],
-                VAERSSYMPTOMS['SYMPTOM4'],
-                VAERSSYMPTOMS['SYMPTOM5']
-            ]).dropna().to_frame(name = symptomColumn).reset_index()
+        return (pd.concat(
+                    [
+                        VAERSSYMPTOMS['SYMPTOM1'],
+                        VAERSSYMPTOMS['SYMPTOM2'],
+                        VAERSSYMPTOMS['SYMPTOM3'],
+                        VAERSSYMPTOMS['SYMPTOM4'],
+                        VAERSSYMPTOMS['SYMPTOM5']
+                    ])
+                    .dropna()
+                    .to_frame(name = symptomColumn)
+                    .reset_index())
 
 def fillLsts(lsts, desiredLen, fillValue):
     return [fillLst(lst, desiredLen, fillValue) for lst in lsts]

@@ -5,4 +5,4 @@ class SymptomHistogramByBatchcodeTableFactory:
         return (symptomByBatchcodeTable
             .groupby(symptomByBatchcodeTable.index.names)
             ['SYMPTOM'].value_counts()
-            .to_frame('SYMPTOM_COUNT_BY_VAX_LOT'))
+            .to_frame(name = 'SYMPTOM_COUNT_BY_VAX_LOT'))
