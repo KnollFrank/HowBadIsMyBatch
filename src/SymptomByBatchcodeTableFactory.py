@@ -7,10 +7,13 @@ class SymptomByBatchcodeTableFactory:
     def createSymptomByBatchcodeTable(VAERSVAX, VAERSSYMPTOMS):
         index_columns = SymptomByBatchcodeTableFactory._getIndexColumns(VAERSVAX)
         symptomColumn = 'SYMPTOM'
-        return pd.merge(
-            SymptomByBatchcodeTableFactory._get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns),
-            SymptomByBatchcodeTableFactory._getSymptomsTable(VAERSSYMPTOMS, symptomColumn),
-            on = 'VAERS_ID').set_index(index_columns)[[symptomColumn]]
+        return (pd
+                    .merge(
+                        SymptomByBatchcodeTableFactory._get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns),
+                        SymptomByBatchcodeTableFactory._getSymptomsTable(VAERSSYMPTOMS, symptomColumn),
+                        on = 'VAERS_ID')
+                    .set_index(index_columns)
+                    [[symptomColumn]])
     
     @staticmethod
     def _getIndexColumns(VAERSVAX):
@@ -22,9 +25,12 @@ class SymptomByBatchcodeTableFactory:
 
     @staticmethod
     def _get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns):
-        return pd.concat(
-            [VAERSVAX, SymptomByBatchcodeTableFactory._getVaxLotsTable(VAERSVAX, index_columns)],
-            axis='columns').reset_index().drop_duplicates(subset = ['VAERS_ID'] + index_columns)
+        return (pd
+                    .concat(
+                        [VAERSVAX, SymptomByBatchcodeTableFactory._getVaxLotsTable(VAERSVAX, index_columns)],
+                        axis = 'columns')
+                    .reset_index()
+                    .drop_duplicates(subset = ['VAERS_ID'] + index_columns))
 
     @staticmethod
     def _getVaxLotsTable(VAERSVAX, index_columns):       
@@ -42,14 +48,15 @@ class SymptomByBatchcodeTableFactory:
 
     @staticmethod
     def _getSymptomsTable(VAERSSYMPTOMS, symptomColumn):
-        return (pd.concat(
-                    [
-                        VAERSSYMPTOMS['SYMPTOM1'],
-                        VAERSSYMPTOMS['SYMPTOM2'],
-                        VAERSSYMPTOMS['SYMPTOM3'],
-                        VAERSSYMPTOMS['SYMPTOM4'],
-                        VAERSSYMPTOMS['SYMPTOM5']
-                    ])
+        return (pd
+                    .concat(
+                        [
+                            VAERSSYMPTOMS['SYMPTOM1'],
+                            VAERSSYMPTOMS['SYMPTOM2'],
+                            VAERSSYMPTOMS['SYMPTOM3'],
+                            VAERSSYMPTOMS['SYMPTOM4'],
+                            VAERSSYMPTOMS['SYMPTOM5']
+                        ])
                     .dropna()
                     .to_frame(name = symptomColumn)
                     .reset_index())
