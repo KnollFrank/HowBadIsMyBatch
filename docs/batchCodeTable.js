@@ -15,19 +15,58 @@ class BatchCodeTableInitializer {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
         this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
         this.#displayCountry('Global')
+        function format(d) {
+            const div = document.createElement("div");
+            const canvas = document.createElement("canvas");
+            canvas.setAttribute("id", "acquisitions");
+            div.appendChild(canvas);
+            return div;
+        }
+        const thisClassInstance = this;
+        $('#' + this.#batchCodeTableElement[0].id + ' tbody').on(
+            'click',
+            'td.dt-control',
+            function () {
+                const tr = $(this).closest('tr');
+                const row = thisClassInstance.#batchCodeTable.row(tr);
+                if (row.child.isShown()) {
+                    row.child.hide();
+                    tr.removeClass('shown');
+                } else {
+                    const div = format(row.data());
+                    row.child(div).show();
+                    new Chart(
+                        div.querySelector('#acquisitions'),
+                        {
+                            type: 'bar',
+                            data: {
+                                datasets: [{
+                                    label: 'Acquisitions by year',
+                                    data: {
+                                        "Circulatory collapse": 1,
+                                        "Hyperhidrosis": 4
+                                    }
+                                }]
+                            }
+                        }
+                    );
+                    tr.addClass('shown');
+                }
+            });
     }
 
     #createEmptyBatchCodeTable() {
         const columnIndex = {
-            'Batch': 0,
-            'Adverse Reaction Reports': 1,
-            'Deaths': 2,
-            'Disabilities': 3,
-            'Life Threatening Illnesses': 4,
-            'Company': 5,
-            'Countries': 6,
-            'Severe reports': 7,
-            'Lethality': 8
+            'control': 0,
+            'Batch': 1,
+            'Adverse Reaction Reports': 2,
+            'Deaths': 3,
+            'Disabilities': 4,
+            'Life Threatening Illnesses': 5,
+            'Company': 6,
+            'Countries': 7,
+            'Severe reports': 8,
+            'Lethality': 9
         };
         return this.#batchCodeTableElement.DataTable(
             {
@@ -44,6 +83,13 @@ class BatchCodeTableInitializer {
                 order: [[columnIndex['Adverse Reaction Reports'], "desc"]],
                 columnDefs:
                     [
+                        {
+                            className: 'dt-control',
+                            orderable: false,
+                            data: null,
+                            defaultContent: '',
+                            targets: columnIndex['control']
+                        },
                         {
                             searchable: false,
                             targets: [
