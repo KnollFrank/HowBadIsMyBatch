@@ -127,10 +127,7 @@ class BatchCodeTableInitializer {
                 return json;
             })
             .then(json => {
-                this.#batchCodeTable
-                    .clear()
-                    .rows.add(json.data)
-                    .draw();
+                this.#_setTableRows(json.data)
                 this.#selectInput();
             });
     }
@@ -138,6 +135,13 @@ class BatchCodeTableInitializer {
     #_addEmptyControlColumn(json) {
         json.columns.unshift('control');
         json.data.forEach(row => row.unshift(null));
+    }
+
+    #_setTableRows(rows) {
+        this.#batchCodeTable
+            .clear()
+            .rows.add(rows)
+            .draw();
     }
 
     #selectInput() {
