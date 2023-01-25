@@ -24,6 +24,19 @@ def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, count
             batchCodeTable['Adverse Reaction Reports'] < minADRsForLethality,
             ['Severe reports', 'Lethality']
         ] = [np.nan, np.nan]
+    batchCodeTable = batchCodeTable.reset_index();
+    batchCodeTable = batchCodeTable[
+        [
+            'Batch',
+            'Adverse Reaction Reports',
+            'Deaths',
+            'Disabilities',
+            'Life Threatening Illnesses',
+            'Company',
+            'Countries',
+            'Severe reports',
+            'Lethality'
+        ]]
     IOUtils.saveDataFrame(
         batchCodeTable,
         '../docs/data/batchCodeTables/' + country)

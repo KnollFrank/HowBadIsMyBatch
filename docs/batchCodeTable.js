@@ -120,8 +120,24 @@ class BatchCodeTableInitializer {
 
     #displayCountry(country) {
         this.#heading.textContent = country == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${country}`;
-        this.#batchCodeTable.ajax.url(`data/batchCodeTables/${country}.json`).load();
-        this.#selectInput();
+        fetch(`data/batchCodeTables/${country}.json`)
+            .then(response => response.json())
+            .then(json => {
+                this.#_addEmptyControlColumn(json);
+                return json;
+            })
+            .then(json => {
+                this.#batchCodeTable
+                    .clear()
+                    .rows.add(json.data)
+                    .draw();
+                this.#selectInput();
+            });
+    }
+
+    #_addEmptyControlColumn(json) {
+        json.columns.unshift('control');
+        json.data.forEach(row => row.unshift(null));
     }
 
     #selectInput() {

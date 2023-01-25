@@ -17,7 +17,7 @@ class IOUtils:
     @staticmethod
     def saveDataFrameAsHtml(dataFrame, file):
         IOUtils.ensurePath(file)
-        dataFrame.reset_index().to_html(
+        dataFrame.to_html(
             file + '.html',
             index = False,
             table_id = 'batchCodeTable',
@@ -28,7 +28,7 @@ class IOUtils:
     @staticmethod
     def saveDataFrameAsJson(dataFrame, file):
         IOUtils.ensurePath(file)
-        dataFrame.reset_index().to_json(
+        dataFrame.to_json(
             file + '.json',
             orient = "split",
             index = False)

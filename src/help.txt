@@ -14,4 +14,8 @@ jupyter kernelspec list
 conda env export --from-history > environment.yml
 conda env create -f environment.yml
 
-internationalVaersCovid19.reset_index()['VAERS_ID'].value_counts()
+www.HowBadIsMyBatch.info
+/etc/apache2/sites-available/HowBadIsMyBatch.conf
+
+https://datatables.net/examples/api/row_details.html
+https://www.datatables.net/blog/2017-03-31
