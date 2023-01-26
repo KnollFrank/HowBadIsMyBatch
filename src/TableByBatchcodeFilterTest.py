@@ -46,7 +46,7 @@ class TableByBatchcodeFilterTest(unittest.TestCase):
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2', 'VAX_LOT3'],
                     tuples = [[batchcode,  'EW0175',   None],
-                              ['015M20A',  None,   batchcode],
+                              ['015M20A',  None,       batchcode],
                               ['015M20A',  'EW0175',   'dummy2']]))
 
         # When
@@ -62,4 +62,4 @@ class TableByBatchcodeFilterTest(unittest.TestCase):
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2', 'VAX_LOT3'],
                     tuples = [[batchcode,  'EW0175',   None],
-                              ['015M20A',  None,   batchcode]])))
+                              ['015M20A',  None,       batchcode]])))
