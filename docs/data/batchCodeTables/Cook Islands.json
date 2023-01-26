@@ -1,1 +1,1 @@
-{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality"],"data":[["FD0927-002",1,0,0,0,"PFIZER\\BIONTECH","Cook Islands",null,null]]}
+{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality","Symptoms"],"data":[["FD0927-002",1,0,0,0,"PFIZER\\BIONTECH","Cook Islands",null,null,"{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"]]}

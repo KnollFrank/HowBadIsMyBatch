@@ -35,7 +35,8 @@ def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, count
             'Company',
             'Countries',
             'Severe reports',
-            'Lethality'
+            'Lethality',
+            'Symptoms'
         ]]
     IOUtils.saveDataFrame(
         batchCodeTable,

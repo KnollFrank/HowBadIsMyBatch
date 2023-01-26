@@ -1,1 +1,1 @@
-{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality"],"data":[["EY5456",1,0,0,0,"PFIZER\\BIONTECH","Syrian Arab Republic",null,null]]}
+{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality","Symptoms"],"data":[["EY5456",1,0,0,0,"PFIZER\\BIONTECH","Syrian Arab Republic",null,null,"{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"]]}

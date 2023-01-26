@@ -1,1 +1,124 @@
-{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality"],"data":[["ER7449",10,1,0,0,"PFIZER\\BIONTECH","Georgia",null,null],["EY0581",19,0,0,1,"PFIZER\\BIONTECH","Georgia",null,null],["FC3180",1,0,0,0,"PFIZER\\BIONTECH","Georgia",null,null],["FD8813",5,0,0,0,"PFIZER\\BIONTECH","Georgia",null,null],["FF2153",1,0,0,0,"PFIZER\\BIONTECH","Georgia",null,null],["FF7416",1,0,0,0,"PFIZER\\BIONTECH","Georgia",null,null],["FF8844",1,0,0,0,"PFIZER\\BIONTECH","Georgia",null,null],["FG2872",2,0,0,0,"PFIZER\\BIONTECH","Georgia",null,null],["FG2943",2,0,0,0,"PFIZER\\BIONTECH","Georgia",null,null]]}
+{
+    "columns": [
+        "Batch",
+        "Adverse Reaction Reports",
+        "Deaths",
+        "Disabilities",
+        "Life Threatening Illnesses",
+        "Company",
+        "Countries",
+        "Severe reports",
+        "Lethality",
+        "Symptoms"
+    ],
+    "data": [
+        [
+            "ER7449",
+            10,
+            1,
+            0,
+            0,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"
+        ],
+        [
+            "EY0581",
+            19,
+            0,
+            0,
+            1,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":14}"
+        ],
+        [
+            "FC3180",
+            1,
+            0,
+            0,
+            0,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"
+        ],
+        [
+            "FD8813",
+            5,
+            0,
+            0,
+            0,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"
+        ],
+        [
+            "FF2153",
+            1,
+            0,
+            0,
+            0,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"
+        ],
+        [
+            "FF7416",
+            1,
+            0,
+            0,
+            0,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"
+        ],
+        [
+            "FF8844",
+            1,
+            0,
+            0,
+            0,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"
+        ],
+        [
+            "FG2872",
+            2,
+            0,
+            0,
+            0,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"
+        ],
+        [
+            "FG2943",
+            2,
+            0,
+            0,
+            0,
+            "PFIZER\\BIONTECH",
+            "Georgia",
+            null,
+            null,
+            "{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"
+        ]
+    ]
+}

@@ -15,10 +15,11 @@ class BatchCodeTableInitializer {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
         this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
         this.#displayCountry('Global')
+        // FK-TODO: refactor
         function format(d) {
             const div = document.createElement("div");
             const canvas = document.createElement("canvas");
-            canvas.setAttribute("id", "acquisitions");
+            canvas.setAttribute("id", "symptomByBatchcodeHisto");
             div.appendChild(canvas);
             return div;
         }
@@ -33,19 +34,18 @@ class BatchCodeTableInitializer {
                     row.child.hide();
                     tr.removeClass('shown');
                 } else {
-                    const div = format(row.data());
+                    const d = row.data();
+                    const data = JSON.parse(d[10]);
+                    const div = format(d);
                     row.child(div).show();
                     new Chart(
-                        div.querySelector('#acquisitions'),
+                        div.querySelector('#symptomByBatchcodeHisto'),
                         {
                             type: 'bar',
                             data: {
                                 datasets: [{
                                     label: 'Acquisitions by year',
-                                    data: {
-                                        "Circulatory collapse": 1,
-                                        "Hyperhidrosis": 4
-                                    }
+                                    data: data
                                 }]
                             }
                         }
@@ -66,7 +66,8 @@ class BatchCodeTableInitializer {
             'Company': 6,
             'Countries': 7,
             'Severe reports': 8,
-            'Lethality': 9
+            'Lethality': 9,
+            'Symptoms': 10
         };
         return this.#batchCodeTableElement.DataTable(
             {
@@ -100,8 +101,13 @@ class BatchCodeTableInitializer {
                                 columnIndex['Company'],
                                 columnIndex['Countries'],
                                 columnIndex['Severe reports'],
-                                columnIndex['Lethality']
+                                columnIndex['Lethality'],
+                                columnIndex['Symptoms']
                             ]
+                        },
+                        {
+                            visible: false,
+                            target: columnIndex['Symptoms']
                         },
                         {
                             orderable: false,

@@ -22,6 +22,7 @@ class BatchCodeTableFactory:
 
     def _postProcess(self, batchCodeTable):
         batchCodeTable = self.companyColumnAdder.addCompanyColumn(batchCodeTable)
+        batchCodeTable['Symptoms'] = '{"Circulatory collapse":1,"Hyperhidrosis":1}'
         batchCodeTable = batchCodeTable[
             [
                 'Adverse Reaction Reports',
@@ -31,7 +32,8 @@ class BatchCodeTableFactory:
                 'Company',
                 'Countries',
                 'Severe reports',
-                'Lethality'
+                'Lethality',
+                'Symptoms'
             ]]
         return batchCodeTable.sort_values(by = 'Severe reports', ascending = False)
 

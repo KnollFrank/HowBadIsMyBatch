@@ -1,1 +1,1 @@
-{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality"],"data":[["1822788",1,0,0,0,"JANSSEN","Tanzania, United Republic of",null,null]]}
+{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality","Symptoms"],"data":[["1822788",1,0,0,0,"JANSSEN","Tanzania, United Republic of",null,null,"{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"]]}
