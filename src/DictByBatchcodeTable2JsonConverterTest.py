@@ -8,7 +8,6 @@ class DictByBatchcodeTable2JsonConverterTest(unittest.TestCase):
 
     def test_convertDictByBatchcodeTable2Json(self):
         # Given
-        batchcode = '1808982'
         dictByBatchcodeTable = TestHelper.createDataFrame(
                 columns = ['SYMPTOM_COUNT_BY_VAX_LOT'],
                 data = [  [
@@ -25,11 +24,11 @@ class DictByBatchcodeTable2JsonConverterTest(unittest.TestCase):
                         ],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [[batchcode,  'EW0175'],
-                              ['015M20A',  batchcode]]))
+                    tuples = [['1808982',  'EW0175'],
+                              ['015M20A',  '1808982']]))
 
         # When
-        jsonActual = DictByBatchcodeTable2JsonConverter.convertDictByBatchcodeTable2Json(dictByBatchcodeTable, batchcode)
+        jsonActual = DictByBatchcodeTable2JsonConverter.convertDictByBatchcodeTable2Json(dictByBatchcodeTable, '1808982')
 
         # Then
         self.assertEqual(
