@@ -23,9 +23,9 @@ class DictByBatchcodeTable2JsonConverterTest(unittest.TestCase):
                           ]
                         ],
                 index = pd.MultiIndex.from_tuples(
-                    names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [['1808982',  'EW0175'],
-                              ['015M20A',  '1808982']]))
+                    names =   ['VAX_LOT1', 'VAX_LOT2', 'VAX_LOT3'],
+                    tuples = [['1808982',  'EW0175',   'FD1921'],
+                              ['015M20A',  '1808982',  'nan']]))
 
         # When
         jsonActual = DictByBatchcodeTable2JsonConverter.convertDictByBatchcodeTable2Json(dictByBatchcodeTable, '1808982')
@@ -38,7 +38,7 @@ class DictByBatchcodeTable2JsonConverterTest(unittest.TestCase):
                     "batchcode": "1808982",
                     "histograms": [
                         {
-                            "batchcodes": ["1808982", "EW0175"],
+                            "batchcodes": ["1808982", "EW0175", "FD1921"],
                             "histogram": {
                                 "Blood pressure orthostatic abnormal": 5,
                                 "Chest discomfort": 1

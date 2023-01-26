@@ -17,9 +17,13 @@ class DictByBatchcodeTable2JsonConverter:
             dictByBatchcodeTable
                 .apply(
                     lambda row: {
-                        "batchcodes": list(row.name),
+                        "batchcodes": DictByBatchcodeTable2JsonConverter._getNaNBatchcodes(row.name),
                         "histogram": row['SYMPTOM_COUNT_BY_VAX_LOT']
                     },
                     axis = 'columns')
                 .to_list()
         )
+    
+    @staticmethod
+    def _getNaNBatchcodes(batchcodes):
+        return [batchcode for batchcode in batchcodes if batchcode != 'nan']
