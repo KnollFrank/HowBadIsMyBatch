@@ -1,12 +1,12 @@
 import unittest
 from pandas.testing import assert_frame_equal
-from HistogramTable2JsonTableConverter import HistogramTable2JsonTableConverter
+from HistogramTable2DictTableConverter import HistogramTable2DictTableConverter
 from TestHelper import TestHelper
 import pandas as pd
 
-class HistogramTable2JsonTableConverterTest(unittest.TestCase):
+class HistogramTable2DictTableConverterTest(unittest.TestCase):
 
-    def test_convertHistogramTable2JsonTable(self):
+    def test_convertHistogramTable2DictTable(self):
         # Given
         histogramTable = TestHelper.createDataFrame(
                 columns = ['SYMPTOM_COUNT_BY_VAX_LOT'],
@@ -20,15 +20,24 @@ class HistogramTable2JsonTableConverterTest(unittest.TestCase):
                               ['EW0175',   'Chest discomfort']]))
                 
         # When
-        jsonTable = HistogramTable2JsonTableConverter.convertHistogramTable2JsonTable(histogramTable)
+        dictTable = HistogramTable2DictTableConverter.convertHistogramTable2DictTable(histogramTable)
 
         # Then
         assert_frame_equal(
-            jsonTable,
+            dictTable,
             TestHelper.createDataFrame(
                 columns = ['SYMPTOM_COUNT_BY_VAX_LOT'],
-                data = [  ['{"Blood pressure orthostatic abnormal":5,"Chest discomfort":1}'],
-                          ['{"Chest discomfort":2}']],
+                data = [  [
+                            {
+                                "Blood pressure orthostatic abnormal": 5,
+                                "Chest discomfort": 1
+                            }
+                          ],
+                          [
+                            {
+                                "Chest discomfort": 2
+                            }
+                          ]],
                 index = pd.Index(
                     name =  'VAX_LOT1',
                     data = ['1808982',
