@@ -1,10 +1,10 @@
 import unittest
 import json
-from DictByBatchcodeTable2JsonConverter import DictByBatchcodeTable2JsonConverter
+from DictByBatchcodeTable2DictConverter import DictByBatchcodeTable2DictConverter
 from TestHelper import TestHelper
 import pandas as pd
 
-class DictByBatchcodeTable2JsonConverterTest(unittest.TestCase):
+class DictByBatchcodeTable2DictConverterTest(unittest.TestCase):
 
     def test_convertDictByBatchcodeTable2Json(self):
         # Given
@@ -28,12 +28,11 @@ class DictByBatchcodeTable2JsonConverterTest(unittest.TestCase):
                               ['015M20A',  '1808982',  'nan']]))
 
         # When
-        jsonActual = DictByBatchcodeTable2JsonConverter.convertDictByBatchcodeTable2Json(dictByBatchcodeTable, '1808982')
+        dict = DictByBatchcodeTable2DictConverter.convertDictByBatchcodeTable2Dict(dictByBatchcodeTable, '1808982')
 
         # Then
         self.assertEqual(
-            json.loads(jsonActual),
-            json.loads('''
+            dict,
                 {
                     "batchcode": "1808982",
                     "histograms": [
@@ -51,4 +50,4 @@ class DictByBatchcodeTable2JsonConverterTest(unittest.TestCase):
                             }
                         }
                     ]
-                }'''))
+                })

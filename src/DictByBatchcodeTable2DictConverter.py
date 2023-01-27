@@ -1,15 +1,14 @@
 import json
 
 
-class DictByBatchcodeTable2JsonConverter:
+class DictByBatchcodeTable2DictConverter:
 
     @staticmethod
-    def convertDictByBatchcodeTable2Json(dictByBatchcodeTable, batchcode):
-        return json.dumps(
-            {
+    def convertDictByBatchcodeTable2Dict(dictByBatchcodeTable, batchcode):
+        return {
                 "batchcode": batchcode,
-                "histograms": DictByBatchcodeTable2JsonConverter._getHistograms(dictByBatchcodeTable)
-            })
+                "histograms": DictByBatchcodeTable2DictConverter._getHistograms(dictByBatchcodeTable)
+            }
 
     @staticmethod
     def _getHistograms(dictByBatchcodeTable):
@@ -17,7 +16,7 @@ class DictByBatchcodeTable2JsonConverter:
             dictByBatchcodeTable
                 .apply(
                     lambda row: {
-                        "batchcodes": DictByBatchcodeTable2JsonConverter._getNaNBatchcodes(row.name),
+                        "batchcodes": DictByBatchcodeTable2DictConverter._getNaNBatchcodes(row.name),
                         "histogram": row['SYMPTOM_COUNT_BY_VAX_LOT']
                     },
                     axis = 'columns')
