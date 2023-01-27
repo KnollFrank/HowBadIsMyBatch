@@ -1,4 +1,6 @@
 import pandas as pd
+from DataFrameNormalizer import DataFrameNormalizer
+
 
 class VaersDescrReader:
     
@@ -30,7 +32,7 @@ class VaersDescrReader:
             date_parser = lambda dateStr: pd.to_datetime(dateStr, format = "%m/%d/%Y"))
 
     def _readVAERSVAX(self, file):
-        return self._read_csv(
+        VAERSVAX = self._read_csv(
             file = file,
             usecols = ['VAERS_ID', 'VAX_DOSE_SERIES', 'VAX_TYPE', 'VAX_MANU', 'VAX_LOT'],
             dtype =
@@ -38,6 +40,9 @@ class VaersDescrReader:
                     "VAX_DOSE_SERIES": "string",
                     "VAX_LOT": "string"
                 })
+        DataFrameNormalizer.convertVAX_LOTColumnToUpperCase(VAERSVAX)
+        return VAERSVAX
+
 
     def _readVAERSSYMPTOMS(self, file):
         return self._read_csv(
