@@ -9,9 +9,9 @@ class HistogramDescriptionPersister:
         self.directory = directory
 
     def saveHistogramDescriptionsForBatchcodes(self, batchcodes, dictByBatchcodeTable):
-        for batchcode in batchcodes:
+        for count, batchcode in enumerate(batchcodes, start = 1):
             histogramDescription = self._getHistogramDescriptionForBatchcode(batchcode, dictByBatchcodeTable)
-            print('saving', batchcode)
+            print(f'{count}/{len(batchcodes)}: saving {batchcode}')
             IOUtils.saveDictAsJson(
                 histogramDescription,
                 f'{self.directory}/{batchcode}.json')
