@@ -22,6 +22,7 @@ class BatchCodeTableFactory:
 
     def _postProcess(self, batchCodeTable):
         batchCodeTable = self.companyColumnAdder.addCompanyColumn(batchCodeTable)
+        # FK-TODO: remove Symptoms column everywhere
         batchCodeTable['Symptoms'] = '{"Circulatory collapse":1,"Hyperhidrosis":1}'
         batchCodeTable = batchCodeTable[
             [

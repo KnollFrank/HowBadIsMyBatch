@@ -26,4 +26,5 @@ class DictByBatchcodeTable2JsonConverter:
     
     @staticmethod
     def _getNaNBatchcodes(batchcodes):
+        # FK-TODO: handle 'nan' everywhere correctly
         return [batchcode for batchcode in batchcodes if batchcode != 'nan']
