@@ -8,13 +8,11 @@ class HistogramDescriptionPersister:
     def __init__(self, directory):
         self.directory = directory
 
-    def saveHistogramDescriptionsForBatchcodes(self, batchcodes, dictByBatchcodeTable):
+    def saveHistogramDescriptionsForBatchcodes(self, batchcodes, dictByBatchcodeTable, progress):
         for count, batchcode in enumerate(batchcodes, start = 1):
             histogramDescription = self._getHistogramDescriptionForBatchcode(batchcode, dictByBatchcodeTable)
-            print(f'{count}/{len(batchcodes)}: saving {batchcode}')
-            IOUtils.saveDictAsJson(
-                histogramDescription,
-                f'{self.directory}/{batchcode}.json')
+            IOUtils.saveDictAsJson(histogramDescription, f'{self.directory}/{batchcode}.json')
+            progress(count, len(batchcodes), batchcode)
 
     def _getHistogramDescriptionForBatchcode(self, batchcode, dictByBatchcodeTable):
         dictByBatchcodeTableForBatchcode = TableByBatchcodeFilter.filterTableByBatchcode(batchcode, dictByBatchcodeTable)
