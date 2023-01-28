@@ -7,18 +7,25 @@ class HistogramView {
     }
 
     displayHistogramsForBatchcode(batchcode) {
-        const loadingText = document.createTextNode('Loading...');
-        this.#uiContainer.appendChild(loadingText);
-        fetch(`data/histograms/${batchcode}.json`)
-            .then(response => response.json())
+        this
+            .#loadHistoDescrsForBatchcode(batchcode)
             .then(histoDescrs => {
-                loadingText.remove();
                 for (const histoDescr of histoDescrs.histograms) {
                     const canvas = document.createElement("canvas");
                     this.#uiContainer.appendChild(canvas);
                     this.#displayHistogram(histoDescr, canvas);
                 }
             });
+    }
+
+    #loadHistoDescrsForBatchcode(batchcode) {
+        const loadingText = document.createTextNode('Loading...');
+        this.#uiContainer.appendChild(loadingText);
+        return fetch(`data/histograms/${batchcode}.json`)
+            .then(response => {
+                loadingText.remove();
+                return response.json();
+            })
     }
 
     #displayHistogram(histoDescr, canvas) {
