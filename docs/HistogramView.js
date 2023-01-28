@@ -7,10 +7,12 @@ class HistogramView {
     }
 
     displayHistogramsForBatchcode(batchcode) {
-        // FK-TODO: zeige "Loading..." bis Daten geladen sind.
+        const loadingText = document.createTextNode('Loading...');
+        this.#uiContainer.appendChild(loadingText);
         fetch(`data/histograms/${batchcode}.json`)
             .then(response => response.json())
             .then(histoDescrs => {
+                loadingText.remove();
                 for (const histoDescr of histoDescrs.histograms) {
                     const canvas = document.createElement("canvas");
                     this.#uiContainer.appendChild(canvas);
