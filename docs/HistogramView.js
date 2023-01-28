@@ -24,15 +24,14 @@ class HistogramView {
 
     #displayHistograms(histoDescrs) {
         for (const histoDescr of histoDescrs.histograms) {
-            const canvas = document.createElement("canvas");
-            this.#uiContainer.appendChild(canvas);
-            this.#displayHistogram(histoDescr, canvas);
+            this.#uiContainer.appendChild(this.#createHistogram(histoDescr).canvas);
         }
     }
 
-    #displayHistogram(histoDescr, canvas) {
+    #createHistogram(histoDescr) {
         // FK-TODO: brauchen Slider wie bei intensivstationen
-        new Chart(
+        const canvas = document.createElement("canvas");
+        return new Chart(
             canvas,
             {
                 type: 'bar',
