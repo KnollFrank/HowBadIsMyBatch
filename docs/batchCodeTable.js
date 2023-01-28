@@ -51,13 +51,8 @@ class BatchCodeTableInitializer {
                                 this.#getColumnIndex('Company'),
                                 this.#getColumnIndex('Countries'),
                                 this.#getColumnIndex('Severe reports'),
-                                this.#getColumnIndex('Lethality'),
-                                this.#getColumnIndex('Symptoms')
+                                this.#getColumnIndex('Lethality')
                             ]
-                        },
-                        {
-                            visible: false,
-                            target: this.#getColumnIndex('Symptoms')
                         },
                         {
                             orderable: false,
@@ -96,8 +91,6 @@ class BatchCodeTableInitializer {
                 return 8;
             case 'Lethality':
                 return 9;
-            case 'Symptoms':
-                return 10;
         }
     }
 

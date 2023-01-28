@@ -1,1 +1,1 @@
-{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality","Symptoms"],"data":[["1B004A",1,0,0,1,"PFIZER\\BIONTECH","Russian Federation",null,null,"{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"]]}
+{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality"],"data":[["1B004A",1,0,0,1,"PFIZER\\BIONTECH","Russian Federation",null,null]]}

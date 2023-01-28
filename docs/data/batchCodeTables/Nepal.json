@@ -1,1 +1,1 @@
-{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality","Symptoms"],"data":[["FJ1612",2,0,0,0,"PFIZER\\BIONTECH","Nepal",null,null,"{\"Circulatory collapse\":1,\"Hyperhidrosis\":1}"]]}
+{"columns":["Batch","Adverse Reaction Reports","Deaths","Disabilities","Life Threatening Illnesses","Company","Countries","Severe reports","Lethality"],"data":[["FJ1612",2,0,0,0,"PFIZER\\BIONTECH","Nepal",null,null]]}

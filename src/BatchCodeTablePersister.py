@@ -35,13 +35,13 @@ def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, count
             'Company',
             'Countries',
             'Severe reports',
-            'Lethality',
-            'Symptoms'
+            'Lethality'
         ]]
     IOUtils.saveDataFrame(
         batchCodeTable,
         '../docs/data/batchCodeTables/' + country)
     # display(country + ":", batchCodeTable)
+    # FK-TODO: display in einem noch nicht vorhandenen Callback aufrufen
     display(country)
 
 
