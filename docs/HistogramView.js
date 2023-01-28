@@ -1,14 +1,17 @@
 class HistogramView {
 
-    constructor() {
+    #uiContainer;
+
+    constructor(uiContainer) {
+        this.#uiContainer = uiContainer
     }
 
-    show(batchcode, uiContainer) {
+    displayHistogramsForBatchcode(batchcode) {
         fetch(`data/histograms/${batchcode}.json`)
             .then(response => response.json())
             .then(histoDescr => {
                 const canvas = document.createElement("canvas");
-                uiContainer.appendChild(canvas);
+                this.#uiContainer.appendChild(canvas);
                 this.#displayChart(histoDescr, canvas);
             });
     }

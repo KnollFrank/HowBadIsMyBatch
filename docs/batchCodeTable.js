@@ -19,19 +19,6 @@ class BatchCodeTableInitializer {
     }
 
     #createEmptyBatchCodeTable() {
-        const columnIndex = {
-            'control': 0,
-            'Batch': 1,
-            'Adverse Reaction Reports': 2,
-            'Deaths': 3,
-            'Disabilities': 4,
-            'Life Threatening Illnesses': 5,
-            'Company': 6,
-            'Countries': 7,
-            'Severe reports': 8,
-            'Lethality': 9,
-            'Symptoms': 10
-        };
         return this.#batchCodeTableElement.DataTable(
             {
                 language:
@@ -44,7 +31,7 @@ class BatchCodeTableInitializer {
                 },
                 processing: true,
                 deferRender: true,
-                order: [[columnIndex['Adverse Reaction Reports'], "desc"]],
+                order: [[this.#getColumnIndex('Adverse Reaction Reports'), "desc"]],
                 columnDefs:
                     [
                         {
@@ -52,39 +39,66 @@ class BatchCodeTableInitializer {
                             orderable: false,
                             data: null,
                             defaultContent: '',
-                            targets: columnIndex['control']
+                            targets: this.#getColumnIndex('control')
                         },
                         {
                             searchable: false,
                             targets: [
-                                columnIndex['Adverse Reaction Reports'],
-                                columnIndex['Deaths'],
-                                columnIndex['Disabilities'],
-                                columnIndex['Life Threatening Illnesses'],
-                                columnIndex['Company'],
-                                columnIndex['Countries'],
-                                columnIndex['Severe reports'],
-                                columnIndex['Lethality'],
-                                columnIndex['Symptoms']
+                                this.#getColumnIndex('Adverse Reaction Reports'),
+                                this.#getColumnIndex('Deaths'),
+                                this.#getColumnIndex('Disabilities'),
+                                this.#getColumnIndex('Life Threatening Illnesses'),
+                                this.#getColumnIndex('Company'),
+                                this.#getColumnIndex('Countries'),
+                                this.#getColumnIndex('Severe reports'),
+                                this.#getColumnIndex('Lethality'),
+                                this.#getColumnIndex('Symptoms')
                             ]
                         },
                         {
                             visible: false,
-                            target: columnIndex['Symptoms']
+                            target: this.#getColumnIndex('Symptoms')
                         },
                         {
                             orderable: false,
-                            targets: columnIndex['Countries']
+                            targets: this.#getColumnIndex('Countries')
                         },
                         {
                             render: (data, type, row) => {
                                 const numberInPercent = parseFloat(data);
                                 return !isNaN(numberInPercent) ? numberInPercent.toFixed(2) + " %" : '';
                             },
-                            targets: [columnIndex['Severe reports'], columnIndex['Lethality']]
+                            targets: [this.#getColumnIndex('Severe reports'), this.#getColumnIndex('Lethality')]
                         }
                     ]
             });
+    }
+
+    #getColumnIndex(columnName) {
+        switch (columnName) {
+            case 'control':
+                return 0;
+            case 'Batch':
+                return 1;
+            case 'Adverse Reaction Reports':
+                return 2;
+            case 'Deaths':
+                return 3;
+            case 'Disabilities':
+                return 4;
+            case 'Life Threatening Illnesses':
+                return 5;
+            case 'Company':
+                return 6;
+            case 'Countries':
+                return 7;
+            case 'Severe reports':
+                return 8;
+            case 'Lethality':
+                return 9;
+            case 'Symptoms':
+                return 10;
+        }
     }
 
     #displayCountry(country) {
@@ -134,7 +148,8 @@ class BatchCodeTableInitializer {
                     const uiContainer = document.createElement("div");
                     row.child(uiContainer).show();
                     tr.addClass('shown');
-                    new HistogramView().show(row.data()[1], uiContainer);
+                    const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
+                    new HistogramView(uiContainer).displayHistogramsForBatchcode(batchcode);
                 }
             });
     }
