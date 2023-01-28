@@ -6,22 +6,26 @@ class HistogramView {
     show(batchcode, uiContainer) {
         fetch(`data/histograms/${batchcode}.json`)
             .then(response => response.json())
-            .then(json => {
-                const data = json.histograms[3].histogram;
+            .then(histoDescr => {
                 const canvas = document.createElement("canvas");
                 uiContainer.appendChild(canvas);
-                new Chart(
-                    canvas,
-                    {
-                        type: 'bar',
-                        data: {
-                            datasets: [{
-                                label: 'Acquisitions by year',
-                                data: data
-                            }]
-                        }
-                    }
-                );
+                this.#displayChart(histoDescr, canvas);
             });
+    }
+
+    #displayChart(histoDescr, canvas) {
+        // FK-TODO: brauchen Slider wie bei intensivstationen
+        new Chart(
+            canvas,
+            {
+                type: 'bar',
+                data: {
+                    datasets: [{
+                        label: histoDescr.batchcode,
+                        data: histoDescr.histograms[0].histogram
+                    }]
+                }
+            }
+        );
     }
 }
