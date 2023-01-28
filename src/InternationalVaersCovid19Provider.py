@@ -16,6 +16,7 @@ def getInternationalVaersCovid19(years):
 
 def get_international_VAERSVAX_VAERSSYMPTOMS_Covid19(years):
     international_VAERSVAX, international_VAERSSYMPTOMS = _get_international_VAERSVAX_VAERSSYMPTOMS(years)
+    international_VAERSVAX.dropna(subset = ['VAX_LOT'], inplace = True)
     international_VAERSVAX_Covid19 = DataFrameFilter().filterByCovid19(international_VAERSVAX)    
     return international_VAERSVAX_Covid19, international_VAERSSYMPTOMS
 

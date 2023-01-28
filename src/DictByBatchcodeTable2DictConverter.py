@@ -1,6 +1,3 @@
-import json
-
-
 class DictByBatchcodeTable2DictConverter:
 
     @staticmethod
