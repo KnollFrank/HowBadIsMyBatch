@@ -14,25 +14,8 @@ class BatchCodeTableInitializer {
     initialize() {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
         this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
-        this.#displayCountry('Global')
-        const histogramView = new HistogramView();
-        const thisClassInstance = this;
-        $(`#${this.#batchCodeTableElement[0].id} tbody`).on(
-            'click',
-            'td.dt-control',
-            function () {
-                const tr = $(this).closest('tr');
-                const row = thisClassInstance.#batchCodeTable.row(tr);
-                if (row.child.isShown()) {
-                    row.child.hide();
-                    tr.removeClass('shown');
-                } else {
-                    const uiContainer = document.createElement("div");
-                    row.child(uiContainer).show();
-                    tr.addClass('shown');
-                    histogramView.show('FD6840', uiContainer);
-                }
-            });
+        this.#displayCountry('Global');
+        this.#initializeHistogramView();
     }
 
     #createEmptyBatchCodeTable() {
@@ -134,5 +117,26 @@ class BatchCodeTableInitializer {
         const input = document.querySelector(".dataTables_filter input");
         input.focus();
         input.select();
+    }
+
+    #initializeHistogramView() {
+        const histogramView = new HistogramView();
+        const thisClassInstance = this;
+        $(`#${this.#batchCodeTableElement[0].id} tbody`).on(
+            'click',
+            'td.dt-control',
+            function () {
+                const tr = $(this).closest('tr');
+                const row = thisClassInstance.#batchCodeTable.row(tr);
+                if (row.child.isShown()) {
+                    row.child.hide();
+                    tr.removeClass('shown');
+                } else {
+                    const uiContainer = document.createElement("div");
+                    row.child(uiContainer).show();
+                    tr.addClass('shown');
+                    histogramView.show('FD6840', uiContainer);
+                }
+            });
     }
 }
