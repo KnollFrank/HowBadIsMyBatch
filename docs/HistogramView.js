@@ -9,13 +9,7 @@ class HistogramView {
     displayHistogramsForBatchcode(batchcode) {
         this
             .#loadHistoDescrsForBatchcode(batchcode)
-            .then(histoDescrs => {
-                for (const histoDescr of histoDescrs.histograms) {
-                    const canvas = document.createElement("canvas");
-                    this.#uiContainer.appendChild(canvas);
-                    this.#displayHistogram(histoDescr, canvas);
-                }
-            });
+            .then(histoDescrs => this.#displayHistograms(histoDescrs));
     }
 
     #loadHistoDescrsForBatchcode(batchcode) {
@@ -26,6 +20,14 @@ class HistogramView {
                 loadingText.remove();
                 return response.json();
             })
+    }
+
+    #displayHistograms(histoDescrs) {
+        for (const histoDescr of histoDescrs.histograms) {
+            const canvas = document.createElement("canvas");
+            this.#uiContainer.appendChild(canvas);
+            this.#displayHistogram(histoDescr, canvas);
+        }
     }
 
     #displayHistogram(histoDescr, canvas) {
