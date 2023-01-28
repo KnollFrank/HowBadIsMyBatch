@@ -24,7 +24,7 @@ class BatchCodeTableInitializer {
             return div;
         }
         const thisClassInstance = this;
-        $('#' + this.#batchCodeTableElement[0].id + ' tbody').on(
+        $(`#${this.#batchCodeTableElement[0].id} tbody`).on(
             'click',
             'td.dt-control',
             function () {
