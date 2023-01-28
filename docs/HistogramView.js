@@ -27,8 +27,7 @@ class HistogramView {
                 type: 'bar',
                 data: {
                     datasets: [{
-                        // FK-TODO: alle histoDescr.batchcodes zu einem String zusammenfassen
-                        label: histoDescr.batchcodes[0],
+                        label: histoDescr.batchcodes.join(', '),
                         data: histoDescr.histogram
                     }]
                 }
