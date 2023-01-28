@@ -23,6 +23,7 @@ class HistogramView {
     }
 
     #displayHistograms(histoDescrs) {
+        this.#uiContainer.appendChild(document.createTextNode(histoDescrs.batchcode));
         for (const histoDescr of histoDescrs.histograms) {
             this.#uiContainer.appendChild(this.#createHistogram(histoDescr).canvas);
         }
