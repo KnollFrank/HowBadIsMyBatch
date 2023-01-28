@@ -120,7 +120,6 @@ class BatchCodeTableInitializer {
     }
 
     #initializeHistogramView() {
-        const histogramView = new HistogramView();
         const thisClassInstance = this;
         $(`#${this.#batchCodeTableElement[0].id} tbody`).on(
             'click',
@@ -135,7 +134,7 @@ class BatchCodeTableInitializer {
                     const uiContainer = document.createElement("div");
                     row.child(uiContainer).show();
                     tr.addClass('shown');
-                    histogramView.show('FD6840', uiContainer);
+                    new HistogramView().show('FD6840', uiContainer);
                 }
             });
     }
