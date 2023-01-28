@@ -16,13 +16,6 @@ class BatchCodeTableInitializer {
         this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
         this.#displayCountry('Global')
         const histogramView = new HistogramView();
-        function createDiv() {
-            const div = document.createElement("div");
-            const canvas = document.createElement("canvas");
-            canvas.setAttribute("id", "symptomByBatchcodeHisto");
-            div.appendChild(canvas);
-            return div;
-        }
         const thisClassInstance = this;
         $(`#${this.#batchCodeTableElement[0].id} tbody`).on(
             'click',
@@ -34,10 +27,10 @@ class BatchCodeTableInitializer {
                     row.child.hide();
                     tr.removeClass('shown');
                 } else {
-                    const div = createDiv();
-                    row.child(div).show();
+                    const uiContainer = document.createElement("div");
+                    row.child(uiContainer).show();
                     tr.addClass('shown');
-                    histogramView.show('FD6840', div);
+                    histogramView.show('FD6840', uiContainer);
                 }
             });
     }
