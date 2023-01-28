@@ -15,7 +15,7 @@ class BatchCodeTableInitializer {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
         this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
         this.#displayCountry('Global')
-        // FK-TODO: refactor
+        const histogramView = new HistogramView();
         function createDiv() {
             const div = document.createElement("div");
             const canvas = document.createElement("canvas");
@@ -37,24 +37,7 @@ class BatchCodeTableInitializer {
                     const div = createDiv();
                     row.child(div).show();
                     tr.addClass('shown');
-                    const batchcode = 'FD6840';
-                    fetch(`data/histograms/${batchcode}.json`)
-                        .then(response => response.json())
-                        .then(json => {
-                            const data = json.histograms[3].histogram;
-                            new Chart(
-                                div.querySelector('#symptomByBatchcodeHisto'),
-                                {
-                                    type: 'bar',
-                                    data: {
-                                        datasets: [{
-                                            label: 'Acquisitions by year',
-                                            data: data
-                                        }]
-                                    }
-                                }
-                            );
-                        });
+                    histogramView.show('FD6840', div);
                 }
             });
     }
