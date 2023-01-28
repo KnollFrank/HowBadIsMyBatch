@@ -134,7 +134,7 @@ class BatchCodeTableInitializer {
                     const uiContainer = document.createElement("div");
                     row.child(uiContainer).show();
                     tr.addClass('shown');
-                    new HistogramView().show('FD6840', uiContainer);
+                    new HistogramView().show(row.data()[1], uiContainer);
                 }
             });
     }
