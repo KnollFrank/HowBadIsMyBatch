@@ -55,6 +55,9 @@ class HistogramView {
                             }
                         },
                         x: {
+                            ticks: {
+                                precision: 0
+                            },
                             title: {
                                 display: true,
                                 text: 'Frequency'
