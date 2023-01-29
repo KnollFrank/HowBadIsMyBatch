@@ -11,6 +11,7 @@ class HistogramDescriptionPersister:
     def saveHistogramDescriptionsForBatchcodes(self, batchcodes, dictByBatchcodeTable, progress):
         for count, batchcode in enumerate(batchcodes, start = 1):
             histogramDescription = self._getHistogramDescriptionForBatchcode(batchcode, dictByBatchcodeTable)
+            # FK-TODO: nicht direkt {batchcode}.json speichern, denn im Dateinamen könnte sich dann ein '/' befinden, was ein nicht gewünschtes Unterverzeichnis erzeugt. Deshalb in der Batchcode-Tabelle eine unsichtbare Spalte einfügen, in welcher für den jeweiligen batchcode der bereinigte und eindeutige Dateiname steht (z.B. einfach durchnummeriert: 0.json, 1.json, ...).
             IOUtils.saveDictAsJson(histogramDescription, f'{self.directory}/{batchcode}.json')
             progress(count, len(batchcodes), batchcode)
 
