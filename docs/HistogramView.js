@@ -32,15 +32,35 @@ class HistogramView {
     #createHistogram(histoDescr) {
         // FK-TODO: brauchen Slider wie bei intensivstationen
         const canvas = document.createElement("canvas");
+        const { 'keys': symptoms, 'values': frequencies } = Utils.getKeysAlignedWithValues(histoDescr.histogram);
         return new Chart(
             canvas,
             {
                 type: 'bar',
                 data: {
+                    labels: symptoms,
                     datasets: [{
                         label: histoDescr.batchcodes.join(', '),
-                        data: histoDescr.histogram
+                        data: frequencies
                     }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    scales: {
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Symptom'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Frequency'
+                            }
+                        }
+                    },
                 }
             }
         );
