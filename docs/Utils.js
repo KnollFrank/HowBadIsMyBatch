@@ -16,4 +16,8 @@ class Utils {
         }
         return { 'keys': keys, 'values': values };
     }
+
+    static sliceDict(dict, start, end) {
+        return Object.fromEntries(Object.entries(dict).slice(start, end));
+    }
 }

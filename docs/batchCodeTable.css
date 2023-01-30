@@ -5,3 +5,17 @@
 .dataTables_length {
     float: right !important;
 }
+
+.chartWithSlider {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.chartWithSlider .chartContainer {
+    flex: 95%;
+}
+
+.chartWithSlider .sliderContainer {
+    flex: 5%;
+}

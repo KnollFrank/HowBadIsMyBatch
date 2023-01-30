@@ -20,10 +20,11 @@ class HistogramChartView {
             });
     }
 
-    // setData(data) {
-    //     this.#chart.config.data.datasets[0].data = data;
-    //     this.#chart.update();
-    // }
+    setData(histoDescr) {
+        const data = this.#getData(histoDescr);
+        this.#chart.config.data = data;
+        this.#chart.update();
+    }
 
     #getData(histoDescr) {
         const { 'keys': symptoms, 'values': frequencies } = Utils.getKeysAlignedWithValues(histoDescr.histogram);
