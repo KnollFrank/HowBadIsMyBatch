@@ -15,13 +15,10 @@ class HistogramView {
     #loadHistoDescrsForBatchcode(batchcode) {
         const loadingText = document.createTextNode('Loading...');
         this.#uiContainer.appendChild(loadingText);
-        return fetch(`data/histograms/${batchcode}.json`)
-            .then(response => {
-                loadingText.remove();
-                return response.json();
-            })
+        return HistoDescrsProvider
+            .getHistoDescrsForBatchcode(batchcode)
             .then(histoDescrs => {
-                histoDescrs.histograms.sort((histoDescr1, histoDescr2) => histoDescr1.batchcodes.length - histoDescr2.batchcodes.length);
+                loadingText.remove();
                 return histoDescrs;
             });
     }
