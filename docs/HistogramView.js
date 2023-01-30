@@ -20,17 +20,18 @@ class HistogramView {
                 loadingText.remove();
                 return response.json();
             })
+            .then(histoDescrs => {
+                histoDescrs.histograms.sort((histoDescr1, histoDescr2) => histoDescr1.batchcodes.length - histoDescr2.batchcodes.length);
+                return histoDescrs;
+            });
     }
 
     #displayHistogramViewForHistoDescrs(histoDescrs) {
         const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
         const histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
-        const selectBatchcodeCombination = this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
+        this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
         this.#uiContainer.appendChild(chartWithSlider);
-        this.#displayHistogram(
-            this.#getSelectedHistoDescr(selectBatchcodeCombination, histoDescrs.histograms),
-            histogramChartView,
-            chartWithSlider);
+        this.#displayHistogram(histoDescrs.histograms[0], histogramChartView, chartWithSlider);
     }
 
     #displaySelectBatchcodeCombination(histograms, histogramChartView, chartWithSlider) {
@@ -44,12 +45,6 @@ class HistogramView {
                 this.#displayHistogram(histoDescr, histogramChartView, chartWithSlider);
             });
         this.#uiContainer.appendChild(selectBatchcodeCombination);
-        return selectBatchcodeCombination;
-    }
-
-    #getSelectedHistoDescr(selectBatchcodeCombination, histograms) {
-        const selectedIndex = UIUtils.getSelectedOption(selectBatchcodeCombination.querySelector('#batchcodesSelect')).value;
-        return histograms[selectedIndex];
     }
 
     #addBatchcodeCombinationOptions(batchcodesSelect, histograms) {
@@ -57,20 +52,7 @@ class HistogramView {
     }
 
     #getBatchcodeCombinationOptions(histograms) {
-        const options = histograms.map(this.#getBatchcodeCombinationOption);
-        const mapped = histograms.map((histoDescr, index) => ({ index: index, value: histoDescr.batchcodes.length }));
-        mapped.sort((a, b) => {
-            if (a.value > b.value) {
-                return 1;
-            }
-            if (a.value < b.value) {
-                return -1;
-            }
-            return 0;
-        });
-        const optionsSorted = mapped.map(v => options[v.index]);
-        optionsSorted[0].selected = true;
-        return optionsSorted;
+        return histograms.map(this.#getBatchcodeCombinationOption);
     }
 
     #getBatchcodeCombinationOption(histoDescr, index) {
