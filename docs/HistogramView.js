@@ -31,42 +31,11 @@ class HistogramView {
 
     #displayHistogram(histoDescr) {
         // FK-TODO: brauchen Slider wie bei intensivstationen
-        const canvas = UIUtils.createCanvas();
-        this.#uiContainer.appendChild(canvas);
-        const { 'keys': symptoms, 'values': frequencies } = Utils.getKeysAlignedWithValues(histoDescr.histogram);
-        new Chart(
-            canvas,
-            {
-                type: 'bar',
-                data: {
-                    labels: symptoms,
-                    datasets: [{
-                        label: histoDescr.batchcodes.join(', '),
-                        data: frequencies
-                    }]
-                },
-                options: {
-                    indexAxis: 'y',
-                    responsive: true,
-                    scales: {
-                        y: {
-                            title: {
-                                display: true,
-                                text: 'Symptom'
-                            }
-                        },
-                        x: {
-                            ticks: {
-                                precision: 0
-                            },
-                            title: {
-                                display: true,
-                                text: 'Frequency'
-                            }
-                        }
-                    },
-                }
-            }
-        );
+        // FK-TODO: extract class for template-chartWithSlider
+        const element = UIUtils.instantiateTemplate('template-chartWithSlider');
+        const canvas = element.querySelector("canvas");
+        this.#uiContainer.appendChild(element);
+        const histogramChartView = new HistogramChartView(canvas);
+        histogramChartView.displayChart(histoDescr);
     }
 }
