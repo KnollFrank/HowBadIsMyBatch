@@ -30,11 +30,10 @@ class HistogramView {
     }
 
     #displayHistogram(histoDescr) {
-        // FK-TODO: brauchen Slider wie bei intensivstationen
         // FK-TODO: extract class for template-chartWithSlider
-        const element = UIUtils.instantiateTemplate('template-chartWithSlider');
-        const canvas = element.querySelector("canvas");
-        this.#uiContainer.appendChild(element);
+        const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
+        const canvas = chartWithSlider.querySelector("canvas");
+        this.#uiContainer.appendChild(chartWithSlider);
         const histogramChartView = new HistogramChartView(canvas);
         histogramChartView.displayChart(histoDescr);
     }
