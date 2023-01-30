@@ -142,7 +142,7 @@ class BatchCodeTableInitializer {
                     row.child(uiContainer).show();
                     tr.addClass('shown');
                     const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
-                    new HistogramView(uiContainer).displayHistogramsForBatchcode(batchcode);
+                    new HistogramView(uiContainer).displayHistogramViewForBatchcode(batchcode);
                 }
             });
     }

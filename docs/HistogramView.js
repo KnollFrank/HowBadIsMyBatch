@@ -1,15 +1,17 @@
 class HistogramView {
 
     #uiContainer;
+    #chartWithSlider;
+    #histogramChartView;
 
     constructor(uiContainer) {
         this.#uiContainer = uiContainer
     }
 
-    displayHistogramsForBatchcode(batchcode) {
+    displayHistogramViewForBatchcode(batchcode) {
         this
             .#loadHistoDescrsForBatchcode(batchcode)
-            .then(histoDescrs => this.#displayHistograms(histoDescrs));
+            .then(histoDescrs => this.#displayHistogramViewForHistoDescrs(histoDescrs));
     }
 
     #loadHistoDescrsForBatchcode(batchcode) {
@@ -22,29 +24,59 @@ class HistogramView {
             })
     }
 
-    #displayHistograms(histoDescrs) {
-        this.#uiContainer.appendChild(document.createTextNode(histoDescrs.batchcode));
-        for (const histoDescr of histoDescrs.histograms) {
-            this.#displayHistogram(histoDescr);
-        }
+    #displayHistogramViewForHistoDescrs(histoDescrs) {
+        this.#displaySelectBatchcodeCombination(histoDescrs.histograms);
+        this.#chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
+        this.#uiContainer.appendChild(this.#chartWithSlider);
+        this.#histogramChartView = new HistogramChartView(this.#getCanvas());
+        this.#displayHistogram(histoDescrs.histograms[0]);
+    }
+
+    #getCanvas() {
+        return this.#chartWithSlider.querySelector("canvas");
+    }
+
+    #displaySelectBatchcodeCombination(histograms) {
+        const selectBatchcodeCombination = UIUtils.instantiateTemplate('template-selectBatchcodeCombination');
+        const batchcodesSelect = selectBatchcodeCombination.querySelector('#batchcodesSelect');
+        this.#addBatchcodeCombinationOptions(batchcodesSelect, histograms);
+        batchcodesSelect.addEventListener(
+            'change',
+            event => {
+                const histoDescr = histograms[event.target.value];
+                this.#displayHistogram(histoDescr);
+            });
+        this.#uiContainer.appendChild(selectBatchcodeCombination);
+    }
+
+    #addBatchcodeCombinationOptions(batchcodesSelect, histograms) {
+        this.#getBatchcodeCombinationOptions(histograms).forEach(option => batchcodesSelect.add(option));
+    }
+
+    #getBatchcodeCombinationOptions(histograms) {
+        // FK-TODO: zuerst das Histogramm für den einzelnen batchcode, dann batchcodes-Array-Länge 2, 3, 4, ...
+        return histograms.map(this.#getBatchcodeCombinationOption);
+    }
+
+    #getBatchcodeCombinationOption(histoDescr, index) {
+        const option = document.createElement("option");
+        option.text = histoDescr.batchcodes.join(', ');
+        option.value = index;
+        return option;
     }
 
     #displayHistogram(histoDescr) {
-        const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
-        this.#uiContainer.appendChild(chartWithSlider);
-        const canvas = chartWithSlider.querySelector("canvas");
-        const histogramChartView = new HistogramChartView(canvas);
-        histogramChartView.displayChart(histoDescr);
+        this.#histogramChartView.displayChart(histoDescr);
         this.#createSlider(
             {
-                sliderElement: chartWithSlider.querySelector(".slider"),
+                sliderElement: this.#chartWithSlider.querySelector(".slider"),
                 range: {
                     min: 0,
                     max: Object.keys(histoDescr.histogram).length
                 },
                 orientation: 'vertical',
-                height: canvas.style.height,
-                onUpdate: range => histogramChartView.setData(this.#slice(histoDescr, range))
+                height: this.#getCanvas().style.height,
+                onUpdate: range => this.#histogramChartView.setData(this.#slice(histoDescr, range))
             });
     }
 
