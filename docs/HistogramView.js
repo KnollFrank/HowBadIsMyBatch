@@ -1,8 +1,6 @@
 class HistogramView {
 
     #uiContainer;
-    #chartWithSlider;
-    #histogramChartView;
 
     constructor(uiContainer) {
         this.#uiContainer = uiContainer
@@ -25,18 +23,14 @@ class HistogramView {
     }
 
     #displayHistogramViewForHistoDescrs(histoDescrs) {
-        this.#displaySelectBatchcodeCombination(histoDescrs.histograms);
-        this.#chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
-        this.#uiContainer.appendChild(this.#chartWithSlider);
-        this.#histogramChartView = new HistogramChartView(this.#getCanvas());
-        this.#displayHistogram(histoDescrs.histograms[0]);
+        const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
+        const histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
+        this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
+        this.#uiContainer.appendChild(chartWithSlider);
+        this.#displayHistogram(histoDescrs.histograms[0], histogramChartView, chartWithSlider);
     }
 
-    #getCanvas() {
-        return this.#chartWithSlider.querySelector("canvas");
-    }
-
-    #displaySelectBatchcodeCombination(histograms) {
+    #displaySelectBatchcodeCombination(histograms, histogramChartView, chartWithSlider) {
         const selectBatchcodeCombination = UIUtils.instantiateTemplate('template-selectBatchcodeCombination');
         const batchcodesSelect = selectBatchcodeCombination.querySelector('#batchcodesSelect');
         this.#addBatchcodeCombinationOptions(batchcodesSelect, histograms);
@@ -44,7 +38,7 @@ class HistogramView {
             'change',
             event => {
                 const histoDescr = histograms[event.target.value];
-                this.#displayHistogram(histoDescr);
+                this.#displayHistogram(histoDescr, histogramChartView, chartWithSlider);
             });
         this.#uiContainer.appendChild(selectBatchcodeCombination);
     }
@@ -65,18 +59,18 @@ class HistogramView {
         return option;
     }
 
-    #displayHistogram(histoDescr) {
-        this.#histogramChartView.displayChart(histoDescr);
+    #displayHistogram(histoDescr, histogramChartView, chartWithSlider) {
+        histogramChartView.displayChart(histoDescr);
         this.#createSlider(
             {
-                sliderElement: this.#chartWithSlider.querySelector(".slider"),
+                sliderElement: chartWithSlider.querySelector(".slider"),
                 range: {
                     min: 0,
                     max: Object.keys(histoDescr.histogram).length
                 },
                 orientation: 'vertical',
-                height: this.#getCanvas().style.height,
-                onUpdate: range => this.#histogramChartView.setData(this.#slice(histoDescr, range))
+                height: chartWithSlider.querySelector("canvas").style.height,
+                onUpdate: range => histogramChartView.setData(this.#slice(histoDescr, range))
             });
     }
 
