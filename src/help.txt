@@ -3,7 +3,6 @@ jupyter notebook
 FK-FIXME:
 
 FK-TODO:
-- remove country batch code tables, retain global batch code table
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch

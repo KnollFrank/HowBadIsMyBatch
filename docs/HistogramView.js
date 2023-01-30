@@ -30,7 +30,6 @@ class HistogramView {
     }
 
     #displayHistogram(histoDescr) {
-        // FK-TODO: extract class for template-chartWithSlider
         const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
         this.#uiContainer.appendChild(chartWithSlider);
         const canvas = chartWithSlider.querySelector("canvas");
