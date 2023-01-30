@@ -25,9 +25,12 @@ class HistogramView {
     #displayHistogramViewForHistoDescrs(histoDescrs) {
         const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
         const histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
-        this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
+        const selectBatchcodeCombination = this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
         this.#uiContainer.appendChild(chartWithSlider);
-        this.#displayHistogram(histoDescrs.histograms[0], histogramChartView, chartWithSlider);
+        this.#displayHistogram(
+            this.#getSelectedHistoDescr(selectBatchcodeCombination, histoDescrs.histograms),
+            histogramChartView,
+            chartWithSlider);
     }
 
     #displaySelectBatchcodeCombination(histograms, histogramChartView, chartWithSlider) {
@@ -41,6 +44,11 @@ class HistogramView {
                 this.#displayHistogram(histoDescr, histogramChartView, chartWithSlider);
             });
         this.#uiContainer.appendChild(selectBatchcodeCombination);
+        return selectBatchcodeCombination;
+    }
+
+    #getSelectedHistoDescr(selectBatchcodeCombination, histograms) {
+        return histograms[selectBatchcodeCombination.querySelector('#batchcodesSelect').selectedIndex];
     }
 
     #addBatchcodeCombinationOptions(batchcodesSelect, histograms) {
@@ -49,7 +57,9 @@ class HistogramView {
 
     #getBatchcodeCombinationOptions(histograms) {
         // FK-TODO: zuerst das Histogramm für den einzelnen batchcode, dann batchcodes-Array-Länge 2, 3, 4, ...
-        return histograms.map(this.#getBatchcodeCombinationOption);
+        const options = histograms.map(this.#getBatchcodeCombinationOption);
+        options[options.length - 1].selected = true;
+        return options;
     }
 
     #getBatchcodeCombinationOption(histoDescr, index) {
