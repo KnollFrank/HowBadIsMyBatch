@@ -71,7 +71,12 @@ class HistogramView {
             });
         sliderElement.noUiSlider.on(
             'update',
-            ([start, endInclusive]) => onUpdate({ start: parseInt(start, 10), endInclusive: parseInt(endInclusive, 10) }));
+            ([start, endInclusive]) =>
+                onUpdate(
+                    {
+                        start: parseInt(start, 10),
+                        endInclusive: parseInt(endInclusive, 10)
+                    }));
         if (height != null) {
             sliderElement.style.height = height;
         }
