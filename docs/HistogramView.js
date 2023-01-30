@@ -24,11 +24,18 @@ class HistogramView {
     }
 
     #displayHistogramViewForHistoDescrs(histoDescrs) {
+        this.#displayHeading(histoDescrs.batchcode);
         const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
         const histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
         this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
         this.#uiContainer.appendChild(chartWithSlider);
         this.#displayHistogram(histoDescrs.histograms[0], histogramChartView, chartWithSlider);
+    }
+
+    #displayHeading(batchcode) {
+        const h1 = document.createElement("h3");
+        h1.appendChild(document.createTextNode(`Batch Code Combinations containing ${batchcode} and associated Frequencies of reported Symptoms`));
+        this.#uiContainer.appendChild(h1);
     }
 
     #displaySelectBatchcodeCombination(histograms, histogramChartView, chartWithSlider) {
