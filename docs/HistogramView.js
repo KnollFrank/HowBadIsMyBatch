@@ -36,7 +36,7 @@ class HistogramView {
 
     #displaySelectBatchcodeCombination(histograms, histogramChartView, chartWithSlider) {
         const selectBatchcodeCombination =
-            new BatchcodeCombinationSelection().getSelectBatchcodeCombination(
+            BatchcodeCombinationSelection.getSelectBatchcodeCombination(
                 {
                     histograms: histograms,
                     onSelect: histoDescr => this.#displayHistogram(histoDescr, histogramChartView, chartWithSlider)

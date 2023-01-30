@@ -1,6 +1,6 @@
 class BatchcodeCombinationSelection {
 
-    getSelectBatchcodeCombination({ histograms, onSelect }) {
+    static getSelectBatchcodeCombination({ histograms, onSelect }) {
         const selectBatchcodeCombination = UIUtils.instantiateTemplate('template-selectBatchcodeCombination');
         const batchcodesSelect = selectBatchcodeCombination.querySelector('#batchcodesSelect');
         this.#addBatchcodeCombinationOptions(batchcodesSelect, histograms);
@@ -13,15 +13,15 @@ class BatchcodeCombinationSelection {
         return selectBatchcodeCombination;
     }
 
-    #addBatchcodeCombinationOptions(batchcodesSelect, histograms) {
+    static #addBatchcodeCombinationOptions(batchcodesSelect, histograms) {
         this.#getBatchcodeCombinationOptions(histograms).forEach(option => batchcodesSelect.add(option));
     }
 
-    #getBatchcodeCombinationOptions(histograms) {
+    static #getBatchcodeCombinationOptions(histograms) {
         return histograms.map(this.#getBatchcodeCombinationOption);
     }
 
-    #getBatchcodeCombinationOption(histoDescr, index) {
+    static #getBatchcodeCombinationOption(histoDescr, index) {
         const option = document.createElement("option");
         option.text = histoDescr.batchcodes.join(', ');
         option.value = index;
