@@ -48,7 +48,8 @@ class HistogramView {
     }
 
     #getSelectedHistoDescr(selectBatchcodeCombination, histograms) {
-        return histograms[selectBatchcodeCombination.querySelector('#batchcodesSelect').selectedIndex];
+        const selectedIndex = UIUtils.getSelectedOption(selectBatchcodeCombination.querySelector('#batchcodesSelect')).value;
+        return histograms[selectedIndex];
     }
 
     #addBatchcodeCombinationOptions(batchcodesSelect, histograms) {
@@ -56,10 +57,20 @@ class HistogramView {
     }
 
     #getBatchcodeCombinationOptions(histograms) {
-        // FK-TODO: zuerst das Histogramm für den einzelnen batchcode, dann batchcodes-Array-Länge 2, 3, 4, ...
         const options = histograms.map(this.#getBatchcodeCombinationOption);
-        options[options.length - 1].selected = true;
-        return options;
+        const mapped = histograms.map((histoDescr, index) => ({ index: index, value: histoDescr.batchcodes.length }));
+        mapped.sort((a, b) => {
+            if (a.value > b.value) {
+                return 1;
+            }
+            if (a.value < b.value) {
+                return -1;
+            }
+            return 0;
+        });
+        const optionsSorted = mapped.map(v => options[v.index]);
+        optionsSorted[0].selected = true;
+        return optionsSorted;
     }
 
     #getBatchcodeCombinationOption(histoDescr, index) {
