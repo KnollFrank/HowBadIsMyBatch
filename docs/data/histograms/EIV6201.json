@@ -1,15 +1,1 @@
-{
-    "batchcode": "EIV6201",
-    "histograms": [
-        {
-            "batchcodes": [
-                "EIV6201"
-            ],
-            "histogram": {
-                "Rash": 1,
-                "Rash erythematous": 1,
-                "Rash pruritic": 1
-            }
-        }
-    ]
-}
+{"batchcode": "EIV6201", "histograms": [{"batchcodes": ["EIV6201"], "histogram": {"Rash": 1, "Rash erythematous": 1, "Rash pruritic": 1}}]}

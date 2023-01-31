@@ -1,17 +1,1 @@
-{
-    "batchcode": "FE628",
-    "histograms": [
-        {
-            "batchcodes": [
-                "FE628"
-            ],
-            "histogram": {
-                "Carcinoembryonic antigen": 1,
-                "Computerised tomogram thorax": 1,
-                "Neurone-specific enolase": 1,
-                "Tumour marker increased": 1,
-                "Tumour marker test": 1
-            }
-        }
-    ]
-}
+{"batchcode": "FE628", "histograms": [{"batchcodes": ["FE628"], "histogram": {"Carcinoembryonic antigen": 1, "Computerised tomogram thorax": 1, "Neurone-specific enolase": 1, "Tumour marker increased": 1, "Tumour marker test": 1}}]}

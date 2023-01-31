@@ -1,14 +1,1 @@
-{
-    "batchcode": "003A21A EXP 08/",
-    "histograms": [
-        {
-            "batchcodes": [
-                "003A21A EXP 08/"
-            ],
-            "histogram": {
-                "Dizziness": 1,
-                "Hypertension": 1
-            }
-        }
-    ]
-}
+{"batchcode": "003A21A EXP 08/", "histograms": [{"batchcodes": ["003A21A EXP 08/"], "histogram": {"Dizziness": 1, "Hypertension": 1}}]}
