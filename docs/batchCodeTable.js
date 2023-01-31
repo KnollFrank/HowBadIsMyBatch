@@ -103,8 +103,9 @@ class BatchCodeTableInitializer {
                 return json;
             })
             .then(json => {
-                this.#_setTableRows(json.data)
+                this.#setTableRows(json.data);
                 this.#selectInput();
+                this.#displayControlColumn(country == 'Global');
             });
     }
 
@@ -113,7 +114,7 @@ class BatchCodeTableInitializer {
         json.data.forEach(row => row.unshift(null));
     }
 
-    #_setTableRows(rows) {
+    #setTableRows(rows) {
         this.#batchCodeTable
             .clear()
             .rows.add(rows)
@@ -124,6 +125,10 @@ class BatchCodeTableInitializer {
         const input = document.querySelector(".dataTables_filter input");
         input.focus();
         input.select();
+    }
+
+    #displayControlColumn(isVisible) {
+        this.#batchCodeTable.column(this.#getColumnIndex('control')).visible(isVisible);
     }
 
     #initializeHistogramView() {
