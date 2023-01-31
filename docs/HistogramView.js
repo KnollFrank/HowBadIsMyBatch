@@ -34,7 +34,7 @@ class HistogramView {
 
     #displayHeading(batchcode) {
         const h1 = document.createElement("h3");
-        h1.appendChild(document.createTextNode(`Batch Code Combinations containing ${batchcode} and associated Frequencies of reported Symptoms`));
+        h1.appendChild(document.createTextNode(`Frequencies of reported Symptoms for Batch Code Combinations containing ${batchcode}`));
         this.#uiContainer.appendChild(h1);
     }
 
