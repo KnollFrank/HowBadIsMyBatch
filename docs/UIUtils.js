@@ -4,6 +4,10 @@ class UIUtils {
         return document.getElementById(templateId).content.firstElementChild.cloneNode(true);
     }
 
+    static createCanvas() {
+        return UIUtils.instantiateTemplate('template-canvas');
+    }
+
     static createChartViewElementWithHeading(heading) {
         const chartViewElement = UIUtils.instantiateTemplate('template-ChartView');
         chartViewElement.querySelector(".heading").textContent = heading;

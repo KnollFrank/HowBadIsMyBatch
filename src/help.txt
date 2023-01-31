@@ -3,6 +3,7 @@ jupyter notebook
 FK-FIXME:
 
 FK-TODO:
+- Histogramme auch speziell für die einzelnen Länder berechnen und anzeigen.
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
@@ -13,3 +14,9 @@ ipython kernel install --user --name=howbadismybatch-venv-kernel
 jupyter kernelspec list
 conda env export --from-history > environment.yml
 conda env create -f environment.yml
+
+www.HowBadIsMyBatch.info
+/etc/apache2/sites-available/HowBadIsMyBatch.conf
+
+https://datatables.net/examples/api/row_details.html
+https://www.datatables.net/blog/2017-03-31

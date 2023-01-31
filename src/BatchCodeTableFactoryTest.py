@@ -28,7 +28,7 @@ class BatchCodeTableFactoryTest(unittest.TestCase):
 
         # Then
         assert_frame_equal(
-            batchCodeTable,
+            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Company', 'Countries', 'Severe reports', 'Lethality']],
             TestHelper.createDataFrame(
                 columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Company', 'Countries', 'Severe reports', 'Lethality'],
                 data = [  [2,                          1,        2,              2,                            'MODERNA', 'France',    2/2 * 100,        1/2 * 100],
@@ -62,7 +62,7 @@ class BatchCodeTableFactoryTest(unittest.TestCase):
 
         # Then
         assert_frame_equal(
-            batchCodeTable,
+            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Company', 'Countries', 'Severe reports', 'Lethality']],
             TestHelper.createDataFrame(
                 columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Company',         'Countries',              'Severe reports', 'Lethality'],
                 data = [  [1,                          1,        0,              0,                            'PFIZER\BIONTECH', 'United Kingdom',         1/1 * 100,        1/1 * 100],
@@ -98,7 +98,7 @@ class BatchCodeTableFactoryTest(unittest.TestCase):
 
         # Then
         assert_frame_equal(
-            batchCodeTable,
+            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Company', 'Countries', 'Severe reports', 'Lethality']],
             TestHelper.createDataFrame(
                 columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Company', 'Countries', 'Severe reports', 'Lethality'],
                 data = [  ],

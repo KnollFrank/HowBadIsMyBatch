@@ -1,4 +1,6 @@
 import pandas as pd
+from DataFrameNormalizer import DataFrameNormalizer
+
 
 class VaersDescrReader:
     
@@ -11,13 +13,15 @@ class VaersDescrReader:
     def readVaersDescrForYear(self, year):
         return {
                     'VAERSDATA': self._readVAERSDATA('{dataDir}/{year}VAERSDATA.csv'.format(dataDir = self.dataDir, year = year)),
-                    'VAERSVAX': self._readVAERSVAX('{dataDir}/{year}VAERSVAX.csv'.format(dataDir = self.dataDir, year = year))
+                    'VAERSVAX': self._readVAERSVAX('{dataDir}/{year}VAERSVAX.csv'.format(dataDir = self.dataDir, year = year)),
+                    'VAERSSYMPTOMS': self._readVAERSSYMPTOMS('{dataDir}/{year}VAERSSYMPTOMS.csv'.format(dataDir = self.dataDir, year = year))
                }
 
     def readNonDomesticVaersDescr(self):
         return {
                     'VAERSDATA': self._readVAERSDATA(self.dataDir + "/NonDomesticVAERSDATA.csv"),
-                    'VAERSVAX': self._readVAERSVAX(self.dataDir + "/NonDomesticVAERSVAX.csv")
+                    'VAERSVAX': self._readVAERSVAX(self.dataDir + "/NonDomesticVAERSVAX.csv"),
+                    'VAERSSYMPTOMS': self._readVAERSSYMPTOMS(self.dataDir + "/NonDomesticVAERSSYMPTOMS.csv")
                }
 
     def _readVAERSDATA(self, file):
@@ -28,10 +32,22 @@ class VaersDescrReader:
             date_parser = lambda dateStr: pd.to_datetime(dateStr, format = "%m/%d/%Y"))
 
     def _readVAERSVAX(self, file):
-        return self._read_csv(
+        VAERSVAX = self._read_csv(
             file = file,
             usecols = ['VAERS_ID', 'VAX_DOSE_SERIES', 'VAX_TYPE', 'VAX_MANU', 'VAX_LOT'],
-            dtype = {"VAX_DOSE_SERIES": "string"})
+            dtype =
+                {
+                    "VAX_DOSE_SERIES": "string",
+                    "VAX_LOT": "string"
+                })
+        DataFrameNormalizer.convertVAX_LOTColumnToUpperCase(VAERSVAX)
+        return VAERSVAX
+
+
+    def _readVAERSSYMPTOMS(self, file):
+        return self._read_csv(
+            file = file,
+            usecols = ['VAERS_ID', 'SYMPTOM1', 'SYMPTOM2', 'SYMPTOM3', 'SYMPTOM4', 'SYMPTOM5'])
 
     def _read_csv(self, file, **kwargs):
         return pd.read_csv(

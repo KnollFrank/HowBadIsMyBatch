@@ -4,19 +4,24 @@ import numpy as np
 from HtmlUtils import getCountries
 
 
-def createAndSaveBatchCodeTables(internationalVaersCovid19, minADRsForLethality):
+def createAndSaveBatchCodeTables(
+        internationalVaersCovid19,
+        minADRsForLethality,
+        onCountryProcessed = lambda country: None):
     batchCodeTableFactory = BatchCodeTableFactory(internationalVaersCovid19)
     _createAndSaveBatchCodeTablesForCountries(
-        createBatchCodeTableForCountry=lambda country: batchCodeTableFactory.createBatchCodeTableByCountry(country),
-        countries=getCountries(internationalVaersCovid19),
-        minADRsForLethality=minADRsForLethality)
+        createBatchCodeTableForCountry = lambda country: batchCodeTableFactory.createBatchCodeTableByCountry(country),
+        countries = getCountries(internationalVaersCovid19),
+        minADRsForLethality = minADRsForLethality,
+        onCountryProcessed = onCountryProcessed)
     _createAndSaveBatchCodeTableForCountry(
-        createBatchCodeTableForCountry=lambda country: batchCodeTableFactory.createGlobalBatchCodeTable(),
-        country='Global',
-        minADRsForLethality=minADRsForLethality)
+        createBatchCodeTableForCountry = lambda country: batchCodeTableFactory.createGlobalBatchCodeTable(),
+        country = 'Global',
+        minADRsForLethality = minADRsForLethality,
+        onCountryProcessed = onCountryProcessed)
 
 
-def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, country, minADRsForLethality=None):
+def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, country, minADRsForLethality, onCountryProcessed):
     batchCodeTable = createBatchCodeTableForCountry(country)
     batchCodeTable.index.set_names("Batch", inplace=True)
     if minADRsForLethality is not None:
@@ -24,14 +29,25 @@ def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, count
             batchCodeTable['Adverse Reaction Reports'] < minADRsForLethality,
             ['Severe reports', 'Lethality']
         ] = [np.nan, np.nan]
+    batchCodeTable = batchCodeTable.reset_index();
+    batchCodeTable = batchCodeTable[
+        [
+            'Batch',
+            'Adverse Reaction Reports',
+            'Deaths',
+            'Disabilities',
+            'Life Threatening Illnesses',
+            'Company',
+            'Countries',
+            'Severe reports',
+            'Lethality'
+        ]]
     IOUtils.saveDataFrame(
         batchCodeTable,
         '../docs/data/batchCodeTables/' + country)
-    # display(country + ":", batchCodeTable)
-    display(country)
+    onCountryProcessed(country)
 
 
-def _createAndSaveBatchCodeTablesForCountries(createBatchCodeTableForCountry, countries, minADRsForLethality=None):
+def _createAndSaveBatchCodeTablesForCountries(createBatchCodeTableForCountry, countries, minADRsForLethality, onCountryProcessed):
     for country in countries:
-        _createAndSaveBatchCodeTableForCountry(
-            createBatchCodeTableForCountry, country, minADRsForLethality)
+        _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, country, minADRsForLethality, onCountryProcessed)

@@ -25,7 +25,7 @@ class DataFrameFilterTest(unittest.TestCase):
                         index = [
                             "0916600",
                             "0916601"],
-                        dtypes = {'VAX_DOSE_SERIES': "string"})
+                        dtypes = {"VAX_DOSE_SERIES": "string"})
                 },
                 {
                     'VAERSDATA': TestHelper.createDataFrame(
@@ -42,7 +42,7 @@ class DataFrameFilterTest(unittest.TestCase):
                             index = [
                                 "1996873",
                                 "1996874"],
-                            dtypes = {'VAX_DOSE_SERIES': "string"})
+                            dtypes = {"VAX_DOSE_SERIES": "string"})
                     }
             ])
         dataFrameFilter = DataFrameFilter()
@@ -60,5 +60,5 @@ class DataFrameFilterTest(unittest.TestCase):
                 "0916600",
                 "0916601",
                 "1996874"],
-            dtypes = {'VAX_DOSE_SERIES': "string"})
+            dtypes = {"VAX_DOSE_SERIES": "string"})
         assert_frame_equal(dataFrame, dataFrameExpected, check_dtype = False)

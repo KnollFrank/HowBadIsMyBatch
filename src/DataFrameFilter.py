@@ -1,7 +1,5 @@
-import pandas as pd
-
 class DataFrameFilter:
-    
+
     def filterByCovid19(self, dataFrame):
         return dataFrame[self._isCovid19(dataFrame)]
 

@@ -14,21 +14,11 @@ class BatchCodeTableInitializer {
     initialize() {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
         this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
-        this.#displayCountry('Global')
+        this.#displayCountry('Global');
+        this.#initializeHistogramView();
     }
 
     #createEmptyBatchCodeTable() {
-        const columnIndex = {
-            'Batch': 0,
-            'Adverse Reaction Reports': 1,
-            'Deaths': 2,
-            'Disabilities': 3,
-            'Life Threatening Illnesses': 4,
-            'Company': 5,
-            'Countries': 6,
-            'Severe reports': 7,
-            'Lethality': 8
-        };
         return this.#batchCodeTableElement.DataTable(
             {
                 language:
@@ -41,46 +31,124 @@ class BatchCodeTableInitializer {
                 },
                 processing: true,
                 deferRender: true,
-                order: [[columnIndex['Adverse Reaction Reports'], "desc"]],
+                order: [[this.#getColumnIndex('Adverse Reaction Reports'), "desc"]],
                 columnDefs:
                     [
                         {
+                            className: 'dt-control',
+                            orderable: false,
+                            data: null,
+                            defaultContent: '',
+                            targets: this.#getColumnIndex('control')
+                        },
+                        {
                             searchable: false,
                             targets: [
-                                columnIndex['Adverse Reaction Reports'],
-                                columnIndex['Deaths'],
-                                columnIndex['Disabilities'],
-                                columnIndex['Life Threatening Illnesses'],
-                                columnIndex['Company'],
-                                columnIndex['Countries'],
-                                columnIndex['Severe reports'],
-                                columnIndex['Lethality']
+                                this.#getColumnIndex('Adverse Reaction Reports'),
+                                this.#getColumnIndex('Deaths'),
+                                this.#getColumnIndex('Disabilities'),
+                                this.#getColumnIndex('Life Threatening Illnesses'),
+                                this.#getColumnIndex('Company'),
+                                this.#getColumnIndex('Countries'),
+                                this.#getColumnIndex('Severe reports'),
+                                this.#getColumnIndex('Lethality')
                             ]
                         },
                         {
                             orderable: false,
-                            targets: columnIndex['Countries']
+                            targets: this.#getColumnIndex('Countries')
                         },
                         {
                             render: (data, type, row) => {
                                 const numberInPercent = parseFloat(data);
                                 return !isNaN(numberInPercent) ? numberInPercent.toFixed(2) + " %" : '';
                             },
-                            targets: [columnIndex['Severe reports'], columnIndex['Lethality']]
+                            targets: [this.#getColumnIndex('Severe reports'), this.#getColumnIndex('Lethality')]
                         }
                     ]
             });
     }
 
+    #getColumnIndex(columnName) {
+        switch (columnName) {
+            case 'control':
+                return 0;
+            case 'Batch':
+                return 1;
+            case 'Adverse Reaction Reports':
+                return 2;
+            case 'Deaths':
+                return 3;
+            case 'Disabilities':
+                return 4;
+            case 'Life Threatening Illnesses':
+                return 5;
+            case 'Company':
+                return 6;
+            case 'Countries':
+                return 7;
+            case 'Severe reports':
+                return 8;
+            case 'Lethality':
+                return 9;
+        }
+    }
+
     #displayCountry(country) {
         this.#heading.textContent = country == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${country}`;
-        this.#batchCodeTable.ajax.url(`data/batchCodeTables/${country}.json`).load();
-        this.#selectInput();
+        fetch(`data/batchCodeTables/${country}.json`)
+            .then(response => response.json())
+            .then(json => {
+                this.#_addEmptyControlColumn(json);
+                return json;
+            })
+            .then(json => {
+                this.#setTableRows(json.data);
+                this.#selectInput();
+                this.#displayControlColumn(country == 'Global');
+            });
+    }
+
+    #_addEmptyControlColumn(json) {
+        json.columns.unshift('control');
+        json.data.forEach(row => row.unshift(null));
+    }
+
+    #setTableRows(rows) {
+        this.#batchCodeTable
+            .clear()
+            .rows.add(rows)
+            .draw();
     }
 
     #selectInput() {
         const input = document.querySelector(".dataTables_filter input");
         input.focus();
         input.select();
+    }
+
+    #displayControlColumn(isVisible) {
+        this.#batchCodeTable.column(this.#getColumnIndex('control')).visible(isVisible);
+    }
+
+    #initializeHistogramView() {
+        const thisClassInstance = this;
+        $(`#${this.#batchCodeTableElement[0].id} tbody`).on(
+            'click',
+            'td.dt-control',
+            function () {
+                const tr = $(this).closest('tr');
+                const row = thisClassInstance.#batchCodeTable.row(tr);
+                if (row.child.isShown()) {
+                    row.child.hide();
+                    tr.removeClass('shown');
+                } else {
+                    const uiContainer = document.createElement("div");
+                    row.child(uiContainer).show();
+                    tr.addClass('shown');
+                    const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
+                    new HistogramView(uiContainer).displayHistogramViewForBatchcode(batchcode);
+                }
+            });
     }
 }
