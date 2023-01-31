@@ -1,0 +1,16 @@
+{
+    "batchcode": "FE620",
+    "histograms": [
+        {
+            "batchcodes": [
+                "FE620"
+            ],
+            "histogram": {
+                "COVID-19": 13,
+                "SARS-CoV-2 test": 13,
+                "Vaccination failure": 9,
+                "Drug ineffective": 4
+            }
+        }
+    ]
+}
