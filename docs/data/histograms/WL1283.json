@@ -1,1 +1,1 @@
-{"batchcode": "WL1283", "histograms": [{"batchcodes": ["039K20A", "WL1283"], "histogram": {"Swelling face": 1, "Swollen tongue": 1}}, {"batchcodes": ["EL0140", "WL1283"], "histogram": {"COVID-19": 1, "Pneumonia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "WL1283", "histograms": [{"batchcodes": ["EL0140", "WL1283"], "histogram": {"COVID-19": 1, "Pneumonia": 1, "SARS-CoV-2 test positive": 1}}]}
