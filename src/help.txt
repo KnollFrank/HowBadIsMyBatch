@@ -20,3 +20,17 @@ www.HowBadIsMyBatch.info
 
 https://datatables.net/examples/api/row_details.html
 https://www.datatables.net/blog/2017-03-31
+
+Profiling:
+==========
+from SymptomByBatchcodeTableFactory import SymptomByBatchcodeTableFactory
+import cProfile
+cProfile.run(
+    'SymptomByBatchcodeTableFactory.createSymptomByBatchcodeTable(international_VAERSVAX_Covid19, international_VAERSSYMPTOMS)',
+    'tmp/restats')
+
+import pstats
+from pstats import SortKey
+
+p = pstats.Stats('tmp/restats')
+p.strip_dirs().sort_stats(SortKey.CUMULATIVE).print_stats()
