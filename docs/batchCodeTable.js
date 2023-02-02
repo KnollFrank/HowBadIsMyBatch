@@ -96,6 +96,7 @@ class BatchCodeTableInitializer {
 
     #displayCountry(country) {
         this.#heading.textContent = country == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${country}`;
+        // FK-TODO: show "Loading.." message or spinning wheel.
         fetch(`data/batchCodeTables/${country}.json`)
             .then(response => response.json())
             .then(json => {

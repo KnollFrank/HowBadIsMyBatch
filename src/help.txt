@@ -4,6 +4,7 @@ FK-FIXME:
 
 FK-TODO:
 - Histogramme auch speziell für die einzelnen Länder berechnen und anzeigen.
+- make Company column searchable: https://datatables.net/examples/api/multi_filter_select.html
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
