@@ -4,6 +4,7 @@ class BatchCodeTableInitializer {
     #countrySelect;
     #batchCodeTableElement;
     #batchCodeTable;
+    #columnSearch;
 
     constructor({ heading, countrySelect, batchCodeTableElement }) {
         this.#heading = heading;
@@ -13,6 +14,7 @@ class BatchCodeTableInitializer {
 
     initialize() {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
+        this.#columnSearch = new ColumnSearch(this.#batchCodeTable.column(this.#getColumnIndex('Company')));
         this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
         this.#displayCountry('Global');
         this.#initializeHistogramView();
@@ -104,7 +106,7 @@ class BatchCodeTableInitializer {
             })
             .then(json => {
                 this.#setTableRows(json.data);
-                this.#makeCompanyColumnSearchable();
+                this.#columnSearch.columnContentUpdated();
                 this.#selectInput();
                 this.#displayControlColumn(country == 'Global');
             });
@@ -120,27 +122,6 @@ class BatchCodeTableInitializer {
             .clear()
             .rows.add(rows)
             .draw();
-    }
-
-    #makeCompanyColumnSearchable() {
-        // adapted from https://datatables.net/examples/api/multi_filter_select.html
-        const companyColumn = this.#batchCodeTable.column(this.#getColumnIndex('Company'));
-        const select = $('<select><option value=""></option></select>')
-            .appendTo($(companyColumn.header()))
-            .on('change', function () {
-                const val = $.fn.dataTable.util.escapeRegex($(this).val());
-                companyColumn
-                    .search(val ? '^' + val + '$' : '', true, false)
-                    .draw();
-            });
-
-        companyColumn
-            .data()
-            .unique()
-            .sort()
-            .each(function (d, _) {
-                select.append('<option value="' + d + '">' + d + '</option>');
-            });
     }
 
     #selectInput() {
