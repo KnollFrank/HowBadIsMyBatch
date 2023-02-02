@@ -4,6 +4,7 @@ class BatchCodeTableInitializer {
     #countrySelect;
     #batchCodeTableElement;
     #batchCodeTable;
+    #columnSearch;
 
     constructor({ heading, countrySelect, batchCodeTableElement }) {
         this.#heading = heading;
@@ -13,6 +14,7 @@ class BatchCodeTableInitializer {
 
     initialize() {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
+        this.#columnSearch = new ColumnSearch(this.#batchCodeTable.column(this.#getColumnIndex('Company')));
         this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
         this.#displayCountry('Global');
         this.#initializeHistogramView();
@@ -48,7 +50,6 @@ class BatchCodeTableInitializer {
                                 this.#getColumnIndex('Deaths'),
                                 this.#getColumnIndex('Disabilities'),
                                 this.#getColumnIndex('Life Threatening Illnesses'),
-                                this.#getColumnIndex('Company'),
                                 this.#getColumnIndex('Countries'),
                                 this.#getColumnIndex('Severe reports'),
                                 this.#getColumnIndex('Lethality')
@@ -56,7 +57,7 @@ class BatchCodeTableInitializer {
                         },
                         {
                             orderable: false,
-                            targets: this.#getColumnIndex('Countries')
+                            targets: [this.#getColumnIndex('Countries'), this.#getColumnIndex('Company')]
                         },
                         {
                             render: (data, type, row) => {
@@ -105,6 +106,7 @@ class BatchCodeTableInitializer {
             })
             .then(json => {
                 this.#setTableRows(json.data);
+                this.#columnSearch.columnContentUpdated();
                 this.#selectInput();
                 this.#displayControlColumn(country == 'Global');
             });

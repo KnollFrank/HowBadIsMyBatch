@@ -4,7 +4,6 @@ FK-FIXME:
 
 FK-TODO:
 - Histogramme auch speziell für die einzelnen Länder berechnen und anzeigen.
-- make Company column searchable: https://datatables.net/examples/api/multi_filter_select.html
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
@@ -21,3 +20,17 @@ www.HowBadIsMyBatch.info
 
 https://datatables.net/examples/api/row_details.html
 https://www.datatables.net/blog/2017-03-31
+
+Profiling:
+==========
+from SymptomByBatchcodeTableFactory import SymptomByBatchcodeTableFactory
+import cProfile
+cProfile.run(
+    'SymptomByBatchcodeTableFactory.createSymptomByBatchcodeTable(international_VAERSVAX_Covid19, international_VAERSSYMPTOMS)',
+    'tmp/restats')
+
+import pstats
+from pstats import SortKey
+
+p = pstats.Stats('tmp/restats')
+p.strip_dirs().sort_stats(SortKey.CUMULATIVE).print_stats()
