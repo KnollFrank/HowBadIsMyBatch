@@ -34,10 +34,22 @@ class SymptomByBatchcodeTableFactory:
 
     @staticmethod
     def _getVaxLotsTable(VAERSVAX, index_columns):
+        VAX_LOT_LIST_Table = SymptomByBatchcodeTableFactory._getVAX_LOT_LIST_Table(VAERSVAX)
+        return SymptomByBatchcodeTableFactory._fillLstsInDataframe(VAX_LOT_LIST_Table, index_columns)
+
+    @staticmethod
+    def _getVAX_LOT_LIST_Table(VAERSVAX):
+        # slow: aggfunc = lambda VAX_LOT_series: list(VAX_LOT_series.sort_values())))
+        # fast:
         VAX_LOT_LIST_Table = VAERSVAX.groupby("VAERS_ID").agg(
             VAX_LOT_LIST = pd.NamedAgg(
                 column = 'VAX_LOT',
-                aggfunc = lambda VAX_LOT_series: list(VAX_LOT_series.sort_values())))
+                aggfunc = list))
+        VAX_LOT_LIST_Table['VAX_LOT_LIST'] = VAX_LOT_LIST_Table['VAX_LOT_LIST'].apply(sorted)
+        return VAX_LOT_LIST_Table
+
+    @staticmethod
+    def _fillLstsInDataframe(VAX_LOT_LIST_Table, index_columns):
         return pd.DataFrame(
             fillLsts(
                 lsts = VAX_LOT_LIST_Table['VAX_LOT_LIST'].tolist(),
@@ -45,6 +57,7 @@ class SymptomByBatchcodeTableFactory:
                 fillValue = str(np.nan)),
             columns = index_columns,
             index = VAX_LOT_LIST_Table.index)
+
 
     @staticmethod
     def _getSymptomsTable(VAERSSYMPTOMS, symptomColumn):
