@@ -4,12 +4,12 @@ class CountryColumnAdder:
     
     @staticmethod
     def addCountryColumn(dataFrame):
-        dataFrame['COUNTRY'] = CountryColumnAdder._getCountryColumn(dataFrame)
+        dataFrame['COUNTRY'] = CountryColumnAdder._splttype2Country(dataFrame['SPLTTYPE'])
         return dataFrame
 
     @staticmethod
-    def _getCountryColumn(dataFrame):
-        return (dataFrame['SPLTTYPE']
+    def _splttype2Country(splttypeSeries):
+        return (splttypeSeries
                 .apply(
                     lambda splttype:
                         CountryColumnAdder._getCountryNameOfSplttypeOrDefault(
