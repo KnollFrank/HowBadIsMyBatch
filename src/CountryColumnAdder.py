@@ -4,17 +4,18 @@ class CountryColumnAdder:
     
     @staticmethod
     def addCountryColumn(dataFrame):
-        dataFrame['COUNTRY'] = CountryColumnAdder.getCountryColumn(dataFrame)
-        return dataFrame.astype({'COUNTRY': "string"})
+        dataFrame['COUNTRY'] = CountryColumnAdder._getCountryColumn(dataFrame)
+        return dataFrame
 
     @staticmethod
-    def getCountryColumn(dataFrame):
-        return dataFrame.apply(
-            lambda row:
-                CountryColumnAdder._getCountryNameOfSplttypeOrDefault(
-                 splttype = row['SPLTTYPE'],
-                 default = 'Unknown Country'),
-            axis = 'columns')
+    def _getCountryColumn(dataFrame):
+        return (dataFrame['SPLTTYPE']
+                .apply(
+                    lambda splttype:
+                        CountryColumnAdder._getCountryNameOfSplttypeOrDefault(
+                            splttype = splttype,
+                            default = 'Unknown Country'))
+                .astype("string"))
 
     @staticmethod
     def _getCountryNameOfSplttypeOrDefault(splttype, default):
