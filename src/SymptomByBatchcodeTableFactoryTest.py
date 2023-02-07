@@ -15,7 +15,7 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
                       ['COVID19',  'PFIZER\BIONTECH', '1808982', '1']],
             index = pd.Index(
                     name = 'VAERS_ID',
-                    data=[
+                    data = [
                         2547730,
                         2547730]),
             dtypes = {
@@ -28,7 +28,7 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
                       ['SARS-CoV-2 test positive',            'Unresponsive to stimuli', 'X-ray',           np.nan,                       np.nan]],
             index = pd.Index(
                     name = 'VAERS_ID',
-                    data=[
+                    data = [
                         2547730,
                         2547730,
                         2547730]))
@@ -66,7 +66,7 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
                       ['COVID19',  'JANSSEN',  'EW0175',  '1']],
             index = pd.Index(
                     name = 'VAERS_ID',
-                    data=[
+                    data = [
                         2547730,
                         2547731]),
             dtypes = {
@@ -78,7 +78,7 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
                       ['Blood pressure orthostatic abnormal', np.nan,    np.nan,     np.nan,     np.nan]],
             index = pd.Index(
                     name = 'VAERS_ID',
-                    data=[
+                    data = [
                         2547730,
                         2547731]))
                 
@@ -108,7 +108,7 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
                       ['COVID19',  'PFIZER\BIONTECH', 'EW0167',  '2']],
             index = pd.Index(
                     name = 'VAERS_ID',
-                    data=[
+                    data = [
                         2547730,
                         2547730,
                         2547744,
@@ -125,7 +125,7 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
                       ['Lumbar puncture',                     'Magnetic resonance imaging head', 'Pain',            'Swelling',                             'Vision blurred']],
             index = pd.Index(
                     name = 'VAERS_ID',
-                    data=[
+                    data = [
                         2547730,
                         2547730,
                         2547730,
