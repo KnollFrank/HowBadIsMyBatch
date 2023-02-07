@@ -16,7 +16,7 @@ def getVaersForYears(years):
 def getNonDomesticVaers():
     return _getVaers(
         [_getVaersDescrReader().readNonDomesticVaersDescr()],
-        CountryColumnAdder.addCountryColumn)
+        addCountryColumn = lambda dataFrame: CountryColumnAdder(dataFrame).addCountryColumn(dataFrame))
 
 def _getVaersDescrReader():
     return VaersDescrReader(dataDir = "VAERS")

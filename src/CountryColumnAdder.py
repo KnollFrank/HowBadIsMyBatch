@@ -1,24 +1,35 @@
 import pycountry
+import pandas as pd
 
 class CountryColumnAdder:
     
-    @staticmethod
-    def addCountryColumn(dataFrame):
-        dataFrame['COUNTRY'] = CountryColumnAdder._splttype2Country(dataFrame['SPLTTYPE'])
-        return dataFrame
+    def __init__(self, dataFrame_SPLTTYPE_By_VAERS_ID):
+        self.dataFrame_COUNTRY_By_VAERS_ID = self._create_dataFrame_COUNTRY_By_VAERS_ID(dataFrame_SPLTTYPE_By_VAERS_ID)
+        
+    def addCountryColumn(self, dataFrame):
+        return pd.merge(
+            dataFrame,
+            self.dataFrame_COUNTRY_By_VAERS_ID,
+            how = 'left',
+            left_index = True,
+            right_index = True)
 
-    @staticmethod
-    def _splttype2Country(splttypeSeries):
+    def _create_dataFrame_COUNTRY_By_VAERS_ID(self, dataFrame_SPLTTYPE_By_VAERS_ID):
+        dataFrame_COUNTRY_By_VAERS_ID = dataFrame_SPLTTYPE_By_VAERS_ID[['SPLTTYPE']].copy()
+        dataFrame_COUNTRY_By_VAERS_ID['COUNTRY'] = self._splttype2Country(dataFrame_COUNTRY_By_VAERS_ID['SPLTTYPE'])
+        dataFrame_COUNTRY_By_VAERS_ID = dataFrame_COUNTRY_By_VAERS_ID.drop(columns = ['SPLTTYPE'])
+        return dataFrame_COUNTRY_By_VAERS_ID
+
+    def _splttype2Country(self, splttypeSeries):
         return (splttypeSeries
                 .apply(
                     lambda splttype:
-                        CountryColumnAdder._getCountryNameOfSplttypeOrDefault(
+                        self._getCountryNameOfSplttypeOrDefault(
                             splttype = splttype,
                             default = 'Unknown Country'))
                 .astype("string"))
 
-    @staticmethod
-    def _getCountryNameOfSplttypeOrDefault(splttype, default):
+    def _getCountryNameOfSplttypeOrDefault(self, splttype, default):
         if not isinstance(splttype, str):
             return default
         
