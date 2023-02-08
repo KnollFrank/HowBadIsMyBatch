@@ -58,5 +58,5 @@ def downloadVAERSFileAndUnzip(file, workingDirectory):
 
 def updateVAERSFiles(years, workingDirectory):
     for year in years:
-        downloadVAERSFileAndUnzip(f'{year}VAERSData.zip', workingDirectory)
+        downloadVAERSFileAndUnzip('{year}VAERSData.zip'.format(year=year), workingDirectory)
     downloadVAERSFileAndUnzip('NonDomesticVAERSData.zip', workingDirectory)
