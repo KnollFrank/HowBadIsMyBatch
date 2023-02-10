@@ -56,7 +56,7 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
                           ['SARS-CoV-2 antibody test negative',   'Germany']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [['1808982', 'EW0175']] * 13)))
+                    tuples = [['1808982',  'EW0175']] * 13)))
 
     def test_createSymptomByBatchcodeTable_two_patients_same_symptoms(self):
         # Given
@@ -167,4 +167,4 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
                     tuples = [['1808982',  'EW0175']] * 13 +
-                             [['EW0167', 'EW0175']] * 10)))
+                             [['EW0167',   'EW0175']] * 10)))
