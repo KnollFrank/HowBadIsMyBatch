@@ -1,1 +1,1 @@
-{"batchcode": "ER6730", "histograms": [{"batchcodes": ["ER6730", "UNKNOWN"], "histogram": {"COVID-19": 1, "Chest X-ray abnormal": 1, "Confusional state": 1, "Cough": 1, "Dyspnoea": 1, "Insomnia": 1, "Mental status changes": 1, "Oedema peripheral": 1, "Pneumonia": 1, "SARS-CoV-2 test positive": 1}}, {"batchcodes": ["ER6730"], "histogram": {"COVID-19": 1, "Infection": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "ER6730", "histograms": [{"batchcodes": ["ER6730"], "histogram": {"COVID-19": 1, "Infection": 1, "SARS-CoV-2 test positive": 1}}]}

@@ -1,1 +1,1 @@
-{"batchcode": "026A211A", "histograms": [{"batchcodes": ["026A211A"], "histogram": {"Chills": 1, "Cough": 1, "Headache": 1, "Pain": 1, "Respiratory tract congestion": 1}}]}
+{"batchcode": "026A211A", "histograms": [{"batchcodes": ["026A211A", "032B21A"], "histogram": {"Biopsy liver abnormal": 1, "Erythema": 1, "Hepatic enzyme increased": 1, "Inflammation": 1, "Liver injury": 1, "Skin lesion": 1}}, {"batchcodes": ["026A211A"], "histogram": {"Chills": 1, "Cough": 1, "Headache": 1, "Pain": 1, "Respiratory tract congestion": 1}}]}
