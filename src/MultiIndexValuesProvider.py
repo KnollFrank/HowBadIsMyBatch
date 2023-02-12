@@ -1,14 +1,12 @@
-# FK-TODO: zu langsam
+import pandas as pd
+
+
 class MultiIndexValuesProvider:
 
     @staticmethod
     def getValues(multiIndex):
-        return set(MultiIndexValuesProvider._concat(MultiIndexValuesProvider._tuples2Lists(multiIndex.values)))
-    
-    @staticmethod
-    def _tuples2Lists(tuples):
-        return [list(tuple) for tuple in tuples]
-
-    @staticmethod
-    def _concat(lsts):
-        return sum(lsts, [])
+        df = multiIndex.to_frame(index = False)
+        values = (pd
+                    .concat([df[column] for column in df.columns])
+                    .unique())
+        return set(values)

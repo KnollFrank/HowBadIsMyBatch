@@ -4,7 +4,22 @@ import pandas as pd
 
 class MultiIndexValuesProviderTest(unittest.TestCase):
 
-    def test_getValues(self):
+    def test_getValues_1_level(self):
+        # Given
+        value1 = '1808982'
+        value2 = 'EW0175'
+        multiIndex = pd.MultiIndex.from_tuples(
+            names =   ['VAX_LOT1'],
+            tuples = [[value1],
+                      [value2]])
+                        
+        # When
+        values = MultiIndexValuesProvider.getValues(multiIndex)
+
+        # Then
+        self.assertEqual(values, {value1, value2})
+
+    def test_getValues_2_levels(self):
         # Given
         value1 = '1808982'
         value2 = 'EW0175'
