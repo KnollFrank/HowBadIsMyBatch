@@ -15,9 +15,13 @@ class BatchCodeTableInitializer {
     initialize() {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
         this.#columnSearch = new ColumnSearch(this.#batchCodeTable.column(this.#getColumnIndex('Company')));
-        this.#countrySelect.addEventListener('change', event => this.#displayCountry(event.target.value));
-        this.#displayCountry('Global');
+        this.#countrySelect.addEventListener('change', event => this.#displayCountry());
+        this.#displayCountry();
         this.#initializeHistogramView();
+    }
+
+    #getCountry() {
+        return UIUtils.getSelectedOption(this.#countrySelect).value;
     }
 
     #createEmptyBatchCodeTable() {
@@ -95,10 +99,10 @@ class BatchCodeTableInitializer {
         }
     }
 
-    #displayCountry(country) {
-        this.#heading.textContent = country == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${country}`;
+    #displayCountry() {
+        this.#heading.textContent = this.#getCountry() == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${this.#getCountry()}`;
         // FK-TODO: show "Loading.." message or spinning wheel.
-        fetch(`data/batchCodeTables/${country}.json`)
+        fetch(`data/batchCodeTables/${this.#getCountry()}.json`)
             .then(response => response.json())
             .then(json => {
                 this.#_addEmptyControlColumn(json);
@@ -108,7 +112,6 @@ class BatchCodeTableInitializer {
                 this.#setTableRows(json.data);
                 this.#columnSearch.columnContentUpdated();
                 this.#selectInput();
-                this.#displayControlColumn(country == 'Global');
             });
     }
 
@@ -130,10 +133,6 @@ class BatchCodeTableInitializer {
         input.select();
     }
 
-    #displayControlColumn(isVisible) {
-        this.#batchCodeTable.column(this.#getColumnIndex('control')).visible(isVisible);
-    }
-
     #initializeHistogramView() {
         const thisClassInstance = this;
         $(`#${this.#batchCodeTableElement[0].id} tbody`).on(
@@ -150,7 +149,7 @@ class BatchCodeTableInitializer {
                     row.child(uiContainer).show();
                     tr.addClass('shown');
                     const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
-                    new HistogramView(uiContainer).displayHistogramViewForBatchcode(batchcode);
+                    new HistogramView(uiContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
                 }
             });
     }
