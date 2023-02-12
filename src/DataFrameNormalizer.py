@@ -3,14 +3,6 @@ import numpy as np
 class DataFrameNormalizer:
     
     @staticmethod
-    def normalize(dataFrame):
-        DataFrameNormalizer.removeUnknownBatchCodes(dataFrame)
-        DataFrameNormalizer.convertVAX_LOTColumnToUpperCase(dataFrame)
-        DataFrameNormalizer._convertColumnsOfDataFrame_Y_to_1_else_0(
-            dataFrame,
-            ['DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL', 'ER_VISIT'])
-
-    @staticmethod
     def convertVAX_LOTColumnToUpperCase(dataFrame):
         dataFrame['VAX_LOT'] = dataFrame['VAX_LOT'].str.upper()
 

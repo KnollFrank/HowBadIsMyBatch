@@ -1,25 +1,16 @@
-import pycountry
+import pandas as pd
+from Splttype2CountryConverter import Splttype2CountryConverter
 
 class CountryColumnAdder:
     
-    @staticmethod
-    def addCountryColumn(dataFrame):
-        dataFrame['COUNTRY'] = CountryColumnAdder.getCountryColumn(dataFrame)
-        return dataFrame.astype({'COUNTRY': "string"})
-
-    @staticmethod
-    def getCountryColumn(dataFrame):
-        return dataFrame.apply(
-            lambda row:
-                CountryColumnAdder._getCountryNameOfSplttypeOrDefault(
-                 splttype = row['SPLTTYPE'],
-                 default = 'Unknown Country'),
-            axis = 'columns')
-
-    @staticmethod
-    def _getCountryNameOfSplttypeOrDefault(splttype, default):
-        if not isinstance(splttype, str):
-            return default
+    def __init__(self, dataFrame_SPLTTYPE_By_VAERS_ID):
+        self.dataFrame_COUNTRY_By_VAERS_ID = Splttype2CountryConverter.convertSplttype2Country(dataFrame_SPLTTYPE_By_VAERS_ID)
         
-        country = pycountry.countries.get(alpha_2 = splttype[:2])
-        return country.name if country is not None else default
+    def addCountryColumn(self, dataFrame):
+        return pd.merge(
+            dataFrame,
+            self.dataFrame_COUNTRY_By_VAERS_ID,
+            how = 'left',
+            left_index = True,
+            right_index = True)
+    

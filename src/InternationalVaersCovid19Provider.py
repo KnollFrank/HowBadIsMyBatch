@@ -2,6 +2,7 @@ from DataFrameFilter import DataFrameFilter
 import VaersReader
 import pandas as pd
 from VaersDescrReader import VaersDescrReader
+from CountryColumnAdder import CountryColumnAdder
 
 
 def getInternationalVaersCovid19(years):
@@ -15,17 +16,25 @@ def getInternationalVaersCovid19(years):
 
 
 def get_international_VAERSVAX_VAERSSYMPTOMS_Covid19(years):
-    international_VAERSVAX, international_VAERSSYMPTOMS = _get_international_VAERSVAX_VAERSSYMPTOMS(years)
-    international_VAERSVAX.dropna(subset = ['VAX_LOT'], inplace = True)
-    international_VAERSVAX_Covid19 = DataFrameFilter().filterByCovid19(international_VAERSVAX)    
-    return international_VAERSVAX_Covid19, international_VAERSSYMPTOMS
+    VAERSDATA, VAERSVAX, VAERSSYMPTOMS = _get_VAERSDATA_VAERSVAX_VAERSSYMPTOMS(years)
+    VAERSVAX_Covid19_CountryColumn = _get_VAERSVAX_Covid19_CountryColumn(VAERSVAX, CountryColumnAdder(VAERSDATA))
+    return VAERSVAX_Covid19_CountryColumn, VAERSSYMPTOMS
 
 
-def _get_international_VAERSVAX_VAERSSYMPTOMS(years):
+def _get_VAERSDATA_VAERSVAX_VAERSSYMPTOMS(years):
     vaersDescrReader = VaersDescrReader(dataDir = "VAERS")
-    internationalVaersDescrs = vaersDescrReader.readVaersDescrsForYears(years) + [vaersDescrReader.readNonDomesticVaersDescr()]
-    return _getVaersDescrByName(internationalVaersDescrs, 'VAERSVAX'), _getVaersDescrByName(internationalVaersDescrs, 'VAERSSYMPTOMS')
+    vaersDescrs = vaersDescrReader.readVaersDescrsForYears(years) + [vaersDescrReader.readNonDomesticVaersDescr()]
+    return (_getVaersDescrByName(vaersDescrs, 'VAERSDATA'),
+            _getVaersDescrByName(vaersDescrs, 'VAERSVAX'),
+            _getVaersDescrByName(vaersDescrs, 'VAERSSYMPTOMS'))
 
 
 def _getVaersDescrByName(vaersDescrs, vaersDescrName):
     return pd.concat([vaersDescr[vaersDescrName] for vaersDescr in vaersDescrs])
+
+
+def _get_VAERSVAX_Covid19_CountryColumn(VAERSVAX, countryColumnAdder):
+    VAERSVAX.dropna(subset = ['VAX_LOT'], inplace = True)
+    VAERSVAX_Covid19 = DataFrameFilter().filterByCovid19(VAERSVAX)
+    VAERSVAX_Covid19_CountryColumn = countryColumnAdder.addCountryColumn(VAERSVAX_Covid19)
+    return VAERSVAX_Covid19_CountryColumn

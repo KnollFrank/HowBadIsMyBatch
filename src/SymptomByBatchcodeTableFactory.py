@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from Utils import fillLsts
 
 class SymptomByBatchcodeTableFactory:
 
@@ -13,7 +14,7 @@ class SymptomByBatchcodeTableFactory:
                         SymptomByBatchcodeTableFactory._getSymptomsTable(VAERSSYMPTOMS, symptomColumn),
                         on = 'VAERS_ID')
                     .set_index(index_columns)
-                    [[symptomColumn]])
+                    [[symptomColumn, 'COUNTRY']])
     
     @staticmethod
     def _getIndexColumns(VAERSVAX):
@@ -73,9 +74,3 @@ class SymptomByBatchcodeTableFactory:
                     .dropna()
                     .to_frame(name = symptomColumn)
                     .reset_index())
-
-def fillLsts(lsts, desiredLen, fillValue):
-    return [fillLst(lst, desiredLen, fillValue) for lst in lsts]
-
-def fillLst(lst, desiredLen, fillValue):
-    return lst + [fillValue] * (max(desiredLen - len(lst), 0))
