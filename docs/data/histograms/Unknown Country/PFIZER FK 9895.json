@@ -1,0 +1,1 @@
+{"batchcode": "PFIZER FK 9895", "histograms": [{"batchcodes": ["EN1207", "EN6200", "FC3182", "PFIZER FK 9895"], "histogram": {"Bacterial test positive": 1, "Bronchitis": 1, "COVID-19": 1, "Cough": 1, "Dyspnoea": 1}}, {"batchcodes": ["PFIZER FK 9895"], "histogram": {"Arthralgia": 1, "Injection site pain": 1, "Joint noise": 1, "Pain": 1, "Sleep disorder": 1, "X-ray": 1}}]}

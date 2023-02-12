@@ -25,11 +25,15 @@ class VaersDescrReader:
                }
 
     def _readVAERSDATA(self, file):
-        return self._read_csv(
+        VAERSDATA = self._read_csv(
             file = file,
             usecols = ['VAERS_ID', 'RECVDATE', 'DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL', 'ER_VISIT', 'SPLTTYPE'],
             parse_dates = ['RECVDATE'],
             date_parser = lambda dateStr: pd.to_datetime(dateStr, format = "%m/%d/%Y"))
+        DataFrameNormalizer._convertColumnsOfDataFrame_Y_to_1_else_0(
+            VAERSDATA,
+            ['DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL', 'ER_VISIT'])
+        return VAERSDATA
 
     def _readVAERSVAX(self, file):
         VAERSVAX = self._read_csv(
@@ -40,6 +44,7 @@ class VaersDescrReader:
                     "VAX_DOSE_SERIES": "string",
                     "VAX_LOT": "string"
                 })
+        DataFrameNormalizer.removeUnknownBatchCodes(VAERSVAX)
         DataFrameNormalizer.convertVAX_LOTColumnToUpperCase(VAERSVAX)
         return VAERSVAX
 

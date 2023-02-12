@@ -6,17 +6,17 @@ class HistogramView {
         this.#uiContainer = uiContainer
     }
 
-    displayHistogramViewForBatchcode(batchcode) {
+    displayHistogramView(country, batchcode) {
         this
-            .#loadHistoDescrsForBatchcode(batchcode)
+            .#loadHistoDescrs(country, batchcode)
             .then(histoDescrs => this.#displayHistogramViewForHistoDescrs(histoDescrs));
     }
 
-    #loadHistoDescrsForBatchcode(batchcode) {
+    #loadHistoDescrs(country, batchcode) {
         const loadingText = document.createTextNode('Loading...');
         this.#uiContainer.appendChild(loadingText);
         return HistoDescrsProvider
-            .getHistoDescrsForBatchcode(batchcode)
+            .getHistoDescrs(country, batchcode)
             .then(histoDescrs => {
                 loadingText.remove();
                 return histoDescrs;

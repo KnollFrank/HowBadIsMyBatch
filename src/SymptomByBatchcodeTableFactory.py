@@ -14,7 +14,7 @@ class SymptomByBatchcodeTableFactory:
                         SymptomByBatchcodeTableFactory._getSymptomsTable(VAERSSYMPTOMS, symptomColumn),
                         on = 'VAERS_ID')
                     .set_index(index_columns)
-                    [[symptomColumn]])
+                    [[symptomColumn, 'COUNTRY']])
     
     @staticmethod
     def _getIndexColumns(VAERSVAX):

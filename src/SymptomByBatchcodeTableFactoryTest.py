@@ -10,9 +10,9 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
     def test_createSymptomByBatchcodeTable(self):
         # Given
         VAERSVAX = TestHelper.createDataFrame(
-            columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES'],
-            data = [  ['COVID19',  'JANSSEN',         'EW0175',  'UNK'],
-                      ['COVID19',  'PFIZER\BIONTECH', '1808982', '1']],
+            columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES', 'COUNTRY'],
+            data = [  ['COVID19',  'JANSSEN',         'EW0175',  'UNK',             'Germany'],
+                      ['COVID19',  'PFIZER\BIONTECH', '1808982', '1',               'Germany']],
             index = pd.Index(
                     name = 'VAERS_ID',
                     data = [
@@ -40,30 +40,30 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
         assert_frame_equal(
             symptomByBatchcodeTable,
             TestHelper.createDataFrame(
-                columns = ['SYMPTOM'],
-                data = [  ['Blood pressure orthostatic abnormal'],
-                          ['Head injury'],
-                          ['SARS-CoV-2 test positive'],
-                          ['COVID-19'],
-                          ['Headache'],
-                          ['Unresponsive to stimuli'],
-                          ['Coma'],
-                          ['Laboratory test'],
-                          ['X-ray'],
-                          ['Computerised tomogram'],
-                          ['Magnetic resonance imaging'],
-                          ['Exposure to SARS-CoV-2'],
-                          ['SARS-CoV-2 antibody test negative']],
+                columns = ['SYMPTOM',                             'COUNTRY'],
+                data = [  ['Blood pressure orthostatic abnormal', 'Germany'],
+                          ['Head injury',                         'Germany'],
+                          ['SARS-CoV-2 test positive',            'Germany'],
+                          ['COVID-19',                            'Germany'],
+                          ['Headache',                            'Germany'],
+                          ['Unresponsive to stimuli',             'Germany'],
+                          ['Coma',                                'Germany'],
+                          ['Laboratory test',                     'Germany'],
+                          ['X-ray',                               'Germany'],
+                          ['Computerised tomogram',               'Germany'],
+                          ['Magnetic resonance imaging',          'Germany'],
+                          ['Exposure to SARS-CoV-2',              'Germany'],
+                          ['SARS-CoV-2 antibody test negative',   'Germany']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [['1808982', 'EW0175']] * 13)))
+                    tuples = [['1808982',  'EW0175']] * 13)))
 
     def test_createSymptomByBatchcodeTable_two_patients_same_symptoms(self):
         # Given
         VAERSVAX = TestHelper.createDataFrame(
-            columns = ['VAX_TYPE', 'VAX_MANU', 'VAX_LOT', 'VAX_DOSE_SERIES'],
-            data = [  ['COVID19',  'JANSSEN',  'EW0175',  '1'],
-                      ['COVID19',  'JANSSEN',  'EW0175',  '1']],
+            columns = ['VAX_TYPE', 'VAX_MANU', 'VAX_LOT', 'VAX_DOSE_SERIES', 'COUNTRY'],
+            data = [  ['COVID19',  'JANSSEN',  'EW0175',  '1',               'Germany'],
+                      ['COVID19',  'JANSSEN',  'EW0175',  '1',               'Russian Federation']],
             index = pd.Index(
                     name = 'VAERS_ID',
                     data = [
@@ -89,9 +89,9 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
         assert_frame_equal(
             symptomByBatchcodeTable,
             TestHelper.createDataFrame(
-                columns = ['SYMPTOM'],
-                data = [  ['Blood pressure orthostatic abnormal'],
-                          ['Blood pressure orthostatic abnormal']],
+                columns = ['SYMPTOM',                             'COUNTRY'],
+                data = [  ['Blood pressure orthostatic abnormal', 'Germany'],
+                          ['Blood pressure orthostatic abnormal', 'Russian Federation']],
                 index = pd.Index(
                     name = 'VAX_LOT1',
                     data = ['EW0175',
@@ -101,11 +101,11 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
     def test_createSymptomByBatchcodeTable_two_patients_distinct_symptoms(self):
         # Given
         VAERSVAX = TestHelper.createDataFrame(
-            columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES'],
-            data = [  ['COVID19',  'JANSSEN',         '1808982', 'UNK'],
-                      ['COVID19',  'PFIZER\BIONTECH', 'EW0175',  '1'],
-                      ['COVID19',  'PFIZER\BIONTECH', 'EW0175',  '1'],
-                      ['COVID19',  'PFIZER\BIONTECH', 'EW0167',  '2']],
+            columns = ['VAX_TYPE', 'VAX_MANU',        'VAX_LOT', 'VAX_DOSE_SERIES', 'COUNTRY'],
+            data = [  ['COVID19',  'JANSSEN',         '1808982', 'UNK',             'Germany'],
+                      ['COVID19',  'PFIZER\BIONTECH', 'EW0175',  '1',               'Germany'],
+                      ['COVID19',  'PFIZER\BIONTECH', 'EW0175',  '1',               'Russian Federation'],
+                      ['COVID19',  'PFIZER\BIONTECH', 'EW0167',  '2',               'Russian Federation']],
             index = pd.Index(
                     name = 'VAERS_ID',
                     data = [
@@ -139,31 +139,32 @@ class SymptomByBatchcodeTableFactoryTest(unittest.TestCase):
         assert_frame_equal(
             symptomByBatchcodeTable,
             TestHelper.createDataFrame(
-                columns = ['SYMPTOM'],
-                data = [  ['Blood pressure orthostatic abnormal'],
-                          ['Head injury'],
-                          ['SARS-CoV-2 test positive'],
-                          ['COVID-19'],
-                          ['Headache'],
-                          ['Unresponsive to stimuli'],
-                          ['Coma'],
-                          ['Laboratory test'],
-                          ['X-ray'],
-                          ['Computerised tomogram'],
-                          ['Magnetic resonance imaging'],
-                          ['Exposure to SARS-CoV-2'],
-                          ['SARS-CoV-2 antibody test negative'],
+                columns = ['SYMPTOM',                              'COUNTRY'],
+                data = [  ['Blood pressure orthostatic abnormal',  'Germany'],
+                          ['Head injury',                          'Germany'],
+                          ['SARS-CoV-2 test positive',             'Germany'],
+                          ['COVID-19',                             'Germany'],
+                          ['Headache',                             'Germany'],
+                          ['Unresponsive to stimuli',              'Germany'],
+                          ['Coma',                                 'Germany'],
+                          ['Laboratory test',                      'Germany'],
+                          ['X-ray',                                'Germany'],
+                          ['Computerised tomogram',                'Germany'],
+                          ['Magnetic resonance imaging',           'Germany'],
+                          ['Exposure to SARS-CoV-2',               'Germany'],
+                          ['SARS-CoV-2 antibody test negative',    'Germany'],
                           
-                          ['Computerised tomogram head abnormal'],
-                          ['Lumbar puncture'],
-                          ['Ear pain'],
-                          ['Magnetic resonance imaging head'],
-                          ['Headache'],
-                          ['Pain'],
-                          ['Idiopathic intracranial hypertension'],
-                          ['Swelling'],
-                          ['Intracranial pressure increased'], 
-                          ['Vision blurred']],
+                          ['Computerised tomogram head abnormal',  'Russian Federation'],
+                          ['Lumbar puncture',                      'Russian Federation'],
+                          ['Ear pain',                             'Russian Federation'],
+                          ['Magnetic resonance imaging head',      'Russian Federation'],
+                          ['Headache',                             'Russian Federation'],
+                          ['Pain',                                 'Russian Federation'],
+                          ['Idiopathic intracranial hypertension', 'Russian Federation'],
+                          ['Swelling',                             'Russian Federation'],
+                          ['Intracranial pressure increased',      'Russian Federation'], 
+                          ['Vision blurred',                       'Russian Federation']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
-                    tuples = [['1808982',  'EW0175']] * 13 + [['EW0167', 'EW0175']] * 10)))
+                    tuples = [['1808982',  'EW0175']] * 13 +
+                             [['EW0167',   'EW0175']] * 10)))
