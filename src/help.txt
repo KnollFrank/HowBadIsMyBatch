@@ -3,7 +3,6 @@ jupyter notebook
 FK-FIXME:
 
 FK-TODO:
-- Histogramme auch speziell für die einzelnen Länder berechnen und anzeigen.
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
