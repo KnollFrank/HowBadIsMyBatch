@@ -6,20 +6,19 @@ class DictByBatchcodeTable2DictConverter:
                 "batchcode": batchcode,
                 "histograms": DictByBatchcodeTable2DictConverter._getHistograms(dictByBatchcodeTable)
             }
-
+    
     @staticmethod
     def _getHistograms(dictByBatchcodeTable):
-        return (
-            dictByBatchcodeTable
-                .apply(
-                    lambda row: {
-                        "batchcodes": DictByBatchcodeTable2DictConverter._getNaNBatchcodes(row.name),
-                        "histogram": row['SYMPTOM_COUNT_BY_VAX_LOT']
-                    },
-                    axis = 'columns')
-                .to_list()
-        )
+        dictByBatchcodeTable = dictByBatchcodeTable.rename(columns = { "SYMPTOM_COUNT_BY_VAX_LOT": "histogram" })
+        DictByBatchcodeTable2DictConverter._addBatchcodesColumn(dictByBatchcodeTable)
+        return dictByBatchcodeTable.to_dict('records')
     
+    @staticmethod
+    def _addBatchcodesColumn(dictByBatchcodeTable):
+        batchcodeColumns = dictByBatchcodeTable.index.names
+        dictByBatchcodeTable['batchcodes'] = dictByBatchcodeTable.reset_index()[batchcodeColumns].values.tolist()
+        dictByBatchcodeTable['batchcodes'] = dictByBatchcodeTable['batchcodes'].map(DictByBatchcodeTable2DictConverter._getNaNBatchcodes)
+
     @staticmethod
     def _getNaNBatchcodes(batchcodes):
         # FK-TODO: handle 'nan' everywhere correctly
