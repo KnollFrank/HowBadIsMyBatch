@@ -1,1 +1,1 @@
-{"batchcode": "FC33183", "histograms": [{"batchcodes": ["FC33183"], "histogram": {"Expired product administered": 3, "Product storage error": 2, "Blood pressure increased": 1, "Heart rate increased": 1, "Muscular weakness": 1, "No adverse event": 1}}]}
+{"batchcode": "FC33183", "histograms": [{"histogram": {"Expired product administered": 3, "Product storage error": 2, "Blood pressure increased": 1, "Heart rate increased": 1, "Muscular weakness": 1, "No adverse event": 1}, "batchcodes": ["FC33183"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "ID015A", "histograms": [{"batchcodes": ["ID015A"], "histogram": {"Dizziness": 1, "Feeling abnormal": 1, "Gait disturbance": 1, "Heart rate": 1, "Herpes zoster": 1, "Nystagmus": 1, "Syncope": 1, "Tachycardia": 1}}]}
+{"batchcode": "ID015A", "histograms": [{"histogram": {"Dizziness": 1, "Feeling abnormal": 1, "Gait disturbance": 1, "Heart rate": 1, "Herpes zoster": 1, "Nystagmus": 1, "Syncope": 1, "Tachycardia": 1}, "batchcodes": ["ID015A"]}]}

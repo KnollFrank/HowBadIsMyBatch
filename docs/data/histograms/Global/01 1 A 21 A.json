@@ -1,1 +1,1 @@
-{"batchcode": "01 1 A 21 A", "histograms": [{"batchcodes": ["01 1 A 21 A"], "histogram": {"Incomplete course of vaccination": 1, "Injection site erythema": 1, "Injection site inflammation": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Oral herpes": 1, "Urticaria": 1}}]}
+{"batchcode": "01 1 A 21 A", "histograms": [{"histogram": {"Incomplete course of vaccination": 1, "Injection site erythema": 1, "Injection site inflammation": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Oral herpes": 1, "Urticaria": 1}, "batchcodes": ["01 1 A 21 A"]}]}

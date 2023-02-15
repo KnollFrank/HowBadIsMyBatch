@@ -1,1 +1,1 @@
-{"batchcode": "LNP-S", "histograms": [{"batchcodes": ["LNP-S"], "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "COVID-19": 1, "No adverse event": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "LNP-S", "histograms": [{"histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "COVID-19": 1, "No adverse event": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["LNP-S"]}]}

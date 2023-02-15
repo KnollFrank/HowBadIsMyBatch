@@ -1,1 +1,1 @@
-{"batchcode": "620-129", "histograms": [{"batchcodes": ["620-129"], "histogram": {"Fatigue": 1, "Gait inability": 1, "Headache": 1, "Hypophagia": 1, "Malaise": 1, "Pain in extremity": 1, "Pyrexia": 1, "Thrombosis": 1, "Ultrasound Doppler abnormal": 1}}]}
+{"batchcode": "620-129", "histograms": [{"histogram": {"Fatigue": 1, "Gait inability": 1, "Headache": 1, "Hypophagia": 1, "Malaise": 1, "Pain in extremity": 1, "Pyrexia": 1, "Thrombosis": 1, "Ultrasound Doppler abnormal": 1}, "batchcodes": ["620-129"]}]}

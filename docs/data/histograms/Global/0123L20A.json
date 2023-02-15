@@ -1,1 +1,1 @@
-{"batchcode": "0123L20A", "histograms": [{"batchcodes": ["0123L20A"], "histogram": {"Bronchitis": 1, "COVID-19": 1, "Influenza A virus test negative": 1, "Influenza virus test negative": 1, "Respiratory syncytial virus test negative": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "0123L20A", "histograms": [{"histogram": {"Bronchitis": 1, "COVID-19": 1, "Influenza A virus test negative": 1, "Influenza virus test negative": 1, "Respiratory syncytial virus test negative": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["0123L20A"]}]}

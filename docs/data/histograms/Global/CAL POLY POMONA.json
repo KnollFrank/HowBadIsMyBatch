@@ -1,1 +1,1 @@
-{"batchcode": "CAL POLY POMONA", "histograms": [{"batchcodes": ["CAL POLY POMONA"], "histogram": {"Chest discomfort": 1, "Chest pain": 1, "Dyspnoea": 1}}]}
+{"batchcode": "CAL POLY POMONA", "histograms": [{"histogram": {"Chest discomfort": 1, "Chest pain": 1, "Dyspnoea": 1}, "batchcodes": ["CAL POLY POMONA"]}]}

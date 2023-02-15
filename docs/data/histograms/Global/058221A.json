@@ -1,1 +1,1 @@
-{"batchcode": "058221A", "histograms": [{"batchcodes": ["058221A"], "histogram": {"Benign tumour excision": 1, "Biopsy": 1, "Biopsy lymph gland normal": 1, "Cyst": 1, "Neck mass": 1, "Neck surgery": 1, "Ultrasound scan abnormal": 1}}]}
+{"batchcode": "058221A", "histograms": [{"histogram": {"Benign tumour excision": 1, "Biopsy": 1, "Biopsy lymph gland normal": 1, "Cyst": 1, "Neck mass": 1, "Neck surgery": 1, "Ultrasound scan abnormal": 1}, "batchcodes": ["058221A"]}]}

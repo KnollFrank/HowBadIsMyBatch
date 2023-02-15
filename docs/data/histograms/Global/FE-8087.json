@@ -1,1 +1,1 @@
-{"batchcode": "FE-8087", "histograms": [{"batchcodes": ["FE-8087"], "histogram": {"Dizziness": 1, "Headache": 1, "Nausea": 1, "Pruritus": 1, "Seizure": 1, "Tachycardia": 1, "Vision blurred": 1}}]}
+{"batchcode": "FE-8087", "histograms": [{"histogram": {"Dizziness": 1, "Headache": 1, "Nausea": 1, "Pruritus": 1, "Seizure": 1, "Tachycardia": 1, "Vision blurred": 1}, "batchcodes": ["FE-8087"]}]}

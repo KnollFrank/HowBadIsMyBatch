@@ -1,1 +1,1 @@
-{"batchcode": "FC5296", "histograms": [{"batchcodes": ["FC5296"], "histogram": {"Anaphylactic reaction": 1, "Blood pressure measurement": 1, "Dyspnoea": 1, "Heart rate": 1, "Oxygen saturation": 1, "Rash": 1, "Respiratory distress": 1, "Urticaria": 1}}]}
+{"batchcode": "FC5296", "histograms": [{"histogram": {"Anaphylactic reaction": 1, "Blood pressure measurement": 1, "Dyspnoea": 1, "Heart rate": 1, "Oxygen saturation": 1, "Rash": 1, "Respiratory distress": 1, "Urticaria": 1}, "batchcodes": ["FC5296"]}]}

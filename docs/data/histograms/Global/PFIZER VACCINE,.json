@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER VACCINE,", "histograms": [{"batchcodes": ["PFIZER VACCINE,", "PFIZER VACCINE,"], "histogram": {"Amenorrhoea": 1, "Depression": 1, "Menstruation irregular": 1}}]}
+{"batchcode": "PFIZER VACCINE,", "histograms": [{"histogram": {"Amenorrhoea": 1, "Depression": 1, "Menstruation irregular": 1}, "batchcodes": ["PFIZER VACCINE,", "PFIZER VACCINE,"]}, {"histogram": {"Amenorrhoea": 1, "Depression": 1, "Menstruation irregular": 1}, "batchcodes": ["PFIZER VACCINE,", "PFIZER VACCINE,"]}]}

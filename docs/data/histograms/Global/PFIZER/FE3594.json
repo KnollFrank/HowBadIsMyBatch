@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER/FE3594", "histograms": [{"batchcodes": ["PFIZER/FE3594"], "histogram": {"Chronic spontaneous urticaria": 1, "Erythema": 1, "Pruritus": 1, "Rash": 1}}]}
+{"batchcode": "PFIZER/FE3594", "histograms": [{"histogram": {"Chronic spontaneous urticaria": 1, "Erythema": 1, "Pruritus": 1, "Rash": 1}, "batchcodes": ["PFIZER/FE3594"]}]}

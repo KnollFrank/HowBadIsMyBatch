@@ -1,1 +1,1 @@
-{"batchcode": "NOTPROVIDED", "histograms": [{"batchcodes": ["NOTPROVIDED"], "histogram": {"Illness": 1, "Myalgia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "NOTPROVIDED", "histograms": [{"histogram": {"Illness": 1, "Myalgia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["NOTPROVIDED"]}]}

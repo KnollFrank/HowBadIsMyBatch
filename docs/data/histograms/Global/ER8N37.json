@@ -1,1 +1,1 @@
-{"batchcode": "ER8N37", "histograms": [{"batchcodes": ["EN6206", "ER8N37"], "histogram": {"Axillary pain": 1, "Lymphadenopathy": 1, "Peripheral swelling": 1, "Pruritus": 1}}]}
+{"batchcode": "ER8N37", "histograms": [{"histogram": {"Axillary pain": 1, "Lymphadenopathy": 1, "Peripheral swelling": 1, "Pruritus": 1}, "batchcodes": ["EN6206", "ER8N37"]}]}

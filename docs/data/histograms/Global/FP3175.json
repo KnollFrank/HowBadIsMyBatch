@@ -1,1 +1,1 @@
-{"batchcode": "FP3175", "histograms": [{"batchcodes": ["FP3175"], "histogram": {"Abdominal pain upper": 1, "Chills": 1, "Fatigue": 1, "Headache": 1, "Injection site pain": 1, "Pain": 1, "Pyrexia": 1, "Tinnitus": 1}}]}
+{"batchcode": "FP3175", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Chills": 1, "Fatigue": 1, "Headache": 1, "Injection site pain": 1, "Pain": 1, "Pyrexia": 1, "Tinnitus": 1}, "batchcodes": ["FP3175"]}]}

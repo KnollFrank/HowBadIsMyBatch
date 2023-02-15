@@ -1,1 +1,1 @@
-{"batchcode": "JNCPAS", "histograms": [{"batchcodes": ["JNCPAS"], "histogram": {"Blood test": 1, "Electromyogram": 1, "Magnetic resonance imaging": 1, "Muscle contractions involuntary": 1, "Myalgia": 1, "Paraesthesia": 1}}]}
+{"batchcode": "JNCPAS", "histograms": [{"histogram": {"Blood test": 1, "Electromyogram": 1, "Magnetic resonance imaging": 1, "Muscle contractions involuntary": 1, "Myalgia": 1, "Paraesthesia": 1}, "batchcodes": ["JNCPAS"]}]}

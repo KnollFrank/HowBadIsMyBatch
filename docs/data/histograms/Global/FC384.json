@@ -1,1 +1,1 @@
-{"batchcode": "FC384", "histograms": [{"batchcodes": ["30145BA", "FC384"], "histogram": {"Computerised tomogram head abnormal": 1, "Dyspnoea": 1, "Echocardiogram": 1, "Electrocardiogram abnormal": 1, "Inflammation": 1, "Migraine": 1}}]}
+{"batchcode": "FC384", "histograms": [{"histogram": {"Computerised tomogram head abnormal": 1, "Dyspnoea": 1, "Echocardiogram": 1, "Electrocardiogram abnormal": 1, "Inflammation": 1, "Migraine": 1}, "batchcodes": ["30145BA", "FC384"]}]}

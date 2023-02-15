@@ -1,1 +1,1 @@
-{"batchcode": "10121FC3184", "histograms": [{"batchcodes": ["10121FC3184"], "histogram": {"Chest discomfort": 1, "Chest pain": 1, "Echocardiogram abnormal": 1, "Immediate post-injection reaction": 1, "Pericarditis": 1}}]}
+{"batchcode": "10121FC3184", "histograms": [{"histogram": {"Chest discomfort": 1, "Chest pain": 1, "Echocardiogram abnormal": 1, "Immediate post-injection reaction": 1, "Pericarditis": 1}, "batchcodes": ["10121FC3184"]}]}

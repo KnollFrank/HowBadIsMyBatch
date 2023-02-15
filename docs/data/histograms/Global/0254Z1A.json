@@ -1,1 +1,1 @@
-{"batchcode": "0254Z1A", "histograms": [{"batchcodes": ["0254Z1A"], "histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Influenza like illness": 1, "Pain": 1, "Pain in extremity": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "0254Z1A", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Influenza like illness": 1, "Pain": 1, "Pain in extremity": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["0254Z1A"]}]}

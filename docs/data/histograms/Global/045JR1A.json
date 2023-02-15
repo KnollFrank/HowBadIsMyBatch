@@ -1,1 +1,1 @@
-{"batchcode": "045JR1A", "histograms": [{"batchcodes": ["045JR1A"], "histogram": {"Fatigue": 1, "Headache": 1, "Malaise": 1, "Musculoskeletal chest pain": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "Tonsillar hypertrophy": 1, "Urticaria": 1}}]}
+{"batchcode": "045JR1A", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Malaise": 1, "Musculoskeletal chest pain": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "Tonsillar hypertrophy": 1, "Urticaria": 1}, "batchcodes": ["045JR1A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "AIQ0230013", "histograms": [{"batchcodes": ["AIQ0230013"], "histogram": {"Body temperature": 1, "Lymphadenopathy": 1, "Pyrexia": 1, "Thermometry": 1}}]}
+{"batchcode": "AIQ0230013", "histograms": [{"histogram": {"Body temperature": 1, "Lymphadenopathy": 1, "Pyrexia": 1, "Thermometry": 1}, "batchcodes": ["AIQ0230013"]}]}

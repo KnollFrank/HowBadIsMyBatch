@@ -1,1 +1,1 @@
-{"batchcode": "043A21A2", "histograms": [{"batchcodes": ["043A21A2"], "histogram": {"Asthma": 1, "Back pain": 1, "Chest pain": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Gait disturbance": 1, "Laboratory test": 1, "Magnetic resonance imaging": 1}}]}
+{"batchcode": "043A21A2", "histograms": [{"histogram": {"Asthma": 1, "Back pain": 1, "Chest pain": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Gait disturbance": 1, "Laboratory test": 1, "Magnetic resonance imaging": 1}, "batchcodes": ["043A21A2"]}]}

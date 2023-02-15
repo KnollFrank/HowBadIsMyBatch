@@ -1,1 +1,1 @@
-{"batchcode": "TK5730", "histograms": [{"batchcodes": ["TK5730"], "histogram": {"COVID-19": 1, "Cough": 1, "Dysgeusia": 1, "Headache": 1, "Oropharyngeal pain": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "TK5730", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Dysgeusia": 1, "Headache": 1, "Oropharyngeal pain": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["TK5730"]}]}

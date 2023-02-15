@@ -1,1 +1,1 @@
-{"batchcode": "015M0A", "histograms": [{"batchcodes": ["002B21A", "015M0A", "067H21A"], "histogram": {"Tinnitus": 1}}, {"batchcodes": ["015M0A"], "histogram": {"Shoulder injury related to vaccine administration": 1}}]}
+{"batchcode": "015M0A", "histograms": [{"histogram": {"Tinnitus": 1}, "batchcodes": ["002B21A", "015M0A", "067H21A"]}, {"histogram": {"Shoulder injury related to vaccine administration": 1}, "batchcodes": ["015M0A"]}]}

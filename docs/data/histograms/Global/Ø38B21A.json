@@ -1,1 +1,1 @@
-{"batchcode": "\u00d838B21A", "histograms": [{"batchcodes": ["013A21A", "\u00d838B21A"], "histogram": {"Blood test": 1, "Blood thyroid stimulating hormone decreased": 1, "Fatigue": 1, "SARS-CoV-2 test negative": 1, "Somnolence": 1}}]}
+{"batchcode": "\u00d838B21A", "histograms": [{"histogram": {"Blood test": 1, "Blood thyroid stimulating hormone decreased": 1, "Fatigue": 1, "SARS-CoV-2 test negative": 1, "Somnolence": 1}, "batchcodes": ["013A21A", "\u00d838B21A"]}]}

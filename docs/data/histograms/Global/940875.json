@@ -1,1 +1,1 @@
-{"batchcode": "940875", "histograms": [{"batchcodes": ["0157214", "940875"], "histogram": {"Asphyxia": 1, "Blood pressure increased": 1, "Fatigue": 1, "Flushing": 1, "Headache": 1}}, {"batchcodes": ["940875"], "histogram": {"Chills": 1, "Diarrhoea": 1, "Discouragement": 1, "Pyrexia": 1}}]}
+{"batchcode": "940875", "histograms": [{"histogram": {"Asphyxia": 1, "Blood pressure increased": 1, "Fatigue": 1, "Flushing": 1, "Headache": 1}, "batchcodes": ["0157214", "940875"]}, {"histogram": {"Chills": 1, "Diarrhoea": 1, "Discouragement": 1, "Pyrexia": 1}, "batchcodes": ["940875"]}]}

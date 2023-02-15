@@ -1,1 +1,1 @@
-{"batchcode": "F15324", "histograms": [{"batchcodes": ["F15324"], "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Death": 1, "Fracture": 1, "Gait disturbance": 1, "Heart rate": 1, "Joint injury": 1, "Respiratory rate": 1}}]}
+{"batchcode": "F15324", "histograms": [{"histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Death": 1, "Fracture": 1, "Gait disturbance": 1, "Heart rate": 1, "Joint injury": 1, "Respiratory rate": 1}, "batchcodes": ["F15324"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "CUS 5739", "histograms": [{"batchcodes": ["CUS 5739"], "histogram": {"Extra dose administered": 1, "Fatigue": 1, "Fungal infection": 1, "Insomnia": 1, "Nausea": 1, "Pruritus": 1}}]}
+{"batchcode": "CUS 5739", "histograms": [{"histogram": {"Extra dose administered": 1, "Fatigue": 1, "Fungal infection": 1, "Insomnia": 1, "Nausea": 1, "Pruritus": 1}, "batchcodes": ["CUS 5739"]}]}

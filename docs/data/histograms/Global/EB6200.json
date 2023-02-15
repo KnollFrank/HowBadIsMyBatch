@@ -1,1 +1,1 @@
-{"batchcode": "EB6200", "histograms": [{"batchcodes": ["EB6200"], "histogram": {"Chest pain": 1, "Echocardiogram normal": 1, "Electrocardiogram ST segment elevation": 1, "Myocardial necrosis marker increased": 1, "Myocarditis": 1, "Pericardial effusion": 1, "Troponin increased": 1}}]}
+{"batchcode": "EB6200", "histograms": [{"histogram": {"Chest pain": 1, "Echocardiogram normal": 1, "Electrocardiogram ST segment elevation": 1, "Myocardial necrosis marker increased": 1, "Myocarditis": 1, "Pericardial effusion": 1, "Troponin increased": 1}, "batchcodes": ["EB6200"]}]}

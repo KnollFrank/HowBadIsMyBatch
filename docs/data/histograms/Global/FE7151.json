@@ -1,1 +1,1 @@
-{"batchcode": "FE7151", "histograms": [{"batchcodes": ["FE7151"], "histogram": {"Fibrin D dimer": 1, "Fibrin D dimer increased": 1, "Vaccination site erythema": 1, "Vaccination site rash": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "FE7151", "histograms": [{"histogram": {"Fibrin D dimer": 1, "Fibrin D dimer increased": 1, "Vaccination site erythema": 1, "Vaccination site rash": 1, "Vaccination site swelling": 1}, "batchcodes": ["FE7151"]}]}

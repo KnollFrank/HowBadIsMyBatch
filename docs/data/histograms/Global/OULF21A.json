@@ -1,1 +1,1 @@
-{"batchcode": "OULF21A", "histograms": [{"batchcodes": ["OULF21A"], "histogram": {"Ageusia": 1, "COVID-19": 1, "Headache": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "OULF21A", "histograms": [{"histogram": {"Ageusia": 1, "COVID-19": 1, "Headache": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["OULF21A"]}]}

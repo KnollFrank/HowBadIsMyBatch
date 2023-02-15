@@ -1,1 +1,1 @@
-{"batchcode": "SCVYB", "histograms": [{"batchcodes": ["SCVYB"], "histogram": {"Angina pectoris": 1, "Cardiac disorder": 1, "Dizziness": 1, "Laboratory test": 1, "Malaise": 1}}]}
+{"batchcode": "SCVYB", "histograms": [{"histogram": {"Angina pectoris": 1, "Cardiac disorder": 1, "Dizziness": 1, "Laboratory test": 1, "Malaise": 1}, "batchcodes": ["SCVYB"]}]}

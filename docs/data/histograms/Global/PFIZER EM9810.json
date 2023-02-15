@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EM9810", "histograms": [{"batchcodes": ["PFIZER EM9810"], "histogram": {"Formication": 1, "Headache": 1, "Lip swelling": 1, "Mouth haemorrhage": 1, "Nausea": 1, "Swollen tongue": 1}}]}
+{"batchcode": "PFIZER EM9810", "histograms": [{"histogram": {"Formication": 1, "Headache": 1, "Lip swelling": 1, "Mouth haemorrhage": 1, "Nausea": 1, "Swollen tongue": 1}, "batchcodes": ["PFIZER EM9810"]}]}

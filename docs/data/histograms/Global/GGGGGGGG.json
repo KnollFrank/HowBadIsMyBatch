@@ -1,1 +1,1 @@
-{"batchcode": "GGGGGGGG", "histograms": [{"batchcodes": ["GGGGGGGG"], "histogram": {"Fatigue": 1, "Headache": 1, "Nasopharyngitis": 1, "Oropharyngeal pain": 1, "Postmenopausal haemorrhage": 1, "Rhinitis": 1}}]}
+{"batchcode": "GGGGGGGG", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Nasopharyngitis": 1, "Oropharyngeal pain": 1, "Postmenopausal haemorrhage": 1, "Rhinitis": 1}, "batchcodes": ["GGGGGGGG"]}]}

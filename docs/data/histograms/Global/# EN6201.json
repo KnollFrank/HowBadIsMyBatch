@@ -1,1 +1,1 @@
-{"batchcode": "# EN6201", "histograms": [{"batchcodes": ["# EN6201"], "histogram": {"Body temperature decreased": 1, "Body temperature increased": 1, "Chills": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pain": 1, "Listless": 1, "Nausea": 1, "Pain": 1}}]}
+{"batchcode": "# EN6201", "histograms": [{"histogram": {"Body temperature decreased": 1, "Body temperature increased": 1, "Chills": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pain": 1, "Listless": 1, "Nausea": 1, "Pain": 1}, "batchcodes": ["# EN6201"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "013LDA", "histograms": [{"batchcodes": ["013LDA"], "histogram": {"COVID-19": 1, "Deafness": 1, "Erythema": 1, "Heart rate increased": 1, "Migraine": 1, "Ocular hyperaemia": 1, "Tinnitus": 1}}]}
+{"batchcode": "013LDA", "histograms": [{"histogram": {"COVID-19": 1, "Deafness": 1, "Erythema": 1, "Heart rate increased": 1, "Migraine": 1, "Ocular hyperaemia": 1, "Tinnitus": 1}, "batchcodes": ["013LDA"]}]}

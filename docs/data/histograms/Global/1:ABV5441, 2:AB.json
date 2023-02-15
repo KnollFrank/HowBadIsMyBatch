@@ -1,1 +1,1 @@
-{"batchcode": "1:ABV5441, 2:AB", "histograms": [{"batchcodes": ["1:ABV5441, 2:AB", "1:ABV5441, 2:AB", "3005835"], "histogram": {"COVID-19 immunisation": 1, "Neuropathy peripheral": 1}}]}
+{"batchcode": "1:ABV5441, 2:AB", "histograms": [{"histogram": {"COVID-19 immunisation": 1, "Neuropathy peripheral": 1}, "batchcodes": ["1:ABV5441, 2:AB", "1:ABV5441, 2:AB", "3005835"]}, {"histogram": {"COVID-19 immunisation": 1, "Neuropathy peripheral": 1}, "batchcodes": ["1:ABV5441, 2:AB", "1:ABV5441, 2:AB", "3005835"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "012W120A", "histograms": [{"batchcodes": ["002A21A", "012W120A"], "histogram": {"Anticoagulant therapy": 1, "Pulmonary embolism": 1}}]}
+{"batchcode": "012W120A", "histograms": [{"histogram": {"Anticoagulant therapy": 1, "Pulmonary embolism": 1}, "batchcodes": ["002A21A", "012W120A"]}]}

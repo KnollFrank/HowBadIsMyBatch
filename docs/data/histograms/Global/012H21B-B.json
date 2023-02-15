@@ -1,1 +1,1 @@
-{"batchcode": "012H21B-B", "histograms": [{"batchcodes": ["012H21B-B"], "histogram": {"Incorrect dose administered": 1, "No adverse event": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Rash": 1, "Skin warm": 1, "Vaccination site reaction": 1}}]}
+{"batchcode": "012H21B-B", "histograms": [{"histogram": {"Incorrect dose administered": 1, "No adverse event": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Rash": 1, "Skin warm": 1, "Vaccination site reaction": 1}, "batchcodes": ["012H21B-B"]}]}

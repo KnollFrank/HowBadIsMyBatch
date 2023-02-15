@@ -1,1 +1,1 @@
-{"batchcode": "04A021A", "histograms": [{"batchcodes": ["04A021A"], "histogram": {"Back pain": 1, "Fatigue": 1, "Nausea": 1, "Thyroid function test": 1, "Vaccination site erythema": 1, "Vaccination site induration": 1, "Vaccination site warmth": 1}}]}
+{"batchcode": "04A021A", "histograms": [{"histogram": {"Back pain": 1, "Fatigue": 1, "Nausea": 1, "Thyroid function test": 1, "Vaccination site erythema": 1, "Vaccination site induration": 1, "Vaccination site warmth": 1}, "batchcodes": ["04A021A"]}]}

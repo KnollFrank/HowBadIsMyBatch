@@ -1,1 +1,1 @@
-{"batchcode": "MODE2NA 027H21B", "histograms": [{"batchcodes": ["MODE2NA 027H21B"], "histogram": {"Blood test": 1, "Body temperature increased": 1, "Flushing": 1, "Headache": 1, "Injection site pain": 1, "Troponin increased": 1, "White blood cell count increased": 1}}]}
+{"batchcode": "MODE2NA 027H21B", "histograms": [{"histogram": {"Blood test": 1, "Body temperature increased": 1, "Flushing": 1, "Headache": 1, "Injection site pain": 1, "Troponin increased": 1, "White blood cell count increased": 1}, "batchcodes": ["MODE2NA 027H21B"]}]}

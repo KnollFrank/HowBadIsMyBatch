@@ -1,1 +1,1 @@
-{"batchcode": "EM9870", "histograms": [{"batchcodes": ["EM9870", "EN6206", "FF2589"], "histogram": {"Acoustic stimulation tests abnormal": 1, "Deafness unilateral": 1, "Ear discomfort": 1, "Magnetic resonance imaging normal": 1, "Sudden hearing loss": 1}}]}
+{"batchcode": "EM9870", "histograms": [{"histogram": {"Acoustic stimulation tests abnormal": 1, "Deafness unilateral": 1, "Ear discomfort": 1, "Magnetic resonance imaging normal": 1, "Sudden hearing loss": 1}, "batchcodes": ["EM9870", "EN6206", "FF2589"]}]}

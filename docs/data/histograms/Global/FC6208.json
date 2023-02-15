@@ -1,1 +1,1 @@
-{"batchcode": "FC6208", "histograms": [{"batchcodes": ["FC6208"], "histogram": {"COVID-19": 7, "SARS-CoV-2 test": 7, "Drug ineffective": 6, "Eye haemorrhage": 1, "Malaise": 1, "Vaccination failure": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "FC6208", "histograms": [{"histogram": {"COVID-19": 7, "SARS-CoV-2 test": 7, "Drug ineffective": 6, "Eye haemorrhage": 1, "Malaise": 1, "Vaccination failure": 1, "Vaccination site pain": 1}, "batchcodes": ["FC6208"]}]}

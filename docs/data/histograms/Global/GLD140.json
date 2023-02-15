@@ -1,1 +1,1 @@
-{"batchcode": "GLD140", "histograms": [{"batchcodes": ["GLD140"], "histogram": {"Arthralgia": 1, "Fatigue": 1, "Headache": 1, "Heart rate increased": 1, "Injection site pain": 1, "Malaise": 1, "Pyrexia": 1}}]}
+{"batchcode": "GLD140", "histograms": [{"histogram": {"Arthralgia": 1, "Fatigue": 1, "Headache": 1, "Heart rate increased": 1, "Injection site pain": 1, "Malaise": 1, "Pyrexia": 1}, "batchcodes": ["GLD140"]}]}

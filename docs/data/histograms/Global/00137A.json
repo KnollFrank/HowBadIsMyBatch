@@ -1,1 +1,1 @@
-{"batchcode": "00137A", "histograms": [{"batchcodes": ["00137A"], "histogram": {"Arrhythmia": 1, "Chest discomfort": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Heart rate increased": 1, "Palpitations": 1, "Sluggishness": 1, "Tachycardia": 1}}]}
+{"batchcode": "00137A", "histograms": [{"histogram": {"Arrhythmia": 1, "Chest discomfort": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Heart rate increased": 1, "Palpitations": 1, "Sluggishness": 1, "Tachycardia": 1}, "batchcodes": ["00137A"]}]}

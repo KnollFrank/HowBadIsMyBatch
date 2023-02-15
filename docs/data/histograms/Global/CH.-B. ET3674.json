@@ -1,1 +1,1 @@
-{"batchcode": "CH.-B. ET3674", "histograms": [{"batchcodes": ["CH.-B. ET3674"], "histogram": {"Cardiac function test": 1, "Chest pain": 1, "Deep vein thrombosis": 1, "Fibrin D dimer": 1, "Platelet disorder": 1, "Pulmonary embolism": 1, "Ultrasound scan": 1}}]}
+{"batchcode": "CH.-B. ET3674", "histograms": [{"histogram": {"Cardiac function test": 1, "Chest pain": 1, "Deep vein thrombosis": 1, "Fibrin D dimer": 1, "Platelet disorder": 1, "Pulmonary embolism": 1, "Ultrasound scan": 1}, "batchcodes": ["CH.-B. ET3674"]}]}

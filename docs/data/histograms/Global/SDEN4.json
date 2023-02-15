@@ -1,1 +1,1 @@
-{"batchcode": "SDEN4", "histograms": [{"batchcodes": ["SDEN4"], "histogram": {"Pancreatitis": 1}}]}
+{"batchcode": "SDEN4", "histograms": [{"histogram": {"Pancreatitis": 1}, "batchcodes": ["SDEN4"]}]}

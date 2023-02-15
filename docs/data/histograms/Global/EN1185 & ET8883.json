@@ -1,1 +1,1 @@
-{"batchcode": "EN1185 & ET8883", "histograms": [{"batchcodes": ["EN1185 & ET8883"], "histogram": {"International normalised ratio fluctuation": 1, "Platelet count": 1, "Thrombocytopenia": 1}}]}
+{"batchcode": "EN1185 & ET8883", "histograms": [{"histogram": {"International normalised ratio fluctuation": 1, "Platelet count": 1, "Thrombocytopenia": 1}, "batchcodes": ["EN1185 & ET8883"]}]}

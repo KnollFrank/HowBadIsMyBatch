@@ -1,1 +1,1 @@
-{"batchcode": "03IMZ0A", "histograms": [{"batchcodes": ["03IMZ0A"], "histogram": {"Atrial fibrillation": 1, "Blood test": 1, "Cardiac stress test": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Scan with contrast": 1}}]}
+{"batchcode": "03IMZ0A", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Blood test": 1, "Cardiac stress test": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Scan with contrast": 1}, "batchcodes": ["03IMZ0A"]}]}

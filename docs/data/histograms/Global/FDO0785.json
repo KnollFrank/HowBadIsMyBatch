@@ -1,1 +1,1 @@
-{"batchcode": "FDO0785", "histograms": [{"batchcodes": ["FDO0785"], "histogram": {"Arthralgia": 1, "Neuralgia": 1, "Phantom limb syndrome": 1, "Polymyalgia rheumatica": 1, "Rheumatic disorder": 1}}]}
+{"batchcode": "FDO0785", "histograms": [{"histogram": {"Arthralgia": 1, "Neuralgia": 1, "Phantom limb syndrome": 1, "Polymyalgia rheumatica": 1, "Rheumatic disorder": 1}, "batchcodes": ["FDO0785"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "URN:UCI:01:NL:4", "histograms": [{"batchcodes": ["URN:UCI:01:NL:4"], "histogram": {"Paralysis": 1}}]}
+{"batchcode": "URN:UCI:01:NL:4", "histograms": [{"histogram": {"Paralysis": 1}, "batchcodes": ["URN:UCI:01:NL:4"]}]}

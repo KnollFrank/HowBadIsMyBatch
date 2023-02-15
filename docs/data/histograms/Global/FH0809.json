@@ -1,1 +1,1 @@
-{"batchcode": "FH0809", "histograms": [{"batchcodes": ["FH0809"], "histogram": {"COVID-19": 1, "Chills": 1, "Fatigue": 1, "Mobility decreased": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "FH0809", "histograms": [{"histogram": {"COVID-19": 1, "Chills": 1, "Fatigue": 1, "Mobility decreased": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["FH0809"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EN6297", "histograms": [{"batchcodes": ["EN6297"], "histogram": {"Fatigue": 2, "Antibody test negative": 1, "Arthralgia": 1, "Bursitis": 1, "Joint swelling": 1, "Malaise": 1, "Nasopharyngitis": 1, "Pain": 1, "X-ray limb": 1}}]}
+{"batchcode": "EN6297", "histograms": [{"histogram": {"Fatigue": 2, "Antibody test negative": 1, "Arthralgia": 1, "Bursitis": 1, "Joint swelling": 1, "Malaise": 1, "Nasopharyngitis": 1, "Pain": 1, "X-ray limb": 1}, "batchcodes": ["EN6297"]}]}

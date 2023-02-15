@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EL 9261", "histograms": [{"batchcodes": ["PFIZER EL 9261"], "histogram": {"Disorientation": 1, "Fatigue": 1, "Feeling abnormal": 1, "Headache": 1, "Injection site discomfort": 1, "Paraesthesia oral": 1}}]}
+{"batchcode": "PFIZER EL 9261", "histograms": [{"histogram": {"Disorientation": 1, "Fatigue": 1, "Feeling abnormal": 1, "Headache": 1, "Injection site discomfort": 1, "Paraesthesia oral": 1}, "batchcodes": ["PFIZER EL 9261"]}]}

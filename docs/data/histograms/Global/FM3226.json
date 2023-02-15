@@ -1,1 +1,1 @@
-{"batchcode": "FM3226", "histograms": [{"batchcodes": ["FM3226"], "histogram": {"SARS-CoV-2 test": 2, "Blood test": 1, "COVID-19": 1, "Drug ineffective": 1, "HIV test": 1, "Laboratory test": 1, "Menometrorrhagia": 1, "Pregnancy test": 1, "Ultrasound pelvis": 1}}]}
+{"batchcode": "FM3226", "histograms": [{"histogram": {"SARS-CoV-2 test": 2, "Blood test": 1, "COVID-19": 1, "Drug ineffective": 1, "HIV test": 1, "Laboratory test": 1, "Menometrorrhagia": 1, "Pregnancy test": 1, "Ultrasound pelvis": 1}, "batchcodes": ["FM3226"]}]}

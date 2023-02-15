@@ -1,1 +1,1 @@
-{"batchcode": "EL6982", "histograms": [{"batchcodes": ["EL6982"], "histogram": {"Erythema": 1, "Eye swelling": 1, "Laboratory test": 1, "Pruritus": 1, "Rash": 1, "Skin lesion": 1, "Spinal X-ray": 1, "Swelling": 1, "Swelling face": 1}}]}
+{"batchcode": "EL6982", "histograms": [{"histogram": {"Erythema": 1, "Eye swelling": 1, "Laboratory test": 1, "Pruritus": 1, "Rash": 1, "Skin lesion": 1, "Spinal X-ray": 1, "Swelling": 1, "Swelling face": 1}, "batchcodes": ["EL6982"]}]}

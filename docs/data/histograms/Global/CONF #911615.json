@@ -1,1 +1,1 @@
-{"batchcode": "CONF #911615", "histograms": [{"batchcodes": ["CONF #911615"], "histogram": {"Electrocardiogram": 1, "Heart rate irregular": 1, "Ventricular extrasystoles": 1, "X-ray": 1}}]}
+{"batchcode": "CONF #911615", "histograms": [{"histogram": {"Electrocardiogram": 1, "Heart rate irregular": 1, "Ventricular extrasystoles": 1, "X-ray": 1}, "batchcodes": ["CONF #911615"]}]}

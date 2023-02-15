@@ -1,1 +1,1 @@
-{"batchcode": "033B21", "histograms": [{"batchcodes": ["033B21"], "histogram": {"Dizziness": 1, "Expired product administered": 1, "Fatigue": 1, "Headache": 1, "Hypotension": 1, "Nausea": 1, "Rash": 1, "Skin reaction": 1, "Syncope": 1, "Unresponsive to stimuli": 1}}]}
+{"batchcode": "033B21", "histograms": [{"histogram": {"Dizziness": 1, "Expired product administered": 1, "Fatigue": 1, "Headache": 1, "Hypotension": 1, "Nausea": 1, "Rash": 1, "Skin reaction": 1, "Syncope": 1, "Unresponsive to stimuli": 1}, "batchcodes": ["033B21"]}]}

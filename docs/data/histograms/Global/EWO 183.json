@@ -1,1 +1,1 @@
-{"batchcode": "EWO 183", "histograms": [{"batchcodes": ["EN 6204", "EWO 183"], "histogram": {"Chills": 1, "Extra dose administered": 1, "Fatigue": 1, "Hyperhidrosis": 1, "Injection site pain": 1, "Myalgia": 1, "Tremor": 1}}]}
+{"batchcode": "EWO 183", "histograms": [{"histogram": {"Chills": 1, "Extra dose administered": 1, "Fatigue": 1, "Hyperhidrosis": 1, "Injection site pain": 1, "Myalgia": 1, "Tremor": 1}, "batchcodes": ["EN 6204", "EWO 183"]}]}

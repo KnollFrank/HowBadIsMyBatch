@@ -1,1 +1,1 @@
-{"batchcode": "ER8731 AND ER87", "histograms": [{"batchcodes": ["ER8731 AND ER87"], "histogram": {"Breast pain": 1, "Mammogram normal": 1, "Pruritus": 1, "Sleep disorder": 1, "Stress": 1, "Ultrasound scan normal": 1}}]}
+{"batchcode": "ER8731 AND ER87", "histograms": [{"histogram": {"Breast pain": 1, "Mammogram normal": 1, "Pruritus": 1, "Sleep disorder": 1, "Stress": 1, "Ultrasound scan normal": 1}, "batchcodes": ["ER8731 AND ER87"]}]}

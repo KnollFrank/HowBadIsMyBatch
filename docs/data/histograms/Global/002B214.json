@@ -1,1 +1,1 @@
-{"batchcode": "002B214", "histograms": [{"batchcodes": ["002B214", "031B21A"], "histogram": {"Chest discomfort": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1}}, {"batchcodes": ["002B214"], "histogram": {"Asthenia": 1, "Dyspnoea": 1, "Fatigue": 1, "Pain in extremity": 1, "Pyrexia": 1}}]}
+{"batchcode": "002B214", "histograms": [{"histogram": {"Chest discomfort": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1}, "batchcodes": ["002B214", "031B21A"]}, {"histogram": {"Asthenia": 1, "Dyspnoea": 1, "Fatigue": 1, "Pain in extremity": 1, "Pyrexia": 1}, "batchcodes": ["002B214"]}]}

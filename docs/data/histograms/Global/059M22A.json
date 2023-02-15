@@ -1,1 +1,1 @@
-{"batchcode": "059M22A", "histograms": [{"batchcodes": ["059M22A"], "histogram": {"COVID-19": 1, "Diarrhoea": 1, "Fatigue": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Sneezing": 1}}]}
+{"batchcode": "059M22A", "histograms": [{"histogram": {"COVID-19": 1, "Diarrhoea": 1, "Fatigue": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Sneezing": 1}, "batchcodes": ["059M22A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "H1024A", "histograms": [{"batchcodes": ["H1024A"], "histogram": {"Hypoaesthesia": 1, "Intervertebral disc protrusion": 1, "Magnetic resonance imaging": 1, "Myelopathy": 1, "Paraesthesia": 1, "Spinal pain": 1}}]}
+{"batchcode": "H1024A", "histograms": [{"histogram": {"Hypoaesthesia": 1, "Intervertebral disc protrusion": 1, "Magnetic resonance imaging": 1, "Myelopathy": 1, "Paraesthesia": 1, "Spinal pain": 1}, "batchcodes": ["H1024A"]}]}

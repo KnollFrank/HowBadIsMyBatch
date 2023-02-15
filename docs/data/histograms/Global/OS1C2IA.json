@@ -1,1 +1,1 @@
-{"batchcode": "OS1C2IA", "histograms": [{"batchcodes": ["058E2IA", "OS1C2IA"], "histogram": {"Ectopic pregnancy": 1, "Ectopic pregnancy termination": 1, "Exposure during pregnancy": 1, "Ultrasound scan abnormal": 1}}]}
+{"batchcode": "OS1C2IA", "histograms": [{"histogram": {"Ectopic pregnancy": 1, "Ectopic pregnancy termination": 1, "Exposure during pregnancy": 1, "Ultrasound scan abnormal": 1}, "batchcodes": ["058E2IA", "OS1C2IA"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EN62.4", "histograms": [{"batchcodes": ["EN62.4", "ER8733"], "histogram": {"COVID-19": 1, "Dyspnoea": 1, "Malaise": 1, "Oxygen saturation decreased": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "EN62.4", "histograms": [{"histogram": {"COVID-19": 1, "Dyspnoea": 1, "Malaise": 1, "Oxygen saturation decreased": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["EN62.4", "ER8733"]}]}

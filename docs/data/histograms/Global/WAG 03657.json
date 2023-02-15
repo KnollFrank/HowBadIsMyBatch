@@ -1,1 +1,1 @@
-{"batchcode": "WAG 03657", "histograms": [{"batchcodes": ["WAG 03657"], "histogram": {"Body temperature": 1, "Cough": 1, "Fatigue": 1, "Headache": 1, "Orthostatic hypotension": 1, "Pain": 1, "Pain assessment": 1, "Pyrexia": 1}}]}
+{"batchcode": "WAG 03657", "histograms": [{"histogram": {"Body temperature": 1, "Cough": 1, "Fatigue": 1, "Headache": 1, "Orthostatic hypotension": 1, "Pain": 1, "Pain assessment": 1, "Pyrexia": 1}, "batchcodes": ["WAG 03657"]}]}

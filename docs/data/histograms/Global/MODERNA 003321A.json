@@ -1,1 +1,1 @@
-{"batchcode": "MODERNA 003321A", "histograms": [{"batchcodes": ["MODERNA 003321A"], "histogram": {"Asthenia": 1, "Chills": 1, "Headache": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "MODERNA 003321A", "histograms": [{"histogram": {"Asthenia": 1, "Chills": 1, "Headache": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1}, "batchcodes": ["MODERNA 003321A"]}]}

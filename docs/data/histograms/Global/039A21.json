@@ -1,1 +1,1 @@
-{"batchcode": "039A21", "histograms": [{"batchcodes": ["031A21A", "039A21"], "histogram": {"Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1}}, {"batchcodes": ["039A21"], "histogram": {"Product administered to patient of inappropriate age": 1}}]}
+{"batchcode": "039A21", "histograms": [{"histogram": {"Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1}, "batchcodes": ["031A21A", "039A21"]}, {"histogram": {"Product administered to patient of inappropriate age": 1}, "batchcodes": ["039A21"]}]}

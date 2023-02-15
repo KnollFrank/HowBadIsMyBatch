@@ -1,1 +1,1 @@
-{"batchcode": "ED1685", "histograms": [{"batchcodes": ["ED1685", "EN5318"], "histogram": {"Lymph node pain": 1, "Lymphadenopathy": 1}}, {"batchcodes": ["ED1685"], "histogram": {"Headache": 1, "Myalgia": 1, "Respiratory tract congestion": 1}}]}
+{"batchcode": "ED1685", "histograms": [{"histogram": {"Lymph node pain": 1, "Lymphadenopathy": 1}, "batchcodes": ["ED1685", "EN5318"]}, {"histogram": {"Headache": 1, "Myalgia": 1, "Respiratory tract congestion": 1}, "batchcodes": ["ED1685"]}]}

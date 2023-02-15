@@ -1,1 +1,1 @@
-{"batchcode": "0577M21A", "histograms": [{"batchcodes": ["0577M21A"], "histogram": {"Anxiety": 1, "Asthma": 1, "Chest pain": 1, "Condition aggravated": 1, "Fatigue": 1, "Glucose tolerance impaired": 1, "Glycosylated haemoglobin increased": 1, "Memory impairment": 1, "Wheezing": 1}}]}
+{"batchcode": "0577M21A", "histograms": [{"histogram": {"Anxiety": 1, "Asthma": 1, "Chest pain": 1, "Condition aggravated": 1, "Fatigue": 1, "Glucose tolerance impaired": 1, "Glycosylated haemoglobin increased": 1, "Memory impairment": 1, "Wheezing": 1}, "batchcodes": ["0577M21A"]}]}

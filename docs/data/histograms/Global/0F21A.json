@@ -1,1 +1,1 @@
-{"batchcode": "0F21A", "histograms": [{"batchcodes": ["0F21A"], "histogram": {"Ageusia": 1, "COVID-19": 1, "Cough": 1, "Dyspnoea": 1, "Fatigue": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "0F21A", "histograms": [{"histogram": {"Ageusia": 1, "COVID-19": 1, "Cough": 1, "Dyspnoea": 1, "Fatigue": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["0F21A"]}]}

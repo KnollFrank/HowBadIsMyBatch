@@ -1,1 +1,1 @@
-{"batchcode": "87A", "histograms": [{"batchcodes": ["87A"], "histogram": {"Fatigue": 1, "Lumbar puncture": 1, "Magnetic resonance imaging": 1, "Myelitis": 1, "Paraesthesia": 1}}]}
+{"batchcode": "87A", "histograms": [{"histogram": {"Fatigue": 1, "Lumbar puncture": 1, "Magnetic resonance imaging": 1, "Myelitis": 1, "Paraesthesia": 1}, "batchcodes": ["87A"]}]}

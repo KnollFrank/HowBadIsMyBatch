@@ -1,1 +1,1 @@
-{"batchcode": "BL1284", "histograms": [{"batchcodes": ["BL1284"], "histogram": {"Dysphagia": 1, "Headache": 1, "Lymphadenopathy": 1, "Nausea": 1, "Swelling face": 1, "Throat tightness": 1}}]}
+{"batchcode": "BL1284", "histograms": [{"histogram": {"Dysphagia": 1, "Headache": 1, "Lymphadenopathy": 1, "Nausea": 1, "Swelling face": 1, "Throat tightness": 1}, "batchcodes": ["BL1284"]}]}

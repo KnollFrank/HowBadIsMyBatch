@@ -1,1 +1,1 @@
-{"batchcode": "EW164", "histograms": [{"batchcodes": ["EW164"], "histogram": {"Dizziness": 2, "Dyspnoea": 2, "Nausea": 2, "Hypertension": 1, "Hypoaesthesia": 1, "Insomnia": 1, "Muscle tightness": 1, "Pain in extremity": 1}}]}
+{"batchcode": "EW164", "histograms": [{"histogram": {"Dizziness": 2, "Dyspnoea": 2, "Nausea": 2, "Hypertension": 1, "Hypoaesthesia": 1, "Insomnia": 1, "Muscle tightness": 1, "Pain in extremity": 1}, "batchcodes": ["EW164"]}]}

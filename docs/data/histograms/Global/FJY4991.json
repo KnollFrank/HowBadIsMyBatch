@@ -1,1 +1,1 @@
-{"batchcode": "FJY4991", "histograms": [{"batchcodes": ["FJY4991"], "histogram": {"Atelectasis": 1, "Chest X-ray abnormal": 1, "Dyspnoea": 1, "Injection site bruising": 1, "Loss of personal independence in daily activities": 1, "Lung disorder": 1, "Lung hypoinflation": 1, "Wheezing": 1}}]}
+{"batchcode": "FJY4991", "histograms": [{"histogram": {"Atelectasis": 1, "Chest X-ray abnormal": 1, "Dyspnoea": 1, "Injection site bruising": 1, "Loss of personal independence in daily activities": 1, "Lung disorder": 1, "Lung hypoinflation": 1, "Wheezing": 1}, "batchcodes": ["FJY4991"]}]}

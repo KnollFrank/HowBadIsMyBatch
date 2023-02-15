@@ -1,1 +1,1 @@
-{"batchcode": "ER8737 KPSF", "histograms": [{"batchcodes": ["ER8737 KPSF"], "histogram": {"Body temperature increased": 1, "Bone pain": 1, "Cough": 1, "Headache": 1, "Pain": 1, "Pyrexia": 1, "Sensitive skin": 1}}]}
+{"batchcode": "ER8737 KPSF", "histograms": [{"histogram": {"Body temperature increased": 1, "Bone pain": 1, "Cough": 1, "Headache": 1, "Pain": 1, "Pyrexia": 1, "Sensitive skin": 1}, "batchcodes": ["ER8737 KPSF"]}]}

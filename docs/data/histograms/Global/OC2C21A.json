@@ -1,1 +1,1 @@
-{"batchcode": "OC2C21A", "histograms": [{"batchcodes": ["017C21A", "OC2C21A"], "histogram": {"COVID-19": 1, "COVID-19 pneumonia": 1, "Death": 1, "Dyspnoea": 1, "Lethargy": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "OC2C21A", "histograms": [{"histogram": {"COVID-19": 1, "COVID-19 pneumonia": 1, "Death": 1, "Dyspnoea": 1, "Lethargy": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["017C21A", "OC2C21A"]}]}

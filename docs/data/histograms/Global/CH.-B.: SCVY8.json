@@ -1,1 +1,1 @@
-{"batchcode": "CH.-B.: SCVY8", "histograms": [{"batchcodes": ["CH.-B.: SCVY8"], "histogram": {"Arthralgia": 1, "Body temperature": 1, "Myalgia": 1, "Pyrexia": 1, "Retinal detachment": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "CH.-B.: SCVY8", "histograms": [{"histogram": {"Arthralgia": 1, "Body temperature": 1, "Myalgia": 1, "Pyrexia": 1, "Retinal detachment": 1, "Vaccination site pain": 1}, "batchcodes": ["CH.-B.: SCVY8"]}]}

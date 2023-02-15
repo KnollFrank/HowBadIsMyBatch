@@ -1,1 +1,1 @@
-{"batchcode": "OS1D274", "histograms": [{"batchcodes": ["OS1D274"], "histogram": {"Allergy test": 1, "Immediate post-injection reaction": 1, "Muscle spasms": 1, "Paraesthesia": 1, "Vision blurred": 1}}]}
+{"batchcode": "OS1D274", "histograms": [{"histogram": {"Allergy test": 1, "Immediate post-injection reaction": 1, "Muscle spasms": 1, "Paraesthesia": 1, "Vision blurred": 1}, "batchcodes": ["OS1D274"]}]}

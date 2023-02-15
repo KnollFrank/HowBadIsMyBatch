@@ -1,1 +1,1 @@
-{"batchcode": "ACB 3221", "histograms": [{"batchcodes": ["ACB 3221"], "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Febrile convulsion": 1, "Nausea": 1, "Syncope": 1}}]}
+{"batchcode": "ACB 3221", "histograms": [{"histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Febrile convulsion": 1, "Nausea": 1, "Syncope": 1}, "batchcodes": ["ACB 3221"]}]}

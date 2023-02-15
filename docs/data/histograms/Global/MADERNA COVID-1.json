@@ -1,1 +1,1 @@
-{"batchcode": "MADERNA COVID-1", "histograms": [{"batchcodes": ["MADERNA COVID-1"], "histogram": {"Injection site reaction": 1, "Pruritus": 1, "Rash erythematous": 1}}]}
+{"batchcode": "MADERNA COVID-1", "histograms": [{"histogram": {"Injection site reaction": 1, "Pruritus": 1, "Rash erythematous": 1}, "batchcodes": ["MADERNA COVID-1"]}]}

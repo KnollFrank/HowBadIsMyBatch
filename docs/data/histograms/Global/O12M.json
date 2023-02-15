@@ -1,1 +1,1 @@
-{"batchcode": "O12M", "histograms": [{"batchcodes": ["O12M"], "histogram": {"Abdominal pain": 1, "Computerised tomogram": 1, "Laboratory test": 1, "Pancreatitis": 1, "Ultrasound biliary tract": 1, "Ultrasound kidney": 1, "Ultrasound scan": 1, "Vomiting": 1}}]}
+{"batchcode": "O12M", "histograms": [{"histogram": {"Abdominal pain": 1, "Computerised tomogram": 1, "Laboratory test": 1, "Pancreatitis": 1, "Ultrasound biliary tract": 1, "Ultrasound kidney": 1, "Ultrasound scan": 1, "Vomiting": 1}, "batchcodes": ["O12M"]}]}

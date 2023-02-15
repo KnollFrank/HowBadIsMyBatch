@@ -1,1 +1,1 @@
-{"batchcode": "33036B7", "histograms": [{"batchcodes": ["33036B7", "EK5130", "EL1283"], "histogram": {"Alopecia": 1, "Amnesia": 1, "Asthenia": 1, "Confusional state": 1, "Exercise tolerance decreased": 1, "Fatigue": 1}}]}
+{"batchcode": "33036B7", "histograms": [{"histogram": {"Alopecia": 1, "Amnesia": 1, "Asthenia": 1, "Confusional state": 1, "Exercise tolerance decreased": 1, "Fatigue": 1}, "batchcodes": ["33036B7", "EK5130", "EL1283"]}]}

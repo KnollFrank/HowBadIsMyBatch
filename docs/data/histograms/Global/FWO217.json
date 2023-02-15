@@ -1,1 +1,1 @@
-{"batchcode": "FWO217", "histograms": [{"batchcodes": ["FWO217"], "histogram": {"Abdominal discomfort": 1, "Cardiac flutter": 1, "Chest discomfort": 1, "Electrocardiogram": 1, "Headache": 1, "Musculoskeletal discomfort": 1, "Nausea": 1, "Palpitations": 1}}]}
+{"batchcode": "FWO217", "histograms": [{"histogram": {"Abdominal discomfort": 1, "Cardiac flutter": 1, "Chest discomfort": 1, "Electrocardiogram": 1, "Headache": 1, "Musculoskeletal discomfort": 1, "Nausea": 1, "Palpitations": 1}, "batchcodes": ["FWO217"]}]}

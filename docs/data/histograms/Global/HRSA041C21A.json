@@ -1,1 +1,1 @@
-{"batchcode": "HRSA041C21A", "histograms": [{"batchcodes": ["HRSA041C21A"], "histogram": {"Chest pain": 1, "Electrocardiogram abnormal": 1, "Myocarditis": 1, "Pericarditis": 1, "Troponin increased": 1}}]}
+{"batchcode": "HRSA041C21A", "histograms": [{"histogram": {"Chest pain": 1, "Electrocardiogram abnormal": 1, "Myocarditis": 1, "Pericarditis": 1, "Troponin increased": 1}, "batchcodes": ["HRSA041C21A"]}]}

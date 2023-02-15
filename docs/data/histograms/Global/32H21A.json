@@ -1,1 +1,1 @@
-{"batchcode": "32H21A", "histograms": [{"batchcodes": ["32H21A"], "histogram": {"Abdominal pain": 1, "Arthralgia": 1, "COVID-19": 1, "Dizziness": 1, "Dysstasia": 1, "Joint swelling": 1, "Rheumatoid arthritis": 1, "SARS-CoV-2 test positive": 1, "Vomiting": 1}}]}
+{"batchcode": "32H21A", "histograms": [{"histogram": {"Abdominal pain": 1, "Arthralgia": 1, "COVID-19": 1, "Dizziness": 1, "Dysstasia": 1, "Joint swelling": 1, "Rheumatoid arthritis": 1, "SARS-CoV-2 test positive": 1, "Vomiting": 1}, "batchcodes": ["32H21A"]}]}

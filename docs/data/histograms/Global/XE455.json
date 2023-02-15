@@ -1,1 +1,1 @@
-{"batchcode": "XE455", "histograms": [{"batchcodes": ["XE455"], "histogram": {"Anosmia": 1, "Chest discomfort": 1, "Chills": 1, "Dyspnoea": 1, "Headache": 1, "Pharyngitis": 1, "Polymerase chain reaction": 1, "Pyrexia": 1}}]}
+{"batchcode": "XE455", "histograms": [{"histogram": {"Anosmia": 1, "Chest discomfort": 1, "Chills": 1, "Dyspnoea": 1, "Headache": 1, "Pharyngitis": 1, "Polymerase chain reaction": 1, "Pyrexia": 1}, "batchcodes": ["XE455"]}]}

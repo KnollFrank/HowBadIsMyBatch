@@ -1,1 +1,1 @@
-{"batchcode": "FCA0025", "histograms": [{"batchcodes": ["FCA0025"], "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1}}]}
+{"batchcode": "FCA0025", "histograms": [{"histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1}, "batchcodes": ["FCA0025"]}]}

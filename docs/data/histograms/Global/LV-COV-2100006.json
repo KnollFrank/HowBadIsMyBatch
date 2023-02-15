@@ -1,1 +1,1 @@
-{"batchcode": "LV-COV-2100006", "histograms": [{"batchcodes": ["LV-COV-2100006"], "histogram": {"Myocardial infarction": 1, "Pain in extremity": 1}}]}
+{"batchcode": "LV-COV-2100006", "histograms": [{"histogram": {"Myocardial infarction": 1, "Pain in extremity": 1}, "batchcodes": ["LV-COV-2100006"]}]}

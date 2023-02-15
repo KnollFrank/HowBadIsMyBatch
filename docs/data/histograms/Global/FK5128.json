@@ -1,1 +1,1 @@
-{"batchcode": "FK5128", "histograms": [{"batchcodes": ["FK5127", "FK5128"], "histogram": {"Product storage error": 1}}, {"batchcodes": ["FK5128"], "histogram": {"Incorrect dose administered": 1, "No adverse event": 1, "Product preparation issue": 1}}]}
+{"batchcode": "FK5128", "histograms": [{"histogram": {"Product storage error": 1}, "batchcodes": ["FK5127", "FK5128"]}, {"histogram": {"Incorrect dose administered": 1, "No adverse event": 1, "Product preparation issue": 1}, "batchcodes": ["FK5128"]}]}

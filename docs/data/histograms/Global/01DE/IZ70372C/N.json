@@ -1,1 +1,1 @@
-{"batchcode": "01DE/IZ70372C/N", "histograms": [{"batchcodes": ["01DE/IZ70372C/N"], "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Cough": 1, "Dyspnoea": 1}}]}
+{"batchcode": "01DE/IZ70372C/N", "histograms": [{"histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Cough": 1, "Dyspnoea": 1}, "batchcodes": ["01DE/IZ70372C/N"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "88331B", "histograms": [{"batchcodes": ["88331B"], "histogram": {"Arrhythmia": 1, "Cardiac failure": 1, "Dyspnoea": 1, "Inappropriate schedule of product administration": 1, "Myocarditis": 1, "Tachycardia": 1}}]}
+{"batchcode": "88331B", "histograms": [{"histogram": {"Arrhythmia": 1, "Cardiac failure": 1, "Dyspnoea": 1, "Inappropriate schedule of product administration": 1, "Myocarditis": 1, "Tachycardia": 1}, "batchcodes": ["88331B"]}]}

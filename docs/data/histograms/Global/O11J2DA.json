@@ -1,1 +1,1 @@
-{"batchcode": "O11J2DA", "histograms": [{"batchcodes": ["O11J2DA"], "histogram": {"Arthralgia": 2, "Fatigue": 2, "Chest discomfort": 1, "Heart rate increased": 1, "Injection site pain": 1, "Myalgia": 1, "Nausea": 1, "Pyrexia": 1}}]}
+{"batchcode": "O11J2DA", "histograms": [{"histogram": {"Arthralgia": 2, "Fatigue": 2, "Chest discomfort": 1, "Heart rate increased": 1, "Injection site pain": 1, "Myalgia": 1, "Nausea": 1, "Pyrexia": 1}, "batchcodes": ["O11J2DA"]}]}

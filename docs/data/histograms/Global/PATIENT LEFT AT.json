@@ -1,1 +1,1 @@
-{"batchcode": "PATIENT LEFT AT", "histograms": [{"batchcodes": ["PATIENT LEFT AT"], "histogram": {"Urticaria": 1}}]}
+{"batchcode": "PATIENT LEFT AT", "histograms": [{"histogram": {"Urticaria": 1}, "batchcodes": ["PATIENT LEFT AT"]}]}

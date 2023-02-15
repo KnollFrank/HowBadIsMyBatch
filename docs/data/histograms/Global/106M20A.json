@@ -1,1 +1,1 @@
-{"batchcode": "106M20A", "histograms": [{"batchcodes": ["106M20A"], "histogram": {"Asthenia": 1, "Blood pressure increased": 1, "Body temperature": 1, "Diarrhoea": 1, "Headache": 1, "Pyrexia": 1, "Vaccination complication": 1}}]}
+{"batchcode": "106M20A", "histograms": [{"histogram": {"Asthenia": 1, "Blood pressure increased": 1, "Body temperature": 1, "Diarrhoea": 1, "Headache": 1, "Pyrexia": 1, "Vaccination complication": 1}, "batchcodes": ["106M20A"]}]}

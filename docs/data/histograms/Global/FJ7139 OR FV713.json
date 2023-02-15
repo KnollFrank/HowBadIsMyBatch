@@ -1,1 +1,1 @@
-{"batchcode": "FJ7139 OR FV713", "histograms": [{"batchcodes": ["FJ7139 OR FV713"], "histogram": {"Axillary pain": 1, "Breast pain": 1, "Breast swelling": 1, "Musculoskeletal stiffness": 1, "Swelling": 1}}]}
+{"batchcode": "FJ7139 OR FV713", "histograms": [{"histogram": {"Axillary pain": 1, "Breast pain": 1, "Breast swelling": 1, "Musculoskeletal stiffness": 1, "Swelling": 1}, "batchcodes": ["FJ7139 OR FV713"]}]}

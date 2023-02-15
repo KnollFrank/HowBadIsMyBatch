@@ -1,1 +1,1 @@
-{"batchcode": "FR 8392", "histograms": [{"batchcodes": ["FR 8392"], "histogram": {"Asthma": 1, "Nasopharyngitis": 1, "Pyrexia": 1, "Syncope": 1, "Systemic viral infection": 1, "Upper respiratory tract infection": 1}}]}
+{"batchcode": "FR 8392", "histograms": [{"histogram": {"Asthma": 1, "Nasopharyngitis": 1, "Pyrexia": 1, "Syncope": 1, "Systemic viral infection": 1, "Upper respiratory tract infection": 1}, "batchcodes": ["FR 8392"]}]}

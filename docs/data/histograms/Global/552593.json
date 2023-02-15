@@ -1,1 +1,1 @@
-{"batchcode": "552593", "histograms": [{"batchcodes": ["552593", "EL9265", "EN6201", "FM7553"], "histogram": {"Abdominal pain": 1, "Balance disorder": 1, "COVID-19": 1, "Femur fracture": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "552593", "histograms": [{"histogram": {"Abdominal pain": 1, "Balance disorder": 1, "COVID-19": 1, "Femur fracture": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["552593", "EL9265", "EN6201", "FM7553"]}]}

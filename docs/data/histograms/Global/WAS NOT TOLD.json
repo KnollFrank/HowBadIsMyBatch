@@ -1,1 +1,1 @@
-{"batchcode": "WAS NOT TOLD", "histograms": [{"batchcodes": ["WAS NOT TOLD"], "histogram": {"Fatigue": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Injection site reaction": 1, "Injection site warmth": 1, "Pain": 1, "Rash": 1}}]}
+{"batchcode": "WAS NOT TOLD", "histograms": [{"histogram": {"Fatigue": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Injection site reaction": 1, "Injection site warmth": 1, "Pain": 1, "Rash": 1}, "batchcodes": ["WAS NOT TOLD"]}]}

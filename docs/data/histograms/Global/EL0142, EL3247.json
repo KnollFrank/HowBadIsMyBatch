@@ -1,1 +1,1 @@
-{"batchcode": "EL0142, EL3247", "histograms": [{"batchcodes": ["EL0142, EL3247"], "histogram": {"Dyspnoea": 1, "Nasal congestion": 1, "Paraesthesia": 1, "Productive cough": 1, "Rhinorrhoea": 1, "Upper-airway cough syndrome": 1}}]}
+{"batchcode": "EL0142, EL3247", "histograms": [{"histogram": {"Dyspnoea": 1, "Nasal congestion": 1, "Paraesthesia": 1, "Productive cough": 1, "Rhinorrhoea": 1, "Upper-airway cough syndrome": 1}, "batchcodes": ["EL0142, EL3247"]}]}

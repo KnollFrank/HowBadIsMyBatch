@@ -1,1 +1,1 @@
-{"batchcode": "EW31W43", "histograms": [{"batchcodes": ["EW31W43"], "histogram": {"Body temperature": 1, "Body temperature increased": 1, "Fatigue": 1, "Nausea": 1, "Pyrexia": 1}}]}
+{"batchcode": "EW31W43", "histograms": [{"histogram": {"Body temperature": 1, "Body temperature increased": 1, "Fatigue": 1, "Nausea": 1, "Pyrexia": 1}, "batchcodes": ["EW31W43"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "037KP0A", "histograms": [{"batchcodes": ["037KP0A"], "histogram": {"Pain": 2, "Ageusia": 1, "Anosmia": 1, "Body temperature increased": 1, "Headache": 1, "Nausea": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "037KP0A", "histograms": [{"histogram": {"Pain": 2, "Ageusia": 1, "Anosmia": 1, "Body temperature increased": 1, "Headache": 1, "Nausea": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["037KP0A"]}]}

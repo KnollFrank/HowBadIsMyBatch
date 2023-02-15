@@ -1,1 +1,1 @@
-{"batchcode": "EW062", "histograms": [{"batchcodes": ["EN6200", "EW0186", "EW062"], "histogram": {"Decreased appetite": 1, "Diarrhoea": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Respiratory tract congestion": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test negative": 1, "Sneezing": 1}}]}
+{"batchcode": "EW062", "histograms": [{"histogram": {"Decreased appetite": 1, "Diarrhoea": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Respiratory tract congestion": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test negative": 1, "Sneezing": 1}, "batchcodes": ["EN6200", "EW0186", "EW062"]}]}

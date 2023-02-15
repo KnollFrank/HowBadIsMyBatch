@@ -1,1 +1,1 @@
-{"batchcode": "IF1020A", "histograms": [{"batchcodes": ["IF1020A"], "histogram": {"Blood test": 1, "Incorrect route of product administration": 1, "Myalgia": 1, "Positron emission tomogram": 1, "Ultrasound Doppler": 1, "Vasculitis": 1}}]}
+{"batchcode": "IF1020A", "histograms": [{"histogram": {"Blood test": 1, "Incorrect route of product administration": 1, "Myalgia": 1, "Positron emission tomogram": 1, "Ultrasound Doppler": 1, "Vasculitis": 1}, "batchcodes": ["IF1020A"]}]}

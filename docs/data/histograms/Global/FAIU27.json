@@ -1,1 +1,1 @@
-{"batchcode": "FAIU27", "histograms": [{"batchcodes": ["FAIU27"], "histogram": {"Abdominal pain upper": 1, "Antibody test": 1, "Headache": 1, "Pyrexia": 1}}]}
+{"batchcode": "FAIU27", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Antibody test": 1, "Headache": 1, "Pyrexia": 1}, "batchcodes": ["FAIU27"]}]}

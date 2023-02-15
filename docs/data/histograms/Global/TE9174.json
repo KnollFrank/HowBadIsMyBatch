@@ -1,1 +1,1 @@
-{"batchcode": "TE9174", "histograms": [{"batchcodes": ["TE9174"], "histogram": {"Angiocardiogram": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Magnetic resonance imaging heart": 1, "Myocarditis": 1}}]}
+{"batchcode": "TE9174", "histograms": [{"histogram": {"Angiocardiogram": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Magnetic resonance imaging heart": 1, "Myocarditis": 1}, "batchcodes": ["TE9174"]}]}

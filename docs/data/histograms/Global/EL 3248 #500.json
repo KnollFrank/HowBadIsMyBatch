@@ -1,1 +1,1 @@
-{"batchcode": "EL 3248 #500", "histograms": [{"batchcodes": ["EL 3248 #500"], "histogram": {"Abdominal pain": 1, "Chills": 1, "Constipation": 1, "Headache": 1, "Nausea": 1, "SARS-CoV-2 test negative": 1, "Vomiting": 1, "X-ray gastrointestinal tract abnormal": 1}}]}
+{"batchcode": "EL 3248 #500", "histograms": [{"histogram": {"Abdominal pain": 1, "Chills": 1, "Constipation": 1, "Headache": 1, "Nausea": 1, "SARS-CoV-2 test negative": 1, "Vomiting": 1, "X-ray gastrointestinal tract abnormal": 1}, "batchcodes": ["EL 3248 #500"]}]}

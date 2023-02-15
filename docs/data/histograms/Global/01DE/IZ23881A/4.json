@@ -1,1 +1,1 @@
-{"batchcode": "01DE/IZ23881A/4", "histograms": [{"batchcodes": ["01DE/IZ23881A/4"], "histogram": {"Blood pressure measurement": 1, "Echocardiogram": 1, "Heart rate": 1, "Hypertension": 1, "Myocarditis": 1}}]}
+{"batchcode": "01DE/IZ23881A/4", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Echocardiogram": 1, "Heart rate": 1, "Hypertension": 1, "Myocarditis": 1}, "batchcodes": ["01DE/IZ23881A/4"]}]}

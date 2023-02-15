@@ -1,1 +1,1 @@
-{"batchcode": "HT239", "histograms": [{"batchcodes": ["HT239"], "histogram": {"Blood pressure increased": 1, "Injection site hypoaesthesia": 1, "Injection site pain": 1, "Paraesthesia": 1}}]}
+{"batchcode": "HT239", "histograms": [{"histogram": {"Blood pressure increased": 1, "Injection site hypoaesthesia": 1, "Injection site pain": 1, "Paraesthesia": 1}, "batchcodes": ["HT239"]}]}

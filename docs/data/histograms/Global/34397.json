@@ -1,1 +1,1 @@
-{"batchcode": "34397", "histograms": [{"batchcodes": ["34397"], "histogram": {"Arrhythmia": 1, "Blood pressure measurement": 1, "Cold sweat": 1, "Dizziness": 1, "Heart rate": 1, "Heart rate abnormal": 1, "Hot flush": 1, "Malaise": 1, "Presyncope": 1, "Vomiting": 1}}]}
+{"batchcode": "34397", "histograms": [{"histogram": {"Arrhythmia": 1, "Blood pressure measurement": 1, "Cold sweat": 1, "Dizziness": 1, "Heart rate": 1, "Heart rate abnormal": 1, "Hot flush": 1, "Malaise": 1, "Presyncope": 1, "Vomiting": 1}, "batchcodes": ["34397"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "PFR; EW0153; 7/", "histograms": [{"batchcodes": ["PFR; EW0153; 7/"], "histogram": {"Epistaxis": 1, "Immunoglobulin therapy": 1, "Platelet count decreased": 1, "Platelet transfusion": 1}}]}
+{"batchcode": "PFR; EW0153; 7/", "histograms": [{"histogram": {"Epistaxis": 1, "Immunoglobulin therapy": 1, "Platelet count decreased": 1, "Platelet transfusion": 1}, "batchcodes": ["PFR; EW0153; 7/"]}]}

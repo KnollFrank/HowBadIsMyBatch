@@ -1,1 +1,1 @@
-{"batchcode": "EINOIS3", "histograms": [{"batchcodes": ["EINOIS3"], "histogram": {"Blister": 1, "Confusional state": 1, "Dizziness": 1, "Migraine": 1, "Rash erythematous": 1, "Skin lesion": 1, "Skin swelling": 1}}]}
+{"batchcode": "EINOIS3", "histograms": [{"histogram": {"Blister": 1, "Confusional state": 1, "Dizziness": 1, "Migraine": 1, "Rash erythematous": 1, "Skin lesion": 1, "Skin swelling": 1}, "batchcodes": ["EINOIS3"]}]}

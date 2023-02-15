@@ -1,1 +1,1 @@
-{"batchcode": "EP2176", "histograms": [{"batchcodes": ["EP2176"], "histogram": {"Angiogram": 1, "Aphasia": 1, "Computerised tomogram head": 1, "Confusional state": 1, "Coordination abnormal": 1, "Dysarthria": 1, "Facial paralysis": 1, "Neurological examination": 1, "Vomiting": 1}}]}
+{"batchcode": "EP2176", "histograms": [{"histogram": {"Angiogram": 1, "Aphasia": 1, "Computerised tomogram head": 1, "Confusional state": 1, "Coordination abnormal": 1, "Dysarthria": 1, "Facial paralysis": 1, "Neurological examination": 1, "Vomiting": 1}, "batchcodes": ["EP2176"]}]}

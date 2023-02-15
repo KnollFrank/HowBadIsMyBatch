@@ -1,1 +1,1 @@
-{"batchcode": "FOG019", "histograms": [{"batchcodes": ["FOG019"], "histogram": {"Arthralgia": 1, "Confusional state": 1, "Headache": 1, "Loss of consciousness": 1, "Nausea": 1, "Syncope": 1, "Tinnitus": 1}}]}
+{"batchcode": "FOG019", "histograms": [{"histogram": {"Arthralgia": 1, "Confusional state": 1, "Headache": 1, "Loss of consciousness": 1, "Nausea": 1, "Syncope": 1, "Tinnitus": 1}, "batchcodes": ["FOG019"]}]}

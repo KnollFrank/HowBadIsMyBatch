@@ -1,1 +1,1 @@
-{"batchcode": "TCHD9VMD", "histograms": [{"batchcodes": ["TCHD9VMD"], "histogram": {"Bone pain": 1, "Cough": 1, "Dyspnoea": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1}}]}
+{"batchcode": "TCHD9VMD", "histograms": [{"histogram": {"Bone pain": 1, "Cough": 1, "Dyspnoea": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1}, "batchcodes": ["TCHD9VMD"]}]}

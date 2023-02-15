@@ -1,1 +1,1 @@
-{"batchcode": "EN6122", "histograms": [{"batchcodes": ["EN6122"], "histogram": {"Blood uric acid abnormal": 1, "Condition aggravated": 1, "Gout": 1, "Peripheral swelling": 1, "Skin odour abnormal": 1}}]}
+{"batchcode": "EN6122", "histograms": [{"histogram": {"Blood uric acid abnormal": 1, "Condition aggravated": 1, "Gout": 1, "Peripheral swelling": 1, "Skin odour abnormal": 1}, "batchcodes": ["EN6122"]}]}

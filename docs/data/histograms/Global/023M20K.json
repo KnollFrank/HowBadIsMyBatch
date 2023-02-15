@@ -1,1 +1,1 @@
-{"batchcode": "023M20K", "histograms": [{"batchcodes": ["006B21A", "023M20K"], "histogram": {"Pain in extremity": 1}}, {"batchcodes": ["023M20K"], "histogram": {"Arthralgia": 1, "Musculoskeletal discomfort": 1}}]}
+{"batchcode": "023M20K", "histograms": [{"histogram": {"Pain in extremity": 1}, "batchcodes": ["006B21A", "023M20K"]}, {"histogram": {"Arthralgia": 1, "Musculoskeletal discomfort": 1}, "batchcodes": ["023M20K"]}]}

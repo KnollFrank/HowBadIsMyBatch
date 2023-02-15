@@ -1,1 +1,1 @@
-{"batchcode": "B04021A", "histograms": [{"batchcodes": ["B04021A"], "histogram": {"Blood pressure measurement": 1, "Dyspnoea": 1, "Feeling abnormal": 1, "Hypersensitivity": 1, "Pharyngeal swelling": 1, "Swollen tongue": 1}}]}
+{"batchcode": "B04021A", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Dyspnoea": 1, "Feeling abnormal": 1, "Hypersensitivity": 1, "Pharyngeal swelling": 1, "Swollen tongue": 1}, "batchcodes": ["B04021A"]}]}

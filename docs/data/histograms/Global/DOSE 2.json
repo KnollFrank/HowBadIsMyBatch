@@ -1,1 +1,1 @@
-{"batchcode": "DOSE 2", "histograms": [{"batchcodes": ["DOSE 2"], "histogram": {"Arthralgia": 1, "Chills": 1, "Condition aggravated": 1, "Nausea": 1, "Psoriasis": 1, "Psoriatic arthropathy": 1}}]}
+{"batchcode": "DOSE 2", "histograms": [{"histogram": {"Arthralgia": 1, "Chills": 1, "Condition aggravated": 1, "Nausea": 1, "Psoriasis": 1, "Psoriatic arthropathy": 1}, "batchcodes": ["DOSE 2"]}]}

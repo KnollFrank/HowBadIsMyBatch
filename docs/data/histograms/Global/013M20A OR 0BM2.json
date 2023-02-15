@@ -1,1 +1,1 @@
-{"batchcode": "013M20A OR 0BM2", "histograms": [{"batchcodes": ["013M20A OR 0BM2"], "histogram": {"Fatigue": 3, "Headache": 3, "Myalgia": 3, "Discomfort": 1, "Lymph node pain": 1, "Pain": 1, "Pain in extremity": 1, "Rash": 1, "Rash pruritic": 1}}]}
+{"batchcode": "013M20A OR 0BM2", "histograms": [{"histogram": {"Fatigue": 3, "Headache": 3, "Myalgia": 3, "Discomfort": 1, "Lymph node pain": 1, "Pain": 1, "Pain in extremity": 1, "Rash": 1, "Rash pruritic": 1}, "batchcodes": ["013M20A OR 0BM2"]}]}

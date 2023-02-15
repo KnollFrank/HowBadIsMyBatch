@@ -1,1 +1,1 @@
-{"batchcode": "1F1057A", "histograms": [{"batchcodes": ["1F1057A"], "histogram": {"COVID-19": 2, "Drug ineffective": 2, "Immunisation": 1, "Interchange of vaccine products": 1, "Off label use": 1, "Polymerase chain reaction": 1}}]}
+{"batchcode": "1F1057A", "histograms": [{"histogram": {"COVID-19": 2, "Drug ineffective": 2, "Immunisation": 1, "Interchange of vaccine products": 1, "Off label use": 1, "Polymerase chain reaction": 1}, "batchcodes": ["1F1057A"]}]}

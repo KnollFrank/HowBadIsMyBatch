@@ -1,1 +1,1 @@
-{"batchcode": "3003008", "histograms": [{"batchcodes": ["3003008"], "histogram": {"Pyrexia": 2, "SARS-CoV-2 test": 2, "Dermatitis allergic": 1, "Dyspnoea": 1, "Insomnia": 1, "Lip swelling": 1, "Nausea": 1, "Tachycardia": 1, "Vomiting": 1}}]}
+{"batchcode": "3003008", "histograms": [{"histogram": {"Pyrexia": 2, "SARS-CoV-2 test": 2, "Dermatitis allergic": 1, "Dyspnoea": 1, "Insomnia": 1, "Lip swelling": 1, "Nausea": 1, "Tachycardia": 1, "Vomiting": 1}, "batchcodes": ["3003008"]}]}

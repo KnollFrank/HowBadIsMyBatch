@@ -1,1 +1,1 @@
-{"batchcode": "CH.-B.: SCTN4", "histograms": [{"batchcodes": ["CH.-B.: SCTN4"], "histogram": {"Epistaxis": 1, "Fracture reduction": 1, "Immunisation": 1, "Portogram": 1, "Retinal haemorrhage": 1, "Seizure": 1, "X-ray": 1}}]}
+{"batchcode": "CH.-B.: SCTN4", "histograms": [{"histogram": {"Epistaxis": 1, "Fracture reduction": 1, "Immunisation": 1, "Portogram": 1, "Retinal haemorrhage": 1, "Seizure": 1, "X-ray": 1}, "batchcodes": ["CH.-B.: SCTN4"]}]}

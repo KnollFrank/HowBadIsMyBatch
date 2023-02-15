@@ -1,1 +1,1 @@
-{"batchcode": "066KZIA", "histograms": [{"batchcodes": ["066KZIA"], "histogram": {"COVID-19": 1, "Cough": 1, "Malaise": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "066KZIA", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Malaise": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["066KZIA"]}]}

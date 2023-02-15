@@ -1,1 +1,1 @@
-{"batchcode": "C202109177", "histograms": [{"batchcodes": ["002K21A", "C202109177", "J202107048"], "histogram": {"Vomiting": 1}}, {"batchcodes": ["C202109177"], "histogram": {"Vomiting": 1}}]}
+{"batchcode": "C202109177", "histograms": [{"histogram": {"Vomiting": 1}, "batchcodes": ["002K21A", "C202109177", "J202107048"]}, {"histogram": {"Vomiting": 1}, "batchcodes": ["C202109177"]}]}

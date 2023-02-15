@@ -1,1 +1,1 @@
-{"batchcode": "2009F2A", "histograms": [{"batchcodes": ["2009F2A"], "histogram": {"Ageusia": 1, "Anosmia": 1, "COVID-19": 1, "Dyspnoea": 1, "Dyspnoea exertional": 1, "Fatigue": 1, "Headache": 1, "SARS-CoV-2 test positive": 1, "Wheezing": 1}}]}
+{"batchcode": "2009F2A", "histograms": [{"histogram": {"Ageusia": 1, "Anosmia": 1, "COVID-19": 1, "Dyspnoea": 1, "Dyspnoea exertional": 1, "Fatigue": 1, "Headache": 1, "SARS-CoV-2 test positive": 1, "Wheezing": 1}, "batchcodes": ["2009F2A"]}]}

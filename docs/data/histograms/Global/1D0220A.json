@@ -1,1 +1,1 @@
-{"batchcode": "1D0220A", "histograms": [{"batchcodes": ["1D0220A"], "histogram": {"Death": 1, "Dyspnoea": 1, "Fatigue": 1, "Immunisation": 1, "Laboratory test": 1, "Pancytopenia": 1, "Poikilocytosis": 1, "Pupils unequal": 1}}]}
+{"batchcode": "1D0220A", "histograms": [{"histogram": {"Death": 1, "Dyspnoea": 1, "Fatigue": 1, "Immunisation": 1, "Laboratory test": 1, "Pancytopenia": 1, "Poikilocytosis": 1, "Pupils unequal": 1}, "batchcodes": ["1D0220A"]}]}

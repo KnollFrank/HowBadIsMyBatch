@@ -1,1 +1,1 @@
-{"batchcode": "EWU202", "histograms": [{"batchcodes": ["EWU202"], "histogram": {"Condition aggravated": 1, "Headache": 1, "Migraine": 1, "Retinal migraine": 1, "Vision blurred": 1, "Visual impairment": 1}}]}
+{"batchcode": "EWU202", "histograms": [{"histogram": {"Condition aggravated": 1, "Headache": 1, "Migraine": 1, "Retinal migraine": 1, "Vision blurred": 1, "Visual impairment": 1}, "batchcodes": ["EWU202"]}]}

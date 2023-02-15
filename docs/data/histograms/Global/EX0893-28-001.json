@@ -1,1 +1,1 @@
-{"batchcode": "EX0893-28-001", "histograms": [{"batchcodes": ["EX0893-28-001"], "histogram": {"Fibrin D dimer": 1, "Platelet count": 1, "Rash erythematous": 1, "Rash pruritic": 1}}]}
+{"batchcode": "EX0893-28-001", "histograms": [{"histogram": {"Fibrin D dimer": 1, "Platelet count": 1, "Rash erythematous": 1, "Rash pruritic": 1}, "batchcodes": ["EX0893-28-001"]}]}

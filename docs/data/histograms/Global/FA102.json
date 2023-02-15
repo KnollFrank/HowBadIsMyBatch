@@ -1,1 +1,1 @@
-{"batchcode": "FA102", "histograms": [{"batchcodes": ["FA102"], "histogram": {"Angioedema": 1, "Pruritus": 1, "Rash macular": 1, "SARS-CoV-2 test": 1, "Urticaria chronic": 1}}]}
+{"batchcode": "FA102", "histograms": [{"histogram": {"Angioedema": 1, "Pruritus": 1, "Rash macular": 1, "SARS-CoV-2 test": 1, "Urticaria chronic": 1}, "batchcodes": ["FA102"]}]}

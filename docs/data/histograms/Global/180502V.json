@@ -1,1 +1,1 @@
-{"batchcode": "180502V", "histograms": [{"batchcodes": ["180502V"], "histogram": {"Dyspnoea": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pain": 1, "Limb discomfort": 1, "Muscle spasms": 1}}]}
+{"batchcode": "180502V", "histograms": [{"histogram": {"Dyspnoea": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pain": 1, "Limb discomfort": 1, "Muscle spasms": 1}, "batchcodes": ["180502V"]}]}

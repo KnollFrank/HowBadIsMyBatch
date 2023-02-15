@@ -1,1 +1,1 @@
-{"batchcode": "E93527", "histograms": [{"batchcodes": ["E93527"], "histogram": {"Anticoagulant therapy": 1, "Blood test": 1, "Computerised tomogram": 1, "Magnetic resonance imaging head abnormal": 1, "Scan with contrast": 1, "Transient ischaemic attack": 1, "Ultrasound Doppler": 1}}]}
+{"batchcode": "E93527", "histograms": [{"histogram": {"Anticoagulant therapy": 1, "Blood test": 1, "Computerised tomogram": 1, "Magnetic resonance imaging head abnormal": 1, "Scan with contrast": 1, "Transient ischaemic attack": 1, "Ultrasound Doppler": 1}, "batchcodes": ["E93527"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "011LZCA", "histograms": [{"batchcodes": ["011LZCA"], "histogram": {"Blood test": 1, "Chest X-ray": 1, "Chills": 1, "Computerised tomogram abnormal": 1, "Headache": 1, "Pain": 1, "Pneumonia": 1, "Pyrexia": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "011LZCA", "histograms": [{"histogram": {"Blood test": 1, "Chest X-ray": 1, "Chills": 1, "Computerised tomogram abnormal": 1, "Headache": 1, "Pain": 1, "Pneumonia": 1, "Pyrexia": 1, "Vaccination site pain": 1}, "batchcodes": ["011LZCA"]}]}

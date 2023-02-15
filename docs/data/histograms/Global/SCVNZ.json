@@ -1,1 +1,1 @@
-{"batchcode": "SCVNZ", "histograms": [{"batchcodes": ["SCVNZ"], "histogram": {"Bundle branch block left": 1, "Chest pain": 1, "Electrocardiogram": 1, "Myocarditis": 1, "Palpitations": 1}}]}
+{"batchcode": "SCVNZ", "histograms": [{"histogram": {"Bundle branch block left": 1, "Chest pain": 1, "Electrocardiogram": 1, "Myocarditis": 1, "Palpitations": 1}, "batchcodes": ["SCVNZ"]}]}

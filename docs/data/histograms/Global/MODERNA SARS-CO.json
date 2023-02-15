@@ -1,1 +1,1 @@
-{"batchcode": "MODERNA SARS-CO", "histograms": [{"batchcodes": ["MODERNA SARS-CO"], "histogram": {"Headache": 1, "Injection site pain": 1, "Nasopharyngitis": 1, "Pain": 1}}]}
+{"batchcode": "MODERNA SARS-CO", "histograms": [{"histogram": {"Headache": 1, "Injection site pain": 1, "Nasopharyngitis": 1, "Pain": 1}, "batchcodes": ["MODERNA SARS-CO"]}]}

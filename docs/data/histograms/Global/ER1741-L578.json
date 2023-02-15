@@ -1,1 +1,1 @@
-{"batchcode": "ER1741-L578", "histograms": [{"batchcodes": ["ER1741-L578"], "histogram": {"Arthralgia": 1, "Blood test": 1, "Joint noise": 1, "Joint stiffness": 1, "Musculoskeletal stiffness": 1}}]}
+{"batchcode": "ER1741-L578", "histograms": [{"histogram": {"Arthralgia": 1, "Blood test": 1, "Joint noise": 1, "Joint stiffness": 1, "Musculoskeletal stiffness": 1}, "batchcodes": ["ER1741-L578"]}]}

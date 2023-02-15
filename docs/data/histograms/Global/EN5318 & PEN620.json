@@ -1,1 +1,1 @@
-{"batchcode": "EN5318 & PEN620", "histograms": [{"batchcodes": ["EN5318 & PEN620"], "histogram": {"Death": 1, "Myocardial infarction": 1}}]}
+{"batchcode": "EN5318 & PEN620", "histograms": [{"histogram": {"Death": 1, "Myocardial infarction": 1}, "batchcodes": ["EN5318 & PEN620"]}]}

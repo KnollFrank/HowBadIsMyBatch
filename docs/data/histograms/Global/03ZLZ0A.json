@@ -1,1 +1,1 @@
-{"batchcode": "03ZLZ0A", "histograms": [{"batchcodes": ["03ZLZ0A"], "histogram": {"Breast cancer recurrent": 1, "Condition aggravated": 1, "Intestinal obstruction": 1, "Intestinal resection": 1}}]}
+{"batchcode": "03ZLZ0A", "histograms": [{"histogram": {"Breast cancer recurrent": 1, "Condition aggravated": 1, "Intestinal obstruction": 1, "Intestinal resection": 1}, "batchcodes": ["03ZLZ0A"]}]}

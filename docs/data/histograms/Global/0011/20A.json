@@ -1,1 +1,1 @@
-{"batchcode": "0011/20A", "histograms": [{"batchcodes": ["0011/20A"], "histogram": {"Postmenopausal haemorrhage": 1, "Smear cervix normal": 1, "Ultrasound pelvis normal": 1}}]}
+{"batchcode": "0011/20A", "histograms": [{"histogram": {"Postmenopausal haemorrhage": 1, "Smear cervix normal": 1, "Ultrasound pelvis normal": 1}, "batchcodes": ["0011/20A"]}]}

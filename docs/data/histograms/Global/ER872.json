@@ -1,1 +1,1 @@
-{"batchcode": "ER872", "histograms": [{"batchcodes": ["ER872"], "histogram": {"Chills": 1, "Cold sweat": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Hyperhidrosis": 1, "Tremor": 1}}]}
+{"batchcode": "ER872", "histograms": [{"histogram": {"Chills": 1, "Cold sweat": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Hyperhidrosis": 1, "Tremor": 1}, "batchcodes": ["ER872"]}]}

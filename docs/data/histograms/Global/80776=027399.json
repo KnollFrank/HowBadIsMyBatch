@@ -1,1 +1,1 @@
-{"batchcode": "80776=027399", "histograms": [{"batchcodes": ["80776=027399"], "histogram": {"Condition aggravated": 1, "Mobility decreased": 1, "Myelitis transverse": 1, "Paralysis": 1, "Walking aid user": 1, "Wheelchair user": 1}}]}
+{"batchcode": "80776=027399", "histograms": [{"histogram": {"Condition aggravated": 1, "Mobility decreased": 1, "Myelitis transverse": 1, "Paralysis": 1, "Walking aid user": 1, "Wheelchair user": 1}, "batchcodes": ["80776=027399"]}]}

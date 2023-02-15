@@ -1,1 +1,1 @@
-{"batchcode": "FS1613", "histograms": [{"batchcodes": ["FS1613"], "histogram": {"Dizziness": 1, "Febrile convulsion": 1, "Generalised tonic-clonic seizure": 1, "Incontinence": 1, "Paralysis": 1}}]}
+{"batchcode": "FS1613", "histograms": [{"histogram": {"Dizziness": 1, "Febrile convulsion": 1, "Generalised tonic-clonic seizure": 1, "Incontinence": 1, "Paralysis": 1}, "batchcodes": ["FS1613"]}]}

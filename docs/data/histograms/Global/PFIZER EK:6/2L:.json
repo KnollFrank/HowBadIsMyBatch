@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EK:6/2L:", "histograms": [{"batchcodes": ["PFIZER EK:6/2L:"], "histogram": {"Myalgia": 1, "Rotator cuff syndrome": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "PFIZER EK:6/2L:", "histograms": [{"histogram": {"Myalgia": 1, "Rotator cuff syndrome": 1, "Vaccination site pain": 1}, "batchcodes": ["PFIZER EK:6/2L:"]}]}

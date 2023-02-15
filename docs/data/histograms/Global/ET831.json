@@ -1,1 +1,1 @@
-{"batchcode": "ET831", "histograms": [{"batchcodes": ["ET831"], "histogram": {"Blood glucose": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Disorientation": 1, "Dyspnoea": 1, "Gait disturbance": 1, "Tachycardia paroxysmal": 1}}]}
+{"batchcode": "ET831", "histograms": [{"histogram": {"Blood glucose": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Disorientation": 1, "Dyspnoea": 1, "Gait disturbance": 1, "Tachycardia paroxysmal": 1}, "batchcodes": ["ET831"]}]}

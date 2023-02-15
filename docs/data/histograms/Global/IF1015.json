@@ -1,1 +1,1 @@
-{"batchcode": "IF1015", "histograms": [{"batchcodes": ["IF1015"], "histogram": {"Abdominal pain": 1, "Blood fibrinogen": 1, "Computerised tomogram head": 1, "Diarrhoea": 1, "Dysarthria": 1, "Nausea": 1, "Red blood cell sedimentation rate": 1, "Vomiting": 1}}]}
+{"batchcode": "IF1015", "histograms": [{"histogram": {"Abdominal pain": 1, "Blood fibrinogen": 1, "Computerised tomogram head": 1, "Diarrhoea": 1, "Dysarthria": 1, "Nausea": 1, "Red blood cell sedimentation rate": 1, "Vomiting": 1}, "batchcodes": ["IF1015"]}]}

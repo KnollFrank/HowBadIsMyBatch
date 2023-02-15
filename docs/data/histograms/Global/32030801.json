@@ -1,1 +1,1 @@
-{"batchcode": "32030801", "histograms": [{"batchcodes": ["32030801"], "histogram": {"Abdominal pain": 1, "Angioedema": 1, "Axillary mass": 1, "Axillary pain": 1, "Dyspepsia": 1, "Lymphadenopathy": 1, "Nausea": 1, "Urticaria": 1}}]}
+{"batchcode": "32030801", "histograms": [{"histogram": {"Abdominal pain": 1, "Angioedema": 1, "Axillary mass": 1, "Axillary pain": 1, "Dyspepsia": 1, "Lymphadenopathy": 1, "Nausea": 1, "Urticaria": 1}, "batchcodes": ["32030801"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "030A21A19", "histograms": [{"batchcodes": ["030A21A19"], "histogram": {"Amnesia": 1, "Blood test": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Electroencephalogram": 1, "Ischaemic stroke": 1, "Magnetic resonance imaging": 1}}]}
+{"batchcode": "030A21A19", "histograms": [{"histogram": {"Amnesia": 1, "Blood test": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Electroencephalogram": 1, "Ischaemic stroke": 1, "Magnetic resonance imaging": 1}, "batchcodes": ["030A21A19"]}]}

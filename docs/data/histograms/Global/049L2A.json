@@ -1,1 +1,1 @@
-{"batchcode": "049L2A", "histograms": [{"batchcodes": ["049L2A"], "histogram": {"Back pain": 1, "Mobility decreased": 1, "Spinal X-ray abnormal": 1, "Spinal deformity": 1, "Spinal disorder": 1}}]}
+{"batchcode": "049L2A", "histograms": [{"histogram": {"Back pain": 1, "Mobility decreased": 1, "Spinal X-ray abnormal": 1, "Spinal deformity": 1, "Spinal disorder": 1}, "batchcodes": ["049L2A"]}]}

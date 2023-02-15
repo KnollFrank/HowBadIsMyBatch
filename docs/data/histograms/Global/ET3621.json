@@ -1,1 +1,1 @@
-{"batchcode": "ET3621", "histograms": [{"batchcodes": ["ET3621"], "histogram": {"Diarrhoea": 1, "Dyspnoea": 1, "Fatigue": 1, "Musculoskeletal chest pain": 1, "Oxygen saturation": 1, "Oxygen saturation decreased": 1, "Vomiting": 1}}]}
+{"batchcode": "ET3621", "histograms": [{"histogram": {"Diarrhoea": 1, "Dyspnoea": 1, "Fatigue": 1, "Musculoskeletal chest pain": 1, "Oxygen saturation": 1, "Oxygen saturation decreased": 1, "Vomiting": 1}, "batchcodes": ["ET3621"]}]}

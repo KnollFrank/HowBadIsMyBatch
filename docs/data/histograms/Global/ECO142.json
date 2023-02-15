@@ -1,1 +1,1 @@
-{"batchcode": "ECO142", "histograms": [{"batchcodes": ["ECO142"], "histogram": {"Limb discomfort": 1, "Pain": 1, "Pain in extremity": 1, "Tenderness": 1, "Thrombosis": 1}}]}
+{"batchcode": "ECO142", "histograms": [{"histogram": {"Limb discomfort": 1, "Pain": 1, "Pain in extremity": 1, "Tenderness": 1, "Thrombosis": 1}, "batchcodes": ["ECO142"]}]}

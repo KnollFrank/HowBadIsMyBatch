@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER 1ST SHOT", "histograms": [{"batchcodes": ["PFIZER 1ST SHOT"], "histogram": {"Chest pain": 1, "Electrocardiogram": 1}}]}
+{"batchcode": "PFIZER 1ST SHOT", "histograms": [{"histogram": {"Chest pain": 1, "Electrocardiogram": 1}, "batchcodes": ["PFIZER 1ST SHOT"]}]}

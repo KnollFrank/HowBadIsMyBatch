@@ -1,1 +1,1 @@
-{"batchcode": "OLOM20A", "histograms": [{"batchcodes": ["D39K20A", "OLOM20A"], "histogram": {"Immune thrombocytopenia": 1, "Platelet count decreased": 1}}]}
+{"batchcode": "OLOM20A", "histograms": [{"histogram": {"Immune thrombocytopenia": 1, "Platelet count decreased": 1}, "batchcodes": ["D39K20A", "OLOM20A"]}]}

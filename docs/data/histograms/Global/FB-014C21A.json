@@ -1,1 +1,1 @@
-{"batchcode": "FB-014C21A", "histograms": [{"batchcodes": ["038A21A", "040B21A", "FB-014C21A"], "histogram": {"Discomfort": 1, "Full blood count normal": 1, "Mechanical urticaria": 1, "Metabolic function test normal": 1, "Pruritus": 1, "Urticaria": 1}}]}
+{"batchcode": "FB-014C21A", "histograms": [{"histogram": {"Discomfort": 1, "Full blood count normal": 1, "Mechanical urticaria": 1, "Metabolic function test normal": 1, "Pruritus": 1, "Urticaria": 1}, "batchcodes": ["038A21A", "040B21A", "FB-014C21A"]}]}

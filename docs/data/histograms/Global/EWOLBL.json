@@ -1,1 +1,1 @@
-{"batchcode": "EWOLBL", "histograms": [{"batchcodes": ["EWOLBL"], "histogram": {"Cardiomegaly": 1, "Gait disturbance": 1, "Hypertension": 1, "Laboratory test": 1, "Palpitations": 1}}]}
+{"batchcode": "EWOLBL", "histograms": [{"histogram": {"Cardiomegaly": 1, "Gait disturbance": 1, "Hypertension": 1, "Laboratory test": 1, "Palpitations": 1}, "batchcodes": ["EWOLBL"]}]}

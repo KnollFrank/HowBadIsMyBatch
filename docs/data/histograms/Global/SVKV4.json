@@ -1,1 +1,1 @@
-{"batchcode": "SVKV4", "histograms": [{"batchcodes": ["SVKV4"], "histogram": {"Arrhythmia": 1, "Coagulopathy": 1, "Myocardial infarction": 1}}]}
+{"batchcode": "SVKV4", "histograms": [{"histogram": {"Arrhythmia": 1, "Coagulopathy": 1, "Myocardial infarction": 1}, "batchcodes": ["SVKV4"]}]}

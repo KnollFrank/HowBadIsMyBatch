@@ -1,1 +1,1 @@
-{"batchcode": "X51621A", "histograms": [{"batchcodes": ["X51621A"], "histogram": {"Myalgia": 2, "Pyrexia": 2, "Abdominal discomfort": 1, "Asthenia": 1, "Body temperature": 1, "Dizziness": 1, "Dyspnoea": 1, "Muscle spasms": 1, "Nausea": 1, "Vaccination site pain": 1, "Vomiting": 1}}]}
+{"batchcode": "X51621A", "histograms": [{"histogram": {"Myalgia": 2, "Pyrexia": 2, "Abdominal discomfort": 1, "Asthenia": 1, "Body temperature": 1, "Dizziness": 1, "Dyspnoea": 1, "Muscle spasms": 1, "Nausea": 1, "Vaccination site pain": 1, "Vomiting": 1}, "batchcodes": ["X51621A"]}]}

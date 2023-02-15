@@ -1,1 +1,1 @@
-{"batchcode": "EL3248, EN5318", "histograms": [{"batchcodes": ["EL3248, EN5318"], "histogram": {"Coombs test positive": 1, "Full blood count abnormal": 1, "Haemolytic anaemia": 1}}]}
+{"batchcode": "EL3248, EN5318", "histograms": [{"histogram": {"Coombs test positive": 1, "Full blood count abnormal": 1, "Haemolytic anaemia": 1}, "batchcodes": ["EL3248, EN5318"]}]}

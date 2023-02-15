@@ -1,1 +1,1 @@
-{"batchcode": "FWDI50", "histograms": [{"batchcodes": ["FWDI50"], "histogram": {"Body temperature": 1, "Bursitis": 1, "Malaise": 1, "Musculoskeletal discomfort": 1, "Pain in extremity": 1, "Pyrexia": 1, "Vaccination site pain": 1, "X-ray normal": 1}}]}
+{"batchcode": "FWDI50", "histograms": [{"histogram": {"Body temperature": 1, "Bursitis": 1, "Malaise": 1, "Musculoskeletal discomfort": 1, "Pain in extremity": 1, "Pyrexia": 1, "Vaccination site pain": 1, "X-ray normal": 1}, "batchcodes": ["FWDI50"]}]}

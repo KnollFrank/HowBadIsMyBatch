@@ -1,1 +1,1 @@
-{"batchcode": "CW01E6", "histograms": [{"batchcodes": ["CW01E6"], "histogram": {"Angiogram pulmonary abnormal": 1, "Pulmonary embolism": 1}}]}
+{"batchcode": "CW01E6", "histograms": [{"histogram": {"Angiogram pulmonary abnormal": 1, "Pulmonary embolism": 1}, "batchcodes": ["CW01E6"]}]}

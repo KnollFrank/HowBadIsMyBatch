@@ -1,1 +1,1 @@
-{"batchcode": "EE0188", "histograms": [{"batchcodes": ["021C21A", "EE0188"], "histogram": {"Interchange of vaccine products": 1, "No adverse event": 1, "Product administered to patient of inappropriate age": 1}}]}
+{"batchcode": "EE0188", "histograms": [{"histogram": {"Interchange of vaccine products": 1, "No adverse event": 1, "Product administered to patient of inappropriate age": 1}, "batchcodes": ["021C21A", "EE0188"]}]}

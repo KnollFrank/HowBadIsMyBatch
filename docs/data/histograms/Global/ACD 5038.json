@@ -1,1 +1,1 @@
-{"batchcode": "ACD 5038", "histograms": [{"batchcodes": ["ACD 5038"], "histogram": {"Nausea": 1, "Neuropathy peripheral": 1, "Pain": 1, "Tachycardia": 1, "Vomiting": 1}}]}
+{"batchcode": "ACD 5038", "histograms": [{"histogram": {"Nausea": 1, "Neuropathy peripheral": 1, "Pain": 1, "Tachycardia": 1, "Vomiting": 1}, "batchcodes": ["ACD 5038"]}]}

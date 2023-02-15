@@ -1,1 +1,1 @@
-{"batchcode": "EL3346", "histograms": [{"batchcodes": ["EK5730", "EL3346"], "histogram": {"Unevaluable event": 1}}, {"batchcodes": ["EL3346"], "histogram": {"Asthenia": 1, "COVID-19": 1, "Condition aggravated": 1, "Dyspnoea": 1, "Muscle spasms": 1, "Seizure": 1, "Somnolence": 1}}]}
+{"batchcode": "EL3346", "histograms": [{"histogram": {"Unevaluable event": 1}, "batchcodes": ["EK5730", "EL3346"]}, {"histogram": {"Asthenia": 1, "COVID-19": 1, "Condition aggravated": 1, "Dyspnoea": 1, "Muscle spasms": 1, "Seizure": 1, "Somnolence": 1}, "batchcodes": ["EL3346"]}]}

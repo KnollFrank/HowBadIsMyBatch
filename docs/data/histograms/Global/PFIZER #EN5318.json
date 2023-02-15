@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER #EN5318", "histograms": [{"batchcodes": ["PFIZER #EN5318"], "histogram": {"Arthralgia": 1, "Fatigue": 1, "Headache": 1, "Injection site pain": 1, "Lymphadenopathy": 1, "Malaise": 1, "Throat irritation": 1}}]}
+{"batchcode": "PFIZER #EN5318", "histograms": [{"histogram": {"Arthralgia": 1, "Fatigue": 1, "Headache": 1, "Injection site pain": 1, "Lymphadenopathy": 1, "Malaise": 1, "Throat irritation": 1}, "batchcodes": ["PFIZER #EN5318"]}]}

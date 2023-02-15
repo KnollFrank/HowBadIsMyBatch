@@ -1,1 +1,1 @@
-{"batchcode": "G16B2/A", "histograms": [{"batchcodes": ["001B21A", "083J21A", "G16B2/A"], "histogram": {"Complex regional pain syndrome": 1, "Condition aggravated": 1, "Neuralgia": 1, "Pain": 1, "Screaming": 1}}]}
+{"batchcode": "G16B2/A", "histograms": [{"histogram": {"Complex regional pain syndrome": 1, "Condition aggravated": 1, "Neuralgia": 1, "Pain": 1, "Screaming": 1}, "batchcodes": ["001B21A", "083J21A", "G16B2/A"]}]}

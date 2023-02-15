@@ -1,1 +1,1 @@
-{"batchcode": "ER7964", "histograms": [{"batchcodes": ["ER7964"], "histogram": {"Asthenia": 1, "Computerised tomogram head": 1, "Headache": 1, "Hemiplegic migraine": 1, "Loss of consciousness": 1, "Magnetic resonance imaging": 1, "Pyrexia": 1, "Rectal haemorrhage": 1}}]}
+{"batchcode": "ER7964", "histograms": [{"histogram": {"Asthenia": 1, "Computerised tomogram head": 1, "Headache": 1, "Hemiplegic migraine": 1, "Loss of consciousness": 1, "Magnetic resonance imaging": 1, "Pyrexia": 1, "Rectal haemorrhage": 1}, "batchcodes": ["ER7964"]}]}

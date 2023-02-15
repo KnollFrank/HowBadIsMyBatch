@@ -1,1 +1,1 @@
-{"batchcode": "EH9899321", "histograms": [{"batchcodes": ["EH9899321"], "histogram": {"Abdominal discomfort": 1, "Abdominal distension": 1, "Diarrhoea": 1, "Flatulence": 1, "Headache": 1, "Nausea": 1, "Pyrexia": 1}}]}
+{"batchcode": "EH9899321", "histograms": [{"histogram": {"Abdominal discomfort": 1, "Abdominal distension": 1, "Diarrhoea": 1, "Flatulence": 1, "Headache": 1, "Nausea": 1, "Pyrexia": 1}, "batchcodes": ["EH9899321"]}]}

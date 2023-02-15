@@ -1,10 +1,14 @@
 from HistogramFactory import createGlobalHistograms, createHistograms
 from HistogramPersister import saveHistograms
+from MultiIndexExploder import MultiIndexExploder
+from HistogramDescriptionTableFactory import HistogramDescriptionTableFactory
 
 
 def createAndSaveGlobalHistograms(symptomByBatchcodeTable):
     dictByBatchcodeTable4Country = createGlobalHistograms(symptomByBatchcodeTable)
-    saveHistograms(dictByBatchcodeTable4Country, 'Global')
+    explodedTable = MultiIndexExploder.explodeMultiIndexOfTable(dictByBatchcodeTable4Country)
+    histogramDescriptionTable = HistogramDescriptionTableFactory.createHistogramDescriptionTable(explodedTable)
+    saveHistograms(histogramDescriptionTable, 'Global')
 
 
 def createAndSaveHistogramsForCountries(symptomByBatchcodeTable, countries):

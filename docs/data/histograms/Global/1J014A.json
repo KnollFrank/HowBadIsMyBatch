@@ -1,1 +1,1 @@
-{"batchcode": "1J014A", "histograms": [{"batchcodes": ["1J014A"], "histogram": {"Computerised tomogram": 1, "Computerised tomogram thorax": 1, "Fibrin D dimer": 1, "Fibrin D dimer increased": 1, "Pulmonary embolism": 1}}]}
+{"batchcode": "1J014A", "histograms": [{"histogram": {"Computerised tomogram": 1, "Computerised tomogram thorax": 1, "Fibrin D dimer": 1, "Fibrin D dimer increased": 1, "Pulmonary embolism": 1}, "batchcodes": ["1J014A"]}]}

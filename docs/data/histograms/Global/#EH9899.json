@@ -1,1 +1,1 @@
-{"batchcode": "#EH9899", "histograms": [{"batchcodes": ["#EH9899", "#EL3246"], "histogram": {"Computerised tomogram": 1, "Osteonecrosis": 1, "X-ray": 1}}, {"batchcodes": ["#EH9899"], "histogram": {"Chills": 1, "Malaise": 1, "Pyrexia": 1}}]}
+{"batchcode": "#EH9899", "histograms": [{"histogram": {"Computerised tomogram": 1, "Osteonecrosis": 1, "X-ray": 1}, "batchcodes": ["#EH9899", "#EL3246"]}, {"histogram": {"Chills": 1, "Malaise": 1, "Pyrexia": 1}, "batchcodes": ["#EH9899"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "DY%B21A", "histograms": [{"batchcodes": ["DY%B21A"], "histogram": {"Anaemia": 1, "Babesiosis": 1, "Full blood count": 1, "Platelet count decreased": 1, "Red blood cell count decreased": 1, "White blood cell count decreased": 1}}]}
+{"batchcode": "DY%B21A", "histograms": [{"histogram": {"Anaemia": 1, "Babesiosis": 1, "Full blood count": 1, "Platelet count decreased": 1, "Red blood cell count decreased": 1, "White blood cell count decreased": 1}, "batchcodes": ["DY%B21A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "SL4073", "histograms": [{"batchcodes": ["SL4073"], "histogram": {"Body temperature": 1, "Cough": 1, "Haematochezia": 1, "Nasopharyngitis": 1, "Pyrexia": 1}}]}
+{"batchcode": "SL4073", "histograms": [{"histogram": {"Body temperature": 1, "Cough": 1, "Haematochezia": 1, "Nasopharyngitis": 1, "Pyrexia": 1}, "batchcodes": ["SL4073"]}]}

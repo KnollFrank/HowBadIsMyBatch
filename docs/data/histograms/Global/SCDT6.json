@@ -1,1 +1,1 @@
-{"batchcode": "SCDT6", "histograms": [{"batchcodes": ["SCDT6"], "histogram": {"Hysteroscopy": 1, "Postmenopausal haemorrhage": 1, "Skin abrasion": 1}}]}
+{"batchcode": "SCDT6", "histograms": [{"histogram": {"Hysteroscopy": 1, "Postmenopausal haemorrhage": 1, "Skin abrasion": 1}, "batchcodes": ["SCDT6"]}]}

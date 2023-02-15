@@ -1,1 +1,1 @@
-{"batchcode": "AZTRA ZENECA", "histograms": [{"batchcodes": ["AZTRA ZENECA"], "histogram": {"Feeling cold": 1, "Pain": 1, "Urticaria": 1}}]}
+{"batchcode": "AZTRA ZENECA", "histograms": [{"histogram": {"Feeling cold": 1, "Pain": 1, "Urticaria": 1}, "batchcodes": ["AZTRA ZENECA"]}]}

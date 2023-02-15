@@ -1,1 +1,1 @@
-{"batchcode": "MVX/MOD013L20A", "histograms": [{"batchcodes": ["MVC/MOD011J20A", "MVX/MOD013L20A"], "histogram": {"Heavy menstrual bleeding": 1, "Infertility female": 1, "Migraine": 1}}]}
+{"batchcode": "MVX/MOD013L20A", "histograms": [{"histogram": {"Heavy menstrual bleeding": 1, "Infertility female": 1, "Migraine": 1}, "batchcodes": ["MVC/MOD011J20A", "MVX/MOD013L20A"]}]}

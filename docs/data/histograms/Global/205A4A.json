@@ -1,1 +1,1 @@
-{"batchcode": "205A4A", "histograms": [{"batchcodes": ["205A4A"], "histogram": {"Blood test abnormal": 1, "Contusion": 1, "Immune thrombocytopenia": 1, "Petechiae": 1, "Platelet count decreased": 1, "Thrombocytopenic purpura": 1}}]}
+{"batchcode": "205A4A", "histograms": [{"histogram": {"Blood test abnormal": 1, "Contusion": 1, "Immune thrombocytopenia": 1, "Petechiae": 1, "Platelet count decreased": 1, "Thrombocytopenic purpura": 1}, "batchcodes": ["205A4A"]}]}

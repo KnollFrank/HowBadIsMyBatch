@@ -1,1 +1,1 @@
-{"batchcode": "01/A21A", "histograms": [{"batchcodes": ["01/A21A"], "histogram": {"C-reactive protein": 1, "Full blood count": 1, "Metabolic function test": 1, "Rash": 1, "Rash pruritic": 1, "Red blood cell sedimentation rate": 1, "SARS-CoV-2 antibody test": 1}}]}
+{"batchcode": "01/A21A", "histograms": [{"histogram": {"C-reactive protein": 1, "Full blood count": 1, "Metabolic function test": 1, "Rash": 1, "Rash pruritic": 1, "Red blood cell sedimentation rate": 1, "SARS-CoV-2 antibody test": 1}, "batchcodes": ["01/A21A"]}]}

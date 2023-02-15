@@ -1,1 +1,1 @@
-{"batchcode": "01DE/IZ97980A/2", "histograms": [{"batchcodes": ["01DE/IZ97980A/2"], "histogram": {"Arrhythmia": 1, "Contusion": 1, "Dyspnoea": 1, "Haematoma": 1, "Headache": 1, "Heart rate increased": 1, "Limb discomfort": 1, "Pain": 1}}]}
+{"batchcode": "01DE/IZ97980A/2", "histograms": [{"histogram": {"Arrhythmia": 1, "Contusion": 1, "Dyspnoea": 1, "Haematoma": 1, "Headache": 1, "Heart rate increased": 1, "Limb discomfort": 1, "Pain": 1}, "batchcodes": ["01DE/IZ97980A/2"]}]}

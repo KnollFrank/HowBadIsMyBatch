@@ -1,1 +1,1 @@
-{"batchcode": "FW9712", "histograms": [{"batchcodes": ["FW9712"], "histogram": {"Angiocardiogram": 1, "Blood test": 1, "Chest pain": 1, "Discomfort": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Pain": 1, "Thyroxin binding globulin": 1, "X-ray": 1}}]}
+{"batchcode": "FW9712", "histograms": [{"histogram": {"Angiocardiogram": 1, "Blood test": 1, "Chest pain": 1, "Discomfort": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Pain": 1, "Thyroxin binding globulin": 1, "X-ray": 1}, "batchcodes": ["FW9712"]}]}

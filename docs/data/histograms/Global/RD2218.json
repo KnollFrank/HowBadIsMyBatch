@@ -1,1 +1,1 @@
-{"batchcode": "RD2218", "histograms": [{"batchcodes": ["RD2218"], "histogram": {"Computerised tomogram normal": 1, "Laboratory test normal": 1, "Magnetic resonance imaging normal": 1, "Muscle twitching": 1, "Tremor": 1}}]}
+{"batchcode": "RD2218", "histograms": [{"histogram": {"Computerised tomogram normal": 1, "Laboratory test normal": 1, "Magnetic resonance imaging normal": 1, "Muscle twitching": 1, "Tremor": 1}, "batchcodes": ["RD2218"]}]}

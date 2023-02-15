@@ -1,1 +1,1 @@
-{"batchcode": "COMIRNATY-PFR 3", "histograms": [{"batchcodes": ["COMIRNATY-PFR 3"], "histogram": {"COVID-19": 1, "Intensive care": 1, "Vaccine breakthrough infection": 1}}]}
+{"batchcode": "COMIRNATY-PFR 3", "histograms": [{"histogram": {"COVID-19": 1, "Intensive care": 1, "Vaccine breakthrough infection": 1}, "batchcodes": ["COMIRNATY-PFR 3"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EN6198/EN6207", "histograms": [{"batchcodes": ["EN6198/EN6207"], "histogram": {"Atrial fibrillation": 1, "Blood thyroid stimulating hormone": 1, "Blood thyroid stimulating hormone increased": 1, "Dyspnoea": 1, "Electrocardiogram": 1}}]}
+{"batchcode": "EN6198/EN6207", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Blood thyroid stimulating hormone": 1, "Blood thyroid stimulating hormone increased": 1, "Dyspnoea": 1, "Electrocardiogram": 1}, "batchcodes": ["EN6198/EN6207"]}]}

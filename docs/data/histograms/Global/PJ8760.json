@@ -1,1 +1,1 @@
-{"batchcode": "PJ8760", "histograms": [{"batchcodes": ["PJ8760"], "histogram": {"Amnesia": 1, "Head injury": 1, "Hypokalaemia": 1, "Mobility decreased": 1, "Muscular weakness": 1, "Myalgia": 1}}]}
+{"batchcode": "PJ8760", "histograms": [{"histogram": {"Amnesia": 1, "Head injury": 1, "Hypokalaemia": 1, "Mobility decreased": 1, "Muscular weakness": 1, "Myalgia": 1}, "batchcodes": ["PJ8760"]}]}

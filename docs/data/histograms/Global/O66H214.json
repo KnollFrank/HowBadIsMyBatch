@@ -1,1 +1,1 @@
-{"batchcode": "O66H214", "histograms": [{"batchcodes": ["O66H214"], "histogram": {"Chest pain": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Heart rate increased": 1, "Pyrexia": 1, "Sinus arrhythmia": 1}}]}
+{"batchcode": "O66H214", "histograms": [{"histogram": {"Chest pain": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Heart rate increased": 1, "Pyrexia": 1, "Sinus arrhythmia": 1}, "batchcodes": ["O66H214"]}]}

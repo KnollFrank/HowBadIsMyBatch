@@ -1,1 +1,1 @@
-{"batchcode": "EWQ70", "histograms": [{"batchcodes": ["EWQ70"], "histogram": {"Allergy test positive": 1, "Angioedema": 1, "Blood test": 1, "Body temperature increased": 1, "Erythema": 1, "Skin test": 1, "Swelling face": 1}}]}
+{"batchcode": "EWQ70", "histograms": [{"histogram": {"Allergy test positive": 1, "Angioedema": 1, "Blood test": 1, "Body temperature increased": 1, "Erythema": 1, "Skin test": 1, "Swelling face": 1}, "batchcodes": ["EWQ70"]}]}

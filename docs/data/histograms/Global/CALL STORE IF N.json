@@ -1,1 +1,1 @@
-{"batchcode": "CALL STORE IF N", "histograms": [{"batchcodes": ["CALL STORE IF N"], "histogram": {"Inappropriate schedule of product administration": 1}}]}
+{"batchcode": "CALL STORE IF N", "histograms": [{"histogram": {"Inappropriate schedule of product administration": 1}, "batchcodes": ["CALL STORE IF N"]}]}

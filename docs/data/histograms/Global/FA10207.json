@@ -1,1 +1,1 @@
-{"batchcode": "FA10207", "histograms": [{"batchcodes": ["FA10207"], "histogram": {"Blood pressure measurement": 1, "Chest pain": 1, "Dizziness": 1, "Hypertension": 1, "Insomnia": 1, "Menstruation delayed": 1, "Pregnancy test": 1, "Pruritus": 1}}]}
+{"batchcode": "FA10207", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Chest pain": 1, "Dizziness": 1, "Hypertension": 1, "Insomnia": 1, "Menstruation delayed": 1, "Pregnancy test": 1, "Pruritus": 1}, "batchcodes": ["FA10207"]}]}

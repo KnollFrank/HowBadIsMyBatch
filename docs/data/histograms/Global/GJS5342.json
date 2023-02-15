@@ -1,1 +1,1 @@
-{"batchcode": "GJS5342", "histograms": [{"batchcodes": ["GJS5342"], "histogram": {"Arrhythmia": 1, "Atrial fibrillation": 1, "Electrocardiogram abnormal": 1, "Sinus tachycardia": 1, "Ventricular tachycardia": 1}}]}
+{"batchcode": "GJS5342", "histograms": [{"histogram": {"Arrhythmia": 1, "Atrial fibrillation": 1, "Electrocardiogram abnormal": 1, "Sinus tachycardia": 1, "Ventricular tachycardia": 1}, "batchcodes": ["GJS5342"]}]}

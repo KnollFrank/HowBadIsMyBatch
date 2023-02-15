@@ -1,1 +1,1 @@
-{"batchcode": "PFR EK4176", "histograms": [{"batchcodes": ["PFR EK4176"], "histogram": {"Chills": 1, "Cough": 1, "Dyspnoea": 1, "Myalgia": 1, "Oxygen saturation decreased": 1, "Pyrexia": 1, "Wheezing": 1}}]}
+{"batchcode": "PFR EK4176", "histograms": [{"histogram": {"Chills": 1, "Cough": 1, "Dyspnoea": 1, "Myalgia": 1, "Oxygen saturation decreased": 1, "Pyrexia": 1, "Wheezing": 1}, "batchcodes": ["PFR EK4176"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "LCHD", "histograms": [{"batchcodes": ["LCHD"], "histogram": {"Dizziness": 1, "Vaccination site erythema": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "LCHD", "histograms": [{"histogram": {"Dizziness": 1, "Vaccination site erythema": 1, "Vaccination site swelling": 1}, "batchcodes": ["LCHD"]}]}

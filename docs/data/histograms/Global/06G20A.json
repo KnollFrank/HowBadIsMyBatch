@@ -1,1 +1,1 @@
-{"batchcode": "06G20A", "histograms": [{"batchcodes": ["06G20A"], "histogram": {"Diarrhoea": 1, "Headache": 1, "Lymphadenopathy": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "06G20A", "histograms": [{"histogram": {"Diarrhoea": 1, "Headache": 1, "Lymphadenopathy": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1, "Vaccination site swelling": 1}, "batchcodes": ["06G20A"]}]}

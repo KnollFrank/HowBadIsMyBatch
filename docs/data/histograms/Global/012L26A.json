@@ -1,1 +1,1 @@
-{"batchcode": "012L26A", "histograms": [{"batchcodes": ["012L26A", "12M20A"], "histogram": {"COVID-19": 1}}, {"batchcodes": ["012L26A"], "histogram": {"Injection site erythema": 1}}]}
+{"batchcode": "012L26A", "histograms": [{"histogram": {"COVID-19": 1}, "batchcodes": ["012L26A", "12M20A"]}, {"histogram": {"Injection site erythema": 1}, "batchcodes": ["012L26A"]}]}

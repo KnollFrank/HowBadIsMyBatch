@@ -1,1 +1,1 @@
-{"batchcode": "DO NOT HAVE CAR", "histograms": [{"batchcodes": ["DO NOT HAVE CAR"], "histogram": {"Chills": 1, "Confusional state": 1, "Fatigue": 1, "Headache": 1, "Pain": 1, "Vomiting": 1}}]}
+{"batchcode": "DO NOT HAVE CAR", "histograms": [{"histogram": {"Chills": 1, "Confusional state": 1, "Fatigue": 1, "Headache": 1, "Pain": 1, "Vomiting": 1}, "batchcodes": ["DO NOT HAVE CAR"]}]}

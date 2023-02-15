@@ -1,1 +1,1 @@
-{"batchcode": "209021A", "histograms": [{"batchcodes": ["209021A"], "histogram": {"COVID-19": 1, "Cough": 1, "Decreased appetite": 1, "Dysphagia": 1, "Dyspnoea": 1, "Hyperhidrosis": 1, "Oropharyngeal discomfort": 1, "Pyrexia": 1}}]}
+{"batchcode": "209021A", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Decreased appetite": 1, "Dysphagia": 1, "Dyspnoea": 1, "Hyperhidrosis": 1, "Oropharyngeal discomfort": 1, "Pyrexia": 1}, "batchcodes": ["209021A"]}]}

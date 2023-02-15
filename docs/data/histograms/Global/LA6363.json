@@ -1,1 +1,1 @@
-{"batchcode": "LA6363", "histograms": [{"batchcodes": ["LA6363"], "histogram": {"COVID-19": 1, "Chills": 1, "Cough": 1, "Dyspnoea": 1, "Headache": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "LA6363", "histograms": [{"histogram": {"COVID-19": 1, "Chills": 1, "Cough": 1, "Dyspnoea": 1, "Headache": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["LA6363"]}]}

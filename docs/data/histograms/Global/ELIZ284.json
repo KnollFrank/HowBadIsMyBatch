@@ -1,1 +1,1 @@
-{"batchcode": "ELIZ284", "histograms": [{"batchcodes": ["ELIZ284"], "histogram": {"Abdominal distension": 1, "Axillary pain": 1, "Breast pain": 1, "Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1, "Mammogram normal": 1, "Menstrual disorder": 1, "Menstruation delayed": 1}}]}
+{"batchcode": "ELIZ284", "histograms": [{"histogram": {"Abdominal distension": 1, "Axillary pain": 1, "Breast pain": 1, "Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1, "Mammogram normal": 1, "Menstrual disorder": 1, "Menstruation delayed": 1}, "batchcodes": ["ELIZ284"]}]}
