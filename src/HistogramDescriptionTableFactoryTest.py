@@ -6,7 +6,7 @@ import pandas as pd
 
 class HistogramDescriptionTableFactoryTest(unittest.TestCase):
 
-    def test_createHistogramDescriptionTable(self):
+    def test_createGlobalHistogramDescriptionTable(self):
         # Given
         dictByBatchcodeTable = TestHelper.createDataFrame(
                 columns = ['SYMPTOM_COUNT_BY_VAX_LOT'],
@@ -83,6 +83,104 @@ class HistogramDescriptionTableFactoryTest(unittest.TestCase):
                                     }
                                 ]
                             }
+                          ]
+                        ],
+                index =  pd.Index(
+                    name = 'VAX_LOT',
+                    data = [
+                        '1808982',
+                        'EW0175',
+                        'FD1921',
+                        '015M20A'])),
+            check_like = True)
+
+    def test_createHistogramDescriptionTable4Countries(self):
+        # Given
+        dictByBatchcodeTable = TestHelper.createDataFrame(
+                columns = ['SYMPTOM_COUNT_BY_VAX_LOT',                                        'COUNTRY'],
+                data = [  [{"Blood pressure orthostatic abnormal": 5, "Chest discomfort": 1}, 'Country A'],
+                          [{"Blood pressure orthostatic abnormal": 5, "Chest discomfort": 1}, 'Country A'],
+                          [{"Blood pressure orthostatic abnormal": 5, "Chest discomfort": 1}, 'Country A'],
+
+                          [{"Chest discomfort": 2},                                           'Country A'],
+                          [{"Chest discomfort": 2},                                           'Country A'],
+                          [{"Chest discomfort": 2},                                           'Country A']
+                        ],
+                index = pd.MultiIndex.from_tuples(
+                    names =   ['VAX_LOT_EXPLODED', 'VAX_LOT1', 'VAX_LOT2', 'VAX_LOT3'],
+                    tuples = [['1808982',          '1808982',  'EW0175',   'FD1921'],
+                              ['EW0175',           '1808982',  'EW0175',   'FD1921'],
+                              ['FD1921',           '1808982',  'EW0175',   'FD1921'],
+
+                              ['015M20A',          '015M20A',  '1808982',  'nan'],
+                              ['1808982',          '015M20A',  '1808982',  'nan'],
+                              ['nan',              '015M20A',  '1808982',  'nan']]))
+
+        # When
+        histogramDescriptionTable = HistogramDescriptionTableFactory.createHistogramDescriptionTable(dictByBatchcodeTable)
+
+        # Then
+        assert_frame_equal(
+            histogramDescriptionTable,
+            TestHelper.createDataFrame(
+                columns = ['HISTOGRAM_DESCRIPTION',                                    'COUNTRY'],
+                data = [  [
+                            {
+                                "batchcode": "1808982",
+                                "histograms": [
+                                    {
+                                        "batchcodes": ["1808982", "EW0175", "FD1921"],
+                                        "histogram": {
+                                            "Blood pressure orthostatic abnormal": 5,
+                                            "Chest discomfort": 1}
+                                    },
+                                    {
+                                        "batchcodes": ["015M20A", "1808982"],
+                                        "histogram": {"Chest discomfort": 2}
+                                    }
+                                ]
+                            },
+                                                                                       'Country A'
+                          ],
+                          [
+                            {
+                                "batchcode": "EW0175",
+                                "histograms": [
+                                    {
+                                        "batchcodes": ["1808982", "EW0175", "FD1921"],
+                                        "histogram": {
+                                            "Blood pressure orthostatic abnormal": 5,
+                                            "Chest discomfort": 1}
+                                    }
+                                ]
+                            },
+                                                                                       'Country A'
+                          ],
+                          [
+                            {
+                                "batchcode": "FD1921",
+                                "histograms": [
+                                    {
+                                        "batchcodes": ["1808982", "EW0175", "FD1921"],
+                                        "histogram": {
+                                            "Blood pressure orthostatic abnormal": 5,
+                                            "Chest discomfort": 1}
+                                    }
+                                ]
+                            },
+                                                                                       'Country A'
+                          ],
+                          [
+                            {
+                                "batchcode": "015M20A",
+                                "histograms": [
+                                    {
+                                        "batchcodes": ["015M20A", "1808982"],
+                                        "histogram": {"Chest discomfort": 2}
+                                    }
+                                ]
+                            },
+                                                                                       'Country A'
                           ]
                         ],
                 index =  pd.Index(

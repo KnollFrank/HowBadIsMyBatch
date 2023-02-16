@@ -4,15 +4,34 @@ class HistogramDescriptionTableFactory:
 
     @staticmethod
     def createHistogramDescriptionTable(dictByBatchcodeTable):
-        histogramDescriptionTable = (
-            dictByBatchcodeTable
-                .groupby('VAX_LOT_EXPLODED')
-                .agg(HistogramDescriptionTableFactory._getHistograms)
-                .drop('nan'))
+        histogramDescriptionTable = HistogramDescriptionTableFactory._createHistogramDescriptionTable(dictByBatchcodeTable)
         histogramDescriptionTable = histogramDescriptionTable.rename(columns = { "SYMPTOM_COUNT_BY_VAX_LOT": "HISTOGRAM_DESCRIPTION" })
         histogramDescriptionTable.index.rename('VAX_LOT', inplace = True)
         return histogramDescriptionTable
     
+    @staticmethod
+    def _createHistogramDescriptionTable(dictByBatchcodeTable):
+        if 'COUNTRY' in dictByBatchcodeTable.columns:
+            return HistogramDescriptionTableFactory._createHistogramDescriptionTableForCountries(dictByBatchcodeTable)
+        else:
+            return HistogramDescriptionTableFactory._createGlobalHistogramDescriptionTable(dictByBatchcodeTable)
+
+    @staticmethod
+    def _createHistogramDescriptionTableForCountries(dictByBatchcodeTable):
+            return (dictByBatchcodeTable
+                        .groupby(['VAX_LOT_EXPLODED', 'COUNTRY'])
+                        .agg(HistogramDescriptionTableFactory._getHistograms)
+                        .reset_index(level = 'COUNTRY')
+                        .drop('nan'))
+
+    @staticmethod
+    def _createGlobalHistogramDescriptionTable(dictByBatchcodeTable):
+            return (dictByBatchcodeTable
+                        .groupby('VAX_LOT_EXPLODED')
+                        .agg(HistogramDescriptionTableFactory._getHistograms)
+                        .drop('nan'))
+
+
     @staticmethod
     def _getHistograms(dictByBatchcodeTable):
         dictByBatchcodeTable = dictByBatchcodeTable.to_frame()

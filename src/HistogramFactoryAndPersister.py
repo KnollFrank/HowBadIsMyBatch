@@ -13,18 +13,8 @@ def createAndSaveGlobalHistograms(symptomByBatchcodeTable):
 
 def createAndSaveHistogramsForCountries(symptomByBatchcodeTable, countries):
     dictByBatchcodeTable = createHistograms(symptomByBatchcodeTable)
-    for count, country in enumerate(countries, start = 1):
-        _createAndSaveHistogramsForCountry(
-            count = count,
-            numCountries = len(countries),
-            country = country,
-            dictByBatchcodeTable = dictByBatchcodeTable)
-
-
-def _createAndSaveHistogramsForCountry(count, numCountries, country, dictByBatchcodeTable):
-    # FK-TODO: use https://github.com/tqdm/tqdm
-    print(f'saving histograms for country {count}/{numCountries}: {country}')
-    dictByBatchcodeTable4Country = dictByBatchcodeTable[dictByBatchcodeTable['COUNTRY'] == country]
-    explodedTable = MultiIndexExploder.explodeMultiIndexOfTable(dictByBatchcodeTable4Country)
+    explodedTable = MultiIndexExploder.explodeMultiIndexOfTable(dictByBatchcodeTable)
     histogramDescriptionTable = HistogramDescriptionTableFactory.createHistogramDescriptionTable(explodedTable)
-    saveHistograms(histogramDescriptionTable, country)
+    for country, histogramDescriptionTableForCountry in histogramDescriptionTable.groupby('COUNTRY'):
+        print(country, ':')
+        saveHistograms(histogramDescriptionTableForCountry, country)
