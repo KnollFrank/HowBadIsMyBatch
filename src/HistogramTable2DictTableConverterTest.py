@@ -93,10 +93,10 @@ class HistogramTable2DictTableConverterTest(unittest.TestCase):
     def test_convertGlobalHistogramTable2DictTable(self):
         # Given
         globalHistogramTable = TestHelper.createDataFrame(
-                columns = ['SYMPTOM_COUNT_BY_VAX_LOT'],
-                data = [  [5],
-                          [1],
-                          [2]],
+                columns = ['SYMPTOM_COUNT_BY_VAX_LOT', 'COUNTRY'],
+                data = [  [5,                          'Global'],
+                          [1,                          'Global'],
+                          [2,                          'Global']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'SYMPTOM'],
                     tuples = [['1808982',  'Blood pressure orthostatic abnormal'],
@@ -104,23 +104,25 @@ class HistogramTable2DictTableConverterTest(unittest.TestCase):
                               ['EW0175',   'Chest discomfort']]))
                 
         # When
-        dictTable = HistogramTable2DictTableConverter.convertGlobalHistogramTable2DictTable(globalHistogramTable)
+        dictTable = HistogramTable2DictTableConverter.convertHistogramTable2DictTable(globalHistogramTable)
 
         # Then
         assert_frame_equal(
             dictTable,
             TestHelper.createDataFrame(
-                columns = ['SYMPTOM_COUNT_BY_VAX_LOT'],
+                columns = ['SYMPTOM_COUNT_BY_VAX_LOT',                     'COUNTRY'],
                 data = [  [
                             {
                                 "Blood pressure orthostatic abnormal": 5,
                                 "Chest discomfort": 1
-                            }
+                            },
+                                                                           'Global'
                           ],
                           [
                             {
                                 "Chest discomfort": 2
-                            }
+                            },
+                                                                           'Global'
                           ]],
                 index = pd.Index(
                     name =  'VAX_LOT1',

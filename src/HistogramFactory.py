@@ -2,12 +2,6 @@ from SymptomHistogramByBatchcodeTableFactory import SymptomHistogramByBatchcodeT
 from HistogramTable2DictTableConverter import HistogramTable2DictTableConverter
 
 
-def createGlobalHistograms(symptomByBatchcodeTable):
-    symptomHistogramByBatchcodeTable = SymptomHistogramByBatchcodeTableFactory.createGlobalSymptomHistogramByBatchcodeTable(symptomByBatchcodeTable)
-    dictByBatchcodeTable = HistogramTable2DictTableConverter.convertGlobalHistogramTable2DictTable(symptomHistogramByBatchcodeTable)
-    return dictByBatchcodeTable
-
-
 def createHistograms(symptomByBatchcodeTable):
     symptomHistogramByBatchcodeTable = SymptomHistogramByBatchcodeTableFactory.createSymptomHistogramByBatchcodeTable(symptomByBatchcodeTable)
     dictByBatchcodeTable = HistogramTable2DictTableConverter.convertHistogramTable2DictTable(symptomHistogramByBatchcodeTable)

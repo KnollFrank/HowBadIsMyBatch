@@ -67,24 +67,24 @@ class SymptomHistogramByBatchcodeTableFactoryTest(unittest.TestCase):
         # Given
         symptomByBatchcodeTable = TestHelper.createDataFrame(
                 columns = ['SYMPTOM',                             'COUNTRY'],
-                data = [  ['Blood pressure orthostatic abnormal', 'Germany'],
-                          ['Blood pressure orthostatic abnormal', 'Germany'],
-                          ['Blood pressure orthostatic abnormal', 'Russian Federation'],
-                          ['Headache',                            'Germany']],
+                data = [  ['Blood pressure orthostatic abnormal', 'Global'],
+                          ['Blood pressure orthostatic abnormal', 'Global'],
+                          ['Blood pressure orthostatic abnormal', 'Global'],
+                          ['Headache',                            'Global']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2'],
                     tuples = [['1808982',  'EW0175']] * 4))
                         
         # When
-        globalSymptomHistogramByBatchcodeTable = SymptomHistogramByBatchcodeTableFactory.createGlobalSymptomHistogramByBatchcodeTable(symptomByBatchcodeTable)
+        globalSymptomHistogramByBatchcodeTable = SymptomHistogramByBatchcodeTableFactory.createSymptomHistogramByBatchcodeTable(symptomByBatchcodeTable)
 
         # Then
         assert_frame_equal(
             globalSymptomHistogramByBatchcodeTable,
             TestHelper.createDataFrame(
-                columns = ['SYMPTOM_COUNT_BY_VAX_LOT'],
-                data = [  [3],
-                          [1]],
+                columns = ['SYMPTOM_COUNT_BY_VAX_LOT', 'COUNTRY'],
+                data = [  [3,                          'Global'],
+                          [1,                          'Global']],
                 index = pd.MultiIndex.from_tuples(
                     names =   ['VAX_LOT1', 'VAX_LOT2', 'SYMPTOM'],
                     tuples = [['1808982',  'EW0175',   'Blood pressure orthostatic abnormal'],
