@@ -1,1 +1,1 @@
-{"batchcode": "011J204", "histograms": [{"batchcodes": ["011J204"], "histogram": {"Headache": 2, "Abdominal discomfort": 1, "Abdominal pain upper": 1, "Body temperature increased": 1, "Chest discomfort": 1, "Chills": 1, "Dyspnoea": 1, "Fatigue": 1, "Pneumomediastinum": 1, "Pyrexia": 1}}]}
+{"batchcode": "011J204", "histograms": [{"histogram": {"Headache": 2, "Abdominal discomfort": 1, "Abdominal pain upper": 1, "Body temperature increased": 1, "Chest discomfort": 1, "Chills": 1, "Dyspnoea": 1, "Fatigue": 1, "Pneumomediastinum": 1, "Pyrexia": 1}, "batchcodes": ["011J204"]}]}

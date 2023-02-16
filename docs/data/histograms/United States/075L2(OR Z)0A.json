@@ -1,1 +1,1 @@
-{"batchcode": "075L2(OR Z)0A", "histograms": [{"batchcodes": ["075L2(OR Z)0A"], "histogram": {"Vaccination site erythema": 1, "Vaccination site pain": 1, "Vaccination site pruritus": 1, "Vaccination site swelling": 1, "Vaccination site warmth": 1}}]}
+{"batchcode": "075L2(OR Z)0A", "histograms": [{"histogram": {"Vaccination site erythema": 1, "Vaccination site pain": 1, "Vaccination site pruritus": 1, "Vaccination site swelling": 1, "Vaccination site warmth": 1}, "batchcodes": ["075L2(OR Z)0A"]}]}

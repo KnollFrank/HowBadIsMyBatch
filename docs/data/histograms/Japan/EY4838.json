@@ -1,1 +1,1 @@
-{"batchcode": "EY4838", "histograms": [{"batchcodes": ["EY4838"], "histogram": {"Body temperature": 1, "Deep vein thrombosis": 1, "Dyspnoea": 1, "Palpitations": 1, "Pulmonary embolism": 1}}]}
+{"batchcode": "EY4838", "histograms": [{"histogram": {"Body temperature": 1, "Deep vein thrombosis": 1, "Dyspnoea": 1, "Palpitations": 1, "Pulmonary embolism": 1}, "batchcodes": ["EY4838"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FD5006", "histograms": [{"batchcodes": ["FD5006"], "histogram": {"Conjunctivitis": 1, "Decreased appetite": 1, "Oropharyngeal pain": 1, "Rash": 1, "Septic shock": 1, "Skin lesion": 1}}]}
+{"batchcode": "FD5006", "histograms": [{"histogram": {"Conjunctivitis": 1, "Decreased appetite": 1, "Oropharyngeal pain": 1, "Rash": 1, "Septic shock": 1, "Skin lesion": 1}, "batchcodes": ["FD5006"]}]}

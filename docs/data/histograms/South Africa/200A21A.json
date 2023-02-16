@@ -1,1 +1,1 @@
-{"batchcode": "200A21A", "histograms": [{"batchcodes": ["200A21A"], "histogram": {"Breast tenderness": 1, "Chills": 1, "Fatigue": 1, "Feeling cold": 1, "Headache": 1, "Hyperhidrosis": 1, "Pain": 1, "Pyrexia": 1, "Tremor": 1}}]}
+{"batchcode": "200A21A", "histograms": [{"histogram": {"Breast tenderness": 1, "Chills": 1, "Fatigue": 1, "Feeling cold": 1, "Headache": 1, "Hyperhidrosis": 1, "Pain": 1, "Pyrexia": 1, "Tremor": 1}, "batchcodes": ["200A21A"]}]}

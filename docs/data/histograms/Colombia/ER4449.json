@@ -1,1 +1,1 @@
-{"batchcode": "ER4449", "histograms": [{"batchcodes": ["ER4449"], "histogram": {"Asthenia": 1, "C-reactive protein": 1, "Joint range of motion decreased": 1, "Myalgia": 1, "Paraesthesia": 1, "Polymyalgia rheumatica": 1, "Rheumatoid factor": 1, "Tendonitis": 1}}]}
+{"batchcode": "ER4449", "histograms": [{"histogram": {"Asthenia": 1, "C-reactive protein": 1, "Joint range of motion decreased": 1, "Myalgia": 1, "Paraesthesia": 1, "Polymyalgia rheumatica": 1, "Rheumatoid factor": 1, "Tendonitis": 1}, "batchcodes": ["ER4449"]}]}

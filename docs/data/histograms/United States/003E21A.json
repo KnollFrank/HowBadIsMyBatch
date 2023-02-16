@@ -1,1 +1,1 @@
-{"batchcode": "003E21A", "histograms": [{"batchcodes": ["003E21A"], "histogram": {"Dizziness": 1, "Dyspnoea": 1, "Hot flush": 1, "Mobility decreased": 1, "Peripheral swelling": 1, "Pyrexia": 1, "Skin discolouration": 1, "Thought blocking": 1, "Tremor": 1}}]}
+{"batchcode": "003E21A", "histograms": [{"histogram": {"Dizziness": 1, "Dyspnoea": 1, "Hot flush": 1, "Mobility decreased": 1, "Peripheral swelling": 1, "Pyrexia": 1, "Skin discolouration": 1, "Thought blocking": 1, "Tremor": 1}, "batchcodes": ["003E21A"]}]}

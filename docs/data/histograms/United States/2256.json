@@ -1,1 +1,1 @@
-{"batchcode": "2256", "histograms": [{"batchcodes": ["2256"], "histogram": {"Body temperature": 1, "Cellulitis": 1, "Erythema": 1, "Fatigue": 1, "Feeling hot": 1, "Hypoaesthesia": 1, "Illness": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Swelling": 1}}]}
+{"batchcode": "2256", "histograms": [{"histogram": {"Body temperature": 1, "Cellulitis": 1, "Erythema": 1, "Fatigue": 1, "Feeling hot": 1, "Hypoaesthesia": 1, "Illness": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Swelling": 1}, "batchcodes": ["2256"]}]}

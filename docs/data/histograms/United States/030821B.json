@@ -1,1 +1,1 @@
-{"batchcode": "030821B", "histograms": [{"batchcodes": ["030821B"], "histogram": {"Arthralgia": 1, "Back pain": 1, "Biopsy bone marrow": 1, "Blood test": 1, "Body temperature": 1, "Electrocardiogram": 1, "Heart rate": 1, "Magnetic resonance imaging heart": 1, "Rheumatic fever": 1}}]}
+{"batchcode": "030821B", "histograms": [{"histogram": {"Arthralgia": 1, "Back pain": 1, "Biopsy bone marrow": 1, "Blood test": 1, "Body temperature": 1, "Electrocardiogram": 1, "Heart rate": 1, "Magnetic resonance imaging heart": 1, "Rheumatic fever": 1}, "batchcodes": ["030821B"]}]}

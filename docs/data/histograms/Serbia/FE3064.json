@@ -1,1 +1,1 @@
-{"batchcode": "FE3064", "histograms": [{"batchcodes": ["FE3064"], "histogram": {"Balance disorder": 1, "Body temperature": 1, "Body temperature increased": 1, "Dizziness": 1, "Dyspnoea": 1, "Pruritus": 1, "Seizure": 1, "Urticaria": 1, "Vomiting": 1}}]}
+{"batchcode": "FE3064", "histograms": [{"histogram": {"Balance disorder": 1, "Body temperature": 1, "Body temperature increased": 1, "Dizziness": 1, "Dyspnoea": 1, "Pruritus": 1, "Seizure": 1, "Urticaria": 1, "Vomiting": 1}, "batchcodes": ["FE3064"]}]}

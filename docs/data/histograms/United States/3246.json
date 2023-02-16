@@ -1,1 +1,1 @@
-{"batchcode": "3246", "histograms": [{"batchcodes": ["3246"], "histogram": {"Headache": 2, "SARS-CoV-2 test": 2, "Antibody test negative": 1, "Chills": 1, "Nausea": 1, "Pain": 1, "SARS-CoV-2 antibody test": 1, "Urticaria": 1, "Vasculitic rash": 1}}]}
+{"batchcode": "3246", "histograms": [{"histogram": {"Headache": 2, "SARS-CoV-2 test": 2, "Antibody test negative": 1, "Chills": 1, "Nausea": 1, "Pain": 1, "SARS-CoV-2 antibody test": 1, "Urticaria": 1, "Vasculitic rash": 1}, "batchcodes": ["3246"]}]}

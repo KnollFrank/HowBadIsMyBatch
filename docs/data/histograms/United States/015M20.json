@@ -1,1 +1,1 @@
-{"batchcode": "015M20", "histograms": [{"batchcodes": ["015M20"], "histogram": {"Vaccination site pain": 2, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Muscle spasms": 1, "Pain": 1, "Pruritus": 1, "Vaccination site mass": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "015M20", "histograms": [{"histogram": {"Vaccination site pain": 2, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Muscle spasms": 1, "Pain": 1, "Pruritus": 1, "Vaccination site mass": 1, "Vaccination site swelling": 1}, "batchcodes": ["015M20"]}]}

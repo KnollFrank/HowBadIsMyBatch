@@ -1,1 +1,1 @@
-{"batchcode": "028L2OA", "histograms": [{"batchcodes": ["028L2OA"], "histogram": {"Fatigue": 1, "Headache": 1, "Influenza like illness": 1, "Pain in extremity": 1, "Pyrexia": 1, "Rash": 1, "Vaccination complication": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "028L2OA", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Influenza like illness": 1, "Pain in extremity": 1, "Pyrexia": 1, "Rash": 1, "Vaccination complication": 1, "Vaccination site pain": 1}, "batchcodes": ["028L2OA"]}]}

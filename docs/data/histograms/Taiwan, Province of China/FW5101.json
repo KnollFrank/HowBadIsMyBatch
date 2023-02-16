@@ -1,1 +1,1 @@
-{"batchcode": "FW5101", "histograms": [{"batchcodes": ["FW5101"], "histogram": {"Fall": 1, "Gait disturbance": 1, "Hemiparesis": 1, "Hypoaesthesia": 1, "Muscular weakness": 1, "Paralysis": 1}}]}
+{"batchcode": "FW5101", "histograms": [{"histogram": {"Fall": 1, "Gait disturbance": 1, "Hemiparesis": 1, "Hypoaesthesia": 1, "Muscular weakness": 1, "Paralysis": 1}, "batchcodes": ["FW5101"]}]}

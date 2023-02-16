@@ -1,1 +1,1 @@
-{"batchcode": "KDS996", "histograms": [{"batchcodes": ["KDS996"], "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Chills": 1, "Cough": 1, "Decreased appetite": 1, "Dyspnoea": 1, "Heart rate": 1, "Malaise": 1, "Myalgia": 1, "Pyrexia": 1, "Tachypnoea": 1}}]}
+{"batchcode": "KDS996", "histograms": [{"histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Chills": 1, "Cough": 1, "Decreased appetite": 1, "Dyspnoea": 1, "Heart rate": 1, "Malaise": 1, "Myalgia": 1, "Pyrexia": 1, "Tachypnoea": 1}, "batchcodes": ["KDS996"]}]}

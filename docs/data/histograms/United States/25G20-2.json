@@ -1,1 +1,1 @@
-{"batchcode": "25G20-2", "histograms": [{"batchcodes": ["25G20-2"], "histogram": {"Exposure during pregnancy": 1, "Pregnancy test": 1, "Ultrasound foetal": 1}}]}
+{"batchcode": "25G20-2", "histograms": [{"histogram": {"Exposure during pregnancy": 1, "Pregnancy test": 1, "Ultrasound foetal": 1}, "batchcodes": ["25G20-2"]}]}

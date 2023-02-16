@@ -1,1 +1,1 @@
-{"batchcode": "IF1025A", "histograms": [{"batchcodes": ["IF1025A"], "histogram": {"Blood pressure measurement": 15, "Blood pressure increased": 14, "Asthenia": 1, "Dizziness": 1, "Headache": 1, "Hypertension": 1, "Hyperventilation": 1, "Hypoaesthesia": 1, "Syncope": 1}}]}
+{"batchcode": "IF1025A", "histograms": [{"histogram": {"Blood pressure measurement": 15, "Blood pressure increased": 14, "Asthenia": 1, "Dizziness": 1, "Headache": 1, "Hypertension": 1, "Hyperventilation": 1, "Hypoaesthesia": 1, "Syncope": 1}, "batchcodes": ["IF1025A"]}]}

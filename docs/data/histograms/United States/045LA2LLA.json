@@ -1,1 +1,1 @@
-{"batchcode": "045LA2LLA", "histograms": [{"batchcodes": ["045LA2LLA"], "histogram": {"Breast discharge": 1, "Breast mass": 1, "Breast swelling": 1, "Pain in extremity": 1, "Skin irritation": 1}}]}
+{"batchcode": "045LA2LLA", "histograms": [{"histogram": {"Breast discharge": 1, "Breast mass": 1, "Breast swelling": 1, "Pain in extremity": 1, "Skin irritation": 1}, "batchcodes": ["045LA2LLA"]}]}

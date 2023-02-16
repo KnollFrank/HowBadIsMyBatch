@@ -1,1 +1,1 @@
-{"batchcode": "FK8892", "histograms": [{"batchcodes": ["FK8892"], "histogram": {"Blood cholesterol": 1, "Blood pressure measurement": 1, "Hypokinesia": 1, "Investigation": 1, "Lethargy": 1, "Polymerase chain reaction": 1, "Pyrexia": 1, "Sleep disorder": 1}}]}
+{"batchcode": "FK8892", "histograms": [{"histogram": {"Blood cholesterol": 1, "Blood pressure measurement": 1, "Hypokinesia": 1, "Investigation": 1, "Lethargy": 1, "Polymerase chain reaction": 1, "Pyrexia": 1, "Sleep disorder": 1}, "batchcodes": ["FK8892"]}]}

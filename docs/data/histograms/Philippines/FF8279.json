@@ -1,1 +1,1 @@
-{"batchcode": "FF8279", "histograms": [{"batchcodes": ["FF8279"], "histogram": {"Syncope": 2, "Abdominal distension": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Headache": 1, "Myalgia": 1, "Pyrexia": 1, "Vaccination site pain": 1, "Vomiting": 1}}]}
+{"batchcode": "FF8279", "histograms": [{"histogram": {"Syncope": 2, "Abdominal distension": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Headache": 1, "Myalgia": 1, "Pyrexia": 1, "Vaccination site pain": 1, "Vomiting": 1}, "batchcodes": ["FF8279"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "ER6166", "histograms": [{"batchcodes": ["ER6166"], "histogram": {"Body temperature": 1, "Dyspnoea": 1, "Headache": 1, "Hypoaesthesia": 1, "Joint range of motion decreased": 1, "Pain in extremity": 1, "Pyrexia": 1}}]}
+{"batchcode": "ER6166", "histograms": [{"histogram": {"Body temperature": 1, "Dyspnoea": 1, "Headache": 1, "Hypoaesthesia": 1, "Joint range of motion decreased": 1, "Pain in extremity": 1, "Pyrexia": 1}, "batchcodes": ["ER6166"]}]}

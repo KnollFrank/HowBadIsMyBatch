@@ -1,1 +1,1 @@
-{"batchcode": "FF4222", "histograms": [{"batchcodes": ["FF4222"], "histogram": {"Breast swelling": 1, "Dysmenorrhoea": 1, "Insomnia": 1, "Menstrual disorder": 1, "Polymyalgia rheumatica": 1}}]}
+{"batchcode": "FF4222", "histograms": [{"histogram": {"Breast swelling": 1, "Dysmenorrhoea": 1, "Insomnia": 1, "Menstrual disorder": 1, "Polymyalgia rheumatica": 1}, "batchcodes": ["FF4222"]}]}

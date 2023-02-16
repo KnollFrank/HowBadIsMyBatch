@@ -1,1 +1,1 @@
-{"batchcode": "3000496 / 30015", "histograms": [{"batchcodes": ["3000496 / 30015"], "histogram": {"C-reactive protein": 1, "Pain in extremity": 1, "Red blood cell sedimentation rate": 1, "Rheumatoid factor": 1, "White blood cell count": 1}}]}
+{"batchcode": "3000496 / 30015", "histograms": [{"histogram": {"C-reactive protein": 1, "Pain in extremity": 1, "Red blood cell sedimentation rate": 1, "Rheumatoid factor": 1, "White blood cell count": 1}, "batchcodes": ["3000496 / 30015"]}]}

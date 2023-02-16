@@ -1,1 +1,1 @@
-{"batchcode": "RA7478", "histograms": [{"batchcodes": ["RA7478"], "histogram": {"Dizziness": 2, "Headache": 2, "Tachycardia": 2, "Chest pain": 1, "Nausea": 1, "Pain": 1, "Palpitations": 1, "Photopsia": 1, "Sensitive skin": 1}}]}
+{"batchcode": "RA7478", "histograms": [{"histogram": {"Dizziness": 2, "Headache": 2, "Tachycardia": 2, "Chest pain": 1, "Nausea": 1, "Pain": 1, "Palpitations": 1, "Photopsia": 1, "Sensitive skin": 1}, "batchcodes": ["RA7478"]}]}

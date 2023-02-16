@@ -1,1 +1,1 @@
-{"batchcode": "023D", "histograms": [{"batchcodes": ["023D"], "histogram": {"Arthralgia": 1, "Dyspnoea": 1, "Fatigue": 1, "Feeling abnormal": 1, "Headache": 1, "Hypoaesthesia": 1, "Nausea": 1, "Palpitations": 1, "Pyrexia": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "023D", "histograms": [{"histogram": {"Arthralgia": 1, "Dyspnoea": 1, "Fatigue": 1, "Feeling abnormal": 1, "Headache": 1, "Hypoaesthesia": 1, "Nausea": 1, "Palpitations": 1, "Pyrexia": 1, "Vaccination site pain": 1}, "batchcodes": ["023D"]}]}

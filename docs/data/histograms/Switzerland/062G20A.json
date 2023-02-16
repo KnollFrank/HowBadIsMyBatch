@@ -1,1 +1,1 @@
-{"batchcode": "062G20A", "histograms": [{"batchcodes": ["062G20A"], "histogram": {"Blood pressure measurement": 1, "Body temperature": 1, "Deep vein thrombosis": 1, "Heart rate": 1, "Oxygen saturation": 1, "Respiratory rate": 1}}]}
+{"batchcode": "062G20A", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Body temperature": 1, "Deep vein thrombosis": 1, "Heart rate": 1, "Oxygen saturation": 1, "Respiratory rate": 1}, "batchcodes": ["062G20A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "ER3674", "histograms": [{"batchcodes": ["ER3674"], "histogram": {"Amnesia": 1, "Asthma": 1, "Body temperature": 1, "Delirium": 1, "Dyspnoea": 1, "Insomnia": 1, "Wheezing": 1}}]}
+{"batchcode": "ER3674", "histograms": [{"histogram": {"Amnesia": 1, "Asthma": 1, "Body temperature": 1, "Delirium": 1, "Dyspnoea": 1, "Insomnia": 1, "Wheezing": 1}, "batchcodes": ["ER3674"]}]}

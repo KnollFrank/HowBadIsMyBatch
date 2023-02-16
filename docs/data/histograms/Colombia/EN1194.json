@@ -1,1 +1,1 @@
-{"batchcode": "EN1194", "histograms": [{"batchcodes": ["EN1194"], "histogram": {"Asthenia": 1, "COVID-19": 1, "Chills": 1, "Cough": 1, "Discomfort": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Hypertension": 1, "Malaise": 1, "Rash": 1, "Vertigo": 1}}]}
+{"batchcode": "EN1194", "histograms": [{"histogram": {"Asthenia": 1, "COVID-19": 1, "Chills": 1, "Cough": 1, "Discomfort": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Hypertension": 1, "Malaise": 1, "Rash": 1, "Vertigo": 1}, "batchcodes": ["EN1194"]}]}

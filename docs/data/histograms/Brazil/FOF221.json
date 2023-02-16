@@ -1,1 +1,1 @@
-{"batchcode": "FOF221", "histograms": [{"batchcodes": ["FOF221"], "histogram": {"Angiogram": 1, "Diplopia": 1, "Extraocular muscle disorder": 1, "Headache": 1, "Investigation": 1, "Magnetic resonance imaging": 1, "Myopia": 1, "Ophthalmological examination": 1, "Vision blurred": 1}}]}
+{"batchcode": "FOF221", "histograms": [{"histogram": {"Angiogram": 1, "Diplopia": 1, "Extraocular muscle disorder": 1, "Headache": 1, "Investigation": 1, "Magnetic resonance imaging": 1, "Myopia": 1, "Ophthalmological examination": 1, "Vision blurred": 1}, "batchcodes": ["FOF221"]}]}

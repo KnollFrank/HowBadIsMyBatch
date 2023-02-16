@@ -1,1 +1,1 @@
-{"batchcode": "12M20A", "histograms": [{"batchcodes": ["12M20A"], "histogram": {"Chills": 1, "Groin pain": 1, "Lymphadenopathy": 1, "Musculoskeletal discomfort": 1, "Pruritus": 1, "Pyrexia": 1, "Rash": 1, "Sinusitis": 1, "Vaccination site pain": 1, "X-ray": 1}}]}
+{"batchcode": "12M20A", "histograms": [{"histogram": {"Chills": 1, "Groin pain": 1, "Lymphadenopathy": 1, "Musculoskeletal discomfort": 1, "Pruritus": 1, "Pyrexia": 1, "Rash": 1, "Sinusitis": 1, "Vaccination site pain": 1, "X-ray": 1}, "batchcodes": ["12M20A"]}]}

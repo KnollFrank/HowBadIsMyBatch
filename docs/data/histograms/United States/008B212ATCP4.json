@@ -1,1 +1,1 @@
-{"batchcode": "008B212ATCP4", "histograms": [{"batchcodes": ["008B212ATCP4"], "histogram": {"Erythema": 1, "Pyrexia": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "008B212ATCP4", "histograms": [{"histogram": {"Erythema": 1, "Pyrexia": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}, "batchcodes": ["008B212ATCP4"]}]}

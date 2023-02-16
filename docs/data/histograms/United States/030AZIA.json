@@ -1,1 +1,1 @@
-{"batchcode": "030AZIA", "histograms": [{"batchcodes": ["030AZIA"], "histogram": {"Chills": 2, "Pyrexia": 2, "Body temperature": 1, "Fatigue": 1, "Rash": 1, "SARS-CoV-2 antibody test": 1, "Skin discolouration": 1, "Vaccination site erythema": 1, "Vaccination site pruritus": 1}}]}
+{"batchcode": "030AZIA", "histograms": [{"histogram": {"Chills": 2, "Pyrexia": 2, "Body temperature": 1, "Fatigue": 1, "Rash": 1, "SARS-CoV-2 antibody test": 1, "Skin discolouration": 1, "Vaccination site erythema": 1, "Vaccination site pruritus": 1}, "batchcodes": ["030AZIA"]}]}

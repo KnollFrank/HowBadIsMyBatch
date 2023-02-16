@@ -1,1 +1,1 @@
-{"batchcode": "EW-0193", "histograms": [{"batchcodes": ["EW-0193"], "histogram": {"Asthenia": 1, "Body temperature": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Pyrexia": 1, "Respiratory distress": 1}}]}
+{"batchcode": "EW-0193", "histograms": [{"histogram": {"Asthenia": 1, "Body temperature": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Pyrexia": 1, "Respiratory distress": 1}, "batchcodes": ["EW-0193"]}]}

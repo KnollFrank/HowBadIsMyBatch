@@ -1,1 +1,1 @@
-{"batchcode": "061C21A", "histograms": [{"batchcodes": ["061C21A"], "histogram": {"Chest pain": 1, "Dyspnoea": 1, "Haemoptysis": 1, "Muscle strain": 1, "Oxygen saturation": 1, "Pulmonary thrombosis": 1, "Suspected COVID-19": 1}}]}
+{"batchcode": "061C21A", "histograms": [{"histogram": {"Chest pain": 1, "Dyspnoea": 1, "Haemoptysis": 1, "Muscle strain": 1, "Oxygen saturation": 1, "Pulmonary thrombosis": 1, "Suspected COVID-19": 1}, "batchcodes": ["061C21A"]}]}

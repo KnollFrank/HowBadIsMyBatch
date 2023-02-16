@@ -1,1 +1,1 @@
-{"batchcode": "NOT AVAILABLE", "histograms": [{"batchcodes": ["NOT AVAILABLE"], "histogram": {"Drug ineffective": 2, "COVID-19": 1, "COVID-19 pneumonia": 1, "Dysarthria": 1, "Fall": 1, "Somnolence": 1}}]}
+{"batchcode": "NOT AVAILABLE", "histograms": [{"histogram": {"Drug ineffective": 2, "COVID-19": 1, "COVID-19 pneumonia": 1, "Dysarthria": 1, "Fall": 1, "Somnolence": 1}, "batchcodes": ["NOT AVAILABLE"]}]}

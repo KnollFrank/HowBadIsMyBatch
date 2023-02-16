@@ -1,1 +1,1 @@
-{"batchcode": "ASKU", "histograms": [{"batchcodes": ["ASKU"], "histogram": {"Arrhythmia": 1, "Chills": 1, "Decreased appetite": 1, "Depression": 1, "Pain": 1, "Pain in extremity": 1, "Poor quality sleep": 1, "Psoriasis": 1, "Pyrexia": 1}}]}
+{"batchcode": "ASKU", "histograms": [{"histogram": {"Arrhythmia": 1, "Chills": 1, "Decreased appetite": 1, "Depression": 1, "Pain": 1, "Pain in extremity": 1, "Poor quality sleep": 1, "Psoriasis": 1, "Pyrexia": 1}, "batchcodes": ["ASKU"]}]}

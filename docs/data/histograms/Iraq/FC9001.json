@@ -1,1 +1,1 @@
-{"batchcode": "FC9001", "histograms": [{"batchcodes": ["FC9001"], "histogram": {"Syncope": 2, "Vaccination site pain": 2, "Anaphylactic reaction": 1, "Asphyxia": 1, "Fatigue": 1, "Palpitations": 1}}]}
+{"batchcode": "FC9001", "histograms": [{"histogram": {"Syncope": 2, "Vaccination site pain": 2, "Anaphylactic reaction": 1, "Asphyxia": 1, "Fatigue": 1, "Palpitations": 1}, "batchcodes": ["FC9001"]}]}

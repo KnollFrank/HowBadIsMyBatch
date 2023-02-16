@@ -1,1 +1,1 @@
-{"batchcode": "IP1025A", "histograms": [{"batchcodes": ["IP1025A"], "histogram": {"Hypersensitivity": 1, "Musculoskeletal stiffness": 1, "Palpitations": 1}}]}
+{"batchcode": "IP1025A", "histograms": [{"histogram": {"Hypersensitivity": 1, "Musculoskeletal stiffness": 1, "Palpitations": 1}, "batchcodes": ["IP1025A"]}]}

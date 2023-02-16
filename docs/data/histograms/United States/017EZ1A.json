@@ -1,1 +1,1 @@
-{"batchcode": "017EZ1A", "histograms": [{"batchcodes": ["017EZ1A"], "histogram": {"Body temperature": 1, "Dyspnoea": 1, "Pyrexia": 1, "Tachycardia": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "017EZ1A", "histograms": [{"histogram": {"Body temperature": 1, "Dyspnoea": 1, "Pyrexia": 1, "Tachycardia": 1, "Vaccination site pain": 1}, "batchcodes": ["017EZ1A"]}]}

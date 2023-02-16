@@ -1,1 +1,1 @@
-{"batchcode": "025LZ0A", "histograms": [{"batchcodes": ["025LZ0A"], "histogram": {"Atrial fibrillation": 1, "Blood glucose increased": 1, "Condition aggravated": 1, "Feeling abnormal": 1, "Heart rate increased": 1}}]}
+{"batchcode": "025LZ0A", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Blood glucose increased": 1, "Condition aggravated": 1, "Feeling abnormal": 1, "Heart rate increased": 1}, "batchcodes": ["025LZ0A"]}]}
