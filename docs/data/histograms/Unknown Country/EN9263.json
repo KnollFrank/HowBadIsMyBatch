@@ -1,1 +1,1 @@
-{"batchcode": "EN9263", "histograms": [{"batchcodes": ["EN9263"], "histogram": {"Condition aggravated": 1, "Death": 1, "Dyspnoea": 1, "Dyspnoea exertional": 1, "Groin pain": 1, "Orthopnoea": 1, "Pollakiuria": 1, "Renal impairment": 1, "Urinary tract infection": 1}}]}
+{"batchcode": "EN9263", "histograms": [{"histogram": {"Condition aggravated": 1, "Death": 1, "Dyspnoea": 1, "Dyspnoea exertional": 1, "Groin pain": 1, "Orthopnoea": 1, "Pollakiuria": 1, "Renal impairment": 1, "Urinary tract infection": 1}, "batchcodes": ["EN9263"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "SCWF", "histograms": [{"batchcodes": ["SCWF"], "histogram": {"Arrhythmia": 1, "Dehydration": 1, "Ear pain": 1, "Fatigue": 1, "Headache": 1, "Palpitations": 1, "Tachycardia": 1}}]}
+{"batchcode": "SCWF", "histograms": [{"histogram": {"Arrhythmia": 1, "Dehydration": 1, "Ear pain": 1, "Fatigue": 1, "Headache": 1, "Palpitations": 1, "Tachycardia": 1}, "batchcodes": ["SCWF"]}]}

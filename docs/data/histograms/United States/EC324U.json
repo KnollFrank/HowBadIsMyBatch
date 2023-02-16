@@ -1,1 +1,1 @@
-{"batchcode": "EC324U", "histograms": [{"batchcodes": ["EC324U"], "histogram": {"Vaccination site pain": 2, "Chills": 1, "Headache": 1, "Insomnia": 1, "Nausea": 1, "Vaccination site movement impairment": 1}}]}
+{"batchcode": "EC324U", "histograms": [{"histogram": {"Vaccination site pain": 2, "Chills": 1, "Headache": 1, "Insomnia": 1, "Nausea": 1, "Vaccination site movement impairment": 1}, "batchcodes": ["EC324U"]}]}

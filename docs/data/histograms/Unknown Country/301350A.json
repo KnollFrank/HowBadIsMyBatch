@@ -1,1 +1,1 @@
-{"batchcode": "301350A", "histograms": [{"batchcodes": ["301350A", "EL9261", "EL9269"], "histogram": {"Cerebrovascular accident": 1, "Computerised tomogram": 1, "Ischaemia": 1, "Magnetic resonance imaging head": 1, "Scan with contrast": 1}}]}
+{"batchcode": "301350A", "histograms": [{"histogram": {"Cerebrovascular accident": 1, "Computerised tomogram": 1, "Ischaemia": 1, "Magnetic resonance imaging head": 1, "Scan with contrast": 1}, "batchcodes": ["301350A", "EL9261", "EL9269"]}]}

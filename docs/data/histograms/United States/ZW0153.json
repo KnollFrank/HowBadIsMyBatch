@@ -1,1 +1,1 @@
-{"batchcode": "ZW0153", "histograms": [{"batchcodes": ["ZW0153"], "histogram": {"Blood iron": 1, "Haematocrit": 1, "Haematocrit abnormal": 1, "Haemoglobin": 1, "Haemoglobin decreased": 1, "Transferrin saturation": 1, "Transferrin saturation decreased": 1}}]}
+{"batchcode": "ZW0153", "histograms": [{"histogram": {"Blood iron": 1, "Haematocrit": 1, "Haematocrit abnormal": 1, "Haemoglobin": 1, "Haemoglobin decreased": 1, "Transferrin saturation": 1, "Transferrin saturation decreased": 1}, "batchcodes": ["ZW0153"]}]}

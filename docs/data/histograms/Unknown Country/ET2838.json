@@ -1,1 +1,1 @@
-{"batchcode": "ET2838", "histograms": [{"batchcodes": ["ET2838"], "histogram": {"Apnoea": 1, "Breath sounds abnormal": 1, "Bronchitis": 1, "Cough": 1, "Dyspnoea": 1, "Off label use": 1, "Product use issue": 1, "Seizure": 1, "Vaccination complication": 1, "Wheezing": 1}}]}
+{"batchcode": "ET2838", "histograms": [{"histogram": {"Apnoea": 1, "Breath sounds abnormal": 1, "Bronchitis": 1, "Cough": 1, "Dyspnoea": 1, "Off label use": 1, "Product use issue": 1, "Seizure": 1, "Vaccination complication": 1, "Wheezing": 1}, "batchcodes": ["ET2838"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "O17EZ1A", "histograms": [{"batchcodes": ["O17EZ1A"], "histogram": {"Bed rest": 1, "Chest pain": 1, "Chills": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Pyrexia": 1, "Syncope": 1, "Tachycardia": 1}}]}
+{"batchcode": "O17EZ1A", "histograms": [{"histogram": {"Bed rest": 1, "Chest pain": 1, "Chills": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Pyrexia": 1, "Syncope": 1, "Tachycardia": 1}, "batchcodes": ["O17EZ1A"]}]}

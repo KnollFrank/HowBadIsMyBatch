@@ -1,1 +1,1 @@
-{"batchcode": "FC90011", "histograms": [{"batchcodes": ["FC90011"], "histogram": {"Chest pain": 1, "Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1, "Pyrexia": 1}}]}
+{"batchcode": "FC90011", "histograms": [{"histogram": {"Chest pain": 1, "Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1, "Pyrexia": 1}, "batchcodes": ["FC90011"]}]}

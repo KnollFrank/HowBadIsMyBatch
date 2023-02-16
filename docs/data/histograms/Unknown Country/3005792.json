@@ -1,1 +1,1 @@
-{"batchcode": "3005792", "histograms": [{"batchcodes": ["3001654", "3002615", "3005792"], "histogram": {"Pruritus": 1, "Swelling": 1, "Urticaria": 1}}, {"batchcodes": ["3005792"], "histogram": {"Blood test normal": 1, "Pruritus": 1, "Rash": 1, "Rash pruritic": 1}}]}
+{"batchcode": "3005792", "histograms": [{"histogram": {"Pruritus": 1, "Swelling": 1, "Urticaria": 1}, "batchcodes": ["3001654", "3002615", "3005792"]}, {"histogram": {"Blood test normal": 1, "Pruritus": 1, "Rash": 1, "Rash pruritic": 1}, "batchcodes": ["3005792"]}]}

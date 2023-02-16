@@ -1,1 +1,1 @@
-{"batchcode": "REFUSED", "histograms": [{"batchcodes": ["REFUSED"], "histogram": {"Dizziness": 1, "Headache": 1, "Myalgia": 1, "Pain": 1}}]}
+{"batchcode": "REFUSED", "histograms": [{"histogram": {"Dizziness": 1, "Headache": 1, "Myalgia": 1, "Pain": 1}, "batchcodes": ["REFUSED"]}]}

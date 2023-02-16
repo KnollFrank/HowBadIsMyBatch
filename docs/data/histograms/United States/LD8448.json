@@ -1,1 +1,1 @@
-{"batchcode": "LD8448", "histograms": [{"batchcodes": ["LD8448"], "histogram": {"Body temperature": 1, "Feeling hot": 1, "Headache": 1, "Illness": 1, "Laboratory test": 1, "Nausea": 1, "Pyrexia": 1}}]}
+{"batchcode": "LD8448", "histograms": [{"histogram": {"Body temperature": 1, "Feeling hot": 1, "Headache": 1, "Illness": 1, "Laboratory test": 1, "Nausea": 1, "Pyrexia": 1}, "batchcodes": ["LD8448"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "3005685", "histograms": [{"batchcodes": ["3005685"], "histogram": {"SARS-CoV-2 test": 3, "Asthenia": 1, "Confusional state": 1, "Headache": 1, "Mental fatigue": 1, "Myalgia": 1, "Nasal congestion": 1, "Rhinorrhoea": 1, "Vaginal haemorrhage": 1, "Vision blurred": 1}}]}
+{"batchcode": "3005685", "histograms": [{"histogram": {"SARS-CoV-2 test": 3, "Asthenia": 1, "Confusional state": 1, "Headache": 1, "Mental fatigue": 1, "Myalgia": 1, "Nasal congestion": 1, "Rhinorrhoea": 1, "Vaginal haemorrhage": 1, "Vision blurred": 1}, "batchcodes": ["3005685"]}]}

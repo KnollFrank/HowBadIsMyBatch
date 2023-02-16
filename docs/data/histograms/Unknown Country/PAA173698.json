@@ -1,1 +1,1 @@
-{"batchcode": "PAA173698", "histograms": [{"batchcodes": ["001A21A", "029L20A", "FM9992", "PAA173698"], "histogram": {"COVID-19": 1, "Cough": 1, "Dyspnoea": 1, "Palpitations": 1, "Pyrexia": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "PAA173698", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Dyspnoea": 1, "Palpitations": 1, "Pyrexia": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["001A21A", "029L20A", "FM9992", "PAA173698"]}]}

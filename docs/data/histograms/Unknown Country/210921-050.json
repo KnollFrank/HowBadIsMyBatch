@@ -1,1 +1,1 @@
-{"batchcode": "210921-050", "histograms": [{"batchcodes": ["210921-050"], "histogram": {"Acute myocardial infarction": 1, "COVID-19": 1, "Cardiac disorder": 1, "Chronic respiratory failure": 1, "Death": 1, "Infection": 1, "Respiratory disorder": 1}}]}
+{"batchcode": "210921-050", "histograms": [{"histogram": {"Acute myocardial infarction": 1, "COVID-19": 1, "Cardiac disorder": 1, "Chronic respiratory failure": 1, "Death": 1, "Infection": 1, "Respiratory disorder": 1}, "batchcodes": ["210921-050"]}]}

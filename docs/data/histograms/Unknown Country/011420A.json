@@ -1,1 +1,1 @@
-{"batchcode": "011420A", "histograms": [{"batchcodes": ["011420A"], "histogram": {"Asthenia": 1, "Axillary pain": 1, "Feeling cold": 1, "Injection site rash": 1, "Injection site swelling": 1, "Lymph node pain": 1, "Myalgia": 1, "Tremor": 1, "Urticaria": 1, "Vomiting": 1}}]}
+{"batchcode": "011420A", "histograms": [{"histogram": {"Asthenia": 1, "Axillary pain": 1, "Feeling cold": 1, "Injection site rash": 1, "Injection site swelling": 1, "Lymph node pain": 1, "Myalgia": 1, "Tremor": 1, "Urticaria": 1, "Vomiting": 1}, "batchcodes": ["011420A"]}]}

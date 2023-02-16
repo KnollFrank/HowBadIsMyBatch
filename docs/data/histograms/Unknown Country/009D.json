@@ -1,1 +1,1 @@
-{"batchcode": "009D", "histograms": [{"batchcodes": ["009D", "054C21A"], "histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}}, {"batchcodes": ["009D"], "histogram": {"Asthenia": 1, "Audiogram normal": 1, "Fatigue": 1, "Nausea": 1, "Syncope": 1, "Tinnitus": 1, "Vomiting": 1}}]}
+{"batchcode": "009D", "histograms": [{"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["009D", "054C21A"]}, {"histogram": {"Asthenia": 1, "Audiogram normal": 1, "Fatigue": 1, "Nausea": 1, "Syncope": 1, "Tinnitus": 1, "Vomiting": 1}, "batchcodes": ["009D"]}]}

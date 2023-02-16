@@ -1,1 +1,1 @@
-{"batchcode": "PCB 0001", "histograms": [{"batchcodes": ["PCB 0001"], "histogram": {"Ageusia": 1, "Anosmia": 1, "Chills": 1, "Cough": 1, "Diarrhoea": 1, "Formication": 1, "Head discomfort": 1, "Headache": 1, "Hyperhidrosis": 1, "Immunisation": 1, "Pyrexia": 1}}]}
+{"batchcode": "PCB 0001", "histograms": [{"histogram": {"Ageusia": 1, "Anosmia": 1, "Chills": 1, "Cough": 1, "Diarrhoea": 1, "Formication": 1, "Head discomfort": 1, "Headache": 1, "Hyperhidrosis": 1, "Immunisation": 1, "Pyrexia": 1}, "batchcodes": ["PCB 0001"]}]}

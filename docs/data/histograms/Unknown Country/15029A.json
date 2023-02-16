@@ -1,1 +1,1 @@
-{"batchcode": "15029A", "histograms": [{"batchcodes": ["15029A"], "histogram": {"Coma": 1, "Influenza like illness": 1, "Lung perforation": 1, "Periarthritis": 1, "Pulmonary embolism": 1, "Pyrexia": 1, "Renal failure": 1, "Walking disability": 1}}]}
+{"batchcode": "15029A", "histograms": [{"histogram": {"Coma": 1, "Influenza like illness": 1, "Lung perforation": 1, "Periarthritis": 1, "Pulmonary embolism": 1, "Pyrexia": 1, "Renal failure": 1, "Walking disability": 1}, "batchcodes": ["15029A"]}]}

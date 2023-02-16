@@ -1,1 +1,1 @@
-{"batchcode": "038CZ21A", "histograms": [{"batchcodes": ["024C21A", "038CZ21A"], "histogram": {"Cough": 1, "Diarrhoea": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Oropharyngeal pain": 1, "Pain": 1}}]}
+{"batchcode": "038CZ21A", "histograms": [{"histogram": {"Cough": 1, "Diarrhoea": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Oropharyngeal pain": 1, "Pain": 1}, "batchcodes": ["024C21A", "038CZ21A"]}]}

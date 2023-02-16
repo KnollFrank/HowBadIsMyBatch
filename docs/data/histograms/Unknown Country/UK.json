@@ -1,1 +1,1 @@
-{"batchcode": "UK", "histograms": [{"batchcodes": ["UK"], "histogram": {"Death": 1, "Deep vein thrombosis": 1, "Mobility decreased": 1, "Ultrasound Doppler": 1}}]}
+{"batchcode": "UK", "histograms": [{"histogram": {"Death": 1, "Deep vein thrombosis": 1, "Mobility decreased": 1, "Ultrasound Doppler": 1}, "batchcodes": ["UK"]}]}

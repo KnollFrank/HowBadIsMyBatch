@@ -1,1 +1,1 @@
-{"batchcode": "BNER1749", "histograms": [{"batchcodes": ["BNER1749"], "histogram": {"Audiogram": 1, "Dizziness": 1, "Headache": 1, "Panic reaction": 1, "Tinnitus": 1, "Urinary tract infection": 1, "Vertigo": 1}}]}
+{"batchcode": "BNER1749", "histograms": [{"histogram": {"Audiogram": 1, "Dizziness": 1, "Headache": 1, "Panic reaction": 1, "Tinnitus": 1, "Urinary tract infection": 1, "Vertigo": 1}, "batchcodes": ["BNER1749"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "PZIFER", "histograms": [{"batchcodes": ["PZIFER"], "histogram": {"Dehydration": 1, "Delirium": 1, "Haematemesis": 1}}]}
+{"batchcode": "PZIFER", "histograms": [{"histogram": {"Dehydration": 1, "Delirium": 1, "Haematemesis": 1}, "batchcodes": ["PZIFER"]}]}

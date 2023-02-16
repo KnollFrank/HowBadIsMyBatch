@@ -1,1 +1,1 @@
-{"batchcode": "FE8163", "histograms": [{"batchcodes": ["FE8163"], "histogram": {"Haemoglobin": 1, "Myelodysplastic syndrome": 1, "Phlebitis": 1, "Platelet count": 1, "Pulmonary embolism": 1, "White blood cell count": 1}}]}
+{"batchcode": "FE8163", "histograms": [{"histogram": {"Haemoglobin": 1, "Myelodysplastic syndrome": 1, "Phlebitis": 1, "Platelet count": 1, "Pulmonary embolism": 1, "White blood cell count": 1}, "batchcodes": ["FE8163"]}]}

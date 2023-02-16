@@ -1,1 +1,1 @@
-{"batchcode": "DOESNT HAVE @ T", "histograms": [{"batchcodes": ["DOESNT HAVE @ T"], "histogram": {"Blood pressure increased": 1, "Dizziness": 1}}]}
+{"batchcode": "DOESNT HAVE @ T", "histograms": [{"histogram": {"Blood pressure increased": 1, "Dizziness": 1}, "batchcodes": ["DOESNT HAVE @ T"]}]}

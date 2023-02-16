@@ -1,1 +1,1 @@
-{"batchcode": "FE0809", "histograms": [{"batchcodes": ["FE0809"], "histogram": {"COVID-19": 1, "Chest pain": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Exposure to SARS-CoV-2": 1, "Extrasystoles": 1, "Immunodeficiency": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "FE0809", "histograms": [{"histogram": {"COVID-19": 1, "Chest pain": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Exposure to SARS-CoV-2": 1, "Extrasystoles": 1, "Immunodeficiency": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["FE0809"]}]}

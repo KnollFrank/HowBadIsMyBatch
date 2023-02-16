@@ -1,1 +1,1 @@
-{"batchcode": "056A22H", "histograms": [{"batchcodes": ["056A22H"], "histogram": {"COVID-19": 1, "Erythema": 1, "Generalised oedema": 1, "Hypersensitivity": 1, "Nasopharyngitis": 1, "Pain": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}}]}
+{"batchcode": "056A22H", "histograms": [{"histogram": {"COVID-19": 1, "Erythema": 1, "Generalised oedema": 1, "Hypersensitivity": 1, "Nasopharyngitis": 1, "Pain": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}, "batchcodes": ["056A22H"]}]}

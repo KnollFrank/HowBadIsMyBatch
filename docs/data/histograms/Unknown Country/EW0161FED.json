@@ -1,1 +1,1 @@
-{"batchcode": "EW0161FED", "histograms": [{"batchcodes": ["EW0161FED", "EW0161FED", "FC3181"], "histogram": {"COVID-19": 1}}]}
+{"batchcode": "EW0161FED", "histograms": [{"histogram": {"COVID-19": 1}, "batchcodes": ["EW0161FED", "EW0161FED", "FC3181"]}, {"histogram": {"COVID-19": 1}, "batchcodes": ["EW0161FED", "EW0161FED", "FC3181"]}]}

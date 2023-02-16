@@ -1,1 +1,1 @@
-{"batchcode": "EX86080", "histograms": [{"batchcodes": ["EX86080"], "histogram": {"Arrhythmia": 1, "Chills": 1, "Dizziness": 1, "Feeling hot": 1, "Limb discomfort": 1, "Muscle twitching": 1, "Pain": 1, "Palpitations": 1, "Pyrexia": 1, "Sleep disorder": 1, "Thirst": 1}}]}
+{"batchcode": "EX86080", "histograms": [{"histogram": {"Arrhythmia": 1, "Chills": 1, "Dizziness": 1, "Feeling hot": 1, "Limb discomfort": 1, "Muscle twitching": 1, "Pain": 1, "Palpitations": 1, "Pyrexia": 1, "Sleep disorder": 1, "Thirst": 1}, "batchcodes": ["EX86080"]}]}

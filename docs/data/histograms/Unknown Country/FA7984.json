@@ -1,1 +1,1 @@
-{"batchcode": "FA7984", "histograms": [{"batchcodes": ["FA7984"], "histogram": {"Chest pain": 1, "Condition aggravated": 1, "Discomfort": 1, "Fatigue": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Injection site swelling": 1, "Nausea": 1, "Pain": 1}}]}
+{"batchcode": "FA7984", "histograms": [{"histogram": {"Chest pain": 1, "Condition aggravated": 1, "Discomfort": 1, "Fatigue": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Injection site swelling": 1, "Nausea": 1, "Pain": 1}, "batchcodes": ["FA7984"]}]}

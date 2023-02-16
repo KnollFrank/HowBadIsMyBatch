@@ -1,1 +1,1 @@
-{"batchcode": "FR8839", "histograms": [{"batchcodes": ["FR8839"], "histogram": {"Anxiety": 1, "Asthenia": 1, "Dyspnoea": 1, "Fatigue": 1, "Gait disturbance": 1, "Heart rate increased": 1, "Palpitations": 1}}]}
+{"batchcode": "FR8839", "histograms": [{"histogram": {"Anxiety": 1, "Asthenia": 1, "Dyspnoea": 1, "Fatigue": 1, "Gait disturbance": 1, "Heart rate increased": 1, "Palpitations": 1}, "batchcodes": ["FR8839"]}]}

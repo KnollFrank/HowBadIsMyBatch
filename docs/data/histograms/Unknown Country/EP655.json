@@ -1,1 +1,1 @@
-{"batchcode": "EP655", "histograms": [{"batchcodes": ["EN6205", "EP655"], "histogram": {"Arthralgia": 1, "Burning sensation": 1, "Fatigue": 1, "Head discomfort": 1, "Musculoskeletal discomfort": 1, "Paraesthesia": 1}}]}
+{"batchcode": "EP655", "histograms": [{"histogram": {"Arthralgia": 1, "Burning sensation": 1, "Fatigue": 1, "Head discomfort": 1, "Musculoskeletal discomfort": 1, "Paraesthesia": 1}, "batchcodes": ["EN6205", "EP655"]}]}

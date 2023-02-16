@@ -1,1 +1,1 @@
-{"batchcode": "EX0202", "histograms": [{"batchcodes": ["EX0202"], "histogram": {"Asthenia": 1, "Dizziness": 1, "Flushing": 1, "Hyperhidrosis": 1, "Hypotension": 1, "Nausea": 1, "Syncope": 1, "Tremor": 1, "Unresponsive to stimuli": 1, "Vomiting": 1}}]}
+{"batchcode": "EX0202", "histograms": [{"histogram": {"Asthenia": 1, "Dizziness": 1, "Flushing": 1, "Hyperhidrosis": 1, "Hypotension": 1, "Nausea": 1, "Syncope": 1, "Tremor": 1, "Unresponsive to stimuli": 1, "Vomiting": 1}, "batchcodes": ["EX0202"]}]}

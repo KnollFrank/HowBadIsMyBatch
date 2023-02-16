@@ -1,1 +1,1 @@
-{"batchcode": "ZOOOOZA", "histograms": [{"batchcodes": ["ZOOOOZA"], "histogram": {"Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Heart rate": 1, "Heart rate increased": 1, "Nausea": 1}}]}
+{"batchcode": "ZOOOOZA", "histograms": [{"histogram": {"Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Heart rate": 1, "Heart rate increased": 1, "Nausea": 1}, "batchcodes": ["ZOOOOZA"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FW0170", "histograms": [{"batchcodes": ["FW0170"], "histogram": {"Alopecia": 1, "Cough": 1, "Dizziness": 1, "Dysphagia": 1, "Myalgia": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pain in extremity": 1, "Urticaria": 1}}]}
+{"batchcode": "FW0170", "histograms": [{"histogram": {"Alopecia": 1, "Cough": 1, "Dizziness": 1, "Dysphagia": 1, "Myalgia": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pain in extremity": 1, "Urticaria": 1}, "batchcodes": ["FW0170"]}]}

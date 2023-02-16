@@ -1,1 +1,1 @@
-{"batchcode": "3089TB", "histograms": [{"batchcodes": ["3089TB"], "histogram": {"Aspiration bone marrow": 1, "Biopsy": 1, "Computerised tomogram": 1, "Magnetic resonance imaging head": 1, "Neuromuscular pain": 1, "Neuropathic muscular atrophy": 1, "Specialist consultation": 1}}]}
+{"batchcode": "3089TB", "histograms": [{"histogram": {"Aspiration bone marrow": 1, "Biopsy": 1, "Computerised tomogram": 1, "Magnetic resonance imaging head": 1, "Neuromuscular pain": 1, "Neuropathic muscular atrophy": 1, "Specialist consultation": 1}, "batchcodes": ["3089TB"]}]}

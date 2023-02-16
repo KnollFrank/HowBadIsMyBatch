@@ -1,1 +1,1 @@
-{"batchcode": "MRNA-PFIZER", "histograms": [{"batchcodes": ["MRNA-PFIZER"], "histogram": {"Chills": 1, "Decreased appetite": 1, "Fatigue": 1, "Hyperhidrosis": 1}}]}
+{"batchcode": "MRNA-PFIZER", "histograms": [{"histogram": {"Chills": 1, "Decreased appetite": 1, "Fatigue": 1, "Hyperhidrosis": 1}, "batchcodes": ["MRNA-PFIZER"]}]}

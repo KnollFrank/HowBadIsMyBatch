@@ -1,1 +1,1 @@
-{"batchcode": "EWA80", "histograms": [{"batchcodes": ["EWA80"], "histogram": {"Headache": 1, "Hot flush": 1, "Nausea": 1, "Paranasal sinus discomfort": 1}}]}
+{"batchcode": "EWA80", "histograms": [{"histogram": {"Headache": 1, "Hot flush": 1, "Nausea": 1, "Paranasal sinus discomfort": 1}, "batchcodes": ["EWA80"]}]}

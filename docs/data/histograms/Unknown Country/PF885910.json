@@ -1,1 +1,1 @@
-{"batchcode": "PF885910", "histograms": [{"batchcodes": ["PF885910"], "histogram": {"Cough": 1, "Dyspnoea": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "Palpitations": 1, "Urticaria": 1}}]}
+{"batchcode": "PF885910", "histograms": [{"histogram": {"Cough": 1, "Dyspnoea": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "Palpitations": 1, "Urticaria": 1}, "batchcodes": ["PF885910"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "O13L20A", "histograms": [{"batchcodes": ["O13L20A"], "histogram": {"Vaccination site bruising": 1, "Vaccination site erythema": 1, "Vaccination site mass": 1, "Vaccination site warmth": 1}}]}
+{"batchcode": "O13L20A", "histograms": [{"histogram": {"Vaccination site bruising": 1, "Vaccination site erythema": 1, "Vaccination site mass": 1, "Vaccination site warmth": 1}, "batchcodes": ["O13L20A"]}]}

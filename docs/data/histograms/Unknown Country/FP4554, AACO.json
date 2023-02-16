@@ -1,1 +1,1 @@
-{"batchcode": "FP4554, AACO", "histograms": [{"batchcodes": ["FP4554, AACO"], "histogram": {"Cough": 1, "Dyspnoea": 1, "Inflammation": 1, "Obstructive airways disorder": 1, "Swelling": 1, "Throat tightness": 1, "Urticaria": 1}}]}
+{"batchcode": "FP4554, AACO", "histograms": [{"histogram": {"Cough": 1, "Dyspnoea": 1, "Inflammation": 1, "Obstructive airways disorder": 1, "Swelling": 1, "Throat tightness": 1, "Urticaria": 1}, "batchcodes": ["FP4554, AACO"]}]}

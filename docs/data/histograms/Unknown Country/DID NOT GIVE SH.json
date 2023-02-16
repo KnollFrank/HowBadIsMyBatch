@@ -1,1 +1,1 @@
-{"batchcode": "DID NOT GIVE SH", "histograms": [{"batchcodes": ["DID NOT GIVE SH"], "histogram": {"Arteriogram carotid normal": 1, "Computerised tomogram head normal": 1, "Facial paralysis": 1, "Laboratory test normal": 1}}]}
+{"batchcode": "DID NOT GIVE SH", "histograms": [{"histogram": {"Arteriogram carotid normal": 1, "Computerised tomogram head normal": 1, "Facial paralysis": 1, "Laboratory test normal": 1}, "batchcodes": ["DID NOT GIVE SH"]}]}

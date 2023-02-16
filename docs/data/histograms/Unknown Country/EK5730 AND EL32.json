@@ -1,1 +1,1 @@
-{"batchcode": "EK5730 AND EL32", "histograms": [{"batchcodes": ["EK5730 AND EL32"], "histogram": {"Mobility decreased": 1, "Pain": 1, "Pain in extremity": 1, "Rotator cuff syndrome": 1, "Tenderness": 1, "Tinnitus": 1, "X-ray": 1}}]}
+{"batchcode": "EK5730 AND EL32", "histograms": [{"histogram": {"Mobility decreased": 1, "Pain": 1, "Pain in extremity": 1, "Rotator cuff syndrome": 1, "Tenderness": 1, "Tinnitus": 1, "X-ray": 1}, "batchcodes": ["EK5730 AND EL32"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FHF020", "histograms": [{"batchcodes": ["FHF020"], "histogram": {"Cerebral haemorrhage": 1, "Computerised tomogram abnormal": 1, "Death": 1, "Endotracheal intubation": 1, "Loss of consciousness": 1, "Mechanical ventilation": 1, "Vomiting": 1}}]}
+{"batchcode": "FHF020", "histograms": [{"histogram": {"Cerebral haemorrhage": 1, "Computerised tomogram abnormal": 1, "Death": 1, "Endotracheal intubation": 1, "Loss of consciousness": 1, "Mechanical ventilation": 1, "Vomiting": 1}, "batchcodes": ["FHF020"]}]}

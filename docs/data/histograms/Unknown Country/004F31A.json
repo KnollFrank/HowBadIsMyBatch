@@ -1,1 +1,1 @@
-{"batchcode": "004F31A", "histograms": [{"batchcodes": ["004F31A"], "histogram": {"Aphonia": 1, "COVID-19": 1, "Headache": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1, "Sinus disorder": 1}}]}
+{"batchcode": "004F31A", "histograms": [{"histogram": {"Aphonia": 1, "COVID-19": 1, "Headache": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1, "Sinus disorder": 1}, "batchcodes": ["004F31A"]}]}

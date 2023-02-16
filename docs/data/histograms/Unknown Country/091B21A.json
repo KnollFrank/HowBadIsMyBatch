@@ -1,1 +1,1 @@
-{"batchcode": "091B21A", "histograms": [{"batchcodes": ["048B21A", "091B21A"], "histogram": {"Anticoagulant therapy": 1, "Chest pain": 1, "Computerised tomogram thorax abnormal": 1, "Pain": 1, "Pneumonitis": 1, "Pulmonary thrombosis": 1}}]}
+{"batchcode": "091B21A", "histograms": [{"histogram": {"Anticoagulant therapy": 1, "Chest pain": 1, "Computerised tomogram thorax abnormal": 1, "Pain": 1, "Pneumonitis": 1, "Pulmonary thrombosis": 1}, "batchcodes": ["048B21A", "091B21A"]}]}

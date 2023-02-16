@@ -1,1 +1,1 @@
-{"batchcode": "E30G21A", "histograms": [{"batchcodes": ["E30G21A"], "histogram": {"Angiogram cerebral": 1, "Blood test normal": 1, "Computerised tomogram head": 1, "Diplopia": 1, "Gait disturbance": 1, "Headache": 1, "Neurological examination": 1}}]}
+{"batchcode": "E30G21A", "histograms": [{"histogram": {"Angiogram cerebral": 1, "Blood test normal": 1, "Computerised tomogram head": 1, "Diplopia": 1, "Gait disturbance": 1, "Headache": 1, "Neurological examination": 1}, "batchcodes": ["E30G21A"]}]}

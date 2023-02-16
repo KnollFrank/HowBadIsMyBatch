@@ -1,1 +1,1 @@
-{"batchcode": "XYZ98765", "histograms": [{"batchcodes": ["ABV8877", "ABX5182", "XYZ98765"], "histogram": {"Arthralgia": 1, "Chills": 1, "Fatigue": 1, "Hypotonia": 1, "Injection site pain": 1, "Myalgia": 1, "Paraesthesia": 1, "Pneumonia": 1, "Pyrexia": 1}}]}
+{"batchcode": "XYZ98765", "histograms": [{"histogram": {"Arthralgia": 1, "Chills": 1, "Fatigue": 1, "Hypotonia": 1, "Injection site pain": 1, "Myalgia": 1, "Paraesthesia": 1, "Pneumonia": 1, "Pyrexia": 1}, "batchcodes": ["ABV8877", "ABX5182", "XYZ98765"]}]}

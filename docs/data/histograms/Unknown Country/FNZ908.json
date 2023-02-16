@@ -1,1 +1,1 @@
-{"batchcode": "FNZ908", "histograms": [{"batchcodes": ["FNZ908"], "histogram": {"Body temperature increased": 1, "COVID-19": 1, "Dysaesthesia": 1, "Fatigue": 1, "Headache": 1, "Mobility decreased": 1, "Myalgia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "FNZ908", "histograms": [{"histogram": {"Body temperature increased": 1, "COVID-19": 1, "Dysaesthesia": 1, "Fatigue": 1, "Headache": 1, "Mobility decreased": 1, "Myalgia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["FNZ908"]}]}

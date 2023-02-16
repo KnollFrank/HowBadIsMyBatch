@@ -1,1 +1,1 @@
-{"batchcode": "22S3B", "histograms": [{"batchcodes": ["22S3B"], "histogram": {"COVID-19": 1, "Dyspnoea": 1, "Vaccine breakthrough infection": 1}}]}
+{"batchcode": "22S3B", "histograms": [{"histogram": {"COVID-19": 1, "Dyspnoea": 1, "Vaccine breakthrough infection": 1}, "batchcodes": ["22S3B"]}]}

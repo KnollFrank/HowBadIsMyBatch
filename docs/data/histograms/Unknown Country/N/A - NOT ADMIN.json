@@ -1,1 +1,1 @@
-{"batchcode": "N/A - NOT ADMIN", "histograms": [{"batchcodes": ["N/A - NOT ADMIN", "N/A - NOT ADMIN"], "histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "N/A - NOT ADMIN", "histograms": [{"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["N/A - NOT ADMIN", "N/A - NOT ADMIN"]}, {"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["N/A - NOT ADMIN", "N/A - NOT ADMIN"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EN6026", "histograms": [{"batchcodes": ["EN6026", "EN8764"], "histogram": {"Arthralgia": 1, "Blood test": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Malaise": 1}}, {"batchcodes": ["EN6026"], "histogram": {"Angioedema": 1, "Swollen tongue": 1}}]}
+{"batchcode": "EN6026", "histograms": [{"histogram": {"Arthralgia": 1, "Blood test": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Malaise": 1}, "batchcodes": ["EN6026", "EN8764"]}, {"histogram": {"Angioedema": 1, "Swollen tongue": 1}, "batchcodes": ["EN6026"]}]}

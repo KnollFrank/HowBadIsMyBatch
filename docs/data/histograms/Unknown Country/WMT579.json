@@ -1,1 +1,1 @@
-{"batchcode": "WMT579", "histograms": [{"batchcodes": ["WMT579"], "histogram": {"Fatigue": 1, "Headache": 1, "Injected limb mobility decreased": 1, "Injection site pain": 1}}]}
+{"batchcode": "WMT579", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Injected limb mobility decreased": 1, "Injection site pain": 1}, "batchcodes": ["WMT579"]}]}

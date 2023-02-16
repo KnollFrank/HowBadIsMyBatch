@@ -1,1 +1,1 @@
-{"batchcode": "002C211A", "histograms": [{"batchcodes": ["002C211A", "027B21A"], "histogram": {"Hypoaesthesia": 1, "Muscle twitching": 1}}, {"batchcodes": ["002C211A"], "histogram": {"Injection site pain": 1, "Oral herpes": 1}}]}
+{"batchcode": "002C211A", "histograms": [{"histogram": {"Hypoaesthesia": 1, "Muscle twitching": 1}, "batchcodes": ["002C211A", "027B21A"]}, {"histogram": {"Injection site pain": 1, "Oral herpes": 1}, "batchcodes": ["002C211A"]}]}

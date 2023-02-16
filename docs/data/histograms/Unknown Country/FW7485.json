@@ -1,1 +1,1 @@
-{"batchcode": "FW7485", "histograms": [{"batchcodes": ["FW0181", "FW7485"], "histogram": {"Dysmenorrhoea": 1}}, {"batchcodes": ["FW7485"], "histogram": {"Balance disorder": 1, "Dizziness": 1, "Vertigo": 1}}]}
+{"batchcode": "FW7485", "histograms": [{"histogram": {"Dysmenorrhoea": 1}, "batchcodes": ["FW0181", "FW7485"]}, {"histogram": {"Balance disorder": 1, "Dizziness": 1, "Vertigo": 1}, "batchcodes": ["FW7485"]}]}

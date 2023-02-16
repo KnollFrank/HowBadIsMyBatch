@@ -1,1 +1,1 @@
-{"batchcode": "GS5342", "histograms": [{"batchcodes": ["GS5342"], "histogram": {"C-reactive protein": 1, "C-reactive protein increased": 1, "Immunisation": 1, "Off label use": 1}}]}
+{"batchcode": "GS5342", "histograms": [{"histogram": {"C-reactive protein": 1, "C-reactive protein increased": 1, "Immunisation": 1, "Off label use": 1}, "batchcodes": ["GS5342"]}]}

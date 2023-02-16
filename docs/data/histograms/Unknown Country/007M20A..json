@@ -1,1 +1,1 @@
-{"batchcode": "007M20A.", "histograms": [{"batchcodes": ["007M20A.", "029A21A"], "histogram": {"Abdominal distension": 1, "Abdominal pain upper": 1, "Abnormal faeces": 1, "Diarrhoea": 1, "Flatulence": 1, "Platelet count decreased": 1, "Platelet count normal": 1}}]}
+{"batchcode": "007M20A.", "histograms": [{"histogram": {"Abdominal distension": 1, "Abdominal pain upper": 1, "Abnormal faeces": 1, "Diarrhoea": 1, "Flatulence": 1, "Platelet count decreased": 1, "Platelet count normal": 1}, "batchcodes": ["007M20A.", "029A21A"]}]}

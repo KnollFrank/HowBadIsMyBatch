@@ -1,1 +1,1 @@
-{"batchcode": "EX7537", "histograms": [{"batchcodes": ["EX7537"], "histogram": {"Ultrasound scan": 2, "Adnexa uteri pain": 1, "Lymphadenopathy": 1, "Renal pain": 1, "Ultrasound abdomen": 1}}]}
+{"batchcode": "EX7537", "histograms": [{"histogram": {"Ultrasound scan": 2, "Adnexa uteri pain": 1, "Lymphadenopathy": 1, "Renal pain": 1, "Ultrasound abdomen": 1}, "batchcodes": ["EX7537"]}]}

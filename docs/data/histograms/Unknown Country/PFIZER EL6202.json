@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EL6202", "histograms": [{"batchcodes": ["PFIZER EL6202", "PFIZER EL9263"], "histogram": {"Chills": 1, "Decreased appetite": 1, "Diarrhoea": 1, "Fatigue": 1, "Injection site pain": 1, "Lethargy": 1, "Pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "PFIZER EL6202", "histograms": [{"histogram": {"Chills": 1, "Decreased appetite": 1, "Diarrhoea": 1, "Fatigue": 1, "Injection site pain": 1, "Lethargy": 1, "Pain": 1, "Pyrexia": 1}, "batchcodes": ["PFIZER EL6202", "PFIZER EL9263"]}]}

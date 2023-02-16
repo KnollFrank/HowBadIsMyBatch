@@ -1,1 +1,1 @@
-{"batchcode": "AP6955", "histograms": [{"batchcodes": ["AP6955", "EN6201"], "histogram": {"Eye swelling": 1, "Ophthalmological examination abnormal": 1, "Retinal vein occlusion": 1, "Scan abnormal": 1, "Sudden visual loss": 1}}]}
+{"batchcode": "AP6955", "histograms": [{"histogram": {"Eye swelling": 1, "Ophthalmological examination abnormal": 1, "Retinal vein occlusion": 1, "Scan abnormal": 1, "Sudden visual loss": 1}, "batchcodes": ["AP6955", "EN6201"]}]}

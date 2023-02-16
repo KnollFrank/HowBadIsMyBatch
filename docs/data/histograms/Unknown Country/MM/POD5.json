@@ -1,1 +1,1 @@
-{"batchcode": "MM/POD5", "histograms": [{"batchcodes": ["MM/POD5"], "histogram": {"Blood test abnormal": 1, "Computerised tomogram thorax abnormal": 1, "Echocardiogram abnormal": 1, "Pericarditis": 1, "Troponin increased": 1}}]}
+{"batchcode": "MM/POD5", "histograms": [{"histogram": {"Blood test abnormal": 1, "Computerised tomogram thorax abnormal": 1, "Echocardiogram abnormal": 1, "Pericarditis": 1, "Troponin increased": 1}, "batchcodes": ["MM/POD5"]}]}

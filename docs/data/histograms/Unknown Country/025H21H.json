@@ -1,1 +1,1 @@
-{"batchcode": "025H21H", "histograms": [{"batchcodes": ["025H21H"], "histogram": {"Fatigue": 1, "Headache": 1, "Injection site pruritus": 1, "Injection site rash": 1, "Injection site swelling": 1, "Pain": 1, "Pain in extremity": 1}}]}
+{"batchcode": "025H21H", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Injection site pruritus": 1, "Injection site rash": 1, "Injection site swelling": 1, "Pain": 1, "Pain in extremity": 1}, "batchcodes": ["025H21H"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EJ1635", "histograms": [{"batchcodes": ["EJ1635"], "histogram": {"Body temperature increased": 1, "Erythema": 1, "Fatigue": 1, "Headache": 1, "Injection site swelling": 1, "Nasopharyngitis": 1, "Pruritus": 1, "Skin warm": 1}}]}
+{"batchcode": "EJ1635", "histograms": [{"histogram": {"Body temperature increased": 1, "Erythema": 1, "Fatigue": 1, "Headache": 1, "Injection site swelling": 1, "Nasopharyngitis": 1, "Pruritus": 1, "Skin warm": 1}, "batchcodes": ["EJ1635"]}]}

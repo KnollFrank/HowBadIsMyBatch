@@ -1,1 +1,1 @@
-{"batchcode": "FW3592", "histograms": [{"batchcodes": ["FW3592"], "histogram": {"Cardiac stress test normal": 1, "Echocardiogram abnormal": 1, "Electrocardiogram normal": 1, "Immediate post-injection reaction": 1, "Myocarditis": 1, "Pulmonary function test normal": 1}}]}
+{"batchcode": "FW3592", "histograms": [{"histogram": {"Cardiac stress test normal": 1, "Echocardiogram abnormal": 1, "Electrocardiogram normal": 1, "Immediate post-injection reaction": 1, "Myocarditis": 1, "Pulmonary function test normal": 1}, "batchcodes": ["FW3592"]}]}

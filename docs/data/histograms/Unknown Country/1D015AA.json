@@ -1,1 +1,1 @@
-{"batchcode": "1D015AA", "histograms": [{"batchcodes": ["1D015AA"], "histogram": {"Blood test": 1, "Computerised tomogram thorax": 1, "Electrocardiogram": 1, "Investigation": 1, "Paraesthesia": 1, "Transient ischaemic attack": 1}}]}
+{"batchcode": "1D015AA", "histograms": [{"histogram": {"Blood test": 1, "Computerised tomogram thorax": 1, "Electrocardiogram": 1, "Investigation": 1, "Paraesthesia": 1, "Transient ischaemic attack": 1}, "batchcodes": ["1D015AA"]}]}

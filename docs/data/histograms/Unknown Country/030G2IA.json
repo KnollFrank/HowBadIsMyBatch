@@ -1,1 +1,1 @@
-{"batchcode": "030G2IA", "histograms": [{"batchcodes": ["030G2IA"], "histogram": {"Amylase": 1, "Blood glucose": 1, "Blood triglycerides": 1, "Blood uric acid": 1, "Pancreatitis": 1}}]}
+{"batchcode": "030G2IA", "histograms": [{"histogram": {"Amylase": 1, "Blood glucose": 1, "Blood triglycerides": 1, "Blood uric acid": 1, "Pancreatitis": 1}, "batchcodes": ["030G2IA"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EP6555", "histograms": [{"batchcodes": ["EP6555"], "histogram": {"Fatigue": 3, "Musculoskeletal stiffness": 2, "Peripheral swelling": 2, "Vaccination site bruising": 2, "Vaccination site mass": 2, "Vaccination site scar": 2, "Muscle spasms": 1, "Myalgia": 1}}]}
+{"batchcode": "EP6555", "histograms": [{"histogram": {"Fatigue": 3, "Musculoskeletal stiffness": 2, "Peripheral swelling": 2, "Vaccination site bruising": 2, "Vaccination site mass": 2, "Vaccination site scar": 2, "Muscle spasms": 1, "Myalgia": 1}, "batchcodes": ["EP6555"]}]}

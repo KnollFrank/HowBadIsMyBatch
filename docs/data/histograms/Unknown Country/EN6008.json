@@ -1,1 +1,1 @@
-{"batchcode": "EN6008", "histograms": [{"batchcodes": ["EN6008"], "histogram": {"Chills": 1, "Cough": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1}}]}
+{"batchcode": "EN6008", "histograms": [{"histogram": {"Chills": 1, "Cough": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1}, "batchcodes": ["EN6008"]}]}

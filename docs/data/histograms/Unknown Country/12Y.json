@@ -1,1 +1,1 @@
-{"batchcode": "12Y", "histograms": [{"batchcodes": ["12Y"], "histogram": {"Blood glucose increased": 1, "Blood pressure decreased": 1, "Dizziness": 1, "Fatigue": 1, "Full blood count normal": 1, "Headache": 1, "Oral herpes": 1, "Pyrexia": 1, "Vitamin B12 increased": 1}}]}
+{"batchcode": "12Y", "histograms": [{"histogram": {"Blood glucose increased": 1, "Blood pressure decreased": 1, "Dizziness": 1, "Fatigue": 1, "Full blood count normal": 1, "Headache": 1, "Oral herpes": 1, "Pyrexia": 1, "Vitamin B12 increased": 1}, "batchcodes": ["12Y"]}]}

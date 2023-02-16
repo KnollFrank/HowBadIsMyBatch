@@ -1,1 +1,1 @@
-{"batchcode": "SDEK4", "histograms": [{"batchcodes": ["SDEK4"], "histogram": {"Blood lactic acid": 1, "Haemorrhagic infarction": 1, "Mesenteric vein thrombosis": 1, "Platelet count": 1, "White blood cell count": 1}}]}
+{"batchcode": "SDEK4", "histograms": [{"histogram": {"Blood lactic acid": 1, "Haemorrhagic infarction": 1, "Mesenteric vein thrombosis": 1, "Platelet count": 1, "White blood cell count": 1}, "batchcodes": ["SDEK4"]}]}

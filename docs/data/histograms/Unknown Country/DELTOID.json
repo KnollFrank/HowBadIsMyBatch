@@ -1,1 +1,1 @@
-{"batchcode": "DELTOID", "histograms": [{"batchcodes": ["DELTOID"], "histogram": {"Back pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "DELTOID", "histograms": [{"histogram": {"Back pain": 1, "Pyrexia": 1}, "batchcodes": ["DELTOID"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FC4182", "histograms": [{"batchcodes": ["FC4182"], "histogram": {"Cardiac function test": 1, "Dyspnoea": 1, "Pain in extremity": 1, "Paraesthesia": 1, "Pulmonary function test": 1, "Tinnitus": 1}}]}
+{"batchcode": "FC4182", "histograms": [{"histogram": {"Cardiac function test": 1, "Dyspnoea": 1, "Pain in extremity": 1, "Paraesthesia": 1, "Pulmonary function test": 1, "Tinnitus": 1}, "batchcodes": ["FC4182"]}]}

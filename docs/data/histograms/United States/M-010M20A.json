@@ -1,1 +1,1 @@
-{"batchcode": "M-010M20A", "histograms": [{"batchcodes": ["M-010M20A"], "histogram": {"Leukaemia": 1, "Platelet count decreased": 1, "Thrombocytopenia": 1}}]}
+{"batchcode": "M-010M20A", "histograms": [{"histogram": {"Leukaemia": 1, "Platelet count decreased": 1, "Thrombocytopenia": 1}, "batchcodes": ["M-010M20A"]}]}

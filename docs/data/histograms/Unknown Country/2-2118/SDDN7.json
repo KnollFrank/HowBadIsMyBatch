@@ -1,1 +1,1 @@
-{"batchcode": "2-2118/SDDN7", "histograms": [{"batchcodes": ["2-2118/SDDN7"], "histogram": {"Asthenia": 1, "Auscultation": 1, "Cough": 1, "Dizziness": 1, "Endoscopy": 1, "Oxygen saturation": 1, "Rales": 1}}]}
+{"batchcode": "2-2118/SDDN7", "histograms": [{"histogram": {"Asthenia": 1, "Auscultation": 1, "Cough": 1, "Dizziness": 1, "Endoscopy": 1, "Oxygen saturation": 1, "Rales": 1}, "batchcodes": ["2-2118/SDDN7"]}]}

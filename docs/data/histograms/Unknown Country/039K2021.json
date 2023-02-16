@@ -1,1 +1,1 @@
-{"batchcode": "039K2021", "histograms": [{"batchcodes": ["039K2021"], "histogram": {"Biopsy skin": 1, "Breast cancer female": 1, "Breast mass": 1, "Central venous catheterisation": 1, "Chemotherapy": 1, "Mammogram abnormal": 1, "Ultrasound breast abnormal": 1}}]}
+{"batchcode": "039K2021", "histograms": [{"histogram": {"Biopsy skin": 1, "Breast cancer female": 1, "Breast mass": 1, "Central venous catheterisation": 1, "Chemotherapy": 1, "Mammogram abnormal": 1, "Ultrasound breast abnormal": 1}, "batchcodes": ["039K2021"]}]}

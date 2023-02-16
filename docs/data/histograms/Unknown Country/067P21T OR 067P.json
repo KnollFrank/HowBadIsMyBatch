@@ -1,1 +1,1 @@
-{"batchcode": "067P21T OR 067P", "histograms": [{"batchcodes": ["067P21T OR 067P"], "histogram": {"Allergy test negative": 1, "Blood test normal": 1, "Dermatitis": 1, "Eye swelling": 1, "Pain": 1, "Peripheral swelling": 1, "Pruritus": 1, "Rash macular": 1, "Urticaria": 1}}]}
+{"batchcode": "067P21T OR 067P", "histograms": [{"histogram": {"Allergy test negative": 1, "Blood test normal": 1, "Dermatitis": 1, "Eye swelling": 1, "Pain": 1, "Peripheral swelling": 1, "Pruritus": 1, "Rash macular": 1, "Urticaria": 1}, "batchcodes": ["067P21T OR 067P"]}]}

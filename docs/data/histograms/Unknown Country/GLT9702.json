@@ -1,1 +1,1 @@
-{"batchcode": "GLT9702", "histograms": [{"batchcodes": ["GLT9702"], "histogram": {"Injection site erythema": 1, "Injection site swelling": 1, "Injection site warmth": 1, "Lymphadenopathy": 1, "Pain": 1}}]}
+{"batchcode": "GLT9702", "histograms": [{"histogram": {"Injection site erythema": 1, "Injection site swelling": 1, "Injection site warmth": 1, "Lymphadenopathy": 1, "Pain": 1}, "batchcodes": ["GLT9702"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "0231420A", "histograms": [{"batchcodes": ["0231420A"], "histogram": {"Cardiac stress test abnormal": 1, "Dyspnoea": 1, "Echocardiogram normal": 1, "Heart rate increased": 1, "Respiration abnormal": 1, "Sleep disorder": 1, "Tachycardia": 1}}]}
+{"batchcode": "0231420A", "histograms": [{"histogram": {"Cardiac stress test abnormal": 1, "Dyspnoea": 1, "Echocardiogram normal": 1, "Heart rate increased": 1, "Respiration abnormal": 1, "Sleep disorder": 1, "Tachycardia": 1}, "batchcodes": ["0231420A"]}]}

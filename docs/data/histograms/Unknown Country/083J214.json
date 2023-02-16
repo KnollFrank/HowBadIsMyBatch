@@ -1,1 +1,1 @@
-{"batchcode": "083J214", "histograms": [{"batchcodes": ["083J214"], "histogram": {"Bronchitis": 1, "COVID-19": 1, "Chest X-ray": 1, "Influenza virus test": 1, "SARS-CoV-2 test positive": 1, "Sinusitis": 1, "Streptococcus test": 1}}]}
+{"batchcode": "083J214", "histograms": [{"histogram": {"Bronchitis": 1, "COVID-19": 1, "Chest X-ray": 1, "Influenza virus test": 1, "SARS-CoV-2 test positive": 1, "Sinusitis": 1, "Streptococcus test": 1}, "batchcodes": ["083J214"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FA7485/FC3160", "histograms": [{"batchcodes": ["FA7485/FC3160"], "histogram": {"Arthropathy": 1, "Bursitis": 1, "Joint effusion": 1, "Joint stiffness": 1, "X-ray limb abnormal": 1}}]}
+{"batchcode": "FA7485/FC3160", "histograms": [{"histogram": {"Arthropathy": 1, "Bursitis": 1, "Joint effusion": 1, "Joint stiffness": 1, "X-ray limb abnormal": 1}, "batchcodes": ["FA7485/FC3160"]}]}

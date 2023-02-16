@@ -1,1 +1,1 @@
-{"batchcode": "TC3184", "histograms": [{"batchcodes": ["TC3184"], "histogram": {"Blood pressure increased": 1, "Computerised tomogram": 1, "Dizziness": 1, "Echocardiogram": 1, "Feeling abnormal": 1, "Headache": 1, "Orthostatic intolerance": 1, "Scan with contrast": 1}}]}
+{"batchcode": "TC3184", "histograms": [{"histogram": {"Blood pressure increased": 1, "Computerised tomogram": 1, "Dizziness": 1, "Echocardiogram": 1, "Feeling abnormal": 1, "Headache": 1, "Orthostatic intolerance": 1, "Scan with contrast": 1}, "batchcodes": ["TC3184"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "N37N", "histograms": [{"batchcodes": ["N37N"], "histogram": {"Dyspnoea": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "Pain of skin": 1, "Rosacea": 1}}]}
+{"batchcode": "N37N", "histograms": [{"histogram": {"Dyspnoea": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "Pain of skin": 1, "Rosacea": 1}, "batchcodes": ["N37N"]}]}

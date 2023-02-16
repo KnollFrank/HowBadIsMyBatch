@@ -1,1 +1,1 @@
-{"batchcode": "MRNA 673441", "histograms": [{"batchcodes": ["MRNA 673441"], "histogram": {"Ear pain": 1, "Headache": 1, "Rheumatoid factor": 1, "Rheumatoid factor increased": 1, "Tinnitus": 1}}]}
+{"batchcode": "MRNA 673441", "histograms": [{"histogram": {"Ear pain": 1, "Headache": 1, "Rheumatoid factor": 1, "Rheumatoid factor increased": 1, "Tinnitus": 1}, "batchcodes": ["MRNA 673441"]}]}

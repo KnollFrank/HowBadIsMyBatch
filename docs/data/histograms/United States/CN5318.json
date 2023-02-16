@@ -1,1 +1,1 @@
-{"batchcode": "CN5318", "histograms": [{"batchcodes": ["CN5318"], "histogram": {"Asthenia": 1, "Fatigue": 1, "Headache": 1, "Malaise": 1, "Myalgia": 1, "Nausea": 1, "Vaccination site rash": 1}}]}
+{"batchcode": "CN5318", "histograms": [{"histogram": {"Asthenia": 1, "Fatigue": 1, "Headache": 1, "Malaise": 1, "Myalgia": 1, "Nausea": 1, "Vaccination site rash": 1}, "batchcodes": ["CN5318"]}]}

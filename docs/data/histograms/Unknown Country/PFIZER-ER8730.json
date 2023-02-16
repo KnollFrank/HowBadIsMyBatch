@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER-ER8730", "histograms": [{"batchcodes": ["PFIZER-ER8730"], "histogram": {"Diarrhoea": 1, "Fatigue": 1, "Pyrexia": 1}}]}
+{"batchcode": "PFIZER-ER8730", "histograms": [{"histogram": {"Diarrhoea": 1, "Fatigue": 1, "Pyrexia": 1}, "batchcodes": ["PFIZER-ER8730"]}]}

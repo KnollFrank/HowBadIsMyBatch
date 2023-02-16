@@ -1,1 +1,1 @@
-{"batchcode": "012L28", "histograms": [{"batchcodes": ["012L28"], "histogram": {"Biopsy skin abnormal": 1, "Condition aggravated": 1, "Dermatitis contact": 1, "Fungal test negative": 1, "Rash": 1, "Skin test positive": 1}}]}
+{"batchcode": "012L28", "histograms": [{"histogram": {"Biopsy skin abnormal": 1, "Condition aggravated": 1, "Dermatitis contact": 1, "Fungal test negative": 1, "Rash": 1, "Skin test positive": 1}, "batchcodes": ["012L28"]}]}

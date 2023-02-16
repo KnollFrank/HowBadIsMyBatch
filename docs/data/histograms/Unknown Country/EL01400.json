@@ -1,1 +1,1 @@
-{"batchcode": "EL01400", "histograms": [{"batchcodes": ["EL01400"], "histogram": {"Ageusia": 1, "Anosmia": 1, "COVID-19": 1, "Cough": 1, "Myalgia": 1, "Pain": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "EL01400", "histograms": [{"histogram": {"Ageusia": 1, "Anosmia": 1, "COVID-19": 1, "Cough": 1, "Myalgia": 1, "Pain": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["EL01400"]}]}

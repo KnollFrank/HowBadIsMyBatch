@@ -1,1 +1,1 @@
-{"batchcode": "FF8028", "histograms": [{"batchcodes": ["FF8028"], "histogram": {"Chest discomfort": 1, "Chest pain": 1, "Globulin abnormal": 1, "Lymphocyte count increased": 1, "Platelet count increased": 1, "White blood cell count increased": 1}}]}
+{"batchcode": "FF8028", "histograms": [{"histogram": {"Chest discomfort": 1, "Chest pain": 1, "Globulin abnormal": 1, "Lymphocyte count increased": 1, "Platelet count increased": 1, "White blood cell count increased": 1}, "batchcodes": ["FF8028"]}]}

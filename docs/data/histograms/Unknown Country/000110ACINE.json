@@ -1,1 +1,1 @@
-{"batchcode": "000110ACINE", "histograms": [{"batchcodes": ["000110ACINE"], "histogram": {"Cough": 3, "Cystitis noninfective": 3, "Dyspnoea": 3, "Pleurisy": 3, "Pruritus": 3, "Respiratory distress": 3}}]}
+{"batchcode": "000110ACINE", "histograms": [{"histogram": {"Cough": 3, "Cystitis noninfective": 3, "Dyspnoea": 3, "Pleurisy": 3, "Pruritus": 3, "Respiratory distress": 3}, "batchcodes": ["000110ACINE"]}]}

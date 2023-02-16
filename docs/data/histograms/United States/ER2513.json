@@ -1,1 +1,1 @@
-{"batchcode": "ER2513", "histograms": [{"batchcodes": ["ER2513"], "histogram": {"Arthralgia": 1, "Feeling abnormal": 1, "Hypersomnia": 1, "Limb injury": 1, "Pain": 1, "Pain assessment": 1, "Pain in extremity": 1, "Pyrexia": 1, "Sleep disorder": 1}}]}
+{"batchcode": "ER2513", "histograms": [{"histogram": {"Arthralgia": 1, "Feeling abnormal": 1, "Hypersomnia": 1, "Limb injury": 1, "Pain": 1, "Pain assessment": 1, "Pain in extremity": 1, "Pyrexia": 1, "Sleep disorder": 1}, "batchcodes": ["ER2513"]}]}

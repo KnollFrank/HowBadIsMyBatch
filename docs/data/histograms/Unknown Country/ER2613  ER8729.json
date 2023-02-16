@@ -1,1 +1,1 @@
-{"batchcode": "ER2613  ER8729", "histograms": [{"batchcodes": ["ER2613  ER8729"], "histogram": {"Blood test": 1, "Condition aggravated": 1, "Injection site discolouration": 1, "Laboratory test": 1, "Pain in extremity": 1, "Polymyalgia rheumatica": 1}}]}
+{"batchcode": "ER2613  ER8729", "histograms": [{"histogram": {"Blood test": 1, "Condition aggravated": 1, "Injection site discolouration": 1, "Laboratory test": 1, "Pain in extremity": 1, "Polymyalgia rheumatica": 1}, "batchcodes": ["ER2613  ER8729"]}]}

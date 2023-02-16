@@ -1,1 +1,1 @@
-{"batchcode": "PEW0150", "histograms": [{"batchcodes": ["PEW0150"], "histogram": {"Blood test": 1, "Computerised tomogram": 1, "Electroencephalogram": 1, "Lumbar puncture": 1, "Magnetic resonance imaging": 1, "Scan with contrast": 1, "Seizure": 1}}]}
+{"batchcode": "PEW0150", "histograms": [{"histogram": {"Blood test": 1, "Computerised tomogram": 1, "Electroencephalogram": 1, "Lumbar puncture": 1, "Magnetic resonance imaging": 1, "Scan with contrast": 1, "Seizure": 1}, "batchcodes": ["PEW0150"]}]}

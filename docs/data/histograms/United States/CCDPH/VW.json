@@ -1,1 +1,1 @@
-{"batchcode": "CCDPH/VW", "histograms": [{"batchcodes": ["CCDPH/VW"], "histogram": {"Chills": 1, "Headache": 1, "Pain in extremity": 1}}]}
+{"batchcode": "CCDPH/VW", "histograms": [{"histogram": {"Chills": 1, "Headache": 1, "Pain in extremity": 1}, "batchcodes": ["CCDPH/VW"]}]}

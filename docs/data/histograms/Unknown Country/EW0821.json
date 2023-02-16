@@ -1,1 +1,1 @@
-{"batchcode": "EW0821", "histograms": [{"batchcodes": ["EW0821"], "histogram": {"Chills": 1, "Cough": 1, "Discharge": 1, "Dizziness": 1, "Dysmenorrhoea": 1, "Dyspnoea": 1, "Fatigue": 1, "Migraine": 1, "Pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "Vomiting": 1}}]}
+{"batchcode": "EW0821", "histograms": [{"histogram": {"Chills": 1, "Cough": 1, "Discharge": 1, "Dizziness": 1, "Dysmenorrhoea": 1, "Dyspnoea": 1, "Fatigue": 1, "Migraine": 1, "Pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "Vomiting": 1}, "batchcodes": ["EW0821"]}]}

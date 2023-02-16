@@ -1,1 +1,1 @@
-{"batchcode": "EW-0169", "histograms": [{"batchcodes": ["ER-2613", "EW-0169"], "histogram": {"Computerised tomogram": 1, "Electromyogram": 1, "Hypoaesthesia": 1, "Pharyngeal hypoaesthesia": 1, "Ultrasound scan": 1, "X-ray": 1}}]}
+{"batchcode": "EW-0169", "histograms": [{"histogram": {"Computerised tomogram": 1, "Electromyogram": 1, "Hypoaesthesia": 1, "Pharyngeal hypoaesthesia": 1, "Ultrasound scan": 1, "X-ray": 1}, "batchcodes": ["ER-2613", "EW-0169"]}]}

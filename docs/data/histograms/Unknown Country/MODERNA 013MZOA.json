@@ -1,1 +1,1 @@
-{"batchcode": "MODERNA 013MZOA", "histograms": [{"batchcodes": ["MODERNA 013MZOA"], "histogram": {"Body temperature decreased": 1, "Dyspnoea": 1, "Nasal congestion": 1, "Rhinorrhoea": 1}}]}
+{"batchcode": "MODERNA 013MZOA", "histograms": [{"histogram": {"Body temperature decreased": 1, "Dyspnoea": 1, "Nasal congestion": 1, "Rhinorrhoea": 1}, "batchcodes": ["MODERNA 013MZOA"]}]}

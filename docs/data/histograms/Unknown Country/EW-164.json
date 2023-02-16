@@ -1,1 +1,1 @@
-{"batchcode": "EW-164", "histograms": [{"batchcodes": ["EN6205", "EW-164"], "histogram": {"Cerebrovascular accident": 1, "Diabetes mellitus": 1, "Dyspnoea": 1, "Memory impairment": 1, "Muscular weakness": 1, "Transient ischaemic attack": 1, "Weight decreased": 1}}]}
+{"batchcode": "EW-164", "histograms": [{"histogram": {"Cerebrovascular accident": 1, "Diabetes mellitus": 1, "Dyspnoea": 1, "Memory impairment": 1, "Muscular weakness": 1, "Transient ischaemic attack": 1, "Weight decreased": 1}, "batchcodes": ["EN6205", "EW-164"]}]}

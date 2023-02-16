@@ -1,1 +1,1 @@
-{"batchcode": "O11L2DA", "histograms": [{"batchcodes": ["O11L2DA"], "histogram": {"Asthenia": 2, "Pyrexia": 2, "Chills": 1, "Dizziness": 1, "Fatigue": 1, "Gait disturbance": 1, "Headache": 1, "Injection site pain": 1, "Lethargy": 1, "Pain": 1, "Pain in extremity": 1}}]}
+{"batchcode": "O11L2DA", "histograms": [{"histogram": {"Asthenia": 2, "Pyrexia": 2, "Chills": 1, "Dizziness": 1, "Fatigue": 1, "Gait disturbance": 1, "Headache": 1, "Injection site pain": 1, "Lethargy": 1, "Pain": 1, "Pain in extremity": 1}, "batchcodes": ["O11L2DA"]}]}

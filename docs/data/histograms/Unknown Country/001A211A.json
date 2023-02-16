@@ -1,1 +1,1 @@
-{"batchcode": "001A211A", "histograms": [{"batchcodes": ["001A211A"], "histogram": {"Chills": 1, "Diarrhoea": 1, "Dizziness": 1, "Headache": 1, "Injection site pain": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Vomiting": 1}}]}
+{"batchcode": "001A211A", "histograms": [{"histogram": {"Chills": 1, "Diarrhoea": 1, "Dizziness": 1, "Headache": 1, "Injection site pain": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Vomiting": 1}, "batchcodes": ["001A211A"]}]}

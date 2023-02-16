@@ -1,1 +1,1 @@
-{"batchcode": "WAG15080", "histograms": [{"batchcodes": ["WAG15080", "WAL15080"], "histogram": {"Eye swelling": 1, "Lip swelling": 1, "Throat tightness": 1, "Urticaria": 1, "Vaccination complication": 1}}]}
+{"batchcode": "WAG15080", "histograms": [{"histogram": {"Eye swelling": 1, "Lip swelling": 1, "Throat tightness": 1, "Urticaria": 1, "Vaccination complication": 1}, "batchcodes": ["WAG15080", "WAL15080"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FN6206", "histograms": [{"batchcodes": ["FN6206"], "histogram": {"Abdominal pain upper": 1, "Arthralgia": 1, "Dizziness": 1, "Fall": 1, "Hyperhidrosis": 1, "Musculoskeletal pain": 1, "Nausea": 1, "Syncope": 1}}]}
+{"batchcode": "FN6206", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Arthralgia": 1, "Dizziness": 1, "Fall": 1, "Hyperhidrosis": 1, "Musculoskeletal pain": 1, "Nausea": 1, "Syncope": 1}, "batchcodes": ["FN6206"]}]}

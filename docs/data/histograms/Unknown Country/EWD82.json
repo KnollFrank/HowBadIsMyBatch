@@ -1,1 +1,1 @@
-{"batchcode": "EWD82", "histograms": [{"batchcodes": ["EWD82"], "histogram": {"Cardiac monitoring normal": 1, "Echocardiogram normal": 1, "Electrocardiogram QT prolonged": 1, "Electrocardiogram T wave abnormal": 1, "Electrocardiogram abnormal": 1, "Heart rate abnormal": 1, "Tremor": 1}}]}
+{"batchcode": "EWD82", "histograms": [{"histogram": {"Cardiac monitoring normal": 1, "Echocardiogram normal": 1, "Electrocardiogram QT prolonged": 1, "Electrocardiogram T wave abnormal": 1, "Electrocardiogram abnormal": 1, "Heart rate abnormal": 1, "Tremor": 1}, "batchcodes": ["EWD82"]}]}

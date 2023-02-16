@@ -1,1 +1,1 @@
-{"batchcode": "ET7205 - EX0893", "histograms": [{"batchcodes": ["ET7205 - EX0893"], "histogram": {"Blood pressure decreased": 1, "Dizziness": 1, "Head discomfort": 1, "Hyponatraemia": 1, "Nausea": 1}}]}
+{"batchcode": "ET7205 - EX0893", "histograms": [{"histogram": {"Blood pressure decreased": 1, "Dizziness": 1, "Head discomfort": 1, "Hyponatraemia": 1, "Nausea": 1}, "batchcodes": ["ET7205 - EX0893"]}]}

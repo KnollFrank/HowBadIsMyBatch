@@ -1,1 +1,1 @@
-{"batchcode": "EW175", "histograms": [{"batchcodes": ["EW175"], "histogram": {"Chest discomfort": 1, "Dysphagia": 1, "Pruritus": 1, "Rash": 1, "Throat tightness": 1, "Uterine haemorrhage": 1}}]}
+{"batchcode": "EW175", "histograms": [{"histogram": {"Chest discomfort": 1, "Dysphagia": 1, "Pruritus": 1, "Rash": 1, "Throat tightness": 1, "Uterine haemorrhage": 1}, "batchcodes": ["EW175"]}]}

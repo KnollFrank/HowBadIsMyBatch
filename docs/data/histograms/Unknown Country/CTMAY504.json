@@ -1,1 +1,1 @@
-{"batchcode": "CTMAY504", "histograms": [{"batchcodes": ["CTMAY504"], "histogram": {"Ageusia": 1, "Arthralgia": 1, "Headache": 1, "Myalgia": 1, "Pyrexia": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "CTMAY504", "histograms": [{"histogram": {"Ageusia": 1, "Arthralgia": 1, "Headache": 1, "Myalgia": 1, "Pyrexia": 1, "Vaccination site pain": 1}, "batchcodes": ["CTMAY504"]}]}

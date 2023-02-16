@@ -1,1 +1,1 @@
-{"batchcode": "EL3300", "histograms": [{"batchcodes": ["EL3300"], "histogram": {"Dyspepsia": 1, "Inappropriate schedule of product administration": 1, "Lymph node pain": 1, "Lymphadenopathy": 1, "Pyrexia": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "EL3300", "histograms": [{"histogram": {"Dyspepsia": 1, "Inappropriate schedule of product administration": 1, "Lymph node pain": 1, "Lymphadenopathy": 1, "Pyrexia": 1, "Vaccination site pain": 1}, "batchcodes": ["EL3300"]}]}

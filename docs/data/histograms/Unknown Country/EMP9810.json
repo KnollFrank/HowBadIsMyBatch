@@ -1,1 +1,1 @@
-{"batchcode": "EMP9810", "histograms": [{"batchcodes": ["EL9265", "EMP9810"], "histogram": {"Acute kidney injury": 1, "Hyponatraemia": 1, "Hypoosmolar state": 1, "Thrombocytopenia": 1}}]}
+{"batchcode": "EMP9810", "histograms": [{"histogram": {"Acute kidney injury": 1, "Hyponatraemia": 1, "Hypoosmolar state": 1, "Thrombocytopenia": 1}, "batchcodes": ["EL9265", "EMP9810"]}]}

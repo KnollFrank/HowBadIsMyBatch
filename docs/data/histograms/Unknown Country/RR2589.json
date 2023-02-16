@@ -1,1 +1,1 @@
-{"batchcode": "RR2589", "histograms": [{"batchcodes": ["RR2589"], "histogram": {"Atrial fibrillation": 1, "Blister": 1, "Blood test": 1, "Electrocardiogram": 1, "Stress echocardiogram": 1, "Urticaria": 1, "X-ray": 1}}]}
+{"batchcode": "RR2589", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Blister": 1, "Blood test": 1, "Electrocardiogram": 1, "Stress echocardiogram": 1, "Urticaria": 1, "X-ray": 1}, "batchcodes": ["RR2589"]}]}

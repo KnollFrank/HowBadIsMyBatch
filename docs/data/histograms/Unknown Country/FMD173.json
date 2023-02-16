@@ -1,1 +1,1 @@
-{"batchcode": "FMD173", "histograms": [{"batchcodes": ["FMD173"], "histogram": {"Asthenia": 1, "Bronchitis": 1, "COVID-19": 1, "Increased viscosity of upper respiratory secretion": 1, "Migraine": 1, "Productive cough": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Wheezing": 1}}]}
+{"batchcode": "FMD173", "histograms": [{"histogram": {"Asthenia": 1, "Bronchitis": 1, "COVID-19": 1, "Increased viscosity of upper respiratory secretion": 1, "Migraine": 1, "Productive cough": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Wheezing": 1}, "batchcodes": ["FMD173"]}]}

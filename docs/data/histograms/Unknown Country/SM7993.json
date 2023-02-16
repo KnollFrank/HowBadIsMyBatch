@@ -1,1 +1,1 @@
-{"batchcode": "SM7993", "histograms": [{"batchcodes": ["SM7993"], "histogram": {"Ageusia": 1, "Anosmia": 1, "Dysphagia": 1, "Headache": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1, "Rash": 1, "Rhinorrhoea": 1}}]}
+{"batchcode": "SM7993", "histograms": [{"histogram": {"Ageusia": 1, "Anosmia": 1, "Dysphagia": 1, "Headache": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1, "Rash": 1, "Rhinorrhoea": 1}, "batchcodes": ["SM7993"]}]}

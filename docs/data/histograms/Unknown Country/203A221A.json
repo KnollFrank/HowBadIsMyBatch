@@ -1,1 +1,1 @@
-{"batchcode": "203A221A", "histograms": [{"batchcodes": ["203A221A"], "histogram": {"Abdominal pain upper": 1, "Chest pain": 1, "Fatigue": 1, "Headache": 1, "Rash": 1, "Rash pruritic": 1, "Sleep disorder": 1, "Urticaria": 1}}]}
+{"batchcode": "203A221A", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Chest pain": 1, "Fatigue": 1, "Headache": 1, "Rash": 1, "Rash pruritic": 1, "Sleep disorder": 1, "Urticaria": 1}, "batchcodes": ["203A221A"]}]}

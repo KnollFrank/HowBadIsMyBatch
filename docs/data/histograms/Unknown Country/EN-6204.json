@@ -1,1 +1,1 @@
-{"batchcode": "EN-6204", "histograms": [{"batchcodes": ["EN-6204", "EP-6955"], "histogram": {"COVID-19": 1, "Intensive care": 1, "SARS-CoV-2 test positive": 1, "Urticaria": 1}}, {"batchcodes": ["EN-6204"], "histogram": {"Aplastic anaemia": 1}}]}
+{"batchcode": "EN-6204", "histograms": [{"histogram": {"COVID-19": 1, "Intensive care": 1, "SARS-CoV-2 test positive": 1, "Urticaria": 1}, "batchcodes": ["EN-6204", "EP-6955"]}, {"histogram": {"Aplastic anaemia": 1}, "batchcodes": ["EN-6204"]}]}

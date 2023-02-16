@@ -1,1 +1,1 @@
-{"batchcode": "303M20A", "histograms": [{"batchcodes": ["303M20A"], "histogram": {"Discomfort": 1, "Injection site rash": 1, "Injection site reaction": 1, "Injection site swelling": 1, "Pain": 1, "Pruritus": 1, "Skin discolouration": 1}}]}
+{"batchcode": "303M20A", "histograms": [{"histogram": {"Discomfort": 1, "Injection site rash": 1, "Injection site reaction": 1, "Injection site swelling": 1, "Pain": 1, "Pruritus": 1, "Skin discolouration": 1}, "batchcodes": ["303M20A"]}]}

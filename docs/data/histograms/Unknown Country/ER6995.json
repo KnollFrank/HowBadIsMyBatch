@@ -1,1 +1,1 @@
-{"batchcode": "ER6995", "histograms": [{"batchcodes": ["ER6995", "ER8727"], "histogram": {"Chills": 1, "Fatigue": 1, "Headache": 1, "Illness": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1, "Sensitive skin": 1}}]}
+{"batchcode": "ER6995", "histograms": [{"histogram": {"Chills": 1, "Fatigue": 1, "Headache": 1, "Illness": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1, "Sensitive skin": 1}, "batchcodes": ["ER6995", "ER8727"]}]}

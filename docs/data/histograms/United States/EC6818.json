@@ -1,1 +1,1 @@
-{"batchcode": "EC6818", "histograms": [{"batchcodes": ["EC6818"], "histogram": {"Chest pain": 1, "Costochondritis": 1, "Hot flush": 1, "Lymphadenopathy": 1, "Menstruation irregular": 1, "Pain in extremity": 1, "Pyrexia": 1}}]}
+{"batchcode": "EC6818", "histograms": [{"histogram": {"Chest pain": 1, "Costochondritis": 1, "Hot flush": 1, "Lymphadenopathy": 1, "Menstruation irregular": 1, "Pain in extremity": 1, "Pyrexia": 1}, "batchcodes": ["EC6818"]}]}

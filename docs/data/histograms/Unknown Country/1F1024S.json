@@ -1,1 +1,1 @@
-{"batchcode": "1F1024S", "histograms": [{"batchcodes": ["1F1024S"], "histogram": {"Arrhythmia": 1, "Chills": 1, "Dizziness": 1, "Headache": 1, "Nasal herpes": 1, "Oral herpes": 1, "Pyrexia": 1, "Tachycardia": 1}}]}
+{"batchcode": "1F1024S", "histograms": [{"histogram": {"Arrhythmia": 1, "Chills": 1, "Dizziness": 1, "Headache": 1, "Nasal herpes": 1, "Oral herpes": 1, "Pyrexia": 1, "Tachycardia": 1}, "batchcodes": ["1F1024S"]}]}

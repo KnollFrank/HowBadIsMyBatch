@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER-EN6207", "histograms": [{"batchcodes": ["PFIZER-EN6207"], "histogram": {"Blood pressure increased": 1, "Migraine": 1, "Paraesthesia oral": 1, "Pruritus": 1, "Rash": 1, "Tremor": 1, "Urticaria": 1}}]}
+{"batchcode": "PFIZER-EN6207", "histograms": [{"histogram": {"Blood pressure increased": 1, "Migraine": 1, "Paraesthesia oral": 1, "Pruritus": 1, "Rash": 1, "Tremor": 1, "Urticaria": 1}, "batchcodes": ["PFIZER-EN6207"]}]}

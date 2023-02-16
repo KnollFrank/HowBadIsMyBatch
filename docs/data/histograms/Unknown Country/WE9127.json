@@ -1,1 +1,1 @@
-{"batchcode": "WE9127", "histograms": [{"batchcodes": ["WE9127"], "histogram": {"Blood test": 1, "Cerebral infarction": 1, "Hypoaesthesia": 1, "Pain": 1, "Paraesthesia": 1, "Platelet count": 1}}]}
+{"batchcode": "WE9127", "histograms": [{"histogram": {"Blood test": 1, "Cerebral infarction": 1, "Hypoaesthesia": 1, "Pain": 1, "Paraesthesia": 1, "Platelet count": 1}, "batchcodes": ["WE9127"]}]}

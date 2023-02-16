@@ -1,1 +1,1 @@
-{"batchcode": "EUA  BOX#18", "histograms": [{"batchcodes": ["EUA  BOX#18"], "histogram": {"Atrial fibrillation": 1, "Blood test normal": 1, "Electrocardiogram normal": 1, "Fatigue": 1, "Heart rate abnormal": 1, "Joint swelling": 1}}]}
+{"batchcode": "EUA  BOX#18", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Blood test normal": 1, "Electrocardiogram normal": 1, "Fatigue": 1, "Heart rate abnormal": 1, "Joint swelling": 1}, "batchcodes": ["EUA  BOX#18"]}]}

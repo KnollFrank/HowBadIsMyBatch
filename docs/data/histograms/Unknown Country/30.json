@@ -1,1 +1,1 @@
-{"batchcode": "30", "histograms": [{"batchcodes": ["30"], "histogram": {"Dizziness": 1, "Fatigue": 1, "Oropharyngeal pain": 1, "Pain in extremity": 1, "Throat tightness": 1}}]}
+{"batchcode": "30", "histograms": [{"histogram": {"Dizziness": 1, "Fatigue": 1, "Oropharyngeal pain": 1, "Pain in extremity": 1, "Throat tightness": 1}, "batchcodes": ["30"]}]}

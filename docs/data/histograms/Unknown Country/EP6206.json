@@ -1,1 +1,1 @@
-{"batchcode": "EP6206", "histograms": [{"batchcodes": ["EP6206", "EP7534"], "histogram": {"Malaise": 1}}, {"batchcodes": ["EP6206"], "histogram": {"Injected limb mobility decreased": 1, "Pain": 1, "Pain in extremity": 1, "X-ray limb normal": 1}}]}
+{"batchcode": "EP6206", "histograms": [{"histogram": {"Malaise": 1}, "batchcodes": ["EP6206", "EP7534"]}, {"histogram": {"Injected limb mobility decreased": 1, "Pain": 1, "Pain in extremity": 1, "X-ray limb normal": 1}, "batchcodes": ["EP6206"]}]}

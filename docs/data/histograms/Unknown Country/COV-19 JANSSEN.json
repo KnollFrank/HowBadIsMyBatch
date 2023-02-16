@@ -1,1 +1,1 @@
-{"batchcode": "COV-19 JANSSEN", "histograms": [{"batchcodes": ["COV-19 JANSSEN"], "histogram": {"Heart rate increased": 1, "Peripheral swelling": 1, "Rash": 1, "Swelling face": 1}}]}
+{"batchcode": "COV-19 JANSSEN", "histograms": [{"histogram": {"Heart rate increased": 1, "Peripheral swelling": 1, "Rash": 1, "Swelling face": 1}, "batchcodes": ["COV-19 JANSSEN"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "ERV3143", "histograms": [{"batchcodes": ["ERV3143"], "histogram": {"SARS-CoV-2 test": 2, "COVID-19": 1, "Discomfort": 1, "Drug ineffective": 1, "Pain": 1, "Swelling": 1, "Varicose vein": 1}}]}
+{"batchcode": "ERV3143", "histograms": [{"histogram": {"SARS-CoV-2 test": 2, "COVID-19": 1, "Discomfort": 1, "Drug ineffective": 1, "Pain": 1, "Swelling": 1, "Varicose vein": 1}, "batchcodes": ["ERV3143"]}]}

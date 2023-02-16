@@ -1,1 +1,1 @@
-{"batchcode": "EWU191", "histograms": [{"batchcodes": ["EWU191"], "histogram": {"Dizziness": 1, "Fatigue": 1, "Feeling cold": 1, "Headache": 1, "Hot flush": 1, "Injection site pain": 1, "Nausea": 1}}]}
+{"batchcode": "EWU191", "histograms": [{"histogram": {"Dizziness": 1, "Fatigue": 1, "Feeling cold": 1, "Headache": 1, "Hot flush": 1, "Injection site pain": 1, "Nausea": 1}, "batchcodes": ["EWU191"]}]}

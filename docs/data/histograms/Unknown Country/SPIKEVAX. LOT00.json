@@ -1,1 +1,1 @@
-{"batchcode": "SPIKEVAX. LOT00", "histograms": [{"batchcodes": ["SPIKEVAX. LOT00"], "histogram": {"Blindness unilateral": 1, "Blood pressure systolic": 1, "Heart rate": 1, "Hypertension": 1, "Retinal vascular occlusion": 1, "Tachycardia": 1}}]}
+{"batchcode": "SPIKEVAX. LOT00", "histograms": [{"histogram": {"Blindness unilateral": 1, "Blood pressure systolic": 1, "Heart rate": 1, "Hypertension": 1, "Retinal vascular occlusion": 1, "Tachycardia": 1}, "batchcodes": ["SPIKEVAX. LOT00"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FE3184", "histograms": [{"batchcodes": ["FE3184"], "histogram": {"Asthenia": 1, "Blood cholesterol": 1, "Blood test": 1, "Chest pain": 1, "Dyspnoea": 1, "Fatigue": 1, "Lymphadenopathy": 1, "Neck mass": 1, "Pyrexia": 1, "Swelling": 1, "Vitamin D decreased": 1}}]}
+{"batchcode": "FE3184", "histograms": [{"histogram": {"Asthenia": 1, "Blood cholesterol": 1, "Blood test": 1, "Chest pain": 1, "Dyspnoea": 1, "Fatigue": 1, "Lymphadenopathy": 1, "Neck mass": 1, "Pyrexia": 1, "Swelling": 1, "Vitamin D decreased": 1}, "batchcodes": ["FE3184"]}]}

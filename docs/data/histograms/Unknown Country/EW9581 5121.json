@@ -1,1 +1,1 @@
-{"batchcode": "EW9581 5121", "histograms": [{"batchcodes": ["EL3302", "EW9581 5121"], "histogram": {"Headache": 2, "Back pain": 1, "Eye irritation": 1, "Facial pain": 1, "Limb discomfort": 1, "Nausea": 1, "Neck pain": 1, "Pain in extremity": 1}}]}
+{"batchcode": "EW9581 5121", "histograms": [{"histogram": {"Headache": 2, "Back pain": 1, "Eye irritation": 1, "Facial pain": 1, "Limb discomfort": 1, "Nausea": 1, "Neck pain": 1, "Pain in extremity": 1}, "batchcodes": ["EL3302", "EW9581 5121"]}]}

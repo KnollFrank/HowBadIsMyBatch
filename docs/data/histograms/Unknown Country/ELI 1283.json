@@ -1,1 +1,1 @@
-{"batchcode": "ELI 1283", "histograms": [{"batchcodes": ["ELI 1283"], "histogram": {"Abortion missed": 1, "Foetal heart rate abnormal": 1, "Ultrasound scan": 1, "Uterine dilation and curettage": 1}}]}
+{"batchcode": "ELI 1283", "histograms": [{"histogram": {"Abortion missed": 1, "Foetal heart rate abnormal": 1, "Ultrasound scan": 1, "Uterine dilation and curettage": 1}, "batchcodes": ["ELI 1283"]}]}

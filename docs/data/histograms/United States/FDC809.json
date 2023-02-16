@@ -1,1 +1,1 @@
-{"batchcode": "FDC809", "histograms": [{"batchcodes": ["FDC809"], "histogram": {"Anxiety": 1, "Blood pressure measurement": 1, "Expired product administered": 1, "Fear": 1, "Headache": 1, "Hypertension": 1, "Nervousness": 1}}]}
+{"batchcode": "FDC809", "histograms": [{"histogram": {"Anxiety": 1, "Blood pressure measurement": 1, "Expired product administered": 1, "Fear": 1, "Headache": 1, "Hypertension": 1, "Nervousness": 1}, "batchcodes": ["FDC809"]}]}

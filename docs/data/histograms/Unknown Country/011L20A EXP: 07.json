@@ -1,1 +1,1 @@
-{"batchcode": "011L20A EXP: 07", "histograms": [{"batchcodes": ["011L20A EXP: 07"], "histogram": {"COVID-19": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site rash": 1, "Injection site swelling": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "011L20A EXP: 07", "histograms": [{"histogram": {"COVID-19": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site rash": 1, "Injection site swelling": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["011L20A EXP: 07"]}]}

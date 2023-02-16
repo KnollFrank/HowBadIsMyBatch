@@ -1,1 +1,1 @@
-{"batchcode": "DB9K2DA", "histograms": [{"batchcodes": ["DB9K2DA"], "histogram": {"Blood pressure increased": 1, "Erythema": 1, "Pruritus": 1}}]}
+{"batchcode": "DB9K2DA", "histograms": [{"histogram": {"Blood pressure increased": 1, "Erythema": 1, "Pruritus": 1}, "batchcodes": ["DB9K2DA"]}]}

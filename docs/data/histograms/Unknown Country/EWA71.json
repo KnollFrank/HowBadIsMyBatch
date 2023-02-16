@@ -1,1 +1,1 @@
-{"batchcode": "EWA71", "histograms": [{"batchcodes": ["ER8737", "EWA71"], "histogram": {"Arthralgia": 1, "Arthritis": 1, "Gait inability": 1, "Magnetic resonance imaging abnormal": 1, "Muscle disorder": 1, "Myalgia": 1, "Myositis": 1, "Pain": 1, "Sleep disorder": 1, "X-ray": 1}}]}
+{"batchcode": "EWA71", "histograms": [{"histogram": {"Arthralgia": 1, "Arthritis": 1, "Gait inability": 1, "Magnetic resonance imaging abnormal": 1, "Muscle disorder": 1, "Myalgia": 1, "Myositis": 1, "Pain": 1, "Sleep disorder": 1, "X-ray": 1}, "batchcodes": ["ER8737", "EWA71"]}]}

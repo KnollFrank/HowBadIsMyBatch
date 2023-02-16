@@ -1,1 +1,1 @@
-{"batchcode": "ET3675", "histograms": [{"batchcodes": ["ET3675"], "histogram": {"Arrhythmia": 1, "Blood pressure fluctuation": 1, "Cardiovascular examination": 1, "Coma": 1, "Duodenogastric reflux": 1, "Joint swelling": 1, "Palpitations": 1, "Rash": 1}}]}
+{"batchcode": "ET3675", "histograms": [{"histogram": {"Arrhythmia": 1, "Blood pressure fluctuation": 1, "Cardiovascular examination": 1, "Coma": 1, "Duodenogastric reflux": 1, "Joint swelling": 1, "Palpitations": 1, "Rash": 1}, "batchcodes": ["ET3675"]}]}

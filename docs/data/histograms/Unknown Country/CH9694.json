@@ -1,1 +1,1 @@
-{"batchcode": "CH9694", "histograms": [{"batchcodes": ["CH9694"], "histogram": {"Chest X-ray normal": 1, "Chest pain": 1, "Dyspnoea": 1, "Impaired work ability": 1, "Pleurisy": 1, "SARS-CoV-2 test negative": 1, "Streptococcus test negative": 1}}]}
+{"batchcode": "CH9694", "histograms": [{"histogram": {"Chest X-ray normal": 1, "Chest pain": 1, "Dyspnoea": 1, "Impaired work ability": 1, "Pleurisy": 1, "SARS-CoV-2 test negative": 1, "Streptococcus test negative": 1}, "batchcodes": ["CH9694"]}]}

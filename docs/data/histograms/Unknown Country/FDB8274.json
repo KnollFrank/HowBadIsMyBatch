@@ -1,1 +1,1 @@
-{"batchcode": "FDB8274", "histograms": [{"batchcodes": ["FDB8274"], "histogram": {"Blood iron": 1, "Blood loss anaemia": 1, "Haematocrit": 1, "Haemoglobin": 1, "Heavy menstrual bleeding": 1, "Red blood cell count": 1}}]}
+{"batchcode": "FDB8274", "histograms": [{"histogram": {"Blood iron": 1, "Blood loss anaemia": 1, "Haematocrit": 1, "Haemoglobin": 1, "Heavy menstrual bleeding": 1, "Red blood cell count": 1}, "batchcodes": ["FDB8274"]}]}

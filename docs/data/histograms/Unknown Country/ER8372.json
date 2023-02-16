@@ -1,1 +1,1 @@
-{"batchcode": "ER8372", "histograms": [{"batchcodes": ["ER8372"], "histogram": {"Contusion": 1, "Dizziness": 1, "Immediate post-injection reaction": 1, "Needle issue": 1, "Pain": 1, "Pain in extremity": 1, "Product administered at inappropriate site": 1}}]}
+{"batchcode": "ER8372", "histograms": [{"histogram": {"Contusion": 1, "Dizziness": 1, "Immediate post-injection reaction": 1, "Needle issue": 1, "Pain": 1, "Pain in extremity": 1, "Product administered at inappropriate site": 1}, "batchcodes": ["ER8372"]}]}

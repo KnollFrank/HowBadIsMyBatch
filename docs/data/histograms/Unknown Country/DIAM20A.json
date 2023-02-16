@@ -1,1 +1,1 @@
-{"batchcode": "DIAM20A", "histograms": [{"batchcodes": ["DIAM20A"], "histogram": {"Arthralgia": 1, "Joint effusion": 1, "Joint swelling": 1, "Knee operation": 1, "Laboratory test": 1, "Magnetic resonance imaging": 1, "Synovitis": 1, "X-ray": 1}}]}
+{"batchcode": "DIAM20A", "histograms": [{"histogram": {"Arthralgia": 1, "Joint effusion": 1, "Joint swelling": 1, "Knee operation": 1, "Laboratory test": 1, "Magnetic resonance imaging": 1, "Synovitis": 1, "X-ray": 1}, "batchcodes": ["DIAM20A"]}]}

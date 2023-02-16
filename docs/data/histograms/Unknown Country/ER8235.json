@@ -1,1 +1,1 @@
-{"batchcode": "ER8235", "histograms": [{"batchcodes": ["ER8235", "EW0198"], "histogram": {"Fatigue": 1, "Pain": 1, "Pyrexia": 1, "Tremor": 1}}, {"batchcodes": ["ER8235"], "histogram": {"Discomfort": 1, "Fatigue": 1, "Head discomfort": 1}}]}
+{"batchcode": "ER8235", "histograms": [{"histogram": {"Fatigue": 1, "Pain": 1, "Pyrexia": 1, "Tremor": 1}, "batchcodes": ["ER8235", "EW0198"]}, {"histogram": {"Discomfort": 1, "Fatigue": 1, "Head discomfort": 1}, "batchcodes": ["ER8235"]}]}

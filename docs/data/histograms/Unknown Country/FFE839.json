@@ -1,1 +1,1 @@
-{"batchcode": "FFE839", "histograms": [{"batchcodes": ["EN6202", "EN9581", "FFE839"], "histogram": {"Gingival bleeding": 1, "Gingival swelling": 1, "Glossodynia": 1, "Tongue discolouration": 1, "Tongue disorder": 1}}]}
+{"batchcode": "FFE839", "histograms": [{"histogram": {"Gingival bleeding": 1, "Gingival swelling": 1, "Glossodynia": 1, "Tongue discolouration": 1, "Tongue disorder": 1}, "batchcodes": ["EN6202", "EN9581", "FFE839"]}]}

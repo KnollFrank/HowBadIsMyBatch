@@ -1,1 +1,1 @@
-{"batchcode": "ENP6955", "histograms": [{"batchcodes": ["ENP6955"], "histogram": {"Musculoskeletal discomfort": 1, "Restless legs syndrome": 1, "Tinnitus": 1}}]}
+{"batchcode": "ENP6955", "histograms": [{"histogram": {"Musculoskeletal discomfort": 1, "Restless legs syndrome": 1, "Tinnitus": 1}, "batchcodes": ["ENP6955"]}]}

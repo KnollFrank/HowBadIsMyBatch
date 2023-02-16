@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EW985", "histograms": [{"batchcodes": ["PFIZER EW985"], "histogram": {"Anti-cyclic citrullinated peptide antibody positive": 1, "Arthralgia": 1, "Condition aggravated": 1, "Fatigue": 1, "Rheumatoid arthritis": 1}}]}
+{"batchcode": "PFIZER EW985", "histograms": [{"histogram": {"Anti-cyclic citrullinated peptide antibody positive": 1, "Arthralgia": 1, "Condition aggravated": 1, "Fatigue": 1, "Rheumatoid arthritis": 1}, "batchcodes": ["PFIZER EW985"]}]}

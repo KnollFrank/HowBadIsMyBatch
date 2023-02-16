@@ -1,1 +1,1 @@
-{"batchcode": "EK-5370", "histograms": [{"batchcodes": ["EK-5370"], "histogram": {"Arthralgia": 1, "COVID-19": 1, "Cough": 1, "Dysphonia": 1, "Malaise": 1, "Myalgia": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Wheezing": 1}}]}
+{"batchcode": "EK-5370", "histograms": [{"histogram": {"Arthralgia": 1, "COVID-19": 1, "Cough": 1, "Dysphonia": 1, "Malaise": 1, "Myalgia": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Wheezing": 1}, "batchcodes": ["EK-5370"]}]}

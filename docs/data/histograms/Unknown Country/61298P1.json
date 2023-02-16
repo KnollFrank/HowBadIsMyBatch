@@ -1,1 +1,1 @@
-{"batchcode": "61298P1", "histograms": [{"batchcodes": ["61298P1"], "histogram": {"Blood pressure increased": 1, "Disturbance in attention": 1, "Fatigue": 1, "Feeling drunk": 1, "Headache": 1, "Magnetic resonance imaging": 1, "Ultrasound scan": 1, "Vision blurred": 1}}]}
+{"batchcode": "61298P1", "histograms": [{"histogram": {"Blood pressure increased": 1, "Disturbance in attention": 1, "Fatigue": 1, "Feeling drunk": 1, "Headache": 1, "Magnetic resonance imaging": 1, "Ultrasound scan": 1, "Vision blurred": 1}, "batchcodes": ["61298P1"]}]}

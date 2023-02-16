@@ -1,1 +1,1 @@
-{"batchcode": "F31600", "histograms": [{"batchcodes": ["F31600"], "histogram": {"COVID-19": 1, "Chills": 1, "Cough": 1, "Diarrhoea": 1, "Fatigue": 1, "Headache": 1, "Illness": 1, "Malaise": 1, "Nasopharyngitis": 1, "Pyrexia": 1}}]}
+{"batchcode": "F31600", "histograms": [{"histogram": {"COVID-19": 1, "Chills": 1, "Cough": 1, "Diarrhoea": 1, "Fatigue": 1, "Headache": 1, "Illness": 1, "Malaise": 1, "Nasopharyngitis": 1, "Pyrexia": 1}, "batchcodes": ["F31600"]}]}

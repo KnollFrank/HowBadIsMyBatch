@@ -1,1 +1,1 @@
-{"batchcode": "O38A21A", "histograms": [{"batchcodes": ["O38A21A"], "histogram": {"COVID-19": 1, "Chest pain": 1, "Cough": 1, "Diarrhoea": 1, "Illness": 1, "Nausea": 1, "Vomiting": 1}}]}
+{"batchcode": "O38A21A", "histograms": [{"histogram": {"COVID-19": 1, "Chest pain": 1, "Cough": 1, "Diarrhoea": 1, "Illness": 1, "Nausea": 1, "Vomiting": 1}, "batchcodes": ["O38A21A"]}]}

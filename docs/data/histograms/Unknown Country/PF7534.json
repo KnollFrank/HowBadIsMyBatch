@@ -1,1 +1,1 @@
-{"batchcode": "PF7534", "histograms": [{"batchcodes": ["PF7534"], "histogram": {"Confusional state": 1, "Fatigue": 1, "Headache": 1, "Hypoaesthesia": 1, "Hypogeusia": 1, "Hyposmia": 1, "Nausea": 1, "Rash": 1, "SARS-CoV-2 test negative": 1}}]}
+{"batchcode": "PF7534", "histograms": [{"histogram": {"Confusional state": 1, "Fatigue": 1, "Headache": 1, "Hypoaesthesia": 1, "Hypogeusia": 1, "Hyposmia": 1, "Nausea": 1, "Rash": 1, "SARS-CoV-2 test negative": 1}, "batchcodes": ["PF7534"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "2042 KERN ST,", "histograms": [{"batchcodes": ["2042 KERN ST,"], "histogram": {"Fall": 1, "Gait inability": 1, "Loss of personal independence in daily activities": 1, "Mobility decreased": 1, "Neurological symptom": 1}}]}
+{"batchcode": "2042 KERN ST,", "histograms": [{"histogram": {"Fall": 1, "Gait inability": 1, "Loss of personal independence in daily activities": 1, "Mobility decreased": 1, "Neurological symptom": 1}, "batchcodes": ["2042 KERN ST,"]}]}

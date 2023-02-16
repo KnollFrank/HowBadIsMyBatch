@@ -1,1 +1,1 @@
-{"batchcode": "SL0007", "histograms": [{"batchcodes": ["SL0007"], "histogram": {"COVID-19": 1, "Cough": 1, "Epistaxis": 1, "Incorrect dose administered": 1, "Oropharyngeal pain": 1, "Product administered to patient of inappropriate age": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "SL0007", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Epistaxis": 1, "Incorrect dose administered": 1, "Oropharyngeal pain": 1, "Product administered to patient of inappropriate age": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["SL0007"]}]}

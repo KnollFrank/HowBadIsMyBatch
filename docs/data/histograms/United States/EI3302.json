@@ -1,1 +1,1 @@
-{"batchcode": "EI3302", "histograms": [{"batchcodes": ["EI3302"], "histogram": {"Body temperature": 1, "Disease recurrence": 1, "Headache": 1, "Pain in extremity": 1, "Pyrexia": 1, "Urticaria": 1}}]}
+{"batchcode": "EI3302", "histograms": [{"histogram": {"Body temperature": 1, "Disease recurrence": 1, "Headache": 1, "Pain in extremity": 1, "Pyrexia": 1, "Urticaria": 1}, "batchcodes": ["EI3302"]}]}

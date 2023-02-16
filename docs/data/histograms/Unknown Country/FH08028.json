@@ -1,1 +1,1 @@
-{"batchcode": "FH08028", "histograms": [{"batchcodes": ["FH08028"], "histogram": {"Fatigue": 1, "Muscle spasms": 1, "Myalgia": 1, "Neurological examination": 1, "Tendonitis": 1, "Tenosynovitis stenosans": 1, "Trigger finger": 1}}]}
+{"batchcode": "FH08028", "histograms": [{"histogram": {"Fatigue": 1, "Muscle spasms": 1, "Myalgia": 1, "Neurological examination": 1, "Tendonitis": 1, "Tenosynovitis stenosans": 1, "Trigger finger": 1}, "batchcodes": ["FH08028"]}]}

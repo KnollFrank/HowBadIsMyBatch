@@ -1,1 +1,1 @@
-{"batchcode": "EL7410", "histograms": [{"batchcodes": ["EL7410"], "histogram": {"Back pain": 1, "Blood cholesterol increased": 1, "Blood test abnormal": 1, "Glucose tolerance impaired": 1, "Hypertension": 1, "Neck pain": 1}}]}
+{"batchcode": "EL7410", "histograms": [{"histogram": {"Back pain": 1, "Blood cholesterol increased": 1, "Blood test abnormal": 1, "Glucose tolerance impaired": 1, "Hypertension": 1, "Neck pain": 1}, "batchcodes": ["EL7410"]}]}

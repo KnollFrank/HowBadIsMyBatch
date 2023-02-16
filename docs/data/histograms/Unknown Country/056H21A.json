@@ -1,1 +1,1 @@
-{"batchcode": "056H21A", "histograms": [{"batchcodes": ["056H21A"], "histogram": {"Arthralgia": 1, "COVID-19": 1, "Cough": 1, "Headache": 1, "Incorrect dose administered": 1, "Myalgia": 1, "Pyrexia": 1, "Renal function test normal": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "056H21A", "histograms": [{"histogram": {"Arthralgia": 1, "COVID-19": 1, "Cough": 1, "Headache": 1, "Incorrect dose administered": 1, "Myalgia": 1, "Pyrexia": 1, "Renal function test normal": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["056H21A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FF2543", "histograms": [{"batchcodes": ["FF2543"], "histogram": {"Abdominal pain upper": 1, "Chest pain": 1, "Cholecystitis": 1, "Cough": 1, "Dyspnoea": 1, "Headache": 1, "Inflammatory marker increased": 1, "Influenza": 1, "Painful respiration": 1}}]}
+{"batchcode": "FF2543", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Chest pain": 1, "Cholecystitis": 1, "Cough": 1, "Dyspnoea": 1, "Headache": 1, "Inflammatory marker increased": 1, "Influenza": 1, "Painful respiration": 1}, "batchcodes": ["FF2543"]}]}

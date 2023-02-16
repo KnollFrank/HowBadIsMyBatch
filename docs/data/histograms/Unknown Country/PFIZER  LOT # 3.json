@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER  LOT # 3", "histograms": [{"batchcodes": ["PFIZER  LOT # 3"], "histogram": {"Immunodeficiency": 1, "Inappropriate schedule of product administration": 1, "Interchange of vaccine products": 1}}]}
+{"batchcode": "PFIZER  LOT # 3", "histograms": [{"histogram": {"Immunodeficiency": 1, "Inappropriate schedule of product administration": 1, "Interchange of vaccine products": 1}, "batchcodes": ["PFIZER  LOT # 3"]}]}

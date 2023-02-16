@@ -1,1 +1,1 @@
-{"batchcode": "ABV8877     ABV", "histograms": [{"batchcodes": ["ABV8877     ABV"], "histogram": {"Myalgia": 1, "Petechiae": 1, "Skin haemorrhage": 1}}]}
+{"batchcode": "ABV8877     ABV", "histograms": [{"histogram": {"Myalgia": 1, "Petechiae": 1, "Skin haemorrhage": 1}, "batchcodes": ["ABV8877     ABV"]}]}

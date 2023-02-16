@@ -1,1 +1,1 @@
-{"batchcode": "BCY 8_0", "histograms": [{"batchcodes": ["BCY 8_0"], "histogram": {"Chest pain": 1, "Dyspnoea": 1, "Immunisation": 1, "Myocarditis": 1, "Pain in extremity": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "BCY 8_0", "histograms": [{"histogram": {"Chest pain": 1, "Dyspnoea": 1, "Immunisation": 1, "Myocarditis": 1, "Pain in extremity": 1, "Vaccination site pain": 1}, "batchcodes": ["BCY 8_0"]}]}

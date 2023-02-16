@@ -1,1 +1,1 @@
-{"batchcode": "EN6799", "histograms": [{"batchcodes": ["EN6201", "EN6799"], "histogram": {"Autoimmune thyroiditis": 1, "Blood test": 1, "Weight increased": 1}}]}
+{"batchcode": "EN6799", "histograms": [{"histogram": {"Autoimmune thyroiditis": 1, "Blood test": 1, "Weight increased": 1}, "batchcodes": ["EN6201", "EN6799"]}]}

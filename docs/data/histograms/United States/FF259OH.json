@@ -1,1 +1,1 @@
-{"batchcode": "FF259OH", "histograms": [{"batchcodes": ["FF259OH"], "histogram": {"Vaccination site erythema": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "FF259OH", "histograms": [{"histogram": {"Vaccination site erythema": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}, "batchcodes": ["FF259OH"]}]}

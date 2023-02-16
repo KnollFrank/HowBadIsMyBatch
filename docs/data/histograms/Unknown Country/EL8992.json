@@ -1,1 +1,1 @@
-{"batchcode": "EL8992", "histograms": [{"batchcodes": ["EL8992"], "histogram": {"Headache": 2, "Back pain": 1, "Blood glucose normal": 1, "Chills": 1, "Diarrhoea": 1, "Dizziness": 1, "Flatulence": 1, "Injection site pain": 1, "Sluggishness": 1, "Thirst": 1}}]}
+{"batchcode": "EL8992", "histograms": [{"histogram": {"Headache": 2, "Back pain": 1, "Blood glucose normal": 1, "Chills": 1, "Diarrhoea": 1, "Dizziness": 1, "Flatulence": 1, "Injection site pain": 1, "Sluggishness": 1, "Thirst": 1}, "batchcodes": ["EL8992"]}]}

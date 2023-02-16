@@ -1,1 +1,1 @@
-{"batchcode": "046A20A", "histograms": [{"batchcodes": ["022M20A", "046A20A"], "histogram": {"Asthenia": 1, "Blood test": 1, "Cardiac stress test": 1, "Dizziness": 1, "Electrocardiogram": 1, "Fatigue": 1, "Myalgia": 1, "Stool analysis": 1}}]}
+{"batchcode": "046A20A", "histograms": [{"histogram": {"Asthenia": 1, "Blood test": 1, "Cardiac stress test": 1, "Dizziness": 1, "Electrocardiogram": 1, "Fatigue": 1, "Myalgia": 1, "Stool analysis": 1}, "batchcodes": ["022M20A", "046A20A"]}]}

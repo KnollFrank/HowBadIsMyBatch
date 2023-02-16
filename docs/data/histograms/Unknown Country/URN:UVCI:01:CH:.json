@@ -1,1 +1,1 @@
-{"batchcode": "URN:UVCI:01:CH:", "histograms": [{"batchcodes": ["URN:UVCI:01:CH:"], "histogram": {"Hypoaesthesia": 1, "Pain": 1, "Paraesthesia": 1, "Paralysis": 1, "Swelling": 1, "Vaccination site pain": 1, "Vaginal haemorrhage": 1}}]}
+{"batchcode": "URN:UVCI:01:CH:", "histograms": [{"histogram": {"Hypoaesthesia": 1, "Pain": 1, "Paraesthesia": 1, "Paralysis": 1, "Swelling": 1, "Vaccination site pain": 1, "Vaginal haemorrhage": 1}, "batchcodes": ["URN:UVCI:01:CH:"]}]}

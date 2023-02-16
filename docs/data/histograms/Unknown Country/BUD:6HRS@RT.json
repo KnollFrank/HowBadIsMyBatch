@@ -1,1 +1,1 @@
-{"batchcode": "BUD:6HRS@RT", "histograms": [{"batchcodes": ["BUD:6HRS@RT"], "histogram": {"Fatigue": 1, "Nausea": 1, "Paraesthesia": 1, "Tenderness": 1}}]}
+{"batchcode": "BUD:6HRS@RT", "histograms": [{"histogram": {"Fatigue": 1, "Nausea": 1, "Paraesthesia": 1, "Tenderness": 1}, "batchcodes": ["BUD:6HRS@RT"]}]}

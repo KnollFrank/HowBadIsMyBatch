@@ -1,1 +1,1 @@
-{"batchcode": "030G21A SCAD 03", "histograms": [{"batchcodes": ["030G21A SCAD 03"], "histogram": {"Anaemia": 1, "C-reactive protein": 1, "Chest pain": 1, "Fatigue": 1, "Pericarditis": 1, "Tachycardia": 1}}]}
+{"batchcode": "030G21A SCAD 03", "histograms": [{"histogram": {"Anaemia": 1, "C-reactive protein": 1, "Chest pain": 1, "Fatigue": 1, "Pericarditis": 1, "Tachycardia": 1}, "batchcodes": ["030G21A SCAD 03"]}]}

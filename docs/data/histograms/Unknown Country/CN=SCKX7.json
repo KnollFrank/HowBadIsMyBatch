@@ -1,1 +1,1 @@
-{"batchcode": "CN=SCKX7", "histograms": [{"batchcodes": ["CN=SCKX7"], "histogram": {"Myocardial infarction": 1, "Ventricular fibrillation": 1}}]}
+{"batchcode": "CN=SCKX7", "histograms": [{"histogram": {"Myocardial infarction": 1, "Ventricular fibrillation": 1}, "batchcodes": ["CN=SCKX7"]}]}

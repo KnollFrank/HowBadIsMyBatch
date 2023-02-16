@@ -1,1 +1,1 @@
-{"batchcode": "01DE/038084000", "histograms": [{"batchcodes": ["01DE/038084000"], "histogram": {"Exposure during pregnancy": 1, "Foetal growth restriction": 1, "Foetal heart rate disorder": 1, "Tachycardia": 1}}]}
+{"batchcode": "01DE/038084000", "histograms": [{"histogram": {"Exposure during pregnancy": 1, "Foetal growth restriction": 1, "Foetal heart rate disorder": 1, "Tachycardia": 1}, "batchcodes": ["01DE/038084000"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER GRE737", "histograms": [{"batchcodes": ["PFIZER GRE737"], "histogram": {"Colitis": 1, "Computerised tomogram abdomen abnormal": 1, "Diarrhoea": 1, "Dyspepsia": 1, "Stool analysis": 1, "Vomiting": 1}}]}
+{"batchcode": "PFIZER GRE737", "histograms": [{"histogram": {"Colitis": 1, "Computerised tomogram abdomen abnormal": 1, "Diarrhoea": 1, "Dyspepsia": 1, "Stool analysis": 1, "Vomiting": 1}, "batchcodes": ["PFIZER GRE737"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "ER8927", "histograms": [{"batchcodes": ["ER8927"], "histogram": {"Blood potassium increased": 1, "Drug hypersensitivity": 1, "Dysphagia": 1, "Headache": 1, "Throat irritation": 1}}]}
+{"batchcode": "ER8927", "histograms": [{"histogram": {"Blood potassium increased": 1, "Drug hypersensitivity": 1, "Dysphagia": 1, "Headache": 1, "Throat irritation": 1}, "batchcodes": ["ER8927"]}]}

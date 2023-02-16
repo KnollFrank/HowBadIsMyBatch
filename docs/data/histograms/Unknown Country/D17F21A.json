@@ -1,1 +1,1 @@
-{"batchcode": "D17F21A", "histograms": [{"batchcodes": ["D17F21A"], "histogram": {"Brain natriuretic peptide normal": 1, "Chest X-ray normal": 1, "Chest pain": 1, "Electrocardiogram normal": 1, "Fibrin D dimer normal": 1, "Nausea": 1, "Troponin normal": 1, "Vomiting": 1}}]}
+{"batchcode": "D17F21A", "histograms": [{"histogram": {"Brain natriuretic peptide normal": 1, "Chest X-ray normal": 1, "Chest pain": 1, "Electrocardiogram normal": 1, "Fibrin D dimer normal": 1, "Nausea": 1, "Troponin normal": 1, "Vomiting": 1}, "batchcodes": ["D17F21A"]}]}

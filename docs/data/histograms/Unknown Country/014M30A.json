@@ -1,1 +1,1 @@
-{"batchcode": "014M30A", "histograms": [{"batchcodes": ["012M20A", "014M30A"], "histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1, "Vaccine breakthrough infection": 1}}, {"batchcodes": ["014M30A"], "histogram": {"Peripheral swelling": 1}}]}
+{"batchcode": "014M30A", "histograms": [{"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1, "Vaccine breakthrough infection": 1}, "batchcodes": ["012M20A", "014M30A"]}, {"histogram": {"Peripheral swelling": 1}, "batchcodes": ["014M30A"]}]}

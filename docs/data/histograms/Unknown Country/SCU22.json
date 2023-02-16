@@ -1,1 +1,1 @@
-{"batchcode": "SCU22", "histograms": [{"batchcodes": ["SCU22"], "histogram": {"Angiogram": 1, "Embolism arterial": 1, "Interchange of vaccine products": 1, "Ischaemia": 1, "Laboratory test": 1, "Off label use": 1, "Ultrasound Doppler": 1}}]}
+{"batchcode": "SCU22", "histograms": [{"histogram": {"Angiogram": 1, "Embolism arterial": 1, "Interchange of vaccine products": 1, "Ischaemia": 1, "Laboratory test": 1, "Off label use": 1, "Ultrasound Doppler": 1}, "batchcodes": ["SCU22"]}]}

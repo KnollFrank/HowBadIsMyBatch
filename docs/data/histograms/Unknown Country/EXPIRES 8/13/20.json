@@ -1,1 +1,1 @@
-{"batchcode": "EXPIRES 8/13/20", "histograms": [{"batchcodes": ["EXPIRES 8/13/20"], "histogram": {"Headache": 1, "Heart rate increased": 1, "Injection site pain": 1, "Injection site reaction": 1, "Muscle spasms": 1, "Muscle tightness": 1, "Urticaria": 1}}]}
+{"batchcode": "EXPIRES 8/13/20", "histograms": [{"histogram": {"Headache": 1, "Heart rate increased": 1, "Injection site pain": 1, "Injection site reaction": 1, "Muscle spasms": 1, "Muscle tightness": 1, "Urticaria": 1}, "batchcodes": ["EXPIRES 8/13/20"]}]}

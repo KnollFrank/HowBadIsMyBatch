@@ -1,1 +1,1 @@
-{"batchcode": "035C217", "histograms": [{"batchcodes": ["035C217"], "histogram": {"Dizziness": 1, "Epistaxis": 1, "Face and mouth X-ray abnormal": 1, "Facial bones fracture": 1, "Nausea": 1, "Syncope": 1}}]}
+{"batchcode": "035C217", "histograms": [{"histogram": {"Dizziness": 1, "Epistaxis": 1, "Face and mouth X-ray abnormal": 1, "Facial bones fracture": 1, "Nausea": 1, "Syncope": 1}, "batchcodes": ["035C217"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FC3128", "histograms": [{"batchcodes": ["FC3128"], "histogram": {"Asthenia": 1, "Blood pressure increased": 1, "Cold sweat": 1, "Condition aggravated": 1, "Dizziness": 1, "Heart rate increased": 1, "Injection site swelling": 1, "Lymphadenopathy": 1}}]}
+{"batchcode": "FC3128", "histograms": [{"histogram": {"Asthenia": 1, "Blood pressure increased": 1, "Cold sweat": 1, "Condition aggravated": 1, "Dizziness": 1, "Heart rate increased": 1, "Injection site swelling": 1, "Lymphadenopathy": 1}, "batchcodes": ["FC3128"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "LK4243", "histograms": [{"batchcodes": ["LK4243"], "histogram": {"Back pain": 1, "Blood test": 1, "Costochondritis": 1, "Electrocardiogram": 1, "Oxygen saturation decreased": 1, "Palpitations": 1, "X-ray": 1}}]}
+{"batchcode": "LK4243", "histograms": [{"histogram": {"Back pain": 1, "Blood test": 1, "Costochondritis": 1, "Electrocardiogram": 1, "Oxygen saturation decreased": 1, "Palpitations": 1, "X-ray": 1}, "batchcodes": ["LK4243"]}]}

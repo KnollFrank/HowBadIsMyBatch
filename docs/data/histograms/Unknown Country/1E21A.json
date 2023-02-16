@@ -1,1 +1,1 @@
-{"batchcode": "1E21A", "histograms": [{"batchcodes": ["1E21A"], "histogram": {"Blood pressure increased": 1, "Head discomfort": 1, "Hyperhidrosis": 1, "Sudden hearing loss": 1, "Tachycardia": 1, "Tinnitus": 1}}]}
+{"batchcode": "1E21A", "histograms": [{"histogram": {"Blood pressure increased": 1, "Head discomfort": 1, "Hyperhidrosis": 1, "Sudden hearing loss": 1, "Tachycardia": 1, "Tinnitus": 1}, "batchcodes": ["1E21A"]}]}

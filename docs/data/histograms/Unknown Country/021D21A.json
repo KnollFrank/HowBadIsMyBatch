@@ -1,1 +1,1 @@
-{"batchcode": "021D21A", "histograms": [{"batchcodes": ["021D21A"], "histogram": {"Cardiac stress test": 1, "Electrocardiogram": 1, "Extrasystoles": 1, "Muscle twitching": 1, "Palpitations": 1, "Ultrasound scan": 1}}]}
+{"batchcode": "021D21A", "histograms": [{"histogram": {"Cardiac stress test": 1, "Electrocardiogram": 1, "Extrasystoles": 1, "Muscle twitching": 1, "Palpitations": 1, "Ultrasound scan": 1}, "batchcodes": ["021D21A"]}]}

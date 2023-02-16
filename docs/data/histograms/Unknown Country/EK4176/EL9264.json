@@ -1,1 +1,1 @@
-{"batchcode": "EK4176/EL9264", "histograms": [{"batchcodes": ["EK4176/EL9264"], "histogram": {"Blood test": 1, "Carotid artery occlusion": 1, "Computerised tomogram": 1, "Ischaemic stroke": 1, "Magnetic resonance imaging": 1, "Tachycardia": 1}}]}
+{"batchcode": "EK4176/EL9264", "histograms": [{"histogram": {"Blood test": 1, "Carotid artery occlusion": 1, "Computerised tomogram": 1, "Ischaemic stroke": 1, "Magnetic resonance imaging": 1, "Tachycardia": 1}, "batchcodes": ["EK4176/EL9264"]}]}

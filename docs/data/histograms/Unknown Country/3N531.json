@@ -1,1 +1,1 @@
-{"batchcode": "3N531", "histograms": [{"batchcodes": ["3N531"], "histogram": {"Blood glucose increased": 1, "Body temperature increased": 1, "Dyspnoea": 1, "Heart rate increased": 1, "Oxygen saturation decreased": 1, "Tremor": 1}}]}
+{"batchcode": "3N531", "histograms": [{"histogram": {"Blood glucose increased": 1, "Body temperature increased": 1, "Dyspnoea": 1, "Heart rate increased": 1, "Oxygen saturation decreased": 1, "Tremor": 1}, "batchcodes": ["3N531"]}]}

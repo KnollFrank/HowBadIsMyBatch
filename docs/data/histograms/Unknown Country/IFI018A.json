@@ -1,1 +1,1 @@
-{"batchcode": "IFI018A", "histograms": [{"batchcodes": ["IFI018A"], "histogram": {"Aphonia": 1, "COVID-19": 1, "Immunisation": 1, "Lymphadenopathy": 1, "Malaise": 1, "Odynophagia": 1, "SARS-CoV-2 test": 1, "Vaccination failure": 1}}]}
+{"batchcode": "IFI018A", "histograms": [{"histogram": {"Aphonia": 1, "COVID-19": 1, "Immunisation": 1, "Lymphadenopathy": 1, "Malaise": 1, "Odynophagia": 1, "SARS-CoV-2 test": 1, "Vaccination failure": 1}, "batchcodes": ["IFI018A"]}]}

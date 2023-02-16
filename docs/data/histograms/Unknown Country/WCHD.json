@@ -1,1 +1,1 @@
-{"batchcode": "WCHD", "histograms": [{"batchcodes": ["WCHD", "WSHBW"], "histogram": {"Back pain": 1, "Chills": 1, "Condition aggravated": 1, "Fatigue": 1, "Headache": 1, "Heavy menstrual bleeding": 1, "Muscle spasms": 1, "Paraesthesia": 1, "Pyrexia": 1}}]}
+{"batchcode": "WCHD", "histograms": [{"histogram": {"Back pain": 1, "Chills": 1, "Condition aggravated": 1, "Fatigue": 1, "Headache": 1, "Heavy menstrual bleeding": 1, "Muscle spasms": 1, "Paraesthesia": 1, "Pyrexia": 1}, "batchcodes": ["WCHD", "WSHBW"]}]}

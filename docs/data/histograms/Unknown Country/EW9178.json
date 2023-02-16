@@ -1,1 +1,1 @@
-{"batchcode": "EW9178", "histograms": [{"batchcodes": ["EW9178"], "histogram": {"Abdominal pain": 1, "Appendicectomy": 1, "Appendicitis": 1, "Computerised tomogram abnormal": 1, "Full blood count abnormal": 1, "Pyrexia": 1}}]}
+{"batchcode": "EW9178", "histograms": [{"histogram": {"Abdominal pain": 1, "Appendicectomy": 1, "Appendicitis": 1, "Computerised tomogram abnormal": 1, "Full blood count abnormal": 1, "Pyrexia": 1}, "batchcodes": ["EW9178"]}]}

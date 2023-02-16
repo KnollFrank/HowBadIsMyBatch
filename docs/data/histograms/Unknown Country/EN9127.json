@@ -1,1 +1,1 @@
-{"batchcode": "EN9127", "histograms": [{"batchcodes": ["EN9127"], "histogram": {"Arthralgia": 1, "Blood pressure measurement": 1, "Contusion": 1, "Dizziness": 1, "Hypertension": 1, "Lymphadenopathy": 1, "Pain in extremity": 1, "Pallor": 1, "Posture abnormal": 1, "Vision blurred": 1}}]}
+{"batchcode": "EN9127", "histograms": [{"histogram": {"Arthralgia": 1, "Blood pressure measurement": 1, "Contusion": 1, "Dizziness": 1, "Hypertension": 1, "Lymphadenopathy": 1, "Pain in extremity": 1, "Pallor": 1, "Posture abnormal": 1, "Vision blurred": 1}, "batchcodes": ["EN9127"]}]}

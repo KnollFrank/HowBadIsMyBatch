@@ -1,1 +1,1 @@
-{"batchcode": "E69264", "histograms": [{"batchcodes": ["E69264"], "histogram": {"Dizziness": 1, "Head injury": 1, "Loss of consciousness": 1, "Postictal state": 1, "Skin laceration": 1, "Syncope": 1, "Wound haemorrhage": 1}}]}
+{"batchcode": "E69264", "histograms": [{"histogram": {"Dizziness": 1, "Head injury": 1, "Loss of consciousness": 1, "Postictal state": 1, "Skin laceration": 1, "Syncope": 1, "Wound haemorrhage": 1}, "batchcodes": ["E69264"]}]}

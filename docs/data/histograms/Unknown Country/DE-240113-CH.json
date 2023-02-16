@@ -1,1 +1,1 @@
-{"batchcode": "DE-240113-CH", "histograms": [{"batchcodes": ["DE-240113-CH"], "histogram": {"Arrhythmia": 1, "Blood pressure measurement": 1, "Chest discomfort": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Heart rate": 1, "Heart rate increased": 1, "Hypertension": 1, "Malaise": 1}}]}
+{"batchcode": "DE-240113-CH", "histograms": [{"histogram": {"Arrhythmia": 1, "Blood pressure measurement": 1, "Chest discomfort": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Heart rate": 1, "Heart rate increased": 1, "Hypertension": 1, "Malaise": 1}, "batchcodes": ["DE-240113-CH"]}]}

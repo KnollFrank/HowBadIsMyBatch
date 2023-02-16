@@ -1,1 +1,1 @@
-{"batchcode": "PFIZEREN6208", "histograms": [{"batchcodes": ["PFIZEREN6208"], "histogram": {"Dizziness": 1, "Ear discomfort": 1, "Fatigue": 1, "Hypoacusis": 1, "Tinnitus": 1, "Vertigo": 1, "Vomiting": 1}}]}
+{"batchcode": "PFIZEREN6208", "histograms": [{"histogram": {"Dizziness": 1, "Ear discomfort": 1, "Fatigue": 1, "Hypoacusis": 1, "Tinnitus": 1, "Vertigo": 1, "Vomiting": 1}, "batchcodes": ["PFIZEREN6208"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "ER793X", "histograms": [{"batchcodes": ["ER793X"], "histogram": {"Anxiety": 1, "Blood test": 1, "Depression": 1, "Insomnia": 1, "Malaise": 1, "Palpitations": 1, "Panic reaction": 1, "Stress": 1}}]}
+{"batchcode": "ER793X", "histograms": [{"histogram": {"Anxiety": 1, "Blood test": 1, "Depression": 1, "Insomnia": 1, "Malaise": 1, "Palpitations": 1, "Panic reaction": 1, "Stress": 1}, "batchcodes": ["ER793X"]}]}

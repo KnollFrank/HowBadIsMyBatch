@@ -1,1 +1,1 @@
-{"batchcode": "EW0142", "histograms": [{"batchcodes": ["EW0142"], "histogram": {"Differential white blood cell count": 1, "Full blood count": 1, "Nausea": 1, "Pulmonary function test": 1, "Pyrexia": 1, "Renal impairment": 1, "Systemic lupus erythematosus": 1, "Vomiting": 1}}]}
+{"batchcode": "EW0142", "histograms": [{"histogram": {"Differential white blood cell count": 1, "Full blood count": 1, "Nausea": 1, "Pulmonary function test": 1, "Pyrexia": 1, "Renal impairment": 1, "Systemic lupus erythematosus": 1, "Vomiting": 1}, "batchcodes": ["EW0142"]}]}

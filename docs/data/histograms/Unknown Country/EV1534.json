@@ -1,1 +1,1 @@
-{"batchcode": "EV1534", "histograms": [{"batchcodes": ["EV1534"], "histogram": {"Arthralgia": 1, "Blood test": 1, "C-reactive protein abnormal": 1, "Fatigue": 1, "Muscular weakness": 1, "Neck pain": 1, "Polymyalgia rheumatica": 1}}]}
+{"batchcode": "EV1534", "histograms": [{"histogram": {"Arthralgia": 1, "Blood test": 1, "C-reactive protein abnormal": 1, "Fatigue": 1, "Muscular weakness": 1, "Neck pain": 1, "Polymyalgia rheumatica": 1}, "batchcodes": ["EV1534"]}]}

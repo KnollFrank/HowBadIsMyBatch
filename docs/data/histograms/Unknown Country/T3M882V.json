@@ -1,1 +1,1 @@
-{"batchcode": "T3M882V", "histograms": [{"batchcodes": ["T3M882V"], "histogram": {"Bronchoscopy": 1, "Computerised tomogram": 1, "Cough": 1, "Magnetic resonance imaging": 1, "Sarcoidosis": 1}}]}
+{"batchcode": "T3M882V", "histograms": [{"histogram": {"Bronchoscopy": 1, "Computerised tomogram": 1, "Cough": 1, "Magnetic resonance imaging": 1, "Sarcoidosis": 1}, "batchcodes": ["T3M882V"]}]}

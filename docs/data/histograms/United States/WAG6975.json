@@ -1,1 +1,1 @@
-{"batchcode": "WAG6975", "histograms": [{"batchcodes": ["WAG6975"], "histogram": {"Disorientation": 1, "Fatigue": 1, "Headache": 1, "Hyperventilation": 1, "Monoplegia": 1, "Nausea": 1, "Pain": 1, "Vertigo": 1, "Vomiting": 1}}]}
+{"batchcode": "WAG6975", "histograms": [{"histogram": {"Disorientation": 1, "Fatigue": 1, "Headache": 1, "Hyperventilation": 1, "Monoplegia": 1, "Nausea": 1, "Pain": 1, "Vertigo": 1, "Vomiting": 1}, "batchcodes": ["WAG6975"]}]}
