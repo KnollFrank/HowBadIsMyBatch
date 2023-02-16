@@ -25,4 +25,6 @@ def _createAndSaveHistogramsForCountry(count, numCountries, country, dictByBatch
     # FK-TODO: use https://github.com/tqdm/tqdm
     print(f'saving histograms for country {count}/{numCountries}: {country}')
     dictByBatchcodeTable4Country = dictByBatchcodeTable[dictByBatchcodeTable['COUNTRY'] == country]
-    saveHistograms(dictByBatchcodeTable4Country, country)
+    explodedTable = MultiIndexExploder.explodeMultiIndexOfTable(dictByBatchcodeTable4Country)
+    histogramDescriptionTable = HistogramDescriptionTableFactory.createHistogramDescriptionTable(explodedTable)
+    saveHistograms(histogramDescriptionTable, country)
