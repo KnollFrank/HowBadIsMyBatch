@@ -1,1 +1,1 @@
-{"batchcode": "037F2JA", "histograms": [{"batchcodes": ["037F2JA"], "histogram": {"COVID-19": 1, "Chills": 1, "Headache": 1, "Laryngitis": 1, "Lymphadenopathy": 1, "Myalgia": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "037F2JA", "histograms": [{"histogram": {"COVID-19": 1, "Chills": 1, "Headache": 1, "Laryngitis": 1, "Lymphadenopathy": 1, "Myalgia": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["037F2JA"]}]}

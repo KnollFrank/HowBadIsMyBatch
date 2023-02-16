@@ -1,1 +1,1 @@
-{"batchcode": "049021A", "histograms": [{"batchcodes": ["049021A"], "histogram": {"COVID-19": 1, "Injection site rash": 1, "Injection site warmth": 1, "Rash erythematous": 1, "SARS-CoV-2 test positive": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "049021A", "histograms": [{"histogram": {"COVID-19": 1, "Injection site rash": 1, "Injection site warmth": 1, "Rash erythematous": 1, "SARS-CoV-2 test positive": 1, "Vaccination site swelling": 1}, "batchcodes": ["049021A"]}]}

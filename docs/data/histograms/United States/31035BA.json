@@ -1,1 +1,1 @@
-{"batchcode": "31035BA", "histograms": [{"batchcodes": ["31035BA"], "histogram": {"Dizziness": 1, "Fatigue": 1, "Immunisation": 1, "Malaise": 1, "Off label use": 1, "Overdose": 1, "Product preparation error": 1, "Product use issue": 1}}]}
+{"batchcode": "31035BA", "histograms": [{"histogram": {"Dizziness": 1, "Fatigue": 1, "Immunisation": 1, "Malaise": 1, "Off label use": 1, "Overdose": 1, "Product preparation error": 1, "Product use issue": 1}, "batchcodes": ["31035BA"]}]}

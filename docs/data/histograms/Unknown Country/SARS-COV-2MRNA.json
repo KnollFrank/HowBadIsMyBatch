@@ -1,1 +1,1 @@
-{"batchcode": "SARS-COV-2MRNA", "histograms": [{"batchcodes": ["SARS-COV-2MRNA"], "histogram": {"Cardiac failure": 1}}]}
+{"batchcode": "SARS-COV-2MRNA", "histograms": [{"histogram": {"Cardiac failure": 1}, "batchcodes": ["SARS-COV-2MRNA"]}]}

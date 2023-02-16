@@ -1,1 +1,1 @@
-{"batchcode": "029AZIA", "histograms": [{"batchcodes": ["029AZIA"], "histogram": {"Blood glucose": 1, "Exposure via breast milk": 1, "Maternal exposure during pregnancy": 1, "Pregnancy test": 1, "Ultrasound scan": 1}}]}
+{"batchcode": "029AZIA", "histograms": [{"histogram": {"Blood glucose": 1, "Exposure via breast milk": 1, "Maternal exposure during pregnancy": 1, "Pregnancy test": 1, "Ultrasound scan": 1}, "batchcodes": ["029AZIA"]}]}

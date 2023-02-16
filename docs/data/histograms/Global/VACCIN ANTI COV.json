@@ -1,1 +1,1 @@
-{"batchcode": "VACCIN ANTI COV", "histograms": [{"batchcodes": ["VACCIN ANTI COV"], "histogram": {"Angioedema": 1, "Injection site haematoma": 1}}]}
+{"batchcode": "VACCIN ANTI COV", "histograms": [{"histogram": {"Angioedema": 1, "Injection site haematoma": 1}, "batchcodes": ["VACCIN ANTI COV"]}]}

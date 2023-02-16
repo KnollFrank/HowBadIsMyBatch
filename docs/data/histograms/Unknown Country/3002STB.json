@@ -1,1 +1,1 @@
-{"batchcode": "3002STB", "histograms": [{"batchcodes": ["3002STB"], "histogram": {"Blood pressure fluctuation": 1, "Blood pressure measurement": 1, "Multiple sclerosis relapse": 1, "Myalgia": 1}}]}
+{"batchcode": "3002STB", "histograms": [{"histogram": {"Blood pressure fluctuation": 1, "Blood pressure measurement": 1, "Multiple sclerosis relapse": 1, "Myalgia": 1}, "batchcodes": ["3002STB"]}]}

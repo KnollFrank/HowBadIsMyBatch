@@ -1,1 +1,1 @@
-{"batchcode": "CW0169", "histograms": [{"batchcodes": ["CW0169"], "histogram": {"Cough": 1, "Full blood count": 1, "Headache": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "Platelet count decreased": 1}}]}
+{"batchcode": "CW0169", "histograms": [{"histogram": {"Cough": 1, "Full blood count": 1, "Headache": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "Platelet count decreased": 1}, "batchcodes": ["CW0169"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EX5923", "histograms": [{"batchcodes": ["EX5923"], "histogram": {"Cough": 1, "Drug ineffective": 1, "Fatigue": 1, "Myalgia": 1, "Nasopharyngitis": 1, "Oropharyngeal pain": 1, "Pain in extremity": 1, "Suspected COVID-19": 1}}]}
+{"batchcode": "EX5923", "histograms": [{"histogram": {"Cough": 1, "Drug ineffective": 1, "Fatigue": 1, "Myalgia": 1, "Nasopharyngitis": 1, "Oropharyngeal pain": 1, "Pain in extremity": 1, "Suspected COVID-19": 1}, "batchcodes": ["EX5923"]}]}

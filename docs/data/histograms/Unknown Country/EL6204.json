@@ -1,1 +1,1 @@
-{"batchcode": "EL6204", "histograms": [{"batchcodes": ["EL6204", "EL9267"], "histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}}, {"batchcodes": ["EL6204"], "histogram": {"Urticaria": 1}}]}
+{"batchcode": "EL6204", "histograms": [{"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["EL6204", "EL9267"]}, {"histogram": {"Urticaria": 1}, "batchcodes": ["EL6204"]}]}

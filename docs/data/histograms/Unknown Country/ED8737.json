@@ -1,1 +1,1 @@
-{"batchcode": "ED8737", "histograms": [{"batchcodes": ["ED8737"], "histogram": {"Arthralgia": 1, "Dizziness": 1, "Facial discomfort": 1, "Fatigue": 1, "Hypertension": 1, "Musculoskeletal stiffness": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1, "Vomiting": 1}}]}
+{"batchcode": "ED8737", "histograms": [{"histogram": {"Arthralgia": 1, "Dizziness": 1, "Facial discomfort": 1, "Fatigue": 1, "Hypertension": 1, "Musculoskeletal stiffness": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1, "Vomiting": 1}, "batchcodes": ["ED8737"]}]}

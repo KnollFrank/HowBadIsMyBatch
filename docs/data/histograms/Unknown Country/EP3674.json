@@ -1,1 +1,1 @@
-{"batchcode": "EP3674", "histograms": [{"batchcodes": ["EP3674"], "histogram": {"Chest pain": 2, "Dyspnoea": 2, "Arthralgia": 1, "Asthenia": 1, "Balance disorder": 1, "Cardiac fibrillation": 1, "Headache": 1, "Myalgia": 1, "Neuralgia": 1, "Pain": 1}}]}
+{"batchcode": "EP3674", "histograms": [{"histogram": {"Chest pain": 2, "Dyspnoea": 2, "Arthralgia": 1, "Asthenia": 1, "Balance disorder": 1, "Cardiac fibrillation": 1, "Headache": 1, "Myalgia": 1, "Neuralgia": 1, "Pain": 1}, "batchcodes": ["EP3674"]}]}

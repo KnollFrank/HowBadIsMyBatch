@@ -1,1 +1,1 @@
-{"batchcode": "FKS730", "histograms": [{"batchcodes": ["FKS730"], "histogram": {"Abdominal pain upper": 1, "Back pain": 1, "Chest X-ray normal": 1, "Influenza virus test negative": 1, "Muscle spasms": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "FKS730", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Back pain": 1, "Chest X-ray normal": 1, "Influenza virus test negative": 1, "Muscle spasms": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["FKS730"]}]}

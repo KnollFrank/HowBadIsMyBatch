@@ -1,1 +1,1 @@
-{"batchcode": "G1X21A", "histograms": [{"batchcodes": ["G1X21A"], "histogram": {"Barrett's oesophagus": 1, "Blood test normal": 1, "Cardiac stress test normal": 1, "Chest pain": 1, "Computerised tomogram normal": 1, "Pain": 1, "Painful respiration": 1}}]}
+{"batchcode": "G1X21A", "histograms": [{"histogram": {"Barrett's oesophagus": 1, "Blood test normal": 1, "Cardiac stress test normal": 1, "Chest pain": 1, "Computerised tomogram normal": 1, "Pain": 1, "Painful respiration": 1}, "batchcodes": ["G1X21A"]}]}

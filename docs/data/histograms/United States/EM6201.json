@@ -1,1 +1,1 @@
-{"batchcode": "EM6201", "histograms": [{"batchcodes": ["EM6201"], "histogram": {"Axillary pain": 1, "COVID-19": 1, "Cellulitis": 1, "Erythema": 1, "Feeling hot": 1, "Lymphadenopathy": 1, "Night sweats": 1, "Peripheral swelling": 1, "SARS-CoV-2 antibody test": 1}}]}
+{"batchcode": "EM6201", "histograms": [{"histogram": {"Axillary pain": 1, "COVID-19": 1, "Cellulitis": 1, "Erythema": 1, "Feeling hot": 1, "Lymphadenopathy": 1, "Night sweats": 1, "Peripheral swelling": 1, "SARS-CoV-2 antibody test": 1}, "batchcodes": ["EM6201"]}]}

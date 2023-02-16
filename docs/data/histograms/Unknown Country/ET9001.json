@@ -1,1 +1,1 @@
-{"batchcode": "ET9001", "histograms": [{"batchcodes": ["ET9001"], "histogram": {"Heavy menstrual bleeding": 1, "Inappropriate schedule of product administration": 1, "Menstrual disorder": 1, "Menstruation irregular": 1, "SARS-CoV-2 test": 1}}]}
+{"batchcode": "ET9001", "histograms": [{"histogram": {"Heavy menstrual bleeding": 1, "Inappropriate schedule of product administration": 1, "Menstrual disorder": 1, "Menstruation irregular": 1, "SARS-CoV-2 test": 1}, "batchcodes": ["ET9001"]}]}

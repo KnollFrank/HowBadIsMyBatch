@@ -1,1 +1,1 @@
-{"batchcode": "URN:UVC:01", "histograms": [{"batchcodes": ["URN:UVC:01"], "histogram": {"Heavy menstrual bleeding": 1, "Lymphadenopathy": 1, "Menstruation delayed": 1, "Menstruation irregular": 1, "Polymenorrhoea": 1}}]}
+{"batchcode": "URN:UVC:01", "histograms": [{"histogram": {"Heavy menstrual bleeding": 1, "Lymphadenopathy": 1, "Menstruation delayed": 1, "Menstruation irregular": 1, "Polymenorrhoea": 1}, "batchcodes": ["URN:UVC:01"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "0450ND", "histograms": [{"batchcodes": ["0450ND"], "histogram": {"Asthenia": 1, "Dizziness": 1, "Fatigue": 1, "Injection site mass": 1, "Injection site pain": 1, "Nausea": 1}}]}
+{"batchcode": "0450ND", "histograms": [{"histogram": {"Asthenia": 1, "Dizziness": 1, "Fatigue": 1, "Injection site mass": 1, "Injection site pain": 1, "Nausea": 1}, "batchcodes": ["0450ND"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "BIOTECH", "histograms": [{"batchcodes": ["BIOTECH"], "histogram": {"Allergy to animal": 1, "Paraesthesia": 1, "Somatosensory evoked potentials": 1}}]}
+{"batchcode": "BIOTECH", "histograms": [{"histogram": {"Allergy to animal": 1, "Paraesthesia": 1, "Somatosensory evoked potentials": 1}, "batchcodes": ["BIOTECH"]}]}

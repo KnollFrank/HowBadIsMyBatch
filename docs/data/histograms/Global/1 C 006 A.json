@@ -1,1 +1,1 @@
-{"batchcode": "1 C 006 A", "histograms": [{"batchcodes": ["1 C 006 A"], "histogram": {"Blood pressure measurement": 1, "Intraocular pressure increased": 1, "Intraocular pressure test": 1, "Ocular hypertension": 1}}]}
+{"batchcode": "1 C 006 A", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Intraocular pressure increased": 1, "Intraocular pressure test": 1, "Ocular hypertension": 1}, "batchcodes": ["1 C 006 A"]}]}

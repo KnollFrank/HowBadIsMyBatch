@@ -1,1 +1,1 @@
-{"batchcode": "01121B", "histograms": [{"batchcodes": ["01121B"], "histogram": {"Asthenia": 1, "Burning sensation": 1, "Fatigue": 1, "Headache": 1, "Influenza like illness": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Pruritus": 1, "Pyrexia": 1}}]}
+{"batchcode": "01121B", "histograms": [{"histogram": {"Asthenia": 1, "Burning sensation": 1, "Fatigue": 1, "Headache": 1, "Influenza like illness": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Pruritus": 1, "Pyrexia": 1}, "batchcodes": ["01121B"]}]}

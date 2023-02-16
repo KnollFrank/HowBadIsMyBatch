@@ -1,1 +1,1 @@
-{"batchcode": "FJ3002", "histograms": [{"batchcodes": ["FJ3002"], "histogram": {"Chills": 1, "Crying": 1, "Dizziness": 1, "Dyspnoea": 1, "Headache": 1, "Irritability": 1, "Oropharyngeal pain": 1, "Respiratory distress": 1, "Tachycardia": 1}}]}
+{"batchcode": "FJ3002", "histograms": [{"histogram": {"Chills": 1, "Crying": 1, "Dizziness": 1, "Dyspnoea": 1, "Headache": 1, "Irritability": 1, "Oropharyngeal pain": 1, "Respiratory distress": 1, "Tachycardia": 1}, "batchcodes": ["FJ3002"]}]}

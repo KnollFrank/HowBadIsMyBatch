@@ -1,1 +1,1 @@
-{"batchcode": "EN9587", "histograms": [{"batchcodes": ["EN9587"], "histogram": {"Blindness unilateral": 1, "CSF lymphocyte count increased": 1, "CSF test abnormal": 1, "Magnetic resonance imaging": 1, "Oedema": 1, "Optic disc disorder": 1, "Pleocytosis": 1, "Retinal oedema": 1}}]}
+{"batchcode": "EN9587", "histograms": [{"histogram": {"Blindness unilateral": 1, "CSF lymphocyte count increased": 1, "CSF test abnormal": 1, "Magnetic resonance imaging": 1, "Oedema": 1, "Optic disc disorder": 1, "Pleocytosis": 1, "Retinal oedema": 1}, "batchcodes": ["EN9587"]}]}

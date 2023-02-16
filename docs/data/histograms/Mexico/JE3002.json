@@ -1,1 +1,1 @@
-{"batchcode": "JE3002", "histograms": [{"batchcodes": ["JE3002"], "histogram": {"Anxiety": 1, "Bronchospasm": 1, "Dizziness": 1, "Dyspnoea": 1, "Nausea": 1, "Nervousness": 1, "Respiratory distress": 1, "Speech disorder": 1}}]}
+{"batchcode": "JE3002", "histograms": [{"histogram": {"Anxiety": 1, "Bronchospasm": 1, "Dizziness": 1, "Dyspnoea": 1, "Nausea": 1, "Nervousness": 1, "Respiratory distress": 1, "Speech disorder": 1}, "batchcodes": ["JE3002"]}]}

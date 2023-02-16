@@ -1,1 +1,1 @@
-{"batchcode": "PID-01242441", "histograms": [{"batchcodes": ["PID-01242441"], "histogram": {"Coronary artery occlusion": 1, "Intracardiac thrombus": 1, "Intracranial haematoma": 1, "Myocardial infarction": 1, "Spinal subarachnoid haemorrhage": 1}}]}
+{"batchcode": "PID-01242441", "histograms": [{"histogram": {"Coronary artery occlusion": 1, "Intracardiac thrombus": 1, "Intracranial haematoma": 1, "Myocardial infarction": 1, "Spinal subarachnoid haemorrhage": 1}, "batchcodes": ["PID-01242441"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EW0799", "histograms": [{"batchcodes": ["EW0799", "FA7484"], "histogram": {"Biopsy": 1, "Blood test": 1, "Fatigue": 1, "Heavy menstrual bleeding": 1, "Iron deficiency anaemia": 1, "Menstruation irregular": 1, "Ovarian mass": 1, "Ultrasound scan": 1}}]}
+{"batchcode": "EW0799", "histograms": [{"histogram": {"Biopsy": 1, "Blood test": 1, "Fatigue": 1, "Heavy menstrual bleeding": 1, "Iron deficiency anaemia": 1, "Menstruation irregular": 1, "Ovarian mass": 1, "Ultrasound scan": 1}, "batchcodes": ["EW0799", "FA7484"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "RA10922", "histograms": [{"batchcodes": ["RA10922"], "histogram": {"Biopsy": 1, "Burning sensation": 1, "Herpes zoster": 1, "Skin burning sensation": 1, "Skin disorder": 1, "Skin lesion": 1, "Suture insertion": 1, "Suture removal": 1}}]}
+{"batchcode": "RA10922", "histograms": [{"histogram": {"Biopsy": 1, "Burning sensation": 1, "Herpes zoster": 1, "Skin burning sensation": 1, "Skin disorder": 1, "Skin lesion": 1, "Suture insertion": 1, "Suture removal": 1}, "batchcodes": ["RA10922"]}]}

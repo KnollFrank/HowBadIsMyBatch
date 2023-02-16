@@ -1,1 +1,1 @@
-{"batchcode": "LOT ABV3374", "histograms": [{"batchcodes": ["LOT 214022", "LOT ABV3374", "LOT ABW9941"], "histogram": {"Diarrhoea": 1, "Eye haemorrhage": 1, "Optic atrophy": 1}}]}
+{"batchcode": "LOT ABV3374", "histograms": [{"histogram": {"Diarrhoea": 1, "Eye haemorrhage": 1, "Optic atrophy": 1}, "batchcodes": ["LOT 214022", "LOT ABV3374", "LOT ABW9941"]}]}

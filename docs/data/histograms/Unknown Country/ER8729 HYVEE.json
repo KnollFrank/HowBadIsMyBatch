@@ -1,1 +1,1 @@
-{"batchcode": "ER8729 HYVEE", "histograms": [{"batchcodes": ["ER8729 HYVEE"], "histogram": {"Agitation": 1, "Amnesia": 1, "Patient restraint": 1, "Suicide attempt": 1}}]}
+{"batchcode": "ER8729 HYVEE", "histograms": [{"histogram": {"Agitation": 1, "Amnesia": 1, "Patient restraint": 1, "Suicide attempt": 1}, "batchcodes": ["ER8729 HYVEE"]}]}

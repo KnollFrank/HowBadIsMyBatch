@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EWORD", "histograms": [{"batchcodes": ["PFIZER EWORD"], "histogram": {"Diarrhoea": 1, "Fatigue": 1, "Headache": 1, "Migraine": 1, "Nausea": 1, "Oropharyngeal pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "PFIZER EWORD", "histograms": [{"histogram": {"Diarrhoea": 1, "Fatigue": 1, "Headache": 1, "Migraine": 1, "Nausea": 1, "Oropharyngeal pain": 1, "Pyrexia": 1}, "batchcodes": ["PFIZER EWORD"]}]}

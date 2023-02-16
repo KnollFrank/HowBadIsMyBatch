@@ -1,1 +1,1 @@
-{"batchcode": "Z05A21A", "histograms": [{"batchcodes": ["Z05A21A"], "histogram": {"Ankle brachial index": 1, "Blood test": 1, "Formication": 1, "Oedema": 1, "Pain in extremity": 1, "Paraesthesia": 1, "Rash": 1, "Rash pruritic": 1, "Ultrasound Doppler": 1}}]}
+{"batchcode": "Z05A21A", "histograms": [{"histogram": {"Ankle brachial index": 1, "Blood test": 1, "Formication": 1, "Oedema": 1, "Pain in extremity": 1, "Paraesthesia": 1, "Rash": 1, "Rash pruritic": 1, "Ultrasound Doppler": 1}, "batchcodes": ["Z05A21A"]}]}

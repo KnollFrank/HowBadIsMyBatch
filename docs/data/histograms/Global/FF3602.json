@@ -1,1 +1,1 @@
-{"batchcode": "FF3602", "histograms": [{"batchcodes": ["FF3602"], "histogram": {"Asthenia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Chest discomfort": 1, "Feeling abnormal": 1, "Urticaria": 1}}]}
+{"batchcode": "FF3602", "histograms": [{"histogram": {"Asthenia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Chest discomfort": 1, "Feeling abnormal": 1, "Urticaria": 1}, "batchcodes": ["FF3602"]}]}

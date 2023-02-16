@@ -1,1 +1,1 @@
-{"batchcode": "EL 2262", "histograms": [{"batchcodes": ["EL 1283", "EL 2262"], "histogram": {"Angiogram normal": 1, "Cardiac failure": 1, "Dyspnoea": 1, "Echocardiogram abnormal": 1, "Heart rate increased": 1, "Heart rate irregular": 1, "Ventricular tachycardia": 1}}]}
+{"batchcode": "EL 2262", "histograms": [{"histogram": {"Angiogram normal": 1, "Cardiac failure": 1, "Dyspnoea": 1, "Echocardiogram abnormal": 1, "Heart rate increased": 1, "Heart rate irregular": 1, "Ventricular tachycardia": 1}, "batchcodes": ["EL 1283", "EL 2262"]}]}

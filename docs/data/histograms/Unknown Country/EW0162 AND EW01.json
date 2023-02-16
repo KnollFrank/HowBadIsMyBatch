@@ -1,1 +1,1 @@
-{"batchcode": "EW0162 AND EW01", "histograms": [{"batchcodes": ["EW0162 AND EW01"], "histogram": {"Hypoaesthesia": 1, "Lip blister": 1, "Neurological examination": 1, "Paraesthesia": 1, "Physical examination": 1}}]}
+{"batchcode": "EW0162 AND EW01", "histograms": [{"histogram": {"Hypoaesthesia": 1, "Lip blister": 1, "Neurological examination": 1, "Paraesthesia": 1, "Physical examination": 1}, "batchcodes": ["EW0162 AND EW01"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "BNFA1027", "histograms": [{"batchcodes": ["BNFA1027"], "histogram": {"Blood pressure measurement": 1, "Dizziness": 1, "Heart rate": 1, "Hypertension": 1, "Paraesthesia oral": 1, "SARS-CoV-2 test": 1, "Tachycardia": 1}}]}
+{"batchcode": "BNFA1027", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Dizziness": 1, "Heart rate": 1, "Hypertension": 1, "Paraesthesia oral": 1, "SARS-CoV-2 test": 1, "Tachycardia": 1}, "batchcodes": ["BNFA1027"]}]}

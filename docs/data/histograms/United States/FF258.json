@@ -1,1 +1,1 @@
-{"batchcode": "FF258", "histograms": [{"batchcodes": ["FF258"], "histogram": {"COVID-19": 1, "Chest discomfort": 1, "Chest pain": 1, "Drug ineffective": 1, "Immunisation": 1, "SARS-CoV-2 antibody test": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "FF258", "histograms": [{"histogram": {"COVID-19": 1, "Chest discomfort": 1, "Chest pain": 1, "Drug ineffective": 1, "Immunisation": 1, "SARS-CoV-2 antibody test": 1, "Vaccination site pain": 1}, "batchcodes": ["FF258"]}]}

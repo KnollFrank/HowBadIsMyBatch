@@ -1,1 +1,1 @@
-{"batchcode": "ID 1-235", "histograms": [{"batchcodes": ["ID 1-235"], "histogram": {"Anaphylactic reaction": 1, "Blood pressure decreased": 1, "Blood pressure measurement": 1, "Circulatory collapse": 1, "Oxygen saturation": 1, "Syncope": 1, "Urticaria": 1}}]}
+{"batchcode": "ID 1-235", "histograms": [{"histogram": {"Anaphylactic reaction": 1, "Blood pressure decreased": 1, "Blood pressure measurement": 1, "Circulatory collapse": 1, "Oxygen saturation": 1, "Syncope": 1, "Urticaria": 1}, "batchcodes": ["ID 1-235"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EW018Q", "histograms": [{"batchcodes": ["EW0162", "EW018Q"], "histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Headache": 1, "Malaise": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "EW018Q", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Headache": 1, "Malaise": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["EW0162", "EW018Q"]}]}

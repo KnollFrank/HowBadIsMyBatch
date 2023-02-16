@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EW0196", "histograms": [{"batchcodes": ["PFIZER EW0196"], "histogram": {"Asthenia": 1, "Chills": 1, "Depression": 1, "Feeling abnormal": 1, "Irritability": 1, "Muscular weakness": 1, "Pyrexia": 1, "Somnolence": 1, "Vision blurred": 1}}]}
+{"batchcode": "PFIZER EW0196", "histograms": [{"histogram": {"Asthenia": 1, "Chills": 1, "Depression": 1, "Feeling abnormal": 1, "Irritability": 1, "Muscular weakness": 1, "Pyrexia": 1, "Somnolence": 1, "Vision blurred": 1}, "batchcodes": ["PFIZER EW0196"]}]}

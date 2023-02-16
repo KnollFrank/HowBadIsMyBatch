@@ -1,1 +1,1 @@
-{"batchcode": "ER8375", "histograms": [{"batchcodes": ["ER8375"], "histogram": {"No adverse event": 2, "Headache": 1, "Interchange of vaccine products": 1, "Lymphadenopathy": 1, "Movement disorder": 1, "Pain": 1, "Product administered to patient of inappropriate age": 1, "Pyrexia": 1}}]}
+{"batchcode": "ER8375", "histograms": [{"histogram": {"No adverse event": 2, "Headache": 1, "Interchange of vaccine products": 1, "Lymphadenopathy": 1, "Movement disorder": 1, "Pain": 1, "Product administered to patient of inappropriate age": 1, "Pyrexia": 1}, "batchcodes": ["ER8375"]}]}

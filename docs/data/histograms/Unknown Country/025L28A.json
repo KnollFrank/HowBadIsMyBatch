@@ -1,1 +1,1 @@
-{"batchcode": "025L28A", "histograms": [{"batchcodes": ["025L28A"], "histogram": {"Abdominal discomfort": 1, "Blood test": 1, "Chest X-ray abnormal": 1, "Malaise": 1, "Musculoskeletal chest pain": 1, "Neck pain": 1, "Pain": 1, "Pulmonary thrombosis": 1}}]}
+{"batchcode": "025L28A", "histograms": [{"histogram": {"Abdominal discomfort": 1, "Blood test": 1, "Chest X-ray abnormal": 1, "Malaise": 1, "Musculoskeletal chest pain": 1, "Neck pain": 1, "Pain": 1, "Pulmonary thrombosis": 1}, "batchcodes": ["025L28A"]}]}

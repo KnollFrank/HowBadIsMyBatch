@@ -1,1 +1,1 @@
-{"batchcode": "G29L20A", "histograms": [{"batchcodes": ["G29L20A"], "histogram": {"Vaccination site erythema": 1, "Vaccination site mass": 1, "Vaccination site pain": 1, "Vaccination site pruritus": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "G29L20A", "histograms": [{"histogram": {"Vaccination site erythema": 1, "Vaccination site mass": 1, "Vaccination site pain": 1, "Vaccination site pruritus": 1, "Vaccination site swelling": 1}, "batchcodes": ["G29L20A"]}]}

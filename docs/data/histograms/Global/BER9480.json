@@ -1,1 +1,1 @@
-{"batchcode": "BER9480", "histograms": [{"batchcodes": ["BER9480"], "histogram": {"Atrial fibrillation": 1, "Cerebral infarction": 1, "Dysphagia": 1, "Pneumonia aspiration": 1}}]}
+{"batchcode": "BER9480", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Cerebral infarction": 1, "Dysphagia": 1, "Pneumonia aspiration": 1}, "batchcodes": ["BER9480"]}]}

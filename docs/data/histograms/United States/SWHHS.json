@@ -1,1 +1,1 @@
-{"batchcode": "SWHHS", "histograms": [{"batchcodes": ["SWHHS"], "histogram": {"Asthenia": 1, "Catheterisation cardiac": 1, "Dizziness": 1, "Dyspnoea": 1, "Vomiting": 1}}]}
+{"batchcode": "SWHHS", "histograms": [{"histogram": {"Asthenia": 1, "Catheterisation cardiac": 1, "Dizziness": 1, "Dyspnoea": 1, "Vomiting": 1}, "batchcodes": ["SWHHS"]}]}

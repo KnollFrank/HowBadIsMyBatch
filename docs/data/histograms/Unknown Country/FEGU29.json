@@ -1,1 +1,1 @@
-{"batchcode": "FEGU29", "histograms": [{"batchcodes": ["FEGU29"], "histogram": {"Arrhythmia": 1, "Contusion": 1, "Gait disturbance": 1, "Headache": 1, "Neuralgia": 1, "Pain in extremity": 1}}]}
+{"batchcode": "FEGU29", "histograms": [{"histogram": {"Arrhythmia": 1, "Contusion": 1, "Gait disturbance": 1, "Headache": 1, "Neuralgia": 1, "Pain in extremity": 1}, "batchcodes": ["FEGU29"]}]}

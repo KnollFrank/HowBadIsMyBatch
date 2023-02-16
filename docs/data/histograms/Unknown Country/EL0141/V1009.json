@@ -1,1 +1,1 @@
-{"batchcode": "EL0141/V1009", "histograms": [{"batchcodes": ["EL0141/V1009"], "histogram": {"Body temperature": 1, "Chills": 1, "Livedo reticularis": 1, "Pallor": 1, "Pyrexia": 1, "Raynaud's phenomenon": 1, "SARS-CoV-2 test": 1}}]}
+{"batchcode": "EL0141/V1009", "histograms": [{"histogram": {"Body temperature": 1, "Chills": 1, "Livedo reticularis": 1, "Pallor": 1, "Pyrexia": 1, "Raynaud's phenomenon": 1, "SARS-CoV-2 test": 1}, "batchcodes": ["EL0141/V1009"]}]}

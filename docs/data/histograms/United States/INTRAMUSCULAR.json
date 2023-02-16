@@ -1,1 +1,1 @@
-{"batchcode": "INTRAMUSCULAR", "histograms": [{"batchcodes": ["INTRAMUSCULAR"], "histogram": {"Chills": 2, "COVID-19": 1, "Drug ineffective": 1, "Feeling abnormal": 1, "Headache": 1, "Illness": 1, "Malaise": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "INTRAMUSCULAR", "histograms": [{"histogram": {"Chills": 2, "COVID-19": 1, "Drug ineffective": 1, "Feeling abnormal": 1, "Headache": 1, "Illness": 1, "Malaise": 1, "Nausea": 1, "Pain": 1, "Pyrexia": 1}, "batchcodes": ["INTRAMUSCULAR"]}]}

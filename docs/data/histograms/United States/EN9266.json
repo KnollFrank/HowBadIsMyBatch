@@ -1,1 +1,1 @@
-{"batchcode": "EN9266", "histograms": [{"batchcodes": ["EN9266"], "histogram": {"Pain": 2, "Chills": 1, "Fatigue": 1, "Mammogram": 1, "Nausea": 1, "Oral herpes": 1, "SARS-CoV-2 antibody test negative": 1, "Scar": 1, "Urticaria": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "EN9266", "histograms": [{"histogram": {"Pain": 2, "Chills": 1, "Fatigue": 1, "Mammogram": 1, "Nausea": 1, "Oral herpes": 1, "SARS-CoV-2 antibody test negative": 1, "Scar": 1, "Urticaria": 1, "Vaccination site pain": 1}, "batchcodes": ["EN9266"]}]}

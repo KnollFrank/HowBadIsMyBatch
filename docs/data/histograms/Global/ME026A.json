@@ -1,1 +1,1 @@
-{"batchcode": "ME026A", "histograms": [{"batchcodes": ["ME026A"], "histogram": {"Asthenia": 1, "Chest pain": 1, "Dyspnoea": 1, "Fatigue": 1, "Magnetic resonance imaging heart": 1, "Myocarditis": 1, "Tachycardia": 1, "Troponin": 1}}]}
+{"batchcode": "ME026A", "histograms": [{"histogram": {"Asthenia": 1, "Chest pain": 1, "Dyspnoea": 1, "Fatigue": 1, "Magnetic resonance imaging heart": 1, "Myocarditis": 1, "Tachycardia": 1, "Troponin": 1}, "batchcodes": ["ME026A"]}]}

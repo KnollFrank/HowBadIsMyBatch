@@ -1,1 +1,1 @@
-{"batchcode": "UNKNO", "histograms": [{"batchcodes": ["UNKNO"], "histogram": {"Injection site erythema": 1, "Injection site pain": 1, "Injection site rash": 1, "Injection site warmth": 1}}]}
+{"batchcode": "UNKNO", "histograms": [{"histogram": {"Injection site erythema": 1, "Injection site pain": 1, "Injection site rash": 1, "Injection site warmth": 1}, "batchcodes": ["UNKNO"]}]}

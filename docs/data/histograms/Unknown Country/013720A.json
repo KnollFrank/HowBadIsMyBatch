@@ -1,1 +1,1 @@
-{"batchcode": "013720A", "histograms": [{"batchcodes": ["013720A", "029620A"], "histogram": {"Fatigue": 1, "Headache": 1, "Nausea": 1, "Rash": 1, "Rash erythematous": 1, "Vaccine positive rechallenge": 1}}, {"batchcodes": ["013720A"], "histogram": {"Fatigue": 1, "Pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "013720A", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Nausea": 1, "Rash": 1, "Rash erythematous": 1, "Vaccine positive rechallenge": 1}, "batchcodes": ["013720A", "029620A"]}, {"histogram": {"Fatigue": 1, "Pain": 1, "Pyrexia": 1}, "batchcodes": ["013720A"]}]}

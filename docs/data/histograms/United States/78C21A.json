@@ -1,1 +1,1 @@
-{"batchcode": "78C21A", "histograms": [{"batchcodes": ["78C21A"], "histogram": {"Vaccination site pruritus": 2, "Vaccination complication": 1, "Vaccination site movement impairment": 1, "Vaccination site pain": 1, "Vaccination site rash": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "78C21A", "histograms": [{"histogram": {"Vaccination site pruritus": 2, "Vaccination complication": 1, "Vaccination site movement impairment": 1, "Vaccination site pain": 1, "Vaccination site rash": 1, "Vaccination site swelling": 1}, "batchcodes": ["78C21A"]}]}

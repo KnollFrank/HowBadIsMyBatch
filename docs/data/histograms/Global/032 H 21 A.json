@@ -1,1 +1,1 @@
-{"batchcode": "032 H 21 A", "histograms": [{"batchcodes": ["032 H 21 A"], "histogram": {"Cardiac flutter": 1, "Chest discomfort": 1, "Cough": 1, "Dizziness": 1, "Dysphagia": 1, "Productive cough": 1}}]}
+{"batchcode": "032 H 21 A", "histograms": [{"histogram": {"Cardiac flutter": 1, "Chest discomfort": 1, "Cough": 1, "Dizziness": 1, "Dysphagia": 1, "Productive cough": 1}, "batchcodes": ["032 H 21 A"]}]}

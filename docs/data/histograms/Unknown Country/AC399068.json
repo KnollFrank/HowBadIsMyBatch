@@ -1,1 +1,1 @@
-{"batchcode": "AC399068", "histograms": [{"batchcodes": ["AC399068"], "histogram": {"COVID-19": 1, "Computerised tomogram": 1, "Drug ineffective": 1, "Inappropriate schedule of product administration": 1, "Polymerase chain reaction": 1, "SARS-CoV-2 test": 1}}]}
+{"batchcode": "AC399068", "histograms": [{"histogram": {"COVID-19": 1, "Computerised tomogram": 1, "Drug ineffective": 1, "Inappropriate schedule of product administration": 1, "Polymerase chain reaction": 1, "SARS-CoV-2 test": 1}, "batchcodes": ["AC399068"]}]}

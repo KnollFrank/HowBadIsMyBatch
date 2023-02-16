@@ -1,1 +1,1 @@
-{"batchcode": "CH9899", "histograms": [{"batchcodes": ["CH9899"], "histogram": {"Body temperature": 1, "Chills": 1, "Feeling abnormal": 1, "Headache": 1, "Lymphadenopathy": 1, "Pain": 1, "Pharyngeal disorder": 1, "Pharyngeal swelling": 1, "Pyrexia": 1}}]}
+{"batchcode": "CH9899", "histograms": [{"histogram": {"Body temperature": 1, "Chills": 1, "Feeling abnormal": 1, "Headache": 1, "Lymphadenopathy": 1, "Pain": 1, "Pharyngeal disorder": 1, "Pharyngeal swelling": 1, "Pyrexia": 1}, "batchcodes": ["CH9899"]}]}

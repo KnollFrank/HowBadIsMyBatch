@@ -1,1 +1,1 @@
-{"batchcode": "PBC0004", "histograms": [{"batchcodes": ["PBC0004"], "histogram": {"Dizziness": 1, "Headache": 1, "Malaise": 1, "Pain": 1, "Seizure": 1, "Vomiting": 1}}]}
+{"batchcode": "PBC0004", "histograms": [{"histogram": {"Dizziness": 1, "Headache": 1, "Malaise": 1, "Pain": 1, "Seizure": 1, "Vomiting": 1}, "batchcodes": ["PBC0004"]}]}

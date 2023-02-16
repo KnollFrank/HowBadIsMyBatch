@@ -1,1 +1,1 @@
-{"batchcode": "FC3183=4", "histograms": [{"batchcodes": ["FC3183=4"], "histogram": {"Asthenia": 1, "Computerised tomogram": 1, "Deep vein thrombosis": 1, "Gait disturbance": 1, "Malaise": 1, "Peripheral swelling": 1, "Skin discolouration": 1, "Ultrasound scan": 1}}]}
+{"batchcode": "FC3183=4", "histograms": [{"histogram": {"Asthenia": 1, "Computerised tomogram": 1, "Deep vein thrombosis": 1, "Gait disturbance": 1, "Malaise": 1, "Peripheral swelling": 1, "Skin discolouration": 1, "Ultrasound scan": 1}, "batchcodes": ["FC3183=4"]}]}

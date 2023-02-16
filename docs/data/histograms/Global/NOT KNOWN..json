@@ -1,1 +1,1 @@
-{"batchcode": "NOT KNOWN.", "histograms": [{"batchcodes": ["NOT KNOWN."], "histogram": {"SARS-CoV-2 test": 2, "Chills": 1, "Headache": 1, "Illness": 1, "Prophylaxis of nausea and vomiting": 1, "Tinnitus": 1}}]}
+{"batchcode": "NOT KNOWN.", "histograms": [{"histogram": {"SARS-CoV-2 test": 2, "Chills": 1, "Headache": 1, "Illness": 1, "Prophylaxis of nausea and vomiting": 1, "Tinnitus": 1}, "batchcodes": ["NOT KNOWN."]}]}

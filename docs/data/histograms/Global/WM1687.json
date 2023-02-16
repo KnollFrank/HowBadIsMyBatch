@@ -1,1 +1,1 @@
-{"batchcode": "WM1687", "histograms": [{"batchcodes": ["WM1687"], "histogram": {"Asthenia": 1, "COVID-19": 1, "Headache": 1, "Malaise": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1, "Sinus congestion": 1}}]}
+{"batchcode": "WM1687", "histograms": [{"histogram": {"Asthenia": 1, "COVID-19": 1, "Headache": 1, "Malaise": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1, "Sinus congestion": 1}, "batchcodes": ["WM1687"]}]}

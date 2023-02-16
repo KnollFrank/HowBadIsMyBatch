@@ -1,1 +1,1 @@
-{"batchcode": "AOB2#V", "histograms": [{"batchcodes": ["AOB2#V"], "histogram": {"Blood pressure measurement": 1, "Dyspnoea": 1, "Hypertension": 1, "Wheezing": 1}}]}
+{"batchcode": "AOB2#V", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Dyspnoea": 1, "Hypertension": 1, "Wheezing": 1}, "batchcodes": ["AOB2#V"]}]}

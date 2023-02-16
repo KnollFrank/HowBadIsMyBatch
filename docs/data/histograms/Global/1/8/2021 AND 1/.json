@@ -1,1 +1,1 @@
-{"batchcode": "1/8/2021 AND 1/", "histograms": [{"batchcodes": ["1/8/2021 AND 1/"], "histogram": {"Cough": 1, "Malaise": 1, "Nasopharyngitis": 1, "Sinus disorder": 1}}]}
+{"batchcode": "1/8/2021 AND 1/", "histograms": [{"histogram": {"Cough": 1, "Malaise": 1, "Nasopharyngitis": 1, "Sinus disorder": 1}, "batchcodes": ["1/8/2021 AND 1/"]}]}

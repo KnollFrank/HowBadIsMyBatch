@@ -1,1 +1,1 @@
-{"batchcode": "071F21", "histograms": [{"batchcodes": ["071F21"], "histogram": {"Product storage error": 10, "Product preparation issue": 7, "Incorrect dose administered": 4, "Wrong technique in product usage process": 2}}]}
+{"batchcode": "071F21", "histograms": [{"histogram": {"Product storage error": 10, "Product preparation issue": 7, "Incorrect dose administered": 4, "Wrong technique in product usage process": 2}, "batchcodes": ["071F21"]}]}

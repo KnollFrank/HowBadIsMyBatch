@@ -1,1 +1,1 @@
-{"batchcode": "EN0698", "histograms": [{"batchcodes": ["EN0698"], "histogram": {"Deafness": 1, "Dyspnoea": 1, "Ear discomfort": 1, "Fatigue": 1, "Head discomfort": 1, "Headache": 1, "Oropharyngeal pain": 1, "Somnolence": 1, "Tonsillar disorder": 1}}]}
+{"batchcode": "EN0698", "histograms": [{"histogram": {"Deafness": 1, "Dyspnoea": 1, "Ear discomfort": 1, "Fatigue": 1, "Head discomfort": 1, "Headache": 1, "Oropharyngeal pain": 1, "Somnolence": 1, "Tonsillar disorder": 1}, "batchcodes": ["EN0698"]}]}

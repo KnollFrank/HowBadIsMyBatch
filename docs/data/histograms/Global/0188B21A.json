@@ -1,1 +1,1 @@
-{"batchcode": "0188B21A", "histograms": [{"batchcodes": ["0188B21A", "026A21A"], "histogram": {"Anxiety": 1, "Cold sweat": 1, "Hypoaesthesia": 1, "Tremor": 1}}, {"batchcodes": ["0188B21A"], "histogram": {"Tinnitus": 1}}]}
+{"batchcode": "0188B21A", "histograms": [{"histogram": {"Anxiety": 1, "Cold sweat": 1, "Hypoaesthesia": 1, "Tremor": 1}, "batchcodes": ["0188B21A", "026A21A"]}, {"histogram": {"Tinnitus": 1}, "batchcodes": ["0188B21A"]}]}

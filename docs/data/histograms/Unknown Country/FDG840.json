@@ -1,1 +1,1 @@
-{"batchcode": "FDG840", "histograms": [{"batchcodes": ["FDG840"], "histogram": {"Abdominal pain upper": 1, "Headache": 1, "Heavy menstrual bleeding": 1, "Menstrual cycle management": 1, "Pain in extremity": 1, "Puncture site pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "FDG840", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Headache": 1, "Heavy menstrual bleeding": 1, "Menstrual cycle management": 1, "Pain in extremity": 1, "Puncture site pain": 1, "Pyrexia": 1}, "batchcodes": ["FDG840"]}]}

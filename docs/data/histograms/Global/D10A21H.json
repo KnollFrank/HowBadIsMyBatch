@@ -1,1 +1,1 @@
-{"batchcode": "D10A21H", "histograms": [{"batchcodes": ["D10A21H"], "histogram": {"Blood test": 1, "Headache": 1, "Loss of personal independence in daily activities": 1, "Magnetic resonance imaging head": 1, "Magnetic resonance imaging spinal": 1}}]}
+{"batchcode": "D10A21H", "histograms": [{"histogram": {"Blood test": 1, "Headache": 1, "Loss of personal independence in daily activities": 1, "Magnetic resonance imaging head": 1, "Magnetic resonance imaging spinal": 1}, "batchcodes": ["D10A21H"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EX 6357", "histograms": [{"batchcodes": ["EX 6357"], "histogram": {"Asthenia": 1, "Echocardiogram": 1, "Ejection fraction": 1, "Electrocardiogram": 1, "Investigation": 1, "Malaise": 1, "Ventricular tachycardia": 1}}]}
+{"batchcode": "EX 6357", "histograms": [{"histogram": {"Asthenia": 1, "Echocardiogram": 1, "Ejection fraction": 1, "Electrocardiogram": 1, "Investigation": 1, "Malaise": 1, "Ventricular tachycardia": 1}, "batchcodes": ["EX 6357"]}]}

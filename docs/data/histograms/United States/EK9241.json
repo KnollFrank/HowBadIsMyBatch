@@ -1,1 +1,1 @@
-{"batchcode": "EK9241", "histograms": [{"batchcodes": ["EK9241"], "histogram": {"Atrial fibrillation": 1, "Cardiac disorder": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "EK9241", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Cardiac disorder": 1, "Vaccination site pain": 1}, "batchcodes": ["EK9241"]}]}

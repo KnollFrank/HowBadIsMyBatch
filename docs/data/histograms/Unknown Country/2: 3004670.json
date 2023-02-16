@@ -1,1 +1,1 @@
-{"batchcode": "2: 3004670", "histograms": [{"batchcodes": ["2: 3004670"], "histogram": {"COVID-19 immunisation": 1, "Chills": 1, "Deafness": 1, "Dizziness": 1, "Dyspnoea": 1, "Presyncope": 1, "Pyrexia": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "2: 3004670", "histograms": [{"histogram": {"COVID-19 immunisation": 1, "Chills": 1, "Deafness": 1, "Dizziness": 1, "Dyspnoea": 1, "Presyncope": 1, "Pyrexia": 1, "Vaccination site pain": 1}, "batchcodes": ["2: 3004670"]}]}

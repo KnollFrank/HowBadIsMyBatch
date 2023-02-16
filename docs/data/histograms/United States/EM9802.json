@@ -1,1 +1,1 @@
-{"batchcode": "EM9802", "histograms": [{"batchcodes": ["EM9802"], "histogram": {"Dysphagia": 1, "Dyspnoea": 1, "Headache": 1, "Lymphadenopathy": 1, "Malaise": 1, "Pyrexia": 1, "Spinal stenosis": 1}}]}
+{"batchcode": "EM9802", "histograms": [{"histogram": {"Dysphagia": 1, "Dyspnoea": 1, "Headache": 1, "Lymphadenopathy": 1, "Malaise": 1, "Pyrexia": 1, "Spinal stenosis": 1}, "batchcodes": ["EM9802"]}]}

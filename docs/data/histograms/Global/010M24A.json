@@ -1,1 +1,1 @@
-{"batchcode": "010M24A", "histograms": [{"batchcodes": ["010M24A"], "histogram": {"Atrial fibrillation": 1, "Blood calcium increased": 1, "Blood test": 1, "Cardiac stress test": 1, "Cardioversion": 1, "Dyspnoea": 1, "Echocardiogram": 1, "Electrocardiogram": 1}}]}
+{"batchcode": "010M24A", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Blood calcium increased": 1, "Blood test": 1, "Cardiac stress test": 1, "Cardioversion": 1, "Dyspnoea": 1, "Echocardiogram": 1, "Electrocardiogram": 1}, "batchcodes": ["010M24A"]}]}

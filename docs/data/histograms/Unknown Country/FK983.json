@@ -1,1 +1,1 @@
-{"batchcode": "FK983", "histograms": [{"batchcodes": ["FK983", "FK9893"], "histogram": {"Aphasia": 1, "Computerised tomogram": 1, "Disability": 1, "Hemiplegia": 1, "Impaired driving ability": 1, "Impaired work ability": 1, "Ischaemic stroke": 1}}]}
+{"batchcode": "FK983", "histograms": [{"histogram": {"Aphasia": 1, "Computerised tomogram": 1, "Disability": 1, "Hemiplegia": 1, "Impaired driving ability": 1, "Impaired work ability": 1, "Ischaemic stroke": 1}, "batchcodes": ["FK983", "FK9893"]}]}

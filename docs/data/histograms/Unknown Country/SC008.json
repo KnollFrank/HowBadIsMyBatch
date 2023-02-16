@@ -1,1 +1,1 @@
-{"batchcode": "SC008", "histograms": [{"batchcodes": ["SC008"], "histogram": {"Arthralgia": 1, "Gait disturbance": 1, "Joint effusion": 1, "Joint swelling": 1, "Overdose": 1, "Pain": 1, "Polyarthritis": 1}}]}
+{"batchcode": "SC008", "histograms": [{"histogram": {"Arthralgia": 1, "Gait disturbance": 1, "Joint effusion": 1, "Joint swelling": 1, "Overdose": 1, "Pain": 1, "Polyarthritis": 1}, "batchcodes": ["SC008"]}]}

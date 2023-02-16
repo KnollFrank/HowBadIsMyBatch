@@ -1,1 +1,1 @@
-{"batchcode": "02552012A", "histograms": [{"batchcodes": ["025520-2A", "02552012A"], "histogram": {"Abdominal pain": 1, "Change of bowel habit": 1, "Chest pain": 1, "Gastrointestinal disorder": 1, "Laboratory test": 1, "Pancreatitis acute": 1}}]}
+{"batchcode": "02552012A", "histograms": [{"histogram": {"Abdominal pain": 1, "Change of bowel habit": 1, "Chest pain": 1, "Gastrointestinal disorder": 1, "Laboratory test": 1, "Pancreatitis acute": 1}, "batchcodes": ["025520-2A", "02552012A"]}]}

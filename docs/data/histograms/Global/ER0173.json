@@ -1,1 +1,1 @@
-{"batchcode": "ER0173", "histograms": [{"batchcodes": ["ER0173"], "histogram": {"Injection site erythema": 1, "Injection site induration": 1, "Injection site mass": 1, "Injection site pain": 1}}]}
+{"batchcode": "ER0173", "histograms": [{"histogram": {"Injection site erythema": 1, "Injection site induration": 1, "Injection site mass": 1, "Injection site pain": 1}, "batchcodes": ["ER0173"]}]}

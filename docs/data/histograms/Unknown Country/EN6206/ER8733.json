@@ -1,1 +1,1 @@
-{"batchcode": "EN6206/ER8733", "histograms": [{"batchcodes": ["EN6206/ER8733"], "histogram": {"Blood test": 1, "Catheterisation cardiac": 1, "Chest discomfort": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Loss of consciousness": 1, "Stent placement": 1}}]}
+{"batchcode": "EN6206/ER8733", "histograms": [{"histogram": {"Blood test": 1, "Catheterisation cardiac": 1, "Chest discomfort": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Loss of consciousness": 1, "Stent placement": 1}, "batchcodes": ["EN6206/ER8733"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "027B21A", "histograms": [{"batchcodes": ["027B21A", "029A21A"], "histogram": {"Cardiac monitoring normal": 1, "Catheterisation cardiac normal": 1, "Myocardial infarction": 1}}]}
+{"batchcode": "027B21A", "histograms": [{"histogram": {"Cardiac monitoring normal": 1, "Catheterisation cardiac normal": 1, "Myocardial infarction": 1}, "batchcodes": ["027B21A", "029A21A"]}]}

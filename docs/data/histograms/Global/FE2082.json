@@ -1,1 +1,1 @@
-{"batchcode": "FE2082", "histograms": [{"batchcodes": ["FE2082"], "histogram": {"Chest X-ray": 1, "Chest discomfort": 1, "Chest pain": 1, "Condition aggravated": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Myocarditis": 1, "Pain in extremity": 1, "Pericarditis": 1}}]}
+{"batchcode": "FE2082", "histograms": [{"histogram": {"Chest X-ray": 1, "Chest discomfort": 1, "Chest pain": 1, "Condition aggravated": 1, "Dyspnoea": 1, "Electrocardiogram": 1, "Myocarditis": 1, "Pain in extremity": 1, "Pericarditis": 1}, "batchcodes": ["FE2082"]}]}

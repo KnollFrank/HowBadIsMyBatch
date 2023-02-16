@@ -1,1 +1,1 @@
-{"batchcode": "CVS17781", "histograms": [{"batchcodes": ["CVS17781"], "histogram": {"Blood test": 1, "Chest X-ray": 1, "Chest pain": 1, "Computerised tomogram": 1, "Electrocardiogram": 1, "Myocarditis": 1, "Pulmonary embolism": 1}}]}
+{"batchcode": "CVS17781", "histograms": [{"histogram": {"Blood test": 1, "Chest X-ray": 1, "Chest pain": 1, "Computerised tomogram": 1, "Electrocardiogram": 1, "Myocarditis": 1, "Pulmonary embolism": 1}, "batchcodes": ["CVS17781"]}]}

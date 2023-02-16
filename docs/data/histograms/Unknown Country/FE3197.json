@@ -1,1 +1,1 @@
-{"batchcode": "FE3197", "histograms": [{"batchcodes": ["FE3197"], "histogram": {"Heart rate increased": 1, "Hepatic enzyme increased": 1, "Hepatomegaly": 1, "Pyrexia": 1, "Ultrasound liver abnormal": 1}}]}
+{"batchcode": "FE3197", "histograms": [{"histogram": {"Heart rate increased": 1, "Hepatic enzyme increased": 1, "Hepatomegaly": 1, "Pyrexia": 1, "Ultrasound liver abnormal": 1}, "batchcodes": ["FE3197"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FG3590", "histograms": [{"batchcodes": ["EL8982", "EN6201", "FG3590"], "histogram": {"Arteriogram coronary abnormal": 1, "Stress cardiomyopathy": 1}}, {"batchcodes": ["FG3590"], "histogram": {"Anxiety": 1, "Tinnitus": 1}}]}
+{"batchcode": "FG3590", "histograms": [{"histogram": {"Arteriogram coronary abnormal": 1, "Stress cardiomyopathy": 1}, "batchcodes": ["EL8982", "EN6201", "FG3590"]}, {"histogram": {"Anxiety": 1, "Tinnitus": 1}, "batchcodes": ["FG3590"]}]}

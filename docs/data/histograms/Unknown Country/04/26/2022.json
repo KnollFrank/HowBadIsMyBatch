@@ -1,1 +1,1 @@
-{"batchcode": "04/26/2022", "histograms": [{"batchcodes": ["04/26/2022"], "histogram": {"COVID-19": 1, "Inappropriate schedule of product administration": 1, "SARS-CoV-2 test positive": 1, "Vaccine breakthrough infection": 1}}]}
+{"batchcode": "04/26/2022", "histograms": [{"histogram": {"COVID-19": 1, "Inappropriate schedule of product administration": 1, "SARS-CoV-2 test positive": 1, "Vaccine breakthrough infection": 1}, "batchcodes": ["04/26/2022"]}]}

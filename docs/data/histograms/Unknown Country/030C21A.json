@@ -1,1 +1,1 @@
-{"batchcode": "030C21A", "histograms": [{"batchcodes": ["030C21A"], "histogram": {"Angioedema": 1, "Blood test": 1, "Epistaxis": 1, "Gingival bleeding": 1, "Haemoglobin abnormal": 1, "Hepatic enzyme increased": 1, "Petechiae": 1}}]}
+{"batchcode": "030C21A", "histograms": [{"histogram": {"Angioedema": 1, "Blood test": 1, "Epistaxis": 1, "Gingival bleeding": 1, "Haemoglobin abnormal": 1, "Hepatic enzyme increased": 1, "Petechiae": 1}, "batchcodes": ["030C21A"]}]}

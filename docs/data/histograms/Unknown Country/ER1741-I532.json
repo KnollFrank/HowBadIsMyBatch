@@ -1,1 +1,1 @@
-{"batchcode": "ER1741-I532", "histograms": [{"batchcodes": ["ER1741-I532"], "histogram": {"Fatigue": 1, "Influenza like illness": 1, "Myalgia": 1, "Oropharyngeal pain": 1, "Sleep disorder": 1}}]}
+{"batchcode": "ER1741-I532", "histograms": [{"histogram": {"Fatigue": 1, "Influenza like illness": 1, "Myalgia": 1, "Oropharyngeal pain": 1, "Sleep disorder": 1}, "batchcodes": ["ER1741-I532"]}]}

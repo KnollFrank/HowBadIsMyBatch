@@ -1,1 +1,1 @@
-{"batchcode": "AVA5778", "histograms": [{"batchcodes": ["AVA5778"], "histogram": {"Body temperature": 1, "Dyspnoea": 1, "Headache": 1, "Hypoaesthesia": 1, "Myalgia": 1, "Paraesthesia": 1, "Pyrexia": 1, "Vertigo": 1}}]}
+{"batchcode": "AVA5778", "histograms": [{"histogram": {"Body temperature": 1, "Dyspnoea": 1, "Headache": 1, "Hypoaesthesia": 1, "Myalgia": 1, "Paraesthesia": 1, "Pyrexia": 1, "Vertigo": 1}, "batchcodes": ["AVA5778"]}]}

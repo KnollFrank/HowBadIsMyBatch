@@ -1,1 +1,1 @@
-{"batchcode": "E14991", "histograms": [{"batchcodes": ["E14991"], "histogram": {"Blood test normal": 1, "Cardiac monitoring": 1, "Echocardiogram abnormal": 1, "Electrocardiogram abnormal": 1, "Headache": 1, "Palpitations": 1, "Ventricular extrasystoles": 1}}]}
+{"batchcode": "E14991", "histograms": [{"histogram": {"Blood test normal": 1, "Cardiac monitoring": 1, "Echocardiogram abnormal": 1, "Electrocardiogram abnormal": 1, "Headache": 1, "Palpitations": 1, "Ventricular extrasystoles": 1}, "batchcodes": ["E14991"]}]}

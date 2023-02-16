@@ -1,1 +1,1 @@
-{"batchcode": "AM0173", "histograms": [{"batchcodes": ["AM0173"], "histogram": {"Anosmia": 1, "COVID-19": 1, "Fatigue": 1, "Head discomfort": 1, "Productive cough": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "AM0173", "histograms": [{"histogram": {"Anosmia": 1, "COVID-19": 1, "Fatigue": 1, "Head discomfort": 1, "Productive cough": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["AM0173"]}]}

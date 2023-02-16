@@ -1,1 +1,1 @@
-{"batchcode": "FN5454", "histograms": [{"batchcodes": ["FN5454"], "histogram": {"Dyspnoea": 1, "Interchange of vaccine products": 1, "Oropharyngeal pain": 1, "Parosmia": 1, "SARS-CoV-2 test": 1, "Taste disorder": 1, "Thyroid mass": 1}}]}
+{"batchcode": "FN5454", "histograms": [{"histogram": {"Dyspnoea": 1, "Interchange of vaccine products": 1, "Oropharyngeal pain": 1, "Parosmia": 1, "SARS-CoV-2 test": 1, "Taste disorder": 1, "Thyroid mass": 1}, "batchcodes": ["FN5454"]}]}

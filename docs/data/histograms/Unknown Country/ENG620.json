@@ -1,1 +1,1 @@
-{"batchcode": "ENG620", "histograms": [{"batchcodes": ["ENG620", "ER2730"], "histogram": {"Bell's palsy": 1, "Blood test": 1, "Cerebrovascular accident": 1, "Chest X-ray": 1, "Computerised tomogram head": 1, "Magnetic resonance imaging head": 1, "Scan with contrast": 1}}]}
+{"batchcode": "ENG620", "histograms": [{"histogram": {"Bell's palsy": 1, "Blood test": 1, "Cerebrovascular accident": 1, "Chest X-ray": 1, "Computerised tomogram head": 1, "Magnetic resonance imaging head": 1, "Scan with contrast": 1}, "batchcodes": ["ENG620", "ER2730"]}]}

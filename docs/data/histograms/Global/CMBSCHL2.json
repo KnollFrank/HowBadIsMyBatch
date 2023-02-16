@@ -1,1 +1,1 @@
-{"batchcode": "CMBSCHL2", "histograms": [{"batchcodes": ["CMBSCHL2"], "histogram": {"Dizziness": 1, "Fibrin D dimer": 1, "Fibrin D dimer increased": 1, "Hypoaesthesia": 1, "Myalgia": 1}}]}
+{"batchcode": "CMBSCHL2", "histograms": [{"histogram": {"Dizziness": 1, "Fibrin D dimer": 1, "Fibrin D dimer increased": 1, "Hypoaesthesia": 1, "Myalgia": 1}, "batchcodes": ["CMBSCHL2"]}]}

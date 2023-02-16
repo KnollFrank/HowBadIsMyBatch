@@ -1,1 +1,1 @@
-{"batchcode": "FK05P6", "histograms": [{"batchcodes": ["FK05P6"], "histogram": {"COVID-19": 1, "Drug ineffective": 1, "Interchange of vaccine products": 1, "SARS-CoV-2 test": 1}}]}
+{"batchcode": "FK05P6", "histograms": [{"histogram": {"COVID-19": 1, "Drug ineffective": 1, "Interchange of vaccine products": 1, "SARS-CoV-2 test": 1}, "batchcodes": ["FK05P6"]}]}

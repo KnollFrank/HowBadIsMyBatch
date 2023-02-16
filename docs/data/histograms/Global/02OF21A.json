@@ -1,1 +1,1 @@
-{"batchcode": "02OF21A", "histograms": [{"batchcodes": ["02OF21A"], "histogram": {"Nausea": 2, "Chills": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Insomnia": 1, "Myalgia": 1, "Nocturia": 1, "Poor quality sleep": 1, "Pyrexia": 1}}]}
+{"batchcode": "02OF21A", "histograms": [{"histogram": {"Nausea": 2, "Chills": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Insomnia": 1, "Myalgia": 1, "Nocturia": 1, "Poor quality sleep": 1, "Pyrexia": 1}, "batchcodes": ["02OF21A"]}]}

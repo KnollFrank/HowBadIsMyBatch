@@ -1,1 +1,1 @@
-{"batchcode": "FAL780", "histograms": [{"batchcodes": ["FAL780"], "histogram": {"Blood test": 1, "Chest X-ray abnormal": 1, "Chest pain": 1, "Electrocardiogram": 1, "Myocardial necrosis marker increased": 1, "Myocarditis": 1, "Pain in extremity": 1}}]}
+{"batchcode": "FAL780", "histograms": [{"histogram": {"Blood test": 1, "Chest X-ray abnormal": 1, "Chest pain": 1, "Electrocardiogram": 1, "Myocardial necrosis marker increased": 1, "Myocarditis": 1, "Pain in extremity": 1}, "batchcodes": ["FAL780"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "56A22A", "histograms": [{"batchcodes": ["56A22A"], "histogram": {"COVID-19": 2, "Malaise": 2, "Oropharyngeal pain": 2, "SARS-CoV-2 test positive": 2, "Sinus congestion": 2, "Cough": 1, "Oedema peripheral": 1}}]}
+{"batchcode": "56A22A", "histograms": [{"histogram": {"COVID-19": 2, "Malaise": 2, "Oropharyngeal pain": 2, "SARS-CoV-2 test positive": 2, "Sinus congestion": 2, "Cough": 1, "Oedema peripheral": 1}, "batchcodes": ["56A22A"]}]}

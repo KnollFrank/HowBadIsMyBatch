@@ -1,1 +1,1 @@
-{"batchcode": "FG7387", "histograms": [{"batchcodes": ["FG7387"], "histogram": {"Angiogram": 1, "Haemorrhagic stroke": 1, "Magnetic resonance imaging": 1, "NIH stroke scale": 1}}]}
+{"batchcode": "FG7387", "histograms": [{"histogram": {"Angiogram": 1, "Haemorrhagic stroke": 1, "Magnetic resonance imaging": 1, "NIH stroke scale": 1}, "batchcodes": ["FG7387"]}]}

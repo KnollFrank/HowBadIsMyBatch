@@ -1,1 +1,1 @@
-{"batchcode": "SCT J2", "histograms": [{"batchcodes": ["SCT J2"], "histogram": {"Deafness": 1, "Erythema multiforme": 1, "Facial paralysis": 1, "Infection": 1, "Paraesthesia": 1, "Rash": 1}}]}
+{"batchcode": "SCT J2", "histograms": [{"histogram": {"Deafness": 1, "Erythema multiforme": 1, "Facial paralysis": 1, "Infection": 1, "Paraesthesia": 1, "Rash": 1}, "batchcodes": ["SCT J2"]}]}

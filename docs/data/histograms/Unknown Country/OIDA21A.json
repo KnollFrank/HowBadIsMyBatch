@@ -1,1 +1,1 @@
-{"batchcode": "OIDA21A", "histograms": [{"batchcodes": ["OIDA21A"], "histogram": {"Incomplete course of vaccination": 1, "Injection site erythema": 1, "Injection site swelling": 1, "Injection site warmth": 1, "Pruritus": 1, "Vomiting": 1}}]}
+{"batchcode": "OIDA21A", "histograms": [{"histogram": {"Incomplete course of vaccination": 1, "Injection site erythema": 1, "Injection site swelling": 1, "Injection site warmth": 1, "Pruritus": 1, "Vomiting": 1}, "batchcodes": ["OIDA21A"]}]}

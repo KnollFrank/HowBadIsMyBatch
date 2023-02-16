@@ -1,1 +1,1 @@
-{"batchcode": "TL1939", "histograms": [{"batchcodes": ["TL1939"], "histogram": {"Headache": 1, "Malaise": 1, "Migraine": 1, "Palpitations": 1, "Tachycardia": 1}}]}
+{"batchcode": "TL1939", "histograms": [{"histogram": {"Headache": 1, "Malaise": 1, "Migraine": 1, "Palpitations": 1, "Tachycardia": 1}, "batchcodes": ["TL1939"]}]}

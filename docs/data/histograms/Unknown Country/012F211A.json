@@ -1,1 +1,1 @@
-{"batchcode": "012F211A", "histograms": [{"batchcodes": ["012F211A"], "histogram": {"Erythema": 1, "Fatigue": 1, "Headache": 1, "Pain": 1, "Peripheral swelling": 1, "Pyrexia": 1, "Skin warm": 1}}]}
+{"batchcode": "012F211A", "histograms": [{"histogram": {"Erythema": 1, "Fatigue": 1, "Headache": 1, "Pain": 1, "Peripheral swelling": 1, "Pyrexia": 1, "Skin warm": 1}, "batchcodes": ["012F211A"]}]}

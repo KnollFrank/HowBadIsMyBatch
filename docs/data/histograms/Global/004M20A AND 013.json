@@ -1,1 +1,1 @@
-{"batchcode": "004M20A AND 013", "histograms": [{"batchcodes": ["004M20A AND 013"], "histogram": {"Fatigue": 1, "Oral lichen planus": 1, "Stomatitis": 1}}]}
+{"batchcode": "004M20A AND 013", "histograms": [{"histogram": {"Fatigue": 1, "Oral lichen planus": 1, "Stomatitis": 1}, "batchcodes": ["004M20A AND 013"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FMO698", "histograms": [{"batchcodes": ["FMO698"], "histogram": {"SARS-CoV-2 test": 3, "COVID-19": 2, "Drug ineffective": 2, "Body temperature": 1, "Chills": 1, "Dysarthria": 1, "Malaise": 1, "Pyrexia": 1, "Tremor": 1}}]}
+{"batchcode": "FMO698", "histograms": [{"histogram": {"SARS-CoV-2 test": 3, "COVID-19": 2, "Drug ineffective": 2, "Body temperature": 1, "Chills": 1, "Dysarthria": 1, "Malaise": 1, "Pyrexia": 1, "Tremor": 1}, "batchcodes": ["FMO698"]}]}

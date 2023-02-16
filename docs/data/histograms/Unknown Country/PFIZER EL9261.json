@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EL9261", "histograms": [{"batchcodes": ["PFIZER EL9261"], "histogram": {"Arthralgia": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Feeling hot": 1, "Musculoskeletal stiffness": 1, "Nausea": 1, "Tooth extraction": 1, "Vomiting": 1}}]}
+{"batchcode": "PFIZER EL9261", "histograms": [{"histogram": {"Arthralgia": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Feeling hot": 1, "Musculoskeletal stiffness": 1, "Nausea": 1, "Tooth extraction": 1, "Vomiting": 1}, "batchcodes": ["PFIZER EL9261"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EN-6199", "histograms": [{"batchcodes": ["EL-9267", "EN-6199"], "histogram": {"Cerebrovascular disorder": 1, "Lymphadenopathy": 1, "Magnetic resonance imaging head": 1, "Scan with contrast": 1, "Ultrasound scan": 1, "Ultrasound thyroid": 1}}]}
+{"batchcode": "EN-6199", "histograms": [{"histogram": {"Cerebrovascular disorder": 1, "Lymphadenopathy": 1, "Magnetic resonance imaging head": 1, "Scan with contrast": 1, "Ultrasound scan": 1, "Ultrasound thyroid": 1}, "batchcodes": ["EL-9267", "EN-6199"]}]}

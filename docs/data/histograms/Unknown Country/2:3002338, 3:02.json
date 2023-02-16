@@ -1,1 +1,1 @@
-{"batchcode": "2:3002338, 3:02", "histograms": [{"batchcodes": ["2:3002338, 3:02"], "histogram": {"Biliary colic": 1, "COVID-19 immunisation": 1, "Vomiting": 1}}]}
+{"batchcode": "2:3002338, 3:02", "histograms": [{"histogram": {"Biliary colic": 1, "COVID-19 immunisation": 1, "Vomiting": 1}, "batchcodes": ["2:3002338, 3:02"]}]}

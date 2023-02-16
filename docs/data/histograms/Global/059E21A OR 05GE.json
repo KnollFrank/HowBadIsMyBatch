@@ -1,1 +1,1 @@
-{"batchcode": "059E21A OR 05GE", "histograms": [{"batchcodes": ["059E21A OR 05GE"], "histogram": {"Dyspnoea": 1, "Musculoskeletal chest pain": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "059E21A OR 05GE", "histograms": [{"histogram": {"Dyspnoea": 1, "Musculoskeletal chest pain": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}, "batchcodes": ["059E21A OR 05GE"]}]}

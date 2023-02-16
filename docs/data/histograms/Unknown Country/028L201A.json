@@ -1,1 +1,1 @@
-{"batchcode": "028L201A", "histograms": [{"batchcodes": ["028L201A"], "histogram": {"Fatigue": 3, "Headache": 2, "Body temperature increased": 1, "Chills": 1, "Decreased appetite": 1, "Hypertension": 1, "Malaise": 1, "Migraine": 1, "Nausea": 1, "Pyrexia": 1, "Rash": 1, "Vertigo": 1}}]}
+{"batchcode": "028L201A", "histograms": [{"histogram": {"Fatigue": 3, "Headache": 2, "Body temperature increased": 1, "Chills": 1, "Decreased appetite": 1, "Hypertension": 1, "Malaise": 1, "Migraine": 1, "Nausea": 1, "Pyrexia": 1, "Rash": 1, "Vertigo": 1}, "batchcodes": ["028L201A"]}]}

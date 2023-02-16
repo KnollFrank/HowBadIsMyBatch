@@ -1,1 +1,1 @@
-{"batchcode": "URN:UVCI:01:CH:", "histograms": [{"batchcodes": ["URN:UVCI:01:CH:"], "histogram": {"Breast cancer": 1, "Chills": 1, "Psoriasis": 1, "Pulmonary embolism": 1, "Rash": 1, "Rash pruritic": 1}}]}
+{"batchcode": "URN:UVCI:01:CH:", "histograms": [{"histogram": {"Breast cancer": 1, "Chills": 1, "Psoriasis": 1, "Pulmonary embolism": 1, "Rash": 1, "Rash pruritic": 1}, "batchcodes": ["URN:UVCI:01:CH:"]}]}

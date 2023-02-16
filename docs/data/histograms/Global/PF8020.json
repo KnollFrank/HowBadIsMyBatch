@@ -1,1 +1,1 @@
-{"batchcode": "PF8020", "histograms": [{"batchcodes": ["041A21A", "PF8020"], "histogram": {"COVID-19": 1, "Exposure to SARS-CoV-2": 1, "Interchange of vaccine products": 1, "Malaise": 1, "SARS-CoV-2 RNA": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "PF8020", "histograms": [{"histogram": {"COVID-19": 1, "Exposure to SARS-CoV-2": 1, "Interchange of vaccine products": 1, "Malaise": 1, "SARS-CoV-2 RNA": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["041A21A", "PF8020"]}]}

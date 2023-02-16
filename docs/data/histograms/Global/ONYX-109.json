@@ -1,1 +1,1 @@
-{"batchcode": "ONYX-109", "histograms": [{"batchcodes": ["ONYX-109"], "histogram": {"Fatigue": 1, "Immunisation": 1, "Nasopharyngitis": 1, "SARS-CoV-2 test negative": 1}}]}
+{"batchcode": "ONYX-109", "histograms": [{"histogram": {"Fatigue": 1, "Immunisation": 1, "Nasopharyngitis": 1, "SARS-CoV-2 test negative": 1}, "batchcodes": ["ONYX-109"]}]}

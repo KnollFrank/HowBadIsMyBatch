@@ -1,1 +1,1 @@
-{"batchcode": "WA61Y539", "histograms": [{"batchcodes": ["WA61Y539", "WAGLY539"], "histogram": {"Chronic obstructive pulmonary disease": 1, "Dyspnoea": 1, "Hypoxia": 1, "Leukocytosis": 1}}]}
+{"batchcode": "WA61Y539", "histograms": [{"histogram": {"Chronic obstructive pulmonary disease": 1, "Dyspnoea": 1, "Hypoxia": 1, "Leukocytosis": 1}, "batchcodes": ["WA61Y539", "WAGLY539"]}]}

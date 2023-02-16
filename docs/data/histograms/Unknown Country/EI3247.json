@@ -1,1 +1,1 @@
-{"batchcode": "EI3247", "histograms": [{"batchcodes": ["EI3247", "EN6201"], "histogram": {"Blood test": 1, "Condition aggravated": 1, "Herpes simplex": 1, "Immunodeficiency": 1, "Skin ulcer haemorrhage": 1}}]}
+{"batchcode": "EI3247", "histograms": [{"histogram": {"Blood test": 1, "Condition aggravated": 1, "Herpes simplex": 1, "Immunodeficiency": 1, "Skin ulcer haemorrhage": 1}, "batchcodes": ["EI3247", "EN6201"]}]}

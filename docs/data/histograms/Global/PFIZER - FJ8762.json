@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER - FJ8762", "histograms": [{"batchcodes": ["PFIZER - FJ8762"], "histogram": {"Arthralgia": 1, "Chest pain": 1, "Fatigue": 1, "Migraine": 1, "Myalgia": 1, "Nausea": 1, "Pain in extremity": 1}}]}
+{"batchcode": "PFIZER - FJ8762", "histograms": [{"histogram": {"Arthralgia": 1, "Chest pain": 1, "Fatigue": 1, "Migraine": 1, "Myalgia": 1, "Nausea": 1, "Pain in extremity": 1}, "batchcodes": ["PFIZER - FJ8762"]}]}

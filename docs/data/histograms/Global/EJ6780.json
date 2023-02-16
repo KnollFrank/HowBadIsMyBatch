@@ -1,1 +1,1 @@
-{"batchcode": "EJ6780", "histograms": [{"batchcodes": ["EJ6780"], "histogram": {"SARS-CoV-2 test": 2, "C-reactive protein": 1, "COVID-19": 1, "Fibrin D dimer": 1, "Pulmonary embolism": 1, "Vaccination failure": 1}}]}
+{"batchcode": "EJ6780", "histograms": [{"histogram": {"SARS-CoV-2 test": 2, "C-reactive protein": 1, "COVID-19": 1, "Fibrin D dimer": 1, "Pulmonary embolism": 1, "Vaccination failure": 1}, "batchcodes": ["EJ6780"]}]}

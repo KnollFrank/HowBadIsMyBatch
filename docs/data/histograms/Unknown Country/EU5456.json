@@ -1,1 +1,1 @@
-{"batchcode": "EU5456", "histograms": [{"batchcodes": ["EU5456"], "histogram": {"Maternal exposure during breast feeding": 1, "Maternal exposure during pregnancy": 1, "Pain in extremity": 1, "Scan": 1}}]}
+{"batchcode": "EU5456", "histograms": [{"histogram": {"Maternal exposure during breast feeding": 1, "Maternal exposure during pregnancy": 1, "Pain in extremity": 1, "Scan": 1}, "batchcodes": ["EU5456"]}]}

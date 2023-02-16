@@ -1,1 +1,1 @@
-{"batchcode": "URN:UVCI:CH:4DE", "histograms": [{"batchcodes": ["URN:UVCI:CH:4DE"], "histogram": {"Dyspnoea": 1}}]}
+{"batchcode": "URN:UVCI:CH:4DE", "histograms": [{"histogram": {"Dyspnoea": 1}, "batchcodes": ["URN:UVCI:CH:4DE"]}]}

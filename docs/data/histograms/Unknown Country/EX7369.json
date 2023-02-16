@@ -1,1 +1,1 @@
-{"batchcode": "EX7369", "histograms": [{"batchcodes": ["EX7369"], "histogram": {"Body temperature": 1, "Deep vein thrombosis": 1, "Herpes virus infection": 1, "Localised oedema": 1, "Oedema peripheral": 1, "Pyrexia": 1, "Ultrasound Doppler": 1}}]}
+{"batchcode": "EX7369", "histograms": [{"histogram": {"Body temperature": 1, "Deep vein thrombosis": 1, "Herpes virus infection": 1, "Localised oedema": 1, "Oedema peripheral": 1, "Pyrexia": 1, "Ultrasound Doppler": 1}, "batchcodes": ["EX7369"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EE7938", "histograms": [{"batchcodes": ["EE7938"], "histogram": {"Product administered to patient of inappropriate age": 2, "Dizziness": 1, "Expired product administered": 1, "Fall": 1, "Feeling abnormal": 1, "Product storage error": 1, "Syncope": 1}}]}
+{"batchcode": "EE7938", "histograms": [{"histogram": {"Product administered to patient of inappropriate age": 2, "Dizziness": 1, "Expired product administered": 1, "Fall": 1, "Feeling abnormal": 1, "Product storage error": 1, "Syncope": 1}, "batchcodes": ["EE7938"]}]}

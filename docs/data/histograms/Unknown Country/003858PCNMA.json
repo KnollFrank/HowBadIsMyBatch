@@ -1,1 +1,1 @@
-{"batchcode": "003858PCNMA", "histograms": [{"batchcodes": ["003858PCNMA", "EW0170", "FC3182"], "histogram": {"Diarrhoea": 1, "Dyspnoea": 1, "Malaise": 1, "Pyrexia": 1}}]}
+{"batchcode": "003858PCNMA", "histograms": [{"histogram": {"Diarrhoea": 1, "Dyspnoea": 1, "Malaise": 1, "Pyrexia": 1}, "batchcodes": ["003858PCNMA", "EW0170", "FC3182"]}]}

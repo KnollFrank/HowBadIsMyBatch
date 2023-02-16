@@ -1,1 +1,1 @@
-{"batchcode": "000239A", "histograms": [{"batchcodes": ["000239A"], "histogram": {"COVID-19 immunisation": 1, "Food allergy": 1, "Nausea": 1, "Pneumonia": 1, "Pyrexia": 1, "Rheumatoid arthritis": 1, "Vomiting": 1}}]}
+{"batchcode": "000239A", "histograms": [{"histogram": {"COVID-19 immunisation": 1, "Food allergy": 1, "Nausea": 1, "Pneumonia": 1, "Pyrexia": 1, "Rheumatoid arthritis": 1, "Vomiting": 1}, "batchcodes": ["000239A"]}]}

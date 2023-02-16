@@ -1,1 +1,1 @@
-{"batchcode": "011821A", "histograms": [{"batchcodes": ["011821A"], "histogram": {"Asthenia": 1, "Bedridden": 1, "Chills": 1, "Dizziness": 1, "Myalgia": 1, "Nausea": 1, "Pain": 1, "Pruritus": 1, "Pyrexia": 1, "Rash": 1}}]}
+{"batchcode": "011821A", "histograms": [{"histogram": {"Asthenia": 1, "Bedridden": 1, "Chills": 1, "Dizziness": 1, "Myalgia": 1, "Nausea": 1, "Pain": 1, "Pruritus": 1, "Pyrexia": 1, "Rash": 1}, "batchcodes": ["011821A"]}]}

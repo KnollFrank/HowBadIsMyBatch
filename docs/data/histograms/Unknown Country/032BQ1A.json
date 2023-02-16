@@ -1,1 +1,1 @@
-{"batchcode": "032BQ1A", "histograms": [{"batchcodes": ["032BQ1A"], "histogram": {"COVID-19": 1, "Chest discomfort": 1, "Nasopharyngitis": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "032BQ1A", "histograms": [{"histogram": {"COVID-19": 1, "Chest discomfort": 1, "Nasopharyngitis": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["032BQ1A"]}]}

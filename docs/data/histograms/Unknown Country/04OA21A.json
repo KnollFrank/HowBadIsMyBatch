@@ -1,1 +1,1 @@
-{"batchcode": "04OA21A", "histograms": [{"batchcodes": ["032B21A", "04OA21A", "058F21A"], "histogram": {"Dizziness": 1, "Fatigue": 1, "Headache": 1, "Palpitations": 1}}, {"batchcodes": ["04OA21A"], "histogram": {"Injection site erythema": 1, "Injection site pain": 1}}]}
+{"batchcode": "04OA21A", "histograms": [{"histogram": {"Dizziness": 1, "Fatigue": 1, "Headache": 1, "Palpitations": 1}, "batchcodes": ["032B21A", "04OA21A", "058F21A"]}, {"histogram": {"Injection site erythema": 1, "Injection site pain": 1}, "batchcodes": ["04OA21A"]}]}

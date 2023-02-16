@@ -1,1 +1,1 @@
-{"batchcode": "ET7205-66-020", "histograms": [{"batchcodes": ["ET7205-66-020"], "histogram": {"Full blood count": 1, "Malaise": 1, "Platelet count": 1, "Presyncope": 1, "Thrombocytopenia": 1}}]}
+{"batchcode": "ET7205-66-020", "histograms": [{"histogram": {"Full blood count": 1, "Malaise": 1, "Platelet count": 1, "Presyncope": 1, "Thrombocytopenia": 1}, "batchcodes": ["ET7205-66-020"]}]}

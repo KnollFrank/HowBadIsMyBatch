@@ -1,1 +1,1 @@
-{"batchcode": "AC 9551", "histograms": [{"batchcodes": ["AC 9551"], "histogram": {"Asthenia": 1, "Chest discomfort": 1, "Disturbance in attention": 1, "Facial spasm": 1, "Myalgia": 1, "Pain in extremity": 1}}]}
+{"batchcode": "AC 9551", "histograms": [{"histogram": {"Asthenia": 1, "Chest discomfort": 1, "Disturbance in attention": 1, "Facial spasm": 1, "Myalgia": 1, "Pain in extremity": 1}, "batchcodes": ["AC 9551"]}]}

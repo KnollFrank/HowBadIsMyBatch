@@ -1,1 +1,1 @@
-{"batchcode": "FP3318", "histograms": [{"batchcodes": ["FP3318"], "histogram": {"Gait inability": 1, "Magnetic resonance imaging": 1, "Neurological examination": 1, "Orthopaedic examination": 1, "Pain in extremity": 1, "Ultrasound scan": 1, "X-ray": 1}}]}
+{"batchcode": "FP3318", "histograms": [{"histogram": {"Gait inability": 1, "Magnetic resonance imaging": 1, "Neurological examination": 1, "Orthopaedic examination": 1, "Pain in extremity": 1, "Ultrasound scan": 1, "X-ray": 1}, "batchcodes": ["FP3318"]}]}

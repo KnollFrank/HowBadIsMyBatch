@@ -1,1 +1,1 @@
-{"batchcode": "EW", "histograms": [{"batchcodes": ["EW"], "histogram": {"Abdominal discomfort": 1, "Diarrhoea": 1, "Dyspepsia": 1, "Lip swelling": 1, "Rash": 1, "Urticaria": 1}}]}
+{"batchcode": "EW", "histograms": [{"histogram": {"Abdominal discomfort": 1, "Diarrhoea": 1, "Dyspepsia": 1, "Lip swelling": 1, "Rash": 1, "Urticaria": 1}, "batchcodes": ["EW"]}]}

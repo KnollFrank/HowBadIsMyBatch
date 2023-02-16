@@ -1,1 +1,1 @@
-{"batchcode": "EP9480", "histograms": [{"batchcodes": ["EP9480"], "histogram": {"Bell's palsy": 1, "Brain injury": 1, "Computerised tomogram": 1, "Computerised tomogram head": 1, "Magnetic resonance imaging": 1, "Magnetic resonance imaging head": 1, "Thalamic infarction": 1}}]}
+{"batchcode": "EP9480", "histograms": [{"histogram": {"Bell's palsy": 1, "Brain injury": 1, "Computerised tomogram": 1, "Computerised tomogram head": 1, "Magnetic resonance imaging": 1, "Magnetic resonance imaging head": 1, "Thalamic infarction": 1}, "batchcodes": ["EP9480"]}]}

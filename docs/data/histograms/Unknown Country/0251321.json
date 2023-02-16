@@ -1,1 +1,1 @@
-{"batchcode": "0251321", "histograms": [{"batchcodes": ["0251321"], "histogram": {"Biopsy skin abnormal": 1, "Dermatitis bullous": 1, "Fournier's gangrene": 1, "Pemphigoid": 1}}]}
+{"batchcode": "0251321", "histograms": [{"histogram": {"Biopsy skin abnormal": 1, "Dermatitis bullous": 1, "Fournier's gangrene": 1, "Pemphigoid": 1}, "batchcodes": ["0251321"]}]}

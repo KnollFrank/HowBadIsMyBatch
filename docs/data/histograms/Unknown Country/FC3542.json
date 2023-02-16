@@ -1,1 +1,1 @@
-{"batchcode": "FC3542", "histograms": [{"batchcodes": ["FC3542"], "histogram": {"Blood test": 1, "Chest discomfort": 1, "Chest pain": 1, "Computerised tomogram normal": 1, "Dizziness": 1, "Dyspnoea": 1, "Electrocardiogram normal": 1, "Headache": 1, "Myalgia": 1, "Palpitations": 1}}]}
+{"batchcode": "FC3542", "histograms": [{"histogram": {"Blood test": 1, "Chest discomfort": 1, "Chest pain": 1, "Computerised tomogram normal": 1, "Dizziness": 1, "Dyspnoea": 1, "Electrocardiogram normal": 1, "Headache": 1, "Myalgia": 1, "Palpitations": 1}, "batchcodes": ["FC3542"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "3200308D", "histograms": [{"batchcodes": ["3200308D"], "histogram": {"Body temperature": 1, "Chills": 1, "Diarrhoea": 1, "Dizziness": 1, "Headache": 1, "Pain": 1, "Pain in extremity": 1, "Pyrexia": 1, "Vomiting": 1}}]}
+{"batchcode": "3200308D", "histograms": [{"histogram": {"Body temperature": 1, "Chills": 1, "Diarrhoea": 1, "Dizziness": 1, "Headache": 1, "Pain": 1, "Pain in extremity": 1, "Pyrexia": 1, "Vomiting": 1}, "batchcodes": ["3200308D"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "3106023", "histograms": [{"batchcodes": ["086521A", "3106023", "FJ830"], "histogram": {"Asthenia": 1, "Vaccination site pain": 1}}, {"batchcodes": ["3106023"], "histogram": {"Asthenia": 1, "Inappropriate schedule of product administration": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "3106023", "histograms": [{"histogram": {"Asthenia": 1, "Vaccination site pain": 1}, "batchcodes": ["086521A", "3106023", "FJ830"]}, {"histogram": {"Asthenia": 1, "Inappropriate schedule of product administration": 1, "Vaccination site pain": 1}, "batchcodes": ["3106023"]}]}

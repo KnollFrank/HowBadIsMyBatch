@@ -1,1 +1,1 @@
-{"batchcode": "ER3870", "histograms": [{"batchcodes": ["ER3870"], "histogram": {"Ageusia": 1, "Anosmia": 1, "COVID-19": 1, "Cough": 1, "Fatigue": 1, "Nasal congestion": 1, "Pyrexia": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "ER3870", "histograms": [{"histogram": {"Ageusia": 1, "Anosmia": 1, "COVID-19": 1, "Cough": 1, "Fatigue": 1, "Nasal congestion": 1, "Pyrexia": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["ER3870"]}]}

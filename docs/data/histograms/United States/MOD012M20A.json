@@ -1,1 +1,1 @@
-{"batchcode": "MOD012M20A", "histograms": [{"batchcodes": ["MOD012M20A"], "histogram": {"Bronchitis": 1, "Cardiac stress test": 1, "Cardiovascular symptom": 1, "Chest discomfort": 1, "Computerised tomogram": 1, "Dyspnoea": 1, "Echocardiogram abnormal": 1, "X-ray abnormal": 1}}]}
+{"batchcode": "MOD012M20A", "histograms": [{"histogram": {"Bronchitis": 1, "Cardiac stress test": 1, "Cardiovascular symptom": 1, "Chest discomfort": 1, "Computerised tomogram": 1, "Dyspnoea": 1, "Echocardiogram abnormal": 1, "X-ray abnormal": 1}, "batchcodes": ["MOD012M20A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "04D21A", "histograms": [{"batchcodes": ["04D21A"], "histogram": {"Chest discomfort": 1, "Chills": 1, "Hypotension": 1, "Insomnia": 1, "Myocarditis": 1, "Palpitations": 1, "Pyrexia": 1, "Sinus bradycardia": 1, "Vomiting": 1}}]}
+{"batchcode": "04D21A", "histograms": [{"histogram": {"Chest discomfort": 1, "Chills": 1, "Hypotension": 1, "Insomnia": 1, "Myocarditis": 1, "Palpitations": 1, "Pyrexia": 1, "Sinus bradycardia": 1, "Vomiting": 1}, "batchcodes": ["04D21A"]}]}

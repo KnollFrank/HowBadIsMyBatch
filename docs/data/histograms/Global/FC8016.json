@@ -1,1 +1,1 @@
-{"batchcode": "FC8016", "histograms": [{"batchcodes": ["FC8016"], "histogram": {"Dermal cyst": 1, "Ear pain": 1, "Herpes zoster": 1, "Hyperaemia": 1, "Pruritus": 1, "Rash": 1}}]}
+{"batchcode": "FC8016", "histograms": [{"histogram": {"Dermal cyst": 1, "Ear pain": 1, "Herpes zoster": 1, "Hyperaemia": 1, "Pruritus": 1, "Rash": 1}, "batchcodes": ["FC8016"]}]}

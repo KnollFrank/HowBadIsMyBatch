@@ -1,1 +1,1 @@
-{"batchcode": "SOKS16", "histograms": [{"batchcodes": ["SOKS16"], "histogram": {"Cerebral disorder": 1, "Headache": 1, "Hypersomnia": 1, "Malaise": 1}}]}
+{"batchcode": "SOKS16", "histograms": [{"histogram": {"Cerebral disorder": 1, "Headache": 1, "Hypersomnia": 1, "Malaise": 1}, "batchcodes": ["SOKS16"]}]}

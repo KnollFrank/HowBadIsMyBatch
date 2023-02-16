@@ -1,1 +1,1 @@
-{"batchcode": "ER8733 AND EW01", "histograms": [{"batchcodes": ["ER8733 AND EW01"], "histogram": {"Atrial fibrillation": 1, "Cardiac failure congestive": 1, "Cerebrovascular accident": 1, "Haemorrhagic stroke": 1, "Magnetic resonance imaging head abnormal": 1}}]}
+{"batchcode": "ER8733 AND EW01", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Cardiac failure congestive": 1, "Cerebrovascular accident": 1, "Haemorrhagic stroke": 1, "Magnetic resonance imaging head abnormal": 1}, "batchcodes": ["ER8733 AND EW01"]}]}

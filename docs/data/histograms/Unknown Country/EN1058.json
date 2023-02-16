@@ -1,1 +1,1 @@
-{"batchcode": "EN1058", "histograms": [{"batchcodes": ["EN1058"], "histogram": {"Balance disorder": 1, "Blood test normal": 1, "Gait disturbance": 1, "Nausea": 1, "Ophthalmological examination normal": 1, "SARS-CoV-2 antibody test negative": 1, "Visual impairment": 1}}]}
+{"batchcode": "EN1058", "histograms": [{"histogram": {"Balance disorder": 1, "Blood test normal": 1, "Gait disturbance": 1, "Nausea": 1, "Ophthalmological examination normal": 1, "SARS-CoV-2 antibody test negative": 1, "Visual impairment": 1}, "batchcodes": ["EN1058"]}]}

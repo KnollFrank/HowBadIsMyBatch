@@ -1,1 +1,1 @@
-{"batchcode": "4052B1", "histograms": [{"batchcodes": ["4052B1"], "histogram": {"Acute myocardial infarction": 1, "Anaemia": 1, "Asthenia": 1, "Fall": 1, "Pneumonia": 1, "Rhabdomyolysis": 1, "Rib fracture": 1, "Sepsis": 1, "Syncope": 1}}]}
+{"batchcode": "4052B1", "histograms": [{"histogram": {"Acute myocardial infarction": 1, "Anaemia": 1, "Asthenia": 1, "Fall": 1, "Pneumonia": 1, "Rhabdomyolysis": 1, "Rib fracture": 1, "Sepsis": 1, "Syncope": 1}, "batchcodes": ["4052B1"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EPG955", "histograms": [{"batchcodes": ["EPG955"], "histogram": {"Abdominal pain lower": 1, "Cold sweat": 1, "Disease recurrence": 1, "Fatigue": 1, "Headache": 1, "Migraine": 1, "Urticaria": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "EPG955", "histograms": [{"histogram": {"Abdominal pain lower": 1, "Cold sweat": 1, "Disease recurrence": 1, "Fatigue": 1, "Headache": 1, "Migraine": 1, "Urticaria": 1, "Vaccination site pain": 1}, "batchcodes": ["EPG955"]}]}

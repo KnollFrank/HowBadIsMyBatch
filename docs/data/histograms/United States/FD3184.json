@@ -1,1 +1,1 @@
-{"batchcode": "FD3184", "histograms": [{"batchcodes": ["FD3184"], "histogram": {"Blood pressure measurement": 1, "Blood test": 1, "Dyspnoea": 1, "Inappropriate schedule of product administration": 1, "Loss of personal independence in daily activities": 1, "Vaccination complication": 1}}]}
+{"batchcode": "FD3184", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Blood test": 1, "Dyspnoea": 1, "Inappropriate schedule of product administration": 1, "Loss of personal independence in daily activities": 1, "Vaccination complication": 1}, "batchcodes": ["FD3184"]}]}

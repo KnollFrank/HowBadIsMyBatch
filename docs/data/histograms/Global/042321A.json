@@ -1,1 +1,1 @@
-{"batchcode": "042321A", "histograms": [{"batchcodes": ["042321A"], "histogram": {"Chest X-ray normal": 1, "Cough": 1, "Fatigue": 1, "Inflammation": 1, "Pruritus": 1, "Respiratory tract infection viral": 1, "SARS-CoV-2 test negative": 1, "Sinus congestion": 1, "Urticaria": 1}}]}
+{"batchcode": "042321A", "histograms": [{"histogram": {"Chest X-ray normal": 1, "Cough": 1, "Fatigue": 1, "Inflammation": 1, "Pruritus": 1, "Respiratory tract infection viral": 1, "SARS-CoV-2 test negative": 1, "Sinus congestion": 1, "Urticaria": 1}, "batchcodes": ["042321A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "CM9809", "histograms": [{"batchcodes": ["CM9809", "EL9261"], "histogram": {"Bell's palsy": 1, "Computerised tomogram normal": 1, "Electrocardiogram normal": 1, "Facial paralysis": 1, "Hypoaesthesia": 1}}]}
+{"batchcode": "CM9809", "histograms": [{"histogram": {"Bell's palsy": 1, "Computerised tomogram normal": 1, "Electrocardiogram normal": 1, "Facial paralysis": 1, "Hypoaesthesia": 1}, "batchcodes": ["CM9809", "EL9261"]}]}

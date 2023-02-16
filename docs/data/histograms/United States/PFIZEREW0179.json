@@ -1,1 +1,1 @@
-{"batchcode": "PFIZEREW0179", "histograms": [{"batchcodes": ["PFIZEREW0179"], "histogram": {"Body temperature": 1, "Eye swelling": 1, "Fatigue": 1, "Headache": 1, "Product administered to patient of inappropriate age": 1, "Pyrexia": 1}}]}
+{"batchcode": "PFIZEREW0179", "histograms": [{"histogram": {"Body temperature": 1, "Eye swelling": 1, "Fatigue": 1, "Headache": 1, "Product administered to patient of inappropriate age": 1, "Pyrexia": 1}, "batchcodes": ["PFIZEREW0179"]}]}

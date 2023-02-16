@@ -1,1 +1,1 @@
-{"batchcode": "RICA000010", "histograms": [{"batchcodes": ["RICA000010"], "histogram": {"Chills": 1, "Disturbance in attention": 1, "Fatigue": 1, "Headache": 1, "Migraine": 1, "Myalgia": 1, "Nausea": 1, "Pain in extremity": 1, "Pyrexia": 1, "Vision blurred": 1}}]}
+{"batchcode": "RICA000010", "histograms": [{"histogram": {"Chills": 1, "Disturbance in attention": 1, "Fatigue": 1, "Headache": 1, "Migraine": 1, "Myalgia": 1, "Nausea": 1, "Pain in extremity": 1, "Pyrexia": 1, "Vision blurred": 1}, "batchcodes": ["RICA000010"]}]}

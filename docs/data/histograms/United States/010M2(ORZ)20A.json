@@ -1,1 +1,1 @@
-{"batchcode": "010M2(ORZ)20A", "histograms": [{"batchcodes": ["010M2(ORZ)20A"], "histogram": {"Dizziness": 1, "Headache": 1, "Heart rate": 1, "Heart rate increased": 1, "Nausea": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "010M2(ORZ)20A", "histograms": [{"histogram": {"Dizziness": 1, "Headache": 1, "Heart rate": 1, "Heart rate increased": 1, "Nausea": 1, "Vaccination site pain": 1}, "batchcodes": ["010M2(ORZ)20A"]}]}

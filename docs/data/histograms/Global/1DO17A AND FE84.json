@@ -1,1 +1,1 @@
-{"batchcode": "1DO17A AND FE84", "histograms": [{"batchcodes": ["1DO17A AND FE84"], "histogram": {"Chest discomfort": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Hypersomnia": 1, "Myalgia": 1, "Pain in extremity": 1, "Panic attack": 1, "Respiratory distress": 1}}]}
+{"batchcode": "1DO17A AND FE84", "histograms": [{"histogram": {"Chest discomfort": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Hypersomnia": 1, "Myalgia": 1, "Pain in extremity": 1, "Panic attack": 1, "Respiratory distress": 1}, "batchcodes": ["1DO17A AND FE84"]}]}

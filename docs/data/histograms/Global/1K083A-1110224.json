@@ -1,1 +1,1 @@
-{"batchcode": "1K083A-1110224", "histograms": [{"batchcodes": ["1K083A-1110224"], "histogram": {"Blood test": 1, "Chest discomfort": 1, "Fibrin D dimer": 1, "Myalgia": 1, "Physical examination": 1, "Troponin I": 1}}]}
+{"batchcode": "1K083A-1110224", "histograms": [{"histogram": {"Blood test": 1, "Chest discomfort": 1, "Fibrin D dimer": 1, "Myalgia": 1, "Physical examination": 1, "Troponin I": 1}, "batchcodes": ["1K083A-1110224"]}]}

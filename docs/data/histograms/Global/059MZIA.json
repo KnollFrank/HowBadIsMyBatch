@@ -1,1 +1,1 @@
-{"batchcode": "059MZIA", "histograms": [{"batchcodes": ["059MZIA"], "histogram": {"Arthropathy": 1, "COVID-19": 1, "Contusion": 1, "Cough": 1, "Fatigue": 1, "Head injury": 1, "Lip injury": 1, "Loss of consciousness": 1, "Quarantine": 1, "SARS-CoV-2 test positive": 1, "Tooth loss": 1}}]}
+{"batchcode": "059MZIA", "histograms": [{"histogram": {"Arthropathy": 1, "COVID-19": 1, "Contusion": 1, "Cough": 1, "Fatigue": 1, "Head injury": 1, "Lip injury": 1, "Loss of consciousness": 1, "Quarantine": 1, "SARS-CoV-2 test positive": 1, "Tooth loss": 1}, "batchcodes": ["059MZIA"]}]}

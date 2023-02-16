@@ -1,1 +1,1 @@
-{"batchcode": "041L201", "histograms": [{"batchcodes": ["041L201"], "histogram": {"Extra dose administered": 5, "Erythema": 1, "Oedema": 1, "Pain": 1, "Paraesthesia oral": 1, "Pruritus": 1}}]}
+{"batchcode": "041L201", "histograms": [{"histogram": {"Extra dose administered": 5, "Erythema": 1, "Oedema": 1, "Pain": 1, "Paraesthesia oral": 1, "Pruritus": 1}, "batchcodes": ["041L201"]}]}

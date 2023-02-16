@@ -1,1 +1,1 @@
-{"batchcode": "EL9206", "histograms": [{"batchcodes": ["EL9206"], "histogram": {"Dizziness": 1, "Ear discomfort": 1, "Ear pain": 1, "Headache": 1, "Nasopharyngitis": 1, "Oropharyngeal discomfort": 1, "Pain": 1, "Pain in jaw": 1, "Rhinorrhoea": 1}}]}
+{"batchcode": "EL9206", "histograms": [{"histogram": {"Dizziness": 1, "Ear discomfort": 1, "Ear pain": 1, "Headache": 1, "Nasopharyngitis": 1, "Oropharyngeal discomfort": 1, "Pain": 1, "Pain in jaw": 1, "Rhinorrhoea": 1}, "batchcodes": ["EL9206"]}]}

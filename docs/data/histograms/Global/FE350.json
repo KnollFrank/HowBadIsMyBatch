@@ -1,1 +1,1 @@
-{"batchcode": "FE350", "histograms": [{"batchcodes": ["FE350"], "histogram": {"Chills": 2, "Pyrexia": 2, "Cough": 1, "Diarrhoea": 1, "Headache": 1, "Oropharyngeal pain": 1, "Vomiting": 1}}]}
+{"batchcode": "FE350", "histograms": [{"histogram": {"Chills": 2, "Pyrexia": 2, "Cough": 1, "Diarrhoea": 1, "Headache": 1, "Oropharyngeal pain": 1, "Vomiting": 1}, "batchcodes": ["FE350"]}]}

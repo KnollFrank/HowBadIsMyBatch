@@ -1,1 +1,1 @@
-{"batchcode": "CM3H3", "histograms": [{"batchcodes": ["CM3H3"], "histogram": {"Abdominal pain": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Heart rate": 1, "Local reaction": 1, "Oxygen saturation": 1, "Renal failure": 1, "Respiratory rate": 1, "Vomiting": 1}}]}
+{"batchcode": "CM3H3", "histograms": [{"histogram": {"Abdominal pain": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Heart rate": 1, "Local reaction": 1, "Oxygen saturation": 1, "Renal failure": 1, "Respiratory rate": 1, "Vomiting": 1}, "batchcodes": ["CM3H3"]}]}

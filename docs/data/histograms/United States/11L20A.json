@@ -1,1 +1,1 @@
-{"batchcode": "11L20A", "histograms": [{"batchcodes": ["11L20A"], "histogram": {"Bradycardia": 1, "Eyelid disorder": 1, "Facial paralysis": 1, "Headache": 1, "Hemiparesis": 1, "Hypoaesthesia": 1, "Speech disorder": 1, "Vision blurred": 1}}]}
+{"batchcode": "11L20A", "histograms": [{"histogram": {"Bradycardia": 1, "Eyelid disorder": 1, "Facial paralysis": 1, "Headache": 1, "Hemiparesis": 1, "Hypoaesthesia": 1, "Speech disorder": 1, "Vision blurred": 1}, "batchcodes": ["11L20A"]}]}

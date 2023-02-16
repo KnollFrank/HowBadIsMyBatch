@@ -1,1 +1,1 @@
-{"batchcode": "FF2153", "histograms": [{"batchcodes": ["FF2153"], "histogram": {"Angina pectoris": 1, "Chest pain": 1, "Dyspnoea": 1, "Fatigue": 1, "Inappropriate schedule of product administration": 1, "Palpitations": 1, "Paraesthesia": 1}}]}
+{"batchcode": "FF2153", "histograms": [{"histogram": {"Angina pectoris": 1, "Chest pain": 1, "Dyspnoea": 1, "Fatigue": 1, "Inappropriate schedule of product administration": 1, "Palpitations": 1, "Paraesthesia": 1}, "batchcodes": ["FF2153"]}]}

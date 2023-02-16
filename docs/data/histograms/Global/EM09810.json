@@ -1,1 +1,1 @@
-{"batchcode": "EM09810", "histograms": [{"batchcodes": ["EM09810"], "histogram": {"Angiogram pulmonary normal": 1, "COVID-19 pneumonia": 1, "Dyspnoea": 1, "Dyspnoea exertional": 1, "Inflammatory marker test": 1, "Oxygen saturation decreased": 1}}]}
+{"batchcode": "EM09810", "histograms": [{"histogram": {"Angiogram pulmonary normal": 1, "COVID-19 pneumonia": 1, "Dyspnoea": 1, "Dyspnoea exertional": 1, "Inflammatory marker test": 1, "Oxygen saturation decreased": 1}, "batchcodes": ["EM09810"]}]}

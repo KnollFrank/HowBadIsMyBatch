@@ -1,1 +1,1 @@
-{"batchcode": "EM 9808", "histograms": [{"batchcodes": ["EM 6199", "EM 9808"], "histogram": {"Fatigue": 1, "Headache": 1, "Influenza like illness": 1, "Malaise": 1, "Somnolence": 1}}, {"batchcodes": ["EM 9808"], "histogram": {"Pain in extremity": 1}}]}
+{"batchcode": "EM 9808", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Influenza like illness": 1, "Malaise": 1, "Somnolence": 1}, "batchcodes": ["EM 6199", "EM 9808"]}, {"histogram": {"Pain in extremity": 1}, "batchcodes": ["EM 9808"]}]}

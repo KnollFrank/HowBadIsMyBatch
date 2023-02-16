@@ -1,1 +1,1 @@
-{"batchcode": "039KC20A", "histograms": [{"batchcodes": ["039KC20A"], "histogram": {"COVID-19": 1, "Fatigue": 1, "HLA marker study positive": 1, "Headache": 1, "Pain": 1, "Retinal vasculitis": 1, "SARS-CoV-2 test positive": 1, "Uveitis": 1, "Vitreous floaters": 1}}]}
+{"batchcode": "039KC20A", "histograms": [{"histogram": {"COVID-19": 1, "Fatigue": 1, "HLA marker study positive": 1, "Headache": 1, "Pain": 1, "Retinal vasculitis": 1, "SARS-CoV-2 test positive": 1, "Uveitis": 1, "Vitreous floaters": 1}, "batchcodes": ["039KC20A"]}]}

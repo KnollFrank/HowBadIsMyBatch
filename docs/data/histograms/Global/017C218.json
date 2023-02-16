@@ -1,1 +1,1 @@
-{"batchcode": "017C218", "histograms": [{"batchcodes": ["017C218"], "histogram": {"Electroencephalogram abnormal": 1, "Generalised tonic-clonic seizure": 1, "Magnetic resonance imaging head abnormal": 1, "Partial seizures": 1}}]}
+{"batchcode": "017C218", "histograms": [{"histogram": {"Electroencephalogram abnormal": 1, "Generalised tonic-clonic seizure": 1, "Magnetic resonance imaging head abnormal": 1, "Partial seizures": 1}, "batchcodes": ["017C218"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EWO216", "histograms": [{"batchcodes": ["EWO216", "FD7204"], "histogram": {"Migraine": 1, "Muscle spasms": 1, "Neurological symptom": 1, "Ophthalmological examination abnormal": 1, "Tremor": 1, "Visual impairment": 1, "Vitreous detachment": 1}}]}
+{"batchcode": "EWO216", "histograms": [{"histogram": {"Migraine": 1, "Muscle spasms": 1, "Neurological symptom": 1, "Ophthalmological examination abnormal": 1, "Tremor": 1, "Visual impairment": 1, "Vitreous detachment": 1}, "batchcodes": ["EWO216", "FD7204"]}]}

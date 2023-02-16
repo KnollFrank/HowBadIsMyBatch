@@ -1,1 +1,1 @@
-{"batchcode": "003K21-2A", "histograms": [{"batchcodes": ["003K21-2A"], "histogram": {"Expired product administered": 10, "Product storage error": 8, "No adverse event": 5, "Illness": 1, "Malaise": 1, "Myalgia": 1, "Pyrexia": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "003K21-2A", "histograms": [{"histogram": {"Expired product administered": 10, "Product storage error": 8, "No adverse event": 5, "Illness": 1, "Malaise": 1, "Myalgia": 1, "Pyrexia": 1, "Vaccination site pain": 1}, "batchcodes": ["003K21-2A"]}]}

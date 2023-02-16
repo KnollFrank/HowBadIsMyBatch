@@ -1,1 +1,1 @@
-{"batchcode": "040AMA", "histograms": [{"batchcodes": ["040AMA"], "histogram": {"Cough": 2, "Fatigue": 2, "Myalgia": 2, "Pyrexia": 2, "Pain": 1, "Vein disorder": 1, "Visual impairment": 1}}]}
+{"batchcode": "040AMA", "histograms": [{"histogram": {"Cough": 2, "Fatigue": 2, "Myalgia": 2, "Pyrexia": 2, "Pain": 1, "Vein disorder": 1, "Visual impairment": 1}, "batchcodes": ["040AMA"]}]}

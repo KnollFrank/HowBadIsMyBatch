@@ -1,1 +1,1 @@
-{"batchcode": "FDO0168", "histograms": [{"batchcodes": ["FDO0168"], "histogram": {"Electrocardiogram": 1, "Extrasystoles": 1, "Heart rate": 1, "Malaise": 1, "Specialist consultation": 1, "Tachycardia": 1}}]}
+{"batchcode": "FDO0168", "histograms": [{"histogram": {"Electrocardiogram": 1, "Extrasystoles": 1, "Heart rate": 1, "Malaise": 1, "Specialist consultation": 1, "Tachycardia": 1}, "batchcodes": ["FDO0168"]}]}

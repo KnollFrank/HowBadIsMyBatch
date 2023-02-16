@@ -1,1 +1,1 @@
-{"batchcode": "083A21A", "histograms": [{"batchcodes": ["007M20A", "083A21A"], "histogram": {"Alopecia": 1}}, {"batchcodes": ["083A21A"], "histogram": {"Arthralgia": 1, "Joint range of motion decreased": 1, "Pain in extremity": 1}}]}
+{"batchcode": "083A21A", "histograms": [{"histogram": {"Alopecia": 1}, "batchcodes": ["007M20A", "083A21A"]}, {"histogram": {"Arthralgia": 1, "Joint range of motion decreased": 1, "Pain in extremity": 1}, "batchcodes": ["083A21A"]}]}

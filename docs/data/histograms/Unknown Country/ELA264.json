@@ -1,1 +1,1 @@
-{"batchcode": "ELA264", "histograms": [{"batchcodes": ["ELA264", "EN6200"], "histogram": {"Blindness": 1, "Cerebrovascular accident": 1, "Laboratory test abnormal": 1}}]}
+{"batchcode": "ELA264", "histograms": [{"histogram": {"Blindness": 1, "Cerebrovascular accident": 1, "Laboratory test abnormal": 1}, "batchcodes": ["ELA264", "EN6200"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EX8699", "histograms": [{"batchcodes": ["EX8699"], "histogram": {"Abdominal pain": 1, "Biopsy liver": 1, "Blood count": 1, "Dyspnoea": 1, "Ileus": 1, "Liver function test abnormal": 1, "Pneumonia": 1}}]}
+{"batchcode": "EX8699", "histograms": [{"histogram": {"Abdominal pain": 1, "Biopsy liver": 1, "Blood count": 1, "Dyspnoea": 1, "Ileus": 1, "Liver function test abnormal": 1, "Pneumonia": 1}, "batchcodes": ["EX8699"]}]}

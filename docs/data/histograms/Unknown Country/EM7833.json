@@ -1,1 +1,1 @@
-{"batchcode": "EM7833", "histograms": [{"batchcodes": ["EM7833"], "histogram": {"Adrenal insufficiency": 1, "Blood corticotrophin": 1, "Condition aggravated": 1, "Cortisol decreased": 1, "Diarrhoea": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Pain": 1, "Vomiting": 1}}]}
+{"batchcode": "EM7833", "histograms": [{"histogram": {"Adrenal insufficiency": 1, "Blood corticotrophin": 1, "Condition aggravated": 1, "Cortisol decreased": 1, "Diarrhoea": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Pain": 1, "Vomiting": 1}, "batchcodes": ["EM7833"]}]}

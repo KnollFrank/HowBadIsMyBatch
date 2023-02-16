@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER4176", "histograms": [{"batchcodes": ["PFIZER4176"], "histogram": {"Dizziness": 1, "Dysphagia": 1, "Ear discomfort": 1, "Fatigue": 1, "Feeling cold": 1, "Feeling hot": 1, "Oropharyngeal discomfort": 1, "Oropharyngeal pain": 1, "Throat irritation": 1}}]}
+{"batchcode": "PFIZER4176", "histograms": [{"histogram": {"Dizziness": 1, "Dysphagia": 1, "Ear discomfort": 1, "Fatigue": 1, "Feeling cold": 1, "Feeling hot": 1, "Oropharyngeal discomfort": 1, "Oropharyngeal pain": 1, "Throat irritation": 1}, "batchcodes": ["PFIZER4176"]}]}

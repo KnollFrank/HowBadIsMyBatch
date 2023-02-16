@@ -1,1 +1,1 @@
-{"batchcode": "FJ1641", "histograms": [{"batchcodes": ["FJ1641"], "histogram": {"COVID-19": 1, "Dizziness": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "FJ1641", "histograms": [{"histogram": {"COVID-19": 1, "Dizziness": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["FJ1641"]}]}

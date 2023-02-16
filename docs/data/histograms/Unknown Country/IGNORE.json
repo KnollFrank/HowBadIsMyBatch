@@ -1,1 +1,1 @@
-{"batchcode": "IGNORE", "histograms": [{"batchcodes": ["IGNORE"], "histogram": {"Pulmonary embolism": 1, "Pulmonary infarction": 1}}]}
+{"batchcode": "IGNORE", "histograms": [{"histogram": {"Pulmonary embolism": 1, "Pulmonary infarction": 1}, "batchcodes": ["IGNORE"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "PFIZDR EK9231", "histograms": [{"batchcodes": ["PFIZDR EK9231"], "histogram": {"Lymphadenopathy": 1, "Pyrexia": 1}}]}
+{"batchcode": "PFIZDR EK9231", "histograms": [{"histogram": {"Lymphadenopathy": 1, "Pyrexia": 1}, "batchcodes": ["PFIZDR EK9231"]}]}

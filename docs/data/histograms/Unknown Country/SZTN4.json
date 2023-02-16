@@ -1,1 +1,1 @@
-{"batchcode": "SZTN4", "histograms": [{"batchcodes": ["SZTN4"], "histogram": {"Colonoscopy": 1, "Computerised tomogram thorax": 1, "Endoscopy upper gastrointestinal tract": 1, "Pulmonary embolism": 1, "Ultrasound abdomen": 1, "Ultrasound scan": 1}}]}
+{"batchcode": "SZTN4", "histograms": [{"histogram": {"Colonoscopy": 1, "Computerised tomogram thorax": 1, "Endoscopy upper gastrointestinal tract": 1, "Pulmonary embolism": 1, "Ultrasound abdomen": 1, "Ultrasound scan": 1}, "batchcodes": ["SZTN4"]}]}

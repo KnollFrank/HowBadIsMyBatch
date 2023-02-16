@@ -1,1 +1,1 @@
-{"batchcode": "ELU3143", "histograms": [{"batchcodes": ["ELU3143"], "histogram": {"SARS-CoV-2 test": 2, "Blood pressure measurement": 1, "Chest X-ray": 1, "Electrocardiogram": 1, "Fatigue": 1, "Fibrin D dimer": 1, "Headache": 1, "Muscle spasms": 1, "Myalgia": 1, "Pleurisy": 1}}]}
+{"batchcode": "ELU3143", "histograms": [{"histogram": {"SARS-CoV-2 test": 2, "Blood pressure measurement": 1, "Chest X-ray": 1, "Electrocardiogram": 1, "Fatigue": 1, "Fibrin D dimer": 1, "Headache": 1, "Muscle spasms": 1, "Myalgia": 1, "Pleurisy": 1}, "batchcodes": ["ELU3143"]}]}

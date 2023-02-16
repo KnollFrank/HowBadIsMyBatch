@@ -1,1 +1,1 @@
-{"batchcode": "ABC54321", "histograms": [{"batchcodes": ["ABC54321"], "histogram": {"Arthralgia": 1, "Chills": 1, "Extensive swelling of vaccinated limb": 1, "Fatigue": 1, "Injection site reaction": 1, "Malaise": 1, "Nausea": 1, "Skin disorder": 1}}]}
+{"batchcode": "ABC54321", "histograms": [{"histogram": {"Arthralgia": 1, "Chills": 1, "Extensive swelling of vaccinated limb": 1, "Fatigue": 1, "Injection site reaction": 1, "Malaise": 1, "Nausea": 1, "Skin disorder": 1}, "batchcodes": ["ABC54321"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FL-3181", "histograms": [{"batchcodes": ["FL-3181"], "histogram": {"Arrhythmia": 1, "Cardiac monitoring": 1, "Cardiac murmur": 1, "Cardiac stress test": 1, "Cardiomegaly": 1, "Computerised tomogram": 1, "Cough": 1}}]}
+{"batchcode": "FL-3181", "histograms": [{"histogram": {"Arrhythmia": 1, "Cardiac monitoring": 1, "Cardiac murmur": 1, "Cardiac stress test": 1, "Cardiomegaly": 1, "Computerised tomogram": 1, "Cough": 1}, "batchcodes": ["FL-3181"]}]}

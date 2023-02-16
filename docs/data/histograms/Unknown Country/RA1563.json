@@ -1,1 +1,1 @@
-{"batchcode": "RA1563", "histograms": [{"batchcodes": ["RA1563"], "histogram": {"Cough": 1, "Dyspnoea": 1, "Exposure to SARS-CoV-2": 1, "Fatigue": 1, "Malaise": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test": 1}}]}
+{"batchcode": "RA1563", "histograms": [{"histogram": {"Cough": 1, "Dyspnoea": 1, "Exposure to SARS-CoV-2": 1, "Fatigue": 1, "Malaise": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test": 1}, "batchcodes": ["RA1563"]}]}

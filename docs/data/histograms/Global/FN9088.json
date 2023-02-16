@@ -1,1 +1,1 @@
-{"batchcode": "FN9088", "histograms": [{"batchcodes": ["FN9088"], "histogram": {"Alanine aminotransferase": 1, "Aspartate aminotransferase": 1, "Blood alkaline phosphatase": 1, "Blood bilirubin": 1, "Immunisation": 1, "Liver function test abnormal": 1, "Off label use": 1}}]}
+{"batchcode": "FN9088", "histograms": [{"histogram": {"Alanine aminotransferase": 1, "Aspartate aminotransferase": 1, "Blood alkaline phosphatase": 1, "Blood bilirubin": 1, "Immunisation": 1, "Liver function test abnormal": 1, "Off label use": 1}, "batchcodes": ["FN9088"]}]}

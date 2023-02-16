@@ -1,1 +1,1 @@
-{"batchcode": "FG8527", "histograms": [{"batchcodes": ["FG8527"], "histogram": {"Asthenia": 1, "Atrial fibrillation": 1, "COVID-19": 1, "Condition aggravated": 1, "Dizziness": 1, "SARS-CoV-2 antibody test": 1, "SARS-CoV-2 test positive": 1, "Vomiting": 1}}]}
+{"batchcode": "FG8527", "histograms": [{"histogram": {"Asthenia": 1, "Atrial fibrillation": 1, "COVID-19": 1, "Condition aggravated": 1, "Dizziness": 1, "SARS-CoV-2 antibody test": 1, "SARS-CoV-2 test positive": 1, "Vomiting": 1}, "batchcodes": ["FG8527"]}]}

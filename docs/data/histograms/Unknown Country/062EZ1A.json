@@ -1,1 +1,1 @@
-{"batchcode": "062EZ1A", "histograms": [{"batchcodes": ["047C21A", "062EZ1A"], "histogram": {"Blood test": 1, "Electrocardiogram": 1, "Electrocardiogram ambulatory": 1, "Muscle spasms": 1}}, {"batchcodes": ["062EZ1A"], "histogram": {"Lymphadenopathy": 1}}]}
+{"batchcode": "062EZ1A", "histograms": [{"histogram": {"Blood test": 1, "Electrocardiogram": 1, "Electrocardiogram ambulatory": 1, "Muscle spasms": 1}, "batchcodes": ["047C21A", "062EZ1A"]}, {"histogram": {"Lymphadenopathy": 1}, "batchcodes": ["062EZ1A"]}]}

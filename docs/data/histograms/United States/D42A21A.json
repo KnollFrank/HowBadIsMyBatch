@@ -1,1 +1,1 @@
-{"batchcode": "D42A21A", "histograms": [{"batchcodes": ["D42A21A"], "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Chills": 1, "Fatigue": 1, "Headache": 1, "Hot flush": 1, "Hypersomnia": 1, "Pyrexia": 1, "Urticaria": 1}}]}
+{"batchcode": "D42A21A", "histograms": [{"histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Chills": 1, "Fatigue": 1, "Headache": 1, "Hot flush": 1, "Hypersomnia": 1, "Pyrexia": 1, "Urticaria": 1}, "batchcodes": ["D42A21A"]}]}

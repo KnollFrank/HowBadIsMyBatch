@@ -1,1 +1,1 @@
-{"batchcode": "EU00162", "histograms": [{"batchcodes": ["EU00162"], "histogram": {"Asthenia": 1, "Feeling abnormal": 1, "Haematuria": 1, "Pain": 1, "Sleep disorder": 1, "Urinary tract infection": 1}}]}
+{"batchcode": "EU00162", "histograms": [{"histogram": {"Asthenia": 1, "Feeling abnormal": 1, "Haematuria": 1, "Pain": 1, "Sleep disorder": 1, "Urinary tract infection": 1}, "batchcodes": ["EU00162"]}]}

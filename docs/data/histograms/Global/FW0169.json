@@ -1,1 +1,1 @@
-{"batchcode": "FW0169", "histograms": [{"batchcodes": ["FW0169"], "histogram": {"Full blood count": 1, "Hepatic enzyme": 1, "Ileus paralytic": 1, "Laboratory test": 1, "Nausea": 1, "Pancreatitis acute": 1}}]}
+{"batchcode": "FW0169", "histograms": [{"histogram": {"Full blood count": 1, "Hepatic enzyme": 1, "Ileus paralytic": 1, "Laboratory test": 1, "Nausea": 1, "Pancreatitis acute": 1}, "batchcodes": ["FW0169"]}]}

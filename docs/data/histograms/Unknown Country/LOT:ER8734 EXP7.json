@@ -1,1 +1,1 @@
-{"batchcode": "LOT:ER8734 EXP7", "histograms": [{"batchcodes": ["LOT:ER8734 EXP7"], "histogram": {"Bladder catheterisation": 1, "Computerised tomogram abnormal": 1, "Cystoscopy abnormal": 1, "Haemorrhage urinary tract": 1, "Urinary bladder haemorrhage": 1}}]}
+{"batchcode": "LOT:ER8734 EXP7", "histograms": [{"histogram": {"Bladder catheterisation": 1, "Computerised tomogram abnormal": 1, "Cystoscopy abnormal": 1, "Haemorrhage urinary tract": 1, "Urinary bladder haemorrhage": 1}, "batchcodes": ["LOT:ER8734 EXP7"]}]}

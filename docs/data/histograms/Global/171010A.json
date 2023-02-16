@@ -1,1 +1,1 @@
-{"batchcode": "171010A", "histograms": [{"batchcodes": ["171010A"], "histogram": {"Echocardiogram": 1, "Electrocardiogram": 1, "Immunisation": 1, "Interchange of vaccine products": 1, "Myocardial necrosis marker": 1, "Myocarditis": 1, "Off label use": 1}}]}
+{"batchcode": "171010A", "histograms": [{"histogram": {"Echocardiogram": 1, "Electrocardiogram": 1, "Immunisation": 1, "Interchange of vaccine products": 1, "Myocardial necrosis marker": 1, "Myocarditis": 1, "Off label use": 1}, "batchcodes": ["171010A"]}]}

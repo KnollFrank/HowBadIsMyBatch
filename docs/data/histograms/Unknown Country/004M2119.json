@@ -1,1 +1,1 @@
-{"batchcode": "004M2119", "histograms": [{"batchcodes": ["004M2119"], "histogram": {"Condition aggravated": 1, "Full blood count": 1, "Infusion": 1, "Joint swelling": 1, "Red blood cell sedimentation rate": 1, "Rheumatoid arthritis": 1}}]}
+{"batchcode": "004M2119", "histograms": [{"histogram": {"Condition aggravated": 1, "Full blood count": 1, "Infusion": 1, "Joint swelling": 1, "Red blood cell sedimentation rate": 1, "Rheumatoid arthritis": 1}, "batchcodes": ["004M2119"]}]}

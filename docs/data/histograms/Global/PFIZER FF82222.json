@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER FF82222", "histograms": [{"batchcodes": ["PFIZER FF82222"], "histogram": {"SARS-CoV-2 test": 2, "Balance disorder": 1, "COVID-19": 1, "COVID-19 pneumonia": 1, "Drug ineffective": 1, "Illness": 1, "Multiple organ dysfunction syndrome": 1, "Vomiting": 1}}]}
+{"batchcode": "PFIZER FF82222", "histograms": [{"histogram": {"SARS-CoV-2 test": 2, "Balance disorder": 1, "COVID-19": 1, "COVID-19 pneumonia": 1, "Drug ineffective": 1, "Illness": 1, "Multiple organ dysfunction syndrome": 1, "Vomiting": 1}, "batchcodes": ["PFIZER FF82222"]}]}

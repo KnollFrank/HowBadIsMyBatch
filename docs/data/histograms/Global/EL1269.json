@@ -1,1 +1,1 @@
-{"batchcode": "EL1269", "histograms": [{"batchcodes": ["EL1269"], "histogram": {"Computerised tomogram": 1, "Drooling": 1, "Dyskinesia": 1, "Electrocardiogram": 1, "Incoherent": 1, "Magnetic resonance imaging": 1, "Scan brain": 1, "Seizure like phenomena": 1, "Speech disorder": 1}}]}
+{"batchcode": "EL1269", "histograms": [{"histogram": {"Computerised tomogram": 1, "Drooling": 1, "Dyskinesia": 1, "Electrocardiogram": 1, "Incoherent": 1, "Magnetic resonance imaging": 1, "Scan brain": 1, "Seizure like phenomena": 1, "Speech disorder": 1}, "batchcodes": ["EL1269"]}]}

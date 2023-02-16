@@ -1,1 +1,1 @@
-{"batchcode": "017F218", "histograms": [{"batchcodes": ["017F218"], "histogram": {"Chills": 1, "Headache": 1, "Nausea": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1, "Throat irritation": 1, "Vomiting": 1, "Wheezing": 1}}]}
+{"batchcode": "017F218", "histograms": [{"histogram": {"Chills": 1, "Headache": 1, "Nausea": 1, "Pyrexia": 1, "SARS-CoV-2 test negative": 1, "Throat irritation": 1, "Vomiting": 1, "Wheezing": 1}, "batchcodes": ["017F218"]}]}

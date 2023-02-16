@@ -1,1 +1,1 @@
-{"batchcode": "066K2LA", "histograms": [{"batchcodes": ["066K2LA"], "histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Pain": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}}]}
+{"batchcode": "066K2LA", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Pain": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}, "batchcodes": ["066K2LA"]}]}

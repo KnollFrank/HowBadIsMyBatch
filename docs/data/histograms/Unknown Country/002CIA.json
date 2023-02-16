@@ -1,1 +1,1 @@
-{"batchcode": "002CIA", "histograms": [{"batchcodes": ["002CIA"], "histogram": {"Autopsy": 1, "Cerebral haemangioma": 1, "Cerebral haemorrhage": 1, "Death": 1}}]}
+{"batchcode": "002CIA", "histograms": [{"histogram": {"Autopsy": 1, "Cerebral haemangioma": 1, "Cerebral haemorrhage": 1, "Death": 1}, "batchcodes": ["002CIA"]}]}

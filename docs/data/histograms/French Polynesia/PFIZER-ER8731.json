@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER-ER8731", "histograms": [{"batchcodes": ["PFIZER-ER8731"], "histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "PFIZER-ER8731", "histograms": [{"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["PFIZER-ER8731"]}]}

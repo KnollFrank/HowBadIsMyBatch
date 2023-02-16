@@ -1,1 +1,1 @@
-{"batchcode": "ACB531", "histograms": [{"batchcodes": ["ACB531"], "histogram": {"Angina pectoris": 1, "Blood test": 1, "Chest discomfort": 1, "Malaise": 1, "Pain": 1, "Pain assessment": 1, "Palpitations": 1}}]}
+{"batchcode": "ACB531", "histograms": [{"histogram": {"Angina pectoris": 1, "Blood test": 1, "Chest discomfort": 1, "Malaise": 1, "Pain": 1, "Pain assessment": 1, "Palpitations": 1}, "batchcodes": ["ACB531"]}]}

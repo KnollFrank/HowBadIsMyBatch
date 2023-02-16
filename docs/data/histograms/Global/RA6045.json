@@ -1,1 +1,1 @@
-{"batchcode": "RA6045", "histograms": [{"batchcodes": ["RA6045"], "histogram": {"Erythema": 1, "Injection site erythema": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Skin warm": 1}}]}
+{"batchcode": "RA6045", "histograms": [{"histogram": {"Erythema": 1, "Injection site erythema": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Skin warm": 1}, "batchcodes": ["RA6045"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FA9095", "histograms": [{"batchcodes": ["FA9095"], "histogram": {"Antibody test": 1, "Fibrin D dimer": 1, "Haemorrhage": 1, "Muscle spasms": 1, "Petechiae": 1, "Platelet count": 1, "Platelet count decreased": 1, "Thrombocytopenia": 1, "Uveitis": 1, "Vasculitis": 1}}]}
+{"batchcode": "FA9095", "histograms": [{"histogram": {"Antibody test": 1, "Fibrin D dimer": 1, "Haemorrhage": 1, "Muscle spasms": 1, "Petechiae": 1, "Platelet count": 1, "Platelet count decreased": 1, "Thrombocytopenia": 1, "Uveitis": 1, "Vasculitis": 1}, "batchcodes": ["FA9095"]}]}

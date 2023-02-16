@@ -1,1 +1,1 @@
-{"batchcode": "066V21A", "histograms": [{"batchcodes": ["066V21A"], "histogram": {"Asymptomatic COVID-19": 1, "Exposure to SARS-CoV-2": 1, "Extra dose administered": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "066V21A", "histograms": [{"histogram": {"Asymptomatic COVID-19": 1, "Exposure to SARS-CoV-2": 1, "Extra dose administered": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["066V21A"]}]}

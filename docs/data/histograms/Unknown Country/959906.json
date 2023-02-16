@@ -1,1 +1,1 @@
-{"batchcode": "959906", "histograms": [{"batchcodes": ["959906"], "histogram": {"Anticoagulant therapy": 1, "Chest X-ray abnormal": 1, "Cough": 1, "Dyspnoea": 1, "Oxygen saturation decreased": 1, "Pulmonary embolism": 1}}]}
+{"batchcode": "959906", "histograms": [{"histogram": {"Anticoagulant therapy": 1, "Chest X-ray abnormal": 1, "Cough": 1, "Dyspnoea": 1, "Oxygen saturation decreased": 1, "Pulmonary embolism": 1}, "batchcodes": ["959906"]}]}

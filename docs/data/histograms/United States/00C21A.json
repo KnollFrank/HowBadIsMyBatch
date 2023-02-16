@@ -1,1 +1,1 @@
-{"batchcode": "00C21A", "histograms": [{"batchcodes": ["00C21A"], "histogram": {"Cerebrovascular accident": 1, "Dyspnoea": 1, "Headache": 1, "Hemiparesis": 1, "Myalgia": 1, "Seizure": 1, "Tongue movement disturbance": 1}}]}
+{"batchcode": "00C21A", "histograms": [{"histogram": {"Cerebrovascular accident": 1, "Dyspnoea": 1, "Headache": 1, "Hemiparesis": 1, "Myalgia": 1, "Seizure": 1, "Tongue movement disturbance": 1}, "batchcodes": ["00C21A"]}]}

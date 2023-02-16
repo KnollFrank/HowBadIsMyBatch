@@ -1,1 +1,1 @@
-{"batchcode": "058H21H", "histograms": [{"batchcodes": ["058H21H"], "histogram": {"Acoustic stimulation tests": 1, "Blood test": 1, "Chest X-ray": 1, "Deafness": 1, "Fatigue": 1, "Headache": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Tinnitus": 1}}]}
+{"batchcode": "058H21H", "histograms": [{"histogram": {"Acoustic stimulation tests": 1, "Blood test": 1, "Chest X-ray": 1, "Deafness": 1, "Fatigue": 1, "Headache": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Tinnitus": 1}, "batchcodes": ["058H21H"]}]}

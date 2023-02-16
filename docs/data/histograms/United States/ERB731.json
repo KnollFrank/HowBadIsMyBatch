@@ -1,1 +1,1 @@
-{"batchcode": "ERB731", "histograms": [{"batchcodes": ["ERB731"], "histogram": {"Asthenia": 1, "Condition aggravated": 1, "Feeling abnormal": 1, "Headache": 1, "Illness": 1, "Malaise": 1, "Tinnitus": 1}}]}
+{"batchcode": "ERB731", "histograms": [{"histogram": {"Asthenia": 1, "Condition aggravated": 1, "Feeling abnormal": 1, "Headache": 1, "Illness": 1, "Malaise": 1, "Tinnitus": 1}, "batchcodes": ["ERB731"]}]}

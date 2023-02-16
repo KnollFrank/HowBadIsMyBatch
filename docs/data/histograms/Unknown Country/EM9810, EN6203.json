@@ -1,1 +1,1 @@
-{"batchcode": "EM9810, EN6203", "histograms": [{"batchcodes": ["EM9810, EN6203"], "histogram": {"Blood test": 1, "Cardiac monitoring normal": 1, "Cardiac pacemaker insertion": 1, "Intensive care": 1, "Loss of consciousness": 1, "Nausea": 1, "Syncope": 1, "X-ray": 1}}]}
+{"batchcode": "EM9810, EN6203", "histograms": [{"histogram": {"Blood test": 1, "Cardiac monitoring normal": 1, "Cardiac pacemaker insertion": 1, "Intensive care": 1, "Loss of consciousness": 1, "Nausea": 1, "Syncope": 1, "X-ray": 1}, "batchcodes": ["EM9810, EN6203"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FC 3143", "histograms": [{"batchcodes": ["FC 3143"], "histogram": {"Malaise": 2, "Angioedema": 1, "Atrial fibrillation": 1, "Fatigue": 1, "Postmenopausal haemorrhage": 1, "SARS-CoV-2 test positive": 1, "Syncope": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "FC 3143", "histograms": [{"histogram": {"Malaise": 2, "Angioedema": 1, "Atrial fibrillation": 1, "Fatigue": 1, "Postmenopausal haemorrhage": 1, "SARS-CoV-2 test positive": 1, "Syncope": 1, "Vaccination site pain": 1}, "batchcodes": ["FC 3143"]}]}

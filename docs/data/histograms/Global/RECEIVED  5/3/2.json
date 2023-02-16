@@ -1,1 +1,1 @@
-{"batchcode": "RECEIVED  5/3/2", "histograms": [{"batchcodes": ["033C21A  6/1/21", "RECEIVED  5/3/2", "RECEIVED 3/31"], "histogram": {"Extra dose administered": 1}}]}
+{"batchcode": "RECEIVED  5/3/2", "histograms": [{"histogram": {"Extra dose administered": 1}, "batchcodes": ["033C21A  6/1/21", "RECEIVED  5/3/2", "RECEIVED 3/31"]}]}

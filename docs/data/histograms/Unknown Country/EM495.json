@@ -1,1 +1,1 @@
-{"batchcode": "EM495", "histograms": [{"batchcodes": ["EM495"], "histogram": {"Erythema": 1, "Facial pain": 1, "Parotid gland enlargement": 1, "Staphylococcal infection": 1, "Swelling face": 1}}]}
+{"batchcode": "EM495", "histograms": [{"histogram": {"Erythema": 1, "Facial pain": 1, "Parotid gland enlargement": 1, "Staphylococcal infection": 1, "Swelling face": 1}, "batchcodes": ["EM495"]}]}

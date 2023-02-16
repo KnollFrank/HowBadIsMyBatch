@@ -1,1 +1,1 @@
-{"batchcode": "651-788-4444", "histograms": [{"batchcodes": ["651-788-4444"], "histogram": {"COVID-19": 1, "Malaise": 1, "Vaccine breakthrough infection": 1}}]}
+{"batchcode": "651-788-4444", "histograms": [{"histogram": {"COVID-19": 1, "Malaise": 1, "Vaccine breakthrough infection": 1}, "batchcodes": ["651-788-4444"]}]}

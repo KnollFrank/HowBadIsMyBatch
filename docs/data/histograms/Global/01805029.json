@@ -1,1 +1,1 @@
-{"batchcode": "01805029", "histograms": [{"batchcodes": ["01805029"], "histogram": {"Arthritis": 1, "Blood immunoglobulin G normal": 1, "Cerebral haemorrhage": 1, "International normalised ratio decreased": 1, "Surgery": 1, "Unevaluable event": 1}}]}
+{"batchcode": "01805029", "histograms": [{"histogram": {"Arthritis": 1, "Blood immunoglobulin G normal": 1, "Cerebral haemorrhage": 1, "International normalised ratio decreased": 1, "Surgery": 1, "Unevaluable event": 1}, "batchcodes": ["01805029"]}]}

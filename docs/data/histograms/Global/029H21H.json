@@ -1,1 +1,1 @@
-{"batchcode": "029H21H", "histograms": [{"batchcodes": ["023H20A", "029H21H"], "histogram": {"Cardiac murmur": 1, "Chest pain": 1, "Dyspnoea": 1, "Fatigue": 1, "Heart rate increased": 1, "Palpitations": 1}}]}
+{"batchcode": "029H21H", "histograms": [{"histogram": {"Cardiac murmur": 1, "Chest pain": 1, "Dyspnoea": 1, "Fatigue": 1, "Heart rate increased": 1, "Palpitations": 1}, "batchcodes": ["023H20A", "029H21H"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "F110698", "histograms": [{"batchcodes": ["F110698"], "histogram": {"COVID-19": 1, "Chest X-ray normal": 1, "Chest discomfort": 1, "Cough": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "F110698", "histograms": [{"histogram": {"COVID-19": 1, "Chest X-ray normal": 1, "Chest discomfort": 1, "Cough": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["F110698"]}]}

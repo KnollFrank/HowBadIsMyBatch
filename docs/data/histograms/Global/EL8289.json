@@ -1,1 +1,1 @@
-{"batchcode": "EL8289", "histograms": [{"batchcodes": ["EL8289"], "histogram": {"Blood test normal": 1, "Medication error": 1, "Product administered to patient of inappropriate age": 1, "Rash": 1, "Thrombosis": 1, "Ultrasound scan normal": 1, "Vaginal haemorrhage": 1}}]}
+{"batchcode": "EL8289", "histograms": [{"histogram": {"Blood test normal": 1, "Medication error": 1, "Product administered to patient of inappropriate age": 1, "Rash": 1, "Thrombosis": 1, "Ultrasound scan normal": 1, "Vaginal haemorrhage": 1}, "batchcodes": ["EL8289"]}]}

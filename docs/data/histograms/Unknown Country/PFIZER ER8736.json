@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER ER8736", "histograms": [{"batchcodes": ["PFIZER ER8736", "PFIZER EW2020"], "histogram": {"Cardiac function test abnormal": 1, "Cardiomegaly": 1, "Extrasystoles": 1, "Heart rate irregular": 1, "Menstrual disorder": 1, "Menstruation irregular": 1, "Myocarditis": 1}}]}
+{"batchcode": "PFIZER ER8736", "histograms": [{"histogram": {"Cardiac function test abnormal": 1, "Cardiomegaly": 1, "Extrasystoles": 1, "Heart rate irregular": 1, "Menstrual disorder": 1, "Menstruation irregular": 1, "Myocarditis": 1}, "batchcodes": ["PFIZER ER8736", "PFIZER EW2020"]}]}

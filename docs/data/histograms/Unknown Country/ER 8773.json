@@ -1,1 +1,1 @@
-{"batchcode": "ER 8773", "histograms": [{"batchcodes": ["ER 8773"], "histogram": {"Anxiety": 1, "Dyspnoea": 1, "Hallucination": 1, "Hypersensitivity": 1, "Loss of consciousness": 1, "Pharyngeal swelling": 1, "Reduced facial expression": 1}}]}
+{"batchcode": "ER 8773", "histograms": [{"histogram": {"Anxiety": 1, "Dyspnoea": 1, "Hallucination": 1, "Hypersensitivity": 1, "Loss of consciousness": 1, "Pharyngeal swelling": 1, "Reduced facial expression": 1}, "batchcodes": ["ER 8773"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EH-9899", "histograms": [{"batchcodes": ["EH-9899"], "histogram": {"Arthralgia": 1, "Dyspnoea": 1, "Fatigue": 1, "Flushing": 1, "Headache": 1, "Myalgia": 1, "Pharyngeal swelling": 1, "Swollen tongue": 1, "Urticaria": 1}}]}
+{"batchcode": "EH-9899", "histograms": [{"histogram": {"Arthralgia": 1, "Dyspnoea": 1, "Fatigue": 1, "Flushing": 1, "Headache": 1, "Myalgia": 1, "Pharyngeal swelling": 1, "Swollen tongue": 1, "Urticaria": 1}, "batchcodes": ["EH-9899"]}]}

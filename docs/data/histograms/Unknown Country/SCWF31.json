@@ -1,1 +1,1 @@
-{"batchcode": "SCWF31", "histograms": [{"batchcodes": ["SCWF31"], "histogram": {"Asthenia": 1, "Fatigue": 1, "Myocarditis": 1, "Paraesthesia": 1, "Pulmonary pain": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "SCWF31", "histograms": [{"histogram": {"Asthenia": 1, "Fatigue": 1, "Myocarditis": 1, "Paraesthesia": 1, "Pulmonary pain": 1, "Vaccination site pain": 1}, "batchcodes": ["SCWF31"]}]}

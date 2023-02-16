@@ -1,1 +1,1 @@
-{"batchcode": "FG2090", "histograms": [{"batchcodes": ["FG2090"], "histogram": {"Blood glucose": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Conjunctivitis": 1, "Deafness": 1, "Excessive cerumen production": 1, "Heart rate": 1, "Oedema": 1}}]}
+{"batchcode": "FG2090", "histograms": [{"histogram": {"Blood glucose": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Conjunctivitis": 1, "Deafness": 1, "Excessive cerumen production": 1, "Heart rate": 1, "Oedema": 1}, "batchcodes": ["FG2090"]}]}

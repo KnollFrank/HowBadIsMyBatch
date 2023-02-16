@@ -1,1 +1,1 @@
-{"batchcode": "0057M21A", "histograms": [{"batchcodes": ["0057M21A"], "histogram": {"COVID-19": 1, "Chills": 1, "Cough": 1, "Dysgeusia": 1, "Fatigue": 1, "Nasal congestion": 1, "Nasopharyngitis": 1, "Pulmonary congestion": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}}]}
+{"batchcode": "0057M21A", "histograms": [{"histogram": {"COVID-19": 1, "Chills": 1, "Cough": 1, "Dysgeusia": 1, "Fatigue": 1, "Nasal congestion": 1, "Nasopharyngitis": 1, "Pulmonary congestion": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}, "batchcodes": ["0057M21A"]}]}

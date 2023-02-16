@@ -1,1 +1,1 @@
-{"batchcode": "PCA000", "histograms": [{"batchcodes": ["PCA000"], "histogram": {"Hypertensive crisis": 1, "Interchange of vaccine products": 1, "Lymphoma": 1, "Pulmonary embolism": 1, "Vaccination site swelling": 1, "Venous thrombosis": 1}}]}
+{"batchcode": "PCA000", "histograms": [{"histogram": {"Hypertensive crisis": 1, "Interchange of vaccine products": 1, "Lymphoma": 1, "Pulmonary embolism": 1, "Vaccination site swelling": 1, "Venous thrombosis": 1}, "batchcodes": ["PCA000"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "CN9581", "histograms": [{"batchcodes": ["CN9581"], "histogram": {"Abdominal pain upper": 1, "Eating disorder": 1, "Illness": 1, "Nausea": 1, "Vomiting": 1, "Weight": 1, "Weight abnormal": 1}}]}
+{"batchcode": "CN9581", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Eating disorder": 1, "Illness": 1, "Nausea": 1, "Vomiting": 1, "Weight": 1, "Weight abnormal": 1}, "batchcodes": ["CN9581"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "25/2OA", "histograms": [{"batchcodes": ["013L2OA", "25/2OA"], "histogram": {"Condition aggravated": 1, "Magnetic resonance imaging": 1, "Mobility decreased": 1, "Muscle spasms": 1, "Pain": 1, "Vomiting": 1, "X-ray": 1}}]}
+{"batchcode": "25/2OA", "histograms": [{"histogram": {"Condition aggravated": 1, "Magnetic resonance imaging": 1, "Mobility decreased": 1, "Muscle spasms": 1, "Pain": 1, "Vomiting": 1, "X-ray": 1}, "batchcodes": ["013L2OA", "25/2OA"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "URW:UCI:01:QKHW", "histograms": [{"batchcodes": ["URW:UCI:01:QKHW"], "histogram": {"Hypoacusis": 1, "Magnetic resonance imaging": 1, "Sudden hearing loss": 1, "Tinnitus": 1}}]}
+{"batchcode": "URW:UCI:01:QKHW", "histograms": [{"histogram": {"Hypoacusis": 1, "Magnetic resonance imaging": 1, "Sudden hearing loss": 1, "Tinnitus": 1}, "batchcodes": ["URW:UCI:01:QKHW"]}]}

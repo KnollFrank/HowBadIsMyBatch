@@ -1,1 +1,1 @@
-{"batchcode": "509E21A", "histograms": [{"batchcodes": ["509E21A"], "histogram": {"Blood pressure abnormal": 1, "Immediate post-injection reaction": 1, "Syncope": 1}}]}
+{"batchcode": "509E21A", "histograms": [{"histogram": {"Blood pressure abnormal": 1, "Immediate post-injection reaction": 1, "Syncope": 1}, "batchcodes": ["509E21A"]}]}

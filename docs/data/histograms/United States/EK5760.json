@@ -1,1 +1,1 @@
-{"batchcode": "EK5760", "histograms": [{"batchcodes": ["EK5760"], "histogram": {"Condition aggravated": 1, "Dyspnoea": 1, "Folliculitis": 1, "Investigation": 1, "Rash": 1, "Urticaria": 1}}]}
+{"batchcode": "EK5760", "histograms": [{"histogram": {"Condition aggravated": 1, "Dyspnoea": 1, "Folliculitis": 1, "Investigation": 1, "Rash": 1, "Urticaria": 1}, "batchcodes": ["EK5760"]}]}

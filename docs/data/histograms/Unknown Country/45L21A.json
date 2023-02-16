@@ -1,1 +1,1 @@
-{"batchcode": "45L21A", "histograms": [{"batchcodes": ["45L21A"], "histogram": {"COVID-19": 1, "Dysphonia": 1, "Nasopharyngitis": 1, "Oropharyngeal pain": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}}]}
+{"batchcode": "45L21A", "histograms": [{"histogram": {"COVID-19": 1, "Dysphonia": 1, "Nasopharyngitis": 1, "Oropharyngeal pain": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}, "batchcodes": ["45L21A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "SDWH4", "histograms": [{"batchcodes": ["SDWH4"], "histogram": {"Arthralgia": 1, "Cough": 1, "Dyspnoea": 1, "Myalgia": 1}}]}
+{"batchcode": "SDWH4", "histograms": [{"histogram": {"Arthralgia": 1, "Cough": 1, "Dyspnoea": 1, "Myalgia": 1}, "batchcodes": ["SDWH4"]}]}

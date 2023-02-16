@@ -1,1 +1,1 @@
-{"batchcode": "FX7389", "histograms": [{"batchcodes": ["FX7389"], "histogram": {"Blood pressure increased": 1, "Blood test": 1, "Cerebral infarction": 1, "Electrocardiogram": 1, "Magnetic resonance imaging": 1, "Pyrexia": 1}}]}
+{"batchcode": "FX7389", "histograms": [{"histogram": {"Blood pressure increased": 1, "Blood test": 1, "Cerebral infarction": 1, "Electrocardiogram": 1, "Magnetic resonance imaging": 1, "Pyrexia": 1}, "batchcodes": ["FX7389"]}]}

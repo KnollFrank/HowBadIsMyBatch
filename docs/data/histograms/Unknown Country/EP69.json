@@ -1,1 +1,1 @@
-{"batchcode": "EP69", "histograms": [{"batchcodes": ["EP69"], "histogram": {"Lymphadenopathy": 2, "Body temperature increased": 1, "Erythema": 1, "Injection site pain": 1, "Injection site swelling": 1, "Lymph node pain": 1, "Pain in extremity": 1}}]}
+{"batchcode": "EP69", "histograms": [{"histogram": {"Lymphadenopathy": 2, "Body temperature increased": 1, "Erythema": 1, "Injection site pain": 1, "Injection site swelling": 1, "Lymph node pain": 1, "Pain in extremity": 1}, "batchcodes": ["EP69"]}]}

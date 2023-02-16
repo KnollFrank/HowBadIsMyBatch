@@ -1,1 +1,1 @@
-{"batchcode": "012N20A", "histograms": [{"batchcodes": ["012N20A"], "histogram": {"Asthma": 1, "Back pain": 1, "Blood test": 1, "Burning sensation": 1, "Condition aggravated": 1, "Erythema": 1, "Nausea": 1, "Pain in extremity": 1, "Renal disorder": 1, "Tinnitus": 1, "Vertigo": 1}}]}
+{"batchcode": "012N20A", "histograms": [{"histogram": {"Asthma": 1, "Back pain": 1, "Blood test": 1, "Burning sensation": 1, "Condition aggravated": 1, "Erythema": 1, "Nausea": 1, "Pain in extremity": 1, "Renal disorder": 1, "Tinnitus": 1, "Vertigo": 1}, "batchcodes": ["012N20A"]}]}

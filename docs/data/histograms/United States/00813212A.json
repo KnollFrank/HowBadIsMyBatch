@@ -1,1 +1,1 @@
-{"batchcode": "00813212A", "histograms": [{"batchcodes": ["00813212A"], "histogram": {"Body temperature": 1, "COVID-19": 1, "Chills": 1, "Dyspnoea": 1, "Epstein-Barr virus test": 1, "Hot flush": 1, "Hypotension": 1, "Myalgia": 1, "Pyrexia": 1, "Tremor": 1, "Vomiting": 1}}]}
+{"batchcode": "00813212A", "histograms": [{"histogram": {"Body temperature": 1, "COVID-19": 1, "Chills": 1, "Dyspnoea": 1, "Epstein-Barr virus test": 1, "Hot flush": 1, "Hypotension": 1, "Myalgia": 1, "Pyrexia": 1, "Tremor": 1, "Vomiting": 1}, "batchcodes": ["00813212A"]}]}

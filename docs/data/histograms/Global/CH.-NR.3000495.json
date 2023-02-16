@@ -1,1 +1,1 @@
-{"batchcode": "CH.-NR.3000495", "histograms": [{"batchcodes": ["CH.-NR.3000495", "CN.-B.-SDEW9"], "histogram": {"Allergy test": 1, "Atrial fibrillation": 1, "Cardiac failure": 1, "Respiratory distress": 1, "Tachycardia": 1}}]}
+{"batchcode": "CH.-NR.3000495", "histograms": [{"histogram": {"Allergy test": 1, "Atrial fibrillation": 1, "Cardiac failure": 1, "Respiratory distress": 1, "Tachycardia": 1}, "batchcodes": ["CH.-NR.3000495", "CN.-B.-SDEW9"]}]}

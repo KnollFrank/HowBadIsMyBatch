@@ -1,1 +1,1 @@
-{"batchcode": "056142114", "histograms": [{"batchcodes": ["056142114"], "histogram": {"Computerised tomogram head": 1, "Computerised tomogram neck": 1, "Dehydration": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Loss of consciousness": 1, "Nasopharyngitis": 1, "Syncope": 1}}]}
+{"batchcode": "056142114", "histograms": [{"histogram": {"Computerised tomogram head": 1, "Computerised tomogram neck": 1, "Dehydration": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Loss of consciousness": 1, "Nasopharyngitis": 1, "Syncope": 1}, "batchcodes": ["056142114"]}]}

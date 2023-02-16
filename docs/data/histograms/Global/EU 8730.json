@@ -1,1 +1,1 @@
-{"batchcode": "EU 8730", "histograms": [{"batchcodes": ["EU 8730"], "histogram": {"Fatigue": 1, "Headache": 1, "Injection site induration": 1, "Injection site mass": 1, "Injection site pruritus": 1, "Pain": 1}}]}
+{"batchcode": "EU 8730", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Injection site induration": 1, "Injection site mass": 1, "Injection site pruritus": 1, "Pain": 1}, "batchcodes": ["EU 8730"]}]}

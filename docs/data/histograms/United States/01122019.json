@@ -1,1 +1,1 @@
-{"batchcode": "01122019", "histograms": [{"batchcodes": ["01122019"], "histogram": {"Anaphylactic shock": 1, "Blood pressure measurement": 1, "Dizziness": 1, "Headache": 1, "Hypotension": 1, "Nasal congestion": 1, "Nausea": 1, "Urticaria": 1}}]}
+{"batchcode": "01122019", "histograms": [{"histogram": {"Anaphylactic shock": 1, "Blood pressure measurement": 1, "Dizziness": 1, "Headache": 1, "Hypotension": 1, "Nasal congestion": 1, "Nausea": 1, "Urticaria": 1}, "batchcodes": ["01122019"]}]}

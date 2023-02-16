@@ -1,1 +1,1 @@
-{"batchcode": "020E21A", "histograms": [{"batchcodes": ["001C21A", "020E21A"], "histogram": {"Burning sensation": 1, "Erythema": 1, "Hypoaesthesia": 1, "Paraesthesia": 1, "Swelling": 1}}, {"batchcodes": ["020E21A"], "histogram": {"COVID-19": 1, "Death": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "020E21A", "histograms": [{"histogram": {"Burning sensation": 1, "Erythema": 1, "Hypoaesthesia": 1, "Paraesthesia": 1, "Swelling": 1}, "batchcodes": ["001C21A", "020E21A"]}, {"histogram": {"COVID-19": 1, "Death": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["020E21A"]}]}

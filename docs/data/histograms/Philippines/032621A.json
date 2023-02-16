@@ -1,1 +1,1 @@
-{"batchcode": "032621A", "histograms": [{"batchcodes": ["032621A"], "histogram": {"Immunisation": 2, "Off label use": 2, "Asthenia": 1, "Cough": 1, "Dizziness": 1, "Dysarthria": 1, "Hemiparesis": 1, "Hypovolaemic shock": 1, "Rash": 1}}]}
+{"batchcode": "032621A", "histograms": [{"histogram": {"Immunisation": 2, "Off label use": 2, "Asthenia": 1, "Cough": 1, "Dizziness": 1, "Dysarthria": 1, "Hemiparesis": 1, "Hypovolaemic shock": 1, "Rash": 1}, "batchcodes": ["032621A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EWASL", "histograms": [{"batchcodes": ["EWASL"], "histogram": {"Chills": 1, "Cough": 1, "Dizziness": 1, "Feeling hot": 1, "Headache": 1, "Malaise": 1, "Pain": 1, "Pain in extremity": 1, "Productive cough": 1, "Sneezing": 1}}]}
+{"batchcode": "EWASL", "histograms": [{"histogram": {"Chills": 1, "Cough": 1, "Dizziness": 1, "Feeling hot": 1, "Headache": 1, "Malaise": 1, "Pain": 1, "Pain in extremity": 1, "Productive cough": 1, "Sneezing": 1}, "batchcodes": ["EWASL"]}]}

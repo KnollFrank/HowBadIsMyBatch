@@ -1,1 +1,1 @@
-{"batchcode": "PFIZERFJ8757", "histograms": [{"batchcodes": ["PFIZERFJ8757"], "histogram": {"Chest X-ray": 1, "Cough": 1, "Dyspnoea": 1, "Fibrin D dimer normal": 1, "SARS-CoV-2 test negative": 1}}]}
+{"batchcode": "PFIZERFJ8757", "histograms": [{"histogram": {"Chest X-ray": 1, "Cough": 1, "Dyspnoea": 1, "Fibrin D dimer normal": 1, "SARS-CoV-2 test negative": 1}, "batchcodes": ["PFIZERFJ8757"]}]}

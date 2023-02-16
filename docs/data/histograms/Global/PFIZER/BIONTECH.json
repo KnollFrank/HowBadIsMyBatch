@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER/BIONTECH", "histograms": [{"batchcodes": ["PFIZER/BIONTECH"], "histogram": {"Dysgeusia": 1, "Fatigue": 1, "Hypoaesthesia oral": 1, "Injection site rash": 1, "Injection site reaction": 1, "Skin warm": 1, "Throat irritation": 1}}]}
+{"batchcode": "PFIZER/BIONTECH", "histograms": [{"histogram": {"Dysgeusia": 1, "Fatigue": 1, "Hypoaesthesia oral": 1, "Injection site rash": 1, "Injection site reaction": 1, "Skin warm": 1, "Throat irritation": 1}, "batchcodes": ["PFIZER/BIONTECH"]}]}

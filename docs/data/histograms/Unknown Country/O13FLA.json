@@ -1,1 +1,1 @@
-{"batchcode": "O13FLA", "histograms": [{"batchcodes": ["O13FLA"], "histogram": {"Dizziness": 1, "Ophthalmological examination abnormal": 1, "Vertigo positional": 1}}]}
+{"batchcode": "O13FLA", "histograms": [{"histogram": {"Dizziness": 1, "Ophthalmological examination abnormal": 1, "Vertigo positional": 1}, "batchcodes": ["O13FLA"]}]}

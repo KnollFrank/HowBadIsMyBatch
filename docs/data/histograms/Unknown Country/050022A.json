@@ -1,1 +1,1 @@
-{"batchcode": "050022A", "histograms": [{"batchcodes": ["050022A"], "histogram": {"COVID-19": 1, "Hyperhidrosis": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Vaccine breakthrough infection": 1}}]}
+{"batchcode": "050022A", "histograms": [{"histogram": {"COVID-19": 1, "Hyperhidrosis": 1, "Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Vaccine breakthrough infection": 1}, "batchcodes": ["050022A"]}]}

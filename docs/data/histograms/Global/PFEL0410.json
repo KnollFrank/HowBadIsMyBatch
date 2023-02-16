@@ -1,1 +1,1 @@
-{"batchcode": "PFEL0410", "histograms": [{"batchcodes": ["PFEL0410"], "histogram": {"Face oedema": 1, "Liver function test": 1, "Oedema peripheral": 1, "Renal function test": 1, "Skin exfoliation": 1, "Thyroid function test": 1}}]}
+{"batchcode": "PFEL0410", "histograms": [{"histogram": {"Face oedema": 1, "Liver function test": 1, "Oedema peripheral": 1, "Renal function test": 1, "Skin exfoliation": 1, "Thyroid function test": 1}, "batchcodes": ["PFEL0410"]}]}

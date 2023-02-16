@@ -1,1 +1,1 @@
-{"batchcode": "ER8731", "histograms": [{"batchcodes": ["ER8731"], "histogram": {"Angina pectoris": 1, "Chest pain": 1, "Electrocardiogram": 1, "Fatigue": 1, "Movement disorder": 1, "Pain": 1, "Pyrexia": 1, "Sensation of foreign body": 1}}]}
+{"batchcode": "ER8731", "histograms": [{"histogram": {"Angina pectoris": 1, "Chest pain": 1, "Electrocardiogram": 1, "Fatigue": 1, "Movement disorder": 1, "Pain": 1, "Pyrexia": 1, "Sensation of foreign body": 1}, "batchcodes": ["ER8731"]}]}

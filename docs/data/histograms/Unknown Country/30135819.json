@@ -1,1 +1,1 @@
-{"batchcode": "30135819", "histograms": [{"batchcodes": ["30135819", "EN 6200", "EN6207"], "histogram": {"Cough": 1, "Exposure to SARS-CoV-2": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Night sweats": 1, "Pain": 1, "Pyrexia": 1, "Throat irritation": 1}}]}
+{"batchcode": "30135819", "histograms": [{"histogram": {"Cough": 1, "Exposure to SARS-CoV-2": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Night sweats": 1, "Pain": 1, "Pyrexia": 1, "Throat irritation": 1}, "batchcodes": ["30135819", "EN 6200", "EN6207"]}]}

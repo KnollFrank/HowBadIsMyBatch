@@ -1,1 +1,1 @@
-{"batchcode": "59267 1000 03", "histograms": [{"batchcodes": ["59267 1000 03"], "histogram": {"Body temperature decreased": 1, "Condition aggravated": 1, "Headache": 1, "Injection site rash": 1, "Pain": 1, "Pain in extremity": 1, "Raynaud's phenomenon": 1, "Tremor": 1}}]}
+{"batchcode": "59267 1000 03", "histograms": [{"histogram": {"Body temperature decreased": 1, "Condition aggravated": 1, "Headache": 1, "Injection site rash": 1, "Pain": 1, "Pain in extremity": 1, "Raynaud's phenomenon": 1, "Tremor": 1}, "batchcodes": ["59267 1000 03"]}]}

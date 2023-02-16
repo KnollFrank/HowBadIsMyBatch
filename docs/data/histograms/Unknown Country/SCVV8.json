@@ -1,1 +1,1 @@
-{"batchcode": "SCVV8", "histograms": [{"batchcodes": ["SCVV8"], "histogram": {"Blindness transient": 1, "Cerebral microembolism": 1, "Hypertension": 1, "Immunisation": 1, "Off label use": 1, "Physical examination": 1, "Vertigo": 1}}]}
+{"batchcode": "SCVV8", "histograms": [{"histogram": {"Blindness transient": 1, "Cerebral microembolism": 1, "Hypertension": 1, "Immunisation": 1, "Off label use": 1, "Physical examination": 1, "Vertigo": 1}, "batchcodes": ["SCVV8"]}]}

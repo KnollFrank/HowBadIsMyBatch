@@ -1,1 +1,1 @@
-{"batchcode": "FF5588", "histograms": [{"batchcodes": ["FF5588"], "histogram": {"Catheterisation cardiac normal": 1, "Chest pain": 1, "Echocardiogram normal": 1, "Electrocardiogram T wave abnormal": 1, "Pain": 1, "Pain in extremity": 1, "Pericarditis": 1}}]}
+{"batchcode": "FF5588", "histograms": [{"histogram": {"Catheterisation cardiac normal": 1, "Chest pain": 1, "Echocardiogram normal": 1, "Electrocardiogram T wave abnormal": 1, "Pain": 1, "Pain in extremity": 1, "Pericarditis": 1}, "batchcodes": ["FF5588"]}]}

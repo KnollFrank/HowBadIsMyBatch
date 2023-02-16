@@ -1,1 +1,1 @@
-{"batchcode": "TF2589", "histograms": [{"batchcodes": ["TF2589"], "histogram": {"Abdominal pain": 1, "Back pain": 1, "Biliary colic": 1, "Inflammation": 1, "Ultrasound abdomen": 1}}]}
+{"batchcode": "TF2589", "histograms": [{"histogram": {"Abdominal pain": 1, "Back pain": 1, "Biliary colic": 1, "Inflammation": 1, "Ultrasound abdomen": 1}, "batchcodes": ["TF2589"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FA6750", "histograms": [{"batchcodes": ["FA6750"], "histogram": {"Abdominal pain": 1, "Computerised tomogram": 1, "Diarrhoea": 1, "Dizziness": 1, "Laboratory test": 1, "Ultrasound abdomen": 1, "Ultrasound biliary tract": 1, "Ultrasound kidney": 1, "X-ray": 1}}]}
+{"batchcode": "FA6750", "histograms": [{"histogram": {"Abdominal pain": 1, "Computerised tomogram": 1, "Diarrhoea": 1, "Dizziness": 1, "Laboratory test": 1, "Ultrasound abdomen": 1, "Ultrasound biliary tract": 1, "Ultrasound kidney": 1, "X-ray": 1}, "batchcodes": ["FA6750"]}]}

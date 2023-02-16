@@ -1,1 +1,1 @@
-{"batchcode": "014FZ19", "histograms": [{"batchcodes": ["014FZ19"], "histogram": {"Alanine aminotransferase increased": 1, "Chest pain": 1, "Cough": 1, "Decreased activity": 1, "Dyspnoea": 1, "Haematocrit increased": 1, "Heart rate increased": 1, "X-ray": 1}}]}
+{"batchcode": "014FZ19", "histograms": [{"histogram": {"Alanine aminotransferase increased": 1, "Chest pain": 1, "Cough": 1, "Decreased activity": 1, "Dyspnoea": 1, "Haematocrit increased": 1, "Heart rate increased": 1, "X-ray": 1}, "batchcodes": ["014FZ19"]}]}

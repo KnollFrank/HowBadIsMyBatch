@@ -1,1 +1,1 @@
-{"batchcode": "GW6203", "histograms": [{"batchcodes": ["EL3302", "GW6203"], "histogram": {"Feeling abnormal": 1, "Memory impairment": 1, "Sleep disorder": 1}}]}
+{"batchcode": "GW6203", "histograms": [{"histogram": {"Feeling abnormal": 1, "Memory impairment": 1, "Sleep disorder": 1}, "batchcodes": ["EL3302", "GW6203"]}]}

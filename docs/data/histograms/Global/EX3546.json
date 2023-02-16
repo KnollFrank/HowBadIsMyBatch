@@ -1,1 +1,1 @@
-{"batchcode": "EX3546", "histograms": [{"batchcodes": ["EX3546", "FA5742"], "histogram": {"Rash": 1, "Rash pruritic": 1, "Tinnitus": 1}}, {"batchcodes": ["EX3546"], "histogram": {"Parosmia": 1, "Polymerase chain reaction": 1}}]}
+{"batchcode": "EX3546", "histograms": [{"histogram": {"Rash": 1, "Rash pruritic": 1, "Tinnitus": 1}, "batchcodes": ["EX3546", "FA5742"]}, {"histogram": {"Parosmia": 1, "Polymerase chain reaction": 1}, "batchcodes": ["EX3546"]}]}

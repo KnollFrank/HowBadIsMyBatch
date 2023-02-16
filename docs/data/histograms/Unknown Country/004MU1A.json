@@ -1,1 +1,1 @@
-{"batchcode": "004MU1A", "histograms": [{"batchcodes": ["004MU1A"], "histogram": {"Asthma": 1, "COVID-19": 1, "Condition aggravated": 1, "Cough": 1, "Fatigue": 1, "Malaise": 1, "Oropharyngeal pain": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "004MU1A", "histograms": [{"histogram": {"Asthma": 1, "COVID-19": 1, "Condition aggravated": 1, "Cough": 1, "Fatigue": 1, "Malaise": 1, "Oropharyngeal pain": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["004MU1A"]}]}

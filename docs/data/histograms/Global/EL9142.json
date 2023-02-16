@@ -1,1 +1,1 @@
-{"batchcode": "EL9142", "histograms": [{"batchcodes": ["EL9142", "EN6208", "ER2613"], "histogram": {"Deafness unilateral": 1, "Tinnitus": 1}}, {"batchcodes": ["EL9142"], "histogram": {"Unevaluable event": 1}}]}
+{"batchcode": "EL9142", "histograms": [{"histogram": {"Deafness unilateral": 1, "Tinnitus": 1}, "batchcodes": ["EL9142", "EN6208", "ER2613"]}, {"histogram": {"Unevaluable event": 1}, "batchcodes": ["EL9142"]}]}

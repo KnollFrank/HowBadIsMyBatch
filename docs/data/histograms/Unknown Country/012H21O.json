@@ -1,1 +1,1 @@
-{"batchcode": "012H21O", "histograms": [{"batchcodes": ["012H21O"], "histogram": {"Ageusia": 1, "Anosmia": 1, "COVID-19": 1, "Cough": 1, "Fatigue": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "012H21O", "histograms": [{"histogram": {"Ageusia": 1, "Anosmia": 1, "COVID-19": 1, "Cough": 1, "Fatigue": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["012H21O"]}]}

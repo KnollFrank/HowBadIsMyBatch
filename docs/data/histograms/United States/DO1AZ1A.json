@@ -1,1 +1,1 @@
-{"batchcode": "DO1AZ1A", "histograms": [{"batchcodes": ["DO1AZ1A"], "histogram": {"Bedridden": 1, "Chills": 1, "Cough": 1, "Dyspnoea": 1, "Fatigue": 1, "Hyperhidrosis": 1, "Hypoaesthesia": 1, "Nasopharyngitis": 1, "Pyrexia": 1, "Tremor": 1}}]}
+{"batchcode": "DO1AZ1A", "histograms": [{"histogram": {"Bedridden": 1, "Chills": 1, "Cough": 1, "Dyspnoea": 1, "Fatigue": 1, "Hyperhidrosis": 1, "Hypoaesthesia": 1, "Nasopharyngitis": 1, "Pyrexia": 1, "Tremor": 1}, "batchcodes": ["DO1AZ1A"]}]}

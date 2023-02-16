@@ -1,1 +1,1 @@
-{"batchcode": "ER7832", "histograms": [{"batchcodes": ["ER7832"], "histogram": {"Condition aggravated": 1, "Pharyngeal paraesthesia": 1, "Product administered at inappropriate site": 1, "Throat tightness": 1, "Tinnitus": 1}}]}
+{"batchcode": "ER7832", "histograms": [{"histogram": {"Condition aggravated": 1, "Pharyngeal paraesthesia": 1, "Product administered at inappropriate site": 1, "Throat tightness": 1, "Tinnitus": 1}, "batchcodes": ["ER7832"]}]}

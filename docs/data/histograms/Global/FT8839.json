@@ -1,1 +1,1 @@
-{"batchcode": "FT8839", "histograms": [{"batchcodes": ["FT8839"], "histogram": {"Immunisation": 1, "Pain in extremity": 1, "Pruritus": 1, "Rash": 1}}]}
+{"batchcode": "FT8839", "histograms": [{"histogram": {"Immunisation": 1, "Pain in extremity": 1, "Pruritus": 1, "Rash": 1}, "batchcodes": ["FT8839"]}]}

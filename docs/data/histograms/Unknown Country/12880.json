@@ -1,1 +1,1 @@
-{"batchcode": "12880", "histograms": [{"batchcodes": ["12880"], "histogram": {"Crying": 1, "Injected limb mobility decreased": 1, "Myalgia": 1, "Neuralgia": 1, "Pain": 1, "Sleep disorder": 1, "Swelling": 1, "Ultrasound Doppler normal": 1, "X-ray normal": 1}}]}
+{"batchcode": "12880", "histograms": [{"histogram": {"Crying": 1, "Injected limb mobility decreased": 1, "Myalgia": 1, "Neuralgia": 1, "Pain": 1, "Sleep disorder": 1, "Swelling": 1, "Ultrasound Doppler normal": 1, "X-ray normal": 1}, "batchcodes": ["12880"]}]}

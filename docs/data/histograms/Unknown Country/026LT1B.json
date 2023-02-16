@@ -1,1 +1,1 @@
-{"batchcode": "026LT1B", "histograms": [{"batchcodes": ["026LT1B"], "histogram": {"COVID-19": 1, "Cough": 1, "Dyspnoea": 1, "Fatigue": 1, "Head discomfort": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "026LT1B", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Dyspnoea": 1, "Fatigue": 1, "Head discomfort": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["026LT1B"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FIRST DOSE LOT", "histograms": [{"batchcodes": ["FIRST DOSE LOT", "SECOND DOSE ADM"], "histogram": {"Anticoagulant therapy": 1, "Arteriogram": 1, "Dyspnoea": 1, "Heart rate increased": 1, "Pulmonary embolism": 1, "Thrombectomy": 1}}]}
+{"batchcode": "FIRST DOSE LOT", "histograms": [{"histogram": {"Anticoagulant therapy": 1, "Arteriogram": 1, "Dyspnoea": 1, "Heart rate increased": 1, "Pulmonary embolism": 1, "Thrombectomy": 1}, "batchcodes": ["FIRST DOSE LOT", "SECOND DOSE ADM"]}]}

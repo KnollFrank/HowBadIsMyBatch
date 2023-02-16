@@ -1,1 +1,1 @@
-{"batchcode": "EY3510", "histograms": [{"batchcodes": ["EY3510"], "histogram": {"Anaphylactic reaction": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Drug ineffective": 1, "Hypoaesthesia": 1, "Pyrexia": 1, "Suspected COVID-19": 1}}]}
+{"batchcode": "EY3510", "histograms": [{"histogram": {"Anaphylactic reaction": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Body temperature": 1, "Drug ineffective": 1, "Hypoaesthesia": 1, "Pyrexia": 1, "Suspected COVID-19": 1}, "batchcodes": ["EY3510"]}]}

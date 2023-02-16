@@ -1,1 +1,1 @@
-{"batchcode": "EX8660", "histograms": [{"batchcodes": ["EX8660"], "histogram": {"Paraesthesia": 2, "Arrhythmia": 1, "Arthralgia": 1, "Cerebrovascular accident": 1, "Fatigue": 1, "Headache": 1, "Myocarditis": 1, "Nausea": 1, "Pain": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "EX8660", "histograms": [{"histogram": {"Paraesthesia": 2, "Arrhythmia": 1, "Arthralgia": 1, "Cerebrovascular accident": 1, "Fatigue": 1, "Headache": 1, "Myocarditis": 1, "Nausea": 1, "Pain": 1, "Vaccination site pain": 1}, "batchcodes": ["EX8660"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "ERV6206", "histograms": [{"batchcodes": ["ERV6206"], "histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Headache": 1, "Insomnia": 1, "Myalgia": 1, "Nausea": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "ERV6206", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Headache": 1, "Insomnia": 1, "Myalgia": 1, "Nausea": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["ERV6206"]}]}

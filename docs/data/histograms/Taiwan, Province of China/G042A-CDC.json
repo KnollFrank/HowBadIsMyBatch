@@ -1,1 +1,1 @@
-{"batchcode": "G042A-CDC", "histograms": [{"batchcodes": ["G042A-CDC"], "histogram": {"Chest discomfort": 1, "Chest pain": 1, "Diarrhoea": 1, "Nausea": 1, "Overdose": 1}}]}
+{"batchcode": "G042A-CDC", "histograms": [{"histogram": {"Chest discomfort": 1, "Chest pain": 1, "Diarrhoea": 1, "Nausea": 1, "Overdose": 1}, "batchcodes": ["G042A-CDC"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "049LZ1H", "histograms": [{"batchcodes": ["049LZ1H"], "histogram": {"Aphonia": 1, "Asthenia": 1, "COVID-19": 1, "Cough": 1, "Dyspnoea": 1, "Headache": 1, "Impaired work ability": 1, "Malaise": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "049LZ1H", "histograms": [{"histogram": {"Aphonia": 1, "Asthenia": 1, "COVID-19": 1, "Cough": 1, "Dyspnoea": 1, "Headache": 1, "Impaired work ability": 1, "Malaise": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["049LZ1H"]}]}

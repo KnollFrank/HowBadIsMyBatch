@@ -1,1 +1,1 @@
-{"batchcode": "EWB143", "histograms": [{"batchcodes": ["EWB143"], "histogram": {"Body temperature": 1, "Furuncle": 1, "Headache": 1, "Hyperhidrosis": 1, "Immune system disorder": 1, "Limb discomfort": 1, "Pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "EWB143", "histograms": [{"histogram": {"Body temperature": 1, "Furuncle": 1, "Headache": 1, "Hyperhidrosis": 1, "Immune system disorder": 1, "Limb discomfort": 1, "Pain": 1, "Pyrexia": 1}, "batchcodes": ["EWB143"]}]}

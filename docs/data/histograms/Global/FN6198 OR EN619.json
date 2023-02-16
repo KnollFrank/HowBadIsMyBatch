@@ -1,1 +1,1 @@
-{"batchcode": "FN6198 OR EN619", "histograms": [{"batchcodes": ["FN6198 OR EN619"], "histogram": {"Body temperature": 1, "Headache": 1, "Lymphadenopathy": 1, "Nodule": 1, "Pyrexia": 1, "Vaccination site cellulitis": 1}}]}
+{"batchcode": "FN6198 OR EN619", "histograms": [{"histogram": {"Body temperature": 1, "Headache": 1, "Lymphadenopathy": 1, "Nodule": 1, "Pyrexia": 1, "Vaccination site cellulitis": 1}, "batchcodes": ["FN6198 OR EN619"]}]}

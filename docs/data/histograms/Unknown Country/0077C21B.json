@@ -1,1 +1,1 @@
-{"batchcode": "0077C21B", "histograms": [{"batchcodes": ["0077C21B"], "histogram": {"Extra dose administered": 1, "Heart rate decreased": 1, "Hypotension": 1, "Inappropriate schedule of product administration": 1, "Syncope": 1}}]}
+{"batchcode": "0077C21B", "histograms": [{"histogram": {"Extra dose administered": 1, "Heart rate decreased": 1, "Hypotension": 1, "Inappropriate schedule of product administration": 1, "Syncope": 1}, "batchcodes": ["0077C21B"]}]}

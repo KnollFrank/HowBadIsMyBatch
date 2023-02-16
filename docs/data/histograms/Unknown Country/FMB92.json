@@ -1,1 +1,1 @@
-{"batchcode": "FMB92", "histograms": [{"batchcodes": ["FMB92"], "histogram": {"Amnesia": 1, "Disorientation": 1, "Dizziness": 1, "Fatigue": 1, "Immunisation": 1, "Incorrect dose administered": 1, "Lethargy": 1, "Off label use": 1}}]}
+{"batchcode": "FMB92", "histograms": [{"histogram": {"Amnesia": 1, "Disorientation": 1, "Dizziness": 1, "Fatigue": 1, "Immunisation": 1, "Incorrect dose administered": 1, "Lethargy": 1, "Off label use": 1}, "batchcodes": ["FMB92"]}]}

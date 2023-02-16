@@ -1,1 +1,1 @@
-{"batchcode": "AWO172", "histograms": [{"batchcodes": ["AWO172"], "histogram": {"Blood pressure abnormal": 1, "Bone pain": 1, "Feeling abnormal": 1, "Headache": 1, "Pain": 1, "Pyrexia": 1}}]}
+{"batchcode": "AWO172", "histograms": [{"histogram": {"Blood pressure abnormal": 1, "Bone pain": 1, "Feeling abnormal": 1, "Headache": 1, "Pain": 1, "Pyrexia": 1}, "batchcodes": ["AWO172"]}]}

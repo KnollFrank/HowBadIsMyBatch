@@ -1,1 +1,1 @@
-{"batchcode": "0170", "histograms": [{"batchcodes": ["0151", "0170"], "histogram": {"Dyspnoea": 1, "Headache": 1, "Pain": 1, "Pain in extremity": 1, "Swollen tongue": 1}}, {"batchcodes": ["0170"], "histogram": {"Dizziness": 1, "Vertigo": 1}}]}
+{"batchcode": "0170", "histograms": [{"histogram": {"Dyspnoea": 1, "Headache": 1, "Pain": 1, "Pain in extremity": 1, "Swollen tongue": 1}, "batchcodes": ["0151", "0170"]}, {"histogram": {"Dizziness": 1, "Vertigo": 1}, "batchcodes": ["0170"]}]}

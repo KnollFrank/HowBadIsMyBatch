@@ -1,1 +1,1 @@
-{"batchcode": "F8785", "histograms": [{"batchcodes": ["F8785"], "histogram": {"Angiogram abnormal": 1, "Blood test": 1, "Chest X-ray normal": 1, "Chest pain": 1, "Dizziness": 1, "Injection site pain": 1, "Magnetic resonance imaging heart": 1, "Nausea": 1}}]}
+{"batchcode": "F8785", "histograms": [{"histogram": {"Angiogram abnormal": 1, "Blood test": 1, "Chest X-ray normal": 1, "Chest pain": 1, "Dizziness": 1, "Injection site pain": 1, "Magnetic resonance imaging heart": 1, "Nausea": 1}, "batchcodes": ["F8785"]}]}

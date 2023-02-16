@@ -1,1 +1,1 @@
-{"batchcode": "0421321-2A", "histograms": [{"batchcodes": ["0421321-2A"], "histogram": {"Angiogram": 1, "Deep vein thrombosis": 1, "Full blood count": 1, "Metabolic function test": 1, "Pulmonary embolism": 1, "Ultrasound Doppler abnormal": 1}}]}
+{"batchcode": "0421321-2A", "histograms": [{"histogram": {"Angiogram": 1, "Deep vein thrombosis": 1, "Full blood count": 1, "Metabolic function test": 1, "Pulmonary embolism": 1, "Ultrasound Doppler abnormal": 1}, "batchcodes": ["0421321-2A"]}]}

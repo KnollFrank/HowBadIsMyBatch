@@ -1,1 +1,1 @@
-{"batchcode": "SCTJ12", "histograms": [{"batchcodes": ["SCTJ12"], "histogram": {"Disease recurrence": 1, "Hepatitis": 1, "Somnolence": 1, "Weight bearing difficulty": 1}}]}
+{"batchcode": "SCTJ12", "histograms": [{"histogram": {"Disease recurrence": 1, "Hepatitis": 1, "Somnolence": 1, "Weight bearing difficulty": 1}, "batchcodes": ["SCTJ12"]}]}

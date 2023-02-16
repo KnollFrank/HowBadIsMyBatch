@@ -1,1 +1,1 @@
-{"batchcode": "EX9809", "histograms": [{"batchcodes": ["EX9809"], "histogram": {"Condition aggravated": 1, "Dizziness": 1, "Headache": 1, "Influenza like illness": 1, "Mobility decreased": 1, "Multiple sclerosis relapse": 1, "Myalgia": 1, "Palpitations": 1, "Pyrexia": 1}}]}
+{"batchcode": "EX9809", "histograms": [{"histogram": {"Condition aggravated": 1, "Dizziness": 1, "Headache": 1, "Influenza like illness": 1, "Mobility decreased": 1, "Multiple sclerosis relapse": 1, "Myalgia": 1, "Palpitations": 1, "Pyrexia": 1}, "batchcodes": ["EX9809"]}]}

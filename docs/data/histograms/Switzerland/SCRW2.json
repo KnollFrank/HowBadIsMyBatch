@@ -1,1 +1,1 @@
-{"batchcode": "SCRW2", "histograms": [{"batchcodes": ["SCRW2"], "histogram": {"Bladder cancer": 1, "Inappropriate schedule of product administration": 1, "Ultrasound scan": 1, "Urinary tract neoplasm": 1}}]}
+{"batchcode": "SCRW2", "histograms": [{"histogram": {"Bladder cancer": 1, "Inappropriate schedule of product administration": 1, "Ultrasound scan": 1, "Urinary tract neoplasm": 1}, "batchcodes": ["SCRW2"]}]}

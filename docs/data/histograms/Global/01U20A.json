@@ -1,1 +1,1 @@
-{"batchcode": "01U20A", "histograms": [{"batchcodes": ["01U20A", "042LZ0A"], "histogram": {"Angina pectoris": 1, "Chest pain": 1, "Dyspnoea": 1, "Electrocardiogram abnormal": 1, "Myocarditis": 1}}]}
+{"batchcode": "01U20A", "histograms": [{"histogram": {"Angina pectoris": 1, "Chest pain": 1, "Dyspnoea": 1, "Electrocardiogram abnormal": 1, "Myocarditis": 1}, "batchcodes": ["01U20A", "042LZ0A"]}]}

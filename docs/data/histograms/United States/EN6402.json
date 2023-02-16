@@ -1,1 +1,1 @@
-{"batchcode": "EN6402", "histograms": [{"batchcodes": ["EN6402"], "histogram": {"Cough": 1, "Dyspnoea": 1, "Erythema": 1, "Hypokinesia": 1, "Injection site pain": 1, "Pruritus": 1, "SARS-CoV-2 test": 1, "Swelling": 1}}]}
+{"batchcode": "EN6402", "histograms": [{"histogram": {"Cough": 1, "Dyspnoea": 1, "Erythema": 1, "Hypokinesia": 1, "Injection site pain": 1, "Pruritus": 1, "SARS-CoV-2 test": 1, "Swelling": 1}, "batchcodes": ["EN6402"]}]}

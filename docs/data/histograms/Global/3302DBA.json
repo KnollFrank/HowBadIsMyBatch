@@ -1,1 +1,1 @@
-{"batchcode": "3302DBA", "histograms": [{"batchcodes": ["3302DBA", "EL1283", "EL9269"], "histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1, "Wound drainage": 1}}]}
+{"batchcode": "3302DBA", "histograms": [{"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1, "Wound drainage": 1}, "batchcodes": ["3302DBA", "EL1283", "EL9269"]}]}

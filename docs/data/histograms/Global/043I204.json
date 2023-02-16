@@ -1,1 +1,1 @@
-{"batchcode": "043I204", "histograms": [{"batchcodes": ["043I204"], "histogram": {"Cellulitis": 1, "Erythema": 1, "Pain": 1, "Pruritus": 1, "Skin warm": 1, "Swelling": 1}}]}
+{"batchcode": "043I204", "histograms": [{"histogram": {"Cellulitis": 1, "Erythema": 1, "Pain": 1, "Pruritus": 1, "Skin warm": 1, "Swelling": 1}, "batchcodes": ["043I204"]}]}

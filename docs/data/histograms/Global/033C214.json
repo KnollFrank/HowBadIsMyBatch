@@ -1,1 +1,1 @@
-{"batchcode": "033C214", "histograms": [{"batchcodes": ["033C214"], "histogram": {"Product dose omission issue": 1, "Rash": 1, "Rash erythematous": 1, "Rash pruritic": 1, "Urticaria": 1, "Vaccination complication": 1}}]}
+{"batchcode": "033C214", "histograms": [{"histogram": {"Product dose omission issue": 1, "Rash": 1, "Rash erythematous": 1, "Rash pruritic": 1, "Urticaria": 1, "Vaccination complication": 1}, "batchcodes": ["033C214"]}]}

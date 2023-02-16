@@ -1,1 +1,1 @@
-{"batchcode": "FL7011", "histograms": [{"batchcodes": ["FL7011"], "histogram": {"Brain natriuretic peptide": 1, "Electrocardiogram": 1, "Myocarditis": 1, "Troponin": 1}}]}
+{"batchcode": "FL7011", "histograms": [{"histogram": {"Brain natriuretic peptide": 1, "Electrocardiogram": 1, "Myocarditis": 1, "Troponin": 1}, "batchcodes": ["FL7011"]}]}

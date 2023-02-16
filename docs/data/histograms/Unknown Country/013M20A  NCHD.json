@@ -1,1 +1,1 @@
-{"batchcode": "013M20A  NCHD", "histograms": [{"batchcodes": ["013M20A  NCHD"], "histogram": {"Erythema": 1, "Induration": 1, "Pruritus": 1, "Rash erythematous": 1, "Skin warm": 1, "Swelling": 1}}]}
+{"batchcode": "013M20A  NCHD", "histograms": [{"histogram": {"Erythema": 1, "Induration": 1, "Pruritus": 1, "Rash erythematous": 1, "Skin warm": 1, "Swelling": 1}, "batchcodes": ["013M20A  NCHD"]}]}

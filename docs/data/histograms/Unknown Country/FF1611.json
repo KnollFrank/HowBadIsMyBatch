@@ -1,1 +1,1 @@
-{"batchcode": "FF1611", "histograms": [{"batchcodes": ["FF1611"], "histogram": {"Headache": 1, "Injection site bruising": 1, "Injection site pain": 1, "Injection site swelling": 1, "Pyrexia": 1}}]}
+{"batchcode": "FF1611", "histograms": [{"histogram": {"Headache": 1, "Injection site bruising": 1, "Injection site pain": 1, "Injection site swelling": 1, "Pyrexia": 1}, "batchcodes": ["FF1611"]}]}

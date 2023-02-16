@@ -1,1 +1,1 @@
-{"batchcode": "SDEH14", "histograms": [{"batchcodes": ["SDEH14"], "histogram": {"Arrhythmia": 1, "Chest discomfort": 1, "Chest pain": 1, "Circulatory collapse": 1, "Electrocardiogram": 1, "Palpitations": 1, "Ultrasound scan": 1}}]}
+{"batchcode": "SDEH14", "histograms": [{"histogram": {"Arrhythmia": 1, "Chest discomfort": 1, "Chest pain": 1, "Circulatory collapse": 1, "Electrocardiogram": 1, "Palpitations": 1, "Ultrasound scan": 1}, "batchcodes": ["SDEH14"]}]}

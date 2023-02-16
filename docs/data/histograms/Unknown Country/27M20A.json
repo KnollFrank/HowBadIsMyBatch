@@ -1,1 +1,1 @@
-{"batchcode": "27M20A", "histograms": [{"batchcodes": ["019F21A", "031A21A", "060A22A", "27M20A"], "histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "27M20A", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Fatigue": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["019F21A", "031A21A", "060A22A", "27M20A"]}]}

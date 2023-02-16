@@ -1,1 +1,1 @@
-{"batchcode": "300 5291", "histograms": [{"batchcodes": ["300 5291"], "histogram": {"Tachycardia": 1, "Ventricular extrasystoles": 1}}]}
+{"batchcode": "300 5291", "histograms": [{"histogram": {"Tachycardia": 1, "Ventricular extrasystoles": 1}, "batchcodes": ["300 5291"]}]}

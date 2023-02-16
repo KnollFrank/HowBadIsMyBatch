@@ -1,1 +1,1 @@
-{"batchcode": "Z17533", "histograms": [{"batchcodes": ["EW0173", "FC3182", "Z17533"], "histogram": {"Chest pain": 1, "Pain in extremity": 1}}, {"batchcodes": ["EW0173", "Z17533"], "histogram": {"Guttate psoriasis": 1, "Toothache": 1}}]}
+{"batchcode": "Z17533", "histograms": [{"histogram": {"Chest pain": 1, "Pain in extremity": 1}, "batchcodes": ["EW0173", "FC3182", "Z17533"]}, {"histogram": {"Guttate psoriasis": 1, "Toothache": 1}, "batchcodes": ["EW0173", "Z17533"]}]}

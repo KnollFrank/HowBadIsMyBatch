@@ -1,1 +1,1 @@
-{"batchcode": "EWO581", "histograms": [{"batchcodes": ["EWO581"], "histogram": {"Anaphylactic reaction": 1, "Blood pressure measurement": 1, "Coma scale": 1, "Depressed level of consciousness": 1, "Generalised tonic-clonic seizure": 1, "Headache": 1, "Heart rate": 1}}]}
+{"batchcode": "EWO581", "histograms": [{"histogram": {"Anaphylactic reaction": 1, "Blood pressure measurement": 1, "Coma scale": 1, "Depressed level of consciousness": 1, "Generalised tonic-clonic seizure": 1, "Headache": 1, "Heart rate": 1}, "batchcodes": ["EWO581"]}]}

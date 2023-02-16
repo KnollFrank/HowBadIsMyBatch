@@ -1,1 +1,1 @@
-{"batchcode": "002S21A", "histograms": [{"batchcodes": ["002S21A"], "histogram": {"Abdominal pain upper": 1, "Accidental overdose": 1, "Diarrhoea": 1, "Head injury": 1, "Influenza": 1, "Loss of consciousness": 1, "Nausea": 1, "No adverse event": 1}}]}
+{"batchcode": "002S21A", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Accidental overdose": 1, "Diarrhoea": 1, "Head injury": 1, "Influenza": 1, "Loss of consciousness": 1, "Nausea": 1, "No adverse event": 1}, "batchcodes": ["002S21A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EJ6797-0026-009", "histograms": [{"batchcodes": ["EJ6797-0026-009"], "histogram": {"Body temperature": 1, "Dizziness": 1, "Nausea": 1, "Pyrexia": 1, "Vertigo": 1, "Vomiting": 1}}]}
+{"batchcode": "EJ6797-0026-009", "histograms": [{"histogram": {"Body temperature": 1, "Dizziness": 1, "Nausea": 1, "Pyrexia": 1, "Vertigo": 1, "Vomiting": 1}, "batchcodes": ["EJ6797-0026-009"]}]}

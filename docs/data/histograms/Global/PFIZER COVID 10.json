@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER COVID 10", "histograms": [{"batchcodes": ["PFIZER COVID 10"], "histogram": {"Blood pressure measurement": 1, "Fall": 1, "Heart rate": 1, "Nervousness": 1, "Vital signs measurement": 1}}]}
+{"batchcode": "PFIZER COVID 10", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Fall": 1, "Heart rate": 1, "Nervousness": 1, "Vital signs measurement": 1}, "batchcodes": ["PFIZER COVID 10"]}]}

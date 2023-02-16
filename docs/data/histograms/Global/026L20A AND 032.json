@@ -1,1 +1,1 @@
-{"batchcode": "026L20A AND 032", "histograms": [{"batchcodes": ["026L20A AND 032"], "histogram": {"Atrial fibrillation": 1, "Cardiac ventricular disorder": 1, "Cardioversion": 1, "Echocardiogram abnormal": 1, "Heart valve incompetence": 1, "Sedation": 1}}]}
+{"batchcode": "026L20A AND 032", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Cardiac ventricular disorder": 1, "Cardioversion": 1, "Echocardiogram abnormal": 1, "Heart valve incompetence": 1, "Sedation": 1}, "batchcodes": ["026L20A AND 032"]}]}

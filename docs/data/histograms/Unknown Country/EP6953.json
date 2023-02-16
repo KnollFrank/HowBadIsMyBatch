@@ -1,1 +1,1 @@
-{"batchcode": "EP6953", "histograms": [{"batchcodes": ["EP6953", "EW0151"], "histogram": {"Pelvic mass": 1}}, {"batchcodes": ["EP6953"], "histogram": {"Arthralgia": 1, "Fatigue": 1, "Myalgia": 1}}]}
+{"batchcode": "EP6953", "histograms": [{"histogram": {"Pelvic mass": 1}, "batchcodes": ["EP6953", "EW0151"]}, {"histogram": {"Arthralgia": 1, "Fatigue": 1, "Myalgia": 1}, "batchcodes": ["EP6953"]}]}

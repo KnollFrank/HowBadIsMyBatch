@@ -1,1 +1,1 @@
-{"batchcode": "EI3248", "histograms": [{"batchcodes": ["EI3248"], "histogram": {"Fatigue": 1, "Full blood count normal": 1, "Metabolic function test": 1, "Pain in extremity": 1, "Platelet factor 4": 1, "Ultrasound Doppler": 1}}]}
+{"batchcode": "EI3248", "histograms": [{"histogram": {"Fatigue": 1, "Full blood count normal": 1, "Metabolic function test": 1, "Pain in extremity": 1, "Platelet factor 4": 1, "Ultrasound Doppler": 1}, "batchcodes": ["EI3248"]}]}

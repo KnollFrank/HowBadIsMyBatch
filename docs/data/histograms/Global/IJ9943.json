@@ -1,1 +1,1 @@
-{"batchcode": "IJ9943", "histograms": [{"batchcodes": ["IJ9943"], "histogram": {"Anosmia": 1, "COVID-19": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1, "Sneezing": 1}}]}
+{"batchcode": "IJ9943", "histograms": [{"histogram": {"Anosmia": 1, "COVID-19": 1, "Nasal congestion": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1, "Sneezing": 1}, "batchcodes": ["IJ9943"]}]}

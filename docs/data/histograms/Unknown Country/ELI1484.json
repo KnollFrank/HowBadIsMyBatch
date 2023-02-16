@@ -1,1 +1,1 @@
-{"batchcode": "ELI1484", "histograms": [{"batchcodes": ["ELI1484"], "histogram": {"Dyspnoea": 1, "Pyrexia": 1, "Tachycardia": 1, "Thyroid function test": 1, "Thyroid hormones increased": 1, "Tinnitus": 1, "Tremor": 1, "Ultrasound thyroid": 1}}]}
+{"batchcode": "ELI1484", "histograms": [{"histogram": {"Dyspnoea": 1, "Pyrexia": 1, "Tachycardia": 1, "Thyroid function test": 1, "Thyroid hormones increased": 1, "Tinnitus": 1, "Tremor": 1, "Ultrasound thyroid": 1}, "batchcodes": ["ELI1484"]}]}

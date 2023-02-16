@@ -1,1 +1,1 @@
-{"batchcode": "031L2", "histograms": [{"batchcodes": ["031L2"], "histogram": {"Abdominal pain upper": 1, "Urticaria": 1, "Vaccination site pruritus": 1}}]}
+{"batchcode": "031L2", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Urticaria": 1, "Vaccination site pruritus": 1}, "batchcodes": ["031L2"]}]}

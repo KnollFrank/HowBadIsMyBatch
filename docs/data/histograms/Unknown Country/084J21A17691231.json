@@ -1,1 +1,1 @@
-{"batchcode": "084J21A17691231", "histograms": [{"batchcodes": ["084J21A17691231"], "histogram": {"Medication error": 1, "No adverse event": 1, "Product administered to patient of inappropriate age": 1}}]}
+{"batchcode": "084J21A17691231", "histograms": [{"histogram": {"Medication error": 1, "No adverse event": 1, "Product administered to patient of inappropriate age": 1}, "batchcodes": ["084J21A17691231"]}]}

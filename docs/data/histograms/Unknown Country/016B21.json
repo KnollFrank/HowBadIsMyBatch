@@ -1,1 +1,1 @@
-{"batchcode": "016B21", "histograms": [{"batchcodes": ["016B21"], "histogram": {"Influenza like illness": 2, "Abdominal pain upper": 1, "Acute myocardial infarction": 1, "Arthralgia": 1, "Dysmenorrhoea": 1, "Fatigue": 1, "Menstruation irregular": 1, "Nausea": 1, "Pain in extremity": 1}}]}
+{"batchcode": "016B21", "histograms": [{"histogram": {"Influenza like illness": 2, "Abdominal pain upper": 1, "Acute myocardial infarction": 1, "Arthralgia": 1, "Dysmenorrhoea": 1, "Fatigue": 1, "Menstruation irregular": 1, "Nausea": 1, "Pain in extremity": 1}, "batchcodes": ["016B21"]}]}

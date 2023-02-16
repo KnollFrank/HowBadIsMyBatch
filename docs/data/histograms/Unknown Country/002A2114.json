@@ -1,1 +1,1 @@
-{"batchcode": "002A2114", "histograms": [{"batchcodes": ["002A2114", "045B21A"], "histogram": {"Blood test": 1, "Computerised tomogram thorax abnormal": 1, "Dyspnoea": 1, "Dyspnoea exertional": 1, "Lung disorder": 1, "Magnetic resonance imaging": 1, "Productive cough": 1}}]}
+{"batchcode": "002A2114", "histograms": [{"histogram": {"Blood test": 1, "Computerised tomogram thorax abnormal": 1, "Dyspnoea": 1, "Dyspnoea exertional": 1, "Lung disorder": 1, "Magnetic resonance imaging": 1, "Productive cough": 1}, "batchcodes": ["002A2114", "045B21A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "A57165B", "histograms": [{"batchcodes": ["A57165B"], "histogram": {"COVID-19": 1, "Illness": 1, "Oropharyngeal pain": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}}]}
+{"batchcode": "A57165B", "histograms": [{"histogram": {"COVID-19": 1, "Illness": 1, "Oropharyngeal pain": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1, "Throat irritation": 1}, "batchcodes": ["A57165B"]}]}

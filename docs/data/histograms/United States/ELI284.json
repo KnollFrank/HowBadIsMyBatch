@@ -1,1 +1,1 @@
-{"batchcode": "ELI284", "histograms": [{"batchcodes": ["ELI284"], "histogram": {"Arthralgia": 1, "Chills": 1, "Headache": 1, "Hyperthermia": 1, "Injection site pain": 1, "Pyrexia": 1, "Tachycardia": 1, "Tinnitus": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "ELI284", "histograms": [{"histogram": {"Arthralgia": 1, "Chills": 1, "Headache": 1, "Hyperthermia": 1, "Injection site pain": 1, "Pyrexia": 1, "Tachycardia": 1, "Tinnitus": 1, "Vaccination site pain": 1}, "batchcodes": ["ELI284"]}]}

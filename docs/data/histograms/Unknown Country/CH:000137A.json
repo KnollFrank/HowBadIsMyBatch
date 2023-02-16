@@ -1,1 +1,1 @@
-{"batchcode": "CH:000137A", "histograms": [{"batchcodes": ["CH:000137A", "COMIRNATY CH.-B"], "histogram": {"Abdominal discomfort": 1, "Constipation": 1, "Dyspnoea": 1, "Exercise tolerance decreased": 1, "Malaise": 1}}]}
+{"batchcode": "CH:000137A", "histograms": [{"histogram": {"Abdominal discomfort": 1, "Constipation": 1, "Dyspnoea": 1, "Exercise tolerance decreased": 1, "Malaise": 1}, "batchcodes": ["CH:000137A", "COMIRNATY CH.-B"]}]}

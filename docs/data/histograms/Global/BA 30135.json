@@ -1,1 +1,1 @@
-{"batchcode": "BA 30135", "histograms": [{"batchcodes": ["BA 30135", "EL 8922", "EN 5318", "FP 7150"], "histogram": {"Antinuclear antibody negative": 1, "Blood thyroid stimulating hormone normal": 1, "Vitiligo": 1}}]}
+{"batchcode": "BA 30135", "histograms": [{"histogram": {"Antinuclear antibody negative": 1, "Blood thyroid stimulating hormone normal": 1, "Vitiligo": 1}, "batchcodes": ["BA 30135", "EL 8922", "EN 5318", "FP 7150"]}]}

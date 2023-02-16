@@ -1,1 +1,1 @@
-{"batchcode": "SCTP7", "histograms": [{"batchcodes": ["SCTP7"], "histogram": {"Abortion spontaneous": 1, "Haemorrhage in pregnancy": 1, "Sluggishness": 1}}]}
+{"batchcode": "SCTP7", "histograms": [{"histogram": {"Abortion spontaneous": 1, "Haemorrhage in pregnancy": 1, "Sluggishness": 1}, "batchcodes": ["SCTP7"]}]}

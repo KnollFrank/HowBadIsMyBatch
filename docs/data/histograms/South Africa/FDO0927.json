@@ -1,1 +1,1 @@
-{"batchcode": "FDO0927", "histograms": [{"batchcodes": ["FDO0927"], "histogram": {"Abscess": 1, "Erythema": 1, "Induration": 1, "Lymphadenitis": 1, "Movement disorder": 1, "Pain": 1, "Pyrexia": 1, "Swelling": 1, "Toxic shock syndrome": 1, "Vaccination site necrosis": 1}}]}
+{"batchcode": "FDO0927", "histograms": [{"histogram": {"Abscess": 1, "Erythema": 1, "Induration": 1, "Lymphadenitis": 1, "Movement disorder": 1, "Pain": 1, "Pyrexia": 1, "Swelling": 1, "Toxic shock syndrome": 1, "Vaccination site necrosis": 1}, "batchcodes": ["FDO0927"]}]}

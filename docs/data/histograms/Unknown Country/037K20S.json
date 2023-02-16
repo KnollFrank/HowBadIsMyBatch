@@ -1,1 +1,1 @@
-{"batchcode": "037K20S", "histograms": [{"batchcodes": ["037K20S"], "histogram": {"Arthralgia": 1, "Cough": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test negative": 1, "Sinus operation": 1, "Streptococcus test negative": 1}}]}
+{"batchcode": "037K20S", "histograms": [{"histogram": {"Arthralgia": 1, "Cough": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test negative": 1, "Sinus operation": 1, "Streptococcus test negative": 1}, "batchcodes": ["037K20S"]}]}

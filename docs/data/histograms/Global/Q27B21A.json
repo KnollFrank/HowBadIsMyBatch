@@ -1,1 +1,1 @@
-{"batchcode": "Q27B21A", "histograms": [{"batchcodes": ["O40A21A", "Q27B21A", "Q27B21A"], "histogram": {"Arthralgia": 1, "Asthenia": 1, "Myalgia": 1}}]}
+{"batchcode": "Q27B21A", "histograms": [{"histogram": {"Arthralgia": 1, "Asthenia": 1, "Myalgia": 1}, "batchcodes": ["O40A21A", "Q27B21A", "Q27B21A"]}, {"histogram": {"Arthralgia": 1, "Asthenia": 1, "Myalgia": 1}, "batchcodes": ["O40A21A", "Q27B21A", "Q27B21A"]}]}

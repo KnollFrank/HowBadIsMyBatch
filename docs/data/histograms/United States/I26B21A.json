@@ -1,1 +1,1 @@
-{"batchcode": "I26B21A", "histograms": [{"batchcodes": ["I26B21A"], "histogram": {"Blood pressure measurement": 1, "Blood test normal": 1, "Hypertension": 1}}]}
+{"batchcode": "I26B21A", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Blood test normal": 1, "Hypertension": 1}, "batchcodes": ["I26B21A"]}]}

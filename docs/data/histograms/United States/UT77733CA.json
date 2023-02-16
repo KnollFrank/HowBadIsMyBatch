@@ -1,1 +1,1 @@
-{"batchcode": "UT77733CA", "histograms": [{"batchcodes": ["UT77733CA"], "histogram": {"Antibody test": 1, "COVID-19": 1, "Dysphonia": 1, "Pain": 1, "Polymerase chain reaction": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "UT77733CA", "histograms": [{"histogram": {"Antibody test": 1, "COVID-19": 1, "Dysphonia": 1, "Pain": 1, "Polymerase chain reaction": 1, "Vaccination site pain": 1}, "batchcodes": ["UT77733CA"]}]}

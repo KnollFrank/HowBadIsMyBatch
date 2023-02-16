@@ -1,1 +1,1 @@
-{"batchcode": "3000042722", "histograms": [{"batchcodes": ["3000042722"], "histogram": {"Axillary mass": 1, "Blood gases": 1, "Blood test": 1, "Dyspnoea": 1, "Malaise": 1, "Nausea": 1, "SARS-CoV-2 test positive": 1, "Scan": 1, "Sudden death": 1, "Vertigo": 1}}]}
+{"batchcode": "3000042722", "histograms": [{"histogram": {"Axillary mass": 1, "Blood gases": 1, "Blood test": 1, "Dyspnoea": 1, "Malaise": 1, "Nausea": 1, "SARS-CoV-2 test positive": 1, "Scan": 1, "Sudden death": 1, "Vertigo": 1}, "batchcodes": ["3000042722"]}]}

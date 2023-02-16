@@ -1,1 +1,1 @@
-{"batchcode": "FF 2832", "histograms": [{"batchcodes": ["FF 2832"], "histogram": {"COVID-19": 8, "SARS-CoV-2 test": 8, "Vaccination failure": 6, "Drug ineffective": 2, "Chest pain": 1, "Myocardial infarction": 1, "X-ray": 1}}]}
+{"batchcode": "FF 2832", "histograms": [{"histogram": {"COVID-19": 8, "SARS-CoV-2 test": 8, "Vaccination failure": 6, "Drug ineffective": 2, "Chest pain": 1, "Myocardial infarction": 1, "X-ray": 1}, "batchcodes": ["FF 2832"]}]}

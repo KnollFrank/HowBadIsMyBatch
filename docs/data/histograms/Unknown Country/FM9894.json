@@ -1,1 +1,1 @@
-{"batchcode": "FM9894", "histograms": [{"batchcodes": ["FM9894"], "histogram": {"COVID-19": 1, "Cough": 1, "Dysphonia": 1, "Ear congestion": 1, "Fatigue": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1, "Sinus congestion": 1}}]}
+{"batchcode": "FM9894", "histograms": [{"histogram": {"COVID-19": 1, "Cough": 1, "Dysphonia": 1, "Ear congestion": 1, "Fatigue": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 test positive": 1, "Sinus congestion": 1}, "batchcodes": ["FM9894"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FF8448 AND FF25", "histograms": [{"batchcodes": ["FF8448 AND FF25"], "histogram": {"Drainage": 1, "Ear inflammation": 1, "Ear swelling": 1, "Ear tube insertion": 1, "Laboratory test": 1, "Magnetic resonance imaging": 1, "Middle ear effusion": 1, "Myringotomy": 1}}]}
+{"batchcode": "FF8448 AND FF25", "histograms": [{"histogram": {"Drainage": 1, "Ear inflammation": 1, "Ear swelling": 1, "Ear tube insertion": 1, "Laboratory test": 1, "Magnetic resonance imaging": 1, "Middle ear effusion": 1, "Myringotomy": 1}, "batchcodes": ["FF8448 AND FF25"]}]}

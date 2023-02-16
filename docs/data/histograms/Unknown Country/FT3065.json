@@ -1,1 +1,1 @@
-{"batchcode": "FT3065", "histograms": [{"batchcodes": ["FT3065"], "histogram": {"Body temperature": 1, "Decreased appetite": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Hypothermia": 1, "Menstrual disorder": 1, "Myalgia": 1, "Nausea": 1, "Somnolence": 1, "Vomiting": 1}}]}
+{"batchcode": "FT3065", "histograms": [{"histogram": {"Body temperature": 1, "Decreased appetite": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Hypothermia": 1, "Menstrual disorder": 1, "Myalgia": 1, "Nausea": 1, "Somnolence": 1, "Vomiting": 1}, "batchcodes": ["FT3065"]}]}

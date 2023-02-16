@@ -1,1 +1,1 @@
-{"batchcode": "EL9266 AND EM98", "histograms": [{"batchcodes": ["EL9266 AND EM98"], "histogram": {"Biopsy": 1, "Prostate cancer": 1, "Prostatic specific antigen increased": 1}}]}
+{"batchcode": "EL9266 AND EM98", "histograms": [{"histogram": {"Biopsy": 1, "Prostate cancer": 1, "Prostatic specific antigen increased": 1}, "batchcodes": ["EL9266 AND EM98"]}]}

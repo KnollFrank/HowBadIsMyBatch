@@ -1,1 +1,1 @@
-{"batchcode": "182072", "histograms": [{"batchcodes": ["182072"], "histogram": {"Abdominal pain upper": 1, "Blood test normal": 1, "Dehydration": 1, "Headache": 1, "Nausea": 1, "Pain": 1, "Ultrasound biliary tract": 1, "Urine analysis": 1, "Urticaria": 1, "Vomiting": 1}}]}
+{"batchcode": "182072", "histograms": [{"histogram": {"Abdominal pain upper": 1, "Blood test normal": 1, "Dehydration": 1, "Headache": 1, "Nausea": 1, "Pain": 1, "Ultrasound biliary tract": 1, "Urine analysis": 1, "Urticaria": 1, "Vomiting": 1}, "batchcodes": ["182072"]}]}

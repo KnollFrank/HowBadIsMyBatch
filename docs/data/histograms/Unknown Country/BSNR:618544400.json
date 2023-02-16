@@ -1,1 +1,1 @@
-{"batchcode": "BSNR:618544400", "histograms": [{"batchcodes": ["BSNR:618544400"], "histogram": {"Arrhythmia": 1, "Hypersensitivity": 1, "Peripheral swelling": 1, "Pruritus": 1, "Rash macular": 1, "Swelling face": 1}}]}
+{"batchcode": "BSNR:618544400", "histograms": [{"histogram": {"Arrhythmia": 1, "Hypersensitivity": 1, "Peripheral swelling": 1, "Pruritus": 1, "Rash macular": 1, "Swelling face": 1}, "batchcodes": ["BSNR:618544400"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "042121A", "histograms": [{"batchcodes": ["042121A"], "histogram": {"COVID-19": 1, "Heart rate increased": 1, "Heavy menstrual bleeding": 1, "Illness": 1, "Malaise": 1, "Palpitations": 1, "Paraesthesia": 1, "Periarthritis": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "042121A", "histograms": [{"histogram": {"COVID-19": 1, "Heart rate increased": 1, "Heavy menstrual bleeding": 1, "Illness": 1, "Malaise": 1, "Palpitations": 1, "Paraesthesia": 1, "Periarthritis": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["042121A"]}]}

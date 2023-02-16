@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER BIOTECH", "histograms": [{"batchcodes": ["PFIZER BIOTECH"], "histogram": {"Fatigue": 1, "Headache": 1, "Hyperhidrosis": 1, "Hypersomnia": 1, "Loss of personal independence in daily activities": 1, "Pyrexia": 1, "Urticaria": 1}}]}
+{"batchcode": "PFIZER BIOTECH", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Hyperhidrosis": 1, "Hypersomnia": 1, "Loss of personal independence in daily activities": 1, "Pyrexia": 1, "Urticaria": 1}, "batchcodes": ["PFIZER BIOTECH"]}]}

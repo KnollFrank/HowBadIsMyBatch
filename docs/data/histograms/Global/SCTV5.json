@@ -1,1 +1,1 @@
-{"batchcode": "SCTV5", "histograms": [{"batchcodes": ["SCTV5"], "histogram": {"Hypersensitivity": 1, "Magnetic resonance imaging whole body": 1, "Rash": 1}}]}
+{"batchcode": "SCTV5", "histograms": [{"histogram": {"Hypersensitivity": 1, "Magnetic resonance imaging whole body": 1, "Rash": 1}, "batchcodes": ["SCTV5"]}]}

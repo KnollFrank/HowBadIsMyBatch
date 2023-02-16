@@ -1,1 +1,1 @@
-{"batchcode": "PFR EL 1283 AND", "histograms": [{"batchcodes": ["PFR EL 1283 AND"], "histogram": {"Blood test normal": 1, "Deafness unilateral": 1, "Magnetic resonance imaging normal": 1, "Tinnitus": 1, "Vertigo": 1}}]}
+{"batchcode": "PFR EL 1283 AND", "histograms": [{"histogram": {"Blood test normal": 1, "Deafness unilateral": 1, "Magnetic resonance imaging normal": 1, "Tinnitus": 1, "Vertigo": 1}, "batchcodes": ["PFR EL 1283 AND"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "FA44598", "histograms": [{"batchcodes": ["FA44598"], "histogram": {"Headache": 2, "Balance disorder": 1, "Discomfort": 1, "Inflammation": 1, "Localised oedema": 1, "Pain": 1, "Pyrexia": 1, "Ultrasound Doppler": 1, "Ultrasound scan": 1, "Vaccination site pain": 1}}]}
+{"batchcode": "FA44598", "histograms": [{"histogram": {"Headache": 2, "Balance disorder": 1, "Discomfort": 1, "Inflammation": 1, "Localised oedema": 1, "Pain": 1, "Pyrexia": 1, "Ultrasound Doppler": 1, "Ultrasound scan": 1, "Vaccination site pain": 1}, "batchcodes": ["FA44598"]}]}

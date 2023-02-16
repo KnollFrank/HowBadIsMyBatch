@@ -1,1 +1,1 @@
-{"batchcode": "ERB737", "histograms": [{"batchcodes": ["ERB737"], "histogram": {"Blood glucose normal": 1, "Dyspnoea": 1, "Fatigue": 1, "Hypotension": 1, "Pharyngeal swelling": 1, "Sinus congestion": 1, "Tremor": 1}}]}
+{"batchcode": "ERB737", "histograms": [{"histogram": {"Blood glucose normal": 1, "Dyspnoea": 1, "Fatigue": 1, "Hypotension": 1, "Pharyngeal swelling": 1, "Sinus congestion": 1, "Tremor": 1}, "batchcodes": ["ERB737"]}]}

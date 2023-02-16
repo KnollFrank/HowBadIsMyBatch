@@ -1,1 +1,1 @@
-{"batchcode": "042M21A", "histograms": [{"batchcodes": ["042M21A"], "histogram": {"Abnormal sensation in eye": 1, "COVID-19": 1, "Cough": 1, "Malaise": 1, "Nasal congestion": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "042M21A", "histograms": [{"histogram": {"Abnormal sensation in eye": 1, "COVID-19": 1, "Cough": 1, "Malaise": 1, "Nasal congestion": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["042M21A"]}]}

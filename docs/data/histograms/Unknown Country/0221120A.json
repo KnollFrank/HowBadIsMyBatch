@@ -1,1 +1,1 @@
-{"batchcode": "0221120A", "histograms": [{"batchcodes": ["0221120A"], "histogram": {"Body temperature increased": 1, "Cough": 1, "Head discomfort": 1, "Headache": 1, "Malaise": 1, "Mobility decreased": 1, "Pain": 1, "Pain in extremity": 1, "Sinus congestion": 1, "Tremor": 1}}]}
+{"batchcode": "0221120A", "histograms": [{"histogram": {"Body temperature increased": 1, "Cough": 1, "Head discomfort": 1, "Headache": 1, "Malaise": 1, "Mobility decreased": 1, "Pain": 1, "Pain in extremity": 1, "Sinus congestion": 1, "Tremor": 1}, "batchcodes": ["0221120A"]}]}

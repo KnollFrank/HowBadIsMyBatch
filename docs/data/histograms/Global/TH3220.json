@@ -1,1 +1,1 @@
-{"batchcode": "TH3220", "histograms": [{"batchcodes": ["TH3220"], "histogram": {"Immunisation": 2, "Arthralgia": 1, "Diarrhoea": 1, "Illness": 1, "Interchange of vaccine products": 1, "Joint lock": 1, "Off label use": 1, "Trismus": 1}}]}
+{"batchcode": "TH3220", "histograms": [{"histogram": {"Immunisation": 2, "Arthralgia": 1, "Diarrhoea": 1, "Illness": 1, "Interchange of vaccine products": 1, "Joint lock": 1, "Off label use": 1, "Trismus": 1}, "batchcodes": ["TH3220"]}]}

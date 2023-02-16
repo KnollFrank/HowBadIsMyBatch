@@ -1,1 +1,1 @@
-{"batchcode": "0116208", "histograms": [{"batchcodes": ["0116208", "012M20A"], "histogram": {"Asthenia": 1, "Blood test": 1, "Disability": 1, "Dysstasia": 1, "Laboratory test abnormal": 1, "Muscular weakness": 1, "Nerve injury": 1}}]}
+{"batchcode": "0116208", "histograms": [{"histogram": {"Asthenia": 1, "Blood test": 1, "Disability": 1, "Dysstasia": 1, "Laboratory test abnormal": 1, "Muscular weakness": 1, "Nerve injury": 1}, "batchcodes": ["0116208", "012M20A"]}]}

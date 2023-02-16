@@ -1,1 +1,1 @@
-{"batchcode": "004C219A", "histograms": [{"batchcodes": ["004C219A", "025B21A"], "histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "004C219A", "histograms": [{"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["004C219A", "025B21A"]}]}

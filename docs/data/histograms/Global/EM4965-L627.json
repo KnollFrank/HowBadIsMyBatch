@@ -1,1 +1,1 @@
-{"batchcode": "EM4965-L627", "histograms": [{"batchcodes": ["EM4965-L627"], "histogram": {"Blood pressure measurement": 1, "Cold sweat": 1, "Feeling of body temperature change": 1, "Malaise": 1, "Oxygen saturation": 1, "Syncope": 1, "Tremor": 1, "Vomiting": 1}}]}
+{"batchcode": "EM4965-L627", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Cold sweat": 1, "Feeling of body temperature change": 1, "Malaise": 1, "Oxygen saturation": 1, "Syncope": 1, "Tremor": 1, "Vomiting": 1}, "batchcodes": ["EM4965-L627"]}]}

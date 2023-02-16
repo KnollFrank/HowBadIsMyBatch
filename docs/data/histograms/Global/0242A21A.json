@@ -1,1 +1,1 @@
-{"batchcode": "0242A21A", "histograms": [{"batchcodes": ["0242A21A"], "histogram": {"Fatigue": 3, "Headache": 3, "Pyrexia": 2, "Body temperature": 1, "Body temperature increased": 1, "Exposure via breast milk": 1, "Heart rate increased": 1, "Myalgia": 1, "Pain assessment": 1}}]}
+{"batchcode": "0242A21A", "histograms": [{"histogram": {"Fatigue": 3, "Headache": 3, "Pyrexia": 2, "Body temperature": 1, "Body temperature increased": 1, "Exposure via breast milk": 1, "Heart rate increased": 1, "Myalgia": 1, "Pain assessment": 1}, "batchcodes": ["0242A21A"]}]}

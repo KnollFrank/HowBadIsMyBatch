@@ -1,1 +1,1 @@
-{"batchcode": "SW0168", "histograms": [{"batchcodes": ["ER8731", "SW0168"], "histogram": {"Audiogram": 1, "Deafness": 1, "Deafness neurosensory": 1, "Ear discomfort": 1, "Exposure to noise": 1, "Otoacoustic emissions test abnormal": 1, "Presbyacusis": 1, "Tinnitus": 1}}]}
+{"batchcode": "SW0168", "histograms": [{"histogram": {"Audiogram": 1, "Deafness": 1, "Deafness neurosensory": 1, "Ear discomfort": 1, "Exposure to noise": 1, "Otoacoustic emissions test abnormal": 1, "Presbyacusis": 1, "Tinnitus": 1}, "batchcodes": ["ER8731", "SW0168"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "ER8732EXP:07/31", "histograms": [{"batchcodes": ["ER8732EXP:07/31"], "histogram": {"Angina pectoris": 1, "Dizziness": 1, "Palpitations": 1, "Presyncope": 1, "Rash": 1, "Rash erythematous": 1, "Rash pruritic": 1}}]}
+{"batchcode": "ER8732EXP:07/31", "histograms": [{"histogram": {"Angina pectoris": 1, "Dizziness": 1, "Palpitations": 1, "Presyncope": 1, "Rash": 1, "Rash erythematous": 1, "Rash pruritic": 1}, "batchcodes": ["ER8732EXP:07/31"]}]}

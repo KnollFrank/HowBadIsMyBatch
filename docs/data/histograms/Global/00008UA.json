@@ -1,1 +1,1 @@
-{"batchcode": "00008UA", "histograms": [{"batchcodes": ["00008UA"], "histogram": {"SARS-CoV-2 test": 3, "Pyrexia": 2, "Arthralgia": 1, "Chills": 1, "Fatigue": 1, "Illness": 1, "Joint swelling": 1, "Myalgia": 1, "Vomiting": 1}}]}
+{"batchcode": "00008UA", "histograms": [{"histogram": {"SARS-CoV-2 test": 3, "Pyrexia": 2, "Arthralgia": 1, "Chills": 1, "Fatigue": 1, "Illness": 1, "Joint swelling": 1, "Myalgia": 1, "Vomiting": 1}, "batchcodes": ["00008UA"]}]}

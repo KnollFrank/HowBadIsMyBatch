@@ -1,1 +1,1 @@
-{"batchcode": "21016-05", "histograms": [{"batchcodes": ["21016-05"], "histogram": {"COVID-19 immunisation": 1, "Headache": 1, "Heart rate irregular": 1, "Immunisation": 1, "Meningism": 1, "Muscle spasticity": 1, "Pyrexia": 1, "Tachycardia": 1, "Vomiting": 1}}]}
+{"batchcode": "21016-05", "histograms": [{"histogram": {"COVID-19 immunisation": 1, "Headache": 1, "Heart rate irregular": 1, "Immunisation": 1, "Meningism": 1, "Muscle spasticity": 1, "Pyrexia": 1, "Tachycardia": 1, "Vomiting": 1}, "batchcodes": ["21016-05"]}]}

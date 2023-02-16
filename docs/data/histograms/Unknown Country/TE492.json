@@ -1,1 +1,1 @@
-{"batchcode": "TE492", "histograms": [{"batchcodes": ["TE492"], "histogram": {"Arthralgia": 1, "Dizziness": 1, "Migraine": 1, "Vaccination site inflammation": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}}]}
+{"batchcode": "TE492", "histograms": [{"histogram": {"Arthralgia": 1, "Dizziness": 1, "Migraine": 1, "Vaccination site inflammation": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}, "batchcodes": ["TE492"]}]}

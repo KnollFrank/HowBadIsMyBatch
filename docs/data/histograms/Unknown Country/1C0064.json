@@ -1,1 +1,1 @@
-{"batchcode": "1C0064", "histograms": [{"batchcodes": ["1C0064"], "histogram": {"C-reactive protein": 1, "C-reactive protein increased": 1, "Headache": 1, "Jaundice": 1, "Pyrexia": 1, "Transaminases increased": 1}}]}
+{"batchcode": "1C0064", "histograms": [{"histogram": {"C-reactive protein": 1, "C-reactive protein increased": 1, "Headache": 1, "Jaundice": 1, "Pyrexia": 1, "Transaminases increased": 1}, "batchcodes": ["1C0064"]}]}

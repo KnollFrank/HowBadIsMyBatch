@@ -1,1 +1,1 @@
-{"batchcode": "011M90A", "histograms": [{"batchcodes": ["011M90A"], "histogram": {"Fatigue": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Pyrexia": 1, "Skin hypertrophy": 1}}]}
+{"batchcode": "011M90A", "histograms": [{"histogram": {"Fatigue": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Pyrexia": 1, "Skin hypertrophy": 1}, "batchcodes": ["011M90A"]}]}

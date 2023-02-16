@@ -1,1 +1,1 @@
-{"batchcode": "PCA002", "histograms": [{"batchcodes": ["PCA002"], "histogram": {"Arrhythmia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Electrocardiogram ambulatory": 1, "Heart rate": 1}}]}
+{"batchcode": "PCA002", "histograms": [{"histogram": {"Arrhythmia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Electrocardiogram ambulatory": 1, "Heart rate": 1}, "batchcodes": ["PCA002"]}]}

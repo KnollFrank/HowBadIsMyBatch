@@ -1,1 +1,1 @@
-{"batchcode": "2N6200", "histograms": [{"batchcodes": ["2N6200"], "histogram": {"Magnetic resonance imaging": 1, "Periarthritis": 1, "Physiotherapy": 1, "X-ray limb": 1}}]}
+{"batchcode": "2N6200", "histograms": [{"histogram": {"Magnetic resonance imaging": 1, "Periarthritis": 1, "Physiotherapy": 1, "X-ray limb": 1}, "batchcodes": ["2N6200"]}]}

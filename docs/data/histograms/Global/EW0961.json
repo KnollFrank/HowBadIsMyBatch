@@ -1,1 +1,1 @@
-{"batchcode": "EW0961", "histograms": [{"batchcodes": ["EW0153", "EW0961"], "histogram": {"Biopsy skin abnormal": 1, "Drug eruption": 1, "Dry skin": 1, "Photosensitivity reaction": 1, "Rash": 1, "Skin discolouration": 1, "Skin exfoliation": 1, "Urticaria": 1, "Viral rash": 1}}]}
+{"batchcode": "EW0961", "histograms": [{"histogram": {"Biopsy skin abnormal": 1, "Drug eruption": 1, "Dry skin": 1, "Photosensitivity reaction": 1, "Rash": 1, "Skin discolouration": 1, "Skin exfoliation": 1, "Urticaria": 1, "Viral rash": 1}, "batchcodes": ["EW0153", "EW0961"]}]}

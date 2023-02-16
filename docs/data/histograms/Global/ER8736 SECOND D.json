@@ -1,1 +1,1 @@
-{"batchcode": "ER8736 SECOND D", "histograms": [{"batchcodes": ["ER8736 SECOND D"], "histogram": {"Atrial fibrillation": 1, "Cardiac monitoring": 1, "Condition aggravated": 1, "Heart rate abnormal": 1, "Tachycardia": 1}}]}
+{"batchcode": "ER8736 SECOND D", "histograms": [{"histogram": {"Atrial fibrillation": 1, "Cardiac monitoring": 1, "Condition aggravated": 1, "Heart rate abnormal": 1, "Tachycardia": 1}, "batchcodes": ["ER8736 SECOND D"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "CN3JRACKXVN3", "histograms": [{"batchcodes": ["CN3JRACKXVN3"], "histogram": {"Cough": 1, "Dizziness": 1, "Dyspnoea": 1, "Headache": 1}}]}
+{"batchcode": "CN3JRACKXVN3", "histograms": [{"histogram": {"Cough": 1, "Dizziness": 1, "Dyspnoea": 1, "Headache": 1}, "batchcodes": ["CN3JRACKXVN3"]}]}

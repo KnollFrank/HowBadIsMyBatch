@@ -1,1 +1,1 @@
-{"batchcode": "J&J COVID", "histograms": [{"batchcodes": ["J&J COVID"], "histogram": {"Guillain-Barre syndrome": 1, "Lumbar puncture abnormal": 1}}]}
+{"batchcode": "J&J COVID", "histograms": [{"histogram": {"Guillain-Barre syndrome": 1, "Lumbar puncture abnormal": 1}, "batchcodes": ["J&J COVID"]}]}

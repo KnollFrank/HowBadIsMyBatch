@@ -1,1 +1,1 @@
-{"batchcode": "3006275-30", "histograms": [{"batchcodes": ["3006275-30"], "histogram": {"Coma": 1, "Cyanosis": 1, "Deep vein thrombosis": 1, "Dyspnoea": 1, "Pulmonary embolism": 1, "Pyrexia": 1}}]}
+{"batchcode": "3006275-30", "histograms": [{"histogram": {"Coma": 1, "Cyanosis": 1, "Deep vein thrombosis": 1, "Dyspnoea": 1, "Pulmonary embolism": 1, "Pyrexia": 1}, "batchcodes": ["3006275-30"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "033K21-2A-B", "histograms": [{"batchcodes": ["033K21-2A-B"], "histogram": {"Bone pain": 1, "COVID-19": 1, "Chills": 1, "Cough": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}}]}
+{"batchcode": "033K21-2A-B", "histograms": [{"histogram": {"Bone pain": 1, "COVID-19": 1, "Chills": 1, "Cough": 1, "Oropharyngeal pain": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["033K21-2A-B"]}]}

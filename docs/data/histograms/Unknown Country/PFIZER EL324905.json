@@ -1,1 +1,1 @@
-{"batchcode": "PFIZER EL324905", "histograms": [{"batchcodes": ["PFIZER EL324905"], "histogram": {"Arthralgia": 1, "Fatigue": 1, "Headache": 1, "Injection site pain": 1, "Lymphadenopathy": 1, "Malaise": 1, "Myalgia": 1, "Nausea": 1, "Pain": 1, "Pruritus": 1, "Rash": 1}}]}
+{"batchcode": "PFIZER EL324905", "histograms": [{"histogram": {"Arthralgia": 1, "Fatigue": 1, "Headache": 1, "Injection site pain": 1, "Lymphadenopathy": 1, "Malaise": 1, "Myalgia": 1, "Nausea": 1, "Pain": 1, "Pruritus": 1, "Rash": 1}, "batchcodes": ["PFIZER EL324905"]}]}

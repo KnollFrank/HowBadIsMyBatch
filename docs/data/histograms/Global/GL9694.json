@@ -1,1 +1,1 @@
-{"batchcode": "GL9694", "histograms": [{"batchcodes": ["GL9694"], "histogram": {"Hypersensitivity": 2, "SARS-CoV-2 test": 2, "Weight": 2, "Allergic sinusitis": 1, "Herpes zoster": 1, "Illness": 1, "Rash erythematous": 1, "Urticaria": 1, "Weight decreased": 1}}]}
+{"batchcode": "GL9694", "histograms": [{"histogram": {"Hypersensitivity": 2, "SARS-CoV-2 test": 2, "Weight": 2, "Allergic sinusitis": 1, "Herpes zoster": 1, "Illness": 1, "Rash erythematous": 1, "Urticaria": 1, "Weight decreased": 1}, "batchcodes": ["GL9694"]}]}

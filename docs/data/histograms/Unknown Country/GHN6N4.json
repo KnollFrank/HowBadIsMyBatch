@@ -1,1 +1,1 @@
-{"batchcode": "GHN6N4", "histograms": [{"batchcodes": ["GHN6N4"], "histogram": {"Abdominal pain": 1, "Colonoscopy": 1, "Fatigue": 1, "Oropharyngeal pain": 1}}]}
+{"batchcode": "GHN6N4", "histograms": [{"histogram": {"Abdominal pain": 1, "Colonoscopy": 1, "Fatigue": 1, "Oropharyngeal pain": 1}, "batchcodes": ["GHN6N4"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "EM9119", "histograms": [{"batchcodes": ["EM9119"], "histogram": {"Anticoagulant therapy": 1, "Fibrin D dimer increased": 1, "Menstruation delayed": 1, "Thrombosis": 1}}]}
+{"batchcode": "EM9119", "histograms": [{"histogram": {"Anticoagulant therapy": 1, "Fibrin D dimer increased": 1, "Menstruation delayed": 1, "Thrombosis": 1}, "batchcodes": ["EM9119"]}]}

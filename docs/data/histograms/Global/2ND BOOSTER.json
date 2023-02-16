@@ -1,1 +1,1 @@
-{"batchcode": "2ND BOOSTER", "histograms": [{"batchcodes": ["2ND BOOSTER"], "histogram": {"COVID-19": 2, "Cough": 1, "Fatigue": 1, "Pain": 1, "Pyrexia": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 antibody test positive": 1}}]}
+{"batchcode": "2ND BOOSTER", "histograms": [{"histogram": {"COVID-19": 2, "Cough": 1, "Fatigue": 1, "Pain": 1, "Pyrexia": 1, "Respiratory tract congestion": 1, "SARS-CoV-2 antibody test positive": 1}, "batchcodes": ["2ND BOOSTER"]}]}

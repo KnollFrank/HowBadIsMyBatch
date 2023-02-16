@@ -1,1 +1,1 @@
-{"batchcode": "EI3302", "histograms": [{"batchcodes": ["EI3302"], "histogram": {"Biopsy muscle": 1, "Electromyogram": 1, "Laboratory test": 1, "Magnetic resonance imaging spinal": 1, "Muscular weakness": 1, "Myalgia": 1}}]}
+{"batchcode": "EI3302", "histograms": [{"histogram": {"Biopsy muscle": 1, "Electromyogram": 1, "Laboratory test": 1, "Magnetic resonance imaging spinal": 1, "Muscular weakness": 1, "Myalgia": 1}, "batchcodes": ["EI3302"]}]}

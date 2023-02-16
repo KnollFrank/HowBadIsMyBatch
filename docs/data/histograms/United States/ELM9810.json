@@ -1,1 +1,1 @@
-{"batchcode": "ELM9810", "histograms": [{"batchcodes": ["ELM9810"], "histogram": {"Blood test": 1, "Dermatologic examination": 1, "Rash": 1, "Transient acantholytic dermatosis": 1}}]}
+{"batchcode": "ELM9810", "histograms": [{"histogram": {"Blood test": 1, "Dermatologic examination": 1, "Rash": 1, "Transient acantholytic dermatosis": 1}, "batchcodes": ["ELM9810"]}]}

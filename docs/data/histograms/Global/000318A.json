@@ -1,1 +1,1 @@
-{"batchcode": "000318A", "histograms": [{"batchcodes": ["000318A"], "histogram": {"Blood pressure measurement": 1, "Body temperature": 1, "Cold sweat": 1, "Heart rate": 1, "Loss of consciousness": 1, "Oxygen saturation": 1, "Seizure": 1, "Syncope": 1}}]}
+{"batchcode": "000318A", "histograms": [{"histogram": {"Blood pressure measurement": 1, "Body temperature": 1, "Cold sweat": 1, "Heart rate": 1, "Loss of consciousness": 1, "Oxygen saturation": 1, "Seizure": 1, "Syncope": 1}, "batchcodes": ["000318A"]}]}

@@ -1,1 +1,1 @@
-{"batchcode": "20YA21A", "histograms": [{"batchcodes": ["20YA21A"], "histogram": {"Angiogram": 1, "Blood test": 1, "Eye pain": 1, "Magnetic resonance imaging": 1, "Optic neuritis": 1, "Tendonitis": 1, "Vision blurred": 1}}]}
+{"batchcode": "20YA21A", "histograms": [{"histogram": {"Angiogram": 1, "Blood test": 1, "Eye pain": 1, "Magnetic resonance imaging": 1, "Optic neuritis": 1, "Tendonitis": 1, "Vision blurred": 1}, "batchcodes": ["20YA21A"]}]}

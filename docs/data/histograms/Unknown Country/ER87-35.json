@@ -1,1 +1,1 @@
-{"batchcode": "ER87-35", "histograms": [{"batchcodes": ["ER87-35"], "histogram": {"Dizziness": 1, "Electrocardiogram normal": 1, "Headache": 1, "Lethargy": 1, "Nausea": 1, "Pain in extremity": 1, "Pallor": 1, "Pregnancy test urine": 1}}]}
+{"batchcode": "ER87-35", "histograms": [{"histogram": {"Dizziness": 1, "Electrocardiogram normal": 1, "Headache": 1, "Lethargy": 1, "Nausea": 1, "Pain in extremity": 1, "Pallor": 1, "Pregnancy test urine": 1}, "batchcodes": ["ER87-35"]}]}

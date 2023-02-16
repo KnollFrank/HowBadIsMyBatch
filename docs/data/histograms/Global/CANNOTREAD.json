@@ -1,1 +1,1 @@
-{"batchcode": "CANNOTREAD", "histograms": [{"batchcodes": ["CANNOTREAD"], "histogram": {"Blood test": 1, "Dyspnoea": 1, "Electric shock sensation": 1, "Electrocardiogram abnormal": 1, "Heart rate increased": 1, "Hypoaesthesia": 1, "Paraesthesia": 1, "Sinus arrhythmia": 1}}]}
+{"batchcode": "CANNOTREAD", "histograms": [{"histogram": {"Blood test": 1, "Dyspnoea": 1, "Electric shock sensation": 1, "Electrocardiogram abnormal": 1, "Heart rate increased": 1, "Hypoaesthesia": 1, "Paraesthesia": 1, "Sinus arrhythmia": 1}, "batchcodes": ["CANNOTREAD"]}]}

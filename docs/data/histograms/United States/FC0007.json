@@ -1,1 +1,1 @@
-{"batchcode": "FC0007", "histograms": [{"batchcodes": ["FC0007"], "histogram": {"Rash": 2, "Urticaria": 2, "Epigastric discomfort": 1, "Feeling hot": 1, "Illness": 1, "Skin irritation": 1, "Swelling face": 1}}]}
+{"batchcode": "FC0007", "histograms": [{"histogram": {"Rash": 2, "Urticaria": 2, "Epigastric discomfort": 1, "Feeling hot": 1, "Illness": 1, "Skin irritation": 1, "Swelling face": 1}, "batchcodes": ["FC0007"]}]}

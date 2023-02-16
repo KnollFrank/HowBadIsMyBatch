@@ -1,1 +1,1 @@
-{"batchcode": "RA5190", "histograms": [{"batchcodes": ["RA 5190", "RA5190"], "histogram": {"Condition aggravated": 1, "Death": 1, "Heart rate abnormal": 1, "Intestinal obstruction": 1, "Magnetic resonance imaging": 1, "Malaise": 1, "Surgery": 1, "X-ray": 1}}]}
+{"batchcode": "RA5190", "histograms": [{"histogram": {"Condition aggravated": 1, "Death": 1, "Heart rate abnormal": 1, "Intestinal obstruction": 1, "Magnetic resonance imaging": 1, "Malaise": 1, "Surgery": 1, "X-ray": 1}, "batchcodes": ["RA 5190", "RA5190"]}]}
