@@ -16,5 +16,5 @@ def createAndSaveHistogramsForCountries(symptomByBatchcodeTable):
     explodedTable = MultiIndexExploder.explodeMultiIndexOfTable(dictByBatchcodeTable)
     histogramDescriptionTable = HistogramDescriptionTableFactory.createHistogramDescriptionTable(explodedTable)
     for country, histogramDescriptionTableForCountry in histogramDescriptionTable.groupby('COUNTRY'):
-        print(country, ':')
+        print(country)
         saveHistograms(histogramDescriptionTableForCountry, country)
