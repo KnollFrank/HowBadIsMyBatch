@@ -1,1 +1,1 @@
-{"batchcode": "FP7134", "histograms": [{"histogram": {"Fatigue": 1, "Headache": 1, "Vaccination site pain": 1}, "batchcodes": ["FP7134"]}]}
+{"batchcode": "FP7134", "histograms": [{"histogram": {"Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1}, "batchcodes": ["FP7134", "FP7134"]}, {"histogram": {"Oropharyngeal pain": 1, "Pain": 1, "Pyrexia": 1}, "batchcodes": ["FP7134", "FP7134"]}, {"histogram": {"Fatigue": 1, "Headache": 1, "Vaccination site pain": 1}, "batchcodes": ["FP7134"]}]}
