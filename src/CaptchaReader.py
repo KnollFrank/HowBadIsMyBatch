@@ -59,12 +59,12 @@ def decode_batch_predictions(pred):
 def _getModel():
     print("loading model...")
     model = load_model()
-    model.make_predict_function()
     model.summary()
     return model
 
 def load_model():
     _model = keras.models.load_model('model')
+    _model.make_predict_function()
     __model = keras.models.Model(
         _model.get_layer(name="image").input,
         _model.get_layer(name="dense2").output)
