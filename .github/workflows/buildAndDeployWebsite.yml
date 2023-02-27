@@ -39,8 +39,10 @@ jobs:
         shell: bash -el {0}
         run: |
           cd src
-          jupyter nbconvert --ExecutePreprocessor.kernel_name="howbadismybatch-venv-kernel" --to notebook --allow-errors --execute HowBadIsMyBatch.ipynb
-          jupyter nbconvert --to html HowBadIsMyBatch.nbconvert.ipynb
+          jupyter nbconvert --to script HowBadIsMyBatch.ipynb
+          python ./HowBadIsMyBatch.py          
+          # jupyter nbconvert --ExecutePreprocessor.kernel_name="howbadismybatch-venv-kernel" --to notebook --allow-errors --execute HowBadIsMyBatch.ipynb
+          # jupyter nbconvert --to html HowBadIsMyBatch.nbconvert.ipynb
           git add -A
           git commit -m "updating data for batch codes"
       - name: Executing Intensivstationen.ipynb
