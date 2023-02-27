@@ -59,7 +59,7 @@ def decode_batch_predictions(pred):
 def _getModel():
     print("loading model...")
     model = load_model()
-    model._make_predict_function()
+    model.make_predict_function()
     model.summary()
     return model
 
