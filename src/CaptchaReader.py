@@ -63,18 +63,12 @@ def _getModel():
     return model
 
 def load_model():
-    _model = keras.models.load_model('model')
-    _model.make_predict_function()
-    __model = keras.models.Model(
-        _model.get_layer(name="image").input,
-        _model.get_layer(name="dense2").output)
-    __model.make_predict_function()
-    return __model
+    model = keras.models.load_model('model')
+    return keras.models.Model(
+        model.get_layer(name="image").input,
+        model.get_layer(name="dense2").output)
 
 def getTextInCaptchaImage(captchaImageFile):
     batchImages = encode_single_sample(captchaImageFile)
-    model = _getModel()
-    print('preds = model.predict(batchImages):')
-    preds = model.predict(batchImages, use_multiprocessing=True)
-    print('return decode_batch_predictions(preds)[0]:')
+    preds = _getModel().predict(batchImages, use_multiprocessing=True)
     return decode_batch_predictions(preds)[0]
