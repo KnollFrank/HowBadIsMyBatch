@@ -75,6 +75,6 @@ def getTextInCaptchaImage(captchaImageFile):
     batchImages = encode_single_sample(captchaImageFile)
     model = _getModel()
     print('preds = model.predict(batchImages):')
-    preds = model.predict(batchImages)
+    preds = model.predict(batchImages, use_multiprocessing=True)
     print('return decode_batch_predictions(preds)[0]:')
     return decode_batch_predictions(preds)[0]
