@@ -56,13 +56,10 @@ def decode_batch_predictions(pred):
         output_text.append(res)
     return output_text
 
-model = None
 def _getModel():
-    global model
-    if model is None:
-        print("loading model...")
-        model = load_model()
-        model.summary()
+    print("loading model...")
+    model = load_model()
+    model.summary()
     return model
 
 def load_model():
