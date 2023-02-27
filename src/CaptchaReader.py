@@ -68,6 +68,7 @@ def load_model():
     __model = keras.models.Model(
         _model.get_layer(name="image").input,
         _model.get_layer(name="dense2").output)
+    __model.make_predict_function()
     return __model
 
 def getTextInCaptchaImage(captchaImageFile):
