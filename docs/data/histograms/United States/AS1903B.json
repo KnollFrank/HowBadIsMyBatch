@@ -1,1 +1,1 @@
-{"batchcode": "AS1903B", "histograms": [{"histogram": {"No adverse event": 1, "Poor quality product administered": 1}, "batchcodes": ["AS1903B"]}]}
+{"batchcode": "AS1903B", "histograms": [{"histogram": {"No adverse event": 7, "Product temperature excursion issue": 6, "Product storage error": 5, "Poor quality product administered": 3}, "batchcodes": ["AS1903B"]}]}
