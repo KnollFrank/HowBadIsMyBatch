@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Batch Codes of Coronavirus 2019 Vaccines</title>
+    <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+    <link href="batchCodeTable.css" rel="stylesheet" type="text/css" />
+    <link href="forkMeOnGitHub.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"
+        type="text/javascript"></script>
+    <script src="./Utils.js"></script>
+    <script src="./UIUtils.js"></script>
+    <script src="./VaccineDistributionByZipcodeTableInitializer.js"></script>
+    <script>
+        $(document).ready(function () {
+            const tableInitializer =
+                new VaccineDistributionByZipcodeTableInitializer(
+                    {
+                        tableElement: $('#vaccineDistributionByZipcodeTable')
+                    });
+            tableInitializer.initialize();
+        });
+    </script>
+</head>
+
+<body>
+    <span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
+    <h1>Batch Codes of Coronavirus 2019 Vaccines</h1>
+    <table class="display" id="vaccineDistributionByZipcodeTable">
+        <thead>
+            <tr>
+                <th>PROVIDER_NAME</th>
+                <th>ZIPCODE_SHP</th>
+                <th>LOT_NUMBER</th>
+                <th>DOSES_SHIPPED</th>
+            </tr>
+        </thead>
+    </table>
+    <p><b>Data Sources:</b>
+        <a href="https://vaers.hhs.gov/data/datasets.html" target="_blank">Vaccine Adverse Event Reporting System
+            (VAERS)</a> and
+        <a href="https://icandecide.org/wp-content/uploads/2022/09/Amended-22-01962-Pfizer-2022-0426-pulled-2022-0823.xlsx"
+            target="_blank">Vaccine Distribution by Zipcode</a>
+    </p>
+</body>
+
+</html>
