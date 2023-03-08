@@ -14,10 +14,6 @@ class VaccineDistributionByZipcodeTableInitializer {
     #createTable() {
         this.#tableElement.DataTable(
             {
-                language:
-                {
-                    searchPlaceholder: "Enter Batch Code"
-                },
                 search:
                 {
                     return: false
