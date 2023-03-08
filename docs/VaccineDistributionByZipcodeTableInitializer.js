@@ -1,19 +1,18 @@
 class VaccineDistributionByZipcodeTableInitializer {
 
     #tableElement;
-    #table;
 
     constructor({ tableElement }) {
         this.#tableElement = tableElement;
     }
 
     initialize() {
-        this.#table = this.#createEmptyTable();
-        this.#loadDataIntoTable();
+        this.#createTable();
+        this.#selectInput();
     }
 
-    #createEmptyTable() {
-        return this.#tableElement.DataTable(
+    #createTable() {
+        this.#tableElement.DataTable(
             {
                 language:
                 {
@@ -23,6 +22,7 @@ class VaccineDistributionByZipcodeTableInitializer {
                 {
                     return: false
                 },
+                ajax: 'data/vaccineDistributionByZipcode/VaccineDistributionByZipcode.json',
                 processing: true,
                 deferRender: true,
                 columnDefs:
@@ -54,23 +54,6 @@ class VaccineDistributionByZipcodeTableInitializer {
             case 'DOSES_SHIPPED':
                 return 3;
         }
-    }
-
-    #loadDataIntoTable() {
-        // FK-TODO: show "Loading.." message or spinning wheel.
-        fetch('data/vaccineDistributionByZipcode/VaccineDistributionByZipcode.json')
-            .then(response => response.json())
-            .then(json => {
-                this.#setTableRows(json.data);
-                this.#selectInput();
-            });
-    }
-
-    #setTableRows(rows) {
-        this.#table
-            .clear()
-            .rows.add(rows)
-            .draw();
     }
 
     #selectInput() {
