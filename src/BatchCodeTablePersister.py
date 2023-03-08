@@ -42,9 +42,9 @@ def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, count
             'Severe reports',
             'Lethality'
         ]]
-    IOUtils.saveDataFrame(
+    IOUtils.saveDataFrameAsJson(
         batchCodeTable,
-        '../docs/data/batchCodeTables/' + country)
+        '../docs/data/batchCodeTables/' + country + '.json')
     onCountryProcessed(country)
 
 

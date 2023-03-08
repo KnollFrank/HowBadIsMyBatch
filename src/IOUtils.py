@@ -4,21 +4,15 @@ import json
 class IOUtils:
 
     @staticmethod
-    def saveDataFrame(dataFrame, file):
-        # IOUtils.saveDataFrameAsExcelFile(dataFrame, file)
-        # IOUtils.saveDataFrameAsHtml(dataFrame, file)
-        IOUtils.saveDataFrameAsJson(dataFrame, file)
-
-    @staticmethod
     def saveDataFrameAsExcelFile(dataFrame, file):
         IOUtils.ensurePath(file)
-        dataFrame.to_excel(file + '.xlsx')
+        dataFrame.to_excel(file)
 
     @staticmethod
     def saveDataFrameAsHtml(dataFrame, file):
         IOUtils.ensurePath(file)
         dataFrame.to_html(
-            file + '.html',
+            file,
             index = False,
             table_id = 'batchCodeTable',
             classes = 'display',
@@ -29,7 +23,7 @@ class IOUtils:
     def saveDataFrameAsJson(dataFrame, file):
         IOUtils.ensurePath(file)
         dataFrame.to_json(
-            file + '.json',
+            file,
             orient = "split",
             index = False)
 
