@@ -25,14 +25,15 @@ class VaccineDistributionByZipcodeTableInitializer {
                     [
                         {
                             searchable: false,
-                            targets: [this.#getColumnIndex('DOSES_SHIPPED')]
+                            orderable: false,
+                            targets: [this.#getColumnIndex('Summary')]
                         },
                         {
                             searchable: true,
                             targets: [
-                                this.#getColumnIndex('PROVIDER_NAME'),
-                                this.#getColumnIndex('ZIPCODE_SHP'),
-                                this.#getColumnIndex('LOT_NUMBER'),
+                                this.#getColumnIndex('Provider'),
+                                this.#getColumnIndex('ZIP Code'),
+                                this.#getColumnIndex('Lot Number'),
                             ]
                         },
                     ]
@@ -41,13 +42,13 @@ class VaccineDistributionByZipcodeTableInitializer {
 
     #getColumnIndex(columnName) {
         switch (columnName) {
-            case 'PROVIDER_NAME':
+            case 'Provider':
                 return 0;
-            case 'ZIPCODE_SHP':
+            case 'ZIP Code':
                 return 1;
-            case 'LOT_NUMBER':
+            case 'Lot Number':
                 return 2;
-            case 'DOSES_SHIPPED':
+            case 'Summary':
                 return 3;
         }
     }
