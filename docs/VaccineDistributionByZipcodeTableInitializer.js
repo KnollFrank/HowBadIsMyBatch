@@ -1,42 +1,39 @@
 class VaccineDistributionByZipcodeTableInitializer {
 
     #tableElement;
-    #table;
 
     constructor({ tableElement }) {
         this.#tableElement = tableElement;
     }
 
     initialize() {
-        this.#table = this.#createEmptyTable();
-        this.#loadDataIntoTable();
+        this.#createTable();
+        this.#selectInput();
     }
 
-    #createEmptyTable() {
-        return this.#tableElement.DataTable(
+    #createTable() {
+        this.#tableElement.DataTable(
             {
-                language:
-                {
-                    searchPlaceholder: "Enter Batch Code"
-                },
                 search:
                 {
                     return: false
                 },
+                ajax: 'data/vaccineDistributionByZipcode/VaccineDistributionByZipcode.json',
                 processing: true,
                 deferRender: true,
                 columnDefs:
                     [
                         {
                             searchable: false,
-                            targets: [this.#getColumnIndex('DOSES_SHIPPED')]
+                            orderable: false,
+                            targets: [this.#getColumnIndex('Summary')]
                         },
                         {
                             searchable: true,
                             targets: [
-                                this.#getColumnIndex('PROVIDER_NAME'),
-                                this.#getColumnIndex('ZIPCODE_SHP'),
-                                this.#getColumnIndex('LOT_NUMBER'),
+                                this.#getColumnIndex('Provider'),
+                                this.#getColumnIndex('ZIP Code'),
+                                this.#getColumnIndex('Lot Number'),
                             ]
                         },
                     ]
@@ -45,32 +42,15 @@ class VaccineDistributionByZipcodeTableInitializer {
 
     #getColumnIndex(columnName) {
         switch (columnName) {
-            case 'PROVIDER_NAME':
+            case 'Provider':
                 return 0;
-            case 'ZIPCODE_SHP':
+            case 'ZIP Code':
                 return 1;
-            case 'LOT_NUMBER':
+            case 'Lot Number':
                 return 2;
-            case 'DOSES_SHIPPED':
+            case 'Summary':
                 return 3;
         }
-    }
-
-    #loadDataIntoTable() {
-        // FK-TODO: show "Loading.." message or spinning wheel.
-        fetch('data/vaccineDistributionByZipcode/VaccineDistributionByZipcode.json')
-            .then(response => response.json())
-            .then(json => {
-                this.#setTableRows(json.data);
-                this.#selectInput();
-            });
-    }
-
-    #setTableRows(rows) {
-        this.#table
-            .clear()
-            .rows.add(rows)
-            .draw();
     }
 
     #selectInput() {
