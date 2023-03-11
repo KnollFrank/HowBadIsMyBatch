@@ -1,1 +1,1 @@
-{"batchcode": "029A2A", "histograms": [{"histogram": {"Chills": 1, "Diarrhoea": 1, "Pruritus": 1}, "batchcodes": ["029A2A"]}]}
+{"batchcode": "029A2A", "histograms": [{"histogram": {"COVID-19": 1, "Chest X-ray normal": 1, "Dyspnoea": 1, "Exposure to SARS-CoV-2": 1, "Fatigue": 1, "Microcytic anaemia": 1, "SARS-CoV-2 test positive": 1, "White blood cell disorder": 1}, "batchcodes": ["028A21A", "029A2A"]}, {"histogram": {"Chills": 1, "Diarrhoea": 1, "Pruritus": 1}, "batchcodes": ["029A2A"]}]}
