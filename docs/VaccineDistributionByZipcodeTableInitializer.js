@@ -24,11 +24,6 @@ class VaccineDistributionByZipcodeTableInitializer {
                 columnDefs:
                     [
                         {
-                            searchable: false,
-                            orderable: false,
-                            targets: [this.#getColumnIndex('Summary')]
-                        },
-                        {
                             searchable: true,
                             targets: [
                                 this.#getColumnIndex('Provider'),
@@ -48,8 +43,12 @@ class VaccineDistributionByZipcodeTableInitializer {
                 return 1;
             case 'Lot Number':
                 return 2;
-            case 'Summary':
+            case 'Doses Shipped':
                 return 3;
+            case 'Statistical Number of Adverse Reaction Reports':
+                return 4;
+            case 'Statistical Number of Adverse Reaction Reports (per 100,000)':
+                return 5;
         }
     }
 
