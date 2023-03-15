@@ -63,7 +63,7 @@ def _getModel():
     return model
 
 def load_model():
-    model = keras.models.load_model('model')
+    model = keras.models.load_model('src/model')
     return keras.models.Model(
         model.get_layer(name="image").input,
         model.get_layer(name="dense2").output)
