@@ -14,14 +14,14 @@ class GoogleDriveManager:
   @staticmethod
   def uploadFolderToGoogleDrive(folder):
     pass
-    # FK-TODO: refactor
+    # FK-FIXME:
     # !zip -r {folder}.zip {folder}/
     # !cp {folder}.zip {GoogleDriveManager._baseFolder}
 
   @staticmethod
   def downloadFolderFromGoogleDrive(folder):
     pass
-    # FK-TODO: refactor
+    # FK-FIXME:
     # !cp {GoogleDriveManager._baseFolder}/{folder}.zip .
     # !rm -rf {folder}
     # !unzip {folder}.zip
