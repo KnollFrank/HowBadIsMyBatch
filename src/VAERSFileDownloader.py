@@ -2,7 +2,7 @@ import os
 import time
 from WebDriver import getWebDriver, isCaptchaSolved, saveCaptchaImageAs
 from selenium.webdriver.common.by import By
-from CaptchaReader import getTextInCaptchaImage
+from captcha.CaptchaReader import CaptchaReader
 from zipUtils import unzipAndRemove
 
 
@@ -15,10 +15,14 @@ from zipUtils import unzipAndRemove
     
 def solveCaptchaAndStartFileDownload(driver, captchaImageFile):
     saveCaptchaImageAs(driver, captchaImageFile)
-    textInCaptchaImage = getTextInCaptchaImage(captchaImageFile)
+    textInCaptchaImage = _createCaptchaReader().getTextInCaptchaImage(captchaImageFile)
     print('textInCaptchaImage:', textInCaptchaImage)
     driver.find_element(By.ID, "verificationCode").send_keys(textInCaptchaImage)
     driver.find_element(By.CSS_SELECTOR, '[name="downloadbut"]').click()
+
+def _createCaptchaReader():
+    working_directory = os.path.dirname(__file__)
+    return CaptchaReader(modelFilepath = f'{working_directory}/captcha/MobileNetV3Small')
 
 def downloadFile(absoluteFile, driver, maxTries):
     def _downloadFile():
@@ -42,7 +46,7 @@ def _waitUntilDownloadHasFinished(file):
         time.sleep(2)
 
 def downloadVAERSFile(file, downloadDir):
-    driver = getWebDriver(downloadDir, isHeadless = True)
+    driver = getWebDriver(downloadDir, isHeadless = False)
     downloadedFile = downloadFile(
         absoluteFile = downloadDir + "/" + file,
         driver = driver,
