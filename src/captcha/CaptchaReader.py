@@ -7,21 +7,19 @@ from captcha.DatasetFactory import DatasetFactory
 import numpy as np
 from tensorflow import keras
 
-# FK-TODO: DRY with captcha.ipynb
-img_width = 241
-img_height = 62
-
 class CaptchaReader:
 
-    def __init__(self, modelFilepath):
+    def __init__(self, modelFilepath, captchaShape):
         self.modelFilepath = modelFilepath
+        self.captchaShape = captchaShape
 
     def getTextInCaptchaImage(self, captchaImageFile):
+        # FK-TODO: refactor
         modelDAO = ModelDAO(inColab = False)
         model = modelDAO.loadModel(self.modelFilepath)
         prediction_model = ModelFactory.createPredictionModel(model)
         charNumConverter = CharNumConverter(CaptchaGenerator.characters)
-        datasetFactory = DatasetFactory(img_height, img_width, charNumConverter.char_to_num, batch_size = 64)
+        datasetFactory = DatasetFactory(self.captchaShape,charNumConverter.char_to_num, batch_size = 64)
         batchImages = self._asSingleSampleBatch(datasetFactory._encode_single_sample(captchaImageFile, 'dummy')['image'])
         preds = prediction_model.predict(batchImages)
         predictionsDecoder = PredictionsDecoder(CaptchaGenerator.captchaLength, charNumConverter.num_to_char)

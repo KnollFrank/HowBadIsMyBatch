@@ -4,6 +4,7 @@ from WebDriver import getWebDriver, isCaptchaSolved, saveCaptchaImageAs
 from selenium.webdriver.common.by import By
 from captcha.CaptchaReader import CaptchaReader
 from zipUtils import unzipAndRemove
+from captcha.CaptchaShape import CaptchaShape
 
 
 #def getTextInCaptchaImage(captchaImageFile):
@@ -22,7 +23,8 @@ def solveCaptchaAndStartFileDownload(driver, captchaImageFile):
 
 def _createCaptchaReader():
     working_directory = os.path.dirname(__file__)
-    return CaptchaReader(modelFilepath = f'{working_directory}/captcha/MobileNetV3Small')
+    return CaptchaReader(modelFilepath = f'{working_directory}/captcha/MobileNetV3Small',
+                         captchaShape = CaptchaShape())
 
 def downloadFile(absoluteFile, driver, maxTries):
     def _downloadFile():

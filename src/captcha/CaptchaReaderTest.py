@@ -1,5 +1,6 @@
 import unittest
 from captcha.CaptchaReader import CaptchaReader
+from captcha.CaptchaShape import CaptchaShape
 import os
 
 class CaptchaReaderTest(unittest.TestCase):
@@ -10,7 +11,9 @@ class CaptchaReaderTest(unittest.TestCase):
     def test_getTextInCaptchaImage(self):
         # Given
         textInCaptchaImage = '1Ad47a'
-        captchaReader = CaptchaReader(modelFilepath = f'{self.working_directory}/MobileNetV3Small')
+        captchaReader = CaptchaReader(
+            modelFilepath = f'{self.working_directory}/MobileNetV3Small',
+            captchaShape = CaptchaShape())
 
         # When
         textInCaptchaImageActual = captchaReader.getTextInCaptchaImage(f'{self.working_directory}/captchas/VAERS/{textInCaptchaImage}.jpeg')
