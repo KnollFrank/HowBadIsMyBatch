@@ -10,15 +10,18 @@ class DatasetFactory:
 
     def createDataset(self, x, y):
         dataset = tf.data.Dataset.from_tensor_slices((x, y))
-        dataset = dataset.map(self._encode_single_sample, num_parallel_calls=tf.data.AUTOTUNE)
+        dataset = dataset.map(self._encodeImageAndLabel, num_parallel_calls=tf.data.AUTOTUNE)
         dataset = dataset.batch(self.batch_size).prefetch(buffer_size=tf.data.AUTOTUNE)
         return dataset
 
-    def _encode_single_sample(self, img_path, label):
-        img = tf.io.read_file(img_path)
+    def _encodeImageAndLabel(self, imageFilename, label):
+        return {
+            "image": DatasetFactory.encodeImage(imageFilename, self.captchaShape),
+            "label": self.char_to_num(tf.strings.unicode_split(label, input_encoding="UTF-8"))}
+    
+    @staticmethod
+    def encodeImage(imageFilename, captchaShape):
+        img = tf.io.read_file(imageFilename)
         img = tf.io.decode_jpeg(img, channels=3)
-        img = tf.image.resize(img, [self.captchaShape.height, self.captchaShape.width])
-        # Map the characters in label to numbers
-        label = self.char_to_num(tf.strings.unicode_split(label, input_encoding="UTF-8"))
-        # Return a dict as our model is expecting two inputs
-        return {"image": img, "label": label}
+        img = tf.image.resize(img, [captchaShape.height, captchaShape.width])
+        return img
