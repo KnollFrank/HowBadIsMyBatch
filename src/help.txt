@@ -7,12 +7,16 @@ FK-TODO:
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
 
-conda create --name howbadismybatch-venv python=3
+conda create --name howbadismybatch-venv python=3.9
 conda activate howbadismybatch-venv
 ipython kernel install --user --name=howbadismybatch-venv-kernel
 jupyter kernelspec list
 conda env export --from-history > environment.yml
 conda env create -f environment.yml
+
+update howbadismybatch-venv:
+conda activate howbadismybatch-venv
+conda env update --file environment.yml --prune
 
 www.HowBadIsMyBatch.info
 /etc/apache2/sites-available/HowBadIsMyBatch.conf
