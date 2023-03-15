@@ -48,7 +48,7 @@ def _waitUntilDownloadHasFinished(file):
         time.sleep(2)
 
 def downloadVAERSFile(file, downloadDir):
-    driver = getWebDriver(downloadDir, isHeadless = False)
+    driver = getWebDriver(downloadDir, isHeadless = True)
     downloadedFile = downloadFile(
         absoluteFile = downloadDir + "/" + file,
         driver = driver,
