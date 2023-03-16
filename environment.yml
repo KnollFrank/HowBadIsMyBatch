@@ -16,6 +16,7 @@ dependencies:
   - nb_conda_kernels
   - pillow
   - openpyxl
+  - tqdm
   # - python-decouple
   # - selenium
   # - webdriver-manager

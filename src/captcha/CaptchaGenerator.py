@@ -2,6 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 import string
 import shutil
+from tqdm import tqdm
 
 
 class CaptchaGenerator:
@@ -15,9 +16,7 @@ class CaptchaGenerator:
 
     def createAndSaveCaptchas(self):
         self._prepareDataDir()
-        for i in range(self.numCaptchas):
-            # FK-TODO: use https://github.com/tqdm/tqdm
-            print(f'saving captcha {i+1}/{self.numCaptchas}')
+        for _ in tqdm(range(self.numCaptchas)):
             self._createAndSaveCaptcha()
 
     def _prepareDataDir(self):
