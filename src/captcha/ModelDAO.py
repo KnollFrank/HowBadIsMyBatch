@@ -4,9 +4,9 @@ import shutil
 
 class ModelDAO:
 
-    def saveModel(self, model):
-        shutil.rmtree(model.name, ignore_errors = True)
-        model.save(model.name)
+    def saveModel(self, model, modelFilepath):
+        shutil.rmtree(modelFilepath, ignore_errors = True)
+        model.save(modelFilepath)
 
     def loadModel(self, modelFilepath):
         return keras.models.load_model(modelFilepath)
