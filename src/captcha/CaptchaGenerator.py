@@ -15,7 +15,9 @@ class CaptchaGenerator:
 
     def createAndSaveCaptchas(self):
         self._prepareDataDir()
-        for _ in range(self.numCaptchas):
+        for i in range(self.numCaptchas):
+            # FK-TODO: use https://github.com/tqdm/tqdm
+            print(f'saving captcha {i+1}/{self.numCaptchas}')
             self._createAndSaveCaptcha()
 
     def _prepareDataDir(self):
