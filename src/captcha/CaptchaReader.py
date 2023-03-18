@@ -11,8 +11,8 @@ from tensorflow import keras
 class CaptchaReader:
 
     def __init__(self, modelFilepath, captchaShape):
-        self.modelFilepath = modelFilepath
         self.captchaShape = captchaShape
+        self.predictionModel = self._createPredictionModel(modelFilepath)
 
     def getTextInCaptchaImage(self, captchaImageFile):
         return self._getTextsInCaptchaImage(self._getCaptchaImage(captchaImageFile))[0]
@@ -24,8 +24,8 @@ class CaptchaReader:
         return np.expand_dims(keras.utils.img_to_array(img), axis=0)
 
     def _getTextsInCaptchaImage(self, captchaImage):
-        preds = self._createPredictionModel().predict(captchaImage)
+        preds = self.predictionModel.predict(captchaImage)
         return PredictionsDecoder(CaptchaGenerator.captchaLength, CharNumConverter(CaptchaGenerator.characters).num_to_char).decode_batch_predictions(preds)
 
-    def _createPredictionModel(self):
-        return ModelFactory.createPredictionModel(ModelDAO().loadModel(self.modelFilepath))
+    def _createPredictionModel(self,modelFilepath):
+        return ModelFactory.createPredictionModel(ModelDAO().loadModel(modelFilepath))

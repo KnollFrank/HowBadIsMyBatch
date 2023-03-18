@@ -14,22 +14,31 @@ from captcha.CaptchaShape import CaptchaShape
 #    textInCaptchaImage = ! adb shell "run-as org.textrecognizer cat /data/data/org.textrecognizer/files/captcha_image.txt"
 #    return textInCaptchaImage[0]
     
-def solveCaptchaAndStartFileDownload(driver, captchaImageFile):
-    saveCaptchaImageAs(driver, captchaImageFile)
-    textInCaptchaImage = _createCaptchaReader().getTextInCaptchaImage(captchaImageFile)
-    print('textInCaptchaImage:', textInCaptchaImage)
-    driver.find_element(By.ID, "verificationCode").send_keys(textInCaptchaImage)
-    driver.find_element(By.CSS_SELECTOR, '[name="downloadbut"]').click()
+def updateVAERSFiles(years, workingDirectory):
+    for year in years:
+        downloadVAERSFileAndUnzip(f'{year}VAERSData.zip', workingDirectory)
+    downloadVAERSFileAndUnzip('NonDomesticVAERSData.zip', workingDirectory)
+    
+def downloadVAERSFileAndUnzip(file, workingDirectory):
+    downloadedFile = downloadVAERSFile(file, workingDirectory + "/VAERS/tmp")
+    unzipAndRemove(
+        zipFile = downloadedFile,
+        dstDir = workingDirectory + '/VAERS/')
 
-def _createCaptchaReader():
-    working_directory = os.path.dirname(__file__)
-    return CaptchaReader(modelFilepath = f'{working_directory}/captcha/MobileNetV3Small',
-                         captchaShape = CaptchaShape())
+def downloadVAERSFile(file, downloadDir):
+    driver = getWebDriver(downloadDir, isHeadless = False)
+    downloadedFile = downloadFile(
+        absoluteFile = downloadDir + "/" + file,
+        driver = driver,
+        maxTries = None)
+    driver.quit()
+    return downloadedFile
 
 def downloadFile(absoluteFile, driver, maxTries):
+    captchaReader = _createCaptchaReader()
     def _downloadFile():
         driver.get('https://vaers.hhs.gov/eSubDownload/index.jsp?fn=' + os.path.basename(absoluteFile))
-        solveCaptchaAndStartFileDownload(driver, 'captchaImage.jpeg')
+        solveCaptchaAndStartFileDownload(driver, captchaReader, 'captchaImage.jpeg')
 
     numTries = 1
     _downloadFile()
@@ -43,26 +52,18 @@ def downloadFile(absoluteFile, driver, maxTries):
     else:
         return None
 
+def _createCaptchaReader():
+    working_directory = os.path.dirname(__file__)
+    return CaptchaReader(modelFilepath = f'{working_directory}/captcha/MobileNetV3Small',
+                         captchaShape = CaptchaShape())
+
+def solveCaptchaAndStartFileDownload(driver, captchaReader, captchaImageFile):
+    saveCaptchaImageAs(driver, captchaImageFile)
+    textInCaptchaImage = captchaReader.getTextInCaptchaImage(captchaImageFile)
+    print('textInCaptchaImage:', textInCaptchaImage)
+    driver.find_element(By.ID, "verificationCode").send_keys(textInCaptchaImage)
+    driver.find_element(By.CSS_SELECTOR, '[name="downloadbut"]').click()
+
 def _waitUntilDownloadHasFinished(file):
     while not os.path.exists(file):
         time.sleep(2)
-
-def downloadVAERSFile(file, downloadDir):
-    driver = getWebDriver(downloadDir, isHeadless = True)
-    downloadedFile = downloadFile(
-        absoluteFile = downloadDir + "/" + file,
-        driver = driver,
-        maxTries = None)
-    driver.quit()
-    return downloadedFile
-
-def downloadVAERSFileAndUnzip(file, workingDirectory):
-    downloadedFile = downloadVAERSFile(file, workingDirectory + "/VAERS/tmp")
-    unzipAndRemove(
-        zipFile = downloadedFile,
-        dstDir = workingDirectory + '/VAERS/')
-
-def updateVAERSFiles(years, workingDirectory):
-    for year in years:
-        downloadVAERSFileAndUnzip(f'{year}VAERSData.zip', workingDirectory)
-    downloadVAERSFileAndUnzip('NonDomesticVAERSData.zip', workingDirectory)
