@@ -28,4 +28,4 @@ class CaptchaReader:
         return PredictionsDecoder(CaptchaGenerator.captchaLength, CharNumConverter(CaptchaGenerator.characters).num_to_char).decode_batch_predictions(preds)
 
     def _createPredictionModel(self):
-        return ModelFactory.createPredictionModel(ModelDAO(inColab=False).loadModel(self.modelFilepath))
+        return ModelFactory.createPredictionModel(ModelDAO().loadModel(self.modelFilepath))
