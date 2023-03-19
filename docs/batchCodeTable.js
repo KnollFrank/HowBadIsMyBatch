@@ -18,6 +18,7 @@ class BatchCodeTableInitializer {
         this.#countrySelect.addEventListener('change', event => this.#displayCountry());
         this.#displayCountry();
         this.#initializeHistogramView();
+        this.#trackSearchWithGoogleAnalytics();
     }
 
     #getCountry() {
@@ -135,22 +136,38 @@ class BatchCodeTableInitializer {
 
     #initializeHistogramView() {
         const thisClassInstance = this;
-        $(`#${this.#batchCodeTableElement[0].id} tbody`).on(
-            'click',
-            'td.dt-control',
-            function () {
-                const tr = $(this).closest('tr');
-                const row = thisClassInstance.#batchCodeTable.row(tr);
-                if (row.child.isShown()) {
-                    row.child.hide();
-                    tr.removeClass('shown');
-                } else {
-                    const uiContainer = document.createElement("div");
-                    row.child(uiContainer).show();
-                    tr.addClass('shown');
-                    const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
-                    new HistogramView(uiContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
-                }
-            });
+        $(`#${this.#batchCodeTableElement[0].id} tbody`)
+            .on(
+                'click',
+                'td.dt-control',
+                function () {
+                    const tr = $(this).closest('tr');
+                    const row = thisClassInstance.#batchCodeTable.row(tr);
+                    if (row.child.isShown()) {
+                        row.child.hide();
+                        tr.removeClass('shown');
+                    } else {
+                        const uiContainer = document.createElement("div");
+                        row.child(uiContainer).show();
+                        tr.addClass('shown');
+                        const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
+                        new HistogramView(uiContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
+                    }
+                });
+    }
+
+    #trackSearchWithGoogleAnalytics() {
+        const thisClassInstance = this;
+        $(`#${this.#batchCodeTableElement[0].id}`)
+            .on(
+                'search.dt',
+                function () {
+                    gtag(
+                        'event',
+                        'view_search_results',
+                        {
+                            'search_term': thisClassInstance.#batchCodeTable.search()
+                        });
+                });
     }
 }
