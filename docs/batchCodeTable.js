@@ -30,11 +30,11 @@ class BatchCodeTableInitializer {
             {
                 language:
                 {
-                    searchPlaceholder: "Enter Batch Code"
+                    searchPlaceholder: "Enter Batch Code (hit Enter)"
                 },
                 search:
                 {
-                    return: false
+                    return: true
                 },
                 processing: true,
                 deferRender: true,
@@ -162,11 +162,12 @@ class BatchCodeTableInitializer {
             .on(
                 'search.dt',
                 function () {
+                    console.log('searching: ', thisClassInstance.#batchCodeTable.search().toUpperCase());
                     gtag(
                         'event',
                         'view_search_results',
                         {
-                            'search_term': thisClassInstance.#batchCodeTable.search()
+                            'search_term': thisClassInstance.#batchCodeTable.search().toUpperCase()
                         });
                 });
     }
