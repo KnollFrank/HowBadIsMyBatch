@@ -28,9 +28,12 @@ class BatchCodeTableInitializer {
     #createEmptyBatchCodeTable() {
         return this.#batchCodeTableElement.DataTable(
             {
+                initComplete: function () {
+                    $('.dataTables_filter').append(' (press return key)');
+                },
                 language:
                 {
-                    searchPlaceholder: "Enter Batch Code (hit Enter)"
+                    searchPlaceholder: "Enter Batch Code"
                 },
                 search:
                 {
@@ -162,7 +165,6 @@ class BatchCodeTableInitializer {
             .on(
                 'search.dt',
                 function () {
-                    console.log('searching: ', thisClassInstance.#batchCodeTable.search().toUpperCase());
                     gtag(
                         'event',
                         'view_search_results',
