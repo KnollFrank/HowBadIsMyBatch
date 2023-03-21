@@ -155,12 +155,7 @@ class BatchCodeTableInitializer {
                         tr.addClass('shown');
                         const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
                         new HistogramView(uiContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
-                        gtag(
-                            'event',
-                            'click_batchcode',
-                            {
-                                'batchcode': batchcode
-                            });
+                        GoogleAnalytics.click_batchcode(batchcode);
                     }
                 });
     }
@@ -171,12 +166,7 @@ class BatchCodeTableInitializer {
             .on(
                 'search.dt',
                 function () {
-                    gtag(
-                        'event',
-                        'view_search_results',
-                        {
-                            'search_term': thisClassInstance.#batchCodeTable.search().toUpperCase()
-                        });
+                    GoogleAnalytics.view_search_results(thisClassInstance.#batchCodeTable.search().toUpperCase());
                 });
     }
 }
