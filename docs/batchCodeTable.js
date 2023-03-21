@@ -155,6 +155,12 @@ class BatchCodeTableInitializer {
                         tr.addClass('shown');
                         const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
                         new HistogramView(uiContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
+                        gtag(
+                            'event',
+                            'click_batchcode',
+                            {
+                                'batchcode': batchcode
+                            });
                     }
                 });
     }
