@@ -52,18 +52,11 @@ class BatchcodeCompletionTest(unittest.TestCase):
 
     def test_completeBatchcode_NaN(self):
         # Given
-        # FK-TODO: use empty ADR_by_Batchcode
         ADR_by_Batchcode = TestHelper.createDataFrame(
                 columns = ['Adverse Reaction Reports'],
-                data = [  [1],
-                          [200],
-                          [149]],
+                data =    [],
                 index = pd.Index(
-                    [
-                        'LOT000057A',
-                        '030L20B',
-                        '000057A'
-                    ],
+                    [],
                     name = 'VAX_LOT'))
         batchcodeCompletion = BatchcodeCompletion(ADR_by_Batchcode)
                         
@@ -77,7 +70,7 @@ class BatchcodeCompletionTest(unittest.TestCase):
         # Given
         ADR_by_Batchcode = TestHelper.createDataFrame(
                 columns = ['Adverse Reaction Reports'],
-                data = [  ],
+                data =    [],
                 index = pd.Index(
                     [],
                     name = 'VAX_LOT'))
