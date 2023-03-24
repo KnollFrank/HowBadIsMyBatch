@@ -3,7 +3,6 @@ from TestHelper import TestHelper
 from pandas.testing import assert_frame_equal
 import pandas as pd
 from CompletedBatchcodeColumnAdder import CompletedBatchcodeColumnAdder
-from BatchcodeCompletion import BatchcodeCompletion
 
 class CompletedBatchcodeColumnAdderTest(unittest.TestCase):
     
