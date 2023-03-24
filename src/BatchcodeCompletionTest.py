@@ -48,3 +48,19 @@ class BatchcodeCompletionTest(unittest.TestCase):
 
         # Then
         self.assertIsNone(completedBatchcode)
+
+    def test_completeBatchcode_empty_ADR_by_Batchcode(self):
+        # Given
+        ADR_by_Batchcode = TestHelper.createDataFrame(
+                columns = ['Adverse Reaction Reports'],
+                data = [  ],
+                index = pd.Index(
+                    [],
+                    name = 'VAX_LOT'))
+        batchcodeCompletion = BatchcodeCompletion(ADR_by_Batchcode)
+                        
+        # When
+        completedBatchcode = batchcodeCompletion.completeBatchcode('non existing batch code')
+
+        # Then
+        self.assertIsNone(completedBatchcode)
