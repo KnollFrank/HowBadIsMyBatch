@@ -10,7 +10,7 @@ class SmartRegexpFactory:
             flags=re.IGNORECASE)
 
     def getWords(self, searchTerm):
-        return re.split(r'\s+', searchTerm)
+        return [re.escape(word) for word in re.split(r'\s+', searchTerm)]
 
     def assertContainsWords(self, words):
         return ''.join([self.assertContainsWord(word) for word in words])

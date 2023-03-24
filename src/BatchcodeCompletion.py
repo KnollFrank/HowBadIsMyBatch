@@ -1,4 +1,5 @@
 from SmartRegexpFactory import SmartRegexpFactory
+import pandas as pd
 
 class BatchcodeCompletion:
     
@@ -6,6 +7,8 @@ class BatchcodeCompletion:
         self.ADR_by_Batchcode = ADR_by_Batchcode.sort_values(by = 'Adverse Reaction Reports', ascending = False)
 
     def completeBatchcode(self, partialBatchcode):
+        if pd.isna(partialBatchcode):
+            return None
         return self._getBatchcodeHavingMostADRs(self._filterBy(partialBatchcode))
     
     def _filterBy(self, partialBatchcode):

@@ -17,4 +17,4 @@ class SmartRegexpFactoryTest(unittest.TestCase):
         self.assertTrue(smartSearch(searchTerm = 'one two three', str = 'TESTone twoTEST TESTthreeTEST'))
         self.assertTrue(smartSearch(searchTerm = 'eins zwei drei', str = 'drei, EINS oder zwei?'))
         self.assertFalse(smartSearch(searchTerm = 'eins zwei drei', str = 'drei, ONE oder zwei?'))
-        
+        self.assertFalse(smartSearch(searchTerm = '(not set', str = 'drei, ONE oder zwei?'))
