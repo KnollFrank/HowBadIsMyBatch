@@ -2,7 +2,7 @@ import unittest
 from TestHelper import TestHelper
 from pandas.testing import assert_frame_equal
 import pandas as pd
-from src.CountriesColumnAdder import CountriesColumnAdder
+from CountriesColumnAdder import CountriesColumnAdder
 
 class CountriesColumnAdderTest(unittest.TestCase):
     
