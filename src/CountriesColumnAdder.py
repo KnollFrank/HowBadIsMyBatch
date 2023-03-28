@@ -1,7 +1,7 @@
 class CountriesColumnAdder:
 
-    def addCountriesColumn(self, countriesByBatchcodeTable):
-        countriesByBatchcodeTable['Countries'] = countriesByBatchcodeTable.apply(self._getCountriesHavingEvents, axis='columns')
+    def addCountriesColumn(self, countriesByBatchcodeTable, columnName):
+        countriesByBatchcodeTable[columnName] = countriesByBatchcodeTable.apply(self._getCountriesHavingEvents, axis='columns')
         return countriesByBatchcodeTable
 
     def _getCountriesHavingEvents(self, eventCountByCountry):

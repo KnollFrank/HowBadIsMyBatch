@@ -14,15 +14,16 @@ class CountriesColumnAdderTest(unittest.TestCase):
             index = pd.Index(
                     name = 'Batchcode',
                     data = ['FE6208']))
+        columnName = 'Countries guessed'
 
         # When
-        countriesByBatchcodeTableWithCountriesColumn = CountriesColumnAdder().addCountriesColumn(countriesByBatchcodeTable)
+        countriesByBatchcodeTableWithCountriesColumn = CountriesColumnAdder().addCountriesColumn(countriesByBatchcodeTable, columnName)
 
         # Then
         assert_frame_equal(
             countriesByBatchcodeTableWithCountriesColumn,
             TestHelper.createDataFrame(
-                columns = ['United States', 'Germany', 'Italy', 'Countries'],
+                columns = ['United States', 'Germany', 'Italy', columnName],
                 data = [  [20,              0,         3,       {'United States', 'Italy'}]],
                 index = pd.Index(
                         name = 'Batchcode',
