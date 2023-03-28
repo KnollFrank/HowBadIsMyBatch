@@ -117,6 +117,7 @@ class BatchCodeTableInitializer {
                 this.#columnSearch.columnContentUpdated();
                 this.#selectInput();
             });
+        GoogleAnalytics.countrySelected(this.#getCountry());
     }
 
     #_addEmptyControlColumn(json) {
