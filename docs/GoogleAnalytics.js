@@ -19,7 +19,8 @@ class GoogleAnalytics {
     }
 
     static countrySelected(country) {
-        gtag("event",
+        gtag(
+            "event",
             "select_item",
             {
                 item_list_id: "countrySelect",
