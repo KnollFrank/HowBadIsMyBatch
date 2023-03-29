@@ -24,11 +24,12 @@ class GoogleAnalytics {
             "select_item",
             {
                 item_list_id: "countrySelect",
-                items: [
-                    {
-                        item_id: country,
-                    }
-                ]
+                items:
+                    [
+                        {
+                            item_id: country,
+                        }
+                    ]
             });
     }
 }
