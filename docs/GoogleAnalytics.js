@@ -17,4 +17,19 @@ class GoogleAnalytics {
                 'search_term': search_term
             });
     }
+
+    static countrySelected(country) {
+        gtag(
+            "event",
+            "select_item",
+            {
+                item_list_id: "countrySelect",
+                items:
+                    [
+                        {
+                            item_id: country,
+                        }
+                    ]
+            });
+    }
 }
