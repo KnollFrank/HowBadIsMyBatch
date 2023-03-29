@@ -5,27 +5,24 @@ from CountriesColumnAdder import CountriesColumnAdder
 from BatchCodeTableFactory import BatchCodeTableFactory
 
 def getCountriesByCompletedBatchcode(internationalVaersCovid19):
-    batchCodeTable = BatchCodeTableFactory(internationalVaersCovid19).createGlobalBatchCodeTable()
-    country_By_Batchcode_Search_Term = _readExploration('data/Country By Batchcode Search Term.csv', indexName = 'Batchcode Search Term')
-    completedBatchcodeColumnAdder = CompletedBatchcodeColumnAdder(BatchcodeCompletion(ADR_by_Batchcode = batchCodeTable).completeBatchcode)
-    country_By_Batchcode_Search_Term = completedBatchcodeColumnAdder.addCompletedBatchcodeColumn(country_By_Batchcode_Search_Term)
+    result = _readExploration('data/Country By Batchcode Search Term.csv', indexName = 'Batchcode Search Term')
+    result = _addCompletedBatchcodeColumn(result, internationalVaersCovid19)
     columnName = 'Countries'
-    country_By_Batchcode_Search_Term = CountriesColumnAdder().addCountriesColumn(
-        country_By_Batchcode_Search_Term,
-        columnName = columnName)
-    country_By_Batchcode_Search_Term = country_By_Batchcode_Search_Term[[columnName]].droplevel('Batchcode Search Term')
-    return country_By_Batchcode_Search_Term
+    result = CountriesColumnAdder().addCountriesColumn(result, columnName = columnName)
+    return result[[columnName]].droplevel('Batchcode Search Term')
 
+def _addCompletedBatchcodeColumn(country_By_Batchcode_Search_Term, internationalVaersCovid19):
+    return CompletedBatchcodeColumnAdder(_getCompleteBatchcode(internationalVaersCovid19)).addCompletedBatchcodeColumn(country_By_Batchcode_Search_Term)
+
+def _getCompleteBatchcode(internationalVaersCovid19):
+    batchCodeTable = BatchCodeTableFactory(internationalVaersCovid19).createGlobalBatchCodeTable()
+    return BatchcodeCompletion(ADR_by_Batchcode = batchCodeTable).completeBatchcode
+     
 def getCountriesByClickedBatchcode():
-    country_By_Clicked_Batchcode = _readExploration(
-        'data/Country By Clicked Batchcode.csv',
-        indexName = 'Clicked Batchcode')
+    result = _readExploration('data/Country By Clicked Batchcode.csv', indexName = 'Clicked Batchcode')
     columnName = 'Countries'
-    country_By_Clicked_Batchcode = CountriesColumnAdder().addCountriesColumn(
-        country_By_Clicked_Batchcode,
-        columnName = columnName)
-    country_By_Clicked_Batchcode = country_By_Clicked_Batchcode[[columnName]]
-    return country_By_Clicked_Batchcode
+    result = CountriesColumnAdder().addCountriesColumn(result, columnName = columnName)
+    return result[[columnName]]
 
 def _readExploration(csvFile, indexName):
     exploration = pd.read_csv(csvFile, header=[0], index_col=0, skiprows=6, on_bad_lines='warn')
