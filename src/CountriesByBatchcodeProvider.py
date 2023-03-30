@@ -3,6 +3,7 @@ from CompletedBatchcodeColumnAdder import CompletedBatchcodeColumnAdder
 from BatchcodeCompletion import BatchcodeCompletion
 from CountriesColumnAdder import CountriesColumnAdder
 from BatchCodeTableFactory import BatchCodeTableFactory
+from InternationalVaersCovid19Provider import getInternationalVaersCovid19
 
 def getCountriesByCompletedBatchcode(internationalVaersCovid19):
     result = _readExploration('data/Country By Batchcode Search Term.csv', indexName = 'Batchcode Search Term')
@@ -32,3 +33,9 @@ def _readExploration(csvFile, indexName):
     for column in exploration.columns:
            exploration[column] = exploration[column].astype('int64')
     return exploration
+
+def getCountriesByBatchcodeBeforeDeletion():
+    internationalVaersCovid19 = getInternationalVaersCovid19(dataDir = 'VAERSBeforeDeletion', years = [2020, 2021, 2022])
+    batchCodeTable = BatchCodeTableFactory(internationalVaersCovid19).createGlobalBatchCodeTable()
+    countriesByBatchcodeBeforeDeletion = batchCodeTable[['Countries']]
+    return countriesByBatchcodeBeforeDeletion

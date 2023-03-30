@@ -1,0 +1,53 @@
+# ----------------------------------------
+# HowBadIsMyBatch
+# Batchcode By Country-Selected Country
+# 20230129-20230329
+# ----------------------------------------
+
+Country,United States,Germany,United Kingdom,Canada,Italy,Totals
+Item ID,Active users,Active users,Active users,Active users,Active users,Active users
+,156,138,46,40,27,581,Grand total
+Global,156,136,46,40,27,578
+Germany,0,37,0,0,0,40
+United States,33,1,0,1,0,35
+New Zealand,0,0,0,0,0,5
+Australia,0,0,0,0,0,4
+Canada,0,0,0,4,0,4
+Japan,0,0,0,0,0,4
+Switzerland,0,0,0,0,0,4
+Albania,0,3,0,0,0,3
+Unknown Country,0,0,3,0,0,3
+French Polynesia,0,0,0,0,0,2
+Guatemala,0,1,0,0,0,2
+Israel,0,0,0,0,0,2
+Peru,0,0,0,0,0,2
+Afghanistan,0,1,0,0,0,1
+Azerbaijan,0,1,0,0,0,1
+Bahrain,0,1,0,0,0,1
+Bangladesh,0,1,0,0,0,1
+Bermuda,0,1,0,0,0,1
+Brazil,0,1,0,0,0,1
+Brunei Darussalam,0,1,0,0,0,1
+Cayman Islands,0,0,0,1,0,1
+China,0,0,0,0,0,1
+Colombia,0,1,0,0,0,1
+Costa Rica,0,0,0,0,0,1
+Côte d'Ivoire,0,0,0,0,0,1
+Dominican Republic,0,0,0,0,0,1
+El Salvador,0,0,0,0,0,1
+Ghana,0,0,0,0,0,1
+Indonesia,0,0,0,0,0,1
+"Iran, Islamic Republic of",0,1,0,0,0,1
+Iraq,0,0,0,1,0,1
+Kuwait,0,0,0,0,0,1
+Macao,0,0,0,0,0,1
+Mauritius,0,0,0,0,0,1
+"Moldova, Republic of",1,0,0,0,0,1
+Nigeria,0,0,0,0,0,1
+Norway,0,0,0,0,0,1
+Paraguay,0,0,0,0,0,1
+South Africa,0,0,0,0,0,1
+Uruguay,1,0,0,0,0,1
+"Venezuela, Bolivarian Republic of",1,0,0,0,0,1
+Viet Nam,0,0,0,0,0,1
+
