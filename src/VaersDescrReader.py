@@ -19,9 +19,9 @@ class VaersDescrReader:
 
     def readNonDomesticVaersDescr(self):
         return {
-                    'VAERSDATA': self._readVAERSDATA(self.dataDir + "/NonDomesticVAERSDATA.csv"),
-                    'VAERSVAX': self._readVAERSVAX(self.dataDir + "/NonDomesticVAERSVAX.csv"),
-                    'VAERSSYMPTOMS': self._readVAERSSYMPTOMS(self.dataDir + "/NonDomesticVAERSSYMPTOMS.csv")
+                    'VAERSDATA': self._readVAERSDATA(self.dataDir + '/NonDomesticVAERSDATA.csv'),
+                    'VAERSVAX': self._readVAERSVAX(self.dataDir + '/NonDomesticVAERSVAX.csv'),
+                    'VAERSSYMPTOMS': self._readVAERSSYMPTOMS(self.dataDir + '/NonDomesticVAERSSYMPTOMS.csv')
                }
 
     def _readVAERSDATA(self, file):
@@ -29,7 +29,7 @@ class VaersDescrReader:
             file = file,
             usecols = ['VAERS_ID', 'RECVDATE', 'DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL', 'ER_VISIT', 'SPLTTYPE'],
             parse_dates = ['RECVDATE'],
-            date_parser = lambda dateStr: pd.to_datetime(dateStr, format = "%m/%d/%Y"))
+            date_parser = lambda dateStr: pd.to_datetime(dateStr, format = '%m/%d/%Y'))
         DataFrameNormalizer._convertColumnsOfDataFrame_Y_to_1_else_0(
             VAERSDATA,
             ['DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL', 'ER_VISIT'])
@@ -41,8 +41,8 @@ class VaersDescrReader:
             usecols = ['VAERS_ID', 'VAX_DOSE_SERIES', 'VAX_TYPE', 'VAX_MANU', 'VAX_LOT'],
             dtype =
                 {
-                    "VAX_DOSE_SERIES": "string",
-                    "VAX_LOT": "string"
+                    'VAX_DOSE_SERIES': 'string',
+                    'VAX_LOT': 'string'
                 })
         DataFrameNormalizer.removeUnknownBatchCodes(VAERSVAX)
         DataFrameNormalizer.convertVAX_LOTColumnToUpperCase(VAERSVAX)
