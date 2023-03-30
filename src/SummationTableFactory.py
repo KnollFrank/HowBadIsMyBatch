@@ -11,7 +11,7 @@ class SummationTableFactory:
                 'Life Threatening Illnesses': pd.NamedAgg(column = 'L_THREAT', aggfunc = 'sum'), 
                 'Disabilities':               pd.NamedAgg(column = 'DISABLE',  aggfunc = 'sum'),
                 'Severities':                 pd.NamedAgg(column = 'SEVERE',   aggfunc = 'sum'),
-                'Countries':                  pd.NamedAgg(column = 'COUNTRY',  aggfunc = SummationTableFactory.countries2str)
+                'Countries':                  pd.NamedAgg(column = 'COUNTRY',  aggfunc = SummationTableFactory.sortCountries)
             })
         summationTable['Severe reports'] = summationTable['Severities'] / summationTable['Adverse Reaction Reports'] * 100
         summationTable['Lethality'] = summationTable['Deaths'] / summationTable['Adverse Reaction Reports'] * 100
@@ -27,5 +27,5 @@ class SummationTableFactory:
             ]]
 
     @staticmethod
-    def countries2str(countries):
-        return  ', '.join(sorted(set(countries)))
+    def sortCountries(countries):
+        return sorted(set(countries))
