@@ -35,7 +35,6 @@ def _readExploration(csvFile, indexName):
     return exploration
 
 def getCountriesByBatchcodeBeforeDeletion():
-    internationalVaersCovid19 = getInternationalVaersCovid19(dataDir = 'VAERSBeforeDeletion', years = [2020, 2021, 2022])
+    internationalVaersCovid19 = getInternationalVaersCovid19(dataDir = 'VAERS/VAERSBeforeDeletion', years = [2020, 2021, 2022])
     batchCodeTable = BatchCodeTableFactory(internationalVaersCovid19).createGlobalBatchCodeTable()
-    countriesByBatchcodeBeforeDeletion = batchCodeTable[['Countries']]
-    return countriesByBatchcodeBeforeDeletion
+    return batchCodeTable[['Countries']]
