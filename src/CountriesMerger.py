@@ -8,6 +8,9 @@ class CountriesMerger:
         def merge(series):
             series = series.dropna()
             return sorted(set().union(*series))
-        return (pd
-                .merge(dst, src, how='left', left_index=True, right_index=True)
-                .apply(merge, axis='columns'))
+        
+        mergedSeries = (pd
+                        .merge(dst, src, how='left', left_index=True, right_index=True)
+                        .apply(merge, axis='columns'))
+        mergedSeries.name = dst.name
+        return mergedSeries
