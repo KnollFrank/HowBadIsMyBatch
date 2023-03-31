@@ -6,13 +6,13 @@ from pandas.testing import assert_series_equal
 
 class CountriesMergerTest(unittest.TestCase):
 
-    def test_mergeCountriesSerieses(self):
+    def test_mergeSrcIntoDst(self):
         # Given
-        countriesSeriesA = pd.Series({'NO72A': 'CountryA-1', 'EW096': 'CountryA-2'}, name='countriesSeriesA')
-        countriesSeriesB = pd.Series({'NO72A': 'CountryB-1', 'FS192': 'CountryB-2'}, name='countriesSeriesB')
+        dstCountries = pd.Series({'NO72A': {'CountryA-1'}, 'EW096': {'CountryA-2'}}, name='dstCountries')
+        srcCountries = pd.Series({'NO72A': 'CountryB-1',   'FS192': 'CountryB-2'}, name='srcCountries')
 
         # When
-        mergedCountries = CountriesMerger.mergeCountriesSerieses(countriesSeriesA, countriesSeriesB)
+        mergedCountries = CountriesMerger.mergeSrcIntoDst(src = srcCountries, dst = dstCountries)
 
         # Then
         assert_series_equal(
