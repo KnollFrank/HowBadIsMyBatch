@@ -1,5 +1,5 @@
 def getCountries(internationalVaersCovid19):
-    return sorted(internationalVaersCovid19['COUNTRY'].unique())
+    return sorted(internationalVaersCovid19['COUNTRY'].dropna().unique())
 
 
 def getCountryOptions(countries):

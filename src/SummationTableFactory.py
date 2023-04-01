@@ -28,4 +28,4 @@ class SummationTableFactory:
 
     @staticmethod
     def sortCountries(countries):
-        return sorted(set(countries))
+        return sorted(set(countries.dropna()))
