@@ -15,6 +15,7 @@ def createAndSaveBatchCodeTables(
         minADRsForLethality = minADRsForLethality,
         onCountryProcessed = onCountryProcessed)
     _createAndSaveBatchCodeTableForCountry(
+        # FK-TODO: createBatchCodeTableForCountry so definieren, dass createGlobalBatchCodeTable() sofort die gemergten Countries erzeugt
         createBatchCodeTableForCountry = lambda country: batchCodeTableFactory.createGlobalBatchCodeTable(),
         country = 'Global',
         minADRsForLethality = minADRsForLethality,
