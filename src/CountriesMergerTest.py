@@ -6,6 +6,7 @@ from pandas.testing import assert_series_equal
 
 class CountriesMergerTest(unittest.TestCase):
 
+    # FK-TODO: was passiert mit 'Unknown Country'? Hier aus dem Ergebnis entfernen oder schon im vorhinein gar nicht erst als String erzeugen
     def test_mergeSrcIntoDst(self):
         # Given
         dstCountries = pd.Series({'NO72A': ['CountryA-1'], 'EW096': ['CountryA-2']}, name='dstCountries')
