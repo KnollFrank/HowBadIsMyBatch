@@ -22,4 +22,3 @@ class BatchCodeTableHavingGuessedCountriesFactory:
         batchCodeTable['Countries'] = CountriesMerger.mergeSrcIntoDst(
             dst = batchCodeTable['Countries'],
             src = self.countriesByBatchcodeBeforeDeletion['Countries'])
-        BatchCodeTableFactory._convertCountries(batchCodeTable, countriesAsList)

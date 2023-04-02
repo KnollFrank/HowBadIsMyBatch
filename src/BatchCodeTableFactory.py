@@ -22,7 +22,6 @@ class BatchCodeTableFactory:
 
     def _postProcess(self, batchCodeTable, countriesAsList):
         batchCodeTable = self.companyColumnAdder.addCompanyColumn(batchCodeTable)
-        BatchCodeTableFactory._convertCountries(batchCodeTable, countriesAsList)
         batchCodeTable = batchCodeTable[
             [
                 'Adverse Reaction Reports',
@@ -30,16 +29,10 @@ class BatchCodeTableFactory:
                 'Disabilities',
                 'Life Threatening Illnesses',
                 'Company',
-                'Countries',
                 'Severe reports',
                 'Lethality'
             ]]
         return batchCodeTable.sort_values(by = 'Severe reports', ascending = False)
-
-    @staticmethod
-    def _convertCountries(batchCodeTable, countriesAsList):
-        if not countriesAsList:
-            batchCodeTable['Countries'] = batchCodeTable['Countries'].apply(', '.join)
 
     def _getBatchCodeTableByCountry(self, country):
         if country in self.countryBatchCodeTable.index:
