@@ -2,19 +2,8 @@ from IOUtils import IOUtils
 import numpy as np
 
 
-def createAndSaveBatchCodeTables(
-        minADRsForLethality,
-        batchCodeTableFactory,
-        onCountryProcessed = lambda country: None):
-    _createAndSaveBatchCodeTableForCountry(
-        createBatchCodeTableForCountry = lambda country: batchCodeTableFactory.createGlobalBatchCodeTable(),
-        country = 'Global',
-        minADRsForLethality = minADRsForLethality,
-        onCountryProcessed = onCountryProcessed)
-
-
-def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, country, minADRsForLethality, onCountryProcessed):
-    batchCodeTable = createBatchCodeTableForCountry(country)
+def createAndSaveGlobalBatchCodeTable(minADRsForLethality, batchCodeTableFactory):
+    batchCodeTable = batchCodeTableFactory.createGlobalBatchCodeTable()
     batchCodeTable.index.set_names("Batch", inplace=True)
     if minADRsForLethality is not None:
         batchCodeTable.loc[
@@ -33,7 +22,4 @@ def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, count
             'Severe reports',
             'Lethality'
         ]]
-    IOUtils.saveDataFrameAsJson(
-        batchCodeTable,
-        '../docs/data/batchCodeTables/' + country + '.json')
-    onCountryProcessed(country)
+    IOUtils.saveDataFrameAsJson(batchCodeTable, '../docs/data/batchCodeTables/Global.json')
