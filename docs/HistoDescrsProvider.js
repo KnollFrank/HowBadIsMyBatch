@@ -1,5 +1,6 @@
 class HistoDescrsProvider {
 
+    // FK-TODO: remove country
     static getHistoDescrs(country, batchcode) {
         return fetch(`data/histograms/${country}/${batchcode}.json`)
             .then(response => response.json())

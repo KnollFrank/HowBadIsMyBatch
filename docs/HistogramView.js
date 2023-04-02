@@ -6,6 +6,7 @@ class HistogramView {
         this.#uiContainer = uiContainer
     }
 
+    // FK-TODO: remove country
     displayHistogramView(country, batchcode) {
         this
             .#loadHistoDescrs(country, batchcode)

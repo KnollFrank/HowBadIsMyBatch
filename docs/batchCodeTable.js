@@ -1,28 +1,19 @@
 class BatchCodeTableInitializer {
 
-    #heading;
-    #countrySelect;
     #batchCodeTableElement;
     #batchCodeTable;
     #columnSearch;
 
-    constructor({ heading, countrySelect, batchCodeTableElement }) {
-        this.#heading = heading;
-        this.#countrySelect = countrySelect;
+    constructor(batchCodeTableElement) {
         this.#batchCodeTableElement = batchCodeTableElement;
     }
 
     initialize() {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
         this.#columnSearch = new ColumnSearch(this.#batchCodeTable.column(this.#getColumnIndex('Company')));
-        this.#countrySelect.addEventListener('change', event => this.#displayCountry());
-        this.#displayCountry();
+        this.#display();
         this.#initializeHistogramView();
         this.#trackSearchWithGoogleAnalytics();
-    }
-
-    #getCountry() {
-        return UIUtils.getSelectedOption(this.#countrySelect).value;
     }
 
     #createEmptyBatchCodeTable() {
@@ -58,14 +49,13 @@ class BatchCodeTableInitializer {
                                 this.#getColumnIndex('Deaths'),
                                 this.#getColumnIndex('Disabilities'),
                                 this.#getColumnIndex('Life Threatening Illnesses'),
-                                this.#getColumnIndex('Countries'),
                                 this.#getColumnIndex('Severe reports'),
                                 this.#getColumnIndex('Lethality')
                             ]
                         },
                         {
                             orderable: false,
-                            targets: [this.#getColumnIndex('Countries'), this.#getColumnIndex('Company')]
+                            targets: [this.#getColumnIndex('Company')]
                         },
                         {
                             render: (data, type, row) => {
@@ -94,19 +84,16 @@ class BatchCodeTableInitializer {
                 return 5;
             case 'Company':
                 return 6;
-            case 'Countries':
-                return 7;
             case 'Severe reports':
-                return 8;
+                return 7;
             case 'Lethality':
-                return 9;
+                return 8;
         }
     }
 
-    #displayCountry() {
-        this.#heading.textContent = this.#getCountry() == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${this.#getCountry()}`;
+    #display() {
         // FK-TODO: show "Loading.." message or spinning wheel.
-        fetch(`data/batchCodeTables/${this.#getCountry()}.json`)
+        fetch(`data/batchCodeTables/Global.json`)
             .then(response => response.json())
             .then(json => {
                 this.#_addEmptyControlColumn(json);
@@ -117,7 +104,6 @@ class BatchCodeTableInitializer {
                 this.#columnSearch.columnContentUpdated();
                 this.#selectInput();
             });
-        GoogleAnalytics.countrySelected(this.#getCountry());
     }
 
     #_addEmptyControlColumn(json) {
@@ -155,7 +141,7 @@ class BatchCodeTableInitializer {
                         row.child(uiContainer).show();
                         tr.addClass('shown');
                         const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
-                        new HistogramView(uiContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
+                        new HistogramView(uiContainer).displayHistogramView('Global', batchcode);
                         GoogleAnalytics.click_batchcode(batchcode);
                     }
                 });
