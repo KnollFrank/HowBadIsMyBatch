@@ -141,7 +141,7 @@ class BatchCodeTableInitializer {
                         row.child(uiContainer).show();
                         tr.addClass('shown');
                         const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
-                        new HistogramView(uiContainer).displayHistogramView('Global', batchcode);
+                        new HistogramView(uiContainer).displayHistogramView(batchcode);
                         GoogleAnalytics.click_batchcode(batchcode);
                     }
                 });

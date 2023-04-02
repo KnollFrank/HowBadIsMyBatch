@@ -6,18 +6,17 @@ class HistogramView {
         this.#uiContainer = uiContainer
     }
 
-    // FK-TODO: remove country
-    displayHistogramView(country, batchcode) {
+    displayHistogramView(batchcode) {
         this
-            .#loadHistoDescrs(country, batchcode)
+            .#loadHistoDescrs(batchcode)
             .then(histoDescrs => this.#displayHistogramViewForHistoDescrs(histoDescrs));
     }
 
-    #loadHistoDescrs(country, batchcode) {
+    #loadHistoDescrs(batchcode) {
         const loadingText = document.createTextNode('Loading...');
         this.#uiContainer.appendChild(loadingText);
         return HistoDescrsProvider
-            .getHistoDescrs(country, batchcode)
+            .getHistoDescrs(batchcode)
             .then(histoDescrs => {
                 loadingText.remove();
                 return histoDescrs;
