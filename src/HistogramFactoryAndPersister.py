@@ -6,10 +6,10 @@ from HistogramDescriptionTableFactory import HistogramDescriptionTableFactory
 
 def createAndSaveGlobalHistograms(symptomByBatchcodeTable):
     symptomByBatchcodeTable = symptomByBatchcodeTable.assign(COUNTRY = 'Global')
-    createAndSaveHistogramsForCountries(symptomByBatchcodeTable)
+    _createAndSaveHistogramsForCountries(symptomByBatchcodeTable)
 
 
-def createAndSaveHistogramsForCountries(symptomByBatchcodeTable):
+def _createAndSaveHistogramsForCountries(symptomByBatchcodeTable):
     dictByBatchcodeTable = createHistograms(symptomByBatchcodeTable)
     explodedTable = MultiIndexExploder.explodeMultiIndexOfTable(dictByBatchcodeTable)
     histogramDescriptionTable = HistogramDescriptionTableFactory.createHistogramDescriptionTable(explodedTable)

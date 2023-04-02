@@ -1,29 +1,13 @@
 from bs4 import BeautifulSoup
 from HtmlTransformerUtil import HtmlTransformerUtil
-from CountryOptionsSetter import CountryOptionsSetter
 from DateProvider import DateProvider
-from HtmlUtils import getCountryOptions, getCountries
 from DateProvider import DateProvider
 
 
-def updateBatchCodeTableHtmlFile(internationalVaersCovid19, batchCodeTableHtmlFile):
-    countryOptions = getCountryOptions(getCountries(internationalVaersCovid19))
-    _saveCountryOptions(countryOptions, batchCodeTableHtmlFile)
+def updateBatchCodeTableHtmlFile(batchCodeTableHtmlFile):
     _saveLastUpdatedBatchCodeTable(
         DateProvider().getLastUpdatedDataSource(),
         batchCodeTableHtmlFile)
-
-
-def _saveCountryOptions(countryOptions, batchCodeTableHtmlFile):
-    HtmlTransformerUtil().applySoupTransformerToFile(
-        file=batchCodeTableHtmlFile,
-        soupTransformer=lambda soup:
-            BeautifulSoup(
-                CountryOptionsSetter().setCountryOptions(
-                    html=str(soup),
-                    options=countryOptions),
-                'lxml'))
-
 
 def _saveLastUpdatedBatchCodeTable(lastUpdated, batchCodeTableHtmlFile):
     def setLastUpdated(soup):

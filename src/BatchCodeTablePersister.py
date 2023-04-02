@@ -1,18 +1,11 @@
 from IOUtils import IOUtils
 import numpy as np
-from HtmlUtils import getCountries
 
 
 def createAndSaveBatchCodeTables(
-        internationalVaersCovid19,
         minADRsForLethality,
         batchCodeTableFactory,
         onCountryProcessed = lambda country: None):
-    _createAndSaveBatchCodeTablesForCountries(
-        createBatchCodeTableForCountry = lambda country: batchCodeTableFactory.createBatchCodeTableByCountry(country),
-        countries = getCountries(internationalVaersCovid19),
-        minADRsForLethality = minADRsForLethality,
-        onCountryProcessed = onCountryProcessed)
     _createAndSaveBatchCodeTableForCountry(
         createBatchCodeTableForCountry = lambda country: batchCodeTableFactory.createGlobalBatchCodeTable(),
         country = 'Global',
@@ -37,7 +30,6 @@ def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, count
             'Disabilities',
             'Life Threatening Illnesses',
             'Company',
-            'Countries',
             'Severe reports',
             'Lethality'
         ]]
@@ -45,8 +37,3 @@ def _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, count
         batchCodeTable,
         '../docs/data/batchCodeTables/' + country + '.json')
     onCountryProcessed(country)
-
-
-def _createAndSaveBatchCodeTablesForCountries(createBatchCodeTableForCountry, countries, minADRsForLethality, onCountryProcessed):
-    for country in countries:
-        _createAndSaveBatchCodeTableForCountry(createBatchCodeTableForCountry, country, minADRsForLethality, onCountryProcessed)

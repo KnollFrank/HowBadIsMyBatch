@@ -14,13 +14,13 @@ class BatchCodeTableFactory:
                     dataFrame['VAX_LOT']
                 ]))
 
-    def createGlobalBatchCodeTable(self, countriesAsList = False):
-        return self._postProcess(SummationTableFactory.createSummationTable(self.dataFrame.groupby('VAX_LOT')), countriesAsList)
+    def createGlobalBatchCodeTable(self):
+        return self._postProcess(SummationTableFactory.createSummationTable(self.dataFrame.groupby('VAX_LOT')))
 
-    def createBatchCodeTableByCountry(self, country, countriesAsList = False):
-        return self._postProcess(self._getBatchCodeTableByCountry(country), countriesAsList)
+    def createBatchCodeTableByCountry(self, country):
+        return self._postProcess(self._getBatchCodeTableByCountry(country))
 
-    def _postProcess(self, batchCodeTable, countriesAsList):
+    def _postProcess(self, batchCodeTable):
         batchCodeTable = self.companyColumnAdder.addCompanyColumn(batchCodeTable)
         batchCodeTable = batchCodeTable[
             [

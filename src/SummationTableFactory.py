@@ -10,8 +10,7 @@ class SummationTableFactory:
                 'Adverse Reaction Reports':   pd.NamedAgg(column = 'DIED',     aggfunc = 'size'),
                 'Life Threatening Illnesses': pd.NamedAgg(column = 'L_THREAT', aggfunc = 'sum'), 
                 'Disabilities':               pd.NamedAgg(column = 'DISABLE',  aggfunc = 'sum'),
-                'Severities':                 pd.NamedAgg(column = 'SEVERE',   aggfunc = 'sum'),
-                'Countries':                  pd.NamedAgg(column = 'COUNTRY',  aggfunc = SummationTableFactory.sortCountries)
+                'Severities':                 pd.NamedAgg(column = 'SEVERE',   aggfunc = 'sum')
             })
         summationTable['Severe reports'] = summationTable['Severities'] / summationTable['Adverse Reaction Reports'] * 100
         summationTable['Lethality'] = summationTable['Deaths'] / summationTable['Adverse Reaction Reports'] * 100
@@ -22,10 +21,5 @@ class SummationTableFactory:
                 'Disabilities',
                 'Life Threatening Illnesses',
                 'Severe reports',
-                'Lethality',
-                'Countries'
+                'Lethality'
             ]]
-
-    @staticmethod
-    def sortCountries(countries):
-        return sorted(set(countries.dropna()))
