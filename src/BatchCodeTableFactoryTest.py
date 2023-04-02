@@ -66,7 +66,7 @@ class BatchCodeTableFactoryTest(unittest.TestCase):
             TestHelper.createDataFrame(
                 columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Company',         'Severe reports', 'Lethality'],
                 data = [  [1,                          1,        0,              0,                            'PFIZER\BIONTECH', 1/1 * 100,        1/1 * 100],
-                          [2,                          1,        2,              2,                            'MODERNA',         1/2 * 100],
+                          [2,                          1,        2,              2,                            'MODERNA',         2/2 * 100,        1/2 * 100],
                           [1,                          0,        0,              0,                            'MODERNA',         0/1 * 100,        0/1 * 100]],
                 index = pd.Index(
                     [
