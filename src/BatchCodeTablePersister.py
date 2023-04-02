@@ -1,5 +1,4 @@
 from IOUtils import IOUtils
-from BatchCodeTableFactory import BatchCodeTableFactory
 import numpy as np
 from HtmlUtils import getCountries
 
@@ -7,15 +6,14 @@ from HtmlUtils import getCountries
 def createAndSaveBatchCodeTables(
         internationalVaersCovid19,
         minADRsForLethality,
+        batchCodeTableFactory,
         onCountryProcessed = lambda country: None):
-    batchCodeTableFactory = BatchCodeTableFactory(internationalVaersCovid19)
     _createAndSaveBatchCodeTablesForCountries(
         createBatchCodeTableForCountry = lambda country: batchCodeTableFactory.createBatchCodeTableByCountry(country),
         countries = getCountries(internationalVaersCovid19),
         minADRsForLethality = minADRsForLethality,
         onCountryProcessed = onCountryProcessed)
     _createAndSaveBatchCodeTableForCountry(
-        # FK-TODO: createBatchCodeTableForCountry so definieren, dass createGlobalBatchCodeTable() sofort die gemergten Countries erzeugt
         createBatchCodeTableForCountry = lambda country: batchCodeTableFactory.createGlobalBatchCodeTable(),
         country = 'Global',
         minADRsForLethality = minADRsForLethality,
