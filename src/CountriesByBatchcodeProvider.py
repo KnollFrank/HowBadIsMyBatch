@@ -31,7 +31,7 @@ def _readExploration(csvFile, indexName):
     exploration.index.rename(indexName, inplace=True)
     exploration.drop(columns='Totals', inplace=True)
     for column in exploration.columns:
-           exploration[column] = exploration[column].astype('int64')
+        exploration[column] = exploration[column].astype('int64')
     return exploration
 
 def getCountriesByBatchcodeBeforeDeletion():
