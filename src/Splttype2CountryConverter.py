@@ -16,7 +16,7 @@ class Splttype2CountryConverter:
                     lambda splttype:
                         Splttype2CountryConverter._getCountryNameOfSplttypeOrDefault(
                             splttype = splttype,
-                            default = 'Unknown Country'))
+                            default = None))
                 .astype("string"))
 
     @staticmethod

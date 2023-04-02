@@ -5,11 +5,11 @@ from VaersDescrReader import VaersDescrReader
 from CountryColumnAdder import CountryColumnAdder
 
 
-def getInternationalVaersCovid19(years):
+def getInternationalVaersCovid19(dataDir, years):
     internationalVaers = pd.concat(
         [
-            VaersReader.getVaersForYears(years),
-            VaersReader.getNonDomesticVaers()
+            VaersReader.getVaersForYears(dataDir, years),
+            VaersReader.getNonDomesticVaers(dataDir)
         ])
     internationalVaersCovid19 = DataFrameFilter().filterByCovid19(internationalVaers)
     return internationalVaersCovid19

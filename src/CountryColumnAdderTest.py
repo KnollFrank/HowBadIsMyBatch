@@ -29,17 +29,17 @@ class CountryColumnAdderTest(unittest.TestCase):
         assert_frame_equal(
             dataFrameWithCountryColumn,
             TestHelper.createDataFrame(
-            columns = ['SPLTTYPE',                  'COUNTRY'],
-            data = [  ['GBPFIZER INC2020486806',    'United Kingdom'],
-                      ['FRMODERNATX, INC.MOD20224', 'France'],
-                      ['dummy',                     'Unknown Country']],
-            index = pd.Index(
-                    name = 'VAERS_ID',
-                    data = [
-                        "4711",
-                        "0815",
-                        "123"]),
-            dtypes = {'COUNTRY': 'string'}))
+                columns = ['SPLTTYPE',                  'COUNTRY'],
+                data = [  ['GBPFIZER INC2020486806',    'United Kingdom'],
+                          ['FRMODERNATX, INC.MOD20224', 'France'],
+                          ['dummy',                     None]],
+                index = pd.Index(
+                        name = 'VAERS_ID',
+                        data = [
+                            "4711",
+                            "0815",
+                            "123"]),
+                dtypes = {'COUNTRY': 'string'}))
 
 
     def test_addCountryColumn2(self):
@@ -75,14 +75,14 @@ class CountryColumnAdderTest(unittest.TestCase):
         assert_frame_equal(
             dataFrameWithCountryColumn,
             TestHelper.createDataFrame(
-            columns = ['VAX_LOT', 'COUNTRY'],
-            data = [  ['1808982', 'France'],
-                      ['EW0175',  'France'],
-                      ['EW0176',  'United Kingdom']],
-            index = pd.Index(
-                    name = 'VAERS_ID',
-                    data = [
-                        2547730,
-                        2547730,
-                        2547744]),
-            dtypes = {'COUNTRY': 'string'}))
+                columns = ['VAX_LOT', 'COUNTRY'],
+                data = [  ['1808982', 'France'],
+                          ['EW0175',  'France'],
+                          ['EW0176',  'United Kingdom']],
+                index = pd.Index(
+                        name = 'VAERS_ID',
+                        data = [
+                            2547730,
+                            2547730,
+                            2547744]),
+                dtypes = {'COUNTRY': 'string'}))

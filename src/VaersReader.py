@@ -3,22 +3,19 @@ from VaersDescrReader import VaersDescrReader
 from VaersDescr2DataFrameConverter import VaersDescr2DataFrameConverter
 from SevereColumnAdder import SevereColumnAdder
 
-def getVaersForYears(years):
+def getVaersForYears(dataDir, years):
     def addCountryColumn(dataFrame):
         dataFrame['COUNTRY'] = 'United States'
         return dataFrame
 
     return _getVaers(
-        _getVaersDescrReader().readVaersDescrsForYears(years),
+        VaersDescrReader(dataDir).readVaersDescrsForYears(years),
         addCountryColumn)
 
-def getNonDomesticVaers():
+def getNonDomesticVaers(dataDir):
     return _getVaers(
-        [_getVaersDescrReader().readNonDomesticVaersDescr()],
+        [VaersDescrReader(dataDir).readNonDomesticVaersDescr()],
         addCountryColumn = lambda dataFrame: CountryColumnAdder(dataFrame).addCountryColumn(dataFrame))
-
-def _getVaersDescrReader():
-    return VaersDescrReader(dataDir = "VAERS")
 
 def _getVaers(vaersDescrs, addCountryColumn):
     dataFrame = VaersDescr2DataFrameConverter.createDataFrameFromDescrs(vaersDescrs)
