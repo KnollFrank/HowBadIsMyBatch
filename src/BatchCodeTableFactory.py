@@ -29,10 +29,7 @@ class BatchCodeTableFactory:
 
     def _getBatchCodeTableByCountry(self, country):
         countryBatchCodeTable = self._getCountryBatchCodeTable()
-        if country in countryBatchCodeTable.index:
-            return countryBatchCodeTable.loc[country]
-        else:
-            return self._getEmptyBatchCodeTable(countryBatchCodeTable)
+        return countryBatchCodeTable.loc[country] if country in countryBatchCodeTable.index else self._getEmptyBatchCodeTable(countryBatchCodeTable)
 
     def _getCountryBatchCodeTable(self):
         return SummationTableFactory.createSummationTable(
