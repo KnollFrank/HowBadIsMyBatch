@@ -1,5 +1,5 @@
 import os
-import json
+import simplejson as json
 
 class IOUtils:
 
@@ -31,7 +31,7 @@ class IOUtils:
     def saveDictAsJson(dict, file):
         IOUtils.ensurePath(file)
         with open(file, 'w') as outfile:
-            json.dump(dict, outfile)
+            json.dump(dict, outfile, ignore_nan=True)
 
     @staticmethod
     def ensurePath(file):
