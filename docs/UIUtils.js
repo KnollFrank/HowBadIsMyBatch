@@ -8,6 +8,10 @@ class UIUtils {
         return UIUtils.instantiateTemplate('template-canvas');
     }
 
+    static clear(container) {
+        container.replaceChildren();
+    }
+
     static createChartViewElementWithHeading(heading) {
         const chartViewElement = UIUtils.instantiateTemplate('template-ChartView');
         chartViewElement.querySelector(".heading").textContent = heading;

@@ -3,6 +3,10 @@ def getBatchcodes(batchCodeTable):
 
 
 def getBatchcodeOptions(batchcodes):
+    return ['<option hidden disabled selected value>Select Batch</option>'] + _getBatchcodeOptions(batchcodes)
+
+
+def _getBatchcodeOptions(batchcodes):
     return [_getBatchcodeOption(batchcode) for batchcode in batchcodes]
 
 

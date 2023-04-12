@@ -16,7 +16,6 @@ class BatchCodeTableInitializer {
         this.#initializeBatchCodeSelect();
         this.#display();
         this.#initializeHistogramView();
-        this.#trackSearchWithGoogleAnalytics();
     }
 
     #createEmptyBatchCodeTable() {
@@ -105,7 +104,6 @@ class BatchCodeTableInitializer {
             .then(json => {
                 this.#setTableRows(json.data);
                 this.#columnSearch.columnContentUpdated();
-                this.#selectInput();
             });
     }
 
@@ -121,20 +119,16 @@ class BatchCodeTableInitializer {
             .draw();
     }
 
-    #selectInput() {
-        const input = document.querySelector(".dataTables_filter input");
-        input.focus();
-        input.select();
-    }
-
     #initializeBatchCodeSelect() {
-        this.#batchCodeSelect.select2({ minimumInputLength: 3 });
+        this.#batchCodeSelect.select2({ minimumInputLength: 4 });
         this.#batchCodeSelect.on(
             'select2:select',
-            function (e) {
-                var data = e.params.data;
-                console.log(data.id);
+            function (event) {
+                const batchcode = event.params.data.id;
+                new HistogramView(document.querySelector("#batchCodeDetails")).displayHistogramView(batchcode);
+                GoogleAnalytics.click_batchcode(batchcode);
             });
+        this.#batchCodeSelect.select2('open');
     }
 
     #initializeHistogramView() {
@@ -157,16 +151,6 @@ class BatchCodeTableInitializer {
                         new HistogramView(uiContainer).displayHistogramView(batchcode);
                         GoogleAnalytics.click_batchcode(batchcode);
                     }
-                });
-    }
-
-    #trackSearchWithGoogleAnalytics() {
-        const thisClassInstance = this;
-        $(`#${this.#batchCodeTableElement[0].id}`)
-            .on(
-                'search.dt',
-                function () {
-                    GoogleAnalytics.view_search_results(thisClassInstance.#batchCodeTable.search().toUpperCase());
                 });
     }
 }

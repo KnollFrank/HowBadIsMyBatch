@@ -6,6 +6,7 @@ class HistogramView {
         this.#uiContainer = uiContainer
     }
 
+    // FK-TODO: unbind all events here and in HistogramChartView
     displayHistogramView(batchcode) {
         this
             .#loadHistoDescrs(batchcode)
@@ -13,6 +14,7 @@ class HistogramView {
     }
 
     #loadHistoDescrs(batchcode) {
+        UIUtils.clear(this.#uiContainer);
         const loadingText = document.createTextNode('Loading...');
         this.#uiContainer.appendChild(loadingText);
         return HistoDescrsProvider
