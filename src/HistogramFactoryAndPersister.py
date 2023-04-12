@@ -10,7 +10,7 @@ def createAndSaveGlobalHistograms(symptomByBatchcodeTable, batchCodeTable):
     dictByBatchcodeTable = createHistograms(symptomByBatchcodeTable)
     explodedTable = MultiIndexExploder.explodeMultiIndexOfTable(dictByBatchcodeTable)
     histogramDescriptionTable = HistogramDescriptionTableFactory.createHistogramDescriptionTable(explodedTable)
-    histogramDescriptionTable = BatchCodeTableIntoHistogramDescriptionTableMerger.mergeBatchCodeTableIntoHistogramDescriptionTable(
+    histogramDescriptionTable = BatchCodeTableIntoHistogramDescriptionTableMerger().mergeBatchCodeTableIntoHistogramDescriptionTable(
         batchCodeTable = _rearrange(batchCodeTable),
         histogramDescriptionTable = histogramDescriptionTable)
     for country, histogramDescriptionTableForCountry in histogramDescriptionTable.groupby('COUNTRY'):

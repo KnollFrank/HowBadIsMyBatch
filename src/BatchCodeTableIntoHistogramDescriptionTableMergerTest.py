@@ -40,7 +40,7 @@ class BatchCodeTableIntoHistogramDescriptionTableMergerTest(unittest.TestCase):
                     data = ['1808982']))
 
         # When
-        mergedTable = BatchCodeTableIntoHistogramDescriptionTableMerger.mergeBatchCodeTableIntoHistogramDescriptionTable(batchCodeTable = batchCodeTable, histogramDescriptionTable = histogramDescriptionTable)
+        mergedTable = BatchCodeTableIntoHistogramDescriptionTableMerger().mergeBatchCodeTableIntoHistogramDescriptionTable(batchCodeTable = batchCodeTable, histogramDescriptionTable = histogramDescriptionTable)
 
         # Then
         assert_frame_equal(
