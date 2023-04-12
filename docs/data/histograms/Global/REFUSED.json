@@ -1,1 +1,1 @@
-{"batchcode": "REFUSED", "histograms": [{"histogram": {"Dizziness": 1, "Headache": 1, "Myalgia": 1, "Pain": 1}, "batchcodes": ["REFUSED"]}]}
+{"batchcode": "REFUSED", "histograms": [{"histogram": {"Dizziness": 1, "Headache": 1, "Myalgia": 1, "Pain": 1}, "batchcodes": ["REFUSED"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}

@@ -1,1 +1,1 @@
-{"batchcode": "D021M20A", "histograms": [{"histogram": {"Chest X-ray": 1, "Cough": 1, "Diarrhoea": 1, "Nausea": 1}, "batchcodes": ["D021M20A"]}]}
+{"batchcode": "D021M20A", "histograms": [{"histogram": {"Chest X-ray": 1, "Cough": 1, "Diarrhoea": 1, "Nausea": 1}, "batchcodes": ["D021M20A"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}

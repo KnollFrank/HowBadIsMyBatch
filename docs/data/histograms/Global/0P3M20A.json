@@ -1,1 +1,1 @@
-{"batchcode": "0P3M20A", "histograms": [{"histogram": {"Chest X-ray": 1, "Drainage": 1, "Lower respiratory tract infection": 1, "Productive cough": 1, "Pyrexia": 1}, "batchcodes": ["030L20A", "0P3M20A"]}]}
+{"batchcode": "0P3M20A", "histograms": [{"histogram": {"Chest X-ray": 1, "Drainage": 1, "Lower respiratory tract infection": 1, "Productive cough": 1, "Pyrexia": 1}, "batchcodes": ["030L20A", "0P3M20A"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
