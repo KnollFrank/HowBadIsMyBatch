@@ -1,1 +1,1 @@
-{"batchcode": "207865", "histograms": [{"histogram": {"Cough": 1, "Local reaction": 1}, "batchcodes": ["207865"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "207865", "histograms": [{"histogram": {"Cough": 1, "Local reaction": 1}, "batchcodes": ["207865"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}

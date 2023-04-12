@@ -1,1 +1,1 @@
-{"batchcode": "A(SOR5)7147B", "histograms": [{"histogram": {"Rash": 1}, "batchcodes": ["A(SOR5)7147B"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "A(SOR5)7147B", "histograms": [{"histogram": {"Rash": 1}, "batchcodes": ["A(SOR5)7147B"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

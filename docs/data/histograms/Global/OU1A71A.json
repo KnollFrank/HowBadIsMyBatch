@@ -1,1 +1,1 @@
-{"batchcode": "OU1A71A", "histograms": [{"histogram": {"Dizziness": 1, "Product label issue": 1}, "batchcodes": ["OU1A71A"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "OU1A71A", "histograms": [{"histogram": {"Dizziness": 1, "Product label issue": 1}, "batchcodes": ["OU1A71A"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

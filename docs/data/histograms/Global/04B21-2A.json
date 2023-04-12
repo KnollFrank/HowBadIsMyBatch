@@ -1,1 +1,1 @@
-{"batchcode": "04B21-2A", "histograms": [{"histogram": {"Nausea": 1, "Vertigo": 1, "Vomiting": 1}, "batchcodes": ["04B21-2A"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "04B21-2A", "histograms": [{"histogram": {"Nausea": 1, "Vertigo": 1, "Vomiting": 1}, "batchcodes": ["04B21-2A"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

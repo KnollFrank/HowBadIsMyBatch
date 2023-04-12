@@ -1,1 +1,1 @@
-{"batchcode": "FJ16B14", "histograms": [{"histogram": {"Unevaluable event": 1}, "batchcodes": ["EN0164", "FJ16B14"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null}
+{"batchcode": "FJ16B14", "histograms": [{"histogram": {"Unevaluable event": 1}, "batchcodes": ["EN0164", "FJ16B14"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

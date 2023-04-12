@@ -1,1 +1,1 @@
-{"batchcode": "XA426", "histograms": [{"histogram": {"Body temperature": 1, "Pyrexia": 1}, "batchcodes": ["XA426"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "XA426", "histograms": [{"histogram": {"Body temperature": 1, "Pyrexia": 1}, "batchcodes": ["XA426"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}

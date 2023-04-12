@@ -1,1 +1,1 @@
-{"batchcode": "XE041", "histograms": [{"histogram": {"Abscess": 1}, "batchcodes": ["XE041"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "XE041", "histograms": [{"histogram": {"Abscess": 1}, "batchcodes": ["XE041"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

@@ -1,1 +1,1 @@
-{"batchcode": "BSCR118", "histograms": [{"histogram": {"Acute myocardial infarction": 1}, "batchcodes": ["BSCR118"]}], "Adverse Reaction Reports": 1, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null}
+{"batchcode": "BSCR118", "histograms": [{"histogram": {"Acute myocardial infarction": 1}, "batchcodes": ["BSCR118"]}], "Deaths": 1, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Severe reports": null}

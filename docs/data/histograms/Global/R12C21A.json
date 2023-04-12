@@ -1,1 +1,1 @@
-{"batchcode": "R12C21A", "histograms": [{"histogram": {"Asthenia": 1, "Headache": 1, "Pyrexia": 1}, "batchcodes": ["R12C21A"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "R12C21A", "histograms": [{"histogram": {"Asthenia": 1, "Headache": 1, "Pyrexia": 1}, "batchcodes": ["R12C21A"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}

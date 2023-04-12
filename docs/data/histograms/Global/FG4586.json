@@ -1,1 +1,1 @@
-{"batchcode": "FG4586", "histograms": [{"histogram": {"Swelling face": 1, "Urticaria": 1}, "batchcodes": ["FG4586"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null}
+{"batchcode": "FG4586", "histograms": [{"histogram": {"Swelling face": 1, "Urticaria": 1}, "batchcodes": ["FG4586"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Severe reports": null}

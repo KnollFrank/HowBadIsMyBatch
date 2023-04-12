@@ -1,1 +1,1 @@
-{"batchcode": "EW01741", "histograms": [{"histogram": {"Cardiac arrest": 1, "Death": 1}, "batchcodes": ["EW01741"]}], "Adverse Reaction Reports": 1, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null}
+{"batchcode": "EW01741", "histograms": [{"histogram": {"Cardiac arrest": 1, "Death": 1}, "batchcodes": ["EW01741"]}], "Deaths": 1, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

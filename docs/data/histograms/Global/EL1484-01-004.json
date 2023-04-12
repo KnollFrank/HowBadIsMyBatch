@@ -1,1 +1,1 @@
-{"batchcode": "EL1484-01-004", "histograms": [{"histogram": {"Pancreatitis": 1}, "batchcodes": ["EL1484-01-004"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null}
+{"batchcode": "EL1484-01-004", "histograms": [{"histogram": {"Pancreatitis": 1}, "batchcodes": ["EL1484-01-004"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

@@ -1,1 +1,1 @@
-{"batchcode": "41030", "histograms": [{"histogram": {"Metastases to liver": 1, "Scan": 1}, "batchcodes": ["41030"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null}
+{"batchcode": "41030", "histograms": [{"histogram": {"Metastases to liver": 1, "Scan": 1}, "batchcodes": ["41030"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Severe reports": null}

@@ -1,1 +1,1 @@
-{"batchcode": "SP2110-CDC", "histograms": [{"histogram": {"Tachypnoea": 1}, "batchcodes": ["SP2110-CDC"]}], "Adverse Reaction Reports": 1, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "SP2110-CDC", "histograms": [{"histogram": {"Tachypnoea": 1}, "batchcodes": ["SP2110-CDC"]}], "Deaths": 1, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

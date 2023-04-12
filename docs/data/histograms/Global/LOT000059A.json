@@ -1,1 +1,1 @@
-{"batchcode": "LOT000059A", "histograms": [{"histogram": {"Dermatitis": 1, "Psoriasis": 1}, "batchcodes": ["LOT000059A"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "LOT000059A", "histograms": [{"histogram": {"Dermatitis": 1, "Psoriasis": 1}, "batchcodes": ["LOT000059A"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

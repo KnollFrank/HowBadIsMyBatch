@@ -1,1 +1,1 @@
-{"batchcode": "92990U", "histograms": [{"histogram": {"Dyspnoea": 1, "Illness": 1, "Myocarditis": 1}, "batchcodes": ["92990U"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "92990U", "histograms": [{"histogram": {"Dyspnoea": 1, "Illness": 1, "Myocarditis": 1}, "batchcodes": ["92990U"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

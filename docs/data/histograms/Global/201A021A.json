@@ -1,1 +1,1 @@
-{"batchcode": "201A021A", "histograms": [{"histogram": {"Death": 1}, "batchcodes": ["201A021A"]}], "Adverse Reaction Reports": 1, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "201A021A", "histograms": [{"histogram": {"Death": 1}, "batchcodes": ["201A021A"]}], "Deaths": 1, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

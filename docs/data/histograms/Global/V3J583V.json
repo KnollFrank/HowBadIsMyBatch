@@ -1,1 +1,1 @@
-{"batchcode": "V3J583V", "histograms": [{"histogram": {"Haemorrhage": 1, "Thrombocytopenia": 1}, "batchcodes": ["V3J583V"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "V3J583V", "histograms": [{"histogram": {"Haemorrhage": 1, "Thrombocytopenia": 1}, "batchcodes": ["V3J583V"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

@@ -1,1 +1,1 @@
-{"batchcode": "082F21-CDC", "histograms": [{"histogram": {"Cerebral haemorrhage": 1}, "batchcodes": ["082F21-CDC"]}], "Adverse Reaction Reports": 1, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "082F21-CDC", "histograms": [{"histogram": {"Cerebral haemorrhage": 1}, "batchcodes": ["082F21-CDC"]}], "Deaths": 1, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

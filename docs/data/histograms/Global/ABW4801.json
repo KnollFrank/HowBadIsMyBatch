@@ -1,1 +1,1 @@
-{"batchcode": "ABW4801", "histograms": [{"histogram": {"Rash": 1}, "batchcodes": ["ABW4801"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "ABW4801", "histograms": [{"histogram": {"Rash": 1}, "batchcodes": ["ABW4801"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}

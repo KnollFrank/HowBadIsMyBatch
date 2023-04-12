@@ -1,1 +1,1 @@
-{"batchcode": "042A21AS", "histograms": [{"histogram": {"Cough": 1, "Myalgia": 1}, "batchcodes": ["042A21AS"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "042A21AS", "histograms": [{"histogram": {"Cough": 1, "Myalgia": 1}, "batchcodes": ["042A21AS"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

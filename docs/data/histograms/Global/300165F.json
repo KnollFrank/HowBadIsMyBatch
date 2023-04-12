@@ -1,1 +1,1 @@
-{"batchcode": "300165F", "histograms": [{"histogram": {"Malaise": 1, "Nasopharyngitis": 1}, "batchcodes": ["300165F"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "300165F", "histograms": [{"histogram": {"Malaise": 1, "Nasopharyngitis": 1}, "batchcodes": ["300165F"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}

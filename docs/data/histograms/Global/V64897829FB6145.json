@@ -1,1 +1,1 @@
-{"batchcode": "V64897829FB6145", "histograms": [{"histogram": {"Malaise": 1}, "batchcodes": ["V64897829FB6145"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "V64897829FB6145", "histograms": [{"histogram": {"Malaise": 1}, "batchcodes": ["V64897829FB6145"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}

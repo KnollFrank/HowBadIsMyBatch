@@ -1,1 +1,1 @@
-{"batchcode": "C52C21A", "histograms": [{"histogram": {"Hypersensitivity": 1, "Wheelchair user": 1}, "batchcodes": ["C52C21A"]}], "Adverse Reaction Reports": 1, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "C52C21A", "histograms": [{"histogram": {"Hypersensitivity": 1, "Wheelchair user": 1}, "batchcodes": ["C52C21A"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}

@@ -1,1 +1,1 @@
-{"batchcode": "23K21A", "histograms": [{"histogram": {"Diarrhoea": 2, "Vomiting": 2}, "batchcodes": ["002K21A", "23K21A"]}], "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null}
+{"batchcode": "23K21A", "histograms": [{"histogram": {"Diarrhoea": 2, "Vomiting": 2}, "batchcodes": ["002K21A", "23K21A"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}

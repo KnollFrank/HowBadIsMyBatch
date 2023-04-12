@@ -1,1 +1,1 @@
-{"batchcode": "DH9715", "histograms": [{"histogram": {"Seizure": 1, "Sudden death": 1}, "batchcodes": ["DH9715"]}], "Adverse Reaction Reports": 1, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null}
+{"batchcode": "DH9715", "histograms": [{"histogram": {"Seizure": 1, "Sudden death": 1}, "batchcodes": ["DH9715"]}], "Deaths": 1, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Severe reports": null}

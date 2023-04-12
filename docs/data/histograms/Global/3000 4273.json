@@ -1,1 +1,1 @@
-{"batchcode": "3000 4273", "histograms": [{"histogram": {"Blood creatinine": 1, "Death": 1}, "batchcodes": ["3000 4273"]}], "Adverse Reaction Reports": 1, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null}
+{"batchcode": "3000 4273", "histograms": [{"histogram": {"Blood creatinine": 1, "Death": 1}, "batchcodes": ["3000 4273"]}], "Deaths": 1, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
