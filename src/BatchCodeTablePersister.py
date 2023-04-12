@@ -23,3 +23,4 @@ def createAndSaveGlobalBatchCodeTable(minADRsForLethality, batchCodeTableFactory
             'Lethality'
         ]]
     IOUtils.saveDataFrameAsJson(batchCodeTable, '../docs/data/batchCodeTables/Global.json')
+    return batchCodeTable

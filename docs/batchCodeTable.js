@@ -2,15 +2,18 @@ class BatchCodeTableInitializer {
 
     #batchCodeTableElement;
     #batchCodeTable;
+    #batchCodeSelect;
     #columnSearch;
 
-    constructor(batchCodeTableElement) {
+    constructor({ batchCodeTableElement, batchCodeSelect }) {
         this.#batchCodeTableElement = batchCodeTableElement;
+        this.#batchCodeSelect = batchCodeSelect;
     }
 
     initialize() {
         this.#batchCodeTable = this.#createEmptyBatchCodeTable();
         this.#columnSearch = new ColumnSearch(this.#batchCodeTable.column(this.#getColumnIndex('Company')));
+        this.#initializeBatchCodeSelect();
         this.#display();
         this.#initializeHistogramView();
         this.#trackSearchWithGoogleAnalytics();
@@ -122,6 +125,16 @@ class BatchCodeTableInitializer {
         const input = document.querySelector(".dataTables_filter input");
         input.focus();
         input.select();
+    }
+
+    #initializeBatchCodeSelect() {
+        this.#batchCodeSelect.select2({ minimumInputLength: 3 });
+        this.#batchCodeSelect.on(
+            'select2:select',
+            function (e) {
+                var data = e.params.data;
+                console.log(data.id);
+            });
     }
 
     #initializeHistogramView() {
