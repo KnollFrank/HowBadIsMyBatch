@@ -30,6 +30,7 @@ class HistogramView {
         this.#displayData(histoDescrs);
         const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
         const histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
+        this.#displayAdverseReactionReportsChart(histoDescrs);
         this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
         this.#uiContainer.appendChild(chartWithSlider);
         this.#displayHistogram(histoDescrs.histograms[0], histogramChartView, chartWithSlider);
@@ -39,6 +40,19 @@ class HistogramView {
         const h1 = document.createElement("h3");
         h1.appendChild(document.createTextNode(`Frequencies of reported Symptoms for Batch Code Combinations containing ${batchcode}`));
         this.#uiContainer.appendChild(h1);
+    }
+
+    #displayAdverseReactionReportsChart(histoDescrs) {
+        const canvas = UIUtils.instantiateTemplate('template-canvas');
+        this.#uiContainer.appendChild(canvas);
+        const adverseReactionReportsChartView = new AdverseReactionReportsChartView(canvas);
+        adverseReactionReportsChartView.displayChart(
+            {
+                'Adverse Reaction Reports': histoDescrs['Adverse Reaction Reports'],
+                'Deaths': histoDescrs['Deaths'],
+                'Disabilities': histoDescrs['Disabilities'],
+                'Life Threatening Illnesses': histoDescrs['Life Threatening Illnesses']
+            });
     }
 
     #displayData(histoDescrs) {

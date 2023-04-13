@@ -1,0 +1,65 @@
+class AdverseReactionReportsChartView {
+
+    #canvas;
+    #chart;
+
+    constructor(canvas) {
+        this.#canvas = canvas;
+    }
+
+    displayChart(ADRDescr) {
+        if (this.#chart != null) {
+            this.#chart.destroy();
+        }
+        this.#chart = new Chart(
+            this.#canvas,
+            {
+                type: 'doughnut',
+                data: this.#getData(ADRDescr),
+                options: this.#getOptions()
+            });
+    }
+
+    setData(histoDescr) {
+        const data = this.#getData(histoDescr);
+        this.#chart.config.data = data;
+        this.#chart.update();
+    }
+
+    #getData(ADRDescr) {
+        return {
+            labels: [
+                'Deaths',
+                'Disabilities',
+                'Life Threatening Illnesses',
+                'Other Adverse Reaction Reports'
+            ],
+            datasets: [{
+                // FK-TODO: refactor
+                data: [
+                    ADRDescr['Deaths'],
+                    ADRDescr['Disabilities'],
+                    ADRDescr['Life Threatening Illnesses'],
+                    ADRDescr['Adverse Reaction Reports'] - (ADRDescr['Deaths'] + ADRDescr['Disabilities'] + ADRDescr['Life Threatening Illnesses'])
+                ],
+                backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)',
+                    'grey'
+                ],
+                hoverOffset: 4
+            }]
+        };
+    }
+
+    #getOptions() {
+        return {
+            title: {
+                display: true,
+                text: 'Adverse Reaction Report for Batch FE6208',
+                position: 'top'
+            }
+        };
+    }
+}
