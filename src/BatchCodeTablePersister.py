@@ -1,8 +1,6 @@
-from IOUtils import IOUtils
 import numpy as np
 
-
-def createAndSaveGlobalBatchCodeTable(minADRsForLethality, batchCodeTableFactory):
+def createGlobalBatchCodeTable(minADRsForLethality, batchCodeTableFactory):
     batchCodeTable = batchCodeTableFactory.createGlobalBatchCodeTable()
     batchCodeTable.index.set_names("Batch", inplace=True)
     if minADRsForLethality is not None:
@@ -22,6 +20,4 @@ def createAndSaveGlobalBatchCodeTable(minADRsForLethality, batchCodeTableFactory
             'Severe reports',
             'Lethality'
         ]]
-    # FK-TODO: remove Global.json
-    IOUtils.saveDataFrameAsJson(batchCodeTable, '../docs/data/batchCodeTables/Global.json')
     return batchCodeTable
