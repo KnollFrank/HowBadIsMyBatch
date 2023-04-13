@@ -22,5 +22,6 @@ def createAndSaveGlobalBatchCodeTable(minADRsForLethality, batchCodeTableFactory
             'Severe reports',
             'Lethality'
         ]]
+    # FK-TODO: remove Global.json
     IOUtils.saveDataFrameAsJson(batchCodeTable, '../docs/data/batchCodeTables/Global.json')
     return batchCodeTable

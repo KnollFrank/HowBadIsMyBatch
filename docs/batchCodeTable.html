@@ -15,7 +15,6 @@
 
     gtag('config', 'G-ERHYDH4P64');
   </script> -->
-  <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
   <link href="batchCodeTable.css" rel="stylesheet" type="text/css" />
   <link href="forkMeOnGitHub.css" rel="stylesheet" type="text/css" />
   <script crossorigin="anonymous"
@@ -28,27 +27,23 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-  <script charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"
-    type="text/javascript"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.0/dist/chart.umd.min.js"></script>
   <script src="./Utils.js"></script>
   <script src="./UIUtils.js"></script>
-  <script src="./ColumnSearch.js"></script>
   <script src="./GoogleAnalytics.js"></script>
-  <script src="./batchCodeTable.js"></script>
+  <script src="./BatchCodeSelectInitializer.js"></script>
   <script src="./HistoDescrsProvider.js"></script>
   <script src="./HistogramChartView.js"></script>
   <script src="./BatchcodeCombinationSelection.js"></script>
   <script src="./HistogramView.js"></script>
   <script>
     $(document).ready(function () {
-      const batchCodeTableInitializer =
-        new BatchCodeTableInitializer(
-          {
-            batchCodeTableElement: $('#batchCodeTable'),
-            batchCodeSelect: $('#batchCodeSelect')
-          });
-      batchCodeTableInitializer.initialize();
+      BatchCodeSelectInitializer.initialize(
+        {
+          batchCodeSelect: $('#batchCodeSelect'),
+          batchCodeDetails: document.querySelector("#batchCodeDetails")
+        }
+      );
     });
   </script>
 </head>
@@ -49767,21 +49762,6 @@
     </select>
   </p>
   <div id="batchCodeDetails"></div>
-  <table class="display" id="batchCodeTable">
-    <thead>
-      <tr>
-        <th></th>
-        <th>Batch</th>
-        <th>Adverse Reaction Reports</th>
-        <th>Deaths</th>
-        <th>Disabilities</th>
-        <th>Life Threatening Illnesses</th>
-        <th>Company</th>
-        <th>Severe reports</th>
-        <th>Lethality</th>
-      </tr>
-    </thead>
-  </table>
   <p><b>Data Source:</b>
     <a href="https://vaers.hhs.gov/data/datasets.html" target="_blank">Vaccine Adverse Event Reporting System
       (VAERS)</a>
