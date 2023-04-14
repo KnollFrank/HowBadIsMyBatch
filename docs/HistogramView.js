@@ -1,3 +1,4 @@
+// FK-TODO: rename to BatchCodeDetailsView
 class HistogramView {
 
     #uiContainer;

@@ -41,8 +41,8 @@
     $(document).ready(function () {
       BatchCodeSelectInitializer.initialize(
         {
-          batchCodeSelect: $('#batchCodeSelect'),
-          batchCodeDetails: document.querySelector("#batchCodeDetails")
+          batchCodeSelectElement: $('#batchCodeSelect'),
+          batchCodeDetailsElement: document.querySelector("#batchCodeDetails")
         }
       );
     });
@@ -49762,7 +49762,7 @@
       <option value="Ø94F21A">Ø94F21A</option>
     </select>
   </p>
-  <div id="batchCodeDetails"></div>
+  <div id="batchCodeDetails" style="width: 50%"></div>
   <p><b>Data Source:</b>
     <a href="https://vaers.hhs.gov/data/datasets.html" target="_blank">Vaccine Adverse Event Reporting System
       (VAERS)</a>
