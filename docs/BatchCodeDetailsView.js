@@ -1,5 +1,4 @@
-// FK-TODO: rename to BatchCodeDetailsView
-class HistogramView {
+class BatchCodeDetailsView {
 
     #uiContainer;
 
@@ -8,7 +7,7 @@ class HistogramView {
     }
 
     // FK-TODO: unbind all events here and in HistogramChartView
-    displayHistogramView(batchcode) {
+    displayBatchCodeDetails(batchcode) {
         this
             .#loadHistoDescrs(batchcode)
             .then(histoDescrs => this.#displayHistogramViewForHistoDescrs(histoDescrs));

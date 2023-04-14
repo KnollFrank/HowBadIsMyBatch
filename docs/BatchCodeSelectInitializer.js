@@ -6,7 +6,7 @@ class BatchCodeSelectInitializer {
             'select2:select',
             function (event) {
                 const batchcode = event.params.data.id;
-                new HistogramView(batchCodeDetailsElement).displayHistogramView(batchcode);
+                new BatchCodeDetailsView(batchCodeDetailsElement).displayBatchCodeDetails(batchcode);
                 GoogleAnalytics.click_batchcode(batchcode);
             });
         batchCodeSelectElement.select2('open');
