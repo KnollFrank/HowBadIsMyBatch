@@ -1,12 +1,14 @@
 class BatchCodeDetailsView {
 
     #uiContainer;
+    #headingElement;
     #adverseReactionReportsChartView;
     #histogramChartView;
     #chartWithSlider;
 
     constructor(uiContainer) {
         this.#uiContainer = uiContainer
+        this.#headingElement = this.#uiContainer.querySelector(".heading");
         this.#adverseReactionReportsChartView = new AdverseReactionReportsChartView(this.#uiContainer.querySelector('#adverseReactionReportsChartView'));
         this.#chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
         this.#histogramChartView = new HistogramChartView(this.#chartWithSlider.querySelector("canvas"));
@@ -39,9 +41,7 @@ class BatchCodeDetailsView {
     }
 
     #displayHeading(batchcode) {
-        const h1 = document.createElement("h3");
-        h1.appendChild(document.createTextNode(`Frequencies of reported Symptoms for Batch Code Combinations containing ${batchcode}`));
-        this.#uiContainer.appendChild(h1);
+        this.#headingElement.textContent = `Frequencies of reported Symptoms for Batch Code Combinations containing ${batchcode}`
     }
 
     #displayAdverseReactionReportsChart(histoDescrs) {
