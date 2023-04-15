@@ -3,12 +3,13 @@ class BatchCodeDetailsView {
     #uiContainer;
     #adverseReactionReportsChartView;
     #histogramChartView;
+    #chartWithSlider;
 
     constructor(uiContainer) {
         this.#uiContainer = uiContainer
         this.#adverseReactionReportsChartView = new AdverseReactionReportsChartView(this.#uiContainer.querySelector('#adverseReactionReportsChartView'));
-        const chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
-        this.#histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
+        this.#chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
+        this.#histogramChartView = new HistogramChartView(this.#chartWithSlider.querySelector("canvas"));
     }
 
     // FK-TODO: unbind all events here and in HistogramChartView
@@ -32,10 +33,9 @@ class BatchCodeDetailsView {
     #displayHistogramViewForHistoDescrs(histoDescrs) {
         this.#displayHeading(histoDescrs.batchcode);
         this.#displayData(histoDescrs);
-        const chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
         this.#displayAdverseReactionReportsChart(histoDescrs);
-        this.#displaySelectBatchcodeCombination(histoDescrs.histograms, this.#histogramChartView, chartWithSlider);
-        this.#displayHistogram(histoDescrs.histograms[0], this.#histogramChartView, chartWithSlider);
+        this.#displaySelectBatchcodeCombination(histoDescrs.histograms);
+        this.#displayHistogram(histoDescrs.histograms[0]);
     }
 
     #displayHeading(batchcode) {
@@ -66,28 +66,28 @@ class BatchCodeDetailsView {
         this.#uiContainer.appendChild(p);
     }
 
-    #displaySelectBatchcodeCombination(histograms, histogramChartView, chartWithSlider) {
+    #displaySelectBatchcodeCombination(histograms) {
         const selectBatchcodeCombinationElement = this.#uiContainer.querySelector("#selectBatchcodeCombination");
         BatchcodeCombinationSelection.configureSelectBatchcodeCombinationElement(
             {
                 selectBatchcodeCombinationElement: selectBatchcodeCombinationElement,
                 histograms: histograms,
-                onSelect: histoDescr => this.#displayHistogram(histoDescr, histogramChartView, chartWithSlider)
+                onSelect: histoDescr => this.#displayHistogram(histoDescr)
             });
     }
 
-    #displayHistogram(histoDescr, histogramChartView, chartWithSlider) {
-        histogramChartView.displayChart(histoDescr);
+    #displayHistogram(histoDescr) {
+        this.#histogramChartView.displayChart(histoDescr);
         this.#createSlider(
             {
-                sliderElement: chartWithSlider.querySelector(".slider"),
+                sliderElement: this.#chartWithSlider.querySelector(".slider"),
                 range: {
                     min: 0,
                     max: Object.keys(histoDescr.histogram).length
                 },
                 orientation: 'vertical',
-                height: chartWithSlider.querySelector("canvas").style.height,
-                onUpdate: range => histogramChartView.setData(this.#slice(histoDescr, range))
+                height: this.#chartWithSlider.querySelector("canvas").style.height,
+                onUpdate: range => this.#histogramChartView.setData(this.#slice(histoDescr, range))
             });
     }
 

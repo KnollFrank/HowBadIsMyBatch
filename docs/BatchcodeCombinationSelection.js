@@ -9,6 +9,7 @@ class BatchcodeCombinationSelection {
                 const histoDescr = histograms[event.target.value];
                 onSelect(histoDescr);
             });
+            onSelect(histograms[0]);
     }
 
     static #addBatchcodeCombinationOptions(batchcodesSelect, histograms) {
