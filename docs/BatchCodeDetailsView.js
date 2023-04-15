@@ -16,7 +16,6 @@ class BatchCodeDetailsView {
         this.#histogramChartView = new HistogramChartView(this.#chartWithSlider.querySelector("canvas"));
     }
 
-    // FK-TODO: unbind all events here and in HistogramChartView
     displayBatchCodeDetails(batchcode) {
         this
             .#loadHistoDescrs(batchcode)
