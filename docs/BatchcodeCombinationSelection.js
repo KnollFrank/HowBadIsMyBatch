@@ -1,8 +1,8 @@
 class BatchcodeCombinationSelection {
 
-    static configureSelectBatchcodeCombinationElement({ batchcodesSelectElement, histograms, onSelect }) {
-        this.#setBatchcodeCombinationOptions(batchcodesSelectElement.element, histograms);
-        batchcodesSelectElement.setSingleChangeEventListener(
+    static configureSelectBatchcodeCombinationElement({ batchCodesSelectElement, histograms, onSelect }) {
+        this.#setBatchcodeCombinationOptions(batchCodesSelectElement.element, histograms);
+        batchCodesSelectElement.setSingleChangeEventListener(
             event => {
                 const histoDescr = histograms[event.target.value];
                 onSelect(histoDescr);
@@ -10,9 +10,9 @@ class BatchcodeCombinationSelection {
         onSelect(histograms[0]);
     }
 
-    static #setBatchcodeCombinationOptions(batchcodesSelectElement, histograms) {
-        UIUtils.clear(batchcodesSelectElement);
-        this.#getBatchcodeCombinationOptions(histograms).forEach(option => batchcodesSelectElement.add(option));
+    static #setBatchcodeCombinationOptions(batchCodesSelectElement, histograms) {
+        UIUtils.clear(batchCodesSelectElement);
+        this.#getBatchcodeCombinationOptions(histograms).forEach(option => batchCodesSelectElement.add(option));
     }
 
     static #getBatchcodeCombinationOptions(histograms) {
