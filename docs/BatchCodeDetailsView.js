@@ -1,9 +1,14 @@
 class BatchCodeDetailsView {
 
     #uiContainer;
+    #adverseReactionReportsChartView;
+    #histogramChartView;
 
     constructor(uiContainer) {
         this.#uiContainer = uiContainer
+        this.#adverseReactionReportsChartView = new AdverseReactionReportsChartView(this.#uiContainer.querySelector('#adverseReactionReportsChartView'));
+        const chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
+        this.#histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
     }
 
     // FK-TODO: unbind all events here and in HistogramChartView
@@ -28,10 +33,9 @@ class BatchCodeDetailsView {
         this.#displayHeading(histoDescrs.batchcode);
         this.#displayData(histoDescrs);
         const chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
-        const histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
         this.#displayAdverseReactionReportsChart(histoDescrs);
-        this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
-        this.#displayHistogram(histoDescrs.histograms[0], histogramChartView, chartWithSlider);
+        this.#displaySelectBatchcodeCombination(histoDescrs.histograms, this.#histogramChartView, chartWithSlider);
+        this.#displayHistogram(histoDescrs.histograms[0], this.#histogramChartView, chartWithSlider);
     }
 
     #displayHeading(batchcode) {
@@ -41,10 +45,7 @@ class BatchCodeDetailsView {
     }
 
     #displayAdverseReactionReportsChart(histoDescrs) {
-        const canvas = UIUtils.instantiateTemplate('template-canvas');
-        this.#uiContainer.appendChild(canvas);
-        const adverseReactionReportsChartView = new AdverseReactionReportsChartView(canvas);
-        adverseReactionReportsChartView.displayChart(
+        this.#adverseReactionReportsChartView.displayChart(
             {
                 'Adverse Reaction Reports': histoDescrs['Adverse Reaction Reports'],
                 'Deaths': histoDescrs['Deaths'],
@@ -73,7 +74,6 @@ class BatchCodeDetailsView {
                 histograms: histograms,
                 onSelect: histoDescr => this.#displayHistogram(histoDescr, histogramChartView, chartWithSlider)
             });
-        this.#uiContainer.appendChild(selectBatchcodeCombinationElement);
     }
 
     #displayHistogram(histoDescr, histogramChartView, chartWithSlider) {
