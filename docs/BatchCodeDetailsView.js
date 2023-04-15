@@ -2,6 +2,7 @@ class BatchCodeDetailsView {
 
     #uiContainer;
     #headingElement;
+    #batchcodesSelectElement;
     #adverseReactionReportsChartView;
     #histogramChartView;
     #chartWithSlider;
@@ -9,6 +10,7 @@ class BatchCodeDetailsView {
     constructor(uiContainer) {
         this.#uiContainer = uiContainer
         this.#headingElement = this.#uiContainer.querySelector(".heading");
+        this.#batchcodesSelectElement = new ElementWithSingleChangeEventListener(this.#uiContainer.querySelector("#batchcodesSelect"));
         this.#adverseReactionReportsChartView = new AdverseReactionReportsChartView(this.#uiContainer.querySelector('#adverseReactionReportsChartView'));
         this.#chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
         this.#histogramChartView = new HistogramChartView(this.#chartWithSlider.querySelector("canvas"));
@@ -67,10 +69,9 @@ class BatchCodeDetailsView {
     }
 
     #displaySelectBatchcodeCombination(histograms) {
-        const selectBatchcodeCombinationElement = this.#uiContainer.querySelector("#selectBatchcodeCombination");
         BatchcodeCombinationSelection.configureSelectBatchcodeCombinationElement(
             {
-                selectBatchcodeCombinationElement: selectBatchcodeCombinationElement,
+                batchcodesSelectElement: this.#batchcodesSelectElement,
                 histograms: histograms,
                 onSelect: histoDescr => this.#displayHistogram(histoDescr)
             });
