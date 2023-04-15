@@ -36,7 +36,6 @@ class BatchCodeDetailsView {
 
     #displayHistogramViewForHistoDescrs(histoDescrs) {
         this.#displayHeading(histoDescrs.batchcode);
-        this.#displayData(histoDescrs);
         this.#displayAdverseReactionReportsChart(histoDescrs);
         this.#displaySelectBatchcodeCombination(histoDescrs.histograms);
         this.#displayHistogram(histoDescrs.histograms[0]);
@@ -54,18 +53,6 @@ class BatchCodeDetailsView {
                 'Disabilities': histoDescrs['Disabilities'],
                 'Life Threatening Illnesses': histoDescrs['Life Threatening Illnesses']
             });
-    }
-
-    #displayData(histoDescrs) {
-        const p = document.createElement("p");
-        p.appendChild(document.createTextNode(`ADRs: ${histoDescrs['Adverse Reaction Reports']}`));
-        p.appendChild(document.createTextNode(`Deaths: ${histoDescrs['Deaths']}`));
-        p.appendChild(document.createTextNode(`Disabilities: ${histoDescrs['Disabilities']}`));
-        p.appendChild(document.createTextNode(`Life Threatening Illnesses: ${histoDescrs['Life Threatening Illnesses']}`));
-        p.appendChild(document.createTextNode(`Company: ${histoDescrs['Company']}`));
-        p.appendChild(document.createTextNode(`Severe reports: ${histoDescrs['Severe reports']}`));
-        p.appendChild(document.createTextNode(`Lethality: ${histoDescrs['Lethality']}`));
-        this.#uiContainer.appendChild(p);
     }
 
     #displaySelectBatchcodeCombination(histograms) {
