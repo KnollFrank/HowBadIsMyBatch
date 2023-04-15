@@ -1,8 +1,7 @@
 class BatchcodeCombinationSelection {
 
-    static getSelectBatchcodeCombination({ histograms, onSelect }) {
-        const selectBatchcodeCombination = UIUtils.instantiateTemplate('template-selectBatchcodeCombination');
-        const batchcodesSelect = selectBatchcodeCombination.querySelector('#batchcodesSelect');
+    static configureSelectBatchcodeCombinationElement({ selectBatchcodeCombinationElement, histograms, onSelect }) {
+        const batchcodesSelect = selectBatchcodeCombinationElement.querySelector('#batchcodesSelect');
         this.#addBatchcodeCombinationOptions(batchcodesSelect, histograms);
         batchcodesSelect.addEventListener(
             'change',
@@ -10,7 +9,6 @@ class BatchcodeCombinationSelection {
                 const histoDescr = histograms[event.target.value];
                 onSelect(histoDescr);
             });
-        return selectBatchcodeCombination;
     }
 
     static #addBatchcodeCombinationOptions(batchcodesSelect, histograms) {

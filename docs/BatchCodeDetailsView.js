@@ -14,7 +14,6 @@ class BatchCodeDetailsView {
     }
 
     #loadHistoDescrs(batchcode) {
-        UIUtils.clear(this.#uiContainer);
         const loadingText = document.createTextNode('Loading...');
         this.#uiContainer.appendChild(loadingText);
         return HistoDescrsProvider
@@ -68,13 +67,14 @@ class BatchCodeDetailsView {
     }
 
     #displaySelectBatchcodeCombination(histograms, histogramChartView, chartWithSlider) {
-        const selectBatchcodeCombination =
-            BatchcodeCombinationSelection.getSelectBatchcodeCombination(
-                {
-                    histograms: histograms,
-                    onSelect: histoDescr => this.#displayHistogram(histoDescr, histogramChartView, chartWithSlider)
-                });
-        this.#uiContainer.appendChild(selectBatchcodeCombination);
+        const selectBatchcodeCombinationElement = this.#uiContainer.querySelector("#selectBatchcodeCombination");
+        BatchcodeCombinationSelection.configureSelectBatchcodeCombinationElement(
+            {
+                selectBatchcodeCombinationElement: selectBatchcodeCombinationElement,
+                histograms: histograms,
+                onSelect: histoDescr => this.#displayHistogram(histoDescr, histogramChartView, chartWithSlider)
+            });
+        this.#uiContainer.appendChild(selectBatchcodeCombinationElement);
     }
 
     #displayHistogram(histoDescr, histogramChartView, chartWithSlider) {
