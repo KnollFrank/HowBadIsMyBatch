@@ -27,11 +27,10 @@ class BatchCodeDetailsView {
     #displayHistogramViewForHistoDescrs(histoDescrs) {
         this.#displayHeading(histoDescrs.batchcode);
         this.#displayData(histoDescrs);
-        const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
+        const chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
         const histogramChartView = new HistogramChartView(chartWithSlider.querySelector("canvas"));
         this.#displayAdverseReactionReportsChart(histoDescrs);
         this.#displaySelectBatchcodeCombination(histoDescrs.histograms, histogramChartView, chartWithSlider);
-        this.#uiContainer.appendChild(chartWithSlider);
         this.#displayHistogram(histoDescrs.histograms[0], histogramChartView, chartWithSlider);
     }
 
