@@ -35,14 +35,14 @@ class BatchCodeDetailsView {
     }
 
     #displayHistogramViewForHistoDescrs(histoDescrs) {
-        this.#displayHeading(histoDescrs.batchcode);
+        this.#displayHeading(histoDescrs.batchcode, histoDescrs['Company']);
         this.#displayAdverseReactionReportsChart(histoDescrs);
         this.#displaySelectBatchcodeCombination(histoDescrs.histograms);
         this.#displayHistogram(histoDescrs.histograms[0]);
     }
 
-    #displayHeading(batchcode) {
-        this.#headingElement.textContent = `Frequencies of reported Symptoms for Batch Code Combinations containing ${batchcode}`
+    #displayHeading(batchcode, company) {
+        this.#headingElement.textContent = `Frequencies of reported Symptoms for Batch Code Combinations containing ${batchcode} from ${company}`
     }
 
     #displayAdverseReactionReportsChart(histoDescrs) {
