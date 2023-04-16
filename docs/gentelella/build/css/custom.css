@@ -4911,10 +4911,10 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
     flex-direction: row;
 }
 
-.chartWithSlider .chart {
+.chartWithSlider .chartContainer {
     flex: 95%;
 }
 
-.chartWithSlider .slider {
+.chartWithSlider .sliderContainer {
     flex: 5%;
 }

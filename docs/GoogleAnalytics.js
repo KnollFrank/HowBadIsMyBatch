@@ -8,13 +8,4 @@ class GoogleAnalytics {
                 'batchcode': batchcode
             });
     }
-
-    static view_search_results(search_term) {
-        gtag(
-            'event',
-            'view_search_results',
-            {
-                'search_term': search_term
-            });
-    }
 }
