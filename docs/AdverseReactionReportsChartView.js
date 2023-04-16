@@ -33,7 +33,7 @@ class AdverseReactionReportsChartView {
                 'Deaths',
                 'Disabilities',
                 'Life Threatening Illnesses',
-                'Other Adverse Reaction Reports'
+                'Other Adverse Events'
             ],
             datasets: [{
                 // FK-TODO: refactor
