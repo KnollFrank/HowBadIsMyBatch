@@ -32,7 +32,8 @@ class HistogramChartView {
             labels: symptoms,
             datasets: [{
                 label: histoDescr.batchcode,
-                data: frequencies
+                data: frequencies,
+                backgroundColor: '#1a73e8'
             }]
         };
     }
