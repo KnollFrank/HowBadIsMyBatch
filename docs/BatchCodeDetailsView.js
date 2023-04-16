@@ -32,13 +32,13 @@ class BatchCodeDetailsView {
     }
 
     #displayHistogramViewForHistoDescrs(histoDescrs) {
-        this.#displayHeading(histoDescrs.batchcode, histoDescrs['Company']);
+        this.#displayHeading(histoDescrs.batchcode);
         this.#displayAdverseReactionReportsChart(histoDescrs);
         this.#displayHistogram(histoDescrs);
     }
 
-    #displayHeading(batchcode, company) {
-        this.#headingElement.textContent = `Frequencies of reported Symptoms for Batch Code Combinations containing ${batchcode} from ${company}`
+    #displayHeading(batchcode) {
+        this.#headingElement.textContent = `Frequencies of reported Symptoms for Batch Code ${batchcode}`
     }
 
     #displayAdverseReactionReportsChart(histoDescrs) {
