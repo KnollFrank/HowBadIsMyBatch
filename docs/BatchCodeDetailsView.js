@@ -42,13 +42,7 @@ class BatchCodeDetailsView {
     }
 
     #displayAdverseReactionReportsChart(histoDescrs) {
-        this.#adverseReactionReportsChartView.displayChart(
-            {
-                'Adverse Reaction Reports': histoDescrs['Adverse Reaction Reports'],
-                'Deaths': histoDescrs['Deaths'],
-                'Disabilities': histoDescrs['Disabilities'],
-                'Life Threatening Illnesses': histoDescrs['Life Threatening Illnesses']
-            });
+        this.#adverseReactionReportsChartView.displayChart(histoDescrs);
     }
 
     #displayHistogram(histoDescr) {
