@@ -37,7 +37,7 @@ class AdverseReactionReportsChartView {
             ],
             datasets: [{
                 // FK-TODO: refactor
-                label: ADRDescr['batchcode'],
+                label: 'Batch ' + ADRDescr['batchcode'],
                 data: [
                     ADRDescr['Deaths'],
                     ADRDescr['Disabilities'],
@@ -53,7 +53,6 @@ class AdverseReactionReportsChartView {
         return {
             title: {
                 display: true,
-                text: 'Adverse Reaction Report for Batch FE6208',
                 position: 'top'
             }
         };
