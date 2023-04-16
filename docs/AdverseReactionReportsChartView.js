@@ -44,12 +44,6 @@ class AdverseReactionReportsChartView {
                     ADRDescr['Life Threatening Illnesses'],
                     ADRDescr['Adverse Reaction Reports'] - (ADRDescr['Deaths'] + ADRDescr['Disabilities'] + ADRDescr['Life Threatening Illnesses'])
                 ],
-                backgroundColor: [
-                    'rgb(255, 99, 132)',
-                    'rgb(54, 162, 235)',
-                    'rgb(255, 205, 86)',
-                    'grey'
-                ],
                 hoverOffset: 4
             }]
         };
