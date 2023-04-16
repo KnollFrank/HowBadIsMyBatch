@@ -1,1 +1,1 @@
-{"batchcode": "004C211A", "histograms": [{"histogram": {"Chest pain": 1, "Herpes zoster": 1}, "batchcodes": ["004C211A"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 2, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "004C211A", "histograms": [{"histogram": {"Chest pain": 1, "Herpes zoster": 1}, "batchcodes": ["004C211A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 2, "Disabilities": 0, "Company": "MODERNA"}

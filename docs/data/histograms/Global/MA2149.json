@@ -1,1 +1,1 @@
-{"batchcode": "MA2149", "histograms": [{"histogram": {"Chills": 1, "Headache": 1, "Nausea": 1}, "batchcodes": ["MA2149"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "MA2149", "histograms": [{"histogram": {"Chills": 1, "Headache": 1, "Nausea": 1}, "batchcodes": ["MA2149"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

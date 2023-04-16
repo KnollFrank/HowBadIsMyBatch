@@ -1,1 +1,1 @@
-{"batchcode": "OLBA21A", "histograms": [{"histogram": {"Headache": 1}, "batchcodes": ["OLBA21A"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "OLBA21A", "histograms": [{"histogram": {"Headache": 1}, "batchcodes": ["OLBA21A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "JANSSEN"}

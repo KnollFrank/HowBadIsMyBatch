@@ -1,1 +1,1 @@
-{"batchcode": "GY2172", "histograms": [{"histogram": {"Hypoaesthesia": 1, "Myalgia": 1}, "batchcodes": ["GY2172"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "GY2172", "histograms": [{"histogram": {"Hypoaesthesia": 1, "Myalgia": 1}, "batchcodes": ["GY2172"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 1, "Company": "PFIZER\\BIONTECH"}

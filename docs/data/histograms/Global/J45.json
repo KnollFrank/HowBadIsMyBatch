@@ -1,1 +1,1 @@
-{"batchcode": "J45", "histograms": [{"histogram": {"Headache": 2, "Pyrexia": 2, "Body temperature": 1}, "batchcodes": ["J45"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 2, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "J45", "histograms": [{"histogram": {"Headache": 2, "Pyrexia": 2, "Body temperature": 1}, "batchcodes": ["J45"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 2, "Disabilities": 0, "Company": "MODERNA"}

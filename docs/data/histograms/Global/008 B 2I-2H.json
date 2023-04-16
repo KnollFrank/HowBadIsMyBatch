@@ -1,1 +1,1 @@
-{"batchcode": "008 B 2I-2H", "histograms": [{"histogram": {"Autopsy": 1, "Death": 1}, "batchcodes": ["008 B 2I-2H"]}], "Deaths": 1, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "008 B 2I-2H", "histograms": [{"histogram": {"Autopsy": 1, "Death": 1}, "batchcodes": ["008 B 2I-2H"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 1, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

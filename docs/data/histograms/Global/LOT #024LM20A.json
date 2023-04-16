@@ -1,1 +1,1 @@
-{"batchcode": "LOT #024LM20A", "histograms": [{"histogram": {"Fatigue": 1, "Nausea": 1}, "batchcodes": ["LOT #024LM20A"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "LOT #024LM20A", "histograms": [{"histogram": {"Fatigue": 1, "Nausea": 1}, "batchcodes": ["LOT #024LM20A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

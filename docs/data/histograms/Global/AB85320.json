@@ -1,1 +1,1 @@
-{"batchcode": "AB85320", "histograms": [{"histogram": {"Myalgia": 1, "Myocardial infarction": 1}, "batchcodes": ["AB85320"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "AB85320", "histograms": [{"histogram": {"Myalgia": 1, "Myocardial infarction": 1}, "batchcodes": ["AB85320"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

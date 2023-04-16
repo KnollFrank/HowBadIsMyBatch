@@ -1,1 +1,1 @@
-{"batchcode": "C00RD", "histograms": [{"histogram": {"Pericardial effusion": 1}, "batchcodes": ["C00RD"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "C00RD", "histograms": [{"histogram": {"Pericardial effusion": 1}, "batchcodes": ["C00RD"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}

@@ -1,1 +1,1 @@
-{"batchcode": "BL", "histograms": [{"histogram": {"Back pain": 1, "Spinal pain": 1}, "batchcodes": ["BL"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "BL", "histograms": [{"histogram": {"Back pain": 1, "Spinal pain": 1}, "batchcodes": ["BL"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}

@@ -1,1 +1,1 @@
-{"batchcode": "BNT160B2", "histograms": [{"histogram": {"Dizziness": 1, "Vomiting": 1}, "batchcodes": ["BNT160B2"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "BNT160B2", "histograms": [{"histogram": {"Dizziness": 1, "Vomiting": 1}, "batchcodes": ["BNT160B2"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 1, "Company": "PFIZER\\BIONTECH"}

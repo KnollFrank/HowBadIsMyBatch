@@ -1,1 +1,1 @@
-{"batchcode": "00112A", "histograms": [{"histogram": {"Arrhythmia": 1, "Myocardial infarction": 1}, "batchcodes": ["00112A"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "00112A", "histograms": [{"histogram": {"Arrhythmia": 1, "Myocardial infarction": 1}, "batchcodes": ["00112A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

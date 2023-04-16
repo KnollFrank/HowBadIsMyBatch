@@ -1,1 +1,1 @@
-{"batchcode": "P-3013BA", "histograms": [{"histogram": {"COVID-19": 1}, "batchcodes": ["P-3013BA"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "P-3013BA", "histograms": [{"histogram": {"COVID-19": 1}, "batchcodes": ["P-3013BA"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

@@ -1,1 +1,1 @@
-{"batchcode": "ABC6894", "histograms": [{"histogram": {"Cardiogenic shock": 1}, "batchcodes": ["34300BD", "ABC6894"]}], "Deaths": 2, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 2, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "ABC6894", "histograms": [{"histogram": {"Cardiogenic shock": 1}, "batchcodes": ["34300BD", "ABC6894"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 2, "Adverse Reaction Reports": 2, "Disabilities": 0, "Company": "JANSSEN"}

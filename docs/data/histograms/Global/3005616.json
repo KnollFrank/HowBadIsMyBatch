@@ -1,1 +1,1 @@
-{"batchcode": "3005616", "histograms": [{"histogram": {"Arrhythmia": 1, "Cardiomyopathy": 1}, "batchcodes": ["3005616"]}], "Deaths": 1, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "3005616", "histograms": [{"histogram": {"Arrhythmia": 1, "Cardiomyopathy": 1}, "batchcodes": ["3005616"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 1, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

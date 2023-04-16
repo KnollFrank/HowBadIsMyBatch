@@ -1,1 +1,1 @@
-{"batchcode": "DON'T HAVE ON C", "histograms": [{"histogram": {"Lethargy": 1, "Pyrexia": 1}, "batchcodes": ["DON'T HAVE ON C"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "DON'T HAVE ON C", "histograms": [{"histogram": {"Lethargy": 1, "Pyrexia": 1}, "batchcodes": ["DON'T HAVE ON C"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "JANSSEN"}

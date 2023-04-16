@@ -1,1 +1,1 @@
-{"batchcode": "ACB0542", "histograms": [{"histogram": {"Asthenia": 1}, "batchcodes": ["ACB0542"]}], "Deaths": 1, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "ACB0542", "histograms": [{"histogram": {"Asthenia": 1}, "batchcodes": ["ACB0542"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 1, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "JANSSEN"}

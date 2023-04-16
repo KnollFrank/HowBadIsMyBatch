@@ -1,1 +1,1 @@
-{"batchcode": "P31L2017", "histograms": [{"histogram": {"Headache": 1, "Tinnitus": 1}, "batchcodes": ["P31L2017"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "P31L2017", "histograms": [{"histogram": {"Headache": 1, "Tinnitus": 1}, "batchcodes": ["P31L2017"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

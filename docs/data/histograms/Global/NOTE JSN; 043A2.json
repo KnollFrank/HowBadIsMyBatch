@@ -1,1 +1,1 @@
-{"batchcode": "NOTE JSN; 043A2", "histograms": [{"histogram": {"Tachycardia": 1}, "batchcodes": ["NOTE JSN; 043A2"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "NOTE JSN; 043A2", "histograms": [{"histogram": {"Tachycardia": 1}, "batchcodes": ["NOTE JSN; 043A2"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "JANSSEN"}

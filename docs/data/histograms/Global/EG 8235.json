@@ -1,1 +1,1 @@
-{"batchcode": "EG 8235", "histograms": [{"histogram": {"Pain": 1}, "batchcodes": ["EG 8235"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "EG 8235", "histograms": [{"histogram": {"Pain": 1}, "batchcodes": ["EG 8235"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 1, "Company": "PFIZER\\BIONTECH"}

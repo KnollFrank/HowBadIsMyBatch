@@ -1,1 +1,1 @@
-{"batchcode": "003B2VA", "histograms": [{"histogram": {"Anaphylactic reaction": 1}, "batchcodes": ["003B2VA"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Severe reports": null}
+{"batchcode": "003B2VA", "histograms": [{"histogram": {"Anaphylactic reaction": 1}, "batchcodes": ["003B2VA"]}], "Lethality": null, "Life Threatening Illnesses": 1, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

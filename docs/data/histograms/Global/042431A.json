@@ -1,1 +1,1 @@
-{"batchcode": "042431A", "histograms": [{"histogram": {"Biopsy": 1, "Breast conserving surgery": 1}, "batchcodes": ["042431A"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "042431A", "histograms": [{"histogram": {"Biopsy": 1, "Breast conserving surgery": 1}, "batchcodes": ["042431A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "JANSSEN"}

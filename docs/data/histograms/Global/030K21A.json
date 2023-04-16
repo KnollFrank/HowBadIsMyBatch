@@ -1,1 +1,1 @@
-{"batchcode": "030K21A", "histograms": [{"histogram": {"Dyspnoea": 1}, "batchcodes": ["030K21A"]}], "Deaths": 1, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "030K21A", "histograms": [{"histogram": {"Dyspnoea": 1}, "batchcodes": ["030K21A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 1, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}

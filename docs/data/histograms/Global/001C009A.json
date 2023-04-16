@@ -1,1 +1,1 @@
-{"batchcode": "001C009A", "histograms": [{"histogram": {"Anaphylactic shock": 1}, "batchcodes": ["001C009A"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Severe reports": null}
+{"batchcode": "001C009A", "histograms": [{"histogram": {"Anaphylactic shock": 1}, "batchcodes": ["001C009A"]}], "Lethality": null, "Life Threatening Illnesses": 1, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}

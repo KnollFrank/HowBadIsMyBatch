@@ -1,1 +1,1 @@
-{"batchcode": "ACB 3321", "histograms": [{"histogram": {"Malaise": 1, "Syncope": 1}, "batchcodes": ["ACB 3321"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "ACB 3321", "histograms": [{"histogram": {"Malaise": 1, "Syncope": 1}, "batchcodes": ["ACB 3321"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "JANSSEN"}

@@ -1,1 +1,1 @@
-{"batchcode": "1D214A", "histograms": [{"histogram": {"Pulmonary embolism": 1}, "batchcodes": ["1D214A"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 1, "Severe reports": null}
+{"batchcode": "1D214A", "histograms": [{"histogram": {"Pulmonary embolism": 1}, "batchcodes": ["1D214A"]}], "Lethality": null, "Life Threatening Illnesses": 1, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}

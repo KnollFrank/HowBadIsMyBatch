@@ -1,1 +1,1 @@
-{"batchcode": "INE", "histograms": [{"histogram": {"Thalamic infarction": 1}, "batchcodes": ["INE"]}], "Deaths": 0, "Lethality": null, "Company": "MODERNA", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 1, "Severe reports": null}
+{"batchcode": "INE", "histograms": [{"histogram": {"Thalamic infarction": 1}, "batchcodes": ["INE"]}], "Lethality": null, "Life Threatening Illnesses": 1, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 1, "Company": "MODERNA"}

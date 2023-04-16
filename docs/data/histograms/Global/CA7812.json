@@ -1,1 +1,1 @@
-{"batchcode": "CA7812", "histograms": [{"histogram": {"Local reaction": 1}, "batchcodes": ["CA7812"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "CA7812", "histograms": [{"histogram": {"Local reaction": 1}, "batchcodes": ["CA7812"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 1, "Company": "PFIZER\\BIONTECH"}

@@ -1,1 +1,1 @@
-{"batchcode": "180502W", "histograms": [{"histogram": {"Headache": 1, "Nausea": 1, "Vomiting": 1}, "batchcodes": ["180502W"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "180502W", "histograms": [{"histogram": {"Headache": 1, "Nausea": 1, "Vomiting": 1}, "batchcodes": ["180502W"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "JANSSEN"}

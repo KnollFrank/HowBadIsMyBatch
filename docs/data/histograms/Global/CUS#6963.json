@@ -1,1 +1,1 @@
-{"batchcode": "CUS#6963", "histograms": [{"histogram": {"Chills": 1, "Fatigue": 1, "Headache": 1}, "batchcodes": ["CUS#6963"]}], "Deaths": 0, "Lethality": null, "Company": "JANSSEN", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "CUS#6963", "histograms": [{"histogram": {"Chills": 1, "Fatigue": 1, "Headache": 1}, "batchcodes": ["CUS#6963"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "JANSSEN"}

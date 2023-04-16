@@ -1,1 +1,1 @@
-{"batchcode": "C3AU3FAXPPUW", "histograms": [{"histogram": {"Hallucination": 1}, "batchcodes": ["C3AU3FAXPPUW"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 1, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "C3AU3FAXPPUW", "histograms": [{"histogram": {"Hallucination": 1}, "batchcodes": ["C3AU3FAXPPUW"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 1, "Company": "PFIZER\\BIONTECH"}

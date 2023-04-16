@@ -1,1 +1,1 @@
-{"batchcode": "XPFEEJ1685", "histograms": [{"histogram": {"Fatigue": 1, "Pyrexia": 1}, "batchcodes": ["XPFEEJ1685"]}], "Deaths": 0, "Lethality": null, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 1, "Disabilities": 0, "Life Threatening Illnesses": 0, "Severe reports": null}
+{"batchcode": "XPFEEJ1685", "histograms": [{"histogram": {"Fatigue": 1, "Pyrexia": 1}, "batchcodes": ["XPFEEJ1685"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}
