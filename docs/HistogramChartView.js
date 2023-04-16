@@ -31,7 +31,7 @@ class HistogramChartView {
         return {
             labels: symptoms,
             datasets: [{
-                label: histoDescr.batchcodes.join(', '),
+                label: histoDescr.batchcode,
                 data: frequencies
             }]
         };

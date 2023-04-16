@@ -2,7 +2,6 @@ class BatchCodeDetailsView {
 
     #uiContainer;
     #headingElement;
-    #batchCodesSelectElement;
     #adverseReactionReportsChartView;
     #histogramChartView;
     #chartWithSlider;
@@ -10,7 +9,6 @@ class BatchCodeDetailsView {
     constructor(uiContainer) {
         this.#uiContainer = uiContainer
         this.#headingElement = this.#uiContainer.querySelector(".heading");
-        this.#batchCodesSelectElement = new ElementWithSingleChangeEventListener(this.#uiContainer.querySelector("#batchCodesSelect"));
         this.#adverseReactionReportsChartView = new AdverseReactionReportsChartView(this.#uiContainer.querySelector('#adverseReactionReportsChartView'));
         this.#chartWithSlider = this.#uiContainer.querySelector('.chartWithSlider');
         this.#histogramChartView = new HistogramChartView(this.#chartWithSlider.querySelector("canvas"));
@@ -36,8 +34,7 @@ class BatchCodeDetailsView {
     #displayHistogramViewForHistoDescrs(histoDescrs) {
         this.#displayHeading(histoDescrs.batchcode, histoDescrs['Company']);
         this.#displayAdverseReactionReportsChart(histoDescrs);
-        this.#displaySelectBatchcodeCombination(histoDescrs.histograms);
-        this.#displayHistogram(histoDescrs.histograms[0]);
+        this.#displayHistogram(histoDescrs);
     }
 
     #displayHeading(batchcode, company) {
@@ -51,15 +48,6 @@ class BatchCodeDetailsView {
                 'Deaths': histoDescrs['Deaths'],
                 'Disabilities': histoDescrs['Disabilities'],
                 'Life Threatening Illnesses': histoDescrs['Life Threatening Illnesses']
-            });
-    }
-
-    #displaySelectBatchcodeCombination(histograms) {
-        BatchcodeCombinationSelection.configureSelectBatchcodeCombinationElement(
-            {
-                batchCodesSelectElement: this.#batchCodesSelectElement,
-                histograms: histograms,
-                onSelect: histoDescr => this.#displayHistogram(histoDescr)
             });
     }
 
@@ -80,7 +68,7 @@ class BatchCodeDetailsView {
 
     #slice(histoDescr, { start, endInclusive }) {
         return {
-            batchcodes: histoDescr.batchcodes,
+            batchcode: histoDescr.batchcode,
             histogram: Utils.sliceDict(histoDescr.histogram, start, endInclusive + 1)
         };
     }
