@@ -14,8 +14,8 @@ class AdverseReactionReportsChartView {
         this.#chart = new Chart(
             this.#canvas,
             {
-                // FK-TODO: use a Polar Area Chart ('polarArea') or bar chart
                 type: 'bar',
+                plugins: [ChartDataLabels],
                 data: this.#getData(ADRDescr),
                 options: this.#getOptions()
             });
@@ -51,6 +51,12 @@ class AdverseReactionReportsChartView {
 
     #getOptions() {
         return {
+            plugins: {
+                datalabels: {
+                    anchor: 'end',
+                    align: 'top'
+                }
+            },
             title: {
                 display: true,
                 position: 'top'
