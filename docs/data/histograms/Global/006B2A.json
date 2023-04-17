@@ -1,1 +1,1 @@
-{"batchcode": "006B2A", "histograms": [{"histogram": {"Myalgia": 1, "Nausea": 1, "Rash": 1}, "batchcodes": ["006B2A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 2, "Disabilities": 0, "Company": "MODERNA"}
+{"batchcode": "006B2A", "histograms": [{"histogram": {"Myalgia": 1, "Nausea": 1, "Rash": 1}, "batchcodes": ["006B2A"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "MODERNA", "Severe reports": null, "Disabilities": 0.0}

@@ -1,1 +1,1 @@
-{"batchcode": "FJ4988", "histograms": [{"histogram": {"Bronchitis": 1, "Urticaria": 1}, "batchcodes": ["FJ4988"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 2, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}
+{"batchcode": "FJ4988", "histograms": [{"histogram": {"Bronchitis": 1, "Urticaria": 1}, "batchcodes": ["FJ4988"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Disabilities": 0.0}

@@ -1,1 +1,1 @@
-{"batchcode": "W1B2A", "histograms": [{"histogram": {"Pruritus": 2}, "batchcodes": ["W1B2A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 2, "Disabilities": 0, "Company": "MODERNA"}
+{"batchcode": "W1B2A", "histograms": [{"histogram": {"Pruritus": 2}, "batchcodes": ["W1B2A"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "MODERNA", "Severe reports": null, "Disabilities": 0.0}

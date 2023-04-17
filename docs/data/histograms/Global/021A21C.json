@@ -1,1 +1,1 @@
-{"batchcode": "021A21C", "histograms": [{"histogram": {"Chest pain": 1, "Pericarditis": 1}, "batchcodes": ["021A21C"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}
+{"batchcode": "021A21C", "histograms": [{"histogram": {"Chest pain": 1, "Pericarditis": 1}, "batchcodes": ["021A21C"]}], "Adverse Reaction Reports": null, "Life Threatening Illnesses": null, "Lethality": null, "Deaths": null, "Company": null, "Severe reports": null, "Disabilities": null}

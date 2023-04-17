@@ -1,1 +1,1 @@
-{"batchcode": "025002X", "histograms": [{"histogram": {"Blood glucose increased": 1}, "batchcodes": ["025002X"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}
+{"batchcode": "025002X", "histograms": [{"histogram": {"Blood glucose increased": 1}, "batchcodes": ["025002X"]}], "Adverse Reaction Reports": null, "Life Threatening Illnesses": null, "Lethality": null, "Deaths": null, "Company": null, "Severe reports": null, "Disabilities": null}

@@ -1,1 +1,1 @@
-{"batchcode": "016M210A", "histograms": [{"histogram": {"Death": 1, "Tinnitus": 1}, "batchcodes": ["016M210A"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 1, "Adverse Reaction Reports": 2, "Disabilities": 0, "Company": "MODERNA"}
+{"batchcode": "016M210A", "histograms": [{"histogram": {"Death": 1, "Tinnitus": 1}, "batchcodes": ["016M210A"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 1.0, "Company": "MODERNA", "Severe reports": null, "Disabilities": 0.0}

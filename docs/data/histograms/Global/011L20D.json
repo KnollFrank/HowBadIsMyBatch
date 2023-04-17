@@ -1,1 +1,1 @@
-{"batchcode": "011L20D", "histograms": [{"histogram": {"Neuralgia": 1, "X-ray": 1}, "batchcodes": ["004M20A", "011L20D"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "MODERNA"}
+{"batchcode": "011L20D", "histograms": [{"histogram": {"Neuralgia": 1, "X-ray": 1}, "batchcodes": ["004M20A", "011L20D"]}], "Adverse Reaction Reports": null, "Life Threatening Illnesses": null, "Lethality": null, "Deaths": null, "Company": null, "Severe reports": null, "Disabilities": null}

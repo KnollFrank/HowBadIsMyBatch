@@ -1,1 +1,1 @@
-{"batchcode": "CVKJ4", "histograms": [{"histogram": {"Death": 4}, "batchcodes": ["CVKJ4"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 4, "Adverse Reaction Reports": 4, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}
+{"batchcode": "CVKJ4", "histograms": [{"histogram": {"Death": 4}, "batchcodes": ["CVKJ4"]}], "Adverse Reaction Reports": 4.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 4.0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Disabilities": 0.0}

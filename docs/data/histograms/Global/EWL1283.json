@@ -1,1 +1,1 @@
-{"batchcode": "EWL1283", "histograms": [{"histogram": {"Dizziness": 1, "Feeling hot": 1}, "batchcodes": ["EWL1283"]}], "Lethality": null, "Life Threatening Illnesses": 0, "Severe reports": null, "Deaths": 0, "Adverse Reaction Reports": 1, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}
+{"batchcode": "EWL1283", "histograms": [{"histogram": {"Dizziness": 1, "Feeling hot": 1}, "batchcodes": ["EWL1283"]}], "Adverse Reaction Reports": null, "Life Threatening Illnesses": null, "Lethality": null, "Deaths": null, "Company": null, "Severe reports": null, "Disabilities": null}

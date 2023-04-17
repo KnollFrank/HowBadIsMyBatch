@@ -1,1 +1,1 @@
-{"batchcode": "FO30A", "histograms": [{"histogram": {"Death": 2}, "batchcodes": ["FO30A"]}], "Lethality": null, "Life Threatening Illnesses": 1, "Severe reports": null, "Deaths": 2, "Adverse Reaction Reports": 2, "Disabilities": 0, "Company": "PFIZER\\BIONTECH"}
+{"batchcode": "FO30A", "histograms": [{"histogram": {"Death": 2}, "batchcodes": ["FO30A"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 1.0, "Lethality": null, "Deaths": 2.0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Disabilities": 0.0}
