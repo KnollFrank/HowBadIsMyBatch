@@ -1,1 +1,1 @@
-{"batchcode": "FM5733", "histograms": [{"histogram": {"Product storage error": 2}, "batchcodes": ["FM5733"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Disabilities": 0.0}
+{"batchcode": "FM5733", "histograms": [{"histogram": {"Product storage error": 2}, "batchcodes": ["FM5733"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 2, "Deaths": 0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null, "Disabilities": 0}

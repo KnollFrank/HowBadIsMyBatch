@@ -1,1 +1,1 @@
-{"batchcode": "3003737", "histograms": [{"histogram": {"Fatigue": 1}, "batchcodes": ["3003737", "PV46669"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "MODERNA", "Severe reports": null, "Disabilities": 0.0}
+{"batchcode": "3003737", "histograms": [{"histogram": {"Fatigue": 1}, "batchcodes": ["3003737", "PV46669"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 2, "Deaths": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null, "Disabilities": 0}

@@ -1,1 +1,1 @@
-{"batchcode": "013061", "histograms": [{"histogram": {"COVID-19": 2, "Vaccination failure": 2}, "batchcodes": ["013061"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "JANSSEN", "Severe reports": null, "Disabilities": 0.0}
+{"batchcode": "013061", "histograms": [{"histogram": {"COVID-19": 2, "Vaccination failure": 2}, "batchcodes": ["013061"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 2, "Deaths": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null, "Disabilities": 0}

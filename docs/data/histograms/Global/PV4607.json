@@ -1,1 +1,1 @@
-{"batchcode": "PV4607", "histograms": [{"histogram": {"Pyrexia": 1}, "batchcodes": ["3004675", "PV4607"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "UNKNOWN MANUFACTURER", "Severe reports": null, "Disabilities": 0.0}
+{"batchcode": "PV4607", "histograms": [{"histogram": {"Pyrexia": 1}, "batchcodes": ["3004675", "PV4607"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 2, "Deaths": 0, "Company": "UNKNOWN MANUFACTURER", "Severe reports": null, "Lethality": null, "Disabilities": 0}

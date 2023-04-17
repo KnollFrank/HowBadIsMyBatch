@@ -1,1 +1,1 @@
-{"batchcode": "U11A21A", "histograms": [{"histogram": {"Product dose omission issue": 2}, "batchcodes": ["U11A21A"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "MODERNA", "Severe reports": null, "Disabilities": 0.0}
+{"batchcode": "U11A21A", "histograms": [{"histogram": {"Product dose omission issue": 2}, "batchcodes": ["U11A21A"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 2, "Deaths": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null, "Disabilities": 0}

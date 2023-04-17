@@ -1,1 +1,1 @@
-{"batchcode": "A4DEY4834 / EY4", "histograms": [{"histogram": {"Death": 2}, "batchcodes": ["A4DEY4834 / EY4"]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 2.0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Disabilities": 0.0}
+{"batchcode": "A4DEY4834 / EY4", "histograms": [{"histogram": {"Death": 2}, "batchcodes": ["A4DEY4834 / EY4"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 2, "Deaths": 2, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null, "Disabilities": 0}

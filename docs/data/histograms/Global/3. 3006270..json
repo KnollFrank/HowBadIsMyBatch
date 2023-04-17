@@ -1,1 +1,1 @@
-{"batchcode": "3. 3006270.", "histograms": [{"histogram": {"Arthralgia": 1}, "batchcodes": ["2. FE4721.", "3. 3006270."]}], "Adverse Reaction Reports": 2.0, "Life Threatening Illnesses": 0.0, "Lethality": null, "Deaths": 0.0, "Company": "MODERNA", "Severe reports": null, "Disabilities": 2.0}
+{"batchcode": "3. 3006270.", "histograms": [{"histogram": {"Arthralgia": 1}, "batchcodes": ["2. FE4721.", "3. 3006270."]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 2, "Deaths": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null, "Disabilities": 2}
