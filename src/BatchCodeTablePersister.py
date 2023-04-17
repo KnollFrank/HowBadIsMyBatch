@@ -1,7 +1,8 @@
 import numpy as np
 
-def createGlobalBatchCodeTable(minADRsForLethality, batchCodeTableFactory):
+def createGlobalBatchCodeTable(deleteEntriesWithADRsLessThanOrEqual, minADRsForLethality, batchCodeTableFactory):
     batchCodeTable = batchCodeTableFactory.createGlobalBatchCodeTable()
+    batchCodeTable = batchCodeTable[~(batchCodeTable['Adverse Reaction Reports'] <= deleteEntriesWithADRsLessThanOrEqual)]
     batchCodeTable.index.set_names("Batch", inplace=True)
     if minADRsForLethality is not None:
         batchCodeTable.loc[
