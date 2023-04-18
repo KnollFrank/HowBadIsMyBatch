@@ -40,15 +40,14 @@ class HistogramTable {
                             ]
                         },
                         {
-                            render: (data, type, row, meta) => {
-                                // FK-TODO: refactor
-                                const numberWithBar = UIUtils.instantiateTemplate('template-number-with-bar');
-                                const bar = numberWithBar.querySelector('.bar');
-                                bar.style.width = (data / this.#sumFrequencies * 100).toString() + "%";
-                                const number = numberWithBar.querySelector('.number');
-                                number.textContent = data;
-                                return numberWithBar.outerHTML;
-                            },
+                            render: frequency =>
+                                NumberWithBarElementFactory
+                                    .createNumberWithBarElement(
+                                        {
+                                            number: frequency,
+                                            barLenInPercent: frequency / this.#sumFrequencies * 100
+                                        })
+                                    .outerHTML,
                             targets: [this.#getColumnIndex('Frequency')]
                         }
                     ]
