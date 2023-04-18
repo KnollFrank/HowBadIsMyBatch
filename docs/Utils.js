@@ -7,6 +7,10 @@ class Utils {
         return arr.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;
     }
 
+    static sum(numbers) {
+        return numbers.reduce((a, b) => a + b, 0);
+    }
+
     static getKeysAlignedWithValues(dict) {
         const keys = [];
         const values = [];

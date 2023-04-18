@@ -4918,3 +4918,8 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
 .chartWithSlider .sliderContainer {
     flex: 5%;
 }
+
+.bar {
+    height: 3px;
+    background-color: #1a73e8;
+}

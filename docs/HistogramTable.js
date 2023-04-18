@@ -2,6 +2,7 @@ class HistogramTable {
 
     #tableElement;
     #table;
+    #sumFrequencies;
 
     constructor(tableElement) {
         this.#tableElement = tableElement;
@@ -12,8 +13,8 @@ class HistogramTable {
     }
 
     display(frequencyBySymptom) {
-        const symptom_frequency_arrays = Object.entries(frequencyBySymptom);
-        this.#setTableRows(symptom_frequency_arrays);
+        const symptom_frequency_pairs = Object.entries(frequencyBySymptom);
+        this.#setTableRows(symptom_frequency_pairs);
     }
 
     #createEmptyTable() {
@@ -38,6 +39,17 @@ class HistogramTable {
                                 this.#getColumnIndex('Symptom')
                             ]
                         },
+                        {
+                            render: frequency =>
+                                NumberWithBarElementFactory
+                                    .createNumberWithBarElement(
+                                        {
+                                            number: frequency,
+                                            barLenInPercent: frequency / this.#sumFrequencies * 100
+                                        })
+                                    .outerHTML,
+                            targets: [this.#getColumnIndex('Frequency')]
+                        }
                     ]
             });
     }
@@ -51,10 +63,16 @@ class HistogramTable {
         }
     }
 
-    #setTableRows(rows) {
+    #setTableRows(symptom_frequency_pairs) {
+        this.#sumFrequencies = this.#getSumFrequencies(symptom_frequency_pairs);
         this.#table
             .clear()
-            .rows.add(rows)
+            .rows.add(symptom_frequency_pairs)
             .draw();
+    }
+
+    #getSumFrequencies(symptom_frequency_pairs) {
+        const frequencies = symptom_frequency_pairs.map(symptom_frequency_pair => symptom_frequency_pair[1])
+        return Utils.sum(frequencies);
     }
 }
