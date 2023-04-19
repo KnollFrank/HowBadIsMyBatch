@@ -1,1 +1,1 @@
-{"batchcode": "300 2913", "histograms": [{"histogram": {"COVID-19": 2, "Vaccination failure": 2, "Peripheral artery thrombosis": 1}, "batchcodes": ["300 2913"]}], "Life Threatening Illnesses": 1, "Adverse Reaction Reports": 3, "Deaths": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "300 2913", "histogram": {"COVID-19": 2, "Vaccination failure": 2, "Peripheral artery thrombosis": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 1, "Company": "MODERNA"}

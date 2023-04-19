@@ -1,1 +1,1 @@
-{"batchcode": "10018A", "histograms": [{"histogram": {"Haemolysis": 1, "Myocarditis": 1, "Polymyalgia rheumatica": 1}, "batchcodes": ["10018A"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 3, "Deaths": 0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "10018A", "histogram": {"Haemolysis": 1, "Myocarditis": 1, "Polymyalgia rheumatica": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH"}

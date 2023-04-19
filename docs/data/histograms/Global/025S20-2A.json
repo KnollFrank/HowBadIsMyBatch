@@ -1,1 +1,1 @@
-{"batchcode": "025S20-2A", "histograms": [{"histogram": {"Vasculitis": 2}, "batchcodes": ["025S20-2A", "041L20-1A"]}, {"histogram": {"Dizziness": 1, "Pyrexia": 1}, "batchcodes": ["025S20-2A"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 3, "Deaths": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "025S20-2A", "histogram": {"Dizziness": 1, "Pyrexia": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA"}

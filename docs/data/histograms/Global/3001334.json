@@ -1,1 +1,1 @@
-{"batchcode": "3001334", "histograms": [{"histogram": {"Myocardial infarction": 1, "Thrombocytopenia": 1}, "batchcodes": ["3001334", "3003603", "3004951"]}], "Life Threatening Illnesses": 3, "Adverse Reaction Reports": 3, "Deaths": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "3001334", "histogram": {"Myocardial infarction": 1, "Thrombocytopenia": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 3, "Company": "MODERNA"}

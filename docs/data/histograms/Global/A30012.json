@@ -1,1 +1,1 @@
-{"batchcode": "A30012", "histograms": [{"histogram": {"Chills": 2, "SARS-CoV-2 test": 2, "Pyrexia": 1}, "batchcodes": ["3005287", "A30012"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 4, "Deaths": 0, "Company": "UNKNOWN MANUFACTURER", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "A30012", "histogram": {"Chills": 2, "SARS-CoV-2 test": 2, "Pyrexia": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Company": "UNKNOWN MANUFACTURER"}

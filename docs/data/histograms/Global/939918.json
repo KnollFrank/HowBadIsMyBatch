@@ -1,1 +1,1 @@
-{"batchcode": "939918", "histograms": [{"histogram": {"Dysarthria": 1, "Hemiparesis": 1, "Pyrexia": 1}, "batchcodes": ["939918", "FD5996"]}, {"histogram": {"Facial asymmetry": 1, "Pyrexia": 1}, "batchcodes": ["939918"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 4, "Deaths": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "939918", "histogram": {"Facial asymmetry": 1, "Pyrexia": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA"}

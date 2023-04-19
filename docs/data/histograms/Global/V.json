@@ -1,1 +1,1 @@
-{"batchcode": "V", "histograms": [{"histogram": {"Product storage error": 2, "Nausea": 1, "Urticaria": 1, "Vertigo": 1, "Vomiting": 1}, "batchcodes": ["V"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 3, "Deaths": 0, "Company": "PFIZER\\BIONTECH", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "V", "histogram": {"Product storage error": 2, "Nausea": 1, "Urticaria": 1, "Vertigo": 1, "Vomiting": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH"}

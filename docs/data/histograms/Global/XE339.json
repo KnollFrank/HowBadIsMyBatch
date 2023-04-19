@@ -1,1 +1,1 @@
-{"batchcode": "XE339", "histograms": [{"histogram": {"COVID-19": 5, "SARS-CoV-2 test": 5, "Vaccination failure": 5}, "batchcodes": ["XE339"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 5, "Deaths": 0, "Company": "JANSSEN", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "XE339", "histogram": {"COVID-19": 5, "SARS-CoV-2 test": 5, "Vaccination failure": 5}, "Adverse Reaction Reports": 5, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN"}

@@ -1,1 +1,1 @@
-{"batchcode": "213621A", "histograms": [{"histogram": {"Abdominal pain": 1, "Malaise": 1, "Pneumonia": 1, "Pyrexia": 1, "X-ray": 1}, "batchcodes": ["213621A"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 3, "Deaths": 1, "Company": "JANSSEN", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "213621A", "histogram": {"Abdominal pain": 1, "Malaise": 1, "Pneumonia": 1, "Pyrexia": 1, "X-ray": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 1, "Life Threatening Illnesses": 0, "Company": "JANSSEN"}
