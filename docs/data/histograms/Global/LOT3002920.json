@@ -1,1 +1,1 @@
-{"batchcode": "LOT3002920", "histograms": [{"histogram": {"COVID-19": 12, "SARS-CoV-2 test": 12, "Vaccination failure": 12}, "batchcodes": ["LOT3002920"]}], "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 12, "Deaths": 0, "Company": "MODERNA", "Severe reports": null, "Lethality": null, "Disabilities": 0}
+{"batchcode": "LOT3002920", "histogram": {"COVID-19": 12, "SARS-CoV-2 test": 12, "Vaccination failure": 12}, "Adverse Reaction Reports": 12, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA"}
