@@ -28,9 +28,7 @@ class BatchCodeTableIntoHistogramDescriptionTableMerger:
                 'Deaths',
                 'Disabilities',
                 'Life Threatening Illnesses',
-                'Company',
-                'Severe reports',
-                'Lethality'
+                'Company'
             ]]
 
     def _merge_columns_into_HISTOGRAM_DESCRIPTION(self, table):

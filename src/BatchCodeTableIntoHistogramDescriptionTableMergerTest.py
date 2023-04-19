@@ -55,8 +55,6 @@ class BatchCodeTableIntoHistogramDescriptionTableMergerTest(unittest.TestCase):
                                 'Disabilities': 2,
                                 'Life Threatening Illnesses': 2,
                                 'Company': 'MODERNA',
-                                'Severe reports': 2/2 * 100,
-                                'Lethality': np.nan,
                                 'histograms': [
                                     {
                                         'batchcodes': ['1808982', 'EW0175', 'FD1921'],
