@@ -22,7 +22,7 @@ class SymptomByBatchcodeTableFactory:
 
     @staticmethod
     def _getMaxNumShots(VAERSVAX):
-        return VAERSVAX.index.value_counts().iloc[0]
+        return min(VAERSVAX.index.value_counts().iloc[0], 10)
 
     @staticmethod
     def _get_VAERSVAX_WITH_VAX_LOTS(VAERSVAX, index_columns):
@@ -35,17 +35,17 @@ class SymptomByBatchcodeTableFactory:
 
     @staticmethod
     def _getVaxLotsTable(VAERSVAX, index_columns):
-        VAX_LOT_LIST_Table = SymptomByBatchcodeTableFactory._getVAX_LOT_LIST_Table(VAERSVAX)
+        VAX_LOT_LIST_Table = SymptomByBatchcodeTableFactory._getVAX_LOT_LIST_Table(VAERSVAX, index_columns)
         return SymptomByBatchcodeTableFactory._fillLstsInDataframe(VAX_LOT_LIST_Table, index_columns)
 
     @staticmethod
-    def _getVAX_LOT_LIST_Table(VAERSVAX):
+    def _getVAX_LOT_LIST_Table(VAERSVAX, index_columns):
         # slow: aggfunc = lambda VAX_LOT_series: list(VAX_LOT_series.sort_values())))
         # fast:
         VAX_LOT_LIST_Table = VAERSVAX.groupby("VAERS_ID").agg(
             VAX_LOT_LIST = pd.NamedAgg(
                 column = 'VAX_LOT',
-                aggfunc = list))
+                aggfunc = lambda VAX_LOT_series: list(VAX_LOT_series)[:len(index_columns)]))
         VAX_LOT_LIST_Table['VAX_LOT_LIST'] = VAX_LOT_LIST_Table['VAX_LOT_LIST'].apply(sorted)
         return VAX_LOT_LIST_Table
 
