@@ -6,7 +6,7 @@ class ColumnSearch {
 
     constructor(column) {
         this.#column = column;
-        const clazz = this;
+        const self = this;
         $('<br/>').appendTo($(this.#column.header()));
         this.#select = $('<select></select>')
             .appendTo($(this.#column.header()))
@@ -14,7 +14,7 @@ class ColumnSearch {
                 'change',
                 function () {
                     const val = $.fn.dataTable.util.escapeRegex($(this).val());
-                    clazz.#column
+                    self.#column
                         .search(val ? '^' + val + '$' : '', true, false)
                         .draw();
                 });
@@ -23,13 +23,13 @@ class ColumnSearch {
     columnContentUpdated() {
         this.#select.empty();
         this.#select.append('<option value=""></option>');
-        const clazz = this;
+        const self = this;
         this.#column
             .data()
             .unique()
             .sort()
             .each(function (d, _) {
-                clazz.#select.append('<option value="' + d + '">' + d + '</option>');
+                self.#select.append('<option value="' + d + '">' + d + '</option>');
             });
     }
 }

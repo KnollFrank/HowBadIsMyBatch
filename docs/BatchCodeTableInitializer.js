@@ -7,13 +7,13 @@ class BatchCodeTableInitializer {
     }
 
     initialize() {
-        const clazz = this;
+        const self = this;
         this.#batchCodeTableElement.DataTable(
             {
                 ajax: 'data/batchCodeTables/Global.json',
                 initComplete: function (settings) {
                     batchCodeTable = settings.oInstance.api();
-                    const columnSearch = new ColumnSearch(batchCodeTable.column(clazz.#getColumnIndex('Company')));
+                    const columnSearch = new ColumnSearch(batchCodeTable.column(self.#getColumnIndex('Company')));
                     columnSearch.columnContentUpdated();
                 },
                 language:
