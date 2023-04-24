@@ -8,7 +8,7 @@ from DateProvider import DateProvider
 def updateBatchCodeTableHtmlFile(batchCodeTable, batchCodeTableHtmlFile):
     batchcodeOptions = getBatchcodeOptions(getBatchcodes(batchCodeTable.sort_values(by = 'Adverse Reaction Reports', ascending = False)))
     _saveBatchcodeOptions(batchcodeOptions, batchCodeTableHtmlFile)
-    _saveLastUpdatedBatchCodeTable(
+    saveLastUpdatedBatchCodeTable(
         DateProvider().getLastUpdatedDataSource(),
         batchCodeTableHtmlFile)
 
@@ -22,7 +22,7 @@ def _saveBatchcodeOptions(batchcodeOptions, batchCodeTableHtmlFile):
                     options=batchcodeOptions),
                 'lxml'))
 
-def _saveLastUpdatedBatchCodeTable(lastUpdated, batchCodeTableHtmlFile):
+def saveLastUpdatedBatchCodeTable(lastUpdated, batchCodeTableHtmlFile):
     def setLastUpdated(soup):
         soup.find(id="last_updated").string.replace_with(
             lastUpdated.strftime(DateProvider.DATE_FORMAT))

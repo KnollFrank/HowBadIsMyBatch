@@ -1,3 +1,7 @@
+.dataTables_filter {
+    display: none;
+}
+
 .chartWithSlider {
     display: flex;
     flex-wrap: nowrap;
