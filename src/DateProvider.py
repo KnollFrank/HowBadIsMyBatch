@@ -18,7 +18,7 @@ class DateProvider:
     def getLastUpdated(self):
         if self.lastUpdated is None:
             self.lastUpdated = self.__getLastUpdated(
-                url="https://knollfrank.github.io/HowBadIsMyBatch/batchCodeTable.html",
+                url="https://knollfrank.github.io/HowBadIsMyBatch/HowBadIsMyBatch.html",
                 getDateStr=lambda soup: soup.find(id="last_updated").text)
 
         return self.lastUpdated
