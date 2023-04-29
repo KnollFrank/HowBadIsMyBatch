@@ -26,7 +26,7 @@ def getCountriesByClickedBatchcode():
     return result[[columnName]]
 
 def _readExploration(csvFile, indexName):
-    exploration = pd.read_csv(csvFile, header=[0], index_col=0, skiprows=6, on_bad_lines='warn')
+    exploration = pd.read_csv(csvFile, header = [0], index_col = 0, skiprows = 6, on_bad_lines = 'warn')
     exploration.drop(index=indexName, inplace=True)
     exploration.index.rename(indexName, inplace=True)
     exploration.drop(columns='Totals', inplace=True)
