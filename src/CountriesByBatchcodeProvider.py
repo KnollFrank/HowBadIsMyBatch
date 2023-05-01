@@ -1,38 +1,49 @@
 import pandas as pd
-from CompletedBatchcodeColumnAdder import CompletedBatchcodeColumnAdder
-from BatchcodeCompletion import BatchcodeCompletion
-from CountriesColumnAdder import CountriesColumnAdder
 from BatchCodeTableFactory import BatchCodeTableFactory
 from InternationalVaersCovid19Provider import getInternationalVaersCovid19
 
-def getCountriesByCompletedBatchcode(internationalVaersCovid19):
-    result = _readExploration('data/Country By Batchcode Search Term.csv', indexName = 'Batchcode Search Term')
-    result = _addCompletedBatchcodeColumn(result, internationalVaersCovid19)
-    columnName = 'Countries'
-    result = CountriesColumnAdder().addCountriesColumn(result, columnName = columnName)
-    return result[[columnName]].droplevel('Batchcode Search Term')
 
-def _addCompletedBatchcodeColumn(country_By_Batchcode_Search_Term, internationalVaersCovid19):
-    return CompletedBatchcodeColumnAdder(_getCompleteBatchcode(internationalVaersCovid19)).addCompletedBatchcodeColumn(country_By_Batchcode_Search_Term)
+def getCountryCountsByBatchcodeTable():
+    return _combineCountryCountsByBatchcodeTables(
+        countryCountsByClickedBatchcode = _getCountryCountsByClickedBatchcode(),
+        countryCountsByBatchcodeBeforeDeletion = _getCountryCountsByBatchcodeBeforeDeletion())
 
-def _getCompleteBatchcode(internationalVaersCovid19):
-    batchCodeTable = BatchCodeTableFactory(internationalVaersCovid19).createGlobalBatchCodeTable()
-    return BatchcodeCompletion(ADR_by_Batchcode = batchCodeTable).completeBatchcode
-     
-def getCountriesByClickedBatchcode():
-    result = _readExploration('data/Country By Clicked Batchcode.csv', indexName = 'Clicked Batchcode')
-    columnName = 'Countries'
-    result = CountriesColumnAdder().addCountriesColumn(result, columnName = columnName)
-    return result[[columnName]]
 
-def _readExploration(csvFile, indexName):
-    exploration = pd.read_csv(csvFile, header = [0], index_col = 0, skiprows = 6, on_bad_lines = 'warn')
-    exploration.drop(index=indexName, inplace=True)
-    exploration.index.rename(indexName, inplace=True)
-    exploration.drop(columns='Totals', inplace=True)
-    for column in exploration.columns:
-        exploration[column] = exploration[column].astype('int64')
+def _getCountryCountsByClickedBatchcode():
+    exploration = pd.read_csv('data/Country By Clicked Batchcode.csv', index_col = 0, skiprows = [0, 1, 2, 3, 4, 5, 7])
+    exploration.index.name = 'VAX_LOT'
+    exploration.rename(
+        columns =
+        {
+            'Country': 'COUNTRY',
+            'Event count': 'COUNTRY_COUNT_BY_VAX_LOT'
+        },
+        inplace = True)
+    exploration.set_index('COUNTRY', append = True, inplace = True)
     return exploration
+
+
+def _getCountryCountsByBatchcodeBeforeDeletion():
+    internationalVaersCovid19 = getInternationalVaersCovid19(dataDir = 'VAERS/VAERSBeforeDeletion', years = [2020, 2021, 2022])
+    return (internationalVaersCovid19
+            .groupby('VAX_LOT')
+            ['COUNTRY'].value_counts()
+            .to_frame(name = 'COUNTRY_COUNT_BY_VAX_LOT'))
+
+
+def _combineCountryCountsByBatchcodeTables(countryCountsByClickedBatchcode, countryCountsByBatchcodeBeforeDeletion):
+    countryCountsByBatchcode = pd.merge(
+        countryCountsByClickedBatchcode,
+        countryCountsByBatchcodeBeforeDeletion,
+        how = 'outer',
+        left_index = True,
+        right_index = True,
+        suffixes=(' Clicked', ' Before Deletion'))
+    countryCountsByBatchcode.fillna(0, inplace = True)
+    for column in countryCountsByBatchcode.columns:
+        countryCountsByBatchcode[column] = countryCountsByBatchcode[column].astype('int64')
+    return countryCountsByBatchcode
+
 
 def getCountriesByBatchcodeBeforeDeletion():
     internationalVaersCovid19 = getInternationalVaersCovid19(dataDir = 'VAERS/VAERSBeforeDeletion', years = [2020, 2021, 2022])
