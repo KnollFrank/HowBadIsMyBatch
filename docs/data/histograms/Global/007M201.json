@@ -1,1 +1,1 @@
-{"batchcode": "007M201", "histograms": [{"histogram": {"Headache": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Pain in extremity": 1, "Pyrexia": 1}, "batchcodes": ["007M201"]}]}
+{"batchcode": "007M201", "histograms": [{"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["005C21A", "007M201", "030A21A", "C56U214", "DSOD22A"]}, {"histogram": {"Headache": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Pain in extremity": 1, "Pyrexia": 1}, "batchcodes": ["007M201"]}]}

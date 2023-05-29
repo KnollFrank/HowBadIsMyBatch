@@ -1,1 +1,1 @@
-{"batchcode": "EN608", "histograms": [{"histogram": {"Electrocardiogram abnormal": 1, "Eye pain": 1, "Feeling abnormal": 1, "Headache": 1, "Heart rate increased": 1, "Pain": 1, "Supraventricular tachycardia": 1}, "batchcodes": ["EN608"]}]}
+{"batchcode": "EN608", "histograms": [{"histogram": {"Oropharyngeal discomfort": 1, "Urticaria": 1}, "batchcodes": ["EN608", "EW0150"]}, {"histogram": {"Electrocardiogram abnormal": 1, "Eye pain": 1, "Feeling abnormal": 1, "Headache": 1, "Heart rate increased": 1, "Pain": 1, "Supraventricular tachycardia": 1}, "batchcodes": ["EN608"]}]}
