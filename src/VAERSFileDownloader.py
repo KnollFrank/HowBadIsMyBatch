@@ -26,7 +26,7 @@ def downloadVAERSFileAndUnzip(file, workingDirectory):
         dstDir = workingDirectory + '/VAERS/')
 
 def downloadVAERSFile(file, downloadDir):
-    driver = getWebDriver(downloadDir, isHeadless = True)
+    driver = getWebDriver(downloadDir, isHeadless = False)
     downloadedFile = downloadFile(
         absoluteFile = downloadDir + "/" + file,
         driver = driver,

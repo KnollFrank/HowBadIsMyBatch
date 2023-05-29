@@ -19,7 +19,7 @@ def _getCountryCountsByClickedBatchcode():
             'Event count': 'COUNTRY_COUNT_BY_VAX_LOT'
         },
         inplace = True)
-    exploration.set_index('COUNTRY', append = True, inplace = True)
+    exploration.set_index('COUNTRY',append = True, inplace = True)
     return exploration
 
 
