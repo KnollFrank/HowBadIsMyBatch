@@ -1,6 +1,7 @@
 import pandas as pd
 from BatchCodeTableFactory import BatchCodeTableFactory
 from InternationalVaersCovid19Provider import getInternationalVaersCovid19
+from SummationTableFactory import SummationTableFactory
 
 
 def getCountryCountsByBatchcodeTable():
@@ -43,6 +44,17 @@ def _combineCountryCountsByBatchcodeTables(countryCountsByClickedBatchcode, coun
     for column in countryCountsByBatchcode.columns:
         countryCountsByBatchcode[column] = countryCountsByBatchcode[column].astype('int64')
     return countryCountsByBatchcode
+
+
+def getCountriesByClickedBatchcode():
+    return (_getCountryCountsByClickedBatchcode()
+        .reset_index(level = 'COUNTRY')
+        .groupby('VAX_LOT')
+        .agg(
+            Countries =
+                pd.NamedAgg(
+                    column = 'COUNTRY',
+                    aggfunc = SummationTableFactory.sortCountries)))
 
 
 def getCountriesByBatchcodeBeforeDeletion():

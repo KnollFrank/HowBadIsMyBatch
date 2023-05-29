@@ -21,5 +21,6 @@ class BatchCodeTableHavingGuessedCountriesFactory:
     def _guessCountries(self, batchCodeTable, countriesAsList):
         batchCodeTable['Countries'] = CountriesMerger.mergeSrcIntoDst(
             dst = batchCodeTable['Countries'],
+            # FK-TODO: zusätzlich zu self.countriesByBatchcodeBeforeDeletion auch noch mit dem Ergebnis der noch zu implementierenden Funktion CountriesByBatchcodeProvider.getCountriesByClickedBatchcode() mergen.
             src = self.countriesByBatchcodeBeforeDeletion['Countries'])
         BatchCodeTableFactory._convertCountries(batchCodeTable, countriesAsList)
