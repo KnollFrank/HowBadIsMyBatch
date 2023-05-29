@@ -10,6 +10,6 @@ class CountriesMerger:
         
         mergedSeries = (pd
                         .merge(dst, src, how = 'left', left_index = True, right_index = True)
-                        .apply(merge, axis='columns'))
+                        .apply(merge, axis = 'columns'))
         mergedSeries.name = dst.name
         return mergedSeries

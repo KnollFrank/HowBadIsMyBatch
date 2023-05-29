@@ -18,7 +18,6 @@ class BatchCodeTableInitializer {
         this.#countrySelect.addEventListener('change', event => this.#displayCountry());
         this.#displayCountry();
         this.#initializeHistogramView();
-        this.#trackSearchWithGoogleAnalytics();
     }
 
     #getCountry() {
@@ -117,7 +116,6 @@ class BatchCodeTableInitializer {
                 this.#columnSearch.columnContentUpdated();
                 this.#selectInput();
             });
-        GoogleAnalytics.countrySelected(this.#getCountry());
     }
 
     #_addEmptyControlColumn(json) {
@@ -156,18 +154,7 @@ class BatchCodeTableInitializer {
                         tr.addClass('shown');
                         const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
                         new HistogramView(uiContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
-                        GoogleAnalytics.click_batchcode(batchcode);
                     }
-                });
-    }
-
-    #trackSearchWithGoogleAnalytics() {
-        const thisClassInstance = this;
-        $(`#${this.#batchCodeTableElement[0].id}`)
-            .on(
-                'search.dt',
-                function () {
-                    GoogleAnalytics.view_search_results(thisClassInstance.#batchCodeTable.search().toUpperCase());
                 });
     }
 }
