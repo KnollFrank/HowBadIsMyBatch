@@ -8,3 +8,8 @@ class CountriesColumnMerger:
         dst[COUNTRIES] = CountriesMerger.mergeSrcIntoDst(
             dst = dst[COUNTRIES],
             src = src[COUNTRIES])
+
+    @staticmethod
+    def mergeCountriesColumnOfSrcsIntoCountriesColumnOfDst(srcs, dst):
+        for src in srcs:
+            CountriesColumnMerger.mergeCountriesColumnOfSrcIntoCountriesColumnOfDst(src = src, dst = dst)
