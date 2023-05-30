@@ -2,7 +2,7 @@ import unittest
 import pandas as pd
 from pandas.testing import assert_frame_equal
 from TestHelper import TestHelper
-from src.CountriesColumnMerger import CountriesColumnMerger
+from CountriesColumnMerger import CountriesColumnMerger
 
 class CountriesColumnMergerTest(unittest.TestCase):
 
