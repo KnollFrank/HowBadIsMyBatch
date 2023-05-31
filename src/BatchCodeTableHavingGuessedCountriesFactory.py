@@ -1,7 +1,7 @@
 from CountriesMerger import CountriesMerger
 from CountriesByBatchcodeProvider import getCountriesByBatchcodeBeforeDeletion, getCountriesByClickedBatchcode
 from BatchCodeTableFactory import BatchCodeTableFactory
-from src.CountriesColumnMerger import CountriesColumnMerger
+from CountriesColumnMerger import CountriesColumnMerger
 
 class BatchCodeTableHavingGuessedCountriesFactory:
 
