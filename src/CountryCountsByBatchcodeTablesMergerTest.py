@@ -24,11 +24,15 @@ class CountryCountsByBatchcodeTablesMergerTest(unittest.TestCase):
                         tuples = [['12345',   'Germany']]))
             
         # When
-        dataFrame = CountryCountsByBatchcodeTablesMerger.merge([countryCountsByBatchcodeTable1, countryCountsByBatchcodeTable2])
+        mergedCountryCountsByBatchcodeTables = CountryCountsByBatchcodeTablesMerger.merge(
+            [
+                countryCountsByBatchcodeTable1,
+                countryCountsByBatchcodeTable2
+            ])
         
         # Then
         assert_frame_equal(
-            dataFrame,
+            mergedCountryCountsByBatchcodeTables,
             TestHelper.createDataFrame(
                 columns = ['COUNTRY_COUNT_BY_VAX_LOT'],
                 data = [  [10 + 20],
