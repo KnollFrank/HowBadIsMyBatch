@@ -1,1 +1,1 @@
-{"batchcode": "6975", "histogram": {"Arrhythmia": 1, "Bradycardia": 1, "Cough": 1, "Dyspnoea": 1, "Fatigue": 1, "Heart rate": 1, "Heart rate decreased": 1}, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0, "Deaths": 0, "Adverse Reaction Reports": 3}
+{"batchcode": "6975", "histogram": {"Arrhythmia": 1, "Bradycardia": 1, "Cough": 1, "Dyspnoea": 1, "Fatigue": 1, "Heart rate": 1, "Heart rate decreased": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH"}
