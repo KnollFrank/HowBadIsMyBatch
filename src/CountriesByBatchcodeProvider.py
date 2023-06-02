@@ -2,26 +2,13 @@ import pandas as pd
 from BatchCodeTableFactory import BatchCodeTableFactory
 from InternationalVaersCovid19Provider import getInternationalVaersCovid19
 from SummationTableFactory import SummationTableFactory
+from CountryCountsByBatchcodeTablesMerger import CountryCountsByBatchcodeTablesMerger
 
 
 def getCountryCountsByBatchcodeTable():
     return _combineCountryCountsByBatchcodeTables(
-        countryCountsByClickedBatchcode = _getCountryCountsByClickedBatchcode(),
+        countryCountsByClickedBatchcode = CountryCountsByBatchcodeTablesMerger.getCountryCountsByClickedBatchcodeTable(),
         countryCountsByBatchcodeBeforeDeletion = _getCountryCountsByBatchcodeBeforeDeletion())
-
-
-def _getCountryCountsByClickedBatchcode():
-    exploration = pd.read_csv('data/Country By Clicked Batchcode.csv', index_col = 0, skiprows = [0, 1, 2, 3, 4, 5, 7])
-    exploration.index.name = 'VAX_LOT'
-    exploration.rename(
-        columns =
-        {
-            'Country': 'COUNTRY',
-            'Event count': 'COUNTRY_COUNT_BY_VAX_LOT'
-        },
-        inplace = True)
-    exploration.set_index('COUNTRY',append = True, inplace = True)
-    return exploration
 
 
 def _getCountryCountsByBatchcodeBeforeDeletion():
@@ -47,7 +34,8 @@ def _combineCountryCountsByBatchcodeTables(countryCountsByClickedBatchcode, coun
 
 
 def getCountriesByClickedBatchcode():
-    return (_getCountryCountsByClickedBatchcode()
+    return (CountryCountsByBatchcodeTablesMerger
+        .getCountryCountsByClickedBatchcodeTable()
         .reset_index(level = 'COUNTRY')
         .groupby('VAX_LOT')
         .agg(

@@ -6,7 +6,7 @@ from CountryCountsByBatchcodeTablesMerger import CountryCountsByBatchcodeTablesM
 
 class CountryCountsByBatchcodeTablesMergerTest(unittest.TestCase):
 
-    def test_merge(self):
+    def test_mergeCountryCountsByBatchcodeTables(self):
         # Given
         countryCountsByBatchcodeTable1 = TestHelper.createDataFrame(
             columns = ['COUNTRY_COUNT_BY_VAX_LOT'],
@@ -24,7 +24,7 @@ class CountryCountsByBatchcodeTablesMergerTest(unittest.TestCase):
                         tuples = [['12345',   'Germany']]))
             
         # When
-        mergedCountryCountsByBatchcodeTables = CountryCountsByBatchcodeTablesMerger.merge(
+        mergedCountryCountsByBatchcodeTables = CountryCountsByBatchcodeTablesMerger.mergeCountryCountsByBatchcodeTables(
             [
                 countryCountsByBatchcodeTable1,
                 countryCountsByBatchcodeTable2
