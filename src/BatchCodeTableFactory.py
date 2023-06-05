@@ -32,12 +32,7 @@ class BatchCodeTableFactory:
         return countryBatchCodeTable.loc[country] if country in countryBatchCodeTable.index else self._getEmptyBatchCodeTable(countryBatchCodeTable)
 
     def _getCountryBatchCodeTable(self):
-        return SummationTableFactory.createSummationTable(
-            self.dataFrame.groupby(
-                [
-                    self.dataFrame['COUNTRY'],
-                    self.dataFrame['VAX_LOT']
-                ]))
+        return SummationTableFactory.createSummationTable(self.dataFrame.groupby(['COUNTRY', 'VAX_LOT']))
 
     def _getEmptyBatchCodeTable(self, countryBatchCodeTable):
         return countryBatchCodeTable[0:0].droplevel(0)
