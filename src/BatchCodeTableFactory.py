@@ -7,12 +7,7 @@ class BatchCodeTableFactory:
     def __init__(self, dataFrame: pd.DataFrame):
         self.dataFrame = dataFrame
         self.companyColumnAdder = CompanyColumnAdder(dataFrame)
-        self.countryBatchCodeTable = SummationTableFactory.createSummationTable(
-            dataFrame.groupby(
-                [
-                    dataFrame['COUNTRY'],
-                    dataFrame['VAX_LOT']
-                ]))
+        self.countryBatchCodeTable = SummationTableFactory.createSummationTable(dataFrame.groupby(['COUNTRY', 'VAX_LOT']))
 
     def createGlobalBatchCodeTable(self, countriesAsList = False):
         return self._postProcess(SummationTableFactory.createSummationTable(self.dataFrame.groupby('VAX_LOT')), countriesAsList)
