@@ -41,16 +41,3 @@ class CountryCountsByBatchcodeTablesMergerTest(unittest.TestCase):
                             names =   ['VAX_LOT', 'COUNTRY'],
                             tuples = [['12345',   'Germany'],
                                       ['AAA',     'United States']])))
-
-def _getCountryCountsByClickedBatchcode():
-    exploration = pd.read_csv('src/data/Country By Clicked Batchcode 20230302-20230430.csv', index_col = 0, skiprows = [0, 1, 2, 3, 4, 5, 7])
-    exploration.index.name = 'VAX_LOT'
-    exploration.rename(
-        columns =
-        {
-            'Country': 'COUNTRY',
-            'Event count': 'COUNTRY_COUNT_BY_VAX_LOT'
-        },
-        inplace = True)
-    exploration.set_index('COUNTRY',append = True, inplace = True)
-    return exploration
