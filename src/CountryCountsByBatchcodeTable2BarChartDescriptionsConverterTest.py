@@ -2,11 +2,11 @@ import unittest
 import pandas as pd
 from pandas.testing import assert_frame_equal
 from TestHelper import TestHelper
-from CountryCountsByBatchcodeTable2JsonConverter import CountryCountsByBatchcodeTable2JsonConverter
+from CountryCountsByBatchcodeTable2BarChartDescriptionsConverter import CountryCountsByBatchcodeTable2BarChartDescriptionsConverter
 
-class CountryCountsByBatchcodeTable2JsonConverterTest(unittest.TestCase):
+class CountryCountsByBatchcodeTable2BarChartDescriptionsConverterTest(unittest.TestCase):
 
-    def test_convertCountryCountsByBatchcodeTable2Json(self):
+    def test_convert2BarChartDescriptionTable(self):
         # Given
         countryCountsByBatchcodeTable = TestHelper.createDataFrame(
                 columns = ['COUNTRY_COUNT_BY_VAX_LOT Clicked', 'COUNTRY_COUNT_BY_VAX_LOT Before Deletion'],
@@ -20,26 +20,28 @@ class CountryCountsByBatchcodeTable2JsonConverterTest(unittest.TestCase):
                                       ('# 009C01A', 'Germany')]))
         
         # When
-        jsonTable = CountryCountsByBatchcodeTable2JsonConverter.convert2Json(countryCountsByBatchcodeTable)
+        barChartDescriptionTable = CountryCountsByBatchcodeTable2BarChartDescriptionsConverter.convert2BarChartDescriptionTable(countryCountsByBatchcodeTable)
 
         # Then
         assert_frame_equal(
-            jsonTable,
+            barChartDescriptionTable,
             TestHelper.createDataFrame(
-                columns = ['HISTOGRAM_DESCRIPTION'],
+                columns = ['BAR_CHART_DESCRIPTION'],
                 data = [
                         [
                             {
-                                "countries":                   ["Germany", "Hungary"],
-                                "frequencies guessed":         [10,        15],
-                                "frequencies before deletion": [20,        30]
+                                'batchcode':                   '!D0181',
+                                'countries':                   ['Germany', 'Hungary'],
+                                'frequencies guessed':         [10,        15],
+                                'frequencies before deletion': [20,        30]
                             }
                         ],
                         [
                             {
-                                "countries":                   ["Germany"],
-                                "frequencies guessed":         [70],
-                                "frequencies before deletion": [80]
+                                'batchcode':                   '# 009C01A',
+                                'countries':                   ['Germany'],
+                                'frequencies guessed':         [70],
+                                'frequencies before deletion': [80]
                             }
                         ]
                        ],
