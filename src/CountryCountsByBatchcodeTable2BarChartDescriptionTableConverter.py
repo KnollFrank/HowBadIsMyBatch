@@ -1,5 +1,3 @@
-import pandas as pd
-
 class CountryCountsByBatchcodeTable2BarChartDescriptionTableConverter:
 
     @staticmethod
