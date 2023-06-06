@@ -1,0 +1,48 @@
+{
+    "countries": [
+        "Australia",
+        "Belgium",
+        "Canada",
+        "Germany",
+        "Italy",
+        "Luxembourg",
+        "Malaysia",
+        "Netherlands",
+        "Portugal",
+        "Spain",
+        "Sweden",
+        "United Kingdom",
+        "United States"
+    ],
+    "frequencies guessed": [
+        1,
+        2,
+        3,
+        8,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        5
+    ],
+    "frequencies before deletion": [
+        0,
+        145,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "batchcode": "000057A"
+}
