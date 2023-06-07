@@ -16,6 +16,7 @@ class BatchcodeByCountryBarChartView2 {
             this.#canvas,
             {
                 type: 'bar',
+                plugins: [ChartDataLabels],
                 data: this.#getData(barChartDescription),
                 options: this.#getOptions()
             });
@@ -45,22 +46,31 @@ class BatchcodeByCountryBarChartView2 {
 
     #getOptions() {
         return {
-            indexAxis: 'y',
-            responsive: true,
+            plugins: {
+                datalabels: {
+                    anchor: 'end',
+                    align: 'top'
+                }
+            },
+            title: {
+                display: true,
+                position: 'top'
+            },
             scales: {
                 y: {
-                    title: {
-                        display: true,
-                        text: 'Country'
-                    }
-                },
-                x: {
+                    // FK-TODO: im main branch und pages branch in AdverseReactionReportsChartView.js wie hier "precision: 0" setzen
                     ticks: {
                         precision: 0
                     },
                     title: {
                         display: true,
                         text: 'Frequency'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Country'
                     }
                 }
             }
