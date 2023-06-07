@@ -60,6 +60,17 @@ class AdverseReactionReportsChartView {
             title: {
                 display: true,
                 position: 'top'
+            },
+            scales: {
+                y: {
+                    ticks: {
+                        precision: 0
+                    },
+                    title: {
+                        display: true,
+                        text: 'Frequency'
+                    }
+                }
             }
         };
     }
