@@ -149,11 +149,13 @@ class BatchCodeTableInitializer {
                         row.child.hide();
                         tr.removeClass('shown');
                     } else {
-                        const uiContainer = document.createElement("div");
-                        row.child(uiContainer).show();
+                        const histogramViewContainer = document.createElement("div");
+                        const batchcodeByCountryBarChartContainer = document.createElement("div");                
+                        row.child([histogramViewContainer, batchcodeByCountryBarChartContainer]).show();
                         tr.addClass('shown');
                         const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];
-                        new HistogramView(uiContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
+                        new HistogramView(histogramViewContainer).displayHistogramView(thisClassInstance.#getCountry(), batchcode);
+                        new BatchcodeByCountryBarChartView(batchcodeByCountryBarChartContainer).displayBatchcodeByCountryBarChart(batchcode);
                     }
                 });
     }
