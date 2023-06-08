@@ -77,7 +77,7 @@ class BatchCodeTableInitializer {
                         {
                             width: "1000px",
                             render: function (data, type, row, meta) {
-                                return "";
+                                return null;
                             },
                             createdCell: (cell, cellData, row, rowIndex, colIndex) => {
                                 const batchcode = row[this.#getColumnIndex('Batch')];
