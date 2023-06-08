@@ -8,12 +8,8 @@ class BatchcodeByCountryBarChartView {
 
     displayBatchcodeByCountryBarChart(barChartDescription) {
         const chartWithSlider = UIUtils.instantiateTemplate('template-chartWithSlider');
-        const chartView = new BatchcodeByCountryBarChartView2(chartWithSlider.querySelector("canvas"));
+        const chartView = new BatchcodeByCountryBarChart(chartWithSlider.querySelector("canvas"));
         this.#uiContainer.appendChild(chartWithSlider);
-        this.#displayBarChart(barChartDescription, chartView);
-    }
-
-    #displayBarChart(barChartDescription, chartView) {
         chartView.displayChart(barChartDescription);
     }
 }

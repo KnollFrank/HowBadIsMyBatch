@@ -1,5 +1,4 @@
-// FK-TODO: rename
-class BatchcodeByCountryBarChartView2 {
+class BatchcodeByCountryBarChart {
 
     #canvas;
     #chart;
