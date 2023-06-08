@@ -30,7 +30,6 @@ class CountryCountsByBatchcodeTable2BarChartDescriptionTableConverterTest(unitte
                 data = [
                         [
                             {
-                                'batchcode':                   '!D0181',
                                 'countries':                   ['Germany', 'Hungary'],
                                 'frequencies guessed':         [10,        15],
                                 'frequencies before deletion': [20,        30]
@@ -38,7 +37,6 @@ class CountryCountsByBatchcodeTable2BarChartDescriptionTableConverterTest(unitte
                         ],
                         [
                             {
-                                'batchcode':                   '# 009C01A',
                                 'countries':                   ['Germany'],
                                 'frequencies guessed':         [70],
                                 'frequencies before deletion': [80]

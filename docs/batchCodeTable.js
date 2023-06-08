@@ -5,6 +5,7 @@ class BatchCodeTableInitializer {
     #batchCodeTableElement;
     #batchCodeTable;
     #columnSearch;
+    #barChartDescriptions;
 
     constructor({ heading, countrySelect, batchCodeTableElement }) {
         this.#heading = heading;
@@ -67,11 +68,27 @@ class BatchCodeTableInitializer {
                             targets: [this.#getColumnIndex('Countries'), this.#getColumnIndex('Company')]
                         },
                         {
-                            render: (data, type, row) => {
+                            render: data => {
                                 const numberInPercent = parseFloat(data);
-                                return !isNaN(numberInPercent) ? numberInPercent.toFixed(2) + " %" : '';
+                                return !isNaN(numberInPercent) ? numberInPercent.toFixed(2) + "%" : '';
                             },
                             targets: [this.#getColumnIndex('Severe reports'), this.#getColumnIndex('Lethality')]
+                        },
+                        {
+                            width: "1000px",
+                            render: function (data, type, row, meta) {
+                                return "";
+                            },
+                            createdCell: (cell, cellData, row, rowIndex, colIndex) => {
+                                const batchcode = row[this.#getColumnIndex('Batch')];
+                                if (batchcode in this.#barChartDescriptions) {
+                                    const barChartDescription = this.#barChartDescriptions[batchcode];
+                                    barChartDescription['batchcode'] = batchcode;
+                                    new BatchcodeByCountryBarChartView(cell).displayBatchcodeByCountryBarChart(barChartDescription);
+                                }
+                            },
+                            className: "dt-head-center",
+                            targets: [this.#getColumnIndex('Countries')]
                         }
                     ]
             });
@@ -105,17 +122,22 @@ class BatchCodeTableInitializer {
     #displayCountry() {
         this.#heading.textContent = this.#getCountry() == 'Global' ? 'Global Batch Codes' : `Batch Codes for ${this.#getCountry()}`;
         // FK-TODO: show "Loading.." message or spinning wheel.
-        fetch(`data/batchCodeTables/${this.#getCountry()}.json`)
-            .then(response => response.json())
-            .then(json => {
-                this.#_addEmptyControlColumn(json);
-                return json;
+        BarChartDescriptionsProvider
+            .getBarChartDescriptions()
+            .then(barChartDescriptions => {
+                this.#barChartDescriptions = barChartDescriptions;
+                fetch(`data/batchCodeTables/${this.#getCountry()}.json`)
+                    .then(response => response.json())
+                    .then(json => {
+                        this.#_addEmptyControlColumn(json);
+                        return json;
+                    })
+                    .then(json => {
+                        this.#setTableRows(json.data);
+                        this.#columnSearch.columnContentUpdated();
+                        this.#selectInput();
+                    });
             })
-            .then(json => {
-                this.#setTableRows(json.data);
-                this.#columnSearch.columnContentUpdated();
-                this.#selectInput();
-            });
     }
 
     #_addEmptyControlColumn(json) {
@@ -150,7 +172,7 @@ class BatchCodeTableInitializer {
                         tr.removeClass('shown');
                     } else {
                         const histogramViewContainer = document.createElement("div");
-                        const batchcodeByCountryBarChartContainer = document.createElement("div");                
+                        const batchcodeByCountryBarChartContainer = document.createElement("div");
                         row.child([histogramViewContainer, batchcodeByCountryBarChartContainer]).show();
                         tr.addClass('shown');
                         const batchcode = row.data()[thisClassInstance.#getColumnIndex('Batch')];

@@ -16,7 +16,6 @@ class BatchcodeByCountryBarChartView2 {
             this.#canvas,
             {
                 type: 'bar',
-                plugins: [ChartDataLabels],
                 data: this.#getData(barChartDescription),
                 options: this.#getOptions()
             });

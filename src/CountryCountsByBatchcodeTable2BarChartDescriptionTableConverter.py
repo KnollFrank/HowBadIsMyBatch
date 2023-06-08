@@ -12,12 +12,6 @@ class CountryCountsByBatchcodeTable2BarChartDescriptionTableConverter:
                             'COUNTRY_COUNT_BY_VAX_LOT Before Deletion': 'frequencies before deletion'
                         })
                 .groupby('VAX_LOT')
-                .apply(CountryCountsByBatchcodeTable2BarChartDescriptionTableConverter._convert2BarChartDescription)
+                .apply(lambda countryCountsTable: countryCountsTable.to_dict('list'))
                 .rename('BAR_CHART_DESCRIPTION')
                 .to_frame())
-
-    @staticmethod
-    def _convert2BarChartDescription(countryCountsTable):
-        barChartDescription = countryCountsTable.to_dict('list')
-        barChartDescription['batchcode'] = countryCountsTable.index.values[0]
-        return barChartDescription
