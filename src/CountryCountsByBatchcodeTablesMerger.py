@@ -17,5 +17,5 @@ class CountryCountsByBatchcodeTablesMerger:
 
     @staticmethod
     def _getTables():
-        files = glob.glob(r'data/*')
+        files = glob.glob(r'data/GoogleAnalytics/*')
         return [CountryCountsByClickedBatchcodeProvider.getCountryCountsByClickedBatchcode(file) for file in files]

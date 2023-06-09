@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "1111-20-FC3184", "histogram": {"Acute respiratory failure": 2, "Neuropathy peripheral": 2, "Symptom recurrence": 2, "Asymptomatic HIV infection": 1, "Deep vein thrombosis": 1, "Ischaemic cardiomyopathy": 1, "Left ventricular failure": 1}, "Deaths": 0, "Adverse Reaction Reports": 4, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
-=======
-{"batchcode": "1111-20-FC3184", "histograms": [{"histogram": {"Acute respiratory failure": 2, "Neuropathy peripheral": 2, "Symptom recurrence": 2, "Asymptomatic HIV infection": 1, "Deep vein thrombosis": 1, "Ischaemic cardiomyopathy": 1, "Left ventricular failure": 1}, "batchcodes": ["1111-20-FC3184"]}]}
->>>>>>> restore-countries
+{"batchcode": "1111-20-FC3184", "histogram": {"Acute respiratory failure": 2, "Neuropathy peripheral": 2, "Symptom recurrence": 2, "Asymptomatic HIV infection": 1, "Deep vein thrombosis": 1, "Ischaemic cardiomyopathy": 1, "Left ventricular failure": 1}, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 4, "Disabilities": 0, "Deaths": 0}

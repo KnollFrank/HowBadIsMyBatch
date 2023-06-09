@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "048M21A_1110517", "histogram": {"Abdominal pain": 1, "Alopecia": 1, "Death": 1, "Gastrointestinal necrosis": 1, "Mesenteric vein embolism": 1}, "Deaths": 1, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 1, "Disabilities": 0}
-=======
-{"batchcode": "048M21A_1110517", "histograms": [{"histogram": {"Abdominal pain": 1, "Alopecia": 1, "Death": 1, "Gastrointestinal necrosis": 1, "Mesenteric vein embolism": 1}, "batchcodes": ["048M21A_1110517"]}]}
->>>>>>> restore-countries
+{"batchcode": "048M21A_1110517", "histogram": {"Abdominal pain": 1, "Alopecia": 1, "Death": 1, "Gastrointestinal necrosis": 1, "Mesenteric vein embolism": 1}, "Life Threatening Illnesses": 1, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 1}

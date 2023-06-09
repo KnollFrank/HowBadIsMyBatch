@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "ABW3256", "histogram": {"Dysaesthesia": 1, "Hypoaesthesia": 1, "Pain in extremity": 1, "Ultrasound Doppler": 1}, "Deaths": 0, "Adverse Reaction Reports": 4, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 3}
-=======
-{"batchcode": "ABW3256", "histograms": [{"histogram": {"Amyotrophic lateral sclerosis": 1}, "batchcodes": ["044G21A", "ABW3256", "ABX1506"]}, {"histogram": {"Dysaesthesia": 1, "Hypoaesthesia": 1, "Pain in extremity": 1, "Ultrasound Doppler": 1}, "batchcodes": ["ABW3256"]}]}
->>>>>>> restore-countries
+{"batchcode": "ABW3256", "histogram": {"Dysaesthesia": 1, "Hypoaesthesia": 1, "Pain in extremity": 1, "Ultrasound Doppler": 1}, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 4, "Disabilities": 3, "Deaths": 0}

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "A57164B", "histogram": {"Cardiac monitoring": 1, "Computerised tomogram": 1, "Computerised tomogram head": 1, "Dyspnoea": 1, "Palpitations": 1, "Productive cough": 1, "Pyrexia": 1, "Respiratory tract infection": 1, "Sinusitis": 1, "Tinnitus": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
-=======
-{"batchcode": "A57164B", "histograms": [{"histogram": {"Cardiac monitoring": 1, "Computerised tomogram": 1, "Computerised tomogram head": 1, "Dyspnoea": 1, "Palpitations": 1, "Productive cough": 1, "Pyrexia": 1, "Respiratory tract infection": 1, "Sinusitis": 1, "Tinnitus": 1}, "batchcodes": ["A57164B"]}]}
->>>>>>> restore-countries
+{"batchcode": "A57164B", "histogram": {"Cardiac monitoring": 1, "Computerised tomogram": 1, "Computerised tomogram head": 1, "Dyspnoea": 1, "Palpitations": 1, "Productive cough": 1, "Pyrexia": 1, "Respiratory tract infection": 1, "Sinusitis": 1, "Tinnitus": 1}, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 0}

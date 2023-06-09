@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "LOT045G21A", "histogram": {"Cardiac failure": 1, "Electrocardiogram": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
-=======
-{"batchcode": "LOT045G21A", "histograms": [{"histogram": {"Cardiac failure": 1, "Electrocardiogram": 1}, "batchcodes": ["1D018A", "1E029A", "LOT045G21A"]}]}
->>>>>>> restore-countries
+{"batchcode": "LOT045G21A", "histogram": {"Cardiac failure": 1, "Electrocardiogram": 1}, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Deaths": 0}

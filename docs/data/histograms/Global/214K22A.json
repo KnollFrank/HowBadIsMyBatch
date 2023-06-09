@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "214K22A", "histogram": {"Underdose": 15, "Unevaluable event": 10, "Incorrect product formulation administered": 4, "No adverse event": 1}, "Deaths": 0, "Adverse Reaction Reports": 29, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
-=======
-{"batchcode": "214K22A", "histograms": [{"histogram": {"Underdose": 15, "Unevaluable event": 10, "Incorrect product formulation administered": 4, "No adverse event": 1}, "batchcodes": ["214K22A"]}]}
->>>>>>> restore-countries
+{"batchcode": "214K22A", "histogram": {"Underdose": 15, "Unevaluable event": 10, "Incorrect product formulation administered": 4, "No adverse event": 1}, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Adverse Reaction Reports": 29, "Disabilities": 0, "Deaths": 0}

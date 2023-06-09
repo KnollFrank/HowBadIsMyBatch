@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "L202006031", "histogram": {"Loss of consciousness": 1}, "Deaths": 4, "Adverse Reaction Reports": 4, "Company": "UNKNOWN MANUFACTURER", "Life Threatening Illnesses": 0, "Disabilities": 0}
-=======
-{"batchcode": "L202006031", "histograms": [{"histogram": {"Loss of consciousness": 1}, "batchcodes": ["046G21A", "L202006031", "L202106046", "PCB0015"]}]}
->>>>>>> restore-countries
+{"batchcode": "L202006031", "histogram": {"Loss of consciousness": 1}, "Life Threatening Illnesses": 0, "Company": "UNKNOWN MANUFACTURER", "Adverse Reaction Reports": 4, "Disabilities": 0, "Deaths": 4}
