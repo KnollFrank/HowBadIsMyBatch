@@ -31,11 +31,11 @@ class BatchcodeByCountryBarChart {
             labels: barChartDescription.countries,
             datasets: [
                 {
-                    label: "frequencies before deletion", // FK-TODO: daterange einfügen, allerdings für "frequencies guessed"
+                    label: "frequencies before deletion", // FK-TODO: daterange einfügen
                     data: barChartDescription["frequencies before deletion"]
                 },
                 {
-                    label: "frequencies guessed",
+                    label: "frequencies guessed", // FK-TODO: daterange einfügen
                     data: barChartDescription["frequencies guessed"]
                 }
             ]
