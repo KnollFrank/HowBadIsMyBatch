@@ -33,13 +33,15 @@
   <script src="./UIUtils.js"></script>
   <script src="./ColumnSearch.js"></script>
   <script src="./BatchCodeTableInitializer.js"></script>
-  <script src="./BarChartDescriptionsProvider.js"></script>
   <script src="./BatchcodeByCountryBarChartView.js"></script>
   <script src="./BatchcodeByCountryBarChart.js"></script>
   <script>
     $(document).ready(function () {
-      const batchCodeTableInitializer = new BatchCodeTableInitializer($('#batchCodeTable'));
-      batchCodeTableInitializer.initialize();
+      new BatchCodeTableInitializer().initialize(
+        {
+          batchCodeTableElement: $('#batchCodeTable'),
+          showCountries: false
+        });
     });
   </script>
 </head>

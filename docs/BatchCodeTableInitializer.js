@@ -1,28 +1,32 @@
 class BatchCodeTableInitializer {
 
-    #batchCodeTableElement;
-    #batchCodeTable;
-    #columnSearch;
-    #barChartDescriptions;
-
-    constructor(batchCodeTableElement) {
-        this.#batchCodeTableElement = batchCodeTableElement;
-    }
-
-    initialize() {
-        this.#batchCodeTable = this.#createEmptyBatchCodeTable();
-        this.#columnSearch = new ColumnSearch(this.#batchCodeTable.column(this.#getColumnIndex('Company')));
-        this.#displayCountry();
-        BarChartDescriptionsProvider
-            .getBarChartDescriptions()
+    initialize({ batchCodeTableElement, showCountries }) {
+        // FK-TODO: show "Loading.." message or spinning wheel.
+        this.#loadBarChartDescriptions(showCountries)
             .then(barChartDescriptions => {
-                this.#barChartDescriptions = barChartDescriptions;
-
+                const batchCodeTable = this.#createEmptyBatchCodeTable(batchCodeTableElement, showCountries, barChartDescriptions);
+                this.#setVisibilityOfCountriesColumn(batchCodeTable, showCountries);
+                fetch('data/batchCodeTables/Global.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.#addCountriesColumn(json);
+                        return json;
+                    })
+                    .then(json => {
+                        this.#setTableRows(batchCodeTable, json.data);
+                        this.#makeCompanyColumnFilterable(batchCodeTable);
+                    });
             });
     }
 
-    #createEmptyBatchCodeTable() {
-        return this.#batchCodeTableElement.DataTable(
+    #loadBarChartDescriptions(shallLoad) {
+        return shallLoad ?
+            fetch('data/barChartDescriptionTable.json').then(response => response.json()) :
+            Promise.resolve({});
+    }
+
+    #createEmptyBatchCodeTable(batchCodeTableElement, showCountries, barChartDescriptions) {
+        return batchCodeTableElement.DataTable(
             {
                 language:
                 {
@@ -63,7 +67,10 @@ class BatchCodeTableInitializer {
                                 const numberInPercent = parseFloat(data);
                                 return !isNaN(numberInPercent) ? numberInPercent.toFixed(2) + "%" : '';
                             },
-                            targets: [this.#getColumnIndex('Severe reports'), this.#getColumnIndex('Lethality')]
+                            targets: [
+                                this.#getColumnIndex('Severe reports'),
+                                this.#getColumnIndex('Lethality')
+                            ]
                         },
                         {
                             width: "1000px",
@@ -71,11 +78,11 @@ class BatchCodeTableInitializer {
                                 return null;
                             },
                             createdCell: (cell, cellData, row, rowIndex, colIndex) => {
-                                const batchcode = row[this.#getColumnIndex('Batch')];
-                                if (batchcode in this.#barChartDescriptions) {
-                                    const barChartDescription = this.#barChartDescriptions[batchcode];
-                                    barChartDescription['batchcode'] = batchcode;
-                                    new BatchcodeByCountryBarChartView(cell).displayBatchcodeByCountryBarChart(barChartDescription);
+                                if (showCountries) {
+                                    this.#displayBatchcodeByCountryBarChart(
+                                        row[this.#getColumnIndex('Batch')],
+                                        barChartDescriptions,
+                                        cell);
                                 }
                             },
                             className: "dt-head-center",
@@ -84,6 +91,7 @@ class BatchCodeTableInitializer {
                     ]
             });
     }
+
 
     #getColumnIndex(columnName) {
         switch (columnName) {
@@ -108,35 +116,34 @@ class BatchCodeTableInitializer {
         }
     }
 
-    // FK-TODO: rename
-    #displayCountry() {
-        // FK-TODO: show "Loading.." message or spinning wheel.
-        BarChartDescriptionsProvider
-            .getBarChartDescriptions()
-            .then(barChartDescriptions => {
-                this.#barChartDescriptions = barChartDescriptions;
-                fetch('data/batchCodeTables/Global.json')
-                    .then(response => response.json())
-                    .then(json => {
-                        this.#_addCountriesColumn(json);
-                        return json;
-                    })
-                    .then(json => {
-                        this.#setTableRows(json.data);
-                        this.#columnSearch.columnContentUpdated();
-                    });
-            })
+    #displayBatchcodeByCountryBarChart(batchcode, barChartDescriptions, uiContainer) {
+        if (batchcode in barChartDescriptions) {
+            const barChartDescription = barChartDescriptions[batchcode];
+            barChartDescription['batchcode'] = batchcode;
+            new BatchcodeByCountryBarChartView(uiContainer).displayBatchcodeByCountryBarChart(barChartDescription);
+        }
     }
 
-    #_addCountriesColumn(json) {
+    #setVisibilityOfCountriesColumn(batchCodeTable, showCountries) {
+        batchCodeTable
+            .column(this.#getColumnIndex('Countries'))
+            .visible(showCountries);
+    }
+
+    #addCountriesColumn(json) {
         json.columns.push('Countries');
         json.data.forEach(row => row.push(null));
     }
 
-    #setTableRows(rows) {
-        this.#batchCodeTable
+    #setTableRows(batchCodeTable, rows) {
+        batchCodeTable
             .clear()
             .rows.add(rows)
             .draw();
+    }
+
+    #makeCompanyColumnFilterable(batchCodeTable) {
+        const companyColumnFilter = new ColumnSearch(batchCodeTable.column(this.#getColumnIndex('Company')));
+        companyColumnFilter.columnContentUpdated();
     }
 }

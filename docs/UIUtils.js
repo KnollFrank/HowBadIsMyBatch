@@ -26,14 +26,14 @@ class UIUtils {
     }
 
     static getYLabelWithPercent(context) {
-        return UIUtils._getLabelWithPercent(context, context.parsed.y);
+        return UIUtils.#getLabelWithPercent(context, context.parsed.y);
     }
 
     static getXLabelWithPercent(context) {
-        return UIUtils._getLabelWithPercent(context, context.parsed.x);
+        return UIUtils.#getLabelWithPercent(context, context.parsed.x);
     }
 
-    static _getLabelWithPercent(context, value) {
+    static #getLabelWithPercent(context, value) {
         let label = context.dataset.label || '';
 
         if (label) {
