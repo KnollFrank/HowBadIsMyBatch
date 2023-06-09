@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FK9943", "histogram": {"COVID-19": 1, "Cardiogenic shock": 1, "Cough": 1, "Dizziness": 1, "Feeling hot": 1, "Nausea": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1, "Vision blurred": 1, "Vomiting": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "FK9943", "histograms": [{"histogram": {"COVID-19": 1, "Cardiogenic shock": 1, "Cough": 1, "Dizziness": 1, "Feeling hot": 1, "Nausea": 1, "Oropharyngeal pain": 1, "SARS-CoV-2 test positive": 1, "Vision blurred": 1, "Vomiting": 1}, "batchcodes": ["FK9943"]}]}
+>>>>>>> restore-countries

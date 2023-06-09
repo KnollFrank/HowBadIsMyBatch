@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "4302MF024", "histogram": {"Anaphylactic reaction": 4, "Anaphylactoid reaction": 1}, "Deaths": 0, "Adverse Reaction Reports": 5, "Company": "UNKNOWN MANUFACTURER", "Life Threatening Illnesses": 2, "Disabilities": 0}
+=======
+{"batchcode": "4302MF024", "histograms": [{"histogram": {"Anaphylactic reaction": 4, "Anaphylactoid reaction": 1}, "batchcodes": ["4302MF024"]}]}
+>>>>>>> restore-countries

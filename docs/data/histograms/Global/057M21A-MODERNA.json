@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "057M21A-MODERNA", "histogram": {"Acute respiratory failure": 1, "COVID-19 pneumonia": 1, "Coagulopathy": 1, "Deep vein thrombosis": 1, "Diaphragmatic hernia": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "057M21A-MODERNA", "histograms": [{"histogram": {"Acute respiratory failure": 1, "COVID-19 pneumonia": 1, "Coagulopathy": 1, "Deep vein thrombosis": 1, "Diaphragmatic hernia": 1}, "batchcodes": ["057M21A-MODERNA"]}]}
+>>>>>>> restore-countries

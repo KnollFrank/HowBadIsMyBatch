@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "LOT 000117A", "histogram": {"Cerebrovascular accident": 1, "Headache": 1, "Thrombocytopenic purpura": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "LOT 000117A", "histograms": [{"histogram": {"Arrhythmia": 1, "C-reactive protein": 1, "Cardiovascular disorder": 1, "Dizziness": 1, "Drug hypersensitivity": 1, "Dyspnoea": 1, "Dysuria": 1, "Feeling hot": 1, "Hot flush": 1, "Hypoaesthesia": 1, "Inappropriate schedule of product administration": 1, "Investigation": 1, "Lymphadenopathy": 1, "Muscle spasms": 1, "Oedema": 1, "Petechiae": 1, "Pruritus": 1, "Rash": 1, "Renal function test": 1, "Skin burning sensation": 1, "Skin haemorrhage": 1, "Swollen tongue": 1, "Syncope": 1, "Weight": 1, "Weight increased": 1, "White blood cell count": 1}, "batchcodes": ["1D017A", "LOT 000117A"]}, {"histogram": {"Cerebrovascular accident": 1, "Headache": 1, "Thrombocytopenic purpura": 1}, "batchcodes": ["LOT 000117A"]}]}
+>>>>>>> restore-countries

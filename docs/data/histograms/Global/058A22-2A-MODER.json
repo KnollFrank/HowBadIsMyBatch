@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "058A22-2A-MODER", "histogram": {"Pulmonary embolism": 2, "Acute respiratory failure": 1, "Cerebrovascular accident": 1, "Diabetic nephropathy": 1, "Hypertension": 1, "Partial seizures": 1, "Petit mal epilepsy": 1}, "Deaths": 0, "Adverse Reaction Reports": 5, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "058A22-2A-MODER", "histograms": [{"histogram": {"Pulmonary embolism": 2, "Acute respiratory failure": 1, "Cerebrovascular accident": 1, "Diabetic nephropathy": 1, "Hypertension": 1, "Partial seizures": 1, "Petit mal epilepsy": 1}, "batchcodes": ["058A22-2A-MODER"]}]}
+>>>>>>> restore-countries

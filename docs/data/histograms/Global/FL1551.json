@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FL1551", "histogram": {"No adverse event": 2, "Expired product administered": 1, "Unevaluable event": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "FL1551", "histograms": [{"histogram": {"No adverse event": 2, "Expired product administered": 1, "Unevaluable event": 1}, "batchcodes": ["FL1551"]}]}
+>>>>>>> restore-countries

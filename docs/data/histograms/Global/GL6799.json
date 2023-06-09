@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "GL6799", "histogram": {"Body temperature": 2, "Pyrexia": 2, "Anaphylactic reaction": 1, "Blood pressure decreased": 1, "Fall": 1, "Febrile convulsion": 1, "Feeding disorder": 1, "Loss of consciousness": 1, "Nausea": 1, "Pneumonia": 1, "Presyncope": 1, "Tonic convulsion": 1, "Vomiting": 1}, "Deaths": 0, "Adverse Reaction Reports": 4, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "GL6799", "histograms": [{"histogram": {"Body temperature": 2, "Pyrexia": 2, "Anaphylactic reaction": 1, "Blood pressure decreased": 1, "Fall": 1, "Febrile convulsion": 1, "Feeding disorder": 1, "Loss of consciousness": 1, "Nausea": 1, "Pneumonia": 1, "Presyncope": 1, "Tonic convulsion": 1, "Vomiting": 1}, "batchcodes": ["GL6799"]}]}
+>>>>>>> restore-countries

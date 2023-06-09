@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "21C13", "histogram": {"Chills": 1, "Palpitations": 1, "Photosensitivity reaction": 1, "Sunburn": 1}, "Deaths": 0, "Adverse Reaction Reports": 4, "Company": "JANSSEN", "Life Threatening Illnesses": 3, "Disabilities": 2}
+=======
+{"batchcode": "21C13", "histograms": [{"histogram": {"Aphasia": 1, "Axonal neuropathy": 1, "Dysarthria": 1, "Dyslexia": 1, "Dysphagia": 1, "Muscle spasms": 1}, "batchcodes": ["1F1017A", "21C13"]}, {"histogram": {"Chills": 1, "Palpitations": 1, "Photosensitivity reaction": 1, "Sunburn": 1}, "batchcodes": ["21C13"]}]}
+>>>>>>> restore-countries

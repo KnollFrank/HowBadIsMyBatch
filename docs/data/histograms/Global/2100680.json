@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "2100680", "histogram": {"Abdominal pain": 2, "Diarrhoea": 1, "Gastritis": 1, "Pyrexia": 1}, "Deaths": 3, "Adverse Reaction Reports": 6, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "2100680", "histograms": [{"histogram": {"Death": 1}, "batchcodes": ["2100680", "C202105084", "J202106033"]}, {"histogram": {"Abdominal pain": 2, "Diarrhoea": 1, "Gastritis": 1, "Pyrexia": 1}, "batchcodes": ["2100680"]}]}
+>>>>>>> restore-countries

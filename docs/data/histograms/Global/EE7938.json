@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EE7938", "histogram": {"Product administered to patient of inappropriate age": 2, "Dizziness": 1, "Expired product administered": 1, "Fall": 1, "Feeling abnormal": 1, "Product storage error": 1, "Syncope": 1}, "Deaths": 0, "Adverse Reaction Reports": 6, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 1}
+=======
+{"batchcode": "EE7938", "histograms": [{"histogram": {"Arthralgia": 1, "COVID-19": 1, "Dysstasia": 1, "Gait disturbance": 1, "Muscle atrophy": 1, "Weight bearing difficulty": 1}, "batchcodes": ["EE7938", "EW0180"]}, {"histogram": {"Product administered to patient of inappropriate age": 2, "Dizziness": 1, "Expired product administered": 1, "Fall": 1, "Feeling abnormal": 1, "Product storage error": 1, "Syncope": 1}, "batchcodes": ["EE7938"]}]}
+>>>>>>> restore-countries

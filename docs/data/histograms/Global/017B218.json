@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "017B218", "histogram": {"COVID-19": 1, "No adverse event": 1, "Product administered to patient of inappropriate age": 1, "SARS-CoV-2 test positive": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "017B218", "histograms": [{"histogram": {"Acoustic stimulation tests": 1, "Asthenia": 1, "Balance disorder": 1, "Blood test": 1, "Computerised tomogram": 1, "Dizziness": 1, "Gait inability": 1, "Hyperhidrosis": 1, "Magnetic resonance imaging": 1, "Malaise": 1, "Mobility decreased": 1, "Tinnitus": 1, "Vertigo": 1, "Vomiting": 1}, "batchcodes": ["017B218", "027A21A", "071F21A"]}, {"histogram": {"COVID-19": 1, "SARS-CoV-2 test positive": 1}, "batchcodes": ["017B218", "02M2008"]}, {"histogram": {"No adverse event": 1, "Product administered to patient of inappropriate age": 1}, "batchcodes": ["017B218"]}]}
+>>>>>>> restore-countries

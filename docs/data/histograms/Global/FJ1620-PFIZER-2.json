@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FJ1620-PFIZER-2", "histogram": {"Acute respiratory failure": 2, "Biliary obstruction": 1, "Cerebrovascular accident": 1, "Dehydration": 1, "Hypotension": 1, "Ischaemia": 1, "Lacunar stroke": 1, "Neuropathy peripheral": 1, "Small intestinal obstruction": 1, "Symptom recurrence": 1, "Upper gastrointestinal haemorrhage": 1}, "Deaths": 0, "Adverse Reaction Reports": 6, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "FJ1620-PFIZER-2", "histograms": [{"histogram": {"Acute respiratory failure": 2, "Biliary obstruction": 1, "Cerebrovascular accident": 1, "Dehydration": 1, "Hypotension": 1, "Ischaemia": 1, "Lacunar stroke": 1, "Neuropathy peripheral": 1, "Small intestinal obstruction": 1, "Symptom recurrence": 1, "Upper gastrointestinal haemorrhage": 1}, "batchcodes": ["FJ1620-PFIZER-2"]}]}
+>>>>>>> restore-countries

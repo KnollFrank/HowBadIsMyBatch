@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "1110-20-026L20A", "histogram": {"Acute respiratory failure": 3, "Hypotension": 2, "Adult failure to thrive": 1, "Anaemia": 1, "Anxiety": 1, "Cerebrovascular accident": 1, "Colitis ulcerative": 1, "Computerised tomogram abdomen abnormal": 1, "Haemorrhoids": 1, "Hypoxia": 1, "Mental status changes": 1, "Neuropathy peripheral": 1}, "Deaths": 0, "Adverse Reaction Reports": 6, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "1110-20-026L20A", "histograms": [{"histogram": {"Acute respiratory failure": 3, "Hypotension": 2, "Adult failure to thrive": 1, "Anaemia": 1, "Anxiety": 1, "Cerebrovascular accident": 1, "Colitis ulcerative": 1, "Computerised tomogram abdomen abnormal": 1, "Haemorrhoids": 1, "Hypoxia": 1, "Mental status changes": 1, "Neuropathy peripheral": 1}, "batchcodes": ["1110-20-026L20A"]}]}
+>>>>>>> restore-countries

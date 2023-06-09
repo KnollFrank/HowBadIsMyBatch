@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "F69428", "histogram": {"Angina pectoris": 2, "Pain in extremity": 2, "Pyrexia": 2, "Arthralgia": 1, "Electrocardiogram": 1, "Headache": 1, "Localised oedema": 1, "Lymphadenopathy": 1, "Magnetic resonance imaging": 1, "Pain": 1, "Pericarditis": 1, "Pneumonia": 1, "Swelling": 1, "Ultrasound scan": 1}, "Deaths": 0, "Adverse Reaction Reports": 4, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 1, "Disabilities": 0}
+=======
+{"batchcode": "F69428", "histograms": [{"histogram": {"Angina pectoris": 2, "Pain in extremity": 2, "Pyrexia": 2, "Arthralgia": 1, "Electrocardiogram": 1, "Headache": 1, "Localised oedema": 1, "Lymphadenopathy": 1, "Magnetic resonance imaging": 1, "Pain": 1, "Pericarditis": 1, "Pneumonia": 1, "Swelling": 1, "Ultrasound scan": 1}, "batchcodes": ["F69428"]}]}
+>>>>>>> restore-countries

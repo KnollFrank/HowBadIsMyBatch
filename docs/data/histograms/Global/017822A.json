@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "017822A", "histogram": {"Anaphylactic reaction": 1, "Blood test": 1, "Delivery": 1, "Dysphonia": 1, "Exposure during pregnancy": 1, "Nasal congestion": 1, "Respiratory tract congestion": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 1, "Disabilities": 1}
+=======
+{"batchcode": "017822A", "histograms": [{"histogram": {"Anaphylactic reaction": 1, "Blood test": 1, "Delivery": 1, "Dysphonia": 1, "Exposure during pregnancy": 1, "Nasal congestion": 1, "Respiratory tract congestion": 1}, "batchcodes": ["017822A"]}]}
+>>>>>>> restore-countries

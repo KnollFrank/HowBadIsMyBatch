@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "000127A", "histogram": {"Body temperature": 2, "Autoimmune hepatitis": 1, "Chest X-ray": 1, "Computerised tomogram": 1, "Dyslalia": 1, "Fall": 1, "General physical health deterioration": 1, "Magnetic resonance imaging": 1, "Muscular weakness": 1, "Oculomucocutaneous syndrome": 1, "Physical examination": 1, "Urticaria": 1, "Vomiting": 1}, "Deaths": 1, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 1, "Disabilities": 0}
+=======
+{"batchcode": "000127A", "histograms": [{"histogram": {"Body temperature": 2, "Autoimmune hepatitis": 1, "Chest X-ray": 1, "Computerised tomogram": 1, "Dyslalia": 1, "Fall": 1, "General physical health deterioration": 1, "Magnetic resonance imaging": 1, "Muscular weakness": 1, "Oculomucocutaneous syndrome": 1, "Physical examination": 1, "Urticaria": 1, "Vomiting": 1}, "batchcodes": ["000127A"]}]}
+>>>>>>> restore-countries

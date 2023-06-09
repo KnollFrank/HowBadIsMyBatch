@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "GL0046", "histogram": {"Extra dose administered": 2, "Incorrect product formulation administered": 1, "No adverse event": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "GL0046", "histograms": [{"histogram": {"Extra dose administered": 2, "Incorrect product formulation administered": 1, "No adverse event": 1}, "batchcodes": ["GL0046"]}]}
+>>>>>>> restore-countries

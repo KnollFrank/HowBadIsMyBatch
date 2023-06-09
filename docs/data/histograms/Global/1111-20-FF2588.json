@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "1111-20-FF2588", "histogram": {"Symptom recurrence": 2, "Acute respiratory failure": 1, "Coagulopathy": 1, "Hypoxia": 1, "Neuropathy peripheral": 1, "Respiratory failure": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "1111-20-FF2588", "histograms": [{"histogram": {"Symptom recurrence": 2, "Acute respiratory failure": 1, "Coagulopathy": 1, "Hypoxia": 1, "Neuropathy peripheral": 1, "Respiratory failure": 1}, "batchcodes": ["1111-20-FF2588"]}]}
+>>>>>>> restore-countries

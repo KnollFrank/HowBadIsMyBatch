@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "1111-FJ1611", "histogram": {"Acute myocardial infarction": 3, "Symptom recurrence": 3, "Acute respiratory failure": 1, "COVID-19 pneumonia": 1, "Deep vein thrombosis": 1, "Ischaemic stroke": 1}, "Deaths": 0, "Adverse Reaction Reports": 6, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "1111-FJ1611", "histograms": [{"histogram": {"Acute myocardial infarction": 3, "Symptom recurrence": 3, "Acute respiratory failure": 1, "COVID-19 pneumonia": 1, "Deep vein thrombosis": 1, "Ischaemic stroke": 1}, "batchcodes": ["1111-FJ1611"]}]}
+>>>>>>> restore-countries

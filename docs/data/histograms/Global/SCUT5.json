@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "SCUT5", "histogram": {"COVID-19 pneumonia": 1, "Diverticulum": 1, "Epilepsy": 1, "Facial paralysis": 1, "Hypergammaglobulinaemia benign monoclonal": 1, "Immunisation": 1, "SARS-CoV-2 test": 1}, "Deaths": 1, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "SCUT5", "histograms": [{"histogram": {"COVID-19 pneumonia": 1, "Diverticulum": 1, "Epilepsy": 1, "Facial paralysis": 1, "Hypergammaglobulinaemia benign monoclonal": 1, "Immunisation": 1, "SARS-CoV-2 test": 1}, "batchcodes": ["SCUT5"]}]}
+>>>>>>> restore-countries

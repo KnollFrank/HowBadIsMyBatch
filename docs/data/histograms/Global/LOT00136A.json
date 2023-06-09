@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "LOT00136A", "histogram": {"Angina pectoris": 1, "Arthralgia": 1, "Fatigue": 1, "Headache": 1, "Injection site pain": 1, "Injection site swelling": 1, "Malaise": 1, "Myalgia": 1, "Nausea": 1}, "Deaths": 0, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "LOT00136A", "histograms": [{"histogram": {"Angina pectoris": 1, "Arthralgia": 1, "Fatigue": 1, "Headache": 1, "Injection site pain": 1, "Injection site swelling": 1, "Malaise": 1, "Myalgia": 1, "Nausea": 1}, "batchcodes": ["ABX5182", "FE6975", "LOT00136A"]}]}
+>>>>>>> restore-countries

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "007D22A", "histogram": {"Anaphylactic reaction": 1, "Arthralgia": 1, "Dyspnoea": 1, "Flat affect": 1, "Oedema peripheral": 1, "Pain": 1, "Premature baby": 1, "Rash": 1, "Tachycardia": 1, "Vision blurred": 1}, "Deaths": 0, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Disabilities": 0}
+=======
+{"batchcode": "007D22A", "histograms": [{"histogram": {"Anaphylactic reaction": 1, "Arthralgia": 1, "Dyspnoea": 1, "Flat affect": 1, "Oedema peripheral": 1, "Pain": 1, "Premature baby": 1, "Rash": 1, "Tachycardia": 1, "Vision blurred": 1}, "batchcodes": ["007D22A"]}]}
+>>>>>>> restore-countries
