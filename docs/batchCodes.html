@@ -40,7 +40,7 @@
       new BatchCodeTableInitializer().initialize(
         {
           batchCodeTableElement: $('#batchCodeTable'),
-          showCountries: false
+          showCountriesColumn: UIUtils.getSearchParam(new URLSearchParams(window.location.search), 'showCountriesColumn', '').toUpperCase() == 'YES'
         });
     });
   </script>

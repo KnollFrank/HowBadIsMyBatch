@@ -58,4 +58,10 @@ class UIUtils {
             }
         }
     }
+
+    static getSearchParam(urlParams, searchParam, defaultValue) {
+        return urlParams.has(searchParam) ?
+            urlParams.get(searchParam) :
+            defaultValue;
+    }
 }

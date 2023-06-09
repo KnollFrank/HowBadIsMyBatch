@@ -1,11 +1,11 @@
 class BatchCodeTableInitializer {
 
-    initialize({ batchCodeTableElement, showCountries }) {
+    initialize({ batchCodeTableElement, showCountriesColumn }) {
         // FK-TODO: show "Loading.." message or spinning wheel.
-        this.#loadBarChartDescriptions(showCountries)
+        this.#loadBarChartDescriptions(showCountriesColumn)
             .then(barChartDescriptions => {
-                const batchCodeTable = this.#createEmptyBatchCodeTable(batchCodeTableElement, showCountries, barChartDescriptions);
-                this.#setVisibilityOfCountriesColumn(batchCodeTable, showCountries);
+                const batchCodeTable = this.#createEmptyBatchCodeTable(batchCodeTableElement, showCountriesColumn, barChartDescriptions);
+                this.#setVisibilityOfCountriesColumn(batchCodeTable, showCountriesColumn);
                 fetch('data/batchCodeTables/Global.json')
                     .then(response => response.json())
                     .then(json => {
@@ -25,7 +25,7 @@ class BatchCodeTableInitializer {
             Promise.resolve({});
     }
 
-    #createEmptyBatchCodeTable(batchCodeTableElement, showCountries, barChartDescriptions) {
+    #createEmptyBatchCodeTable(batchCodeTableElement, showCountriesColumn, barChartDescriptions) {
         return batchCodeTableElement.DataTable(
             {
                 language:
@@ -78,7 +78,7 @@ class BatchCodeTableInitializer {
                                 return null;
                             },
                             createdCell: (cell, cellData, row, rowIndex, colIndex) => {
-                                if (showCountries) {
+                                if (showCountriesColumn) {
                                     this.#displayBatchcodeByCountryBarChart(
                                         row[this.#getColumnIndex('Batch')],
                                         barChartDescriptions,
@@ -124,10 +124,10 @@ class BatchCodeTableInitializer {
         }
     }
 
-    #setVisibilityOfCountriesColumn(batchCodeTable, showCountries) {
+    #setVisibilityOfCountriesColumn(batchCodeTable, showCountriesColumn) {
         batchCodeTable
             .column(this.#getColumnIndex('Countries'))
-            .visible(showCountries);
+            .visible(showCountriesColumn);
     }
 
     #addCountriesColumn(json) {
