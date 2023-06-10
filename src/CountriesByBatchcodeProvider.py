@@ -49,3 +49,7 @@ def getCountriesByBatchcodeBeforeDeletion():
     internationalVaersCovid19 = getInternationalVaersCovid19(dataDir = 'VAERS/VAERSBeforeDeletion', years = [2020, 2021, 2022])
     batchCodeTable = BatchCodeTableFactory(internationalVaersCovid19).createGlobalBatchCodeTable(countriesAsList = True)
     return batchCodeTable[['Countries']]
+
+
+def filterByBatchcodes(countryCountsByBatchcode, batchcodes2Retain):
+    return countryCountsByBatchcode.loc[(batchcodes2Retain, slice(None)), :]
