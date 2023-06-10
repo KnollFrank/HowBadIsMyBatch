@@ -56,7 +56,6 @@ class BatchcodeByCountryBarChart {
             },
             scales: {
                 y: {
-                    // FK-TODO: im main branch und pages branch in AdverseReactionReportsChartView.js wie hier "precision: 0" setzen
                     ticks: {
                         precision: 0
                     },
