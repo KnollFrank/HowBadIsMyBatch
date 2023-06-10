@@ -1,5 +1,4 @@
 // adapted from https://datatables.net/examples/api/multi_filter_select.html
-// FK-TODO: rename to ColumnFilter
 class ColumnSearch {
 
     #column;

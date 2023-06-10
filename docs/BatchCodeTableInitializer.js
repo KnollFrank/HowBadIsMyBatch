@@ -14,7 +14,7 @@ class BatchCodeTableInitializer {
                     })
                     .then(json => {
                         this.#setTableRows(batchCodeTable, json.data);
-                        this.#makeCompanyColumnFilterable(batchCodeTable);
+                        this.#makeCompanyColumnSearchable(batchCodeTable);
                     });
             });
     }
@@ -142,8 +142,8 @@ class BatchCodeTableInitializer {
             .draw();
     }
 
-    #makeCompanyColumnFilterable(batchCodeTable) {
-        const companyColumnFilter = new ColumnSearch(batchCodeTable.column(this.#getColumnIndex('Company')));
-        companyColumnFilter.columnContentUpdated();
+    #makeCompanyColumnSearchable(batchCodeTable) {
+        const companyColumnSearch = new ColumnSearch(batchCodeTable.column(this.#getColumnIndex('Company')));
+        companyColumnSearch.columnContentUpdated();
     }
 }
