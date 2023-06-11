@@ -30,16 +30,19 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.0/dist/chart.umd.min.js"></script>
   <script src="./Utils.js"></script>
   <script src="./UIUtils.js"></script>
+  <script src="./DataTablesFilter.js"></script>
   <script src="./ColumnSearch.js"></script>
   <script src="./BatchCodeTableInitializer.js"></script>
   <script src="./BatchcodeByCountryBarChartView.js"></script>
   <script src="./BatchcodeByCountryBarChart.js"></script>
   <script>
     $(document).ready(function () {
+      urlSearchParams = new URLSearchParams(window.location.search);
       new BatchCodeTableInitializer().initialize(
         {
           batchCodeTableElement: $('#batchCodeTable'),
-          showCountriesColumn: UIUtils.getSearchParam(new URLSearchParams(window.location.search), 'showCountriesColumn', '').toUpperCase() == 'YES'
+          showCountriesColumn: UIUtils.isSearchParamYES(urlSearchParams, 'showCountriesColumn'),
+          showDataTablesFilter: UIUtils.isSearchParamYES(urlSearchParams, 'showDataTablesFilter'),
         });
     });
   </script>

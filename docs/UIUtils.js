@@ -64,4 +64,8 @@ class UIUtils {
             urlParams.get(searchParam) :
             defaultValue;
     }
+
+    static isSearchParamYES(urlParams, searchParam) {
+        return UIUtils.getSearchParam(urlParams, searchParam, 'NO').toUpperCase() == 'YES';
+    }
 }
