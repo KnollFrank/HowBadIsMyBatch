@@ -126,8 +126,8 @@ class BatchCodeTableInitializer {
     #getBarChartDescription(barChartDescriptions, batchcode) {
         const barChartDescription = barChartDescriptions.barChartDescriptions[batchcode];
         barChartDescription.batchcode = batchcode;
-        barChartDescription['dateRange guessed'] = barChartDescriptions['dateRange guessed'];
-        barChartDescription['dateRange before deletion'] = barChartDescriptions['dateRange before deletion'];
+        barChartDescription['date range guessed'] = barChartDescriptions['date range guessed'];
+        barChartDescription['date range known'] = barChartDescriptions['date range known'];
         return barChartDescription;
     }
 

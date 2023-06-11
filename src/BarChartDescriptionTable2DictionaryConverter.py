@@ -7,8 +7,8 @@ class BarChartDescriptionTable2DictionaryConverter:
     @staticmethod
     def convert2Dictionary(barChartDescriptionTable):
         return {
-            'dateRange guessed': BarChartDescriptionTable2DictionaryConverter.dateRange2Str(GoogleAnalyticsReader(dataDir='data/GoogleAnalytics').getDateRange()),
-            'dateRange before deletion': BarChartDescriptionTable2DictionaryConverter.dateRange2Str(getDateRangeOfVAERSReportsBeforeDeletionOfCountryCodes()),
+            'date range guessed': BarChartDescriptionTable2DictionaryConverter.dateRange2Str(GoogleAnalyticsReader(dataDir='data/GoogleAnalytics').getDateRange()),
+            'date range known': BarChartDescriptionTable2DictionaryConverter.dateRange2Str(getDateRangeOfVAERSReportsBeforeDeletionOfCountryCodes()),
             'barChartDescriptions': barChartDescriptionTable['BAR_CHART_DESCRIPTION'].to_dict()
         }
 
