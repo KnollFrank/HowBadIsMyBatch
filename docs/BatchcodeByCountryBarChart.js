@@ -35,11 +35,15 @@ class BatchcodeByCountryBarChart {
                     data: barChartDescription["frequencies before deletion"]
                 },
                 {
-                    label: "frequencies guessed", // FK-TODO: daterange einfügen
+                    label: `frequencies guessed ${this.#dateRange2str(barChartDescription.dateRange)}`,
                     data: barChartDescription["frequencies guessed"]
                 }
             ]
         };
+    }
+
+    #dateRange2str(dateRange) {
+        return `${dateRange.start} - ${dateRange.end}`;
     }
 
     #getOptions() {

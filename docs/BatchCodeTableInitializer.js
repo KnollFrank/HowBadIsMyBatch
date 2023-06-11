@@ -118,10 +118,16 @@ class BatchCodeTableInitializer {
 
     #displayBatchcodeByCountryBarChart(batchcode, barChartDescriptions, uiContainer) {
         if (batchcode in barChartDescriptions.barChartDescriptions) {
-            const barChartDescription = barChartDescriptions.barChartDescriptions[batchcode];
-            barChartDescription['batchcode'] = batchcode;
-            new BatchcodeByCountryBarChartView(uiContainer).displayBatchcodeByCountryBarChart(barChartDescription);
+            new BatchcodeByCountryBarChartView(uiContainer)
+                .displayBatchcodeByCountryBarChart(this.#getBarChartDescription(barChartDescriptions, batchcode));
         }
+    }
+
+    #getBarChartDescription(barChartDescriptions, batchcode) {
+        const barChartDescription = barChartDescriptions.barChartDescriptions[batchcode];
+        barChartDescription.batchcode = batchcode;
+        barChartDescription.dateRange = barChartDescriptions.dateRange;
+        return barChartDescription;
     }
 
     #setVisibilityOfCountriesColumn(batchCodeTable, showCountriesColumn) {
