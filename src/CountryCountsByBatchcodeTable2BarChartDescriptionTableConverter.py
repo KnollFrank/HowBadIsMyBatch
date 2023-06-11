@@ -8,8 +8,8 @@ class CountryCountsByBatchcodeTable2BarChartDescriptionTableConverter:
                     columns =
                         {
                             'COUNTRY': 'countries',
-                            'COUNTRY_COUNT_BY_VAX_LOT Clicked': 'frequencies guessed',
-                            'COUNTRY_COUNT_BY_VAX_LOT Before Deletion': 'frequencies before deletion'
+                            'COUNTRY_COUNT_BY_VAX_LOT Clicked': 'Adverse Reaction Reports guessed',
+                            'COUNTRY_COUNT_BY_VAX_LOT Before Deletion': 'Adverse Reaction Reports known'
                         })
                 .groupby('VAX_LOT')
                 .apply(lambda countryCountsTable: countryCountsTable.to_dict('list'))

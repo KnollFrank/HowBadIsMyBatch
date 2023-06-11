@@ -30,16 +30,16 @@ class CountryCountsByBatchcodeTable2BarChartDescriptionTableConverterTest(unitte
                 data = [
                         [
                             {
-                                'countries':                   ['Germany', 'Hungary'],
-                                'frequencies guessed':         [10,        15],
-                                'frequencies before deletion': [20,        30]
+                                'countries':                        ['Germany', 'Hungary'],
+                                'Adverse Reaction Reports guessed': [10,        15],
+                                'Adverse Reaction Reports known':   [20,        30]
                             }
                         ],
                         [
                             {
-                                'countries':                   ['Germany'],
-                                'frequencies guessed':         [70],
-                                'frequencies before deletion': [80]
+                                'countries':                        ['Germany'],
+                                'Adverse Reaction Reports guessed': [70],
+                                'Adverse Reaction Reports known':   [80]
                             }
                         ]
                        ],
