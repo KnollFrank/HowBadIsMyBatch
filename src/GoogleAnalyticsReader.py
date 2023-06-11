@@ -26,7 +26,12 @@ class GoogleAnalyticsReader:
         return datetime.strptime(str, '%Y%m%d').date()
     
     def _getMinMaxDateRange(self, dateRanges):
-        minDateRange = min([dateRange[0] for dateRange in dateRanges])
-        maxDateRange = max([dateRange[1] for dateRange in dateRanges])
-        return minDateRange, maxDateRange
+        minStartDate = min([self._getStartDate(dateRange) for dateRange in dateRanges])
+        maxEndDate = max([self._getEndDate(dateRange) for dateRange in dateRanges])
+        return minStartDate, maxEndDate
+    
+    def _getStartDate(self, dateRange):
+        return dateRange[0]
 
+    def _getEndDate(self, dateRange):
+        return dateRange[1]
