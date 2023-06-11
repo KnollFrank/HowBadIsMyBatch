@@ -21,4 +21,4 @@ class BarChartDescriptionTable2DictionaryConverter:
 
     @staticmethod
     def _date2Str(date):
-        return date.strftime("%d.%m.%Y")
+        return date.strftime("%b %d, %Y")

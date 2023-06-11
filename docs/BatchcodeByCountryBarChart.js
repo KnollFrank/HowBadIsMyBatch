@@ -31,11 +31,11 @@ class BatchcodeByCountryBarChart {
             labels: barChartDescription.countries,
             datasets: [
                 {
-                    label: `frequencies before deletion ${this.#dateRange2str(barChartDescription['dateRange before deletion'])}`,
+                    label: `known (${this.#dateRange2str(barChartDescription['dateRange before deletion'])})`,
                     data: barChartDescription["frequencies before deletion"]
                 },
                 {
-                    label: `frequencies guessed ${this.#dateRange2str(barChartDescription['dateRange guessed'])}`,
+                    label: `guessed (${this.#dateRange2str(barChartDescription['dateRange guessed'])})`,
                     data: barChartDescription["frequencies guessed"]
                 }
             ]
@@ -65,7 +65,7 @@ class BatchcodeByCountryBarChart {
                     },
                     title: {
                         display: true,
-                        text: 'Frequency'
+                        text: 'Adverse Reaction Reports'
                     }
                 },
                 x: {
