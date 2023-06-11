@@ -117,8 +117,8 @@ class BatchCodeTableInitializer {
     }
 
     #displayBatchcodeByCountryBarChart(batchcode, barChartDescriptions, uiContainer) {
-        if (batchcode in barChartDescriptions) {
-            const barChartDescription = barChartDescriptions[batchcode];
+        if (batchcode in barChartDescriptions.barChartDescriptions) {
+            const barChartDescription = barChartDescriptions.barChartDescriptions[batchcode];
             barChartDescription['batchcode'] = batchcode;
             new BatchcodeByCountryBarChartView(uiContainer).displayBatchcodeByCountryBarChart(barChartDescription);
         }
