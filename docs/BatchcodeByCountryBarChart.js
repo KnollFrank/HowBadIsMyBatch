@@ -35,7 +35,7 @@ class BatchcodeByCountryBarChart {
                     data: barChartDescription["frequencies before deletion"]
                 },
                 {
-                    label: `frequencies guessed ${this.#dateRange2str(barChartDescription.dateRange)}`,
+                    label: `frequencies guessed ${this.#dateRange2str(barChartDescription['dateRange guessed'])}`,
                     data: barChartDescription["frequencies guessed"]
                 }
             ]
