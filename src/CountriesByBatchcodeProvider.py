@@ -10,11 +10,15 @@ def getCountryCountsByBatchcodeTable():
 
 
 def _getCountryCountsByBatchcodeBeforeDeletion():
-    internationalVaersCovid19 = getInternationalVaersCovid19(dataDir = 'VAERS/VAERSBeforeDeletion', years = [2020, 2021, 2022])
+    internationalVaersCovid19 = _getInternationalVaersCovid19BeforeDeletion()
     return (internationalVaersCovid19
             .groupby('VAX_LOT')
             ['COUNTRY'].value_counts()
             .to_frame(name = 'COUNTRY_COUNT_BY_VAX_LOT'))
+
+
+def _getInternationalVaersCovid19BeforeDeletion():
+    return getInternationalVaersCovid19(dataDir = 'VAERS/VAERSBeforeDeletion', years = [2020, 2021, 2022])
 
 
 def _combineCountryCountsByBatchcodeTables(countryCountsByClickedBatchcode, countryCountsByBatchcodeBeforeDeletion):
@@ -29,6 +33,11 @@ def _combineCountryCountsByBatchcodeTables(countryCountsByClickedBatchcode, coun
     for column in countryCountsByBatchcode.columns:
         countryCountsByBatchcode[column] = countryCountsByBatchcode[column].astype('int64')
     return countryCountsByBatchcode
+
+
+def getDateRangeOfVAERSReportsBeforeDeletionOfCountryCodes():
+    dates = _getInternationalVaersCovid19BeforeDeletion()['RECVDATE']
+    return dates.min(), dates.max()
 
 
 def filterByBatchcodes(countryCountsByBatchcode, batchcodes2Retain):

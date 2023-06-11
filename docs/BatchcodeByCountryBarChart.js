@@ -31,7 +31,7 @@ class BatchcodeByCountryBarChart {
             labels: barChartDescription.countries,
             datasets: [
                 {
-                    label: "frequencies before deletion", // FK-TODO: daterange einfügen
+                    label: `frequencies before deletion ${this.#dateRange2str(barChartDescription['dateRange before deletion'])}`,
                     data: barChartDescription["frequencies before deletion"]
                 },
                 {
