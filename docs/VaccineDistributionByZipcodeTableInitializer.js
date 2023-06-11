@@ -8,7 +8,7 @@ class VaccineDistributionByZipcodeTableInitializer {
 
     initialize() {
         this.#createTable();
-        this.#selectInput();
+        DataTablesFilter.selectDataTablesFilter();
     }
 
     #createTable() {
@@ -50,11 +50,5 @@ class VaccineDistributionByZipcodeTableInitializer {
             case 'Statistical Number of Adverse Reaction Reports (per 100,000)':
                 return 5;
         }
-    }
-
-    #selectInput() {
-        const input = document.querySelector(".dataTables_filter input");
-        input.focus();
-        input.select();
     }
 }

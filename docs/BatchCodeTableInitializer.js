@@ -1,11 +1,12 @@
 class BatchCodeTableInitializer {
 
-    initialize({ batchCodeTableElement, showCountriesColumn }) {
+    initialize({ batchCodeTableElement, showCountriesColumn, showDataTablesFilter }) {
         // FK-TODO: show "Loading.." message or spinning wheel.
         this.#loadBarChartDescriptions(showCountriesColumn)
             .then(barChartDescriptions => {
                 const batchCodeTable = this.#createEmptyBatchCodeTable(batchCodeTableElement, showCountriesColumn, barChartDescriptions);
                 this.#setVisibilityOfCountriesColumn(batchCodeTable, showCountriesColumn);
+                this.#setDataTablesFilter(showDataTablesFilter);
                 fetch('data/batchCodeTables/Global.json')
                     .then(response => response.json())
                     .then(json => {
@@ -35,7 +36,7 @@ class BatchCodeTableInitializer {
                 searching: true,
                 search:
                 {
-                    return: true
+                    return: false
                 },
                 processing: true,
                 deferRender: true,
@@ -135,6 +136,13 @@ class BatchCodeTableInitializer {
         batchCodeTable
             .column(this.#getColumnIndex('Countries'))
             .visible(showCountriesColumn);
+    }
+
+    #setDataTablesFilter(isEnabled) {
+        DataTablesFilter.setDataTablesFilter(
+            isEnabled ?
+                DataTablesFilter.FilterState.Enabled :
+                DataTablesFilter.FilterState.Disabled);
     }
 
     #addCountriesColumn(json) {
