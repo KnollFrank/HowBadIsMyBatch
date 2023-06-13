@@ -12,10 +12,10 @@ class CountryColumnsMergerTest(unittest.TestCase):
         src_val = 'Germany'
         dst_val = None
         dst = TestHelper.createDataFrame(
-                columns = ['COUNTRY'],
-                data = [  ['United Kingdom'],
-                          ['France'],
-                          [dst_val]],
+                columns = ['COUNTRY',        'TestColumn'],
+                data = [  ['United Kingdom', 'test1'],
+                          ['France',         'test2'],
+                          [dst_val,          'test3']],
                 index = pd.Index(
                         name = 'VAERS_ID',
                         data = [
@@ -36,31 +36,32 @@ class CountryColumnsMergerTest(unittest.TestCase):
                 dtypes = {'COUNTRY': 'string'})
 
         # When
-        merged = CountryColumnsMerger.mergeCountryColumnOfSrcIntoDst(src = src, dst = dst)
+        merged = CountryColumnsMerger.mergeCountryColumnOfSrcIntoDst(src, dst)
 
         # Then
         assert_frame_equal(
             merged,
             TestHelper.createDataFrame(
-                columns = ['COUNTRY'],
-                data = [  ['United Kingdom'],
-                          ['France'],
-                          [src_val]],
+                columns = ['COUNTRY',        'TestColumn'],
+                data = [  ['United Kingdom', 'test1'],
+                          ['France',         'test2'],
+                          [src_val,          'test3']],
                 index = pd.Index(
                         name = 'VAERS_ID',
                         data = [
                             '4711',
                             '0815',
                             '123']),
-                dtypes = {'COUNTRY': 'string'}))
+                dtypes = {'COUNTRY': 'string'}),
+                check_like = True)
 
     def test_shouldNotMergeCountryColumnOfSrcIntoDst_non_unique(self):
-        self._mergeCountryColumnOfSrcIntoDst(val_dst = 'United Kingdom', val_src = 'Germany')
+        self.shouldNotMergeCountryColumnOfSrcIntoDst(val_dst = 'United Kingdom', val_src = 'Germany')
 
     def test_shouldNotMergeCountryColumnOfSrcIntoDst3(self):
-        self._mergeCountryColumnOfSrcIntoDst(val_dst = None, val_src = None)
+        self.shouldNotMergeCountryColumnOfSrcIntoDst(val_dst = None, val_src = None)
 
-    def _mergeCountryColumnOfSrcIntoDst(self, val_dst, val_src):
+    def shouldNotMergeCountryColumnOfSrcIntoDst(self, val_dst, val_src):
         # Given
         dst = TestHelper.createDataFrame(
                 columns = ['COUNTRY'],
@@ -82,4 +83,4 @@ class CountryColumnsMergerTest(unittest.TestCase):
 
         # When && Then
         with self.assertRaises(Exception):
-            CountryColumnsMerger.mergeCountryColumnOfSrcIntoDst(src = src, dst = dst)
+            CountryColumnsMerger.mergeCountryColumnOfSrcIntoDst(src, dst)
