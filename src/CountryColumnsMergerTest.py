@@ -55,14 +55,108 @@ class CountryColumnsMergerTest(unittest.TestCase):
                 dtypes = {'COUNTRY': 'string'}),
                 check_like = True)
 
-    def test_shouldNotMergeCountryColumnOfSrcIntoDst_non_unique(self):
-        self.shouldNotMergeCountryColumnOfSrcIntoDst(val_dst = 'United Kingdom', val_src = 'Germany')
-
-    def test_shouldNotMergeCountryColumnOfSrcIntoDst3(self):
-        self.shouldNotMergeCountryColumnOfSrcIntoDst(val_dst = None, val_src = None)
-
-    def shouldNotMergeCountryColumnOfSrcIntoDst(self, val_dst, val_src):
+    def test_mergeCountryColumnOfSrcIntoDst_non_unique_index(self):
         # Given
+        src_val = 'Germany'
+        dst_val = None
+        dst = TestHelper.createDataFrame(
+                columns = ['COUNTRY',        'TestColumn'],
+                data = [  ['United Kingdom', 'test1'],
+                          ['France',         'test2'],
+                          [dst_val,          'test3']],
+                index = pd.Index(
+                        name = 'VAERS_ID',
+                        data = [
+                            '4711',
+                            '0815',
+                            '123']),
+                dtypes = {'COUNTRY': 'string'})
+        
+        src = TestHelper.createDataFrame(
+                columns = ['COUNTRY'],
+                data = [  ['United Kingdom'],
+                          [src_val],
+                          [src_val]],
+                index = pd.Index(
+                        name = 'VAERS_ID',
+                        data = [
+                            '4711',
+                            '123',
+                            '123']),
+                dtypes = {'COUNTRY': 'string'})
+
+        # When
+        merged = CountryColumnsMerger.mergeCountryColumnOfSrcIntoDst(src, dst)
+
+        # Then
+        assert_frame_equal(
+            merged,
+            TestHelper.createDataFrame(
+                columns = ['COUNTRY',        'TestColumn'],
+                data = [  ['United Kingdom', 'test1'],
+                          ['France',         'test2'],
+                          [src_val,          'test3']],
+                index = pd.Index(
+                        name = 'VAERS_ID',
+                        data = [
+                            '4711',
+                            '0815',
+                            '123']),
+                dtypes = {'COUNTRY': 'string'}),
+                check_like = True)
+
+    def test_mergeCountryColumnOfSrcIntoDst_None_None(self):
+        # Given
+        src_val = None
+        dst_val = None
+        dst = TestHelper.createDataFrame(
+                columns = ['COUNTRY',        'TestColumn'],
+                data = [  ['United Kingdom', 'test1'],
+                          ['France',         'test2'],
+                          [dst_val,          'test3']],
+                index = pd.Index(
+                        name = 'VAERS_ID',
+                        data = [
+                            '4711',
+                            '0815',
+                            '123']),
+                dtypes = {'COUNTRY': 'string'})
+        
+        src = TestHelper.createDataFrame(
+                columns = ['COUNTRY'],
+                data = [  ['United Kingdom'],
+                          [src_val]],
+                index = pd.Index(
+                        name = 'VAERS_ID',
+                        data = [
+                            '4711',
+                            '123']),
+                dtypes = {'COUNTRY': 'string'})
+
+        # When
+        merged = CountryColumnsMerger.mergeCountryColumnOfSrcIntoDst(src, dst)
+
+        # Then
+        assert_frame_equal(
+            merged,
+            TestHelper.createDataFrame(
+                columns = ['COUNTRY',        'TestColumn'],
+                data = [  ['United Kingdom', 'test1'],
+                          ['France',         'test2'],
+                          [src_val,          'test3']],
+                index = pd.Index(
+                        name = 'VAERS_ID',
+                        data = [
+                            '4711',
+                            '0815',
+                            '123']),
+                dtypes = {'COUNTRY': 'string'}),
+                check_like = True)
+
+    def test_shouldNotMergeCountryColumnOfSrcIntoDst_non_unique(self):
+        # Given
+        val_dst = 'United Kingdom'
+        val_src = 'Germany'
         dst = TestHelper.createDataFrame(
                 columns = ['COUNTRY'],
                 data = [  [val_dst]],
