@@ -15,6 +15,9 @@ def getInternationalVaersCovid19(dataDir, years):
     return internationalVaersCovid19
 
 
+def getInternationalVaersCovid19BeforeDeletion():
+    return getInternationalVaersCovid19(dataDir = 'VAERS/VAERSBeforeDeletion', years = [2020, 2021, 2022])
+
 def get_international_VAERSVAX_VAERSSYMPTOMS_Covid19(years):
     VAERSDATA, VAERSVAX, VAERSSYMPTOMS = _get_VAERSDATA_VAERSVAX_VAERSSYMPTOMS(years)
     VAERSVAX_Covid19_CountryColumn = _get_VAERSVAX_Covid19_CountryColumn(VAERSVAX, CountryColumnAdder(VAERSDATA))

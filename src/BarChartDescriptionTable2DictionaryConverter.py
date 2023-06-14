@@ -1,14 +1,14 @@
 from GoogleAnalyticsReader import GoogleAnalyticsReader
-from CountriesByBatchcodeProvider import getDateRangeOfVAERSReportsBeforeDeletionOfCountryCodes
+from CountriesByBatchcodeProvider import getDateRangeOfVAERSReports
 
 
 class BarChartDescriptionTable2DictionaryConverter:
 
     @staticmethod
-    def convert2Dictionary(barChartDescriptionTable):
+    def convert2Dictionary(barChartDescriptionTable, internationalVaersCovid19):
         return {
             'date range guessed': BarChartDescriptionTable2DictionaryConverter.dateRange2Str(GoogleAnalyticsReader(dataDir='data/GoogleAnalytics').getDateRange()),
-            'date range known': BarChartDescriptionTable2DictionaryConverter.dateRange2Str(getDateRangeOfVAERSReportsBeforeDeletionOfCountryCodes()),
+            'date range known': BarChartDescriptionTable2DictionaryConverter.dateRange2Str(getDateRangeOfVAERSReports(internationalVaersCovid19)),
             'barChartDescriptions': barChartDescriptionTable['BAR_CHART_DESCRIPTION'].to_dict()
         }
 
