@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "045G21ABS", "histogram": {"Cataract": 1, "Cerebellar haemorrhage": 1, "Gastric dysplasia": 1, "Gastric volvulus": 1, "Gastrointestinal examination": 1, "Headache": 1, "Hypothyroidism": 1, "Ischaemic cerebral infarction": 1, "Pericarditis": 1, "SARS-CoV-2 test": 1}, "Adverse Reaction Reports": 5, "Disabilities": 1, "Life Threatening Illnesses": 1, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "045G21ABS", "histogram": {"Cataract": 1, "Cerebellar haemorrhage": 1, "Gastric dysplasia": 1, "Gastric volvulus": 1, "Gastrointestinal examination": 1, "Headache": 1, "Hypothyroidism": 1, "Ischaemic cerebral infarction": 1, "Pericarditis": 1, "SARS-CoV-2 test": 1}, "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 1, "Company": "MODERNA", "Life Threatening Illnesses": 1}
->>>>>>> main
+{"batchcode": "045G21ABS", "histogram": {"Cataract": 1, "Cerebellar haemorrhage": 1, "Gastric dysplasia": 1, "Gastric volvulus": 1, "Gastrointestinal examination": 1, "Headache": 1, "Hypothyroidism": 1, "Ischaemic cerebral infarction": 1, "Pericarditis": 1, "SARS-CoV-2 test": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 5, "Disabilities": 1, "Life Threatening Illnesses": 1, "Deaths": 0}

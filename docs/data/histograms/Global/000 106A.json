@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "000 106A", "histogram": {"Blood pressure fluctuation": 1, "Blood pressure measurement": 1, "Chronic fatigue syndrome": 1, "Dizziness": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "000 106A", "histogram": {"Blood pressure fluctuation": 1, "Blood pressure measurement": 1, "Chronic fatigue syndrome": 1, "Dizziness": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "000 106A", "histogram": {"Blood pressure fluctuation": 1, "Blood pressure measurement": 1, "Chronic fatigue syndrome": 1, "Dizziness": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

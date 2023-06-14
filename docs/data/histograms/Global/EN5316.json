@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "EN5316", "histogram": {"Blood pressure decreased": 1, "Dizziness": 1, "Dysarthria": 1, "Hypertension": 1, "Muscular weakness": 1, "Syncope": 1, "Vertigo": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "EN5316", "histogram": {"Blood pressure decreased": 1, "Dizziness": 1, "Dysarthria": 1, "Hypertension": 1, "Muscular weakness": 1, "Syncope": 1, "Vertigo": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 1}
->>>>>>> main
+{"batchcode": "EN5316", "histogram": {"Blood pressure decreased": 1, "Dizziness": 1, "Dysarthria": 1, "Hypertension": 1, "Muscular weakness": 1, "Syncope": 1, "Vertigo": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 1, "Deaths": 0}

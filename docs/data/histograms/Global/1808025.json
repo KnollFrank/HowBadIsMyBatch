@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "1808025", "histogram": {"Laboratory test": 2, "Bell's palsy": 1, "Cardiac arrest": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Fatigue": 1, "Hypoaesthesia": 1, "Pain": 1, "Venous occlusion": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 0}
-=======
-{"batchcode": "1808025", "histogram": {"Laboratory test": 2, "Bell's palsy": 1, "Cardiac arrest": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Fatigue": 1, "Hypoaesthesia": 1, "Pain": 1, "Venous occlusion": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "1808025", "histogram": {"Laboratory test": 2, "Bell's palsy": 1, "Cardiac arrest": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Fatigue": 1, "Hypoaesthesia": 1, "Pain": 1, "Venous occlusion": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

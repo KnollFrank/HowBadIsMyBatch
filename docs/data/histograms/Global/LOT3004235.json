@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "LOT3004235", "histogram": {"Abscess": 1, "Colitis ulcerative": 1, "Malaise": 1, "Rash": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "LOT3004235", "histogram": {"Abscess": 1, "Colitis ulcerative": 1, "Malaise": 1, "Rash": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "LOT3004235", "histogram": {"Abscess": 1, "Colitis ulcerative": 1, "Malaise": 1, "Rash": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

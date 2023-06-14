@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "A1026", "histogram": {"Acoustic stimulation tests": 1, "Foetal exposure during pregnancy": 1, "Heart rate variability test": 1, "Umbilical cord around neck": 1}, "Adverse Reaction Reports": 8, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "UNKNOWN MANUFACTURER", "Deaths": 6}
-=======
-{"batchcode": "A1026", "histogram": {"Acoustic stimulation tests": 1, "Foetal exposure during pregnancy": 1, "Heart rate variability test": 1, "Umbilical cord around neck": 1}, "Adverse Reaction Reports": 8, "Deaths": 6, "Disabilities": 0, "Company": "UNKNOWN MANUFACTURER", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "A1026", "histogram": {"Acoustic stimulation tests": 1, "Foetal exposure during pregnancy": 1, "Heart rate variability test": 1, "Umbilical cord around neck": 1}, "Company": "UNKNOWN MANUFACTURER", "Adverse Reaction Reports": 8, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 6}

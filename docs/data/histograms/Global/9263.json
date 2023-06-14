@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "9263", "histogram": {"Arthralgia": 3, "Headache": 2, "Pain in extremity": 2, "Abdominal discomfort": 1, "Back pain": 1, "Body temperature increased": 1, "Chills": 1, "Dizziness": 1, "Pyrexia": 1, "Spinal pain": 1, "Vomiting": 1, "X-ray": 1}, "Adverse Reaction Reports": 7, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "9263", "histogram": {"Arthralgia": 3, "Headache": 2, "Pain in extremity": 2, "Abdominal discomfort": 1, "Back pain": 1, "Body temperature increased": 1, "Chills": 1, "Dizziness": 1, "Pyrexia": 1, "Spinal pain": 1, "Vomiting": 1, "X-ray": 1}, "Adverse Reaction Reports": 7, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "9263", "histogram": {"Arthralgia": 3, "Headache": 2, "Pain in extremity": 2, "Abdominal discomfort": 1, "Back pain": 1, "Body temperature increased": 1, "Chills": 1, "Dizziness": 1, "Pyrexia": 1, "Spinal pain": 1, "Vomiting": 1, "X-ray": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 7, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

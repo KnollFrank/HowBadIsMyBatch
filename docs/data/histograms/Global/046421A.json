@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "046421A", "histogram": {"Herpes zoster": 2, "Pain": 2, "Rash": 2, "Allergy test positive": 1, "Blister": 1, "Lip pain": 1, "Pruritus": 1, "Urticaria": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "046421A", "histogram": {"Herpes zoster": 2, "Pain": 2, "Rash": 2, "Allergy test positive": 1, "Blister": 1, "Lip pain": 1, "Pruritus": 1, "Urticaria": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "046421A", "histogram": {"Herpes zoster": 2, "Pain": 2, "Rash": 2, "Allergy test positive": 1, "Blister": 1, "Lip pain": 1, "Pruritus": 1, "Urticaria": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

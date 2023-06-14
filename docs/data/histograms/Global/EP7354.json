@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "EP7354", "histogram": {"Chest discomfort": 1, "Chest pain": 1, "Headache": 1, "Injection site pain": 1, "Neuralgia": 1, "Rash": 1}, "Adverse Reaction Reports": 4, "Disabilities": 1, "Life Threatening Illnesses": 1, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "EP7354", "histogram": {"Chest discomfort": 1, "Chest pain": 1, "Headache": 1, "Injection site pain": 1, "Neuralgia": 1, "Rash": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 1, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 1}
->>>>>>> main
+{"batchcode": "EP7354", "histogram": {"Chest discomfort": 1, "Chest pain": 1, "Headache": 1, "Injection site pain": 1, "Neuralgia": 1, "Rash": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 4, "Disabilities": 1, "Life Threatening Illnesses": 1, "Deaths": 0}

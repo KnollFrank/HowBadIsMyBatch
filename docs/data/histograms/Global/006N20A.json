@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "006N20A", "histogram": {"Rash": 2, "Arthralgia": 1, "COVID-19": 1, "Chapped lips": 1, "Headache": 1, "Insomnia": 1, "Pain": 1, "Pain in extremity": 1, "Pruritus": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Tenderness": 1}, "Adverse Reaction Reports": 5, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "006N20A", "histogram": {"Rash": 2, "Arthralgia": 1, "COVID-19": 1, "Chapped lips": 1, "Headache": 1, "Insomnia": 1, "Pain": 1, "Pain in extremity": 1, "Pruritus": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Tenderness": 1}, "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "006N20A", "histogram": {"Rash": 2, "Arthralgia": 1, "COVID-19": 1, "Chapped lips": 1, "Headache": 1, "Insomnia": 1, "Pain": 1, "Pain in extremity": 1, "Pruritus": 1, "Pyrexia": 1, "SARS-CoV-2 test positive": 1, "Tenderness": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 5, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

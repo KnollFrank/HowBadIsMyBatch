@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "CH.-B.:ET3674", "histogram": {"Condition aggravated": 1, "Full blood count": 1, "Headache": 1, "Malaise": 1, "Menstrual disorder": 1, "Myalgia": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "CH.-B.:ET3674", "histogram": {"Condition aggravated": 1, "Full blood count": 1, "Headache": 1, "Malaise": 1, "Menstrual disorder": 1, "Myalgia": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "CH.-B.:ET3674", "histogram": {"Condition aggravated": 1, "Full blood count": 1, "Headache": 1, "Malaise": 1, "Menstrual disorder": 1, "Myalgia": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

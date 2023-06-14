@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "039K02A", "histogram": {"Erythema": 2, "Arthralgia": 1, "COVID-19": 1, "Musculoskeletal stiffness": 1, "Nasal congestion": 1, "Nausea": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Rash pruritic": 1, "Rhinorrhoea": 1, "Skin warm": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "039K02A", "histogram": {"Erythema": 2, "Arthralgia": 1, "COVID-19": 1, "Musculoskeletal stiffness": 1, "Nasal congestion": 1, "Nausea": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Rash pruritic": 1, "Rhinorrhoea": 1, "Skin warm": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 1}
->>>>>>> main
+{"batchcode": "039K02A", "histogram": {"Erythema": 2, "Arthralgia": 1, "COVID-19": 1, "Musculoskeletal stiffness": 1, "Nasal congestion": 1, "Nausea": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Rash pruritic": 1, "Rhinorrhoea": 1, "Skin warm": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 1, "Deaths": 0}

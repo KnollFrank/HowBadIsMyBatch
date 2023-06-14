@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "03120A", "histogram": {"Fatigue": 2, "Chills": 1, "Echocardiogram": 1, "Hyperhidrosis": 1, "Injection site erythema": 1, "Injection site pain": 1, "Injection site rash": 1, "Pyrexia": 1, "Vaccination site rash": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "03120A", "histogram": {"Fatigue": 2, "Chills": 1, "Echocardiogram": 1, "Hyperhidrosis": 1, "Injection site erythema": 1, "Injection site pain": 1, "Injection site rash": 1, "Pyrexia": 1, "Vaccination site rash": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "03120A", "histogram": {"Fatigue": 2, "Chills": 1, "Echocardiogram": 1, "Hyperhidrosis": 1, "Injection site erythema": 1, "Injection site pain": 1, "Injection site rash": 1, "Pyrexia": 1, "Vaccination site rash": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "77448644", "histogram": {"SARS-CoV-2 test": 2, "Abdominal pain": 1, "Blood iron": 1, "Blood testosterone": 1, "Blood testosterone increased": 1, "COVID-19": 1, "Drug ineffective": 1, "Menometrorrhagia": 1, "Pregnancy test": 1, "Premenstrual syndrome": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "77448644", "histogram": {"SARS-CoV-2 test": 2, "Abdominal pain": 1, "Blood iron": 1, "Blood testosterone": 1, "Blood testosterone increased": 1, "COVID-19": 1, "Drug ineffective": 1, "Menometrorrhagia": 1, "Pregnancy test": 1, "Premenstrual syndrome": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "77448644", "histogram": {"SARS-CoV-2 test": 2, "Abdominal pain": 1, "Blood iron": 1, "Blood testosterone": 1, "Blood testosterone increased": 1, "COVID-19": 1, "Drug ineffective": 1, "Menometrorrhagia": 1, "Pregnancy test": 1, "Premenstrual syndrome": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

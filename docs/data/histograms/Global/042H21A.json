@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "042H21A", "histogram": {"Chills": 1, "Fatigue": 1, "Muscular weakness": 1, "Pain": 1, "Pulmonary embolism": 1, "Vertigo": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "JANSSEN", "Deaths": 0}
-=======
-{"batchcode": "042H21A", "histogram": {"Chills": 1, "Fatigue": 1, "Muscular weakness": 1, "Pain": 1, "Pulmonary embolism": 1, "Vertigo": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 1}
->>>>>>> main
+{"batchcode": "042H21A", "histogram": {"Chills": 1, "Fatigue": 1, "Muscular weakness": 1, "Pain": 1, "Pulmonary embolism": 1, "Vertigo": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 1, "Deaths": 0}

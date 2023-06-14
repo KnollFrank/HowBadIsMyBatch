@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "032FZIA", "histogram": {"Erythema": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "Mechanical urticaria": 1, "Nausea": 1, "Pruritus": 1, "Skin swelling": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "032FZIA", "histogram": {"Erythema": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "Mechanical urticaria": 1, "Nausea": 1, "Pruritus": 1, "Skin swelling": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "032FZIA", "histogram": {"Erythema": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pain": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "Mechanical urticaria": 1, "Nausea": 1, "Pruritus": 1, "Skin swelling": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "LOT 000117A", "histogram": {"Cerebrovascular accident": 1, "Headache": 1, "Thrombocytopenic purpura": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "LOT 000117A", "histogram": {"Cerebrovascular accident": 1, "Headache": 1, "Thrombocytopenic purpura": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "LOT 000117A", "histogram": {"Cerebrovascular accident": 1, "Headache": 1, "Thrombocytopenic purpura": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

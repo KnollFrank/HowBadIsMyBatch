@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "URN:UVCI:01:CH:", "histogram": {"Breast cancer": 1, "Chills": 1, "Hypoaesthesia": 1, "Pain": 1, "Paraesthesia": 1, "Paralysis": 1, "Psoriasis": 1, "Pulmonary embolism": 1, "Rash": 1, "Rash pruritic": 1, "Swelling": 1, "Vaccination site pain": 1, "Vaginal haemorrhage": 1}, "Adverse Reaction Reports": 6, "Disabilities": 1, "Life Threatening Illnesses": 2, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "URN:UVCI:01:CH:", "histogram": {"Breast cancer": 1, "Chills": 1, "Hypoaesthesia": 1, "Pain": 1, "Paraesthesia": 1, "Paralysis": 1, "Psoriasis": 1, "Pulmonary embolism": 1, "Rash": 1, "Rash pruritic": 1, "Swelling": 1, "Vaccination site pain": 1, "Vaginal haemorrhage": 1}, "Adverse Reaction Reports": 6, "Deaths": 0, "Disabilities": 1, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 2}
->>>>>>> main
+{"batchcode": "URN:UVCI:01:CH:", "histogram": {"Breast cancer": 1, "Chills": 1, "Hypoaesthesia": 1, "Pain": 1, "Paraesthesia": 1, "Paralysis": 1, "Psoriasis": 1, "Pulmonary embolism": 1, "Rash": 1, "Rash pruritic": 1, "Swelling": 1, "Vaccination site pain": 1, "Vaginal haemorrhage": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 6, "Disabilities": 1, "Life Threatening Illnesses": 2, "Deaths": 0}

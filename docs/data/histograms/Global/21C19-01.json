@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "21C19-01", "histogram": {"Syncope": 5, "Angina pectoris": 1, "Cold sweat": 1, "Dysgeusia": 1, "Dysphagia": 1, "Dyspnoea": 1, "Hypotonia": 1, "Nausea": 1, "Pallor": 1, "Seizure": 1}, "Adverse Reaction Reports": 7, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 0}
-=======
-{"batchcode": "21C19-01", "histogram": {"Syncope": 5, "Angina pectoris": 1, "Cold sweat": 1, "Dysgeusia": 1, "Dysphagia": 1, "Dyspnoea": 1, "Hypotonia": 1, "Nausea": 1, "Pallor": 1, "Seizure": 1}, "Adverse Reaction Reports": 7, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "21C19-01", "histogram": {"Syncope": 5, "Angina pectoris": 1, "Cold sweat": 1, "Dysgeusia": 1, "Dysphagia": 1, "Dyspnoea": 1, "Hypotonia": 1, "Nausea": 1, "Pallor": 1, "Seizure": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 7, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

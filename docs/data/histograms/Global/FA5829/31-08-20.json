@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "FA5829/31-08-20", "histogram": {"Vitiligo": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "FA5829/31-08-20", "histogram": {"Vitiligo": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "FA5829/31-08-20", "histogram": {"Vitiligo": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

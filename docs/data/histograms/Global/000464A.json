@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "000464A", "histogram": {"SARS-CoV-2 test": 4, "Diarrhoea": 2, "Headache": 2, "Vomiting": 2, "Abdominal pain upper": 1, "Blood pressure measurement": 1, "Chest pain": 1, "Chills": 1, "Dizziness": 1, "Fatigue": 1, "Heart rate": 1, "Malaise": 1, "Migraine": 1, "Nausea": 1, "Pain": 1, "Palpitations": 1, "Tremor": 1}, "Adverse Reaction Reports": 5, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "000464A", "histogram": {"SARS-CoV-2 test": 4, "Diarrhoea": 2, "Headache": 2, "Vomiting": 2, "Abdominal pain upper": 1, "Blood pressure measurement": 1, "Chest pain": 1, "Chills": 1, "Dizziness": 1, "Fatigue": 1, "Heart rate": 1, "Malaise": 1, "Migraine": 1, "Nausea": 1, "Pain": 1, "Palpitations": 1, "Tremor": 1}, "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 1, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "000464A", "histogram": {"SARS-CoV-2 test": 4, "Diarrhoea": 2, "Headache": 2, "Vomiting": 2, "Abdominal pain upper": 1, "Blood pressure measurement": 1, "Chest pain": 1, "Chills": 1, "Dizziness": 1, "Fatigue": 1, "Heart rate": 1, "Malaise": 1, "Migraine": 1, "Nausea": 1, "Pain": 1, "Palpitations": 1, "Tremor": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 5, "Disabilities": 1, "Life Threatening Illnesses": 0, "Deaths": 0}

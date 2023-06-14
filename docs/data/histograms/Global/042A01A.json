@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "042A01A", "histogram": {"Syncope": 2, "Blood glucose decreased": 1, "Dizziness": 1, "Feeding disorder": 1, "Insomnia": 1, "Pallor": 1, "Seizure": 1, "Tinnitus": 1, "Tremor": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 0}
-=======
-{"batchcode": "042A01A", "histogram": {"Syncope": 2, "Blood glucose decreased": 1, "Dizziness": 1, "Feeding disorder": 1, "Insomnia": 1, "Pallor": 1, "Seizure": 1, "Tinnitus": 1, "Tremor": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "042A01A", "histogram": {"Syncope": 2, "Blood glucose decreased": 1, "Dizziness": 1, "Feeding disorder": 1, "Insomnia": 1, "Pallor": 1, "Seizure": 1, "Tinnitus": 1, "Tremor": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "1CO10A", "histogram": {"Fatigue": 2, "Coagulopathy": 1, "Heavy menstrual bleeding": 1, "Myocardial infarction": 1, "Paraesthesia": 1, "Thrombophlebitis": 1, "Von Willebrand's disease": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "1CO10A", "histogram": {"Fatigue": 2, "Coagulopathy": 1, "Heavy menstrual bleeding": 1, "Myocardial infarction": 1, "Paraesthesia": 1, "Thrombophlebitis": 1, "Von Willebrand's disease": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "1CO10A", "histogram": {"Fatigue": 2, "Coagulopathy": 1, "Heavy menstrual bleeding": 1, "Myocardial infarction": 1, "Paraesthesia": 1, "Thrombophlebitis": 1, "Von Willebrand's disease": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

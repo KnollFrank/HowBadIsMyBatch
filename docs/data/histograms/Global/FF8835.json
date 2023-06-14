@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "FF8835", "histogram": {"Pyrexia": 2, "Asthenia": 1, "Body temperature": 1, "Discomfort": 1, "Dizziness": 1, "Fatigue": 1, "Glycosylated haemoglobin": 1, "Headache": 1, "Lymphadenopathy": 1, "Myalgia": 1, "Pain": 1, "Pain in extremity": 1, "Sensitive skin": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "FF8835", "histogram": {"Pyrexia": 2, "Asthenia": 1, "Body temperature": 1, "Discomfort": 1, "Dizziness": 1, "Fatigue": 1, "Glycosylated haemoglobin": 1, "Headache": 1, "Lymphadenopathy": 1, "Myalgia": 1, "Pain": 1, "Pain in extremity": 1, "Sensitive skin": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "FF8835", "histogram": {"Pyrexia": 2, "Asthenia": 1, "Body temperature": 1, "Discomfort": 1, "Dizziness": 1, "Fatigue": 1, "Glycosylated haemoglobin": 1, "Headache": 1, "Lymphadenopathy": 1, "Myalgia": 1, "Pain": 1, "Pain in extremity": 1, "Sensitive skin": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

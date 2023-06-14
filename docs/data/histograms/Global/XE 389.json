@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "XE 389", "histogram": {"Apathy": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Lymph node pain": 1, "Lymphadenopathy": 1, "Neck pain": 1, "Pain in extremity": 1, "Pyrexia": 1, "Rash": 1, "Rash papular": 1, "Renal pain": 1, "Vaccination site reaction": 1, "Vomiting": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 0}
-=======
-{"batchcode": "XE 389", "histogram": {"Apathy": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Lymph node pain": 1, "Lymphadenopathy": 1, "Neck pain": 1, "Pain in extremity": 1, "Pyrexia": 1, "Rash": 1, "Rash papular": 1, "Renal pain": 1, "Vaccination site reaction": 1, "Vomiting": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "XE 389", "histogram": {"Apathy": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Lymph node pain": 1, "Lymphadenopathy": 1, "Neck pain": 1, "Pain in extremity": 1, "Pyrexia": 1, "Rash": 1, "Rash papular": 1, "Renal pain": 1, "Vaccination site reaction": 1, "Vomiting": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

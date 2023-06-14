@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "ABX5182", "histogram": {"Arthralgia": 1, "Back pain": 1, "Encephalomyelitis": 1, "Myalgia": 1}, "Adverse Reaction Reports": 29, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "ABX5182", "histogram": {"Arthralgia": 1, "Back pain": 1, "Encephalomyelitis": 1, "Myalgia": 1}, "Adverse Reaction Reports": 29, "Deaths": 0, "Disabilities": 1, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "ABX5182", "histogram": {"Arthralgia": 1, "Back pain": 1, "Encephalomyelitis": 1, "Myalgia": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 29, "Disabilities": 1, "Life Threatening Illnesses": 0, "Deaths": 0}

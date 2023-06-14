@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "007H20A", "histogram": {"Erythema": 1, "Peripheral swelling": 1, "Pruritus": 1, "Skin warm": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "007H20A", "histogram": {"Erythema": 1, "Peripheral swelling": 1, "Pruritus": 1, "Skin warm": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "007H20A", "histogram": {"Erythema": 1, "Peripheral swelling": 1, "Pruritus": 1, "Skin warm": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

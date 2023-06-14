@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "F88288", "histogram": {"SARS-CoV-2 test": 2, "COVID-19": 1, "Drug ineffective": 1, "Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1, "Menstrual disorder": 1, "Premenstrual dysphoric disorder": 1, "Premenstrual syndrome": 1, "Suicidal ideation": 1}, "Adverse Reaction Reports": 3, "Disabilities": 3, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "F88288", "histogram": {"SARS-CoV-2 test": 2, "COVID-19": 1, "Drug ineffective": 1, "Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1, "Menstrual disorder": 1, "Premenstrual dysphoric disorder": 1, "Premenstrual syndrome": 1, "Suicidal ideation": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 3, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "F88288", "histogram": {"SARS-CoV-2 test": 2, "COVID-19": 1, "Drug ineffective": 1, "Dysmenorrhoea": 1, "Heavy menstrual bleeding": 1, "Menstrual disorder": 1, "Premenstrual dysphoric disorder": 1, "Premenstrual syndrome": 1, "Suicidal ideation": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 3, "Life Threatening Illnesses": 0, "Deaths": 0}

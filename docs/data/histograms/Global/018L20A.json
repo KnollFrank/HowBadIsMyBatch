@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "018L20A", "histogram": {"Back pain": 1, "Chills": 1, "Computerised tomogram": 1, "Dyspnoea": 1, "Erythema": 1, "Lymphadenopathy": 1, "Pain": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Thrombosis": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "018L20A", "histogram": {"Back pain": 1, "Chills": 1, "Computerised tomogram": 1, "Dyspnoea": 1, "Erythema": 1, "Lymphadenopathy": 1, "Pain": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Thrombosis": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "018L20A", "histogram": {"Back pain": 1, "Chills": 1, "Computerised tomogram": 1, "Dyspnoea": 1, "Erythema": 1, "Lymphadenopathy": 1, "Pain": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Thrombosis": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

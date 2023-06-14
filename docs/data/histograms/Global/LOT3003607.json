@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "LOT3003607", "histogram": {"SARS-CoV-2 test": 3, "Amnesia": 1, "Exaggerated startle response": 1, "Facial paralysis": 1, "Facial paresis": 1, "Hallucination": 1, "Heavy menstrual bleeding": 1, "Menstruation delayed": 1, "Menstruation irregular": 1, "Night sweats": 1, "Pyrexia": 1, "Scan": 1}, "Adverse Reaction Reports": 3, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "LOT3003607", "histogram": {"SARS-CoV-2 test": 3, "Amnesia": 1, "Exaggerated startle response": 1, "Facial paralysis": 1, "Facial paresis": 1, "Hallucination": 1, "Heavy menstrual bleeding": 1, "Menstruation delayed": 1, "Menstruation irregular": 1, "Night sweats": 1, "Pyrexia": 1, "Scan": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "LOT3003607", "histogram": {"SARS-CoV-2 test": 3, "Amnesia": 1, "Exaggerated startle response": 1, "Facial paralysis": 1, "Facial paresis": 1, "Hallucination": 1, "Heavy menstrual bleeding": 1, "Menstruation delayed": 1, "Menstruation irregular": 1, "Night sweats": 1, "Pyrexia": 1, "Scan": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 1, "Life Threatening Illnesses": 0, "Deaths": 0}

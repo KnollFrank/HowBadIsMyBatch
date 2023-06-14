@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "ER8279", "histogram": {"Dizziness": 2, "Dyspnoea": 1, "Hyperventilation": 1, "Pallor": 1, "Paraesthesia": 1, "Respiratory rate increased": 1, "Supraventricular tachycardia": 1, "Tinnitus": 1, "Ventricular extrasystoles": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "ER8279", "histogram": {"Dizziness": 2, "Dyspnoea": 1, "Hyperventilation": 1, "Pallor": 1, "Paraesthesia": 1, "Respiratory rate increased": 1, "Supraventricular tachycardia": 1, "Tinnitus": 1, "Ventricular extrasystoles": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "ER8279", "histogram": {"Dizziness": 2, "Dyspnoea": 1, "Hyperventilation": 1, "Pallor": 1, "Paraesthesia": 1, "Respiratory rate increased": 1, "Supraventricular tachycardia": 1, "Tinnitus": 1, "Ventricular extrasystoles": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

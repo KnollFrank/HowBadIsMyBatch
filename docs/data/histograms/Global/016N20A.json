@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "016N20A", "histogram": {"Arthralgia": 1, "Blindness unilateral": 1, "Blood test normal": 1, "COVID-19": 1, "Erythema": 1, "Eye haemorrhage": 1, "Eye laser surgery": 1, "Headache": 1, "Pain in extremity": 1, "Papule": 1, "Purpura": 1, "Retinal tear": 1, "Stool analysis normal": 1, "Vision blurred": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
-=======
-{"batchcode": "016N20A", "histogram": {"Arthralgia": 1, "Blindness unilateral": 1, "Blood test normal": 1, "COVID-19": 1, "Erythema": 1, "Eye haemorrhage": 1, "Eye laser surgery": 1, "Headache": 1, "Pain in extremity": 1, "Papule": 1, "Purpura": 1, "Retinal tear": 1, "Stool analysis normal": 1, "Vision blurred": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "016N20A", "histogram": {"Arthralgia": 1, "Blindness unilateral": 1, "Blood test normal": 1, "COVID-19": 1, "Erythema": 1, "Eye haemorrhage": 1, "Eye laser surgery": 1, "Headache": 1, "Pain in extremity": 1, "Papule": 1, "Purpura": 1, "Retinal tear": 1, "Stool analysis normal": 1, "Vision blurred": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

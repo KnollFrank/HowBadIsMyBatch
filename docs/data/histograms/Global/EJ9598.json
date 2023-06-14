@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "EJ9598", "histogram": {"Facial paralysis": 2, "Chronic obstructive pulmonary disease": 1, "Hallucination": 1, "Influenza like illness": 1, "Lymphadenopathy": 1, "Pneumonia": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
-=======
-{"batchcode": "EJ9598", "histogram": {"Facial paralysis": 2, "Chronic obstructive pulmonary disease": 1, "Hallucination": 1, "Influenza like illness": 1, "Lymphadenopathy": 1, "Pneumonia": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "EJ9598", "histogram": {"Facial paralysis": 2, "Chronic obstructive pulmonary disease": 1, "Hallucination": 1, "Influenza like illness": 1, "Lymphadenopathy": 1, "Pneumonia": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "0242A21A", "histogram": {"Fatigue": 3, "Headache": 3, "Pyrexia": 2, "Body temperature": 1, "Body temperature increased": 1, "Exposure via breast milk": 1, "Heart rate increased": 1, "Myalgia": 1, "Pain assessment": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 0}
-=======
-{"batchcode": "0242A21A", "histogram": {"Fatigue": 3, "Headache": 3, "Pyrexia": 2, "Body temperature": 1, "Body temperature increased": 1, "Exposure via breast milk": 1, "Heart rate increased": 1, "Myalgia": 1, "Pain assessment": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "0242A21A", "histogram": {"Fatigue": 3, "Headache": 3, "Pyrexia": 2, "Body temperature": 1, "Body temperature increased": 1, "Exposure via breast milk": 1, "Heart rate increased": 1, "Myalgia": 1, "Pain assessment": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}

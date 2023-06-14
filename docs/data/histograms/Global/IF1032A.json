@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "IF1032A", "histogram": {"Dyspnoea exertional": 1, "Hypertensive nephropathy": 1, "Oedema": 1, "Syncope": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 1}
-=======
-{"batchcode": "IF1032A", "histogram": {"Dyspnoea exertional": 1, "Hypertensive nephropathy": 1, "Oedema": 1, "Syncope": 1}, "Adverse Reaction Reports": 3, "Deaths": 1, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "IF1032A", "histogram": {"Dyspnoea exertional": 1, "Hypertensive nephropathy": 1, "Oedema": 1, "Syncope": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 1}

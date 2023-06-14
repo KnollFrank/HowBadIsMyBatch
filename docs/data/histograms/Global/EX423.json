@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "EX423", "histogram": {"Myocarditis": 2, "Asthenia": 1, "Cardiac discomfort": 1, "Chills": 1, "Dyspnoea exertional": 1, "Malaise": 1, "Palpitations": 1, "Pericardial effusion": 1, "Pyrexia": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 0}
-=======
-{"batchcode": "EX423", "histogram": {"Myocarditis": 2, "Asthenia": 1, "Cardiac discomfort": 1, "Chills": 1, "Dyspnoea exertional": 1, "Malaise": 1, "Palpitations": 1, "Pericardial effusion": 1, "Pyrexia": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
->>>>>>> main
+{"batchcode": "EX423", "histogram": {"Myocarditis": 2, "Asthenia": 1, "Cardiac discomfort": 1, "Chills": 1, "Dyspnoea exertional": 1, "Malaise": 1, "Palpitations": 1, "Pericardial effusion": 1, "Pyrexia": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}
