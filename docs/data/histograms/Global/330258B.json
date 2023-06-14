@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "330258B", "histogram": {"Pyrexia": 2, "COVID-19": 1, "Chills": 1, "Condition aggravated": 1, "Heart rate increased": 1, "Hypoaesthesia": 1, "Immediate post-injection reaction": 1, "Nausea": 1, "Oropharyngeal pain": 1, "Pallor": 1, "Paraesthesia": 1, "Paraesthesia oral": 1, "Pharyngeal inflammation": 1, "SARS-CoV-2 test positive": 1, "Syncope": 1, "Throat irritation": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "330258B", "histogram": {"Pyrexia": 2, "COVID-19": 1, "Chills": 1, "Condition aggravated": 1, "Heart rate increased": 1, "Hypoaesthesia": 1, "Immediate post-injection reaction": 1, "Nausea": 1, "Oropharyngeal pain": 1, "Pallor": 1, "Paraesthesia": 1, "Paraesthesia oral": 1, "Pharyngeal inflammation": 1, "SARS-CoV-2 test positive": 1, "Syncope": 1, "Throat irritation": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

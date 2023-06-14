@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "CH.-B.: EX8680", "histogram": {"Cerebrovascular accident": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "CH.-B.: EX8680", "histogram": {"Cerebrovascular accident": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

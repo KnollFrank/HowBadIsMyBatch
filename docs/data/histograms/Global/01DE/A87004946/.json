@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "01DE/A87004946/", "histogram": {"Arrhythmia": 1, "Chest discomfort": 1, "Dyspnoea": 1, "Hypoaesthesia": 1, "Musculoskeletal chest pain": 1, "Palpitations": 1, "Tachycardia": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "01DE/A87004946/", "histogram": {"Arrhythmia": 1, "Chest discomfort": 1, "Dyspnoea": 1, "Hypoaesthesia": 1, "Musculoskeletal chest pain": 1, "Palpitations": 1, "Tachycardia": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

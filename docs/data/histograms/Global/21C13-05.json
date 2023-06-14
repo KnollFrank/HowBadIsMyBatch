@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "21C13-05", "histogram": {"Deep vein thrombosis": 2, "Blood test": 1, "Computerised tomogram thorax": 1, "Cutaneous lupus erythematosus": 1, "Depressed level of consciousness": 1, "Formication": 1, "Hypoaesthesia": 1, "Intermenstrual bleeding": 1, "Myalgia": 1, "Nausea": 1, "Postmenopausal haemorrhage": 1, "Pulmonary embolism": 1, "Pyrexia": 1, "Ultrasound Doppler": 1, "Urticaria": 1}, "Adverse Reaction Reports": 14, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "JANSSEN", "Deaths": 2}
+=======
+{"batchcode": "21C13-05", "histogram": {"Deep vein thrombosis": 2, "Blood test": 1, "Computerised tomogram thorax": 1, "Cutaneous lupus erythematosus": 1, "Depressed level of consciousness": 1, "Formication": 1, "Hypoaesthesia": 1, "Intermenstrual bleeding": 1, "Myalgia": 1, "Nausea": 1, "Postmenopausal haemorrhage": 1, "Pulmonary embolism": 1, "Pyrexia": 1, "Ultrasound Doppler": 1, "Urticaria": 1}, "Adverse Reaction Reports": 14, "Deaths": 2, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 1}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "032LZOA", "histogram": {"Paraesthesia": 2, "Blood test": 1, "Chest pain": 1, "Condition aggravated": 1, "Diarrhoea": 1, "Dizziness": 1, "Dizziness postural": 1, "Dyspnoea": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Headache": 1, "Heart rate increased": 1, "Herpes virus infection": 1, "Hypoaesthesia": 1, "Influenza": 1, "Pain in extremity": 1, "Rash erythematous": 1, "Swelling face": 1, "X-ray": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "032LZOA", "histogram": {"Paraesthesia": 2, "Blood test": 1, "Chest pain": 1, "Condition aggravated": 1, "Diarrhoea": 1, "Dizziness": 1, "Dizziness postural": 1, "Dyspnoea": 1, "Echocardiogram": 1, "Electrocardiogram": 1, "Headache": 1, "Heart rate increased": 1, "Herpes virus infection": 1, "Hypoaesthesia": 1, "Influenza": 1, "Pain in extremity": 1, "Rash erythematous": 1, "Swelling face": 1, "X-ray": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "208D21-2A", "histogram": {"Pyrexia": 2, "Asthenia": 1, "Dizziness": 1, "Muscle spasms": 1, "Pain": 1, "Salivary hypersecretion": 1, "Seizure": 1, "Syncope": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 0}
+=======
+{"batchcode": "208D21-2A", "histogram": {"Pyrexia": 2, "Asthenia": 1, "Dizziness": 1, "Muscle spasms": 1, "Pain": 1, "Salivary hypersecretion": 1, "Seizure": 1, "Syncope": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
+>>>>>>> main

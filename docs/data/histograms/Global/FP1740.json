@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FP1740", "histogram": {"Incorrect product formulation administered": 2, "Wrong product administered": 2}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "FP1740", "histogram": {"Incorrect product formulation administered": 2, "Wrong product administered": 2}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

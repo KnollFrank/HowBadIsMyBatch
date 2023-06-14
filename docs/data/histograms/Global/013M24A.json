@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "013M24A", "histogram": {"Asthenia": 1, "Bone pain": 1, "Cold sweat": 1, "Condition aggravated": 1, "Contusion": 1, "Fatigue": 1, "Headache": 1, "Immune thrombocytopenia": 1, "Pain": 1, "Petechiae": 1, "Platelet count decreased": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "013M24A", "histogram": {"Asthenia": 1, "Bone pain": 1, "Cold sweat": 1, "Condition aggravated": 1, "Contusion": 1, "Fatigue": 1, "Headache": 1, "Immune thrombocytopenia": 1, "Pain": 1, "Petechiae": 1, "Platelet count decreased": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

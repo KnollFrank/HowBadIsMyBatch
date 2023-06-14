@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FR9187", "histogram": {"Amnesia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Cough": 1, "Fall": 1, "Impaired work ability": 1, "Insomnia": 1, "Loss of consciousness": 1, "Oedema peripheral": 1, "Off label use": 1, "Product use issue": 1}, "Adverse Reaction Reports": 3, "Disabilities": 2, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "FR9187", "histogram": {"Amnesia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Cough": 1, "Fall": 1, "Impaired work ability": 1, "Insomnia": 1, "Loss of consciousness": 1, "Oedema peripheral": 1, "Off label use": 1, "Product use issue": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 2, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

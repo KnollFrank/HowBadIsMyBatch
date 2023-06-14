@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "O33F21A", "histogram": {"COVID-19": 2, "SARS-CoV-2 test positive": 2, "Allergic respiratory symptom": 1, "Interchange of vaccine products": 1, "Rash": 1, "Rash pruritic": 1, "Urticaria": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "O33F21A", "histogram": {"COVID-19": 2, "SARS-CoV-2 test positive": 2, "Allergic respiratory symptom": 1, "Interchange of vaccine products": 1, "Rash": 1, "Rash pruritic": 1, "Urticaria": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

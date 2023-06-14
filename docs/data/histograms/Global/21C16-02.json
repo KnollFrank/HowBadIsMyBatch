@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "21C16-02", "histogram": {"Asthenia": 2, "SARS-CoV-2 test": 2, "Abnormal loss of weight": 1, "COVID-19": 1, "Deep vein thrombosis": 1, "Dizziness": 1, "Headache": 1, "Malaise": 1, "Menometrorrhagia": 1, "Postmenopausal haemorrhage": 1, "Pulmonary embolism": 1, "Vaccination failure": 1, "Vision blurred": 1}, "Adverse Reaction Reports": 5, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 1}
+=======
+{"batchcode": "21C16-02", "histogram": {"Asthenia": 2, "SARS-CoV-2 test": 2, "Abnormal loss of weight": 1, "COVID-19": 1, "Deep vein thrombosis": 1, "Dizziness": 1, "Headache": 1, "Malaise": 1, "Menometrorrhagia": 1, "Postmenopausal haemorrhage": 1, "Pulmonary embolism": 1, "Vaccination failure": 1, "Vision blurred": 1}, "Adverse Reaction Reports": 5, "Deaths": 1, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
+>>>>>>> main

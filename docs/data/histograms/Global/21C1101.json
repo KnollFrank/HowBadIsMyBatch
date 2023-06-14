@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "21C1101", "histogram": {"COVID-19": 13, "Vaccination failure": 13, "SARS-CoV-2 test": 8, "Cerebral venous sinus thrombosis": 1, "Dizziness": 1, "Ear pain": 1, "Facial paralysis": 1, "Herpes zoster oticus": 1, "SARS-CoV-2 antibody test": 1, "Therapy partial responder": 1, "Vestibular neuronitis": 1}, "Adverse Reaction Reports": 19, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "JANSSEN", "Deaths": 0}
+=======
+{"batchcode": "21C1101", "histogram": {"COVID-19": 13, "Vaccination failure": 13, "SARS-CoV-2 test": 8, "Cerebral venous sinus thrombosis": 1, "Dizziness": 1, "Ear pain": 1, "Facial paralysis": 1, "Herpes zoster oticus": 1, "SARS-CoV-2 antibody test": 1, "Therapy partial responder": 1, "Vestibular neuronitis": 1}, "Adverse Reaction Reports": 19, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 1}
+>>>>>>> main

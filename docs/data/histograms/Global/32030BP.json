@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "32030BP", "histogram": {"Erythema": 1, "Headache": 1, "Immunodeficiency": 1, "Product administered to patient of inappropriate age": 1, "Pruritus": 1, "Rash": 1, "Urticaria": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "32030BP", "histogram": {"Erythema": 1, "Headache": 1, "Immunodeficiency": 1, "Product administered to patient of inappropriate age": 1, "Pruritus": 1, "Rash": 1, "Urticaria": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

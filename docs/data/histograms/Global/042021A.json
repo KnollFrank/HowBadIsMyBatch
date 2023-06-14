@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "042021A", "histogram": {"Chills": 3, "Pyrexia": 3, "Arthralgia": 2, "Dizziness": 2, "Headache": 2, "Palpitations": 2, "Abdominal distension": 1, "Blood pressure abnormal": 1, "Deep vein thrombosis": 1, "Heart rate abnormal": 1, "Injection site pruritus": 1, "Injection site rash": 1, "Myalgia": 1, "Nausea": 1, "Pain": 1, "Vomiting": 1}, "Adverse Reaction Reports": 7, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "042021A", "histogram": {"Chills": 3, "Pyrexia": 3, "Arthralgia": 2, "Dizziness": 2, "Headache": 2, "Palpitations": 2, "Abdominal distension": 1, "Blood pressure abnormal": 1, "Deep vein thrombosis": 1, "Heart rate abnormal": 1, "Injection site pruritus": 1, "Injection site rash": 1, "Myalgia": 1, "Nausea": 1, "Pain": 1, "Vomiting": 1}, "Adverse Reaction Reports": 7, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "O30B21A", "histogram": {"Arthralgia": 1, "Blood test": 1, "COVID-19": 1, "Cardiac flutter": 1, "Cardiac monitoring": 1, "Chest discomfort": 1, "Complication associated with device": 1, "Dyspnoea": 1, "Feeling abnormal": 1, "Headache": 1, "Laboratory test": 1, "Lethargy": 1, "Malaise": 1, "Poor quality sleep": 1, "Rash": 1, "SARS-CoV-2 test positive": 1, "Skin discharge": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "O30B21A", "histogram": {"Arthralgia": 1, "Blood test": 1, "COVID-19": 1, "Cardiac flutter": 1, "Cardiac monitoring": 1, "Chest discomfort": 1, "Complication associated with device": 1, "Dyspnoea": 1, "Feeling abnormal": 1, "Headache": 1, "Laboratory test": 1, "Lethargy": 1, "Malaise": 1, "Poor quality sleep": 1, "Rash": 1, "SARS-CoV-2 test positive": 1, "Skin discharge": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "026L70A", "histogram": {"Headache": 3, "Chills": 2, "Fatigue": 2, "Pain": 2, "Pain in extremity": 2, "Acoustic stimulation tests": 1, "Deafness": 1, "Feeling abnormal": 1, "Loss of personal independence in daily activities": 1, "Movement disorder": 1, "Myalgia": 1, "Pyrexia": 1, "Throat tightness": 1, "Tinnitus": 1, "Urticaria": 1}, "Adverse Reaction Reports": 5, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "026L70A", "histogram": {"Headache": 3, "Chills": 2, "Fatigue": 2, "Pain": 2, "Pain in extremity": 2, "Acoustic stimulation tests": 1, "Deafness": 1, "Feeling abnormal": 1, "Loss of personal independence in daily activities": 1, "Movement disorder": 1, "Myalgia": 1, "Pyrexia": 1, "Throat tightness": 1, "Tinnitus": 1, "Urticaria": 1}, "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

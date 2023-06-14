@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "LOT 000106A", "histogram": {"Catheterisation cardiac": 1, "Dizziness": 1, "Dyspnoea": 1, "Erysipelas": 1, "Myalgia": 1, "Pulmonary haemorrhage": 1, "Syncope": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "LOT 000106A", "histogram": {"Catheterisation cardiac": 1, "Dizziness": 1, "Dyspnoea": 1, "Erysipelas": 1, "Myalgia": 1, "Pulmonary haemorrhage": 1, "Syncope": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "J213C21A", "histogram": {"Arthritis": 2, "Chills": 2, "Decreased appetite": 2, "Gastric disorder": 2, "Hyperthermia": 2, "Malaise": 2}, "Adverse Reaction Reports": 6, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 6}
+=======
+{"batchcode": "J213C21A", "histogram": {"Arthritis": 2, "Chills": 2, "Decreased appetite": 2, "Gastric disorder": 2, "Hyperthermia": 2, "Malaise": 2}, "Adverse Reaction Reports": 6, "Deaths": 6, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
+>>>>>>> main

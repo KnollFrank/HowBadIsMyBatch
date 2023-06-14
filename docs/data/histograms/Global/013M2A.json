@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "013M2A", "histogram": {"Chills": 1, "Fatigue": 1, "Feeling hot": 1, "Flushing": 1, "Limb discomfort": 1, "Myalgia": 1, "Pain in extremity": 1, "Pruritus": 1, "Pyrexia": 1, "Rash macular": 1, "Swelling": 1, "Vaccination site lymphadenopathy": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 5, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "013M2A", "histogram": {"Chills": 1, "Fatigue": 1, "Feeling hot": 1, "Flushing": 1, "Limb discomfort": 1, "Myalgia": 1, "Pain in extremity": 1, "Pruritus": 1, "Pyrexia": 1, "Rash macular": 1, "Swelling": 1, "Vaccination site lymphadenopathy": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

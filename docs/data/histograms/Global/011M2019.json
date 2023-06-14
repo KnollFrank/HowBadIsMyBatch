@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "011M2019", "histogram": {"Atrial fibrillation": 1, "Heart rate irregular": 1, "Injection site swelling": 1, "Injection site warmth": 1, "Vertigo positional": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "011M2019", "histogram": {"Atrial fibrillation": 1, "Heart rate irregular": 1, "Injection site swelling": 1, "Injection site warmth": 1, "Vertigo positional": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

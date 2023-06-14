@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "PV46694", "histogram": {"Colitis ulcerative": 1, "Dizziness": 1, "Fatigue": 1, "Illness": 1}, "Adverse Reaction Reports": 25, "Disabilities": 3, "Life Threatening Illnesses": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "PV46694", "histogram": {"Colitis ulcerative": 1, "Dizziness": 1, "Fatigue": 1, "Illness": 1}, "Adverse Reaction Reports": 25, "Deaths": 0, "Disabilities": 3, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 3}
+>>>>>>> main

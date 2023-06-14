@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "023M21A", "histogram": {"Headache": 2, "Pyrexia": 2, "Burning sensation": 1, "Chills": 1, "Decreased appetite": 1, "Diarrhoea": 1, "Dyspnoea": 1, "Fatigue": 1, "Injection site pain": 1, "Malaise": 1, "Myalgia": 1, "Oropharyngeal pain": 1, "Painful respiration": 1, "Product dose omission issue": 1, "Tremor": 1}, "Adverse Reaction Reports": 5, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "023M21A", "histogram": {"Headache": 2, "Pyrexia": 2, "Burning sensation": 1, "Chills": 1, "Decreased appetite": 1, "Diarrhoea": 1, "Dyspnoea": 1, "Fatigue": 1, "Injection site pain": 1, "Malaise": 1, "Myalgia": 1, "Oropharyngeal pain": 1, "Painful respiration": 1, "Product dose omission issue": 1, "Tremor": 1}, "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

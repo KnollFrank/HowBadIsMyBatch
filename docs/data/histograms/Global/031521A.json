@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "031521A", "histogram": {"Chills": 1, "Hyperhidrosis": 1, "Illness": 1, "Nausea": 1, "Pain in extremity": 1, "Vaccination complication": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "031521A", "histogram": {"Chills": 1, "Hyperhidrosis": 1, "Illness": 1, "Nausea": 1, "Pain in extremity": 1, "Vaccination complication": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

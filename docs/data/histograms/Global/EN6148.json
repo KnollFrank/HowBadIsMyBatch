@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EN6148", "histogram": {"Pain": 2, "Anosmia": 1, "Arthralgia": 1, "Arthritis": 1, "Asthenia": 1, "Diarrhoea": 1, "Dysstasia": 1, "Gait disturbance": 1, "Haematochezia": 1, "Headache": 1, "Injection site pain": 1, "Joint swelling": 1, "Nausea": 1, "Pyrexia": 1, "Thrombocytopenia": 1, "Vomiting": 1, "X-ray": 1}, "Adverse Reaction Reports": 6, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "EN6148", "histogram": {"Pain": 2, "Anosmia": 1, "Arthralgia": 1, "Arthritis": 1, "Asthenia": 1, "Diarrhoea": 1, "Dysstasia": 1, "Gait disturbance": 1, "Haematochezia": 1, "Headache": 1, "Injection site pain": 1, "Joint swelling": 1, "Nausea": 1, "Pyrexia": 1, "Thrombocytopenia": 1, "Vomiting": 1, "X-ray": 1}, "Adverse Reaction Reports": 6, "Deaths": 0, "Disabilities": 1, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

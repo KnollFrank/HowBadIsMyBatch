@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "212C1A", "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "COVID-19": 1, "Chest pain": 1, "Headache": 1, "Pain assessment": 1, "Pyrexia": 1, "Vaccination failure": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 1}
+=======
+{"batchcode": "212C1A", "histogram": {"Blood pressure increased": 1, "Blood pressure measurement": 1, "COVID-19": 1, "Chest pain": 1, "Headache": 1, "Pain assessment": 1, "Pyrexia": 1, "Vaccination failure": 1}, "Adverse Reaction Reports": 3, "Deaths": 1, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "UNAVAIL", "histogram": {"Blood test": 1, "Computerised tomogram": 1, "Paranasal cyst": 1, "Subcutaneous abscess": 1, "Tooth infection": 1, "X-ray": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "UNAVAIL", "histogram": {"Blood test": 1, "Computerised tomogram": 1, "Paranasal cyst": 1, "Subcutaneous abscess": 1, "Tooth infection": 1, "X-ray": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

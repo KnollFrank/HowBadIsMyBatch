@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "02521A", "histogram": {"Cerebral haemorrhage": 1, "Chills": 1, "Condition aggravated": 1, "Death": 1, "Dysgeusia": 1, "Eating disorder": 1, "Emotional distress": 1, "Fatigue": 1, "Headache": 1, "Inappropriate schedule of product administration": 1, "Mobility decreased": 1, "Parosmia": 1, "Spinal pain": 1, "Taste disorder": 1, "Tinnitus": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 7, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 1}
+=======
+{"batchcode": "02521A", "histogram": {"Cerebral haemorrhage": 1, "Chills": 1, "Condition aggravated": 1, "Death": 1, "Dysgeusia": 1, "Eating disorder": 1, "Emotional distress": 1, "Fatigue": 1, "Headache": 1, "Inappropriate schedule of product administration": 1, "Mobility decreased": 1, "Parosmia": 1, "Spinal pain": 1, "Taste disorder": 1, "Tinnitus": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 7, "Deaths": 1, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

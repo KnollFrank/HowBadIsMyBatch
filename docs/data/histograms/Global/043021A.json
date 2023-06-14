@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "043021A", "histogram": {"Cardiac arrest": 1, "Coma": 1, "Dizziness": 1, "Dyspnoea": 1, "Hyperhidrosis": 1, "Immediate post-injection reaction": 1, "Nausea": 1}, "Adverse Reaction Reports": 5, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "JANSSEN", "Deaths": 0}
+=======
+{"batchcode": "043021A", "histogram": {"Cardiac arrest": 1, "Coma": 1, "Dizziness": 1, "Dyspnoea": 1, "Hyperhidrosis": 1, "Immediate post-injection reaction": 1, "Nausea": 1}, "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}
+>>>>>>> main

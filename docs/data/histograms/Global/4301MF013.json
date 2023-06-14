@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "4301MF013", "histogram": {"Anaphylactic reaction": 1, "Arthralgia": 1, "COVID-19 immunisation": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Hypoaesthesia": 1, "Malaise": 1, "Muscular weakness": 1, "Myalgia": 1, "Polyneuropathy": 1, "Pulmonary embolism": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 1, "Company": "UNKNOWN MANUFACTURER", "Deaths": 0}
+=======
+{"batchcode": "4301MF013", "histogram": {"Anaphylactic reaction": 1, "Arthralgia": 1, "COVID-19 immunisation": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Hypoaesthesia": 1, "Malaise": 1, "Muscular weakness": 1, "Myalgia": 1, "Polyneuropathy": 1, "Pulmonary embolism": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "UNKNOWN MANUFACTURER", "Life Threatening Illnesses": 1}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "023M208", "histogram": {"Arthralgia": 1, "Blood glucose increased": 1, "Discomfort": 1, "Dysstasia": 1, "Erythema": 1, "Head discomfort": 1, "Pain in extremity": 1, "Peripheral swelling": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "023M208", "histogram": {"Arthralgia": 1, "Blood glucose increased": 1, "Discomfort": 1, "Dysstasia": 1, "Erythema": 1, "Head discomfort": 1, "Pain in extremity": 1, "Peripheral swelling": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

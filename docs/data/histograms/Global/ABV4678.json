@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "ABV4678", "histogram": {"Abdominal pain": 1, "Angina pectoris": 1, "Arrhythmia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Headache": 1, "Heart rate": 1, "Heart rate increased": 1, "Interchange of vaccine products": 1, "Pain": 1, "Postmenopausal haemorrhage": 1}, "Adverse Reaction Reports": 46, "Disabilities": 3, "Life Threatening Illnesses": 0, "Company": "UNKNOWN MANUFACTURER", "Deaths": 0}
+=======
+{"batchcode": "ABV4678", "histogram": {"Abdominal pain": 1, "Angina pectoris": 1, "Arrhythmia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Headache": 1, "Heart rate": 1, "Heart rate increased": 1, "Interchange of vaccine products": 1, "Pain": 1, "Postmenopausal haemorrhage": 1}, "Adverse Reaction Reports": 46, "Deaths": 0, "Disabilities": 3, "Company": "UNKNOWN MANUFACTURER", "Life Threatening Illnesses": 0}
+>>>>>>> main

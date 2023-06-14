@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "PV46687", "histogram": {"COVID-19": 1}, "Adverse Reaction Reports": 27, "Disabilities": 3, "Life Threatening Illnesses": 3, "Company": "UNKNOWN MANUFACTURER", "Deaths": 0}
+=======
+{"batchcode": "PV46687", "histogram": {"COVID-19": 1}, "Adverse Reaction Reports": 27, "Deaths": 0, "Disabilities": 3, "Company": "UNKNOWN MANUFACTURER", "Life Threatening Illnesses": 3}
+>>>>>>> main

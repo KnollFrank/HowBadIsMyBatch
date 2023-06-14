@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "LOT045G21A", "histogram": {"Cardiac failure": 1, "Electrocardiogram": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "LOT045G21A", "histogram": {"Cardiac failure": 1, "Electrocardiogram": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

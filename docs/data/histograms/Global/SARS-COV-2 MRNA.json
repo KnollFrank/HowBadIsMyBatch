@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "SARS-COV-2 MRNA", "histogram": {"Arrhythmia": 1, "Dizziness": 1, "Fatigue": 1, "Limb discomfort": 1, "Nausea": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "SARS-COV-2 MRNA", "histogram": {"Arrhythmia": 1, "Dizziness": 1, "Fatigue": 1, "Limb discomfort": 1, "Nausea": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

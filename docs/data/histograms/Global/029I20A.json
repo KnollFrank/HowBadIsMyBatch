@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "029I20A", "histogram": {"Arthralgia": 1, "Cardiac disorder": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Lymphadenopathy": 1, "Myalgia": 1, "Nausea": 1, "Palpitations": 1, "Pyrexia": 1, "Vomiting": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 1}
+=======
+{"batchcode": "029I20A", "histogram": {"Arthralgia": 1, "Cardiac disorder": 1, "Dyspnoea": 1, "Fatigue": 1, "Headache": 1, "Lymphadenopathy": 1, "Myalgia": 1, "Nausea": 1, "Palpitations": 1, "Pyrexia": 1, "Vomiting": 1}, "Adverse Reaction Reports": 4, "Deaths": 1, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

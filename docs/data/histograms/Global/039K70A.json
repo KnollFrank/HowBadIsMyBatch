@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "039K70A", "histogram": {"Blood pressure decreased": 1, "Diarrhoea": 1, "Feeling hot": 1, "Nausea": 1, "Vertigo": 1, "Vomiting": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "039K70A", "histogram": {"Blood pressure decreased": 1, "Diarrhoea": 1, "Feeling hot": 1, "Nausea": 1, "Vertigo": 1, "Vomiting": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

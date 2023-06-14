@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "ET8885/V1193", "histogram": {"Syncope": 2, "Blood pressure measurement": 1, "Heart rate": 1, "Heart rate increased": 1, "Hypopnoea": 1, "Respiratory rate increased": 1, "SARS-CoV-2 test": 1, "Seizure": 1, "Unresponsive to stimuli": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "ET8885/V1193", "histogram": {"Syncope": 2, "Blood pressure measurement": 1, "Heart rate": 1, "Heart rate increased": 1, "Hypopnoea": 1, "Respiratory rate increased": 1, "SARS-CoV-2 test": 1, "Seizure": 1, "Unresponsive to stimuli": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

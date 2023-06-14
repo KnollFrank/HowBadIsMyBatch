@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "LOT216043", "histogram": {"Arrhythmia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Heart rate": 1, "Injection site pain": 1, "Lymphadenopathy": 1, "Monoplegia": 1, "Oedema": 1, "Palpitations": 1, "Paraesthesia": 1, "Peripheral swelling": 1, "Presyncope": 1, "Tachycardia": 1}, "Adverse Reaction Reports": 6, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "LOT216043", "histogram": {"Arrhythmia": 1, "Blood pressure increased": 1, "Blood pressure measurement": 1, "Dizziness": 1, "Dyspnoea": 1, "Fatigue": 1, "Heart rate": 1, "Injection site pain": 1, "Lymphadenopathy": 1, "Monoplegia": 1, "Oedema": 1, "Palpitations": 1, "Paraesthesia": 1, "Peripheral swelling": 1, "Presyncope": 1, "Tachycardia": 1}, "Adverse Reaction Reports": 6, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

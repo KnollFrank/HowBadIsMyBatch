@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "092L20A", "histogram": {"Atrial fibrillation": 1, "Chills": 1, "Contusion": 1, "Fatigue": 1, "Haemorrhage": 1, "Muscle atrophy": 1, "Nodule": 1, "Pain": 1, "Pericarditis": 1, "Peroneal nerve palsy": 1, "Platelet count": 1, "Platelet count decreased": 1, "Pyrexia": 1, "Systemic mycosis": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "092L20A", "histogram": {"Atrial fibrillation": 1, "Chills": 1, "Contusion": 1, "Fatigue": 1, "Haemorrhage": 1, "Muscle atrophy": 1, "Nodule": 1, "Pain": 1, "Pericarditis": 1, "Peroneal nerve palsy": 1, "Platelet count": 1, "Platelet count decreased": 1, "Pyrexia": 1, "Systemic mycosis": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

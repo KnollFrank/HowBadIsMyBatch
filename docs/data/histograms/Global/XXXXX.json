@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "XXXXX", "histogram": {"Product storage error": 325, "Unevaluable event": 4}, "Adverse Reaction Reports": 329, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "XXXXX", "histogram": {"Product storage error": 325, "Unevaluable event": 4}, "Adverse Reaction Reports": 329, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

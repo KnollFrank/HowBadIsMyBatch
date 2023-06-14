@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "03421A", "histogram": {"Myalgia": 2, "Fatigue": 1, "Headache": 1, "Muscle spasms": 1, "Vaccination site mass": 1, "Vaccination site rash": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "03421A", "histogram": {"Myalgia": 2, "Fatigue": 1, "Headache": 1, "Muscle spasms": 1, "Vaccination site mass": 1, "Vaccination site rash": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main

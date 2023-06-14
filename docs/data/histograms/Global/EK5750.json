@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EK5750", "histogram": {"Immediate post-injection reaction": 1, "Tinnitus": 1}, "Adverse Reaction Reports": 3, "Disabilities": 1, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "EK5750", "histogram": {"Immediate post-injection reaction": 1, "Tinnitus": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

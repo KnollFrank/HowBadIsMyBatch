@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "GK1329", "histogram": {"Blood pressure measurement": 1, "Body temperature": 1, "Depressed level of consciousness": 1, "Electroencephalogram": 1, "Feeling abnormal": 1, "Hyperventilation": 1, "Interchange of vaccine products": 1, "Nausea": 1, "Oxygen saturation": 1, "Presyncope": 1, "Seizure": 1, "Vital signs measurement": 1}, "Adverse Reaction Reports": 4, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}
+=======
+{"batchcode": "GK1329", "histogram": {"Blood pressure measurement": 1, "Body temperature": 1, "Depressed level of consciousness": 1, "Electroencephalogram": 1, "Feeling abnormal": 1, "Hyperventilation": 1, "Interchange of vaccine products": 1, "Nausea": 1, "Oxygen saturation": 1, "Presyncope": 1, "Seizure": 1, "Vital signs measurement": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}
+>>>>>>> main

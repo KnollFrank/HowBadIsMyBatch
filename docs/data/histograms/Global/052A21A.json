@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "052A21A", "histogram": {"Accidental exposure to product": 1, "Anticoagulant therapy": 1, "Blindness unilateral": 1, "Blood test": 1, "Computerised tomogram": 1, "Hypoaesthesia": 1, "Lacunar stroke": 1, "Magnetic resonance imaging": 1, "Muscular weakness": 1, "Nerve conduction studies normal": 1, "Periarthritis": 1}, "Adverse Reaction Reports": 3, "Disabilities": 2, "Life Threatening Illnesses": 1, "Company": "JANSSEN", "Deaths": 0}
+=======
+{"batchcode": "052A21A", "histogram": {"Accidental exposure to product": 1, "Anticoagulant therapy": 1, "Blindness unilateral": 1, "Blood test": 1, "Computerised tomogram": 1, "Hypoaesthesia": 1, "Lacunar stroke": 1, "Magnetic resonance imaging": 1, "Muscular weakness": 1, "Nerve conduction studies normal": 1, "Periarthritis": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 2, "Company": "JANSSEN", "Life Threatening Illnesses": 1}
+>>>>>>> main

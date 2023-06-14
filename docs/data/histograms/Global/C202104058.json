@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "C202104058", "histogram": {"Diabetes mellitus": 1, "Electrolyte imbalance": 1, "Hypertension": 1, "Nephrolithiasis": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "UNKNOWN MANUFACTURER", "Deaths": 0}
+=======
+{"batchcode": "C202104058", "histogram": {"Diabetes mellitus": 1, "Electrolyte imbalance": 1, "Hypertension": 1, "Nephrolithiasis": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "UNKNOWN MANUFACTURER", "Life Threatening Illnesses": 0}
+>>>>>>> main

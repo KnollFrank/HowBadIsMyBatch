@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "025S20-2A", "histogram": {"Dizziness": 1, "Pyrexia": 1}, "Adverse Reaction Reports": 3, "Disabilities": 0, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
+=======
+{"batchcode": "025S20-2A", "histogram": {"Dizziness": 1, "Pyrexia": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}
+>>>>>>> main
