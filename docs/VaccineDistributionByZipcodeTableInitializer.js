@@ -31,6 +31,10 @@ class VaccineDistributionByZipcodeTableInitializer {
                                 this.#getColumnIndex('Lot Number'),
                             ]
                         },
+                        {
+                            render: DataTable.render.number(),
+                            target: this.#getColumnIndex('Doses Shipped')
+                        }
                     ]
             });
     }
