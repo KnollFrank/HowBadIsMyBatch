@@ -1,0 +1,744 @@
+# ----------------------------------------
+# HowBadIsMyBatch
+# Batchcode By Country-Country By Clicked Batchcode
+# 20230627-20230627
+# ----------------------------------------
+
+Clicked Batchcode,Country,Event count
+,,5560,Grand total
+#EL9262,United States,1
+000004A,Australia,1
+000059A,Spain,1
+000125A,Germany,1
+002B21A,United States,1
+002F21A,Netherlands,1
+003A21A,United States,1
+003C21A,United States,1
+003J21-2A,United States,1
+0044A21A,United States,1
+006D21A,United States,1
+006M20A,United States,1
+007G21A,Germany,1
+008B21A,United States,1
+008G21A,Germany,1
+011120A,Germany,1
+011D21A,United States,1
+011L20A,United States,1
+011MZ0A,United States,1
+011MZOA,United States,1
+012H21B,Argentina,1
+014M20A,Canada,1
+015H22A,United States,1
+016J21-2A,United States,1
+017F211A,Netherlands,1
+019G21A_1101121,Germany,1
+020F21A,United States,1
+021021A,Brazil,1
+022B21A,United States,1
+022M2OA,United States,1
+023H22A,United States,1
+023MZ0A,United States,1
+025L20A,United Kingdom,1
+025L21B,United States,1
+026220A,Germany,1
+026620A,Germany,1
+026L20A,United States,1
+029K20A,Israel,1
+029K20A,United States,1
+029K2OA,United States,1
+030421A,Spain,1
+030H21B,United States,1
+030L20A,United States,1
+03120A,Germany,1
+031F21A,United States,1
+032821A,United States,1
+032B21A,United States,1
+032F21A,Spain,1
+032H21A,Puerto Rico,1
+036A21A,United States,1
+03721A,Germany,1
+037A21B,United States,1
+038AZ1A,United States,1
+039B21A,United States,1
+039K20A,Romania,1
+03C21A,United States,1
+040A21A,United States,1
+040B21A,Puerto Rico,1
+041120A,United States,1
+042621A,Germany,1
+04321A,Germany,1
+04321A,Poland,1
+043220A,Spain,1
+04421A,Germany,1
+044A21A,Puerto Rico,1
+044AZ1A,United States,1
+045621A,Spain,1
+045B21A,United States,1
+045D21A,Canada,1
+045G21A,Germany,1
+045L21A,United States,1
+046B21A,United States,1
+048M21A_1110427,Germany,1
+050E21A,Netherlands,1
+050E21A,United States,1
+055A22A,United States,1
+055E21A,United States,1
+058F21A,United States,1
+059E21A,United States,1
+063H21A,Canada,1
+065F21A,United States,1
+067H21A,United States,1
+085D21A,Canada,1
+086521A,Germany,1
+092D21A,Canada,1
+092F21A,Croatia,1
+092F21A,United States,1
+093D21A,Canada,1
+10038077727399,Germany,1
+105286103255487,Spain,1
+1111-20-ER8729,United States,1
+1111-20-EW0168,United States,1
+1111-20-EW0176,United States,1
+1234,Spain,1
+12345,Germany,1
+123456,Germany,1
+1C008A,Germany,1
+1D012A,Spain,1
+1D015A,Germany,1
+1E026A,Germany,1
+1F030A,Austria,1
+1F036A,Austria,1
+1F036A,Germany,1
+1F1003A,Germany,1
+1F1008A,Germany,1
+1F1008A,Netherlands,1
+1F1013A,Austria,1
+1F1018A,Germany,1
+1F1021A,Germany,1
+1F1021A,Indonesia,1
+1F1028A,New Zealand,1
+1F1049A,Germany,1
+1G044A,Germany,1
+1HO48A,Germany,1
+202105B1034,Germany,1
+203AZIA,United States,1
+204321A,Germany,1
+205A21A,United States,1
+207A21A,United States,1
+211A21A,United States,1
+211D21A,United States,1
+214004,Portugal,1
+214005,Germany,1
+214007,Germany,1
+21C10-01,Germany,1
+21C1105,Portugal,1
+226008,Germany,1
+300042698,Canada,1
+300042721-05-01,Germany,1
+3000489,Canada,1
+30011TB,Germany,1
+3001938,Romania,1
+3001939,Germany,1
+3001942,Romania,1
+3001944,Canada,1
+3002183,Germany,1
+3002616,Norway,1
+3004221,Germany,1
+3004227,Germany,1
+3004675,Germany,1
+3004737,United Kingdom,1
+3004953,Germany,1
+3004954,Germany,1
+3005287,Germany,1
+3005697,Norway,1
+3006273,Austria,1
+30145 BA,United States,1
+301588A,United States,1
+30330BD,United States,1
+31134TB,Germany,1
+320308D,United States,1
+33030BD,United States,1
+33033BD,United States,1
+330368D,United States,1
+33130BA,United States,1
+41202003,United Kingdom,1
+41207001,Brazil,1
+6020111,Germany,1
+80777027399,Germany,1
+8077727399,Germany,1
+939906,United States,1
+AA1234,Germany,1
+AA1234,Spain,1
+AB0004,United Kingdom,1
+AB0009,United Kingdom,1
+AB0011,United Kingdom,1
+AB25320,Canada,1
+ABV2856,Germany,1
+ABW0003,United Kingdom,1
+ABW7189,Germany,1
+ACB32221,Germany,1
+ACB3738,Germany,1
+ACB4447,Poland,1
+ACB8491,San Marino,1
+ACB8967,Austria,1
+ACC0681,Germany,1
+ACC1336,Germany,1
+ACC6099,Germany,1
+AS4712B,Germany,1
+B1F1024A,Germany,1
+BNT162B2,Israel,1
+C214064,Lithuania,1
+CH-B:SCTD6,Germany,1
+CH.-B.: EX3510,Germany,1
+CH.-B.: EX8680,Germany,1
+CH.-B.:SCUL2,United States,1
+CH.B EX3510,Canada,1
+CH.B. EW89O4,Germany,1
+CH.B.:1C007A,Germany,1
+CH.B.:FP1972,Germany,1
+COMIRNATY EX867,Germany,1
+CTMAV532,Canada,1
+E13248,Germany,1
+E47015,Germany,1
+E56790,Germany,1
+EE0153,United States,1
+EF2589,United States,1
+EI9266,United States,1
+EJ1685,United States,1
+EJ6789,Germany,1
+EK4175,Israel,1
+EL0203,Canada,1
+EL1283,United States,1
+EL1284,United States,1
+EL1491,Germany,1
+EL3246,United States,1
+EL4237,United States,1
+EL7834,United Kingdom,1
+EL9262,United States,1
+ELD140,United States,1
+EN0191,United States,1
+EN1196,Canada,1
+EN5318,United States,1
+EN6198,Germany,1
+EN6201,Germany,1
+"EN6201, EN6208",United States,1
+EN6202,United States,1
+EN6205,United States,1
+EN6206 AND ER87,United States,1
+EN6208,United States,1
+EN6209,United States,1
+EN6318,United States,1
+EP2163,Germany,1
+EP9598,Finland,1
+EP9598,Germany,1
+ER2613,United States,1
+ER2659,Germany,1
+ER7449,Spain,1
+ER8733,United States,1
+ER8735,United States,1
+ER8737,United States,1
+ER9449,United Kingdom,1
+ER9449,United States,1
+ER9480,Germany,1
+ET1831,Austria,1
+ET3045,Spain,1
+ET6924,United States,1
+ET8885,United Kingdom,1
+EW 0191,United States,1
+EW0168,United States,1
+EW0172,United States,1
+EW0173,United States,1
+EW0186,United States,1
+EW0198,United States,1
+EW0201,United States,1
+EW0202,United States,1
+EW2143,United States,1
+EW2239,Spain,1
+EW2243,Spain,1
+EW2245,United Kingdom,1
+EW2246,Spain,1
+EW3344,Israel,1
+EW4143,Germany,1
+EW4811,Japan,1
+EW4815,Spain,1
+EWO158,United States,1
+EWO178,United States,1
+EWO180,United States,1
+EWO198,United States,1
+EX0893,Spain,1
+EX3617,Canada,1
+EX7823,Germany,1
+EX8680,Germany,1
+EY0574,Chile,1
+EY0580,Spain,1
+EY0586,Canada,1
+EY2172,Germany,1
+EY2172,Sweden,1
+EY7015,Austria,1
+F51614,United States,1
+FA4598,Austria,1
+FA4598,Germany,1
+FA4632,Spain,1
+FA5715,Estonia,1
+FA5765,Canada,1
+FA5831,Germany,1
+FA6780,United States,1
+FA7484,Puerto Rico,1
+FA7488,Germany,1
+FA8142,Spain,1
+FA9093,Canada,1
+FA9099,Canada,1
+FC1435,Spain,1
+FC1436,South Africa,1
+FC2236,Germany,1
+FC3180,Puerto Rico,1
+FC3180,United States,1
+FC3661,Canada,1
+FC3661,Germany,1
+FC8889,Netherlands,1
+FC9880,Japan,1
+FD 4555,United States,1
+FD0168,Canada,1
+FD0168,Costa Rica,1
+FD0168,United States,1
+FD0785,Netherlands,1
+FD4555,Austria,1
+FD4555,Germany,1
+FD4884,United States,1
+FD6840,Belgium,1
+FD7204,Greece,1
+FD7204,Hungary,1
+FD7207,Canada,1
+FD7209,Canada,1
+FD7210,Canada,1
+FD8274,Poland,1
+FD8274,Portugal,1
+FD8274,Spain,1
+FDO809,Canada,1
+FE1510,United Kingdom,1
+FE1573,Portugal,1
+FE2083,Estonia,1
+FE2296,Serbia,1
+FE2625,Germany,1
+FE3065,Spain,1
+FE3590,United States,1
+FE3592,United States,1
+FE3594,United States,1
+FE6029,Serbia,1
+FE6208,Belgium,1
+FE6208,Germany,1
+FE6208,Spain,1
+FE6208,United States,1
+FE6280,Germany,1
+FE7010,Netherlands,1
+FE7958,Germany,1
+FE8236,Saudi Arabia,1
+FE8405,Spain,1
+FE9174,Germany,1
+FF2587,United States,1
+FF2589,United States,1
+FF2590,United States,1
+FF2593,United States,1
+FF2595,Canada,1
+FF2782,Japan,1
+FF2834,Austria,1
+FF4206,New Zealand,1
+FF8222,Italy,1
+FF8244,United Kingdom,1
+FF8288,Austria,1
+FF8288,Italy,1
+FF8813,United Kingdom,1
+FG6431,United Kingdom,1
+FH0161,Germany,1
+FH2528,Malaysia,1
+FH3220,United Kingdom,1
+FH32220,Australia,1
+FH3253,Australia,1
+FH4092,New Zealand,1
+FH4751,Germany,1
+FH4757,Malaysia,1
+FH9678,Serbia,1
+FJ1614,United States,1
+FJ4981,Germany,1
+FJ4989,United States,1
+FJ5683,Spain,1
+FJ5973,Australia,1
+FJ8372,New Zealand,1
+FK0596,United Kingdom,1
+FK5475,Poland,1
+FK5618,United States,1
+FK8892,Saudi Arabia,1
+FK8911,Denmark,1
+FK9706,Ireland,1
+FK9706,United Kingdom,1
+FK9729,United States,1
+FK9896,United States,1
+FL0007,United States,1
+FL3197,United States,1
+FL3209,Puerto Rico,1
+FL3209,United States,1
+FL3209-PFIZER-2,Puerto Rico,1
+FL3248,United States,1
+FL5324,Philippines,1
+FL5729,Australia,1
+FL7649,Australia,1
+FL8095,United States,1
+FM2952,Canada,1
+FM2964,Philippines,1
+FM7553-PFIZER-2,United States,1
+FM9992,United States,1
+FN2716,Germany,1
+FN2727,Spain,1
+FN5254,Poland,1
+FN5254,United Kingdom,1
+FO8448,United States,1
+FP1972,Austria,1
+FP7135,United States,1
+FP7137-PFIZER-2,United States,1
+FR4268,Germany,1
+G200707,Germany,1
+GD6794,Denmark,1
+GD6797,United Kingdom,1
+GD6800,United Kingdom,1
+GH9722,Austria,1
+GH9851,Austria,1
+GJ3277,United States,1
+GJ6665,Germany,1
+GJ6742,United States,1
+GJ9254,United Kingdom,1
+GL2042,United States,1
+GLO446,United States,1
+JANSSEN 042A21A,United States,1
+KV1234,Spain,1
+L202106033,Brazil,1
+L202106033,Chile,1
+LOT 000125A,Germany,1
+LOT 007G21A,Germany,1
+LOT 214008,Germany,1
+LOT 3004233,Germany,1
+LOT 3004953,Germany,1
+LOT000086A,Germany,1
+LOT000110A,Germany,1
+LOT214015,Croatia,1
+LOT214015,Germany,1
+LOT3002913,Germany,1
+LOT3004233,Germany,1
+LOTFF0680,Austria,1
+MODERNA 039K20A,United States,1
+MT0055,Canada,1
+NA0079,Canada,1
+ND0222001,Germany,1
+ND0222002,Germany,1
+ORG 100030215,France,1
+PAA156051,United States,1
+PAA164811,Germany,1
+PCA0003,Austria,1
+PCA0020,Romania,1
+PCB0003,Austria,1
+PCB0003,Romania,1
+PFIZER EN6202,United States,1
+PFIZER EN6206,Netherlands,1
+PFIZER EN6206,United States,1
+PFIZER EN6207,United States,1
+PFIZER EN6208,United States,1
+PFIZER ER8729,United States,1
+PFIZER ER8731,United States,1
+PFIZER ER8737,United States,1
+PFIZER EW0179,United States,1
+PFIZER EW0181,United States,1
+PFIZER FD8448,United States,1
+PFIZER FE3590,United States,1
+PH4751,Brazil,1
+PHIZER,Romania,1
+PV46663,Germany,1
+PV46685,United Kingdom,1
+PV46693,United Kingdom,1
+PV46697,United Kingdom,1
+PV46700,United Kingdom,1
+PW40011,United Kingdom,1
+SCJU6,Germany,1
+SCKX7,Germany,1
+SCRP9,Germany,1
+SCRW2,Germany,1
+SCTD6,Germany,1
+SCTJ2,Germany,1
+SCVC6,Germany,1
+SCVW7,United States,1
+SCWF3,Germany,1
+W2B051M,United Kingdom,1
+XE494,South Africa,1
+000022A,United Kingdom,2
+000132A,Germany,2
+001C21A,Puerto Rico,2
+0033F21A,United States,2
+005C21A,United States,2
+006C21A,United States,2
+009D21A,United States,2
+012720A,Germany,2
+017F21A,Netherlands,2
+020B21A,United States,2
+023C21A,United States,2
+023M20A,United States,2
+023M2OA,United States,2
+027A21A,United States,2
+028A21A,Puerto Rico,2
+030M20A,United States,2
+031L20A,United States,2
+033F21A,United States,2
+033H21A,United States,2
+034F21A,United States,2
+036C21A,United States,2
+038A21A,United States,2
+039021A,United States,2
+039K20A,Israel,2
+045221A,Germany,2
+045J21A,United States,2
+056A22A,United States,2
+058F21A,Puerto Rico,2
+059M21A,United States,2
+067H21A-MODERNA,United States,2
+10018A,Germany,2
+1805029,Argentina,2
+1D012A,United States,2
+1D014A,Germany,2
+1D017A,Germany,2
+1E028A,Germany,2
+1F1010A,Germany,2
+1F1016A,San Marino,2
+1F1042A,Germany,2
+1G044A,Austria,2
+1H049A,Germany,2
+214002,Germany,2
+214008,Germany,2
+3002620,Germany,2
+3004233,Germany,2
+30130BA,United States,2
+30145BA,United States,2
+30891TB,Germany,2
+331308A,United States,2
+AB0006,United Kingdom,2
+ABV5045,Spain,2
+ACB4692,Germany,2
+ACB5317,Germany,2
+ACB7737,Germany,2
+BNT162B2,Canada,2
+CH.-B.: 1F1023A,Germany,2
+CH.-B.:FE6975,Germany,2
+CH.-B: FF0900,Germany,2
+E56789,Germany,2
+EK1768,United Kingdom,2
+EK4244,United Kingdom,2
+EK9231,United States,2
+EK9788,Germany,2
+EL8723,Germany,2
+EL9261,United States,2
+EN0168,United States,2
+EN1195,Serbia,2
+EN6199,United States,2
+EN6201,United States,2
+EN6206,United States,2
+EN6207,United States,2
+EP6955,United States,2
+ER8727,United States,2
+ER8732,United States,2
+ER8734,United States,2
+ET3045,Germany,2
+EW0153,United States,2
+EW0178,United States,2
+EW0185,United States,2
+EW0187,United States,2
+EW0193,Canada,2
+EW0196,United States,2
+EW3143,United Kingdom,2
+EX3510,Germany,2
+EX8679,Spain,2
+EX8679,United States,2
+FA5833,Germany,2
+FA7484,United States,2
+FA7485,United States,2
+FA9091,Canada,2
+FC0681,Austria,2
+FC1440,Germany,2
+FC1526,Spain,2
+FC5089,Netherlands,2
+FD0168,Austria,2
+FD1945,Japan,2
+FD5996,Philippines,2
+FD7208,Canada,2
+FD7958,Germany,2
+FD8813,United Kingdom,2
+FDO810,Canada,2
+FE1248,Spain,2
+FE3380,United Kingdom,2
+FE6208,Puerto Rico,2
+FE7051,Austria,2
+FE8087,United Kingdom,2
+FF0900,Germany,2
+FF3318,United Kingdom,2
+FF3319,United Kingdom,2
+FG4442,Lithuania,2
+FG7372,Australia,2
+FH8028,United States,2
+FH8773,Netherlands,2
+FH9678,New Zealand,2
+FJ6369,United States,2
+FK9893,United States,2
+GH9715,Germany,2
+GK3907,Australia,2
+J07BX03,Canada,2
+LOT 3002620,Germany,2
+LOT007G21A,Germany,2
+LOT214007,Germany,2
+LOT214008,Germany,2
+NP001,Japan,2
+PFIZER EK9231,United States,2
+PFIZER EN6199,United States,2
+PFIZER EN6200,United States,2
+PFIZER EP6955,United States,2
+PFIZER EW0167,United States,2
+PFIZER FA7485,United States,2
+PV46677,United Kingdom,2
+PV46687,United Kingdom,2
+PV46698,United Kingdom,2
+PW40041,United Kingdom,2
+SCVK4,Germany,2
+SDEJ8,Germany,2
+SDEW9,Germany,2
+XD985,Germany,2
+XE389,Germany,2
+(not set),Guatemala,3
+(not set),Panama,3
+(not set),Peru,3
+(not set),Slovakia,3
+(not set),Uruguay,3
+025B21A,United States,3
+039K20A,United States,3
+180892,Australia,3
+1822811,United States,3
+1E029A,Germany,3
+1F1022A,Germany,3
+1F1024A,Germany,3
+203A21A,United States,3
+210101,Germany,3
+30125BA,United States,3
+31101TB,Germany,3
+ACB8967,Germany,3
+CH.-B.:FC3095,Germany,3
+CH.B.:EX3599,Germany,3
+EJ6797,Germany,3
+EN6204,United States,3
+ER1741,United Kingdom,3
+ER8729,United States,3
+ER8731,United States,3
+EW0167,United States,3
+EW0180,United States,3
+EW0182,United States,3
+EW6126,Spain,3
+EW8904,Germany,3
+EY 2172,Sweden,3
+FA 4632,Sweden,3
+FA1027,United Kingdom,3
+FA5833,Spain,3
+FA6780,Puerto Rico,3
+FC3183,United States,3
+FD0810,Canada,3
+FD7206,Canada,3
+FD9309,Spain,3
+FE7011,Germany,3
+FF0680,Austria,3
+FF3318,Austria,3
+FF8222,United Kingdom,3
+FH3219,Australia,3
+FJ1611,United States,3
+FJ8757,United States,3
+FM0698,United States,3
+FM7553,United States,3
+FN4072,Spain,3
+FP1972,Germany,3
+FP7137,United States,3
+LOT 3004235,Germany,3
+NP007,Japan,3
+PFIZER EW0191,United States,3
+PFIZER FC3181,United States,3
+PV46684,United Kingdom,3
+SDEH4,Germany,3
+(not set),Belgium,4
+(not set),Hong Kong,4
+(not set),India,4
+(not set),Malaysia,4
+(not set),Moldova,4
+022M20A,United States,4
+033C21A,United States,4
+1D016A,Germany,4
+CH.-B. FD9234,Germany,4
+EJ6789,France,4
+EW0161,United States,4
+FC3184,United States,4
+FC8889,Germany,4
+FD9234,Germany,4
+SCRM8,Germany,4
+SCVY8,Germany,4
+XE423,Germany,4
+(not set),Greece,5
+(not set),Honduras,5
+(not set),Indonesia,5
+(not set),Kuwait,5
+031B21A,United States,5
+1F1027A,Germany,5
+EJ6788,Germany,5
+EJ6796,Germany,5
+EM0477,Germany,5
+EW0181,United States,5
+EW4109,United Kingdom,5
+EY3014,Austria,5
+FC3095,Germany,5
+FF2832,Austria,5
+(not set),Czechia,6
+(not set),Venezuela,6
+EW0221,Canada,6
+EX3599,Germany,6
+(not set),Dominican Republic,7
+(not set),Saudi Arabia,7
+EN6200,United States,7
+(not set),Costa Rica,8
+(not set),Hungary,8
+(not set),Norway,8
+EW0176,United States,8
+(not set),Chile,9
+(not set),Estonia,10
+EX8679,Germany,10
+(not set),Colombia,11
+FD7204,Canada,11
+(not set),Finland,12
+(not set),Denmark,13
+(not set),Ukraine,13
+(not set),Portugal,18
+(not set),South Africa,19
+(not set),Mexico,20
+(not set),Sweden,20
+(not set),Israel,22
+(not set),Philippines,22
+(not set),New Zealand,23
+(not set),San Marino,23
+(not set),Serbia,23
+(not set),Brazil,24
+(not set),Poland,27
+(not set),Argentina,28
+(not set),Puerto Rico,29
+(not set),Switzerland,29
+(not set),Ireland,30
+(not set),Lithuania,30
+(not set),Croatia,32
+(not set),Italy,38
+(not set),Romania,44
+(not set),France,52
+(not set),Netherlands,77
+(not set),Japan,82
+(not set),Australia,154
+(not set),Austria,189
+(not set),Canada,254
+(not set),United Kingdom,261
+(not set),Spain,484
+(not set),United States,1123
+(not set),Germany,1172
+
