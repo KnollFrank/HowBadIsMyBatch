@@ -1,1 +1,1 @@
-{"batchcode": "201L22A", "histogram": {"Incorrect dose administered": 8, "Incorrect product formulation administered": 5, "Underdose": 2}, "Adverse Reaction Reports": 15, "Company": "MODERNA", "Disabilities": 0, "Life Threatening Illnesses": 0, "Deaths": 0}
+{"batchcode": "201L22A", "histogram": {"Underdose": 11, "Incorrect dose administered": 9, "Incorrect product formulation administered": 5}, "Life Threatening Illnesses": 0, "Disabilities": 0, "Company": "MODERNA", "Adverse Reaction Reports": 25, "Deaths": 0}
