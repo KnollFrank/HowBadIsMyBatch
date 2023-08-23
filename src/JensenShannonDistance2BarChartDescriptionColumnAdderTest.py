@@ -27,11 +27,11 @@ class JensenShannonDistance2BarChartDescriptionColumnAdderTest(unittest.TestCase
                     name = 'VAX_LOT'))
         
         # When
-        barChartDescriptionTableWithJensenShannonDistanceColumn = JensenShannonDistance2BarChartDescriptionColumnAdder.addJensenShannonDistance2BarChartDescriptionColumn(barChartDescriptionTable)
+        barChartDescriptionTableWithJensenShannonDistance = JensenShannonDistance2BarChartDescriptionColumnAdder.addJensenShannonDistance2BarChartDescriptionColumn(barChartDescriptionTable)
 
         # Then
         assert_frame_equal(
-            barChartDescriptionTableWithJensenShannonDistanceColumn,
+            barChartDescriptionTableWithJensenShannonDistance,
             TestHelper.createDataFrame(
                 columns = ['BAR_CHART_DESCRIPTION'],
                 data = [
