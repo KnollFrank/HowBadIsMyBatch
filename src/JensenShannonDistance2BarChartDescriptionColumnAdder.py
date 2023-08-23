@@ -13,6 +13,7 @@ class JensenShannonDistance2BarChartDescriptionColumnAdder:
     def _addJensenShannonDistance2BarChartDescription(barChartDescription):
         return {
             **barChartDescription,
+            # https://machinelearningmastery.com/divergence-between-probability-distributions/: 0 (identical) and 1 (maximally different)
             'Jensen-Shannon distance': distance.jensenshannon(
                 barChartDescription['Adverse Reaction Reports guessed'],
                 barChartDescription['Adverse Reaction Reports known'],
