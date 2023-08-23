@@ -59,8 +59,7 @@ class BatchCodeTableInitializer {
                             targets:
                                 [
                                     this.#getColumnIndex('Batch'),
-                                    this.#getColumnIndex('Company'),
-                                    this.#getColumnIndex('Countries')
+                                    this.#getColumnIndex('Company')
                                 ]
                         },
                         {
@@ -75,8 +74,13 @@ class BatchCodeTableInitializer {
                         },
                         {
                             width: "1000px",
-                            render: function (data, type, row, meta) {
-                                return null;
+                            render: (data, type, row, meta) => {
+                                if (type === 'sort') {
+                                    return this.#getJensenShannonDistance(
+                                        row[this.#getColumnIndex('Batch')],
+                                        barChartDescriptions);
+                                }
+                                return data;
                             },
                             createdCell: (cell, cellData, row, rowIndex, colIndex) => {
                                 if (showCountriesColumn) {
@@ -92,7 +96,6 @@ class BatchCodeTableInitializer {
                     ]
             });
     }
-
 
     #getColumnIndex(columnName) {
         switch (columnName) {
@@ -117,14 +120,27 @@ class BatchCodeTableInitializer {
         }
     }
 
+    #getJensenShannonDistance(batchcode, barChartDescriptions) {
+        const barChartDescription = this.#getBarChartDescription(barChartDescriptions, batchcode);
+        const maximally_different = 1;
+        if (barChartDescription === null) {
+            return maximally_different;
+        }
+        const jensenShannonDistance = barChartDescription['Jensen-Shannon distance'];
+        return jensenShannonDistance === null ? maximally_different : jensenShannonDistance;
+    }
+
     #displayBatchcodeByCountryBarChart(batchcode, barChartDescriptions, uiContainer) {
-        if (batchcode in barChartDescriptions.barChartDescriptions) {
-            new BatchcodeByCountryBarChartView(uiContainer)
-                .displayBatchcodeByCountryBarChart(this.#getBarChartDescription(barChartDescriptions, batchcode));
+        const barChartDescription = this.#getBarChartDescription(barChartDescriptions, batchcode);
+        if (barChartDescription !== null) {
+            new BatchcodeByCountryBarChartView(uiContainer).displayBatchcodeByCountryBarChart(barChartDescription);
         }
     }
 
     #getBarChartDescription(barChartDescriptions, batchcode) {
+        if (!(batchcode in barChartDescriptions.barChartDescriptions)) {
+            return null;
+        }
         const barChartDescription = barChartDescriptions.barChartDescriptions[batchcode];
         barChartDescription.batchcode = batchcode;
         barChartDescription['date range guessed'] = barChartDescriptions['date range guessed'];

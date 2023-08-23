@@ -31,7 +31,8 @@ class BatchcodeByCountryBarChart {
             labels: barChartDescription.countries,
             datasets: [
                 {
-                    label: `Known (${this.#dateRange2str(barChartDescription['date range known'])})`,
+                    // FK-TODO: do not display Jensen-Shannon distance here or do not display at all
+                    label: `Known (${this.#dateRange2str(barChartDescription['date range known'])}) ${barChartDescription['Jensen-Shannon distance']}`,
                     data: barChartDescription["Adverse Reaction Reports known"]
                 },
                 {
