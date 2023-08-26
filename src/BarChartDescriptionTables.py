@@ -6,10 +6,9 @@ class BarChartDescriptionTables:
 
     @staticmethod
     def filterValidJensenShannonDistances(barChartDescriptionTable):
-        return barChartDescriptionTable[barChartDescriptionTable.apply(
-            lambda barChartDescription: BarChartDescriptionTables._isValidJensenShannonDistance(
-                barChartDescription['BAR_CHART_DESCRIPTION']),
-            axis='columns')]
+        return BarChartDescriptionTables._filter(
+            barChartDescriptionTable,
+            BarChartDescriptionTables._isValidJensenShannonDistance)
 
     @staticmethod
     def _isValidJensenShannonDistance(barChartDescription):
@@ -18,11 +17,10 @@ class BarChartDescriptionTables:
 
     @staticmethod
     def filterHasMinSizeOfGuessedHistogram(barChartDescriptionTable, minSizeOfGuessedHistogram):
-        return barChartDescriptionTable[
-            barChartDescriptionTable.apply(
-                lambda barChartDescription: BarChartDescriptionTables._hasMinSizeOfGuessedHistogram(
-                    barChartDescription['BAR_CHART_DESCRIPTION'], minSizeOfGuessedHistogram),
-                axis='columns')]
+        return BarChartDescriptionTables._filter(
+            barChartDescriptionTable,
+            lambda barChartDescription:
+                BarChartDescriptionTables._hasMinSizeOfGuessedHistogram(barChartDescription, minSizeOfGuessedHistogram))
 
     @staticmethod
     def _hasMinSizeOfGuessedHistogram(barChartDescription, minSizeOfGuessedHistogram):
@@ -32,13 +30,19 @@ class BarChartDescriptionTables:
 
     @staticmethod
     def filterHasCountryWithGuessedGreaterThanKnown(barChartDescriptionTable):
-        return barChartDescriptionTable[barChartDescriptionTable.apply(
-            lambda barChartDescription:BarChartDescriptionTables._hasCountryWithGuessedGreaterThanKnown(
-                barChartDescription['BAR_CHART_DESCRIPTION']),
-            axis='columns')]
+        return BarChartDescriptionTables._filter(
+            barChartDescriptionTable,
+            BarChartDescriptionTables._hasCountryWithGuessedGreaterThanKnown)
 
     @staticmethod
     def _hasCountryWithGuessedGreaterThanKnown(barChartDescription):
         guessedBarChart = barChartDescription['Adverse Reaction Reports guessed']
         knownBarChart = barChartDescription['Adverse Reaction Reports known']
         return np.any(np.asarray(guessedBarChart) > np.asarray(knownBarChart))
+
+    @staticmethod
+    def _filter(barChartDescriptionTable, predicate):
+        return barChartDescriptionTable[barChartDescriptionTable.apply(
+            lambda barChartDescription: predicate(
+                barChartDescription['BAR_CHART_DESCRIPTION']),
+            axis='columns')]
