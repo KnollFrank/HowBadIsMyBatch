@@ -1,4 +1,5 @@
 import math
+import numpy as np
 
 
 class BarChartDescriptionTables:
@@ -24,3 +25,13 @@ class BarChartDescriptionTables:
     def _hasMinSizeOfGuessedHistogram(barChartDescription, minSizeOfGuessedHistogram):
         sizeOfGuessedHistogram = sum(barChartDescription['BAR_CHART_DESCRIPTION']['Adverse Reaction Reports guessed'])
         return sizeOfGuessedHistogram >= minSizeOfGuessedHistogram
+
+    @staticmethod
+    def filterHasCountryWithGuessedGreaterThanKnown(barChartDescriptionTable):
+        return barChartDescriptionTable[barChartDescriptionTable.apply(BarChartDescriptionTables._hasCountryWithGuessedGreaterThanKnown, axis='columns')]
+
+    @staticmethod
+    def _hasCountryWithGuessedGreaterThanKnown(barChartDescription):
+        guessedBarChart = barChartDescription['BAR_CHART_DESCRIPTION']['Adverse Reaction Reports guessed']
+        knownBarChart = barChartDescription['BAR_CHART_DESCRIPTION']['Adverse Reaction Reports known']
+        return np.any(np.asarray(guessedBarChart) > np.asarray(knownBarChart))
