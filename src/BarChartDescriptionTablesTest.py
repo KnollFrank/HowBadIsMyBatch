@@ -38,8 +38,9 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
                 name='VAX_LOT'))
 
         # When
-        barChartDescriptionTableResult = BarChartDescriptionTables.filterValidJensenShannonDistances(
-            barChartDescriptionTable)
+        barChartDescriptionTableResult = BarChartDescriptionTables.filter(
+            barChartDescriptionTable,
+            BarChartDescriptionTables.isValidJensenShannonDistance)
 
         # Then
         assert_frame_equal(
@@ -84,8 +85,12 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
                 name='VAX_LOT'))
 
         # When
-        barChartDescriptionTableResult = BarChartDescriptionTables.filterHasMinSizeOfGuessedHistogram(
-            barChartDescriptionTable, 20)
+        barChartDescriptionTableResult = BarChartDescriptionTables.filter(
+            barChartDescriptionTable,
+            lambda barChartDescription:
+                BarChartDescriptionTables.hasMinSizeOfGuessedHistogram(
+                    barChartDescription,
+                    minSizeOfGuessedHistogram=20))
 
         # Then
         assert_frame_equal(
@@ -114,8 +119,12 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
                 name='VAX_LOT'))
 
         # When
-        barChartDescriptionTableResult = BarChartDescriptionTables.filterHasMinSizeOfGuessedHistogram(
-            barChartDescriptionTable, 31)
+        barChartDescriptionTableResult = BarChartDescriptionTables.filter(
+            barChartDescriptionTable,
+            lambda barChartDescription:
+                BarChartDescriptionTables.hasMinSizeOfGuessedHistogram(
+                    barChartDescription,
+                    minSizeOfGuessedHistogram=31))
 
         # Then
         assert_frame_equal(
@@ -159,8 +168,9 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
                 name='VAX_LOT'))
 
         # When
-        barChartDescriptionTableResult = BarChartDescriptionTables.filterHasCountryWithGuessedGreaterThanKnown(
-            barChartDescriptionTable)
+        barChartDescriptionTableResult = BarChartDescriptionTables.filter(
+            barChartDescriptionTable,
+            BarChartDescriptionTables.hasCountryWithGuessedGreaterThanKnown)
 
         # Then
         assert_frame_equal(
