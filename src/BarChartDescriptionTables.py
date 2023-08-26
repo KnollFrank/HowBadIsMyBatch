@@ -6,11 +6,14 @@ class BarChartDescriptionTables:
 
     @staticmethod
     def filterValidJensenShannonDistances(barChartDescriptionTable):
-        return barChartDescriptionTable[barChartDescriptionTable.apply(BarChartDescriptionTables._isValidJensenShannonDistance, axis='columns')]
+        return barChartDescriptionTable[barChartDescriptionTable.apply(
+            lambda barChartDescription: BarChartDescriptionTables._isValidJensenShannonDistance(
+                barChartDescription['BAR_CHART_DESCRIPTION']),
+            axis='columns')]
 
     @staticmethod
     def _isValidJensenShannonDistance(barChartDescription):
-        jensenShannonDistance = barChartDescription['BAR_CHART_DESCRIPTION']['Jensen-Shannon distance']
+        jensenShannonDistance = barChartDescription['Jensen-Shannon distance']
         return not math.isnan(jensenShannonDistance)
 
     @staticmethod
@@ -18,20 +21,24 @@ class BarChartDescriptionTables:
         return barChartDescriptionTable[
             barChartDescriptionTable.apply(
                 lambda barChartDescription: BarChartDescriptionTables._hasMinSizeOfGuessedHistogram(
-                    barChartDescription, minSizeOfGuessedHistogram),
+                    barChartDescription['BAR_CHART_DESCRIPTION'], minSizeOfGuessedHistogram),
                 axis='columns')]
 
     @staticmethod
     def _hasMinSizeOfGuessedHistogram(barChartDescription, minSizeOfGuessedHistogram):
-        sizeOfGuessedHistogram = sum(barChartDescription['BAR_CHART_DESCRIPTION']['Adverse Reaction Reports guessed'])
+        sizeOfGuessedHistogram = sum(
+            barChartDescription['Adverse Reaction Reports guessed'])
         return sizeOfGuessedHistogram >= minSizeOfGuessedHistogram
 
     @staticmethod
     def filterHasCountryWithGuessedGreaterThanKnown(barChartDescriptionTable):
-        return barChartDescriptionTable[barChartDescriptionTable.apply(BarChartDescriptionTables._hasCountryWithGuessedGreaterThanKnown, axis='columns')]
+        return barChartDescriptionTable[barChartDescriptionTable.apply(
+            lambda barChartDescription:BarChartDescriptionTables._hasCountryWithGuessedGreaterThanKnown(
+                barChartDescription['BAR_CHART_DESCRIPTION']),
+            axis='columns')]
 
     @staticmethod
     def _hasCountryWithGuessedGreaterThanKnown(barChartDescription):
-        guessedBarChart = barChartDescription['BAR_CHART_DESCRIPTION']['Adverse Reaction Reports guessed']
-        knownBarChart = barChartDescription['BAR_CHART_DESCRIPTION']['Adverse Reaction Reports known']
+        guessedBarChart = barChartDescription['Adverse Reaction Reports guessed']
+        knownBarChart = barChartDescription['Adverse Reaction Reports known']
         return np.any(np.asarray(guessedBarChart) > np.asarray(knownBarChart))

@@ -5,8 +5,6 @@ FK-FIXME:
 FK-TODO:
 - add google captcha to batchCodeTable.html
 - Symptomhistogramm
-- Filter für ein Barchart:
-  - im Barchart gibt es mindestens ein Country mit Guessed > Known
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
