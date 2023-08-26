@@ -6,7 +6,6 @@ FK-TODO:
 - add google captcha to batchCodeTable.html
 - Symptomhistogramm
 - Filter für ein Barchart:
-  - im Barchart gibt es mindestens N Guessed-Einträge
   - im Barchart gibt es mindestens ein Country mit Guessed > Known
 
 anacron job:

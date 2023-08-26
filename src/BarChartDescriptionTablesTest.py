@@ -60,3 +60,66 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
                     ],
                     name = 'VAX_LOT')),
             check_dtype = True)
+
+    def test_filterHasMinSizeOfGuessedHistogram(self):
+        # Given
+        barChartDescriptionTable = TestHelper.createDataFrame(
+                columns = ['BAR_CHART_DESCRIPTION'],
+                data = [
+                        [
+                            {
+                                'countries':                        ['Germany', 'Hungary'],
+                                'Adverse Reaction Reports guessed': [10,        20],
+                                'Adverse Reaction Reports known':   [20,        30],
+                                'Jensen-Shannon distance':          0.4711
+                            }
+                        ]
+                       ],
+                index = pd.Index(
+                    [
+                        '!D0181'
+                    ],
+                    name = 'VAX_LOT'))
+        
+        # When
+        barChartDescriptionTableResult = BarChartDescriptionTables.filterHasMinSizeOfGuessedHistogram(barChartDescriptionTable, 20)
+
+        # Then
+        assert_frame_equal(
+            barChartDescriptionTableResult,
+            barChartDescriptionTable,
+            check_dtype = True)
+
+    def test_filterHasMinSizeOfGuessedHistogram2(self):
+        # Given
+        barChartDescriptionTable = TestHelper.createDataFrame(
+                columns = ['BAR_CHART_DESCRIPTION'],
+                data = [
+                        [
+                            {
+                                'countries':                        ['Germany', 'Hungary'],
+                                'Adverse Reaction Reports guessed': [10,        20],
+                                'Adverse Reaction Reports known':   [20,        30],
+                                'Jensen-Shannon distance':          0.4711
+                            }
+                        ]
+                       ],
+                index = pd.Index(
+                    [
+                        '!D0181'
+                    ],
+                    name = 'VAX_LOT'))
+        
+        # When
+        barChartDescriptionTableResult = BarChartDescriptionTables.filterHasMinSizeOfGuessedHistogram(barChartDescriptionTable, 31)
+
+        # Then
+        assert_frame_equal(
+            barChartDescriptionTableResult,
+            TestHelper.createDataFrame(
+                columns = ['BAR_CHART_DESCRIPTION'],
+                data = [],
+                index = pd.Index(
+                    [],
+                    name = 'VAX_LOT')),
+            check_dtype = True)
