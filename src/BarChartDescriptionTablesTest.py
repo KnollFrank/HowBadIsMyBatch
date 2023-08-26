@@ -61,7 +61,7 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
                     name = 'VAX_LOT')),
             check_dtype = True)
 
-    def test_filterHasMinSizeOfGuessedHistogram(self):
+    def test_filterHasMinSizeOfGuessedHistogram_true(self):
         # Given
         barChartDescriptionTable = TestHelper.createDataFrame(
                 columns = ['BAR_CHART_DESCRIPTION'],
@@ -90,7 +90,7 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
             barChartDescriptionTable,
             check_dtype = True)
 
-    def test_filterHasMinSizeOfGuessedHistogram2(self):
+    def test_filterHasMinSizeOfGuessedHistogram_false(self):
         # Given
         barChartDescriptionTable = TestHelper.createDataFrame(
                 columns = ['BAR_CHART_DESCRIPTION'],
