@@ -17,5 +17,5 @@ class JensenShannonDistance2BarChartDescriptionColumnAdder:
             'Jensen-Shannon distance': distance.jensenshannon(
                 barChartDescription['Adverse Reaction Reports guessed'],
                 barChartDescription['Adverse Reaction Reports known'],
-                base=2.0)
+                base = 2.0)
         }
