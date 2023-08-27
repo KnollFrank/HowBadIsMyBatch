@@ -62,17 +62,6 @@ class BatchCodeTableInitializer {
                                     this.#getColumnIndex('Company')
                                 ]
                         },
-                        // FK-TODO: make visible again
-                        {
-                            visible: false,
-                            targets:
-                                [
-                                    this.#getColumnIndex('Company'),
-                                    this.#getColumnIndex('Deaths'),
-                                    this.#getColumnIndex('Disabilities'),
-                                    this.#getColumnIndex('Life Threatening Illnesses')
-                                ]
-                        },
                         {
                             render: data => {
                                 const numberInPercent = parseFloat(data);
