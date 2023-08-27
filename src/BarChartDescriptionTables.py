@@ -18,8 +18,7 @@ class BarChartDescriptionTables:
 
     @staticmethod
     def hasMinSizeOfGuessedHistogram(barChartDescription, minSizeOfGuessedHistogram):
-        sizeOfGuessedHistogram = sum(
-            barChartDescription['Adverse Reaction Reports guessed'])
+        sizeOfGuessedHistogram = sum(barChartDescription['Adverse Reaction Reports guessed'])
         return sizeOfGuessedHistogram >= minSizeOfGuessedHistogram
 
     @staticmethod
@@ -27,3 +26,9 @@ class BarChartDescriptionTables:
         guessedBarChart = barChartDescription['Adverse Reaction Reports guessed']
         knownBarChart = barChartDescription['Adverse Reaction Reports known']
         return np.any(np.asarray(guessedBarChart) > np.asarray(knownBarChart))
+
+    @staticmethod
+    def isGuessedGreaterThanKnown(barChartDescription):
+        sizeOfGuessedHistogram = sum(barChartDescription['Adverse Reaction Reports guessed'])
+        sizeOfKnownHistogram = sum(barChartDescription['Adverse Reaction Reports known'])
+        return sizeOfGuessedHistogram >= sizeOfKnownHistogram

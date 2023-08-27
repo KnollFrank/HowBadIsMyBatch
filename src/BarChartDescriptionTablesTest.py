@@ -193,3 +193,58 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
                     ],
                     name='VAX_LOT')),
             check_dtype=True)
+
+    def test_filterIsGuessedGreaterThanKnown(self):
+        # Given
+        barChartDescriptionTable = TestHelper.createDataFrame(
+            columns=['BAR_CHART_DESCRIPTION'],
+            data=[
+                [
+                    {
+                        'countries':                        ['Germany', 'Hungary'],
+                        'Adverse Reaction Reports guessed': [250,       1],
+                        'Adverse Reaction Reports known':   [240,       9],
+                        'Jensen-Shannon distance':          0.4711
+                    }
+                ],
+                [
+                    {
+                        'countries':                        ['Germany', 'America'],
+                        'Adverse Reaction Reports guessed': [25,        2000],
+                        'Adverse Reaction Reports known':   [5000,      200],
+                        'Jensen-Shannon distance':          0.815
+                    }
+                ]],
+            index=pd.Index(
+                [
+                    '!D0181',
+                    'some batch code'
+                ],
+                name='VAX_LOT'))
+
+        # When
+        barChartDescriptionTableResult = BarChartDescriptionTables.filter(
+            barChartDescriptionTable,
+            BarChartDescriptionTables.isGuessedGreaterThanKnown)
+
+        # Then
+        assert_frame_equal(
+            barChartDescriptionTableResult,
+            TestHelper.createDataFrame(
+                columns=['BAR_CHART_DESCRIPTION'],
+                data=[
+                    [
+                        {
+                            'countries':                        ['Germany', 'Hungary'],
+                            'Adverse Reaction Reports guessed': [250,       1],
+                            'Adverse Reaction Reports known':   [240,       9],
+                            'Jensen-Shannon distance':          0.4711
+                        }
+                    ]
+                ],
+                index=pd.Index(
+                    [
+                        '!D0181'
+                    ],
+                    name='VAX_LOT')),
+            check_dtype=True)
