@@ -22,6 +22,11 @@ class BarChartDescriptionTables:
         return sizeOfGuessedHistogram >= minSizeOfGuessedHistogram
 
     @staticmethod
+    def hasMinSizeOfKnownHistogram(barChartDescription, minSizeOfKnownHistogram):
+        sizeOfKnownHistogram = sum(barChartDescription['Adverse Reaction Reports known'])
+        return sizeOfKnownHistogram >= minSizeOfKnownHistogram
+
+    @staticmethod
     def hasCountryWithGuessedGreaterThanKnown(barChartDescription):
         guessedBarChart = barChartDescription['Adverse Reaction Reports guessed']
         knownBarChart = barChartDescription['Adverse Reaction Reports known']
