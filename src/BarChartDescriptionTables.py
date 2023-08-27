@@ -18,12 +18,14 @@ class BarChartDescriptionTables:
 
     @staticmethod
     def hasMinSizeOfGuessedHistogram(barChartDescription, minSizeOfGuessedHistogram):
-        sizeOfGuessedHistogram = sum(barChartDescription['Adverse Reaction Reports guessed'])
+        sizeOfGuessedHistogram = sum(
+            barChartDescription['Adverse Reaction Reports guessed'])
         return sizeOfGuessedHistogram >= minSizeOfGuessedHistogram
 
     @staticmethod
     def hasMinSizeOfKnownHistogram(barChartDescription, minSizeOfKnownHistogram):
-        sizeOfKnownHistogram = sum(barChartDescription['Adverse Reaction Reports known'])
+        sizeOfKnownHistogram = sum(
+            barChartDescription['Adverse Reaction Reports known'])
         return sizeOfKnownHistogram >= minSizeOfKnownHistogram
 
     @staticmethod
@@ -34,6 +36,13 @@ class BarChartDescriptionTables:
 
     @staticmethod
     def isGuessedGreaterThanKnown(barChartDescription):
-        sizeOfGuessedHistogram = sum(barChartDescription['Adverse Reaction Reports guessed'])
-        sizeOfKnownHistogram = sum(barChartDescription['Adverse Reaction Reports known'])
+        sizeOfGuessedHistogram = sum(
+            barChartDescription['Adverse Reaction Reports guessed'])
+        sizeOfKnownHistogram = sum(
+            barChartDescription['Adverse Reaction Reports known'])
         return sizeOfGuessedHistogram >= sizeOfKnownHistogram
+
+    @staticmethod
+    def containsCountry(barChartDescription, country):
+        COUNTRIES = [country.upper() for country in barChartDescription['countries']]
+        return country.upper() in COUNTRIES

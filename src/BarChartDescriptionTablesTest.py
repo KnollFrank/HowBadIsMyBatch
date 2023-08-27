@@ -321,3 +321,58 @@ class BarChartDescriptionTablesTest(unittest.TestCase):
                     ],
                     name='VAX_LOT')),
             check_dtype=True)
+
+    def test_filterContainsCountry(self):
+        # Given
+        barChartDescriptionTable = TestHelper.createDataFrame(
+            columns=['BAR_CHART_DESCRIPTION'],
+            data=[
+                [
+                    {
+                        'countries':                        ['Germany', 'Hungary'],
+                        'Adverse Reaction Reports guessed': [25,        20],
+                        'Adverse Reaction Reports known':   [20,        30],
+                        'Jensen-Shannon distance':          0.4711
+                    }
+                ],
+                [
+                    {
+                        'countries':                        ['Germany', 'America'],
+                        'Adverse Reaction Reports guessed': [25,        20],
+                        'Adverse Reaction Reports known':   [250,       200],
+                        'Jensen-Shannon distance':          0.815
+                    }
+                ]],
+            index=pd.Index(
+                [
+                    '!D0181',
+                    'some batch code'
+                ],
+                name='VAX_LOT'))
+
+        # When
+        barChartDescriptionTableResult = BarChartDescriptionTables.filter(
+            barChartDescriptionTable,
+            lambda barChartDescription: BarChartDescriptionTables.containsCountry(barChartDescription, 'America'))
+
+        # Then
+        assert_frame_equal(
+            barChartDescriptionTableResult,
+            TestHelper.createDataFrame(
+                columns=['BAR_CHART_DESCRIPTION'],
+                data=[
+                    [
+                        {
+                            'countries':                        ['Germany', 'America'],
+                            'Adverse Reaction Reports guessed': [25,        20],
+                            'Adverse Reaction Reports known':   [250,       200],
+                            'Jensen-Shannon distance':          0.815
+                        }
+                    ]
+                ],
+                index=pd.Index(
+                    [
+                        'some batch code'
+                    ],
+                    name='VAX_LOT')),
+            check_dtype=True)
