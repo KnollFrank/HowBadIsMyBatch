@@ -37,7 +37,7 @@
   <script src="./BatchcodeByCountryBarChart.js"></script>
   <script>
     $(document).ready(function () {
-      urlSearchParams = new URLSearchParams(window.location.search);
+      const urlSearchParams = new URLSearchParams(window.location.search);
       new BatchCodeTableInitializer().initialize(
         {
           batchCodeTableElement: $('#batchCodeTable'),
