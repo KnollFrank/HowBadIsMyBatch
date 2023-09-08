@@ -1,1 +1,1 @@
-{"batchcode": "EC0140", "histogram": {"Cough": 1, "Fatigue": 1, "Headache": 1, "Myalgia": 1, "Rhinorrhoea": 1, "Sneezing": 1}, "Deaths": 1, "Adverse Reaction Reports": 3, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Disabilities": 0}
+{"batchcode": "EC0140", "histogram": {"Cough": 1, "Fatigue": 1, "Headache": 1, "Myalgia": 1, "Rhinorrhoea": 1, "Sneezing": 1}, "Life Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Disabilities": 0, "Adverse Reaction Reports": 3, "Deaths": 1}
