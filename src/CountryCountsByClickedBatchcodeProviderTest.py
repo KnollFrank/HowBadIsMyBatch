@@ -6,7 +6,7 @@ from CountryCountsByClickedBatchcodeProvider import CountryCountsByClickedBatchc
 
 class CountryCountsByClickedBatchcodeProviderTest(unittest.TestCase):
 
-    def test_mergeCountryCountsByBatchcodeTables(self):
+    def test_getCountryCountsByClickedBatchcode(self):
         # Given
             
         # When
@@ -25,3 +25,23 @@ class CountryCountsByClickedBatchcodeProviderTest(unittest.TestCase):
                             tuples = [['#012M20A', 'United States'],
                                       ['#EN6203',  'United States'],
                                       ['000006A',  'Japan']])))
+
+    def test_getCityCountsByClickedBatchcode(self):
+        # Given
+            
+        # When
+        cityCountsByClickedBatchcodeTable = CountryCountsByClickedBatchcodeProvider.getCityCountsByClickedBatchcode('src/testdata/GoogleAnalytics/CountryByBatchcode 20230730-20230929.csv')
+        
+        # Then
+        assert_frame_equal(
+            cityCountsByClickedBatchcodeTable,
+            TestHelper.createDataFrame(
+                columns = ['CITY_COUNT_BY_VAX_LOT'],
+                data = [  [100],
+                          [10],
+                          [20]],
+                index = pd.MultiIndex.from_tuples(
+                            names =   ['VAX_LOT',  'COUNTRY',       'REGION',     'CITY'],
+                            tuples = [['#003B21A', 'United States', 'California', 'Roseville'],
+                                      ['000086A',  'Germany',       'Bavaria',    'Nordlingen'],
+                                      ['000086A',  'Germany',       'Bavaria',    'Nuremberg']])))
