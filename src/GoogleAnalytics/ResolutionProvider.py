@@ -1,11 +1,5 @@
-from enum import Enum
 import linecache
-
-
-class Resolution(Enum):
-    CITY = 1
-    COUNTRY = 2
-
+from GoogleAnalytics.Resolution import Resolution
 
 class ResolutionProvider:
 
