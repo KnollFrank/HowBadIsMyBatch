@@ -2,7 +2,7 @@ import unittest
 from pandas.testing import assert_frame_equal
 from TestHelper import TestHelper
 import pandas as pd
-from src.GoogleAnalytics.RegionCountsByBatchcodeTablesMerger import RegionCountsByBatchcodeTablesMerger
+from GoogleAnalytics.RegionCountsByBatchcodeTablesMerger import RegionCountsByBatchcodeTablesMerger
 
 class RegionCountsByBatchcodeTablesMergerTest(unittest.TestCase):
 
