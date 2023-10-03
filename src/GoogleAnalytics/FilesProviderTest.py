@@ -6,17 +6,19 @@ class FilesProviderTest(unittest.TestCase):
 
     def test_getFilesHavingCityResolution(self):
         # Given
-        filesProvider = FilesProvider(dataDir = 'src/testdata/GoogleAnalytics')
+        dataDir = 'src/testdata/GoogleAnalytics'
+        filesProvider = FilesProvider(dataDir)
             
         # When
         files = filesProvider.getFilesHavingResolution(Resolution.CITY)
         
         # Then
-        self.assertEqual(files, ['src/testdata/GoogleAnalytics/CountryByBatchcode 20230730-20230929.csv'])
+        self.assertEqual(files, [dataDir + '/CountryByBatchcode 20230730-20230929.csv'])
 
     def test_getFilesHavingCountryResolution(self):
         # Given
-        filesProvider = FilesProvider(dataDir = 'src/testdata/GoogleAnalytics')
+        dataDir = 'src/testdata/GoogleAnalytics'
+        filesProvider = FilesProvider(dataDir)
             
         # When
         files = filesProvider.getFilesHavingResolution(Resolution.COUNTRY)
@@ -25,6 +27,6 @@ class FilesProviderTest(unittest.TestCase):
         self.assertEqual(
             files,
             [
-                'src/testdata/GoogleAnalytics/CountryByBatchcode 20230501-20230531.csv',
-                'src/testdata/GoogleAnalytics/CountryByBatchcode 20230302-20230430.csv'
+                dataDir + '/CountryByBatchcode 20230501-20230531.csv',
+                dataDir + '/CountryByBatchcode 20230302-20230430.csv'
             ])
