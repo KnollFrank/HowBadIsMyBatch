@@ -42,6 +42,7 @@ class CountryCountsByClickedBatchcodeProvider:
             },
             index_columns = ['COUNTRY'])
     
+    # FK-TODO: move this method to a new class named GoogleAnalytics.GoogleAnalyticsReader
     @staticmethod
     def _read_csv(file, columns, index_columns):
         dataframe = pd.read_csv(file, index_col = 0, skiprows = [0, 1, 2, 3, 4, 5, 7])
