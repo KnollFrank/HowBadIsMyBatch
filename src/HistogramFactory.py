@@ -1,8 +1,0 @@
-from SymptomHistogramByBatchcodeTableFactory import SymptomHistogramByBatchcodeTableFactory
-from HistogramTable2DictTableConverter import HistogramTable2DictTableConverter
-
-
-def createHistograms(symptomByBatchcodeTable):
-    symptomHistogramByBatchcodeTable = SymptomHistogramByBatchcodeTableFactory.createSymptomHistogramByBatchcodeTable(symptomByBatchcodeTable)
-    dictByBatchcodeTable = HistogramTable2DictTableConverter.convertHistogramTable2DictTable(symptomHistogramByBatchcodeTable)
-    return dictByBatchcodeTable
