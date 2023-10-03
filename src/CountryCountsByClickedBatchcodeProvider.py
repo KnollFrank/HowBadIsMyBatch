@@ -1,21 +1,14 @@
 import pandas as pd
+from GoogleAnalytics.ResolutionProvider import Resolution, ResolutionProvider
 
 class CountryCountsByClickedBatchcodeProvider:
 
     @staticmethod
     def getCountryCountsByClickedBatchcode(file):
-        if CountryCountsByClickedBatchcodeProvider._hasCityColumn(file):
+        if ResolutionProvider.getResolution(file) == Resolution.CITY:
             return CountryCountsByClickedBatchcodeProvider._getCountryCountsByClickedBatchcode_fromCityResolution(file)
         else:
             return CountryCountsByClickedBatchcodeProvider._getCountryCountsByClickedBatchcode_fromCountryResolution(file)
-
-    @staticmethod
-    def _hasCityColumn(file):
-        return 'City' in CountryCountsByClickedBatchcodeProvider._read_raw_csv(file).columns
-
-    @staticmethod
-    def _read_raw_csv(file):
-        return pd.read_csv(file, index_col = 0, skiprows = [0, 1, 2, 3, 4, 5, 7])
 
     @staticmethod
     def _getCountryCountsByClickedBatchcode_fromCityResolution(file):
@@ -51,7 +44,7 @@ class CountryCountsByClickedBatchcodeProvider:
     
     @staticmethod
     def _read_csv(file, columns, index_columns):
-        dataframe = CountryCountsByClickedBatchcodeProvider._read_raw_csv(file)
+        dataframe = pd.read_csv(file, index_col = 0, skiprows = [0, 1, 2, 3, 4, 5, 7])
         dataframe.index.name = 'VAX_LOT'
         dataframe.rename(
             columns = columns,
