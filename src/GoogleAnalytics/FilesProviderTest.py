@@ -1,25 +1,25 @@
 import unittest
 from GoogleAnalytics.ResolutionProvider import Resolution
-from GoogleAnalytics.GoogleAnalyticsReader import GoogleAnalyticsReader
+from GoogleAnalytics.FilesProvider import FilesProvider
 
-class GoogleAnalyticsReaderTest(unittest.TestCase):
+class FilesProviderTest(unittest.TestCase):
 
     def test_getFilesHavingCityResolution(self):
         # Given
-        googleAnalyticsReader = GoogleAnalyticsReader(dataDir = 'src/testdata/GoogleAnalytics')
+        filesProvider = FilesProvider(dataDir = 'src/testdata/GoogleAnalytics')
             
         # When
-        files = googleAnalyticsReader.getFilesHavingResolution(Resolution.CITY)
+        files = filesProvider.getFilesHavingResolution(Resolution.CITY)
         
         # Then
         self.assertEqual(files, ['src/testdata/GoogleAnalytics/CountryByBatchcode 20230730-20230929.csv'])
 
     def test_getFilesHavingCountryResolution(self):
         # Given
-        googleAnalyticsReader = GoogleAnalyticsReader(dataDir = 'src/testdata/GoogleAnalytics')
+        filesProvider = FilesProvider(dataDir = 'src/testdata/GoogleAnalytics')
             
         # When
-        files = googleAnalyticsReader.getFilesHavingResolution(Resolution.COUNTRY)
+        files = filesProvider.getFilesHavingResolution(Resolution.COUNTRY)
         
         # Then
         self.assertEqual(

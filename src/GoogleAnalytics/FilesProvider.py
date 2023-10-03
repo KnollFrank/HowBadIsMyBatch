@@ -2,7 +2,7 @@ import glob
 from GoogleAnalytics.ResolutionProvider import ResolutionProvider
 
 
-class GoogleAnalyticsReader:
+class FilesProvider:
 
     def __init__(self, dataDir):
         self.dataDir = dataDir
