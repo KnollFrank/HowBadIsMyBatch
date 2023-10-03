@@ -1,5 +1,7 @@
 import pandas as pd
 from GoogleAnalytics.ResolutionProvider import Resolution, ResolutionProvider
+from GoogleAnalytics.GoogleAnalyticsReader import GoogleAnalyticsReader
+from GoogleAnalytics.RegionCountsByClickedBatchcodeProvider import RegionCountsByClickedBatchcodeProvider
 
 class CountryCountsByClickedBatchcodeProvider:
 
@@ -22,34 +24,14 @@ class CountryCountsByClickedBatchcodeProvider:
 
     @staticmethod
     def _getCityCountsByClickedBatchcode(file):
-        return CountryCountsByClickedBatchcodeProvider._read_csv(
-            file = file,
-            columns = {
-                'Country': 'COUNTRY',
-                'Region': 'REGION',
-                'City': 'CITY',
-                'Event count': 'CITY_COUNT_BY_VAX_LOT'
-            },
-            index_columns = ['COUNTRY', 'REGION', 'CITY'])
+        return RegionCountsByClickedBatchcodeProvider._getCityCountsByClickedBatchcode(file)
 
     @staticmethod
     def _getCountryCountsByClickedBatchcode_fromCountryResolution(file):
-        return CountryCountsByClickedBatchcodeProvider._read_csv(
+        return GoogleAnalyticsReader.read_csv(
             file = file,
             columns = {
                 'Country': 'COUNTRY',
                 'Event count': 'COUNTRY_COUNT_BY_VAX_LOT'
             },
             index_columns = ['COUNTRY'])
-    
-    # FK-TODO: move this method to a new class named GoogleAnalytics.GoogleAnalyticsReader
-    @staticmethod
-    def _read_csv(file, columns, index_columns):
-        dataframe = pd.read_csv(file, index_col = 0, skiprows = [0, 1, 2, 3, 4, 5, 7])
-        dataframe.index.name = 'VAX_LOT'
-        dataframe.rename(
-            columns = columns,
-            inplace = True)
-        dataframe.set_index(index_columns, append = True, inplace = True)
-        return dataframe
-    

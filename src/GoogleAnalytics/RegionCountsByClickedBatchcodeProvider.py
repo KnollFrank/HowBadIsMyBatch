@@ -1,6 +1,5 @@
 import pandas as pd
-from GoogleAnalytics.ResolutionProvider import Resolution, ResolutionProvider
-from CountryCountsByClickedBatchcodeProvider import CountryCountsByClickedBatchcodeProvider
+from GoogleAnalytics.GoogleAnalyticsReader import GoogleAnalyticsReader
 
 class RegionCountsByClickedBatchcodeProvider:
 
@@ -17,7 +16,7 @@ class RegionCountsByClickedBatchcodeProvider:
     # FK-TODO: delegate same method CountryCountsByClickedBatchcodeProvider._getCityCountsByClickedBatchcode() to here
     @staticmethod
     def _getCityCountsByClickedBatchcode(file):
-        return CountryCountsByClickedBatchcodeProvider._read_csv(
+        return GoogleAnalyticsReader.read_csv(
             file = file,
             columns = {
                 'Country': 'COUNTRY',
