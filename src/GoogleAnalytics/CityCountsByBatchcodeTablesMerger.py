@@ -3,11 +3,17 @@ from GoogleAnalytics.RegionCountsByClickedBatchcodeProvider import RegionCountsB
 from GoogleAnalytics.FilesProvider import FilesProvider
 from GoogleAnalytics.Resolution import Resolution
 
-class RegionCountsByBatchcodeTablesMerger:
+class CityCountsByBatchcodeTablesMerger:
 
     @staticmethod
-    def getRegionCountsByClickedBatchcode(dataDir):
+    def getCityCountsByClickedBatchcode(dataDir):
         files = FilesProvider(dataDir).getFilesHavingResolution(Resolution.CITY)
         cityCountsByClickedBatchcodeTables = [RegionCountsByClickedBatchcodeProvider._getCityCountsByClickedBatchcode(file) for file in files]
         table = pd.concat(cityCountsByClickedBatchcodeTables)
-        return RegionCountsByClickedBatchcodeProvider._getRegionCountsByClickedBatchcodeFromTable(table)
+        return CityCountsByBatchcodeTablesMerger._getCityCountsByClickedBatchcodeFromTable(table)
+
+    @staticmethod
+    def _getCityCountsByClickedBatchcodeFromTable(cityCountsByClickedBatchcodeTable):
+        return (cityCountsByClickedBatchcodeTable
+                .groupby(cityCountsByClickedBatchcodeTable.index.names)
+                .sum())
