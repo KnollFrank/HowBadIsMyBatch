@@ -29,4 +29,3 @@ def _persistCityCountsByClickedBatchcodeTable(dataDir, batch, count, cityCountsB
     (cityCountsByClickedBatchcodeTable
     .reset_index()
     .to_excel(f'{str(dataDir)}/{count}_{batch}.xlsx'))
-    # import generated xlsx files into https://www.google.com/mymaps
