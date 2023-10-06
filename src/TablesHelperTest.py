@@ -2,11 +2,11 @@ import unittest
 from pandas.testing import assert_frame_equal
 from TestHelper import TestHelper
 import pandas as pd
-from CountryCountsByBatchcodeTablesMerger import CountryCountsByBatchcodeTablesMerger
+from TablesHelper import TablesHelper
 
-class CountryCountsByBatchcodeTablesMergerTest(unittest.TestCase):
+class TablesHelperTest(unittest.TestCase):
 
-    def test_mergeCountryCountsByBatchcodeTables(self):
+    def test_concatTables_groupByIndex_sum(self):
         # Given
         countryCountsByBatchcodeTable1 = TestHelper.createDataFrame(
             columns = ['COUNTRY_COUNT_BY_VAX_LOT'],
@@ -24,7 +24,7 @@ class CountryCountsByBatchcodeTablesMergerTest(unittest.TestCase):
                         tuples = [['12345',   'Germany']]))
             
         # When
-        mergedCountryCountsByBatchcodeTables = CountryCountsByBatchcodeTablesMerger.mergeCountryCountsByBatchcodeTables(
+        mergedCountryCountsByBatchcodeTables = TablesHelper.concatTables_groupByIndex_sum(
             [
                 countryCountsByBatchcodeTable1,
                 countryCountsByBatchcodeTable2

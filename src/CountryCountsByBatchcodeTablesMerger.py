@@ -1,19 +1,12 @@
-import pandas as pd
 import glob
 from CountryCountsByClickedBatchcodeProvider import CountryCountsByClickedBatchcodeProvider
+from TablesHelper import TablesHelper
 
 class CountryCountsByBatchcodeTablesMerger:
 
     @staticmethod
-    def mergeCountryCountsByBatchcodeTables(countryCountsByBatchcodeTables):
-        return (pd
-                .concat(countryCountsByBatchcodeTables)
-                .groupby(countryCountsByBatchcodeTables[0].index.names)
-                .sum())
-
-    @staticmethod
     def getCountryCountsByClickedBatchcodeTable():
-        return CountryCountsByBatchcodeTablesMerger.mergeCountryCountsByBatchcodeTables(CountryCountsByBatchcodeTablesMerger._getTables())
+        return TablesHelper.concatTables_groupByIndex_sum(CountryCountsByBatchcodeTablesMerger._getTables())
 
     @staticmethod
     def _getTables():

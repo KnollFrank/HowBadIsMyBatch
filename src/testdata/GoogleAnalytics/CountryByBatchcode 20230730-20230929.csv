@@ -1,0 +1,11 @@
+# ----------------------------------------
+# HowBadIsMyBatch
+# Batchcode By Country-Country By Clicked Batchcode
+# 20230730-20230929
+# ----------------------------------------
+
+Clicked Batchcode,Country,Region,City,Event count
+,,,,441337,Grand total
+#003B21A,United States,California,Roseville,100
+000086A,Germany,Bavaria,Nordlingen,10
+000086A,Germany,Bavaria,Nuremberg,20
