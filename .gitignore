@@ -16,3 +16,4 @@ src/intensivstationen/__pycache__/
 google-chrome-stable_current_amd64*
 src/captcha/__pycache__
 src/GoogleAnalytics/__pycache__
+src/SymptomsCausedByVaccines/__pycache__
