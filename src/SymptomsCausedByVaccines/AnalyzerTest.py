@@ -6,7 +6,6 @@ from SymptomsCausedByVaccines.Analyzer import Analyzer
 
 class AnalyzerTest(unittest.TestCase):
 
-    # input a vaccine name, and see which symptoms are strongest for it.
     def test_getSymptomsForVaccine(self):
         # Given
         symptomByVaccine = TestHelper.createDataFrame(
@@ -31,3 +30,31 @@ class AnalyzerTest(unittest.TestCase):
                     '17-hydroxyprogesterone': 0.4
                     }))
 
+    def test_getVaccinesForSymptom(self):
+        # Given
+        symptomByVaccine = TestHelper.createDataFrame(
+                columns = ['11-beta-hydroxylase deficiency'],
+                data = [  [0.6],
+                          [0.3]],
+                index = pd.Index(
+                    name = 'VAX_TYPE',
+                    data = [
+                        '6VAX-F',
+                        'ADEN'
+                        ]))
+        
+        analyzer = Analyzer(symptomByVaccine)
+
+        # When
+        vaccinesForSymptom = analyzer.getVaccinesForSymptom('11-beta-hydroxylase deficiency')
+        
+        # Then
+        assert_series_equal(
+            vaccinesForSymptom,
+            TestHelper.createSeries(
+                name = '11-beta-hydroxylase deficiency',
+                data = {
+                    '6VAX-F': 0.6,
+                    'ADEN': 0.3
+                    },
+                indexName = 'VAX_TYPE'))

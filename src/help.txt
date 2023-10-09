@@ -5,6 +5,9 @@ FK-FIXME:
 FK-TODO:
 - add google captcha to batchCodeTable.html
 - Symptomhistogramm
+- create an interface where people
+  1. could input a symptom, and see which vaccines are worst, or
+  2. input a vaccine name, and see which symptoms are strongest for it.
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch

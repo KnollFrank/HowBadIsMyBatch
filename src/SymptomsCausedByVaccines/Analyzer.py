@@ -7,3 +7,6 @@ class Analyzer:
 
     def getSymptomsForVaccine(self, vaxType):
         return self.symptomByVaccine.loc[vaxType]
+
+    def getVaccinesForSymptom(self, symptom):
+        return self.symptomByVaccine[symptom]
