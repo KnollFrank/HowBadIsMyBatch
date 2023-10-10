@@ -9,7 +9,10 @@ from SymptomsCausedByVaccines.OptionsSetter import OptionsSetter
 def updateHtmlFile(symptomByVaccine, htmlFile, lastUpdated):
     vaccineOptions = getVaccineOptions(Analyzer(symptomByVaccine).getVaccines())
     _saveVaccineOptions(vaccineOptions, htmlFile)
-    saveLastUpdated2HtmlFile(lastUpdated, htmlFile)
+    saveLastUpdated2HtmlFile(
+        lastUpdated = lastUpdated,
+        htmlFile = htmlFile,
+        lastUpdatedElementId = 'last_updated')
 
 def _saveVaccineOptions(vaccineOptions, htmlFile):
     HtmlTransformerUtil().applySoupTransformerToFile(
@@ -22,10 +25,9 @@ def _saveVaccineOptions(vaccineOptions, htmlFile):
                     options = vaccineOptions),
                 'lxml'))
 
-# FK-TODO: DRY with src/BatchCodeTableHtmlUpdater.py
-def saveLastUpdated2HtmlFile(lastUpdated, htmlFile):
+def saveLastUpdated2HtmlFile(lastUpdated, htmlFile, lastUpdatedElementId):
     def setLastUpdated(soup):
-        soup.find(id="last_updated").string.replace_with(
+        soup.find(id = lastUpdatedElementId).string.replace_with(
             lastUpdated.strftime(DateProvider.DATE_FORMAT))
         return soup
 
