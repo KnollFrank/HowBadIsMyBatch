@@ -21,6 +21,7 @@ class OptionsSetterTest(unittest.TestCase):
               </body>
             </html>
             ''',
+            selectElementId = 'vaccineSelect',
             options=[
                 '<option value="6VAX-F">6VAX-F</option>',
                 '<option value="ADEN">ADEN</option>'])
