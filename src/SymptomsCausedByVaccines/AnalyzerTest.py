@@ -58,3 +58,41 @@ class AnalyzerTest(unittest.TestCase):
                     'ADEN': 0.3
                     },
                 indexName = 'VAX_TYPE'))
+
+    def test_getVaccines(self):
+        # Given
+        symptomByVaccine = TestHelper.createDataFrame(
+                columns = ['11-beta-hydroxylase deficiency'],
+                data = [  [0.6],
+                          [0.3]],
+                index = pd.Index(
+                    name = 'VAX_TYPE',
+                    data = [
+                        '6VAX-F',
+                        'ADEN'
+                        ]))
+        
+        analyzer = Analyzer(symptomByVaccine)
+
+        # When
+        vaccines = analyzer.getVaccines()
+        
+        # Then
+        self.assertEqual(vaccines, ['6VAX-F', 'ADEN'])
+
+    def test_getSymptoms(self):
+        # Given
+        symptomByVaccine = TestHelper.createDataFrame(
+                columns = ['11-beta-hydroxylase deficiency', '17-hydroxyprogesterone'],
+                data = [  [0.6,                              0.4]],
+                index = pd.Index(
+                    name = 'VAX_TYPE',
+                    data = ['6VAX-F']))
+        
+        analyzer = Analyzer(symptomByVaccine)
+
+        # When
+        symptoms = analyzer.getSymptoms()
+        
+        # Then
+        self.assertEqual(symptoms, ['11-beta-hydroxylase deficiency', '17-hydroxyprogesterone'])
