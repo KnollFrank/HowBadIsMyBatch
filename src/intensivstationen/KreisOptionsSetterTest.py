@@ -43,6 +43,7 @@ class KreisOptionsSetterTest(unittest.TestCase):
             </html>
             ''')
 
+# FK-TODO: delegate to use TestHelper.assertEqualHTML()
 # adapted from https://stackoverflow.com/questions/8006909/pretty-print-assertequal-for-html-strings
 def assertEqualHTML(string1, string2, file1='', file2=''):
     u'''
