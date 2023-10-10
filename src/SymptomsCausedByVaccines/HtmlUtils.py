@@ -1,10 +1,14 @@
 def getVaccineOptions(vaccines):
-    return ['<option hidden disabled selected value>Select Vaccine</option>'] + _getVaccineOptions(vaccines)
+    return ['<option hidden disabled selected value>Select Vaccine</option>'] + _getOptions(vaccines)
 
 
-def _getVaccineOptions(vaccines):
-    return [_getVaccineOption(vaccine) for vaccine in vaccines]
+def getSymptomOptions(symptoms):
+    return ['<option hidden disabled selected value>Select Symptom</option>'] + _getOptions(symptoms)
 
 
-def _getVaccineOption(vaccine):
-    return '<option value="{vaccine}">{vaccine}</option>'.format(vaccine=vaccine)
+def _getOptions(values):
+    return [_getOption(value) for value in values]
+
+
+def _getOption(value):
+    return '<option value="{value}">{value}</option>'.format(value=value)
