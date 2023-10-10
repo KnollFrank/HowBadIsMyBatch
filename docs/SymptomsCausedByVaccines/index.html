@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Symptoms caused by Vaccines</title>
+<!-- Google tag (gtag.js) -->
+<!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
+  <script>Claudia Goldin
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ERHYDH4P64');
+  </script> -->
+<!-- Bootstrap -->
+<link href="../gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css"/>
+<!-- Font Awesome -->
+<link href="../gentelella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+<!-- Custom Theme Style -->
+<link href="../gentelella/build/css/custom.css" rel="stylesheet"/>
+<link href="../forkMeOnGitHub.css" rel="stylesheet" type="text/css"/>
+<script src="../Utils.js"></script>
+<script src="../UIUtils.js"></script>
+<script src="../DataTablesFilter.js"></script>
+<script src="../NumberWithBarElementFactory.js"></script>
+<script src="../GoogleAnalytics.js"></script>
+<script src="../BatchCodeSelectInitializer.js"></script>
+<script src="../HistoDescrsProvider.js"></script>
+<script src="../HistogramTable.js"></script>
+<script src="../AdverseReactionReportsChartView.js"></script>
+<script src="../BatchCodeDetailsView.js"></script>
+<script>
+    document.addEventListener(
+      "DOMContentLoaded",
+      event => {
+        BatchCodeSelectInitializer.initialize(
+          {
+            batchCodeSelectElement: $('#batchCodeSelect'),
+            batchCodeDetailsElement: document.querySelector("#batchCodeDetails")
+          }
+        );
+      });
+  </script>
+</head>
+<body class="nav-md">
+<div class="container body">
+<div class="main_container">
+<!-- top navigation -->
+<div class="top_nav">
+</div>
+<!-- top navigation -->
+<!-- page content -->
+<div class="right_col" role="main">
+<div>
+<div class="page-title">
+<div class="title_left">
+<h1>Symptoms caused by Vaccines</h1>
+</div>
+</div>
+<div class="clearfix"></div>
+<p>
+<label>Check out your batch code:</label>
+<select id="vaccineSelect" name="vaccine"><option disabled="" hidden="" selected="" value="">Select Vaccine</option><option value="6VAX-F">6VAX-F</option><option value="ADEN">ADEN</option><option value="ADEN_4_7">ADEN_4_7</option><option value="ANTH">ANTH</option><option value="BCG">BCG</option><option value="CEE">CEE</option><option value="CHOL">CHOL</option><option value="COVID19">COVID19</option><option value="COVID19-2">COVID19-2</option><option value="DF">DF</option><option value="DPIPV">DPIPV</option><option value="DPP">DPP</option><option value="DT">DT</option><option value="DTAP">DTAP</option><option value="DTAPH">DTAPH</option><option value="DTAPHEPBIP">DTAPHEPBIP</option><option value="DTAPIPV">DTAPIPV</option><option value="DTAPIPVHIB">DTAPIPVHIB</option><option value="DTIPV">DTIPV</option><option value="DTOX">DTOX</option><option value="DTP">DTP</option><option value="DTPHEP">DTPHEP</option><option value="DTPHIB">DTPHIB</option><option value="DTPIHI">DTPIHI</option><option value="DTPIPV">DTPIPV</option><option value="DTPPHIB">DTPPHIB</option><option value="DTPPVHBHPB">DTPPVHBHPB</option><option value="EBZR">EBZR</option><option value="FLU(H1N1)">FLU(H1N1)</option><option value="FLU3">FLU3</option><option value="FLU4">FLU4</option><option value="FLUA3">FLUA3</option><option value="FLUA4">FLUA4</option><option value="FLUC3">FLUC3</option><option value="FLUC4">FLUC4</option><option value="FLUN(H1N1)">FLUN(H1N1)</option><option value="FLUN3">FLUN3</option><option value="FLUN4">FLUN4</option><option value="FLUR3">FLUR3</option><option value="FLUR4">FLUR4</option><option value="FLUX">FLUX</option><option value="FLUX(H1N1)">FLUX(H1N1)</option><option value="H5N1">H5N1</option><option value="HBHEPB">HBHEPB</option><option value="HBPV">HBPV</option><option value="HEP">HEP</option><option value="HEPA">HEPA</option><option value="HEPAB">HEPAB</option><option value="HEPATYP">HEPATYP</option><option value="HIBV">HIBV</option><option value="HPV2">HPV2</option><option value="HPV4">HPV4</option><option value="HPV9">HPV9</option><option value="HPVX">HPVX</option><option value="IPV">IPV</option><option value="JEV">JEV</option><option value="JEV1">JEV1</option><option value="JEVX">JEVX</option><option value="LYME">LYME</option><option value="MEA">MEA</option><option value="MEN">MEN</option><option value="MENB">MENB</option><option value="MENHIB">MENHIB</option><option value="MER">MER</option><option value="MM">MM</option><option value="MMR">MMR</option><option value="MMRV">MMRV</option><option value="MNC">MNC</option><option value="MNQ">MNQ</option><option value="MNQHIB">MNQHIB</option><option value="MU">MU</option><option value="MUR">MUR</option><option value="OPV">OPV</option><option value="PER">PER</option><option value="PLAGUE">PLAGUE</option><option value="PNC">PNC</option><option value="PNC10">PNC10</option><option value="PNC13">PNC13</option><option value="PNC15">PNC15</option><option value="PNC20">PNC20</option><option value="PPV">PPV</option><option value="RAB">RAB</option><option value="RUB">RUB</option><option value="RV">RV</option><option value="RV1">RV1</option><option value="RV5">RV5</option><option value="RVX">RVX</option><option value="SMALL">SMALL</option><option value="SMALLMNK">SMALLMNK</option><option value="SSEV">SSEV</option><option value="TBE">TBE</option><option value="TD">TD</option><option value="TDAP">TDAP</option><option value="TDAPIPV">TDAPIPV</option><option value="TTOX">TTOX</option><option value="TYP">TYP</option><option value="UNK">UNK</option><option value="VARCEL">VARCEL</option><option value="VARZOS">VARZOS</option><option value="YF">YF</option></select>
+            or view a <a href="batchCodes.html" target="_blank">table of all batch codes <i aria-hidden="true" class="fa fa-external-link"></i>
+</a>
+</p>
+<div class="row" id="batchCodeDetails">
+<div class="col-xs-12 col-sm-6">
+<div class="x_panel">
+<div class="x_title">
+<h3>Outcomes of Adverse Events</h3>
+<div class="clearfix"></div>
+</div>
+<div class="x_content">
+<canvas id="adverseReactionReportsChartView"></canvas>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6">
+<div class="x_panel">
+<div class="x_title">
+<h3>Frequencies of Reported Symptoms</h3>
+<div class="clearfix"></div>
+</div>
+<div class="x_content">
+<table class="display" id="histogramTable">
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Frequency</th>
+</tr>
+</thead>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<!-- page content -->
+<!-- footer content -->
+<footer>
+<dl>
+<dt>Data Source:</dt>
+<dd><a href="https://vaers.hhs.gov/data/datasets.html" target="_blank">Vaccine Adverse Event Reporting System
+            (VAERS) <i aria-hidden="true" class="fa fa-external-link"></i>
+</a></dd>
+<dt>Last updated:</dt>
+<dd id="last_updated">October 06, 2023</dd>
+</dl>
+<span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch" target="_blank">Fork me on
+          GitHub <i aria-hidden="true" class="fa fa-external-link"></i>
+</a></span>
+<div class="clearfix"></div>
+</footer>
+</div>
+<template id="template-number-with-bar">
+<div>
+<div class="number"></div>
+<div class="bar"></div>
+</div>
+</template>
+<!-- jQuery -->
+<script src="../gentelella/vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../gentelella/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.0/dist/chart.umd.min.js"></script>
+<script charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src=" https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js "></script>
+<!-- FastClick -->
+<script src="../gentelella/vendors/fastclick/lib/fastclick.js"></script>
+<!-- Custom Theme Scripts -->
+<script src="../gentelella/build/js/custom.js"></script>
+</body>
+</html>
