@@ -1,26 +1,16 @@
 from bs4 import BeautifulSoup
 from HtmlTransformerUtil import HtmlTransformerUtil
 from DateProvider import DateProvider
-from SymptomsCausedByVaccines.HtmlUtils import getVaccineOptions, getSymptomOptions
+from SymptomsCausedByVaccines.HtmlUtils import getSymptomOptions
 from SymptomsCausedByVaccines.OptionsSetter import OptionsSetter
 
 
-def updateHtmlFile(vaccines, symptoms, htmlFile, lastUpdated):
-    _saveOptions(
-        options = getVaccineOptions(vaccines),
-        htmlFile = htmlFile,
-        selectElementId = 'vaccineSelect')
-    
+def updateHtmlFile(symptoms, htmlFile):    
     _saveOptions(
         options = getSymptomOptions(symptoms),
         htmlFile = htmlFile,
         selectElementId = 'symptomSelect')
     
-    saveLastUpdated2HtmlFile(
-        lastUpdated = lastUpdated,
-        htmlFile = htmlFile,
-        lastUpdatedElementId = 'last_updated')
-
 def _saveOptions(options, htmlFile, selectElementId):
     HtmlTransformerUtil().applySoupTransformerToFile(
         file=htmlFile,
@@ -32,6 +22,7 @@ def _saveOptions(options, htmlFile, selectElementId):
                     options = options),
                 'lxml'))
 
+# FK-TODO: move saveLastUpdated2HtmlFile() to src/BatchCodeTableHtmlUpdater.py
 def saveLastUpdated2HtmlFile(lastUpdated, htmlFile, lastUpdatedElementId):
     def setLastUpdated(soup):
         soup.find(id = lastUpdatedElementId).string.replace_with(
