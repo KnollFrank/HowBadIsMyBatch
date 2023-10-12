@@ -44,8 +44,21 @@ class PrrByVaccineTable {
                                     .outerHTML,
                             targets: [this.#getColumnIndex('Proportional Reporting Ratio')]
                         }
-                    ]
+                    ],
+                createdRow: (row, data) => {
+                    this.#markRowIfPrrTooHigh(
+                        {
+                            prr: data[this.#getColumnIndex('Proportional Reporting Ratio')],
+                            row: row
+                        });
+                }
             });
+    }
+
+    #markRowIfPrrTooHigh({ prr, row }) {
+        if (prr > 1.0) {
+            $(row).addClass('prrTooHigh');
+        }
     }
 
     #getColumnIndex(columnName) {

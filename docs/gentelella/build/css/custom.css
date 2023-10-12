@@ -4923,3 +4923,7 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
     height: 3px;
     background-color: #1a73e8;
 }
+
+table.dataTable.display tbody tr.prrTooHigh {
+    background-color: rgba(255, 0, 0, 10%);
+}
