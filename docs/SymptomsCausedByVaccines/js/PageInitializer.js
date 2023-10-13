@@ -1,22 +1,37 @@
 class PageInitializer {
 
-    static initializePage({ symptomSelectElement, prrByVaccineTableElement }) {
+    static initializePage({ symptom, vaccine }) {
+        PageInitializer.#configureSymptom(symptom);
+        PageInitializer.#configureVaccine(vaccine);
+    }
+
+    static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement }) {
         const prrByVaccineTableView = new PrrByVaccineTableView(prrByVaccineTableElement);
-        PageInitializer.#initializeSymptomSelectElement(
+        PageInitializer.#initializeSelectElement(
             {
-                symptomSelectElement: symptomSelectElement,
-                onSymptomSelected: symptom => prrByVaccineTableView.displayPrrByVaccineTable4Symptom(symptom)
+                selectElement: symptomSelectElement,
+                onValueSelected: symptom => prrByVaccineTableView.displayPrrByVaccineTable4Symptom(symptom),
+                minimumInputLength: 4
             });
     }
 
-    static #initializeSymptomSelectElement({ symptomSelectElement, onSymptomSelected }) {
-        symptomSelectElement.select2({ minimumInputLength: 4 });
-        symptomSelectElement.on(
+    static #configureVaccine({ vaccineSelectElement, prrBySymptomTableElement }) {
+        const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement);
+        PageInitializer.#initializeSelectElement(
+            {
+                selectElement: vaccineSelectElement,
+                onValueSelected: vaccine => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(vaccine),
+                minimumInputLength: 0
+            });
+    }
+
+    static #initializeSelectElement({ selectElement, onValueSelected, minimumInputLength }) {
+        selectElement.select2({ minimumInputLength: minimumInputLength });
+        selectElement.on(
             'select2:select',
             function (event) {
-                const symptom = event.params.data.id;
-                onSymptomSelected(symptom);
+                const value = event.params.data.id;
+                onValueSelected(value);
             });
-        symptomSelectElement.select2('open');
     }
 }

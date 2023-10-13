@@ -31,15 +31,23 @@
   <script src="./js/PageInitializer.js"></script>
   <script src="./js/PrrByVaccineProvider.js"></script>
   <script src="./js/PrrByVaccineTable.js"></script>
+  <script src="./js/PrrBySymptomTable.js"></script>
   <script src="./js/PrrByVaccineTableView.js"></script>
+  <script src="./js/PrrBySymptomTableView.js"></script>
   <script>
     document.addEventListener(
       "DOMContentLoaded",
       event => {
         PageInitializer.initializePage(
           {
-            symptomSelectElement: $('#symptomSelect'),
-            prrByVaccineTableElement: $('#prrByVaccineTable')
+            symptom: {
+              symptomSelectElement: $('#symptomSelect'),
+              prrByVaccineTableElement: $('#prrByVaccineTable')
+            },
+            vaccine: {
+              vaccineSelectElement: $('#vaccineSelect'),
+              prrBySymptomTableElement: $('#prrBySymptomTable')
+            }
           }
         );
       });
@@ -63,7 +71,7 @@
           </div>
           <div class="clearfix"></div>
           <div class="row">
-            <div>
+            <div class="col-xs-12 col-sm-6">
               <div class="x_panel">
                 <div class="x_title">
                   <h3>Worst Vaccines</h3>
@@ -17675,6 +17683,128 @@
                       <tr>
                         <th>Vaccine</th>
                         <th>Proportional Reporting Ratio</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h3>Strongest Symptoms</h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <div style="margin-bottom: 20px;">
+                    <label>Select Vaccine:</label>
+                    <select id="vaccineSelect" name="vaccine">
+                      <option disabled="" hidden="" selected="" value="">Select Vaccine</option>
+                      <option value="6VAX-F">6VAX-F</option>
+                      <option value="ADEN_4_7">ADEN_4_7</option>
+                      <option value="ANTH">ANTH</option>
+                      <option value="BCG">BCG</option>
+                      <option value="CEE">CEE</option>
+                      <option value="CHOL">CHOL</option>
+                      <option value="COVID19">COVID19</option>
+                      <option value="COVID19-2">COVID19-2</option>
+                      <option value="DF">DF</option>
+                      <option value="DPP">DPP</option>
+                      <option value="DT">DT</option>
+                      <option value="DTAP">DTAP</option>
+                      <option value="DTAPH">DTAPH</option>
+                      <option value="DTAPHEPBIP">DTAPHEPBIP</option>
+                      <option value="DTAPIPV">DTAPIPV</option>
+                      <option value="DTAPIPVHIB">DTAPIPVHIB</option>
+                      <option value="DTIPV">DTIPV</option>
+                      <option value="DTOX">DTOX</option>
+                      <option value="DTP">DTP</option>
+                      <option value="DTPHEP">DTPHEP</option>
+                      <option value="DTPHIB">DTPHIB</option>
+                      <option value="DTPIHI">DTPIHI</option>
+                      <option value="DTPIPV">DTPIPV</option>
+                      <option value="DTPPHIB">DTPPHIB</option>
+                      <option value="DTPPVHBHPB">DTPPVHBHPB</option>
+                      <option value="EBZR">EBZR</option>
+                      <option value="FLU(H1N1)">FLU(H1N1)</option>
+                      <option value="FLU3">FLU3</option>
+                      <option value="FLU4">FLU4</option>
+                      <option value="FLUA3">FLUA3</option>
+                      <option value="FLUA4">FLUA4</option>
+                      <option value="FLUC3">FLUC3</option>
+                      <option value="FLUC4">FLUC4</option>
+                      <option value="FLUN(H1N1)">FLUN(H1N1)</option>
+                      <option value="FLUN3">FLUN3</option>
+                      <option value="FLUN4">FLUN4</option>
+                      <option value="FLUR3">FLUR3</option>
+                      <option value="FLUR4">FLUR4</option>
+                      <option value="FLUX">FLUX</option>
+                      <option value="FLUX(H1N1)">FLUX(H1N1)</option>
+                      <option value="H5N1">H5N1</option>
+                      <option value="HBHEPB">HBHEPB</option>
+                      <option value="HBPV">HBPV</option>
+                      <option value="HEP">HEP</option>
+                      <option value="HEPA">HEPA</option>
+                      <option value="HEPAB">HEPAB</option>
+                      <option value="HEPATYP">HEPATYP</option>
+                      <option value="HIBV">HIBV</option>
+                      <option value="HPV2">HPV2</option>
+                      <option value="HPV4">HPV4</option>
+                      <option value="HPV9">HPV9</option>
+                      <option value="HPVX">HPVX</option>
+                      <option value="IPV">IPV</option>
+                      <option value="JEV">JEV</option>
+                      <option value="JEV1">JEV1</option>
+                      <option value="JEVX">JEVX</option>
+                      <option value="LYME">LYME</option>
+                      <option value="MEA">MEA</option>
+                      <option value="MEN">MEN</option>
+                      <option value="MENB">MENB</option>
+                      <option value="MENHIB">MENHIB</option>
+                      <option value="MER">MER</option>
+                      <option value="MM">MM</option>
+                      <option value="MMR">MMR</option>
+                      <option value="MMRV">MMRV</option>
+                      <option value="MNC">MNC</option>
+                      <option value="MNQ">MNQ</option>
+                      <option value="MNQHIB">MNQHIB</option>
+                      <option value="MU">MU</option>
+                      <option value="MUR">MUR</option>
+                      <option value="OPV">OPV</option>
+                      <option value="PER">PER</option>
+                      <option value="PLAGUE">PLAGUE</option>
+                      <option value="PNC">PNC</option>
+                      <option value="PNC10">PNC10</option>
+                      <option value="PNC13">PNC13</option>
+                      <option value="PNC15">PNC15</option>
+                      <option value="PNC20">PNC20</option>
+                      <option value="PPV">PPV</option>
+                      <option value="RAB">RAB</option>
+                      <option value="RUB">RUB</option>
+                      <option value="RV">RV</option>
+                      <option value="RV1">RV1</option>
+                      <option value="RV5">RV5</option>
+                      <option value="RVX">RVX</option>
+                      <option value="SMALL">SMALL</option>
+                      <option value="SMALLMNK">SMALLMNK</option>
+                      <option value="SSEV">SSEV</option>
+                      <option value="TBE">TBE</option>
+                      <option value="TD">TD</option>
+                      <option value="TDAP">TDAP</option>
+                      <option value="TDAPIPV">TDAPIPV</option>
+                      <option value="TTOX">TTOX</option>
+                      <option value="TYP">TYP</option>
+                      <option value="UNK">UNK</option>
+                      <option value="VARCEL">VARCEL</option>
+                      <option value="VARZOS">VARZOS</option>
+                      <option value="YF">YF</option>
+                    </select>
+                  </div>
+                  <table class="display" id="prrBySymptomTable">
+                    <thead>
+                      <tr>
+                        <th>Symptom</th>
+                        <th>Proportional Reporting Ratio > 1</th>
                       </tr>
                     </thead>
                   </table>

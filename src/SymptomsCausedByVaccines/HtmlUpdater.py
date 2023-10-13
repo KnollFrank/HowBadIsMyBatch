@@ -1,16 +1,21 @@
 from bs4 import BeautifulSoup
 from HtmlTransformerUtil import HtmlTransformerUtil
 from DateProvider import DateProvider
-from SymptomsCausedByVaccines.HtmlUtils import getSymptomOptions
+from SymptomsCausedByVaccines.HtmlUtils import getSymptomOptions, getVaccineOptions
 from SymptomsCausedByVaccines.OptionsSetter import OptionsSetter
 
 
-def updateHtmlFile(symptoms, htmlFile):    
+def updateHtmlFile(symptoms, vaccines, htmlFile):
     _saveOptions(
         options = getSymptomOptions(symptoms),
         htmlFile = htmlFile,
         selectElementId = 'symptomSelect')
     
+    _saveOptions(
+        options = getVaccineOptions(vaccines),
+        htmlFile = htmlFile,
+        selectElementId = 'vaccineSelect')
+
 def _saveOptions(options, htmlFile, selectElementId):
     HtmlTransformerUtil().applySoupTransformerToFile(
         file=htmlFile,
