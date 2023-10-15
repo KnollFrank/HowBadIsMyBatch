@@ -2,7 +2,6 @@ class PrrByVaccineTableView {
 
     #prrByVaccineTable;
     #downloadPrrByVaccineTableButton;
-    #prrByVaccine;
     #symptom;
 
     constructor(prrByVaccineTableElement, downloadPrrByVaccineTableButton) {
@@ -16,7 +15,6 @@ class PrrByVaccineTableView {
         PrrByVaccineProvider
             .getPrrByVaccine(symptom)
             .then(prrByVaccine => {
-                this.#prrByVaccine = prrByVaccine;
                 this.#symptom = symptom;
                 this.#prrByVaccineTable.display(prrByVaccine);
                 UIUtils.enableButton(this.#downloadPrrByVaccineTableButton);
