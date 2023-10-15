@@ -3,6 +3,7 @@ class PrrBySymptomTable {
     #tableElement;
     #table;
     #sumPrrs;
+    #prrBySymptom;
 
     constructor(tableElement) {
         this.#tableElement = tableElement;
@@ -13,8 +14,21 @@ class PrrBySymptomTable {
     }
 
     display(prrBySymptom) {
+        this.#prrBySymptom = prrBySymptom;
         const symptom_prr_pairs = Object.entries(prrBySymptom);
         this.#setTableRows(symptom_prr_pairs);
+    }
+
+    getDisplayedTableAsCsv(heading) {
+        return PrrByKey2CsvConverter.convertPrrByKey2Csv(
+            {
+                heading: heading,
+                columns: {
+                    keyColumn: 'Symptom',
+                    prrColumn: 'Proportional Reporting Ratio > 1'
+                },
+                prrByKey: this.#prrBySymptom
+            });
     }
 
     #createEmptyTable() {
