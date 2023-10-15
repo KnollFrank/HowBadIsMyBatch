@@ -4927,3 +4927,7 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
 table.dataTable.display tbody tr.prrTooHigh {
     background-color: rgba(255, 0, 0, 10%);
 }
+
+.select2 {
+    max-width: 100%;
+}
