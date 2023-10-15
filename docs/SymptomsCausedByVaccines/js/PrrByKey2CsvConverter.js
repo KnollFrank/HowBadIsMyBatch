@@ -1,12 +1,19 @@
 class PrrByKey2CsvConverter {
 
-    static convertPrrByKey2Csv({ prrByKey, keyColumn, prrColumn }) {
-        return PrrByKey2CsvConverter.#convert2Csv(
-            {
-                prrByKey: PrrByKey2CsvConverter.#quoteKeys(prrByKey),
-                keyColumn: PrrByKey2CsvConverter.#quote(keyColumn),
-                prrColumn: PrrByKey2CsvConverter.#quote(prrColumn)
-            });
+    static convertPrrByKey2Csv(
+        {
+            heading,
+            columns: { keyColumn, prrColumn },
+            prrByKey
+        }
+    ) {
+        return heading + '\n\n' +
+            PrrByKey2CsvConverter.#convert2Csv(
+                {
+                    prrByKey: PrrByKey2CsvConverter.#quoteKeys(prrByKey),
+                    keyColumn: PrrByKey2CsvConverter.#quote(keyColumn),
+                    prrColumn: PrrByKey2CsvConverter.#quote(prrColumn)
+                });
     }
 
     static #quoteKeys(prrByKey) {

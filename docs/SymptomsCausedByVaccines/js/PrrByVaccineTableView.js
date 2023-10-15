@@ -38,9 +38,12 @@ class PrrByVaccineTableView {
                     [
                         PrrByKey2CsvConverter.convertPrrByKey2Csv(
                             {
-                                prrByKey: this.#prrByVaccine,
-                                keyColumn: 'Vaccine',
-                                prrColumn: 'Proportional Reporting Ratio'
+                                heading: '# Symptom: ' + this.#symptom,
+                                columns: {
+                                    keyColumn: 'Vaccine',
+                                    prrColumn: 'Proportional Reporting Ratio'
+                                },
+                                prrByKey: this.#prrByVaccine
                             })
                     ],
                     { type: 'text/csv' })),
