@@ -24,4 +24,17 @@ class Utils {
     static sliceDict(dict, start, end) {
         return Object.fromEntries(Object.entries(dict).slice(start, end));
     }
+
+    static convertDict2CSV(dict) {
+        const {'keys': columns, 'values': firstRow} = Utils.getKeysAlignedWithValues(dict);
+        return `${Utils.#quoteValues(columns)}\n${firstRow}`;
+    }
+
+    static #quoteValues(values) {
+        return values.map(Utils.#quoteValue);
+    }
+
+    static #quoteValue(value) {
+        return '"' + value + '"';
+    }
 }
