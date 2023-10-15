@@ -15,8 +15,8 @@ class PageInitializer {
             });
     }
 
-    static #configureVaccine({ vaccineSelectElement, prrBySymptomTableElement }) {
-        const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement);
+    static #configureVaccine({ vaccineSelectElement, prrBySymptomTableElement, downloadPrrBySymptomTableButton }) {
+        const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement, downloadPrrBySymptomTableButton);
         PageInitializer.#initializeSelectElement(
             {
                 selectElement: vaccineSelectElement,
