@@ -5,8 +5,8 @@ class PageInitializer {
         PageInitializer.#configureVaccine(vaccine);
     }
 
-    static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement }) {
-        const prrByVaccineTableView = new PrrByVaccineTableView(prrByVaccineTableElement);
+    static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement, downloadPrrByVaccineTableButton }) {
+        const prrByVaccineTableView = new PrrByVaccineTableView(prrByVaccineTableElement, downloadPrrByVaccineTableButton);
         PageInitializer.#initializeSelectElement(
             {
                 selectElement: symptomSelectElement,

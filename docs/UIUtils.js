@@ -68,4 +68,11 @@ class UIUtils {
     static isSearchParamYES(urlParams, searchParam) {
         return UIUtils.getSearchParam(urlParams, searchParam, 'NO').toUpperCase() == 'YES';
     }
+
+    static downloadUrlAsFilename(url, filename) {
+        const a = document.createElement('a');
+        a.setAttribute('href', url);
+        a.setAttribute('download', filename);
+        a.click();
+    }
 }
