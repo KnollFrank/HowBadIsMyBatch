@@ -4,7 +4,7 @@ class PrrBySymptomTableView {
 
     constructor(prrBySymptomTableElement, downloadPrrBySymptomTableButton) {
         this.#delegate = new PrrByKeyTableView(
-            new PrrBySymptomTable(prrBySymptomTableElement),
+            this.#createPrrBySymptomTable(prrBySymptomTableElement),
             downloadPrrBySymptomTableButton,
             'Vaccine',
             PrrByVaccineProvider.getPrrBySymptom);
@@ -12,5 +12,14 @@ class PrrBySymptomTableView {
 
     displayPrrBySymptomTable4Vaccine(vaccine) {
         this.#delegate.displayPrrByKeyTable4Value(vaccine);
+    }
+
+    #createPrrBySymptomTable(tableElement) {
+        return new PrrByKeyTable({
+            tableElement: tableElement,
+            keyColumnName: 'Symptom',
+            prrColumnName: 'Proportional Reporting Ratio > 1',
+            shallMarkRowIfPrrTooHigh: false
+        });
     }
 }

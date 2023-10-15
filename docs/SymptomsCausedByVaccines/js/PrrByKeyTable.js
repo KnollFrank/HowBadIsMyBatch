@@ -54,14 +54,16 @@ class PrrByKeyTable {
                             targets: [this.#getColumnIndex(this.#prrColumnName)]
                         },
                         {
-                            render: prr =>
-                                NumberWithBarElementFactory
-                                    .createNumberWithBarElement(
-                                        {
-                                            number: prr,
-                                            barLenInPercent: prr / this.#sumPrrs * 100
-                                        })
-                                    .outerHTML,
+                            render: (prr, type, row, meta) =>
+                                (type === 'sort' || type === 'type') ?
+                                    parseFloat(prr) :
+                                    NumberWithBarElementFactory
+                                        .createNumberWithBarElement(
+                                            {
+                                                number: prr,
+                                                barLenInPercent: prr / this.#sumPrrs * 100
+                                            })
+                                        .outerHTML,
                             targets: [this.#getColumnIndex(this.#prrColumnName)]
                         }
                     ],
