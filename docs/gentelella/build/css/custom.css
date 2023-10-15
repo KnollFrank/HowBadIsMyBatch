@@ -4931,3 +4931,7 @@ table.dataTable.display tbody tr.prrTooHigh {
 .select2 {
     max-width: 100%;
 }
+
+.downloadButton {
+    margin-top: 10px;
+}
