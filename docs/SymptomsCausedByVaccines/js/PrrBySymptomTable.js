@@ -1,86 +1,25 @@
 class PrrBySymptomTable {
 
-    #tableElement;
-    #table;
-    #sumPrrs;
-    #prrBySymptom;
+    #delegate;
 
     constructor(tableElement) {
-        this.#tableElement = tableElement;
+        this.#delegate = new PrrByKeyTable({
+            tableElement: tableElement,
+            keyColumnName: 'Symptom',
+            prrColumnName: 'Proportional Reporting Ratio > 1',
+            shallMarkRowIfPrrTooHigh: false
+        });
     }
 
     initialize() {
-        this.#table = this.#createEmptyTable();
+        this.#delegate.initialize();
     }
 
     display(prrBySymptom) {
-        this.#prrBySymptom = prrBySymptom;
-        const symptom_prr_pairs = Object.entries(prrBySymptom);
-        this.#setTableRows(symptom_prr_pairs);
+        this.#delegate.display(prrBySymptom);
     }
 
     getDisplayedTableAsCsv(heading) {
-        return PrrByKey2CsvConverter.convertPrrByKey2Csv(
-            {
-                heading: heading,
-                columns: {
-                    keyColumn: 'Symptom',
-                    prrColumn: 'Proportional Reporting Ratio > 1'
-                },
-                prrByKey: this.#prrBySymptom
-            });
-    }
-
-    #createEmptyTable() {
-        return this.#tableElement.DataTable(
-            {
-                search:
-                {
-                    return: false
-                },
-                processing: true,
-                deferRender: true,
-                order: [[this.#getColumnIndex('Proportional Reporting Ratio > 1'), "desc"]],
-                columnDefs:
-                    [
-                        {
-                            searchable: false,
-                            targets: [this.#getColumnIndex('Proportional Reporting Ratio > 1')]
-                        },
-                        {
-                            render: prr =>
-                                NumberWithBarElementFactory
-                                    .createNumberWithBarElement(
-                                        {
-                                            number: prr,
-                                            barLenInPercent: prr / this.#sumPrrs * 100
-                                        })
-                                    .outerHTML,
-                            targets: [this.#getColumnIndex('Proportional Reporting Ratio > 1')]
-                        }
-                    ]
-            });
-    }
-
-    #getColumnIndex(columnName) {
-        switch (columnName) {
-            case 'Symptom':
-                return 0;
-            case 'Proportional Reporting Ratio > 1':
-                return 1;
-        }
-    }
-
-    #setTableRows(symptom_prr_pairs) {
-        this.#sumPrrs = this.#getSumPrrs(symptom_prr_pairs);
-        this.#table
-            .clear()
-            .rows.add(symptom_prr_pairs)
-            .draw();
-    }
-
-    #getSumPrrs(symptom_prr_pairs) {
-        const prrs = symptom_prr_pairs.map(symptom_prr_pair => symptom_prr_pair[1])
-        return Utils.sum(prrs);
+        return this.#delegate.getDisplayedTableAsCsv(heading);
     }
 }
