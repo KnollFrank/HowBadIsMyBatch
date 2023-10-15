@@ -11,7 +11,6 @@ QUnit.module('UtilsTest', function () {
         const csv = Utils.convertDict2CSV(dict);
 
         // Then
-        const csvExpected = '"MM,R","VARCEL"\n26.17432376240791,10.549534724816644';
-        assert.equal(csv, csvExpected);
+        assert.equal(csv, '"MM,R","VARCEL"\n26.17432376240791,10.549534724816644');
     });
 });

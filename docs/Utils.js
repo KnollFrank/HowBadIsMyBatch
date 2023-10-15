@@ -26,15 +26,6 @@ class Utils {
     }
 
     static convertDict2CSV(dict) {
-        const {'keys': columns, 'values': firstRow} = Utils.getKeysAlignedWithValues(dict);
-        return `${Utils.#quoteValues(columns)}\n${firstRow}`;
-    }
-
-    static #quoteValues(values) {
-        return values.map(Utils.#quoteValue);
-    }
-
-    static #quoteValue(value) {
-        return '"' + value + '"';
+        return Dict2CsvConverter.convertDict2CSV(dict);
     }
 }
