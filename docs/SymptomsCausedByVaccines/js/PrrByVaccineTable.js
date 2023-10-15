@@ -3,6 +3,7 @@ class PrrByVaccineTable {
     #tableElement;
     #table;
     #sumPrrs;
+    #prrByVaccine;
 
     constructor(tableElement) {
         this.#tableElement = tableElement;
@@ -13,8 +14,21 @@ class PrrByVaccineTable {
     }
 
     display(prrByVaccine) {
+        this.#prrByVaccine = prrByVaccine;
         const vaccine_prr_pairs = Object.entries(prrByVaccine);
         this.#setTableRows(vaccine_prr_pairs);
+    }
+
+    getDisplayedTableAsCsv(heading) {
+        return PrrByKey2CsvConverter.convertPrrByKey2Csv(
+            {
+                heading: heading,
+                columns: {
+                    keyColumn: 'Vaccine',
+                    prrColumn: 'Proportional Reporting Ratio'
+                },
+                prrByKey: this.#prrByVaccine
+            });
     }
 
     #createEmptyTable() {

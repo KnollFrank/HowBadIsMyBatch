@@ -35,17 +35,7 @@ class PrrByVaccineTableView {
         UIUtils.downloadUrlAsFilename(
             window.URL.createObjectURL(
                 new Blob(
-                    [
-                        PrrByKey2CsvConverter.convertPrrByKey2Csv(
-                            {
-                                heading: '# Symptom: ' + this.#symptom,
-                                columns: {
-                                    keyColumn: 'Vaccine',
-                                    prrColumn: 'Proportional Reporting Ratio'
-                                },
-                                prrByKey: this.#prrByVaccine
-                            })
-                    ],
+                    [this.#prrByVaccineTable.getDisplayedTableAsCsv('# Symptom: ' + this.#symptom)],
                     { type: 'text/csv' })),
             this.#symptom
         );
