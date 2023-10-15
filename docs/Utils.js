@@ -24,8 +24,4 @@ class Utils {
     static sliceDict(dict, start, end) {
         return Object.fromEntries(Object.entries(dict).slice(start, end));
     }
-
-    static convertDict2CSV(dict) {
-        return Dict2CsvConverter.convertDict2CSV(dict);
-    }
 }
