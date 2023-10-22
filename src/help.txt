@@ -6,11 +6,6 @@ FK-TODO:
 - add google captcha to batchCodeTable.html
 - Symptomhistogramm
 - http://www.howbadismybatch.info/SymptomsCausedByVaccines/index.html
-  create an interface where people
-  1. input a vaccine name, and see which symptoms are strongest for it, or
-  2. could input a symptom, and see which vaccines are worst.
-     It would be good if the user can simply choose a symptom from a drop down
-     then read off all the vaccine prrs (Proportional Reporting Ratios) that have scores.
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
