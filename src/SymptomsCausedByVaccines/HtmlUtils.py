@@ -1,5 +1,5 @@
-def getVaccineOptions(vaccines):
-    return _getOptionsWithDefaultOption(defaultOptionText = 'Select Vaccine', values = vaccines)
+def getVaccineOptions(vaccines, defaultOptionText):
+    return _getOptionsWithDefaultOption(defaultOptionText = defaultOptionText, values = vaccines)
 
 
 def getSymptomOptions(symptoms):

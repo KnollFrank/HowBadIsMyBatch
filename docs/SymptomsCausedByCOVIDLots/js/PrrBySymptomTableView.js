@@ -6,7 +6,7 @@ class PrrBySymptomTableView {
         this.#delegate = new PrrByKeyTableView(
             this.#createPrrBySymptomTable(prrBySymptomTableElement),
             downloadPrrBySymptomTableButton,
-            'Vaccine',
+            'Batch',
             PrrByVaccineProvider.getPrrBySymptom);
     }
 
