@@ -17,7 +17,7 @@ class PrrByVaccineTableView {
     #createPrrByVaccineTable(tableElement) {
         return new PrrByKeyTable({
             tableElement: tableElement,
-            keyColumnName: 'Vaccine',
+            keyColumnName: 'Batch',
             prrColumnName: 'Proportional Reporting Ratio',
             shallMarkRowIfPrrTooHigh: true
         });

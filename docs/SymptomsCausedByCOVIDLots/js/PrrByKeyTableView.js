@@ -17,11 +17,12 @@ class PrrByKeyTableView {
     displayPrrByKeyTable4Value(value) {
         UIUtils.disableButton(this.#downloadPrrByKeyTableButton);
         this.#prrByKeyProvider(value)
-            .then(prrByKey => {
-                this.#value = value;
-                this.#prrByKeyTable.display(prrByKey);
-                UIUtils.enableButton(this.#downloadPrrByKeyTableButton);
-            });
+            .then(
+                prrByKey => {
+                    this.#value = value;
+                    this.#prrByKeyTable.display(prrByKey);
+                    UIUtils.enableButton(this.#downloadPrrByKeyTableButton);
+                });
     }
 
     #initializeButton(downloadPrrByKeyTableButton) {
