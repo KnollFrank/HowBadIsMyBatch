@@ -1,11 +1,29 @@
 class SymptomVsSymptomChartDataProvider {
 
-    static retainCommonLots({ prrByLotX, prrByLotY }) {
-        const commonLots = SymptomVsSymptomChartDataProvider.#getCommonKeys(prrByLotX, prrByLotY);
+    // FK-TODO: extract utility class and test
+    static retainCommonKeys({ dict1, dict2 }) {
+        const commonKeys = SymptomVsSymptomChartDataProvider.#getCommonKeys(dict1, dict2);
         return {
-            prrByLotX: SymptomVsSymptomChartDataProvider.#retainKeysOfDict(prrByLotX, commonLots),
-            prrByLotY: SymptomVsSymptomChartDataProvider.#retainKeysOfDict(prrByLotY, commonLots)
+            dict1: SymptomVsSymptomChartDataProvider.#retainKeysOfDict(dict1, commonKeys),
+            dict2: SymptomVsSymptomChartDataProvider.#retainKeysOfDict(dict2, commonKeys)
         };
+    }
+
+    static getChartData({ prrByLotX, prrByLotY }) {
+        const { dict1: prrByLotXCommon, dict2: prrByLotYCommon } =
+            SymptomVsSymptomChartDataProvider.retainCommonKeys(
+                {
+                    dict1: prrByLotX,
+                    dict2: prrByLotY
+                });
+        return Object
+            .keys(prrByLotXCommon)
+            .map(
+                lot =>
+                ({
+                    x: prrByLotXCommon[lot],
+                    y: prrByLotYCommon[lot]
+                }));
     }
 
     static #getCommonKeys(dict1, dict2) {

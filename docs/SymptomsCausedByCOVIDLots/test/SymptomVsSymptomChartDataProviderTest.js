@@ -5,48 +5,73 @@ QUnit.module('SymptomVsSymptomChartDataProviderTest', function () {
         [
             [
                 {
-                    prrByLotX: {
+                    dict1: {
                         "lotX": 1.0
                     },
-                    prrByLotY: {
+                    dict2: {
                         "lotY": 2.0
                     }
                 },
                 {
-                    prrByLotX: {
+                    dict1: {
                     },
-                    prrByLotY: {
+                    dict2: {
                     }
                 }
             ],
             [
                 {
-                    prrByLotX: {
+                    dict1: {
                         "lotX": 1.0,
                         "lotCommon": 2.0
                     },
-                    prrByLotY: {
+                    dict2: {
                         "lotCommon": 3.0,
                         "lotY": 4.0
                     }
                 },
                 {
-                    prrByLotX: {
+                    dict1: {
                         "lotCommon": 2.0
                     },
-                    prrByLotY: {
+                    dict2: {
                         "lotCommon": 3.0
                     }
                 }
             ]
         ],
-        (assert, [dataSets, mergedDataSets]) => {
+        (assert, [dicts, dictsHavingCommonKeys]) => {
             // Given
 
             // When
-            const mergedDataSetsActual = SymptomVsSymptomChartDataProvider.retainCommonLots(dataSets);
+            const dictsHavingCommonKeysActual = SymptomVsSymptomChartDataProvider.retainCommonKeys(dicts);
 
             // Then
-            assert.deepEqual(mergedDataSetsActual, mergedDataSets);
+            assert.deepEqual(dictsHavingCommonKeysActual, dictsHavingCommonKeys);
         });
+
+    QUnit.test('shouldProvideChartData', function (assert) {
+        // Given
+        const prrByLotX = {
+            "lotX": 1.0,
+            "lotCommon": 2.0
+        };
+        const prrByLotY = {
+            "lotCommon": 3.0,
+            "lotY": 4.0
+        };
+
+        // When
+        const chartData = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
+
+        // Then
+        assert.deepEqual(
+            chartData,
+            [
+                {
+                    x: 2.0,
+                    y: 3.0
+                }
+            ]);
+    });
 });
