@@ -23,7 +23,7 @@ class SymptomVsSymptomChartView {
                                     datasets: [{
                                         label: 'Scatter Dataset',
                                         data: chartData,
-                                        backgroundColor: 'rgb(255, 99, 132)'
+                                        backgroundColor: 'rgb(0, 0, 255)'
                                     }],
                                 };
                                 const config = {
