@@ -9,14 +9,14 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Safety Signals for COVID Batches</title>
   <!-- Google tag (gtag.js) -->
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
+  <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-ERHYDH4P64');
-  </script>
+  </script> -->
   <!-- Bootstrap -->
   <link href="../gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
@@ -35,6 +35,7 @@
   <script src="./js/PrrByKeyTableView.js"></script>
   <script src="./js/PrrByVaccineTableView.js"></script>
   <script src="./js/PrrBySymptomTableView.js"></script>
+  <script src="./js/SymptomVsSymptomChartView.js"></script>
   <script>
     document.addEventListener(
       "DOMContentLoaded",
@@ -50,7 +51,8 @@
               vaccineSelectElement: $('#vaccineSelect'),
               prrBySymptomTableElement: $('#prrBySymptomTable'),
               downloadPrrBySymptomTableButton: document.querySelector("#downloadPrrBySymptomTable")
-            }
+            },
+            symptomVsSymptomChartViewElement: document.querySelector('#symptomVsSymptomChartView')
           }
         );
       });
@@ -13818,6 +13820,20 @@
                     </thead>
                   </table>
                   <button class="btn downloadButton" id="downloadPrrBySymptomTable">Download</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h3>Worst Batches Bla Bla</h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <canvas id="symptomVsSymptomChartView"></canvas>
                 </div>
               </div>
             </div>
