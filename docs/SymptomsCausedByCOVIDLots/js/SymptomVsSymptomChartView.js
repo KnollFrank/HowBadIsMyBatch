@@ -14,13 +14,13 @@ class SymptomVsSymptomChartView {
         // FK-TODO: fetch multiple files: https://stackoverflow.com/a/31711496 or https://stackoverflow.com/a/53892713
         PrrByVaccineProvider.getPrrByVaccine(symptom1)
             .then(
-                prrByKey1 => {
+                prrByLot1 => {
                     PrrByVaccineProvider.getPrrByVaccine(symptom2)
                         .then(
-                            prrByKey2 => {
+                            prrByLot2 => {
                                 const myData =
                                     Object
-                                        .values(prrByKey2)
+                                        .values(prrByLot2)
                                         .map(
                                             val =>
                                             ({
