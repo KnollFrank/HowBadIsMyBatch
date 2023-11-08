@@ -7,30 +7,22 @@ class SymptomVsSymptomChartView {
         this.#canvas = canvas;
     }
 
-    displayChart(symptom1, symptom2) {
+    displayChart(symptomX, symptomY) {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
         // FK-TODO: fetch multiple files: https://stackoverflow.com/a/31711496 or https://stackoverflow.com/a/53892713
-        PrrByVaccineProvider.getPrrByVaccine(symptom1)
+        PrrByVaccineProvider.getPrrByVaccine(symptomX)
             .then(
-                prrByLot1 => {
-                    PrrByVaccineProvider.getPrrByVaccine(symptom2)
+                prrByLotX => {
+                    PrrByVaccineProvider.getPrrByVaccine(symptomY)
                         .then(
-                            prrByLot2 => {
-                                const myData =
-                                    Object
-                                        .values(prrByLot2)
-                                        .map(
-                                            val =>
-                                            ({
-                                                x: val,
-                                                y: val
-                                            }));
+                            prrByLotY => {
+                                const chartData = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
                                 const data = {
                                     datasets: [{
                                         label: 'Scatter Dataset',
-                                        data: myData,
+                                        data: chartData,
                                         backgroundColor: 'rgb(255, 99, 132)'
                                     }],
                                 };
