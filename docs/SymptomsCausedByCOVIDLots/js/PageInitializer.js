@@ -22,7 +22,7 @@ class PageInitializer {
             {
                 selectElement: vaccineSelectElement,
                 onValueSelected: vaccine => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(vaccine),
-                minimumInputLength: 4
+                minimumInputLength: 0
             });
     }
 
