@@ -1,8 +1,8 @@
 class PageInitializer {
 
     static #symptomVsSymptomChartView;
-    static #symptomX = 'Immunosuppression';
-    static #symptomY = 'Immunoglobulin therapy';
+    static #symptomX = null;
+    static #symptomY = null;
 
     static initializePage({ symptom, vaccine, symptomVsSymptomChart }) {
         PageInitializer.#configureSymptom(symptom);
@@ -37,7 +37,7 @@ class PageInitializer {
                 selectElement: symptomSelectXElement,
                 onValueSelected: symptomX => {
                     PageInitializer.#symptomX = symptomX;
-                    PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
+                    PageInitializer.#loadAndDisplayChart();
                 },
                 minimumInputLength: 4
             });
@@ -46,11 +46,11 @@ class PageInitializer {
                 selectElement: symptomSelectYElement,
                 onValueSelected: symptomY => {
                     PageInitializer.#symptomY = symptomY;
-                    PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
+                    PageInitializer.#loadAndDisplayChart();
                 },
                 minimumInputLength: 4
             });
-        PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
+        PageInitializer.#loadAndDisplayChart();
     }
 
     static #initializeSelectElement({ selectElement, onValueSelected, minimumInputLength }) {
@@ -61,5 +61,13 @@ class PageInitializer {
                 const value = event.params.data.id;
                 onValueSelected(value);
             });
+    }
+
+    static #loadAndDisplayChart() {
+        if (PageInitializer.#symptomX != null && PageInitializer.#symptomY != null) {
+            PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(
+                PageInitializer.#symptomX,
+                PageInitializer.#symptomY);
+        }
     }
 }
