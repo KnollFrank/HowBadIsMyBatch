@@ -7,6 +7,7 @@ FK-TODO:
 - Symptomhistogramm
 - http://www.howbadismybatch.info/SymptomsCausedByVaccines/index.html
 - http://www.howbadismybatch.info/SymptomsCausedByCOVIDLots/index.html
+  http://www.howbadismybatch.info/SymptomsCausedByCOVIDLots/test/index.test.html
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch

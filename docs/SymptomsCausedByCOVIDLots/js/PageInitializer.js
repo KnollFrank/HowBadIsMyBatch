@@ -1,8 +1,9 @@
 class PageInitializer {
 
-    static initializePage({ symptom, vaccine }) {
+    static initializePage({ symptom, vaccine, symptomVsSymptomChart }) {
         PageInitializer.#configureSymptom(symptom);
         PageInitializer.#configureVaccine(vaccine);
+        PageInitializer.#configureSymptomVsSymptomChart(symptomVsSymptomChart);
     }
 
     static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement, downloadPrrByVaccineTableButton }) {
@@ -23,6 +24,12 @@ class PageInitializer {
                 onValueSelected: vaccine => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(vaccine),
                 minimumInputLength: 0
             });
+    }
+
+    static #configureSymptomVsSymptomChart(symptomVsSymptomChart) {
+        new SymptomVsSymptomChartViewInitializer().configureSymptomVsSymptomChart(
+            symptomVsSymptomChart,
+            PageInitializer.#initializeSelectElement);
     }
 
     static #initializeSelectElement({ selectElement, onValueSelected, minimumInputLength }) {
