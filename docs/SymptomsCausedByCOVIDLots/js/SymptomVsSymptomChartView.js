@@ -12,64 +12,10 @@ class SymptomVsSymptomChartView {
         Promise
             .all([symptomX, symptomY].map(symptom => PrrByVaccineProvider.getPrrByVaccine(symptom)))
             .then(
-                ([prrByLotX, prrByLotY]) =>
-                    this.#displayChart(
-                        { symptom: symptomX, prrByLot: prrByLotX },
-                        { symptom: symptomY, prrByLot: prrByLotY }));
-    }
-
-    #displayChart(
-        { symptom: symptomX, prrByLot: prrByLotX },
-        { symptom: symptomY, prrByLot: prrByLotY }) {
-        if (this.#chart != null) {
-            this.#chart.destroy();
-        }
-        const chartData = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
-        const data = {
-            datasets:
-                [
-                    {
-                        labels: chartData.labels,
-                        data: chartData.data,
-                        backgroundColor: 'rgb(0, 0, 255)'
-                    }
-                ]
-        };
-        const config = {
-            type: 'scatter',
-            data: data,
-            options: {
-                scales: {
-                    x: {
-                        type: 'linear',
-                        position: 'bottom',
-                        title: {
-                            display: true,
-                            text: 'PRR ratio of Batch for ' + symptomX
-                        }
-                    },
-                    y: {
-                        title: {
-                            display: true,
-                            text: 'PRR ratio of Batch for ' + symptomY
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function (context) {
-                                return 'Batch: ' + context.dataset.labels[context.dataIndex];
-                            }
-                        }
-                    }
-                }
-            }
-        };
-        this.#chart = new Chart(this.#canvas, config);
+                ([prrByLotX, prrByLotY]) => {
+                    const { labels, data } = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
+                    this.#displayChart(symptomX, symptomY, labels, data);
+                });
     }
 
     setData(histoDescr) {
@@ -78,48 +24,58 @@ class SymptomVsSymptomChartView {
         this.#chart.update();
     }
 
-    #getData(ADRDescr) {
+    #displayChart(symptomX, symptomY, labels, data) {
+        if (this.#chart != null) {
+            this.#chart.destroy();
+        }
+        const config = {
+            type: 'scatter',
+            data: this.#getData(labels, data),
+            options: this.#getOptions(symptomX, symptomY)
+        };
+        this.#chart = new Chart(this.#canvas, config);
+    }
+
+    #getData(labels, data) {
         return {
-            labels: [
-                'Deaths',
-                'Disabilities',
-                'Life Threatening Illnesses',
-                'Other Adverse Events'
-            ],
-            datasets: [{
-                // FK-TODO: refactor
-                label: 'Batch ' + ADRDescr['batchcode'],
-                data: [
-                    ADRDescr['Deaths'],
-                    ADRDescr['Disabilities'],
-                    ADRDescr['Life Threatening Illnesses'],
-                    ADRDescr['Adverse Reaction Reports'] - (ADRDescr['Deaths'] + ADRDescr['Disabilities'] + ADRDescr['Life Threatening Illnesses'])
-                ],
-                backgroundColor: '#1a73e8'
-            }]
+            datasets:
+                [
+                    {
+                        labels: labels,
+                        data: data,
+                        backgroundColor: 'rgb(0, 0, 255)'
+                    }
+                ]
         };
     }
 
-    #getOptions() {
+    #getOptions(symptomX, symptomY) {
         return {
-            plugins: {
-                datalabels: {
-                    anchor: 'end',
-                    align: 'top'
-                }
-            },
-            title: {
-                display: true,
-                position: 'top'
-            },
             scales: {
-                y: {
-                    ticks: {
-                        precision: 0
-                    },
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
                     title: {
                         display: true,
-                        text: 'Frequency'
+                        text: 'PRR ratio of Batch for ' + symptomX
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'PRR ratio of Batch for ' + symptomY
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            return 'Batch: ' + context.dataset.labels[context.dataIndex];
+                        }
                     }
                 }
             }
