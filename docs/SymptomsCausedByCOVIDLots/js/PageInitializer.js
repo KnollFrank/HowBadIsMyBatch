@@ -26,7 +26,7 @@ class PageInitializer {
             {
                 selectElement: vaccineSelectElement,
                 onValueSelected: vaccine => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(vaccine),
-                minimumInputLength: 0
+                minimumInputLength: 4
             });
     }
 
@@ -39,7 +39,7 @@ class PageInitializer {
                     PageInitializer.#symptomX = symptomX;
                     PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
                 },
-                minimumInputLength: 0
+                minimumInputLength: 4
             });
         PageInitializer.#initializeSelectElement(
             {
@@ -48,7 +48,7 @@ class PageInitializer {
                     PageInitializer.#symptomY = symptomY;
                     PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
                 },
-                minimumInputLength: 0
+                minimumInputLength: 4
             });
         PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
     }
