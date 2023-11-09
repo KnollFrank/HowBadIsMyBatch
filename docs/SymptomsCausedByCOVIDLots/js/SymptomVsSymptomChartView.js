@@ -28,12 +28,18 @@ class SymptomVsSymptomChartView {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
-        const config = {
+        this.#chart =
+            new Chart(
+                this.#canvas,
+                this.#getConfig(symptomX, symptomY, labels, data));
+    }
+
+    #getConfig(symptomX, symptomY, labels, data) {
+        return {
             type: 'scatter',
             data: this.#getData(labels, data),
             options: this.#getOptions(symptomX, symptomY)
         };
-        this.#chart = new Chart(this.#canvas, config);
     }
 
     #getData(labels, data) {
@@ -55,16 +61,10 @@ class SymptomVsSymptomChartView {
                 x: {
                     type: 'linear',
                     position: 'bottom',
-                    title: {
-                        display: true,
-                        text: 'PRR ratio of Batch for ' + symptomX
-                    }
+                    title: this.#getAxisTitle(symptomX)
                 },
                 y: {
-                    title: {
-                        display: true,
-                        text: 'PRR ratio of Batch for ' + symptomY
-                    }
+                    title: this.#getAxisTitle(symptomY)
                 }
             },
             plugins: {
@@ -80,5 +80,12 @@ class SymptomVsSymptomChartView {
                 }
             }
         };
+    }
+
+    #getAxisTitle(symptom) {
+        return {
+            display: true,
+            text: 'PRR ratio of Batch for ' + symptom
+        }
     }
 }
