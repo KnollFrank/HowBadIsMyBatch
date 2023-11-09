@@ -8,56 +8,62 @@ class SymptomVsSymptomChartView {
     }
 
     // FK-TODO: refactor
-    displayChart(symptomX, symptomY) {
+    loadAndDisplayChart(symptomX, symptomY) {
+        Promise
+            .all([symptomX, symptomY].map(symptom => PrrByVaccineProvider.getPrrByVaccine(symptom)))
+            .then(([prrByLotX, prrByLotY]) => this.#displayChart(prrByLotX, prrByLotY, symptomX, symptomY));
+    }
+
+    #displayChart(prrByLotX, prrByLotY, symptomX, symptomY) {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
-        // FK-TODO: move PrrByVaccineProvider.getPrrByVaccine() calls out of this function
-        Promise
-            .all([symptomX, symptomY].map(symptom => PrrByVaccineProvider.getPrrByVaccine(symptom)))
-            .then(([prrByLotX, prrByLotY]) => {
-                const chartData = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
-                const data = {
-                    datasets: [{
+        const chartData = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
+        const data = {
+            datasets:
+                [
+                    {
                         labels: chartData.labels,
                         data: chartData.data,
                         backgroundColor: 'rgb(0, 0, 255)'
-                    }],
-                };
-                const config = {
-                    type: 'scatter',
-                    data: data,
-                    options: {
-                        scales: {
-                            x: {
-                                type: 'linear',
-                                position: 'bottom'
-                            }
-                        },
-                        plugins: {
-                            legend: {
-                                display: false
-                            },
-                            tooltip: {
-                                callbacks: {
-                                    label: function (context) {
-                                        return 'Batch: ' + context.dataset.labels[context.dataIndex];
-                                    }
-                                }
+                    }
+                ]
+        };
+        const config = {
+            type: 'scatter',
+            data: data,
+            options: {
+                scales: {
+                    x: {
+                        type: 'linear',
+                        position: 'bottom',
+                        title: {
+                            display: true,
+                            text: 'PRR ratio of Batch for ' + symptomX
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'PRR ratio of Batch for ' + symptomY
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                return 'Batch: ' + context.dataset.labels[context.dataIndex];
                             }
                         }
                     }
-                };
-                this.#chart = new Chart(
-                    this.#canvas,
-                    // {
-                    //     type: 'bar',
-                    //     plugins: [ChartDataLabels],
-                    //     data: this.#getData(ADRDescr),
-                    //     options: this.#getOptions()
-                    // }
-                    config);
-            });
+                }
+            }
+        };
+        this.#chart = new Chart(this.#canvas, config);
     }
 
     setData(histoDescr) {

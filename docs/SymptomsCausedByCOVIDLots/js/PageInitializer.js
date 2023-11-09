@@ -6,7 +6,7 @@ class PageInitializer {
         PageInitializer.#configureSymptom(symptom);
         PageInitializer.#configureVaccine(vaccine);
         PageInitializer.#symptomVsSymptomChartView = new SymptomVsSymptomChartView(symptomVsSymptomChartViewElement);
-        PageInitializer.#symptomVsSymptomChartView.displayChart('Immunosuppression', 'Immunoglobulin therapy');
+        PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart('Immunosuppression', 'Immunoglobulin therapy');
     }
 
     static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement, downloadPrrByVaccineTableButton }) {
