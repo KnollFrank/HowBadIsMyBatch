@@ -1,9 +1,5 @@
 class PageInitializer {
 
-    static #symptomVsSymptomChartView;
-    static #symptomX = null;
-    static #symptomY = null;
-
     static initializePage({ symptom, vaccine, symptomVsSymptomChart }) {
         PageInitializer.#configureSymptom(symptom);
         PageInitializer.#configureVaccine(vaccine);
@@ -30,27 +26,10 @@ class PageInitializer {
             });
     }
 
-    static #configureSymptomVsSymptomChart({ symptomSelectXElement, symptomSelectYElement, symptomVsSymptomChartViewElement }) {
-        PageInitializer.#symptomVsSymptomChartView = new SymptomVsSymptomChartView(symptomVsSymptomChartViewElement);
-        PageInitializer.#initializeSelectElement(
-            {
-                selectElement: symptomSelectXElement,
-                onValueSelected: symptomX => {
-                    PageInitializer.#symptomX = symptomX;
-                    PageInitializer.#loadAndDisplayChart();
-                },
-                minimumInputLength: 4
-            });
-        PageInitializer.#initializeSelectElement(
-            {
-                selectElement: symptomSelectYElement,
-                onValueSelected: symptomY => {
-                    PageInitializer.#symptomY = symptomY;
-                    PageInitializer.#loadAndDisplayChart();
-                },
-                minimumInputLength: 4
-            });
-        PageInitializer.#loadAndDisplayChart();
+    static #configureSymptomVsSymptomChart(symptomVsSymptomChart) {
+        new SymptomVsSymptomChartViewInitializer().configureSymptomVsSymptomChart(
+            symptomVsSymptomChart,
+            PageInitializer.#initializeSelectElement);
     }
 
     static #initializeSelectElement({ selectElement, onValueSelected, minimumInputLength }) {
@@ -61,13 +40,5 @@ class PageInitializer {
                 const value = event.params.data.id;
                 onValueSelected(value);
             });
-    }
-
-    static #loadAndDisplayChart() {
-        if (PageInitializer.#symptomX != null && PageInitializer.#symptomY != null) {
-            PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(
-                PageInitializer.#symptomX,
-                PageInitializer.#symptomY);
-        }
     }
 }
