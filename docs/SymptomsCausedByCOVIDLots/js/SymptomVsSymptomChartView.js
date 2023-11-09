@@ -12,56 +12,52 @@ class SymptomVsSymptomChartView {
         if (this.#chart != null) {
             this.#chart.destroy();
         }
-        // FK-TODO: fetch multiple files: https://stackoverflow.com/a/31711496 or https://stackoverflow.com/a/53892713
-        PrrByVaccineProvider.getPrrByVaccine(symptomX)
-            .then(
-                prrByLotX => {
-                    PrrByVaccineProvider.getPrrByVaccine(symptomY)
-                        .then(
-                            prrByLotY => {
-                                const chartData = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
-                                const data = {
-                                    datasets: [{
-                                        labels: chartData.labels,
-                                        data: chartData.data,
-                                        backgroundColor: 'rgb(0, 0, 255)'
-                                    }],
-                                };
-                                const config = {
-                                    type: 'scatter',
-                                    data: data,
-                                    options: {
-                                        scales: {
-                                            x: {
-                                                type: 'linear',
-                                                position: 'bottom'
-                                            }
-                                        },
-                                        plugins: {
-                                            legend: {
-                                                display: false
-                                            },
-                                            tooltip: {
-                                                callbacks: {
-                                                    label: function (context) {
-                                                        return 'Batch: ' + context.dataset.labels[context.dataIndex];
-                                                    }
-                                                }
-                                            }
-                                        }
+        // FK-TODO: move PrrByVaccineProvider.getPrrByVaccine() calls out of this function
+        Promise
+            .all([symptomX, symptomY].map(symptom => PrrByVaccineProvider.getPrrByVaccine(symptom)))
+            .then(([prrByLotX, prrByLotY]) => {
+                const chartData = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
+                const data = {
+                    datasets: [{
+                        labels: chartData.labels,
+                        data: chartData.data,
+                        backgroundColor: 'rgb(0, 0, 255)'
+                    }],
+                };
+                const config = {
+                    type: 'scatter',
+                    data: data,
+                    options: {
+                        scales: {
+                            x: {
+                                type: 'linear',
+                                position: 'bottom'
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function (context) {
+                                        return 'Batch: ' + context.dataset.labels[context.dataIndex];
                                     }
-                                };
-                                this.#chart = new Chart(
-                                    this.#canvas,
-                                    // {
-                                    //     type: 'bar',
-                                    //     plugins: [ChartDataLabels],
-                                    //     data: this.#getData(ADRDescr),
-                                    //     options: this.#getOptions()
-                                    // }
-                                    config);
-                            });
-                });
+                                }
+                            }
+                        }
+                    }
+                };
+                this.#chart = new Chart(
+                    this.#canvas,
+                    // {
+                    //     type: 'bar',
+                    //     plugins: [ChartDataLabels],
+                    //     data: this.#getData(ADRDescr),
+                    //     options: this.#getOptions()
+                    // }
+                    config);
+            });
     }
 
     setData(histoDescr) {
