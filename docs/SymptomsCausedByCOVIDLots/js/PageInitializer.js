@@ -1,12 +1,13 @@
 class PageInitializer {
 
     static #symptomVsSymptomChartView;
+    static #symptomX = 'Immunosuppression';
+    static #symptomY = 'Immunoglobulin therapy';
 
-    static initializePage({ symptom, vaccine, symptomVsSymptomChartViewElement }) {
+    static initializePage({ symptom, vaccine, symptomVsSymptomChart }) {
         PageInitializer.#configureSymptom(symptom);
         PageInitializer.#configureVaccine(vaccine);
-        PageInitializer.#symptomVsSymptomChartView = new SymptomVsSymptomChartView(symptomVsSymptomChartViewElement);
-        PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart('Immunosuppression', 'Immunoglobulin therapy');
+        PageInitializer.#configureSymptomVsSymptomChart(symptomVsSymptomChart);
     }
 
     static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement, downloadPrrByVaccineTableButton }) {
@@ -27,6 +28,29 @@ class PageInitializer {
                 onValueSelected: vaccine => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(vaccine),
                 minimumInputLength: 0
             });
+    }
+
+    static #configureSymptomVsSymptomChart({ symptomSelectXElement, symptomSelectYElement, symptomVsSymptomChartViewElement }) {
+        PageInitializer.#symptomVsSymptomChartView = new SymptomVsSymptomChartView(symptomVsSymptomChartViewElement);
+        PageInitializer.#initializeSelectElement(
+            {
+                selectElement: symptomSelectXElement,
+                onValueSelected: symptomX => {
+                    PageInitializer.#symptomX = symptomX;
+                    PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
+                },
+                minimumInputLength: 0
+            });
+        PageInitializer.#initializeSelectElement(
+            {
+                selectElement: symptomSelectYElement,
+                onValueSelected: symptomY => {
+                    PageInitializer.#symptomY = symptomY;
+                    PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
+                },
+                minimumInputLength: 0
+            });
+        PageInitializer.#symptomVsSymptomChartView.loadAndDisplayChart(PageInitializer.#symptomX, PageInitializer.#symptomY);
     }
 
     static #initializeSelectElement({ selectElement, onValueSelected, minimumInputLength }) {

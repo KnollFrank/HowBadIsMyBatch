@@ -7,7 +7,6 @@ class SymptomVsSymptomChartView {
         this.#canvas = canvas;
     }
 
-    // FK-TODO: refactor
     loadAndDisplayChart(symptomX, symptomY) {
         Promise
             .all([symptomX, symptomY].map(symptom => PrrByVaccineProvider.getPrrByVaccine(symptom)))
@@ -16,12 +15,6 @@ class SymptomVsSymptomChartView {
                     const { labels, data } = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
                     this.#displayChart(symptomX, symptomY, labels, data);
                 });
-    }
-
-    setData(histoDescr) {
-        const data = this.#getData(histoDescr);
-        this.#chart.config.data = data;
-        this.#chart.update();
     }
 
     #displayChart(symptomX, symptomY, labels, data) {
