@@ -67,11 +67,14 @@ QUnit.module('SymptomVsSymptomChartDataProviderTest', function () {
         // Then
         assert.deepEqual(
             chartData,
-            [
-                {
-                    x: 2.0,
-                    y: 3.0
-                }
-            ]);
+            {
+                labels: ["lotCommon"],
+                data: [
+                    {
+                        x: 2.0,
+                        y: 3.0
+                    }
+                ]
+            });
     });
 });

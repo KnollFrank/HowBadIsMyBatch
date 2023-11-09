@@ -7,6 +7,7 @@ class SymptomVsSymptomChartView {
         this.#canvas = canvas;
     }
 
+    // FK-TODO: refactor
     displayChart(symptomX, symptomY) {
         if (this.#chart != null) {
             this.#chart.destroy();
@@ -21,8 +22,8 @@ class SymptomVsSymptomChartView {
                                 const chartData = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
                                 const data = {
                                     datasets: [{
-                                        label: 'Scatter Dataset',
-                                        data: chartData,
+                                        labels: chartData.labels,
+                                        data: chartData.data,
                                         backgroundColor: 'rgb(0, 0, 255)'
                                     }],
                                 };
@@ -34,6 +35,18 @@ class SymptomVsSymptomChartView {
                                             x: {
                                                 type: 'linear',
                                                 position: 'bottom'
+                                            }
+                                        },
+                                        plugins: {
+                                            legend: {
+                                                display: false
+                                            },
+                                            tooltip: {
+                                                callbacks: {
+                                                    label: function (context) {
+                                                        return 'Batch: ' + context.dataset.labels[context.dataIndex];
+                                                    }
+                                                }
                                             }
                                         }
                                     }

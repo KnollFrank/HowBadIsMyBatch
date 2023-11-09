@@ -16,14 +16,16 @@ class SymptomVsSymptomChartDataProvider {
                     dict1: prrByLotX,
                     dict2: prrByLotY
                 });
-        return Object
-            .keys(prrByLotXCommon)
-            .map(
-                lot =>
-                ({
-                    x: prrByLotXCommon[lot],
-                    y: prrByLotYCommon[lot]
-                }));
+        const lots = Object.keys(prrByLotXCommon);
+        return {
+            labels: lots,
+            data:
+                lots.map(
+                    lot => ({
+                        x: prrByLotXCommon[lot],
+                        y: prrByLotYCommon[lot]
+                    }))
+        };
     }
 
     static #getCommonKeys(dict1, dict2) {
