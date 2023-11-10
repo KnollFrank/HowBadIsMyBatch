@@ -24,4 +24,6 @@ class Utils {
     static sliceDict(dict, start, end) {
         return Object.fromEntries(Object.entries(dict).slice(start, end));
     }
+
+    static zip = rows => rows[0].map((_, c) => rows.map(row => row[c]))
 }
