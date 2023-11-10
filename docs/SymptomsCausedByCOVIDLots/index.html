@@ -9,14 +9,14 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Safety Signals for COVID Batches</title>
   <!-- Google tag (gtag.js) -->
-  <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-ERHYDH4P64');
-  </script> -->
+  </script>
   <!-- Bootstrap -->
   <link href="../gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
@@ -60,7 +60,8 @@
             symptomVsSymptomChart: {
               symptomSelectXElement: $('#symptomSelectX'),
               symptomSelectYElement: $('#symptomSelectY'),
-              symptomVsSymptomChartViewElement: document.querySelector('#symptomVsSymptomChartView')
+              symptomVsSymptomChartViewElement: document.querySelector('#symptomVsSymptomChartView'),
+              downloadSymptomVsSymptomChartButton: document.querySelector("#downloadSymptomVsSymptomChart")
             }
           }
         );
@@ -40192,7 +40193,10 @@
                       <option value="pH urine normal">pH urine normal</option>
                     </select>
                   </div>
-                  <canvas id="symptomVsSymptomChartView"></canvas>
+                  <div>
+                    <canvas id="symptomVsSymptomChartView"></canvas>
+                  </div>
+                  <button class="btn downloadButton" id="downloadSymptomVsSymptomChart">Download</button>
                 </div>
               </div>
             </div>

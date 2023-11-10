@@ -8,12 +8,13 @@ class SymptomVsSymptomChartView {
     }
 
     loadAndDisplayChart(symptomX, symptomY) {
-        Promise
+        return Promise
             .all([symptomX, symptomY].map(symptom => PrrByVaccineProvider.getPrrByVaccine(symptom)))
             .then(
                 ([prrByLotX, prrByLotY]) => {
                     const { labels, data } = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
                     this.#displayChart(symptomX, symptomY, labels, data);
+                    return { labels, data };
                 });
     }
 
