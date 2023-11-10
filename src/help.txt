@@ -6,6 +6,7 @@ FK-TODO:
 - add google captcha to batchCodeTable.html
 - Symptomhistogramm
 - http://www.howbadismybatch.info/SymptomsCausedByVaccines/index.html
+  http://www.howbadismybatch.info/SymptomsCausedByVaccines/test/index.test.html
 - http://www.howbadismybatch.info/SymptomsCausedByCOVIDLots/index.html
   http://www.howbadismybatch.info/SymptomsCausedByCOVIDLots/test/index.test.html
 
