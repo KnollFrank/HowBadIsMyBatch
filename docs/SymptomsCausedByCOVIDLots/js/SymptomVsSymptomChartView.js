@@ -8,14 +8,18 @@ class SymptomVsSymptomChartView {
     }
 
     loadAndDisplayChart(symptomX, symptomY) {
+        return this
+            .#loadChart(symptomX, symptomY)
+            .then(({ labels, data }) => {
+                this.#displayChart(symptomX, symptomY, labels, data);
+                return { labels, data };
+            });
+    }
+
+    #loadChart(symptomX, symptomY) {
         return Promise
             .all([symptomX, symptomY].map(symptom => PrrByVaccineProvider.getPrrByVaccine(symptom)))
-            .then(
-                ([prrByLotX, prrByLotY]) => {
-                    const { labels, data } = SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY });
-                    this.#displayChart(symptomX, symptomY, labels, data);
-                    return { labels, data };
-                });
+            .then(([prrByLotX, prrByLotY]) => SymptomVsSymptomChartDataProvider.getChartData({ prrByLotX, prrByLotY }));
     }
 
     #displayChart(symptomX, symptomY, labels, data) {
