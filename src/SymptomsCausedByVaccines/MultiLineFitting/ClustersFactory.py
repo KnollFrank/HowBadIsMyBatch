@@ -42,7 +42,7 @@ class ClustersFactory:
         return clusters
 
     @staticmethod
-    def _intersectionOverUnion(set_a, set_b):
-        intersection = np.count_nonzero(np.logical_and(set_a, set_b))
-        union = np.count_nonzero(np.logical_or(set_a, set_b))
+    def _intersectionOverUnion(setA, setB):
+        intersection = np.count_nonzero(np.logical_and(setA, setB))
+        union = np.count_nonzero(np.logical_or(setA, setB))
         return 1. * intersection / union
