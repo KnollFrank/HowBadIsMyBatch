@@ -13,7 +13,7 @@ class ClustersFactoryTest(unittest.TestCase):
         consensusThreshold = 4.0
 
         # When
-        preferenceMatrix = ClustersFactory.createPreferenceMatrix(points, lines, consensusThreshold)
+        preferenceMatrix = ClustersFactory._createPreferenceMatrix(points, lines, consensusThreshold)
 
         # Then
         np.testing.assert_array_equal(
@@ -31,7 +31,7 @@ class ClustersFactoryTest(unittest.TestCase):
         consensusThreshold = 0.001
 
         # When
-        preferenceMatrix = ClustersFactory.createPreferenceMatrix(points, lines, consensusThreshold)
+        preferenceMatrix = ClustersFactory._createPreferenceMatrix(points, lines, consensusThreshold)
 
         # Then
         np.testing.assert_array_equal(

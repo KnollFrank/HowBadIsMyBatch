@@ -1,16 +1,8 @@
 import numpy as np
 from skspatial.objects import Line
 
+# implementation of "Robust Multiple Structures Estimation with J-linkage"
 class ClustersFactory:
-
-    @staticmethod
-    def createPreferenceMatrix(points, lines, consensusThreshold):
-        preferenceMatrix = np.zeros([len(points), len(lines)], dtype = int)
-        for pointIndex, point in enumerate(points):
-            for lineIndex, line in enumerate(lines):
-                preferenceMatrix[pointIndex, lineIndex] = 1 if line.distance_point(point) <= consensusThreshold else 0
-
-        return preferenceMatrix
     
     @staticmethod
     def createClusters(preferenceMatrix):
@@ -19,7 +11,7 @@ class ClustersFactory:
         clusters = [[i] for i in range(numClusters)]
         while keepClustering:
             maxDistance = 0
-            bestClusterIndexCombo = None
+            bestClusterIndexCombination = None
             keepClustering = False
             numClusters = preferenceMatrix.shape[0]
             for clusterIndexA in range(numClusters):
@@ -30,16 +22,24 @@ class ClustersFactory:
                     if distance > maxDistance:
                         keepClustering = True
                         maxDistance = distance
-                        bestClusterIndexCombo = (clusterIndexA, clusterIndexB)
+                        bestClusterIndexCombination = (clusterIndexA, clusterIndexB)
 
             if keepClustering:
-                (clusterIndexA, clusterIndexB) = bestClusterIndexCombo
+                (clusterIndexA, clusterIndexB) = bestClusterIndexCombination
                 clusters[clusterIndexA] += clusters[clusterIndexB]
                 clusters.pop(clusterIndexB)
                 preferenceMatrix[clusterIndexA] = np.logical_and(preferenceMatrix[clusterIndexA], preferenceMatrix[clusterIndexB])
                 preferenceMatrix = np.delete(preferenceMatrix, clusterIndexB, axis = 0)
 
         return clusters
+
+    @staticmethod
+    def _createPreferenceMatrix(points, lines, consensusThreshold):
+        preferenceMatrix = np.zeros([len(points), len(lines)], dtype = int)
+        for pointIndex, point in enumerate(points):
+            for lineIndex, line in enumerate(lines):
+                preferenceMatrix[pointIndex, lineIndex] = 1 if line.distance_point(point) <= consensusThreshold else 0
+        return preferenceMatrix
 
     @staticmethod
     def _intersectionOverUnion(setA, setB):
