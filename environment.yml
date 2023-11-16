@@ -1,13 +1,14 @@
 name: howbadismybatch-venv
 channels:
   - defaults
-  # - conda-forge
+  - conda-forge
 dependencies:
   - python=3.9
   - ipykernel
   - numpy
   - pandas
   - scikit-learn
+  - scikit-spatial
   - urllib3
   - requests
   - bs4
