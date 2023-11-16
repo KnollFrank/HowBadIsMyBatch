@@ -19,24 +19,25 @@ class ClustersFactory:
         clusters = [[i] for i in range(numClusters)]
         while keepClustering:
             maxDistance = 0
-            bestCombo = None
+            bestClusterIndexCombo = None
             keepClustering = False
             numClusters = preferenceMatrix.shape[0]
-            for i in range(numClusters):
-                set_a = preferenceMatrix[i]
-                for j in range(i):
-                    set_b = preferenceMatrix[j]
-                    distance = ClustersFactory._intersectionOverUnion(set_a, set_b);
+            for clusterIndexA in range(numClusters):
+                preferenceSetA = preferenceMatrix[clusterIndexA]
+                for clusterIndexB in range(clusterIndexA):
+                    preferenceSetB = preferenceMatrix[clusterIndexB]
+                    distance = ClustersFactory._intersectionOverUnion(preferenceSetA, preferenceSetB);
                     if distance > maxDistance:
                         keepClustering = True
                         maxDistance = distance
-                        bestCombo = (i, j)
+                        bestClusterIndexCombo = (clusterIndexA, clusterIndexB)
 
             if keepClustering:
-                clusters[bestCombo[0]] += clusters[bestCombo[1]]
-                clusters.pop(bestCombo[1])
-                preferenceMatrix[bestCombo[0]] = np.logical_and(preferenceMatrix[bestCombo[0]], preferenceMatrix[bestCombo[1]])
-                preferenceMatrix = np.delete(preferenceMatrix, bestCombo[1], axis = 0)
+                (clusterIndexA, clusterIndexB) = bestClusterIndexCombo
+                clusters[clusterIndexA] += clusters[clusterIndexB]
+                clusters.pop(clusterIndexB)
+                preferenceMatrix[clusterIndexA] = np.logical_and(preferenceMatrix[clusterIndexA], preferenceMatrix[clusterIndexB])
+                preferenceMatrix = np.delete(preferenceMatrix, clusterIndexB, axis = 0)
 
         return clusters
 
