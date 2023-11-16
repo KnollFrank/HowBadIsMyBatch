@@ -2,8 +2,15 @@ import numpy as np
 from skspatial.objects import Line
 
 # implementation of "Robust Multiple Structures Estimation with J-linkage"
-class ClustersFactory:
+class MultiLineFitter:
     
+    @staticmethod
+    def fitLines(points, lines, consensusThreshold):
+        preferenceMatrix = MultiLineFitter._createPreferenceMatrix(points, lines, consensusThreshold)
+        _, preferenceMatrix4Clusters = MultiLineFitter.createClusters(preferenceMatrix)
+        lineIndexes = MultiLineFitter._getLineIndexes(preferenceMatrix4Clusters)
+        return [lines[lineIndex] for lineIndex in lineIndexes]
+
     @staticmethod
     def createClusters(preferenceMatrix):
         keepClustering = True
@@ -18,7 +25,7 @@ class ClustersFactory:
                 preferenceSetA = preferenceMatrix[clusterIndexA]
                 for clusterIndexB in range(clusterIndexA):
                     preferenceSetB = preferenceMatrix[clusterIndexB]
-                    distance = ClustersFactory._intersectionOverUnion(preferenceSetA, preferenceSetB);
+                    distance = MultiLineFitter._intersectionOverUnion(preferenceSetA, preferenceSetB);
                     if distance > maxDistance:
                         keepClustering = True
                         maxDistance = distance
