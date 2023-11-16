@@ -31,7 +31,7 @@ class ClustersFactory:
                 preferenceMatrix[clusterIndexA] = np.logical_and(preferenceMatrix[clusterIndexA], preferenceMatrix[clusterIndexB])
                 preferenceMatrix = np.delete(preferenceMatrix, clusterIndexB, axis = 0)
 
-        return clusters
+        return clusters, preferenceMatrix
 
     @staticmethod
     def _createPreferenceMatrix(points, lines, consensusThreshold):
@@ -46,3 +46,7 @@ class ClustersFactory:
         intersection = np.count_nonzero(np.logical_and(setA, setB))
         union = np.count_nonzero(np.logical_or(setA, setB))
         return 1. * intersection / union
+
+    @staticmethod
+    def _getLineIndexes(preferenceMatrix):
+        return [list(lines).index(1) for lines in preferenceMatrix]
