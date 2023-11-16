@@ -14,42 +14,34 @@ class ClustersFactory:
     
     @staticmethod
     def createClusters(preferenceMatrix):
-        keep_clustering = True
-        cluster_step = 0
-
-        num_clusters = preferenceMatrix.shape[0]
-        clusters = [[i] for i in range(num_clusters)]
-
-        while keep_clustering:
-            smallest_distance = 0
-            best_combo = None
-            keep_clustering = False
-
-            num_clusters = preferenceMatrix.shape[0]
-
-            for i in range(num_clusters):
+        keepClustering = True
+        numClusters = preferenceMatrix.shape[0]
+        clusters = [[i] for i in range(numClusters)]
+        while keepClustering:
+            maxDistance = 0
+            bestCombo = None
+            keepClustering = False
+            numClusters = preferenceMatrix.shape[0]
+            for i in range(numClusters):
+                set_a = preferenceMatrix[i]
                 for j in range(i):
-                    set_a = preferenceMatrix[i]
                     set_b = preferenceMatrix[j]
-                    intersection = np.count_nonzero(np.logical_and(set_a, set_b))
-                    union = np.count_nonzero(np.logical_or(set_a, set_b))
-                    distance = 1.*intersection/np.maximum(union, 1e-8)
+                    distance = ClustersFactory._intersectionOverUnion(set_a, set_b);
+                    if distance > maxDistance:
+                        keepClustering = True
+                        maxDistance = distance
+                        bestCombo = (i, j)
 
-                    if distance > smallest_distance:
-                        keep_clustering = True
-                        smallest_distance = distance
-                        best_combo = (i,j)
+            if keepClustering:
+                clusters[bestCombo[0]] += clusters[bestCombo[1]]
+                clusters.pop(bestCombo[1])
+                preferenceMatrix[bestCombo[0]] = np.logical_and(preferenceMatrix[bestCombo[0]], preferenceMatrix[bestCombo[1]])
+                preferenceMatrix = np.delete(preferenceMatrix, bestCombo[1], axis = 0)
 
-            if keep_clustering:
-                clusters[best_combo[0]] += clusters[best_combo[1]]
-                clusters.pop(best_combo[1])
-                set_a = preferenceMatrix[best_combo[0]]
-                set_b = preferenceMatrix[best_combo[1]]
-                merged_set = np.logical_and(set_a, set_b)
-                preferenceMatrix[best_combo[0]] = merged_set
-                preferenceMatrix = np.delete(preferenceMatrix, best_combo[1], axis=0)
-                cluster_step += 1
+        return clusters
 
-        print("clustering finished after %d steps" % cluster_step)
-
-        return preferenceMatrix, clusters
+    @staticmethod
+    def _intersectionOverUnion(set_a, set_b):
+        intersection = np.count_nonzero(np.logical_and(set_a, set_b))
+        union = np.count_nonzero(np.logical_or(set_a, set_b))
+        return 1. * intersection / union

@@ -55,7 +55,7 @@ class ClustersFactoryTest(unittest.TestCase):
                 ])
 
         # When
-        _, clusters = ClustersFactory.createClusters(preferenceMatrix)
+        clusters = ClustersFactory.createClusters(preferenceMatrix)
 
         # Then
         np.testing.assert_array_equal(
@@ -77,7 +77,7 @@ class ClustersFactoryTest(unittest.TestCase):
                 ])
 
         # When
-        _, clusters = ClustersFactory.createClusters(preferenceMatrix)
+        clusters = ClustersFactory.createClusters(preferenceMatrix)
 
         # Then
         np.testing.assert_array_equal(
