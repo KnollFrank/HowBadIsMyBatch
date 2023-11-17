@@ -25,7 +25,7 @@ class MultiLineFitter:
         numClusters = preferenceMatrix.shape[0]
         clusters = [[i] for i in range(numClusters)]
         while keepClustering:
-            maxDistance = 0
+            maxSimilarity = 0
             bestClusterIndexCombination = None
             keepClustering = False
             numClusters = preferenceMatrix.shape[0]
@@ -33,10 +33,10 @@ class MultiLineFitter:
                 preferenceSetA = preferenceMatrix[clusterIndexA]
                 for clusterIndexB in range(clusterIndexA):
                     preferenceSetB = preferenceMatrix[clusterIndexB]
-                    distance = MultiLineFitter._intersectionOverUnion(preferenceSetA, preferenceSetB);
-                    if distance > maxDistance:
+                    similarity = MultiLineFitter._intersectionOverUnion(preferenceSetA, preferenceSetB);
+                    if similarity > maxSimilarity:
                         keepClustering = True
-                        maxDistance = distance
+                        maxSimilarity = similarity
                         bestClusterIndexCombination = (clusterIndexA, clusterIndexB)
 
             if keepClustering:
