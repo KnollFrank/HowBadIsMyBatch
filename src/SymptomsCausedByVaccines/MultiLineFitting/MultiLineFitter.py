@@ -42,14 +42,12 @@ class MultiLineFitter:
                     keepClustering = True
                     maxSimilarity = similarity
                     bestClusterIndexCombination = (clusterIndexA, clusterIndexB)
-
             if keepClustering:
                 (clusterIndexA, clusterIndexB) = bestClusterIndexCombination
                 clusters[clusterIndexA] += clusters[clusterIndexB]
                 clusters.pop(clusterIndexB)
                 preferenceMatrix[clusterIndexA] = np.logical_and(preferenceMatrix[clusterIndexA], preferenceMatrix[clusterIndexB])
                 preferenceMatrix = np.delete(preferenceMatrix, clusterIndexB, axis = 0)
-
         return clusters, preferenceMatrix
 
     @staticmethod
