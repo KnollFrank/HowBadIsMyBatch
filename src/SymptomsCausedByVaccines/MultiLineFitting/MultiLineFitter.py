@@ -14,7 +14,7 @@ class MultiLineFitter:
         preferenceMatrix = MultiLineFitter._createPreferenceMatrix(points, lines, consensusThreshold)
         _, preferenceMatrix4Clusters = MultiLineFitter._createClusters(preferenceMatrix)
         lineIndexes = MultiLineFitter._getLineIndexes(preferenceMatrix4Clusters)
-        return [lines[lineIndex] for lineIndex in lineIndexes]
+        return np.array(lines)[lineIndexes]
 
     @staticmethod
     def _createPreferenceMatrix(points, lines, consensusThreshold):
