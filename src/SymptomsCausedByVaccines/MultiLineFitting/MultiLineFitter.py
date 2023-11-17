@@ -1,18 +1,26 @@
 import numpy as np
 from skspatial.objects import Line
 
-# implementation of "Robust Multiple Structures Estimation with J-linkage"
+# implementation of "Robust Multiple Structures Estimation with J-linkage" adapted from https://github.com/fkluger/vp-linkage
 class MultiLineFitter:
     
     @staticmethod
     def fitLines(points, lines, consensusThreshold):
         preferenceMatrix = MultiLineFitter._createPreferenceMatrix(points, lines, consensusThreshold)
-        _, preferenceMatrix4Clusters = MultiLineFitter.createClusters(preferenceMatrix)
+        _, preferenceMatrix4Clusters = MultiLineFitter._createClusters(preferenceMatrix)
         lineIndexes = MultiLineFitter._getLineIndexes(preferenceMatrix4Clusters)
         return [lines[lineIndex] for lineIndex in lineIndexes]
 
     @staticmethod
-    def createClusters(preferenceMatrix):
+    def _createPreferenceMatrix(points, lines, consensusThreshold):
+        preferenceMatrix = np.zeros([len(points), len(lines)], dtype = int)
+        for pointIndex, point in enumerate(points):
+            for lineIndex, line in enumerate(lines):
+                preferenceMatrix[pointIndex, lineIndex] = 1 if line.distance_point(point) <= consensusThreshold else 0
+        return preferenceMatrix
+
+    @staticmethod
+    def _createClusters(preferenceMatrix):
         keepClustering = True
         numClusters = preferenceMatrix.shape[0]
         clusters = [[i] for i in range(numClusters)]
@@ -39,14 +47,6 @@ class MultiLineFitter:
                 preferenceMatrix = np.delete(preferenceMatrix, clusterIndexB, axis = 0)
 
         return clusters, preferenceMatrix
-
-    @staticmethod
-    def _createPreferenceMatrix(points, lines, consensusThreshold):
-        preferenceMatrix = np.zeros([len(points), len(lines)], dtype = int)
-        for pointIndex, point in enumerate(points):
-            for lineIndex, line in enumerate(lines):
-                preferenceMatrix[pointIndex, lineIndex] = 1 if line.distance_point(point) <= consensusThreshold else 0
-        return preferenceMatrix
 
     @staticmethod
     def _intersectionOverUnion(setA, setB):

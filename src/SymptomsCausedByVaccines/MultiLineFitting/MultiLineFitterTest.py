@@ -55,7 +55,7 @@ class MultiLineFitterTest(unittest.TestCase):
                 ])
 
         # When
-        clusters, _ = MultiLineFitter.createClusters(preferenceMatrix)
+        clusters, _ = MultiLineFitter._createClusters(preferenceMatrix)
 
         # Then
         np.testing.assert_array_equal(
@@ -77,7 +77,7 @@ class MultiLineFitterTest(unittest.TestCase):
                 ])
 
         # When
-        clusters, _ = MultiLineFitter.createClusters(preferenceMatrix)
+        clusters, _ = MultiLineFitter._createClusters(preferenceMatrix)
 
         # Then
         np.testing.assert_array_equal(
@@ -107,9 +107,13 @@ class MultiLineFitterTest(unittest.TestCase):
         points = [(1, 0), (2, 0), (3, 0), (1, 1), (2, 2), (3, 3)]
         line1 = Line.from_points([0, 0], [1, 0])
         line2 = Line.from_points([0, 0], [1, 1])
+        line3 = Line.from_points([0, 0], [0, 1])
 
         # When
-        fittedLines = MultiLineFitter.fitLines(points, lines = [line1, line2], consensusThreshold = 0.001)
+        fittedLines = MultiLineFitter.fitLines(points, lines = [line1, line2, line3], consensusThreshold = 0.001)
 
         # Then
         np.testing.assert_array_equal(fittedLines, [line1, line2])
+
+#FK-TODO: erzeuge LinesFactory.createLines(points = [(1, 0), (2, 0), (3, 0), (1, 1), (2, 2), (3, 3)])
+#         Diese Funktion soll alle Linien erzeugen, die jeweils zwei verschiedene Punkte aus points verbinden.
