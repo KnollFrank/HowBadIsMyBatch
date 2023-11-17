@@ -29,15 +29,14 @@ class MultiLineFitter:
             bestClusterIndexCombination = None
             keepClustering = False
             numClusters = preferenceMatrix.shape[0]
-            for clusterIndexA in range(numClusters):
+            for (clusterIndexA, clusterIndexB) in MultiLineFitter._getPairs(numClusters):
                 preferenceSetA = preferenceMatrix[clusterIndexA]
-                for clusterIndexB in range(clusterIndexA):
-                    preferenceSetB = preferenceMatrix[clusterIndexB]
-                    similarity = MultiLineFitter._intersectionOverUnion(preferenceSetA, preferenceSetB);
-                    if similarity > maxSimilarity:
-                        keepClustering = True
-                        maxSimilarity = similarity
-                        bestClusterIndexCombination = (clusterIndexA, clusterIndexB)
+                preferenceSetB = preferenceMatrix[clusterIndexB]
+                similarity = MultiLineFitter._intersectionOverUnion(preferenceSetA, preferenceSetB);
+                if similarity > maxSimilarity:
+                    keepClustering = True
+                    maxSimilarity = similarity
+                    bestClusterIndexCombination = (clusterIndexA, clusterIndexB)
 
             if keepClustering:
                 (clusterIndexA, clusterIndexB) = bestClusterIndexCombination
@@ -47,6 +46,12 @@ class MultiLineFitter:
                 preferenceMatrix = np.delete(preferenceMatrix, clusterIndexB, axis = 0)
 
         return clusters, preferenceMatrix
+
+    @staticmethod
+    def _getPairs(n):
+        for i in range(n):
+            for j in range(i):
+                yield (i, j)
 
     @staticmethod
     def _intersectionOverUnion(setA, setB):
