@@ -1,5 +1,5 @@
 from skspatial.objects import Line
-from SymptomsCausedByVaccines.MultiLineFitting.MultiLineFitter import MultiLineFitter
+from SymptomsCausedByVaccines.MultiLineFitting.Utils import getPairs
 
 
 class LinesFactory:
@@ -11,7 +11,7 @@ class LinesFactory:
 
     @staticmethod
     def _getPairs(points):
-        return ((points[i], points[j]) for (i, j) in MultiLineFitter._getPairs(len(points)))
+        return ((points[i], points[j]) for (i, j) in getPairs(len(points)))
 
     @staticmethod
     def _getUniqueLines(lines):

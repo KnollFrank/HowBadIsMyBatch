@@ -1,8 +1,14 @@
 import numpy as np
+from SymptomsCausedByVaccines.MultiLineFitting.LinesFactory import LinesFactory
+from SymptomsCausedByVaccines.MultiLineFitting.Utils import getPairs
 
 # implementation of "Robust Multiple Structures Estimation with J-linkage" adapted from https://github.com/fkluger/vp-linkage
 class MultiLineFitter:
     
+    @staticmethod
+    def fitPointsByLines(points, consensusThreshold):
+        return MultiLineFitter.fitLines(points, LinesFactory.createLines(points), consensusThreshold)
+
     @staticmethod
     def fitLines(points, lines, consensusThreshold):
         preferenceMatrix = MultiLineFitter._createPreferenceMatrix(points, lines, consensusThreshold)
@@ -28,7 +34,7 @@ class MultiLineFitter:
             bestClusterIndexCombination = None
             keepClustering = False
             numClusters = preferenceMatrix.shape[0]
-            for (clusterIndexA, clusterIndexB) in MultiLineFitter._getPairs(numClusters):
+            for (clusterIndexA, clusterIndexB) in getPairs(numClusters):
                 preferenceSetA = preferenceMatrix[clusterIndexA]
                 preferenceSetB = preferenceMatrix[clusterIndexB]
                 similarity = MultiLineFitter._intersectionOverUnion(preferenceSetA, preferenceSetB);
@@ -45,12 +51,6 @@ class MultiLineFitter:
                 preferenceMatrix = np.delete(preferenceMatrix, clusterIndexB, axis = 0)
 
         return clusters, preferenceMatrix
-
-    @staticmethod
-    def _getPairs(n):
-        for i in range(n):
-            for j in range(i):
-                yield (i, j)
 
     @staticmethod
     def _intersectionOverUnion(setA, setB):

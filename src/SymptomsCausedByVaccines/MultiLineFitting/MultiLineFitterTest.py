@@ -115,5 +115,14 @@ class MultiLineFitterTest(unittest.TestCase):
         # Then
         np.testing.assert_array_equal(fittedLines, [line1, line2])
 
-#FK-TODO: erzeuge LinesFactory.createLines(points = [(1, 0), (2, 0), (3, 0), (1, 1), (2, 2), (3, 3)])
-#         Diese Funktion soll alle Linien erzeugen, die jeweils zwei verschiedene Punkte aus points verbinden.
+    def test_fitPointsByLines(self):
+        # Given
+        points = [(1, 0), (2, 0), (3, 0), (1, 1), (2, 2), (3, 3)]
+
+        # When
+        lines = MultiLineFitter.fitPointsByLines(points, consensusThreshold = 0.001)
+
+        # Then
+        self.assertEqual(len(lines), 2)
+        self.assertTrue(lines[0].is_close(Line.from_points([0, 0], [1, 0])))
+        self.assertTrue(lines[1].is_close(Line.from_points([0, 0], [1, 1])))
