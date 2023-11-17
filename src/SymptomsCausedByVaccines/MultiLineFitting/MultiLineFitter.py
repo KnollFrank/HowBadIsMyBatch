@@ -12,9 +12,10 @@ class MultiLineFitter:
     @staticmethod
     def fitLines(points, lines, consensusThreshold):
         preferenceMatrix = MultiLineFitter._createPreferenceMatrix(points, lines, consensusThreshold)
-        _, preferenceMatrix4Clusters = MultiLineFitter._createClusters(preferenceMatrix)
-        lineIndexes = MultiLineFitter._getLineIndexes(preferenceMatrix4Clusters)
-        return np.array(lines)[lineIndexes]
+        clusters, preferenceMatrix4Clusters = MultiLineFitter._createClusters(preferenceMatrix)
+        return (
+            MultiLineFitter._getClusterPoints(points, clusters),
+            MultiLineFitter._getLines(lines, preferenceMatrix4Clusters))
 
     @staticmethod
     def _createPreferenceMatrix(points, lines, consensusThreshold):
@@ -57,5 +58,14 @@ class MultiLineFitter:
         return 1. * intersection / union
 
     @staticmethod
+    def _getLines(lines, preferenceMatrix):
+        return np.array(lines)[MultiLineFitter._getLineIndexes(preferenceMatrix)]
+
+    @staticmethod
     def _getLineIndexes(preferenceMatrix):
         return [list(lines).index(1) for lines in preferenceMatrix]
+
+    @staticmethod
+    def _getClusterPoints(points, clusters):
+        sortedClusters = [sorted(cluster) for cluster in clusters]
+        return [list(np.array(points)[cluster]) for cluster in sortedClusters]
