@@ -1,5 +1,4 @@
 import numpy as np
-from skspatial.objects import Line
 
 # implementation of "Robust Multiple Structures Estimation with J-linkage" adapted from https://github.com/fkluger/vp-linkage
 class MultiLineFitter:
