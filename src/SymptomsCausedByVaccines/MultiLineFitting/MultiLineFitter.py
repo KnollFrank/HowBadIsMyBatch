@@ -1,6 +1,7 @@
 import numpy as np
 from SymptomsCausedByVaccines.MultiLineFitting.LinesFactory import LinesFactory
 from SymptomsCausedByVaccines.MultiLineFitting.Utils import getPairs
+from SymptomsCausedByVaccines.MultiLineFitting.CharacteristicFunctions import CharacteristicFunctions
 
 # implementation of "Robust Multiple Structures Estimation with J-linkage" adapted from https://github.com/fkluger/vp-linkage
 class MultiLineFitter:
@@ -12,10 +13,22 @@ class MultiLineFitter:
     @staticmethod
     def fitLines(points, lines, consensusThreshold):
         preferenceMatrix = MultiLineFitter._createPreferenceMatrix(points, lines, consensusThreshold)
-        clusters, preferenceMatrix4Clusters = MultiLineFitter._createClusters(preferenceMatrix)
+        _, preferenceMatrix4Clusters = MultiLineFitter._createClusters(preferenceMatrix)
+        fittedLines = MultiLineFitter._getLines(lines, preferenceMatrix4Clusters)
         return (
-            MultiLineFitter._getClusterPoints(points, clusters),
-            MultiLineFitter._getLines(lines, preferenceMatrix4Clusters))
+            MultiLineFitter._getFittedPointsList(points, fittedLines, consensusThreshold),
+            fittedLines)
+
+    @staticmethod
+    def _getFittedPointsList(points, lines, consensusThreshold):
+        return MultiLineFitter._getPointsList(
+            points,
+            MultiLineFitter._createPreferenceMatrix(points, lines, consensusThreshold))
+
+    @staticmethod
+    def _getPointsList(points, preferenceMatrix):
+        characteristicFunctionsOfConsensusSets = np.transpose(preferenceMatrix)
+        return [CharacteristicFunctions.apply(characteristicFunctionOfConsensusSet, points) for characteristicFunctionOfConsensusSet in characteristicFunctionsOfConsensusSets]
 
     @staticmethod
     def _createPreferenceMatrix(points, lines, consensusThreshold):

@@ -111,10 +111,10 @@ class MultiLineFitterTest(unittest.TestCase):
 
     def test_fitLines(self):
         # Given
-        points = [(1, 0), (2, 0), (3, 0), (1, 1), (2, 2), (3, 3)]
+        points = [(0, 0), (1, 0), (2, 0), (1, 1), (2, 2)]
         line1 = Line.from_points([0, 0], [1, 0])
         line2 = Line.from_points([0, 0], [1, 1])
-        line3 = Line.from_points([0, 0], [0, 1])
+        line3 = Line.from_points([-10, 0], [-10, 1])
 
         # When
         clusters, fittedLines = MultiLineFitter.fitLines(points, lines = [line1, line2, line3], consensusThreshold = 0.001)
@@ -129,13 +129,13 @@ class MultiLineFitterTest(unittest.TestCase):
         np.testing.assert_array_equal(
             clusters,
             [
-                [(1, 0), (2, 0), (3, 0)],
-                [(1, 1), (2, 2), (3, 3)]
+                [(0, 0), (1, 0), (2, 0)],
+                [(0, 0), (1, 1), (2, 2)]
             ])
 
     def test_fitPointsByLines(self):
         # Given
-        points = [(1, 0), (2, 0), (3, 0), (1, 1), (2, 2), (3, 3)]
+        points = [(0, 0), (1, 0), (2, 0), (1, 1), (2, 2)]
 
         # When
         clusters, lines = MultiLineFitter.fitPointsByLines(points, consensusThreshold = 0.001)
@@ -147,6 +147,6 @@ class MultiLineFitterTest(unittest.TestCase):
         np.testing.assert_array_equal(
             clusters,
             [
-                [(1, 0), (2, 0), (3, 0)],
-                [(1, 1), (2, 2), (3, 3)]
+                [(0, 0), (1, 0), (2, 0)],
+                [(0, 0), (1, 1), (2, 2)]
             ])
