@@ -1,17 +1,32 @@
 from skspatial.objects import Line
-from SymptomsCausedByVaccines.MultiLineFitting.Utils import getPairs
+from SymptomsCausedByVaccines.MultiLineFitting.Utils import generatePairs
 
 
 class LinesFactory:
 
     @staticmethod
     def createLines(points):
-        lines = [Line.from_points(pointA, pointB) for (pointA, pointB) in LinesFactory._getPairs(points)]
-        return LinesFactory._getUniqueLines(lines)
+        return LinesFactory._getUniqueLines(list(LinesFactory._generateAllLines(points)))
 
     @staticmethod
-    def _getPairs(points):
-        return ((points[i], points[j]) for (i, j) in getPairs(len(points)))
+    def createAscendingLines(points):
+        return LinesFactory._getUniqueLines(list(LinesFactory._generateAllAscendingLines(points)))
+
+    @staticmethod
+    def _generateAllAscendingLines(points):
+        return (line for line in LinesFactory._generateAllLines(points) if LinesFactory._isAscending(line.direction))
+
+    @staticmethod
+    def _generateAllLines(points):
+        return (Line.from_points(pointA, pointB) for (pointA, pointB) in LinesFactory._generatePairs(points))
+
+    @staticmethod
+    def _isAscending(direction):
+        return (direction[0] >= 0 and direction[1] >= 0) or (direction[0] <= 0 and direction[1] <= 0)
+
+    @staticmethod
+    def _generatePairs(points):
+        return ((points[i], points[j]) for (i, j) in generatePairs(len(points)))
 
     @staticmethod
     def _getUniqueLines(lines):
