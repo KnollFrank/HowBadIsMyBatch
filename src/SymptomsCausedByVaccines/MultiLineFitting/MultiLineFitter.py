@@ -7,12 +7,18 @@ from SymptomsCausedByVaccines.MultiLineFitting.CharacteristicFunctions import Ch
 class MultiLineFitter:
     
     @staticmethod
-    def fitPointsByLines(points, consensusThreshold):
-        return MultiLineFitter.fitLines(points, LinesFactory.createLines(points), consensusThreshold)
+    def fitPointsByLines(points, consensusThreshold, maxNumLines = None):
+        return MultiLineFitter.fitLines(
+            points,
+            LinesFactory.createLines(points, maxNumLines),
+            consensusThreshold)
 
     @staticmethod
-    def fitPointsByAscendingLines(points, consensusThreshold):
-        return MultiLineFitter.fitLines(points, LinesFactory.createAscendingLines(points), consensusThreshold)
+    def fitPointsByAscendingLines(points, consensusThreshold, maxNumLines = None):
+        return MultiLineFitter.fitLines(
+            points,
+            LinesFactory.createAscendingLines(points, maxNumLines),
+            consensusThreshold)
 
     @staticmethod
     def fitLines(points, lines, consensusThreshold):
@@ -72,7 +78,7 @@ class MultiLineFitter:
     def _intersectionOverUnion(setA, setB):
         intersection = np.count_nonzero(np.logical_and(setA, setB))
         union = np.count_nonzero(np.logical_or(setA, setB))
-        return 1. * intersection / union
+        return 1. * intersection / union if intersection > 0.0 else 0
 
     @staticmethod
     def _getLines(lines, preferenceMatrix):
@@ -80,7 +86,15 @@ class MultiLineFitter:
 
     @staticmethod
     def _getLineIndexes(preferenceMatrix):
-        return [list(lines).index(1) for lines in preferenceMatrix]
+        lineIndexes = (MultiLineFitter._index(lines, 1) for lines in preferenceMatrix)
+        return [lineIndex for lineIndex in lineIndexes if lineIndex is not None]
+
+    @staticmethod
+    def _index(xs, x):
+        try:
+            return list(xs).index(x)
+        except ValueError:
+            return None
 
     @staticmethod
     def _getClusterPoints(points, clusters):

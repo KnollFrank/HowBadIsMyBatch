@@ -16,6 +16,7 @@ class LinesFactoryTest(unittest.TestCase):
         self.assertEqual(len(lines), 1)
         self.assertTrue(lines[0].is_close(Line(point = [0, 0], direction = [1, 0])))
 
+
     def test_createLines2(self):
         # Given
         points = [(0, 0), (1, 0), (0, 1)]
@@ -29,6 +30,20 @@ class LinesFactoryTest(unittest.TestCase):
         self.assertTrue(lines[1].is_close(Line(point = [0, 0], direction = [0, 1])))
         self.assertTrue(lines[2].is_close(Line(point = [0, 1], direction = [1, -1])))
 
+
+    def test_createLines_maxNumLines(self):
+        # Given
+        points = [(0, 0), (1, 0), (0, 1)]
+
+        # When
+        lines = LinesFactory.createLines(points, maxNumLines = 2)
+
+        # Then
+        self.assertEqual(len(lines), 2)
+        self.assertTrue(lines[0].is_close(Line(point = [0, 0], direction = [1, 0])))
+        self.assertTrue(lines[1].is_close(Line(point = [0, 0], direction = [0, 1])))
+
+
     def test_createAscendingLines(self):
         # Given
         points = [(0, 0), (1, 0), (0, 1)]
@@ -40,3 +55,14 @@ class LinesFactoryTest(unittest.TestCase):
         self.assertEqual(len(lines), 2)
         self.assertTrue(lines[0].is_close(Line(point = [0, 0], direction = [1, 0])))
         self.assertTrue(lines[1].is_close(Line(point = [0, 0], direction = [0, 1])))
+
+    def test_createAscendingLines_maxNumLines(self):
+        # Given
+        points = [(0, 0), (1, 0), (0, 1)]
+
+        # When
+        lines = LinesFactory.createAscendingLines(points, maxNumLines = 1)
+
+        # Then
+        self.assertEqual(len(lines), 1)
+        self.assertTrue(lines[0].is_close(Line(point = [0, 0], direction = [1, 0])))
