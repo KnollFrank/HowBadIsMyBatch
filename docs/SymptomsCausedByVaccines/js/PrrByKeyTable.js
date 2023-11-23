@@ -80,7 +80,7 @@ class PrrByKeyTable {
     }
 
     #markRowIfPrrTooHigh({ prr, row }) {
-        if (prr > 1.0) {
+        if (prr >= 2.0) {
             $(row).addClass('prrTooHigh');
         }
     }

@@ -18,7 +18,7 @@ class PrrBySymptomTableView {
         return new PrrByKeyTable({
             tableElement: tableElement,
             keyColumnName: 'Symptom',
-            prrColumnName: 'Proportional Reporting Ratio > 1',
+            prrColumnName: 'Lower Confidence Limit of Proportional Reporting Ratio >= 2',
             shallMarkRowIfPrrTooHigh: false
         });
     }

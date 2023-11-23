@@ -25,22 +25,22 @@ class PrrSeriesTransformerTest(unittest.TestCase):
                     '17-hydroxyprogesterone': {'6VAX-F': 1.5}
                 }))
 
-    def test_filterByHighPrrs(self):
+    def test_filterPrrs(self):
         # Given
         prrBySymptomByVaccine = pd.Series(
                 {
-                    '6VAX-F': {'11-beta-hydroxylase deficiency': 0.6, '17-hydroxyprogesterone': 1.5},
-                    'ADEN':   {'11-beta-hydroxylase deficiency': 1.3, '17-hydroxyprogesterone': 0.9}
+                    '6VAX-F': {'11-beta-hydroxylase deficiency': 2.6, '17-hydroxyprogesterone': 1.5},
+                    'ADEN':   {'11-beta-hydroxylase deficiency': 1.3, '17-hydroxyprogesterone': 2.9}
                 })
         
         # When
-        prrBySymptomByVaccineWithHighPrrs = PrrSeriesTransformer.filterByHighPrrs(prrBySymptomByVaccine)
+        prrBySymptomByVaccineWithHighPrrs = PrrSeriesTransformer.filterPrrs(prrBySymptomByVaccine, lambda prr: prr >= 2)
         
         # Then
         assert_series_equal(
             prrBySymptomByVaccineWithHighPrrs,
             pd.Series(
                 {
-                    '6VAX-F': {'17-hydroxyprogesterone': 1.5},
-                    'ADEN':   {'11-beta-hydroxylase deficiency': 1.3}
+                    '6VAX-F': {'11-beta-hydroxylase deficiency': 2.6},
+                    'ADEN':   {'17-hydroxyprogesterone': 2.9}
                 }))

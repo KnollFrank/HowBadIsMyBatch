@@ -18,7 +18,7 @@ class PrrByVaccineTableView {
         return new PrrByKeyTable({
             tableElement: tableElement,
             keyColumnName: 'Vaccine',
-            prrColumnName: 'Proportional Reporting Ratio',
+            prrColumnName: 'Lower Confidence Limit of Proportional Reporting Ratio',
             shallMarkRowIfPrrTooHigh: true
         });
     }
