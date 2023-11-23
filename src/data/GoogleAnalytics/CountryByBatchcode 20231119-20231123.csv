@@ -1,0 +1,3569 @@
+# ----------------------------------------
+# HowBadIsMyBatch
+# Batchcode By Country-Country By Clicked Batchcode
+# 20231119-20231123
+# ----------------------------------------
+
+Clicked Batchcode,Country,Region,City,Event count
+,,,,17064,Grand total
+,Austria,Carinthia,Wolfsberg,1
+,Belgium,Flanders,Bilzen,1
+,Germany,Baden-Wurttemberg,Calw,1
+,Germany,Baden-Wurttemberg,Karlsruhe,1
+,Germany,Baden-Wurttemberg,Mannheim,1
+,Germany,Bavaria,Erlangen,1
+,Germany,North Rhine-Westphalia,Dusseldorf,1
+,Germany,North Rhine-Westphalia,Havixbeck,1
+,Germany,North Rhine-Westphalia,Rahden,1
+,Italy,Marche,Ancona,1
+,South Africa,Gauteng,Johannesburg,1
+,Sri Lanka,Western Province,Colombo,1
+,United Kingdom,England,Luton,1
+,United States,Alabama,Headland,1
+,United States,Florida,Brandon,1
+,United States,Indiana,Indianapolis,1
+,United States,Massachusetts,Boston,1
+,United States,North Carolina,Mount Olive,1
+,United States,Utah,West Valley City,1
+#027B21A,United States,Texas,Dallas,1
+#030L20A,Brazil,State of Alagoas,57309,1
+#046A21A,United States,Washington,Picnic Point-North Lynnwood,1
+#EK9231,United States,Florida,Havana,1
+#EN6204,United States,Texas,Dallas,1
+#ER2613,Germany,Brandenburg,Brandenburg,1
+#EW0173,United States,Virginia,Ashburn,1
+#FC3180,United States,Connecticut,Madison,1
+(not set),Canada,Alberta,Provost,1
+(not set),Canada,Ontario,Arnprior,1
+(not set),Germany,Bavaria,Erlangen,1
+(not set),Germany,Rhineland-Palatinate,Waldmohr,1
+(not set),Germany,Saxony,Hoyerswerda,1
+(not set),Indonesia,South Sulawesi,Basse Sangtempe,1
+(not set),United States,Alabama,Arab,1
+(not set),United States,Alaska,Cordova,1
+(not set),United States,Arkansas,Trumann,1
+(not set),United States,California,Eureka,1
+(not set),United States,California,Fort Irwin,1
+(not set),United States,Colorado,Fruita,1
+(not set),United States,Florida,Frostproof,1
+(not set),United States,Georgia,Eatonton,1
+(not set),United States,Georgia,Sparta,1
+(not set),United States,Indiana,Bluffton,1
+(not set),United States,Maine,Skowhegan,1
+(not set),United States,Michigan,Fremont,1
+(not set),United States,Michigan,Lowell charter Township,1
+(not set),United States,Montana,Laurel,1
+(not set),United States,New Hampshire,Concord,1
+(not set),United States,New Mexico,Carlsbad,1
+(not set),United States,New York,Oyster Bay,1
+(not set),United States,New York,Springville,1
+(not set),United States,New York,Wolcott,1
+(not set),United States,North Carolina,High Point,1
+(not set),United States,Ohio,Brunswick,1
+(not set),United States,Ohio,Kenton,1
+(not set),United States,South Carolina,Anderson,1
+(not set),United States,Virginia,Dahlgren,1
+(not set),United States,Virginia,Hampton,1
+(not set),United States,Virginia,Hillsville,1
+000014A,France,Grand Est,Thionville,1
+000015A,Germany,Brandenburg,Konigs Wusterhausen,1
+000022A,Germany,Brandenburg,Konigs Wusterhausen,1
+000030A,Germany,Bavaria,(not set),1
+000033BA,Italy,Emilia-Romagna,Rimini,1
+000033BA,Italy,Lazio,Ostia,1
+000050A,Germany,Bavaria,(not set),1
+000073A,Germany,Lower Saxony,Vechta,1
+000073A,Germany,Thuringia,Eisenach,1
+000077A,Germany,Schleswig-Holstein,Lubeck,1
+000081A,United Kingdom,England,Plymouth,1
+000087A,Germany,Baden-Wurttemberg,Stuttgart,1
+000104A,Philippines,Calabarzon,Bacoor,1
+000130A,Germany,Hamburg,Hamburg,1
+000130A,Germany,Lower Saxony,(not set),1
+000135A,Germany,North Rhine-Westphalia,Lippstadt,1
+000137A,Germany,Saxony-Anhalt,Magdeburg,1
+001021A,United States,New York,New York,1
+001B21A,United States,Illinois,Metropolis,1
+001B21A,United States,Iowa,Gowrie,1
+001C21A,United States,California,San Francisco,1
+001C21A,United States,California,San Jose,1
+001J21-2A,United States,Washington,Seattle,1
+001J212A,United States,Washington,Seattle,1
+0026C21A,United States,California,Los Angeles,1
+0026C21A,United States,Nevada,Las Vegas,1
+0037K20A,Brazil,State of Alagoas,57309,1
+003A21A,United States,Massachusetts,Springfield,1
+003AZ1A,United States,Ohio,Parma,1
+003F21A,United States,Arkansas,Brookland,1
+003F21A,United States,Texas,Dalhart,1
+0044B21A,United States,Maine,Bath,1
+004F21A,United States,Kentucky,Lexington,1
+004F21A,United States,Maine,Bath,1
+004FZ1A,United States,Washington,Picnic Point-North Lynnwood,1
+004M2014,United States,Louisiana,Gonzales,1
+00521A,United States,Missouri,Rogersville,1
+005M21A,United States,New Jersey,Clifton,1
+006B21A,United States,Rhode Island,Coventry,1
+006D21A,Indonesia,South Sulawesi,Basse Sangtempe,1
+007M20A,United States,Oregon,La Grande,1
+007M20A,United States,Texas,Dallas,1
+008C21A,United States,Washington,Roslyn,1
+009C21A,United States,Georgia,Jesup,1
+009C21A,United States,Illinois,Elk Grove Village,1
+009C21A,United States,New Jersey,Brick Township,1
+010A21A,United States,Texas,Dallas,1
+010M20A,Philippines,Metro Manila,Quezon City,1
+010M20A,United States,Georgia,(not set),1
+010MZOA,United States,Iowa,Brooklyn,1
+011A21A,United States,Massachusetts,Springfield,1
+011D21A,United States,Virginia,(not set),1
+011H22A,United States,Illinois,Glenview,1
+011J20A,United States,Illinois,Chicago,1
+011J20A,United States,Missouri,St. Louis,1
+011L20A,United States,Kansas,Abilene,1
+012A214,United States,Louisiana,Gonzales,1
+012A21A,United States,Louisiana,Gonzales,1
+012F21A,United States,California,Cypress,1
+012H21B-MODERNA,United States,Indiana,Paoli,1
+012L20A,United States,Georgia,Sparta,1
+012L20A,United States,Iowa,Muscatine,1
+013B22A,Canada,Ontario,Toronto,1
+013F21A,United States,New Hampshire,Derry,1
+013F21A,United States,New Hampshire,Londonderry,1
+013F21A,United States,Oregon,(not set),1
+013H22A,United States,Connecticut,(not set),1
+013H22A,United States,New Jersey,Brick Township,1
+013M2019,United States,Texas,New Caney,1
+013M20A,United States,California,Fresno,1
+013M20A,United States,South Dakota,Rapid City,1
+013M20A,United States,Texas,New Caney,1
+014F21A,United States,California,Los Angeles,1
+014M20A,United States,Texas,Dallas,1
+015M20A,United States,Illinois,Chicago,1
+016B21A,United States,Texas,New Caney,1
+016B22A,United States,Georgia,(not set),1
+016C21A,United States,Florida,Orlando,1
+016C21A,United States,New Hampshire,Concord,1
+016L21A,United States,Oklahoma,Oklahoma City,1
+016M204,United States,Montana,Libby,1
+016M20A,United States,Illinois,Springfield,1
+016MZ0A,United States,Montana,Libby,1
+017B21A,United States,Connecticut,(not set),1
+017CZIA,United States,Iowa,Des Moines,1
+017E21A,United States,Arkansas,Wynne,1
+017E21A,United States,California,Los Angeles,1
+017E21A,United States,Texas,Dallas,1
+017F21A,United States,Florida,Orlando,1
+017G21A,Italy,Lombardy,Bergamo,1
+017G21A,Italy,Lombardy,Como,1
+018J21ABS,Netherlands,Limburg,Sint Odilienberg,1
+018J21ABS,Netherlands,North Holland,Haarlem,1
+019B21A,United States,Washington,Roslyn,1
+019J21A,Canada,Ontario,Peterborough,1
+019J21A,Canada,Ontario,Toronto,1
+020F21A,United States,Missouri,Rogersville,1
+020J21A,Canada,Nova Scotia,Halifax Regional Municipality,1
+020J21A,Canada,Ontario,Peterborough,1
+021CZ1A,United States,California,Los Angeles,1
+022M20A,United States,Kentucky,Hindman,1
+023M20A,United States,Iowa,Huxley,1
+023MZ0A,United States,Arkansas,Brookland,1
+024M20A,United States,Georgia,Sparta,1
+024M20A,United States,Oklahoma,Oklahoma City,1
+025A1A,United States,Michigan,Battle Creek,1
+025A21A,Germany,Saxony-Anhalt,(not set),1
+025A21A,United States,Michigan,Battle Creek,1
+025C21A,United States,South Carolina,Aiken,1
+025J2024,Philippines,Metro Manila,Quezon City,1
+025J20A,Australia,New South Wales,Sydney,1
+025J20A,United States,Washington,Wenatchee,1
+025L20A,Netherlands,South Holland,Rotterdam,1
+025L20A,United States,Colorado,Highlands Ranch,1
+025L20A,United States,Oklahoma,Chickasha,1
+025L21B,United States,California,Los Angeles,1
+025L2QA,United States,California,Los Angeles,1
+026C21A,United States,California,Los Angeles,1
+026C21A,United States,Minnesota,Minneapolis,1
+026L2OA,United States,Illinois,Peoria,1
+027A21A,United States,California,Cypress,1
+027B21A,United States,Texas,Dallas,1
+027BZ1A,United States,Ohio,Parma,1
+027C21A,United States,Michigan,(not set),1
+027L20A,United States,Tennessee,Chattanooga,1
+028L20A,Australia,New South Wales,Sydney,1
+028L20A,United States,Washington,Wenatchee,1
+029H21A,United States,Virginia,Covington,1
+029H21B,United States,South Carolina,(not set),1
+029H21B,United States,Virginia,Covington,1
+029H21B-MODERNA,United States,Virginia,Covington,1
+029L20A,United States,California,Fresno,1
+030A21A,United States,Florida,Belle Glade,1
+030A21A,United States,New Jersey,Clifton,1
+030L20A,Brazil,State of Alagoas,57309,1
+030L20A,United States,Iowa,Denison,1
+030L20A,United States,Montana,Libby,1
+030L20A,United States,Oklahoma,Oklahoma City,1
+030LZ0A,United States,Montana,Libby,1
+030M20A,United States,California,Vallejo,1
+03120A,United States,Connecticut,Madison,1
+031B21A,United States,New Jersey,Clifton,1
+031H21A,United States,Arkansas,Malvern,1
+031L20A,United States,Georgia,Pine Mountain,1
+031M20A,United States,Illinois,Metropolis,1
+031M20A,United States,Iowa,Gowrie,1
+031M20A,United States,Kentucky,Hindman,1
+031M20A,United States,Ohio,Waverly,1
+032B21A,United States,Florida,Belle Glade,1
+032F214,United States,California,Los Angeles,1
+032L20A,United States,Oklahoma,Chickasha,1
+032M20A,United States,Illinois,Chicago,1
+035C21A,United States,New York,Warwick,1
+035C21A,United States,Virginia,Ashburn,1
+036A21A,Germany,Saxony-Anhalt,(not set),1
+036C21A,United States,Illinois,Chicago,1
+036C21A,United States,Ohio,Parma,1
+037A21B,United States,California,Corona,1
+037B21A,United States,Georgia,Jesup,1
+037K20A,Brazil,State of Alagoas,57309,1
+038A21A,United States,Kansas,Abilene,1
+038D21A,Germany,Berlin,Berlin,1
+038K20A,United States,Illinois,Peoria,1
+039K202A,Philippines,Metro Manila,Quezon City,1
+039K20A,Australia,New South Wales,Sydney,1
+039K20A,Germany,Hessen,Frankfurt,1
+039K20A,United States,South Dakota,Rapid City,1
+03IL20A,United States,Rhode Island,Coventry,1
+040821A,Philippines,Bicol,(not set),1
+040C21A,United States,Texas,McCamey,1
+041A21A,United States,New York,Oyster Bay,1
+041C21A,United States,Illinois,Chicago,1
+041L20A,United States,Iowa,Brooklyn,1
+041L20A,United States,Oregon,La Grande,1
+041L20A,United States,Texas,Dallas,1
+041L20A,United States,Washington,Seattle,1
+042A21A,Germany,Bavaria,Konigsberg,1
+042A21A,Germany,Brandenburg,Brandenburg,1
+042A21A,United States,Texas,Dallas,1
+042B212A,United States,Washington,Picnic Point-North Lynnwood,1
+042L20A,United States,Illinois,Chicago,1
+042L20A,United States,Tennessee,Humboldt,1
+04321A,United States,Texas,Fairfield,1
+043A21A,Germany,Bavaria,Konigsberg,1
+043A21A,United States,North Carolina,(not set),1
+043A21A,United States,North Carolina,Moyock,1
+043A21A,United States,Texas,Fairfield,1
+043B21A,United States,California,Corona,1
+043D21A,Canada,British Columbia,Sidney,1
+043D21A,Canada,Newfoundland and Labrador,(not set),1
+044A21A,United States,Illinois,Chicago,1
+044B21A,United States,Iowa,Des Moines,1
+044D21A,Canada,Nova Scotia,Halifax Regional Municipality,1
+045A21A,United States,Maine,Bath,1
+045D21A,Canada,British Columbia,Vancouver,1
+046A21A,United States,Texas,Dalhart,1
+046B,United States,Virginia,Ashburn,1
+046B21A,United States,Nevada,Las Vegas,1
+047A21A,United States,Florida,Edgewater,1
+047A21A,United States,New York,New York,1
+047C21A,United States,California,San Francisco,1
+047C21A,United States,California,San Jose,1
+048F21A,United States,California,San Diego,1
+048L21A,United States,Arkansas,Russellville,1
+049C21A,United States,Virginia,(not set),1
+049E21A,United States,California,Los Angeles,1
+050C21A,United States,New Jersey,Brick Township,1
+051F21A,United States,Georgia,Atlanta,1
+052E21A,United States,Florida,Orlando,1
+052E21A,United States,Missouri,Rogersville,1
+053C21A,Germany,Berlin,Berlin,1
+053E21A,United States,Kentucky,La Grange,1
+054A22A,Canada,Ontario,Toronto,1
+056A22A,Canada,Ontario,Toronto,1
+057A22A,Canada,Ontario,Toronto,1
+058F21A,United States,Connecticut,(not set),1
+059E21A,United States,Illinois,Chicago,1
+05ZEZ1A,United States,Texas,(not set),1
+062E21A,United States,Georgia,(not set),1
+062E21A,United States,Illinois,Chicago,1
+062E21A,United States,Texas,McCamey,1
+067H21A-MODERNA,United States,Virginia,Ashburn,1
+068F21A,Philippines,Calabarzon,Calamba,1
+069H21A,United States,Iowa,Brooklyn,1
+076CZ1A,United States,Arkansas,Wynne,1
+078C21A,United States,Arizona,Phoenix,1
+083J21A,United States,Arkansas,Russellville,1
+083J21A,United States,Texas,Dallas,1
+088D21A,United States,Arizona,Phoenix,1
+090F21A,Finland,Uusimaa,Hanko,1
+092D21A,Canada,Ontario,Apsley,1
+092D21A,Canada,Ontario,Ottawa,1
+092D21A,Canada,Ontario,Sarnia,1
+092F21A,Germany,Baden-Wurttemberg,Albbruck,1
+092F21A,Germany,Mecklenburg-Vorpommern,Rostock,1
+093D21A,Canada,Ontario,Whitby,1
+094F21A,Italy,Lazio,Rome,1
+10012A,Germany,Hessen,Frankfurt,1
+1111-20-EN6201,Germany,Brandenburg,Brandenburg,1
+1111-20-FC3180,United States,Connecticut,Madison,1
+1111-20-FD0810,Canada,Quebec,Amos,1
+1118-21-207A21A,United States,Missouri,St. Louis,1
+1234,United States,California,San Jose,1
+1805029,United States,California,San Diego,1
+1805031,United States,Alabama,Headland,1
+1816022,United States,Oklahoma,Idabel,1
+1820095,South Korea,Seoul,Seoul,1
+1820095,United States,Texas,Dallas,1
+1820095,United States,Texas,Lakeway,1
+1822011,United States,Connecticut,(not set),1
+182281,United States,Connecticut,(not set),1
+1822811,United States,Connecticut,(not set),1
+1855190,United States,Texas,Houston,1
+1855194,United States,New York,New York,1
+1B004A,Singapore,(not set),Singapore,1
+1C006A,France,Occitanie,09350,1
+1C006A,Germany,Bavaria,Maxhutte-Haidhof,1
+1C006A,Germany,North Rhine-Westphalia,Lippstadt,1
+1C007A,Germany,Brandenburg,Oranienburg,1
+1C007A,Germany,Schleswig-Holstein,Lubeck,1
+1C009A,Germany,Hessen,Frankenberg (Eder),1
+1C009A,Germany,Hessen,Frankfurt,1
+1C009A,Sweden,Skane County,Malmo,1
+1C010A,Germany,Mecklenburg-Vorpommern,Rostock,1
+1D012A,Germany,Hessen,Frankfurt,1
+1D012A,Germany,Mecklenburg-Vorpommern,Schwerin,1
+1D013A,Germany,Saxony-Anhalt,(not set),1
+1D014A,Germany,Hessen,(not set),1
+1D015A,Germany,Hessen,Frankfurt,1
+1D015A,Germany,Saxony,Dresden,1
+1D016A,Germany,Brandenburg,Oranienburg,1
+1D016A,Germany,Hessen,Frankfurt,1
+1D016A,Germany,Lower Saxony,Sarstedt,1
+1D018A,Germany,North Rhine-Westphalia,Dortmund,1
+1D018A,Germany,Thuringia,Meiningen,1
+1D020A,Germany,Berlin,Berlin,1
+1D020A,Germany,Lower Saxony,Achim,1
+1D020A,Germany,Lower Saxony,Lehrte,1
+1D020A,Germany,North Rhine-Westphalia,Bielefeld,1
+1E021A,Germany,Bavaria,Munich,1
+1E021A,Germany,Hessen,Frankfurt,1
+1E021A,Germany,Hessen,Wiesbaden,1
+1E021A,Germany,North Rhine-Westphalia,Mechernich,1
+1E021A,Germany,Saxony,Wurzen,1
+1E021A,Germany,Schleswig-Holstein,Wahlstedt,1
+1E021A,United States,Missouri,Sparta,1
+1E026A,Germany,Bavaria,Kronach,1
+1E026A,Germany,Hessen,Darmstadt,1
+1E026A,Germany,Saxony,Dresden,1
+1E028A,Germany,Lower Saxony,Wilhelmshaven,1
+1E029A,Germany,Berlin,Berlin,1
+1E029A,Germany,North Rhine-Westphalia,Krefeld,1
+1F027A,Switzerland,Zurich,Zurich,1
+1F030A,Germany,Baden-Wurttemberg,Stuttgart,1
+1F030A,Germany,Hessen,Darmstadt,1
+1F036A,Germany,Baden-Wurttemberg,Emmendingen,1
+1F036A,Germany,Baden-Wurttemberg,Ulm,1
+1F036A,Germany,Bavaria,Feldkirchen-Westerham,1
+1F036A,Germany,Lower Saxony,(not set),1
+1F036A,Germany,North Rhine-Westphalia,(not set),1
+1F036A,Germany,Thuringia,Ilmenau,1
+1F1003A,France,Ile-de-France,Paris,1
+1F1005A,Italy,Emilia-Romagna,Bologna,1
+1F1005A,Italy,Lazio,Rome,1
+1F1010A,Germany,Berlin,Berlin,1
+1F1010A,Germany,Hamburg,Hamburg,1
+1F1010A,Germany,Saxony,Bautzen,1
+1F1010A,Germany,Schleswig-Holstein,Elmshorn,1
+1F1010A,Germany,Schleswig-Holstein,Lubeck,1
+1F1016A,Italy,Lombardy,Milan,1
+1F1021A,Germany,Berlin,Berlin,1
+1F1021A,Germany,Hessen,Frankfurt,1
+1F1021A,Germany,Lower Saxony,Achim,1
+1F1021A,Germany,Saarland,Saarbrucken,1
+1F1022A,Germany,Hamburg,Hamburg,1
+1F1022A,Germany,Lower Saxony,Varel,1
+1F1022A,Germany,North Rhine-Westphalia,Lippstadt,1
+1F1022A,Germany,North Rhine-Westphalia,Rheine,1
+1F1022A,Germany,North Rhine-Westphalia,Stolberg (Rhineland),1
+1F1023A,Germany,Baden-Wurttemberg,,1
+1F1023A,Germany,Baden-Wurttemberg,Esslingen,1
+1F1023A,Germany,Bavaria,Regensburg,1
+1F1023A,Germany,Hamburg,Hamburg,1
+1F1023A,Switzerland,Zurich,Zurich,1
+1F1024A,Germany,Baden-Wurttemberg,Esslingen,1
+1F1024A,Germany,Baden-Wurttemberg,Mannheim,1
+1F1024A,Germany,Brandenburg,Brieselang,1
+1F1024A,Germany,Hessen,Frankfurt,1
+1F1024A,Germany,Mecklenburg-Vorpommern,(not set),1
+1F1027A,Germany,Baden-Wurttemberg,Donaueschingen,1
+1F1027A,Germany,Bavaria,Munich,1
+1F1027A,Germany,Berlin,Berlin,1
+1F1027A,Germany,Lower Saxony,Buchholz in der Nordheide,1
+1F1027A,Germany,Lower Saxony,Wilhelmshaven,1
+1F1027A,Germany,Mecklenburg-Vorpommern,Greifswald,1
+1F1027A,Germany,North Rhine-Westphalia,Gelsenkirchen,1
+1F1027A,Switzerland,Zurich,Zurich,1
+1F1042A,Germany,Brandenburg,Brandenburg,1
+1F1042A,Germany,Lower Saxony,Wilhelmshaven,1
+1F1052A,Austria,Carinthia,Wolfsberg,1
+1F1052A,Germany,Berlin,Berlin,1
+1G040A,Germany,Hessen,Frankfurt,1
+1G040A,Germany,Thuringia,Gera,1
+1G040A,Switzerland,Zurich,Zurich,1
+1H048A,Germany,Bavaria,Krumbach,1
+1H048A,Germany,Lower Saxony,Soltau,1
+1H048A,Germany,North Rhine-Westphalia,Bad Oeynhausen,1
+1H049A,Germany,North Rhine-Westphalia,Schalksmuhle,1
+1K081A,Italy,Liguria,Genoa,1
+201L22A,Ireland,County Dublin,Dublin,1
+202A21A,United States,New Hampshire,Colebrook,1
+202A21A,United States,Rhode Island,Warwick,1
+204A21A,Peru,Lima Province,(not set),1
+204AZIA,United States,Ohio,Parma,1
+205A21A,United States,New York,New York,1
+207A21A,Japan,Tokyo,Minato City,1
+207A21A,United States,Missouri,St. Louis,1
+20SA21A,United States,New York,Buffalo,1
+210072,Germany,Lower Saxony,Gottingen,1
+210076,Germany,Baden-Wurttemberg,Stuttgart,1
+210093,Germany,Baden-Wurttemberg,Stuttgart,1
+210093,Germany,Thuringia,Jena,1
+210163,Germany,Bavaria,Munich,1
+211A21A,United States,Texas,Dallas,1
+212C21A,Canada,Nova Scotia,Yarmouth,1
+212C21A,Canada,Ontario,Burlington,1
+212C21A,Germany,Bavaria,Selb,1
+213C21A,Germany,Brandenburg,Brandenburg,1
+213C21A,Philippines,Calabarzon,General Trias,1
+213C21A,Philippines,Metro Manila,Manila,1
+213D21A,United States,Montana,Helena,1
+214004,Italy,Lombardy,Milan,1
+214009,Italy,Lombardy,Milan,1
+214012,Germany,Baden-Wurttemberg,Stuttgart,1
+214012,Germany,North Rhine-Westphalia,Eschweiler,1
+214019,Italy,Lazio,Rome,1
+214019,Italy,Lombardy,Milan,1
+214022,Germany,Berlin,Berlin,1
+214024,Italy,Lombardy,Milan,1
+214027,Italy,Lombardy,Milan,1
+214030,Italy,Lombardy,Milan,1
+216035,Morocco,Marrakesh-Safi,Marrakesh,1
+216044,Germany,Baden-Wurttemberg,Stuttgart,1
+216047,Germany,Lower Saxony,Hanover,1
+21C11-01,Germany,North Rhine-Westphalia,,1
+21C18-04,United Kingdom,England,Gloucester,1
+300042721,Germany,Lower Saxony,Cloppenburg,1
+300042721,Netherlands,South Holland,Rotterdam,1
+30011TB,Germany,Berlin,Berlin,1
+30011TB,Germany,Mecklenburg-Vorpommern,Wolgast,1
+3001413,Finland,Uusimaa,Hanko,1
+3001652,Germany,Berlin,Berlin,1
+3001655,United Arab Emirates,Abu Dhabi,Abu Dhabi,1
+3001938,Austria,Styria,Bad Radkersburg,1
+3001944,Germany,Rhineland-Palatinate,Koblenz,1
+3001945,Germany,Berlin,Berlin,1
+3002183,Germany,North Rhine-Westphalia,Munster,1
+3002187,Canada,Quebec,Lac-Megantic,1
+30023333,Germany,Baden-Wurttemberg,Esslingen,1
+3002334,Germany,Berlin,Berlin,1
+3002335,Netherlands,North Holland,Haarlem,1
+3002537,Germany,Baden-Wurttemberg,Ehingen,1
+3002543,Italy,Lazio,Ostia,1
+3002620,Finland,Uusimaa,Hanko,1
+3002914,Canada,Ontario,Whitby,1
+3002917,Netherlands,North Holland,Wieringerwerf,1
+3003183,Germany,Berlin,Berlin,1
+3003184-CDC,Canada,British Columbia,Vancouver,1
+3003186,Netherlands,Friesland,Wolvega,1
+3003188,Switzerland,Zurich,Zurich,1
+3003605,Italy,Lombardy,Milan,1
+3003655,Italy,Lazio,Ostia,1
+3004215,Switzerland,Solothurn,(not set),1
+3004215,Switzerland,Zurich,Wadenswil,1
+3004215,Switzerland,Zurich,Zurich,1
+3004217,Germany,Berlin,Berlin,1
+3004218,Slovakia,Trencin Region,Prievidza,1
+3004219,Switzerland,Solothurn,(not set),1
+3004233,Germany,Baden-Wurttemberg,Stuttgart,1
+3004493,Denmark,Capital Region of Denmark,Copenhagen,1
+3004670,Austria,Styria,Bad Radkersburg,1
+3004671,Germany,Bavaria,Munich,1
+3004730,Denmark,Capital Region of Denmark,Copenhagen,1
+3004732,United Kingdom,England,Yeovil,1
+3004737,United Kingdom,England,London,1
+3004959,Germany,Lower Saxony,Hanover,1
+3004960,Philippines,Metro Manila,Paranaque,1
+3005237,United Kingdom,England,London,1
+3005237,United Kingdom,England,Taunton,1
+3005238,Switzerland,Solothurn,(not set),1
+3005290,Germany,Lower Saxony,Osnabruck,1
+3005291,Germany,Baden-Wurttemberg,Stuttgart,1
+3005291,Germany,Hessen,(not set),1
+3005688,United States,California,San Diego,1
+3005690,Germany,Hessen,Frankenberg (Eder),1
+3005697,Austria,Lower Austria,Bruck an der Leitha,1
+3005698,Italy,Tuscany,Florence,1
+3006272,Ireland,County Dublin,Dublin,1
+3006274,Finland,Uusimaa,Helsinki,1
+3006322,Italy,Lombardy,Bergamo,1
+3006323,Italy,Lombardy,Como,1
+301308A,United States,Texas,Arlington,1
+30130BA,United States,North Carolina,Burlington,1
+301558A,United States,Florida,Greater Carrollwood,1
+30155BA,United States,Oregon,Warm Springs,1
+3031281,United States,Pennsylvania,Philadelphia,1
+30891TB,Germany,Bavaria,Nuremberg,1
+31043TB,Germany,Baden-Wurttemberg,Oberndorf,1
+31043TB,Germany,Bavaria,Ingolstadt,1
+31101TB,Germany,Bavaria,Regensburg,1
+31101TB,Germany,Bavaria,Roth,1
+31101TB,Germany,Lower Saxony,Meppen,1
+31134TB,Austria,Vienna,Vienna,1
+32030BD,United States,Colorado,Highlands Ranch,1
+33030BD,United States,Florida,(not set),1
+33030BD,United States,Ohio,Finneytown,1
+33030BD-PFIZER-,United States,Ohio,Finneytown,1
+331308A,United States,New York,New York,1
+331308A,United States,North Carolina,Lincolnton,1
+33233TB,Germany,Baden-Wurttemberg,(not set),1
+33233TB,Germany,Bavaria,Munich,1
+33233TB,Germany,Hamburg,Hamburg,1
+33233TB,Germany,Schleswig-Holstein,Elmshorn,1
+33295TB,Italy,Lombardy,Milan,1
+34300BD,Philippines,Metro Manila,Quezon City,1
+34396TB,Germany,Baden-Wurttemberg,(not set),1
+34396TB,Germany,Schleswig-Holstein,Lubeck,1
+34397TB,Germany,Baden-Wurttemberg,Ulm,1
+34523TB,Germany,Baden-Wurttemberg,(not set),1
+34523TB,Germany,Baden-Wurttemberg,Crailsheim,1
+34523TB,Germany,Lower Saxony,Braunschweig,1
+34523TB,Germany,North Rhine-Westphalia,Gelsenkirchen,1
+34524TB,Germany,Baden-Wurttemberg,Crailsheim,1
+4120Z001,United Kingdom,England,Poole,1
+4120Z001,United Kingdom,Wales,(not set),1
+4120Z003,United Kingdom,England,Luton,1
+4120Z003,United Kingdom,England,Taunton,1
+4301MF009,Argentina,Buenos Aires,Buenos Aires,1
+4301MF011,Canada,Ontario,(not set),1
+4302MF028,New Zealand,Canterbury,Christchurch,1
+939893,United States,Texas,McCamey,1
+939903,United States,Pennsylvania,Tyrone,1
+939904,United States,Oklahoma,Chickasha,1
+A1076,Indonesia,Jakarta,Jakarta,1
+A1115,Philippines,Calabarzon,Bacoor,1
+AA1234,France,Grand Est,Thionville,1
+AB0006,United Kingdom,England,Birmingham,1
+AB0010,United Kingdom,England,Burnley,1
+AB0011,United Kingdom,England,London,1
+AB0011,United Kingdom,England,Newcastle upon Tyne,1
+AB0012,United Kingdom,England,London,1
+AB0012,United Kingdom,England,Newcastle upon Tyne,1
+ABV3374,Germany,Baden-Wurttemberg,Ehingen,1
+ABV3374,Germany,Hessen,(not set),1
+ABV3374,Germany,Lower Saxony,Luneburg,1
+ABV3374,Germany,Saxony-Anhalt,(not set),1
+ABV4048,Germany,Hessen,(not set),1
+ABV4048,Germany,Schleswig-Holstein,Lubeck,1
+ABV4678,Germany,North Rhine-Westphalia,Bad Oeynhausen,1
+ABV4678,Luxembourg,(not set),Luxembourg,1
+ABV5300,Austria,Vienna,Vienna,1
+ABV5443,Germany,North Rhine-Westphalia,Dusseldorf,1
+ABV5443,Germany,Schleswig-Holstein,Lubeck,1
+ABV5652,Germany,Baden-Wurttemberg,Albbruck,1
+ABV5652,Germany,Hessen,Frankfurt,1
+ABV5652,Germany,Lower Saxony,Soltau,1
+ABV5652,Germany,Mecklenburg-Vorpommern,Wolgast,1
+ABV5652,Germany,Saxony-Anhalt,38899,1
+ABV7764,Germany,Schleswig-Holstein,Lubeck,1
+ABV7764,Germany,Thuringia,Jena,1
+ABV9317,Germany,Mecklenburg-Vorpommern,Wolgast,1
+ABW0003,Germany,Lower Saxony,Braunschweig,1
+ABW0549,Poland,Masovian Voivodeship,Warsaw,1
+ABW2953,Germany,Bavaria,Munich,1
+ABW4054,Germany,Lower Saxony,Gottingen,1
+ABW4330,Germany,Baden-Wurttemberg,Stuttgart,1
+ABW4330,Germany,Bavaria,(not set),1
+ABW4330,Germany,Saxony-Anhalt,38899,1
+ABW4731,Philippines,(not set),(not set),1
+ABW4805,Austria,Vienna,Vienna,1
+ABW7189,Germany,North Rhine-Westphalia,Dusseldorf,1
+ABX3519,Germany,Bavaria,Rosenheim,1
+ABX5182,Germany,Brandenburg,Cottbus,1
+ABX5182,Germany,Hessen,Frankfurt,1
+ABX5182,Germany,Lower Saxony,Braunschweig,1
+ABZ 5320,Canada,Ontario,Ottawa,1
+ABZ5320,Canada,Ontario,Ottawa,1
+ABZ5320,Germany,Hamburg,Hamburg,1
+ABZ5320,Poland,Masovian Voivodeship,Warsaw,1
+ACA6111,Poland,Masovian Voivodeship,Warsaw,1
+ACA6111,Romania,,,1
+ACB3221,Philippines,Calabarzon,Bacoor,1
+ACB3221,Philippines,Metro Manila,Paranaque,1
+ACB3738,Germany,Hessen,(not set),1
+ACB3738,Germany,Lower Saxony,Gottingen,1
+ACB3738,Switzerland,Zurich,Zurich,1
+ACB4447,Germany,North Rhine-Westphalia,Oberhausen,1
+ACB4447,Germany,Schleswig-Holstein,Eutin,1
+ACB4694,Germany,Thuringia,Meiningen,1
+ACB5038,Germany,Lower Saxony,Hanover,1
+ACB5038,Germany,Lower Saxony,Langenhagen,1
+ACB5317,Germany,Baden-Wurttemberg,(not set),1
+ACB5317,Germany,Brandenburg,Oranienburg,1
+ACB5317,Germany,Thuringia,Weimar,1
+ACB5318,Germany,Baden-Wurttemberg,Zell,1
+ACB5318,Germany,Bavaria,Munich,1
+ACB5318,Germany,Lower Saxony,Meppen,1
+ACB6894,Canada,New Brunswick,Miramichi,1
+ACB6894,Germany,Rhineland-Palatinate,Mutterstadt,1
+ACB7737,Germany,Berlin,Berlin,1
+ACB7737,Germany,Rhineland-Palatinate,Mutterstadt,1
+ACB8965,Germany,Rhineland-Palatinate,Mutterstadt,1
+ACB8967,Germany,Bavaria,Bayreuth,1
+ACB8967,Germany,Bavaria,Kitzingen,1
+ACB8967,Germany,Bavaria,Maxhutte-Haidhof,1
+ACB8967,Germany,Hessen,Frankfurt,1
+ACB8967,Germany,Lower Saxony,Cloppenburg,1
+ACB8967,Germany,Lower Saxony,Varel,1
+ACB9148,Germany,Brandenburg,Brieselang,1
+ACB9148,Germany,Hamburg,Hamburg,1
+ACB9148,Germany,Schleswig-Holstein,Lubeck,1
+ACB9929,Germany,Hessen,Frankfurt,1
+ACB9929,Japan,Tokyo,(not set),1
+ACC1336,Germany,Baden-Wurttemberg,Karlsdorf-Neuthard,1
+AS7148B,United States,Illinois,Chicago,1
+AS7185B,United States,Michigan,Battle Creek,1
+B1D014A,Germany,Berlin,Berlin,1
+B1F1024A,Germany,Baden-Wurttemberg,Esslingen,1
+B1F1024A,Germany,Mecklenburg-Vorpommern,(not set),1
+B202104047,Philippines,Bicol,(not set),1
+B202104047,Philippines,Metro Manila,Quezon City,1
+BNT162,United States,Alabama,Huntsville,1
+BNT162B2,Canada,Alberta,(not set),1
+BNT162B2,United States,New York,Rochester,1
+C202109177,Philippines,Metro Manila,Quezon City,1
+C214064,Türkiye,Antalya,Alanya,1
+CH-B:SCTD6,Germany,Lower Saxony,Achim,1
+CH-BER9480,Germany,Saxony,Plauen,1
+CH-BER9480,Netherlands,(not set),(not set),1
+CH.-B. FD9234,Germany,Baden-Wurttemberg,Oberndorf,1
+CH.-B. FD9234,Germany,Bavaria,Bayreuth,1
+CH.-B. FD9234,Germany,Brandenburg,Luckenwalde,1
+CH.-B. FD9234,Germany,Hessen,Morfelden-Walldorf,1
+CH.-B.: 1F1023A,Germany,Hessen,(not set),1
+CH.-B.: 1F1023A,Germany,Lower Saxony,Achim,1
+CH.-B.: EX3510,Germany,Hessen,(not set),1
+CH.-B.: EX3510,Germany,Hessen,Frankfurt,1
+CH.-B.: EX3510,Germany,North Rhine-Westphalia,Munster,1
+CH.-B.: EX8680,Germany,Baden-Wurttemberg,Donaueschingen,1
+CH.-B.: EX8680,Germany,Hessen,Frankfurt,1
+CH.-B.: EX8680,Germany,Saarland,Saarbrucken,1
+CH.-B.: EX8680,Germany,Saxony,Leipzig,1
+CH.-B.: FC8889,Germany,Lower Saxony,Cloppenburg,1
+CH.-B.: FC8889,Germany,North Rhine-Westphalia,Duisburg,1
+CH.-B.: FC8889,Germany,North Rhine-Westphalia,Munster,1
+CH.-B.: FD7958,Germany,Baden-Wurttemberg,Zell,1
+CH.-B.: FD7958,Germany,Bavaria,Nuremberg,1
+CH.-B.: FD7958,Germany,Lower Saxony,(not set),1
+CH.-B.: FD7958,Germany,Saxony-Anhalt,Magdeburg,1
+CH.-B.: FE6975,Germany,Bavaria,(not set),1
+CH.-B.: FE6975,Germany,North Rhine-Westphalia,(not set),1
+CH.-B.: FE6975,Germany,Saxony,Wurzen,1
+CH.-B.:1C011A,Germany,Rhineland-Palatinate,Herxheim bei Landau/Pfalz,1
+CH.-B.:1F1024A,Germany,Lower Saxony,Soltau,1
+CH.-B.:30025TB,Germany,North Rhine-Westphalia,Stolberg (Rhineland),1
+CH.-B.:ACB4694,Germany,Lower Saxony,Syke,1
+CH.-B.:ACB4694,Germany,North Rhine-Westphalia,Dusseldorf,1
+CH.-B.:ACB5318,Germany,Bavaria,Schwabach,1
+CH.-B.:ACB9148,Germany,Baden-Wurttemberg,,1
+CH.-B.:ET3674,Denmark,Capital Region of Denmark,Copenhagen,1
+CH.-B.:ET3674,Germany,Baden-Wurttemberg,Sandhausen,1
+CH.-B.:ET3674,Germany,Bavaria,Cham,1
+CH.-B.:ET3674,Germany,Hessen,Morfelden-Walldorf,1
+CH.-B.:EY2172,Germany,Rhineland-Palatinate,Herxheim bei Landau/Pfalz,1
+CH.-B.:FC3095,Germany,Baden-Wurttemberg,Stuttgart,1
+CH.-B.:FC3095,Germany,Hessen,Wiesbaden,1
+CH.-B.:FC3095,Germany,Lower Saxony,Wolfsburg,1
+CH.-B.:FC3095,Germany,North Rhine-Westphalia,Bielefeld,1
+CH.-B.:FC3095,Germany,North Rhine-Westphalia,Dortmund,1
+CH.-B.:FE6975,Germany,Baden-Wurttemberg,Oberndorf,1
+CH.-B.:FE6975,Germany,Baden-Wurttemberg,Reutlingen,1
+CH.-B.:FE6975,Germany,Bavaria,(not set),1
+CH.-B.:FE6975,Germany,North Rhine-Westphalia,(not set),1
+CH.-B.:FE6975,Germany,North Rhine-Westphalia,Aachen,1
+CH.-B.:FE6975,Germany,North Rhine-Westphalia,Bielefeld,1
+CH.-B.:FE6975,Germany,North Rhine-Westphalia,Gelsenkirchen,1
+CH.-B.:SCUL2,Germany,Baden-Wurttemberg,Ehingen,1
+CH.-B.:SCUL2,Germany,Bavaria,Vaterstetten,1
+CH.-B: FF0900,Germany,Berlin,Berlin,1
+CH.B EX3510,Germany,Saxony,Plauen,1
+CH.B.1C006A,Germany,Bavaria,Roth,1
+CH.B.1C006A,Germany,North Rhine-Westphalia,(not set),1
+CH.B.1C006A,Germany,Saxony,Wurzen,1
+CH.B.:1C007A,Germany,Lower Saxony,Wolfsburg,1
+CH.B.:EX3599,Germany,North Rhine-Westphalia,Aachen,1
+CH.B.:EX3599,Germany,North Rhine-Westphalia,Bielefeld,1
+CH.B.:EX3599,Germany,Saxony,Leipzig,1
+CH.B.:EX3599,Germany,Thuringia,Weimar,1
+CH.B.:FP1972,Germany,Saxony-Anhalt,Magdeburg,1
+CHBER9480,Germany,Hessen,Frankfurt,1
+CNK 4293254,Belgium,Flanders,Antwerp,1
+COCO138186NEMIS,United States,New Jersey,Medford,1
+COMIRNATY CH.-B,Germany,Lower Saxony,Cloppenburg,1
+COMIRNATY EU/1/,Germany,Bavaria,Klingenberg am Main,1
+COMIRNATY EU/1/,Germany,North Rhine-Westphalia,(not set),1
+CTMAV503,Philippines,Central Visayas,(not set),1
+CTMAV532,Philippines,Central Visayas,(not set),1
+EB6203,Canada,Ontario,Milton,1
+EH9231,United States,Texas,Houston,1
+EH9899,United States,California,Los Angeles,1
+EH9899,United States,Colorado,Highlands Ranch,1
+EH9899,United States,Illinois,Elk Grove Village,1
+EH9899 03/2021,United States,California,Los Angeles,1
+EJ1685,France,Auvergne-Rhone-Alpes,Annemasse,1
+EJ1686,United States,Illinois,Belleville,1
+EJ6134,Czechia,South Bohemian Region,Cesky Krumlov,1
+EJ6136,Austria,Styria,Graz,1
+EJ6136,Austria,Vienna,Vienna,1
+EJ6136,Norway,Vestland,Bergen Municipality,1
+EJ6788,Germany,Hessen,Frankenberg (Eder),1
+EJ6795,Ireland,County Galway,Galway,1
+EJ6796,Czechia,Prague,Prague,1
+EJ6797,Austria,Vienna,Vienna,1
+EJ6797,Czechia,Prague,Prague,1
+EJ6797,Germany,North Rhine-Westphalia,Mechernich,1
+EK4175,Israel,Tel Aviv District,Tel Aviv-Yafo,1
+EK4176,Australia,Western Australia,Perth,1
+EK4242,Israel,Tel Aviv District,Tel Aviv-Yafo,1
+EK5730,Germany,Saxony-Anhalt,(not set),1
+EK9231,United States,Virginia,Ashburn,1
+EK9231,United States,Washington,Sedro-Woolley,1
+EK9788,Germany,Berlin,Berlin,1
+EK9788,Germany,Thuringia,Eisenach,1
+EK9788,Netherlands,North Holland,Den Burg,1
+EL-9261,United States,Illinois,Chicago,1
+EL0140,United States,California,Turlock,1
+EL0739,Germany,Bavaria,Kitzingen,1
+EL1283,United States,Illinois,Chicago,1
+EL1284,Germany,Saxony-Anhalt,(not set),1
+EL1284,United States,California,Los Angeles,1
+EL1284,United States,Colorado,Highlands Ranch,1
+EL1284,United States,Florida,Plantation,1
+EL1284,United States,Illinois,Belleville,1
+EL1284,United States,Indiana,Clinton,1
+EL1285,Italy,Lombardy,Milan,1
+EL1484,Norway,Vestland,Bergen Municipality,1
+EL1491,Czechia,South Bohemian Region,Cesky Krumlov,1
+EL149104/2021,Austria,Styria,Graz,1
+EL3246,United States,Florida,Davenport,1
+EL3247,Germany,Saxony-Anhalt,(not set),1
+EL3249,United States,Idaho,Boise,1
+EL3302,United States,Maryland,Ballenger Creek,1
+EL4176,United States,California,Newport Beach,1
+EL8723,Germany,Lower Saxony,Braunschweig,1
+EL8982,United States,Indiana,Clinton,1
+EL8982,United States,New Jersey,Brick Township,1
+EL9261,United States,Florida,Wildwood,1
+EL9261,United States,Tennessee,Dickson,1
+EL9261,United States,Texas,Dallas,1
+EL9265,United States,North Carolina,Wilson,1
+EL9265,United States,Ohio,Carrollton,1
+EL9265,United States,Pennsylvania,Meyersdale,1
+EL9265,United States,Texas,Dallas,1
+EL9265,United States,Virginia,Ashburn,1
+EL9267,United States,Michigan,Lowell charter Township,1
+EL9281,Germany,Saxony-Anhalt,(not set),1
+EM 9809,United States,Illinois,Chicago,1
+EM-9809,United States,Illinois,Chicago,1
+EM0477,France,Auvergne-Rhone-Alpes,Thonon-les-Bains,1
+EM4965,Australia,Western Australia,Perth,1
+EM9809,United States,California,Los Angeles,1
+EM9809,United States,Florida,Wildwood,1
+EM9810,United States,Ohio,Carrollton,1
+"EM9810, EN6202",United States,South Carolina,Anderson,1
+EN 6201,France,Hauts-de-France,59166,1
+EN 6203,United States,Georgia,(not set),1
+EN 6206,France,Hauts-de-France,59166,1
+EN 6206,Netherlands,North Brabant,Uden,1
+EN1196,Canada,Ontario,Sarnia,1
+EN5318,United States,Illinois,Chicago,1
+EN5318,United States,Tennessee,Madisonville,1
+EN6108,Canada,Ontario,Milton,1
+EN6198,Germany,Bavaria,Selb,1
+EN6198,United States,California,Los Angeles,1
+EN6199,United States,Texas,Canyon Lake,1
+EN6200,United States,Illinois,Chicago,1
+EN6200,United States,Tennessee,Dickson,1
+EN6201,Australia,Queensland,Brisbane,1
+EN6201,France,Hauts-de-France,59166,1
+EN6201,Germany,Brandenburg,Brandenburg,1
+EN6201,Germany,Hamburg,Hamburg,1
+EN6201,Germany,North Rhine-Westphalia,Rahden,1
+EN6201,Italy,Lazio,Rome,1
+EN6201,Netherlands,North Brabant,Uden,1
+EN6201,Spain,Valencian Community,Port de Sagunt,1
+EN6201,United States,California,Carlsbad,1
+EN6201,United States,California,Los Angeles,1
+EN6201,United States,Idaho,Boise,1
+EN6201,United States,Illinois,Chicago,1
+EN6201,United States,Maine,Westbrook,1
+EN6201,United States,Texas,Dallas,1
+EN6202,Canada,Ontario,Milton,1
+EN6202,United States,Colorado,Grand Junction,1
+EN6203,Canada,Ontario,Milton,1
+EN6203,United States,California,Los Angeles,1
+EN6203,United States,Florida,(not set),1
+EN6203,United States,Texas,Pipe Creek,1
+EN6204,United States,Colorado,Grand Junction,1
+EN6204,United States,Texas,Dallas,1
+EN6205,United States,California,Santa Clara,1
+EN6205,United States,Florida,(not set),1
+EN6206,Australia,Queensland,Brisbane,1
+EN6206,France,Hauts-de-France,59166,1
+EN6206,Germany,Hamburg,Hamburg,1
+EN6206,Netherlands,North Brabant,Uden,1
+EN6206,Spain,Valencian Community,Port de Sagunt,1
+EN6206,United States,Idaho,Boise,1
+EN6206,United States,Michigan,Portage,1
+EN6206  ? HARD,Germany,Lower Saxony,Sarstedt,1
+EN6207,United States,Georgia,Atlanta,1
+EN6207,United States,New York,Country Knolls,1
+EN6207,United States,Wisconsin,Watertown,1
+EN6209,Canada,Ontario,Milton,1
+EN6302,Canada,Ontario,Milton,1
+EN6303,United States,Georgia,(not set),1
+EN6955,United States,Washington,Sedro-Woolley,1
+EN9581,United States,Texas,Pipe Creek,1
+EP1533,United States,Georgia,Atlanta,1
+EP6017,Canada,Ontario,Toronto,1
+EP6775,United States,Texas,San Antonio,1
+EP6955,United States,Iowa,Audubon,1
+EP6955,United States,Texas,Dallas,1
+EP6955,United States,Washington,Sedro-Woolley,1
+EP6955,United States,Wisconsin,Marinette,1
+EP69SS,United States,Missouri,Licking,1
+EP7533,United States,Georgia,Atlanta,1
+EP7533,United States,Montana,Helena,1
+EP7534,Germany,Saxony-Anhalt,(not set),1
+EP9598,Germany,Bremen,Bremerhaven,1
+EP9598,Germany,Hessen,Kassel,1
+EP9598,Germany,Hessen,Morfelden-Walldorf,1
+EP9598,Italy,Lombardy,Milan,1
+ER 8727,United States,South Carolina,(not set),1
+ER 8736,United States,South Carolina,(not set),1
+ER-8730,Germany,Mecklenburg-Vorpommern,Ribnitz-Damgarten,1
+ER1741,Germany,Bavaria,Kitzingen,1
+ER1742,Canada,Ontario,(not set),1
+ER1742,Canada,Ontario,Markham,1
+ER1742,Canada,Ontario,Mississauga,1
+ER1742,Canada,Ontario,North Bay,1
+ER2659,Germany,Baden-Wurttemberg,Crailsheim,1
+ER2659,Germany,Bavaria,Cham,1
+ER7812,Germany,Bavaria,Dinkelsbuhl,1
+ER7812,Germany,Hessen,Frankenberg (Eder),1
+ER7812,Germany,Hessen,Frankfurt,1
+ER8722,United States,Tennessee,Mt. Juliet,1
+ER8727,Spain,Community of Madrid,Madrid,1
+ER8727,United States,Delaware,Dover,1
+ER8727,United States,North Carolina,Lincolnton,1
+ER8727,United States,Texas,Canyon Lake,1
+ER8729,United States,California,Carlsbad,1
+ER8730,Australia,Victoria,Melbourne,1
+ER8730,Croatia,Istria County,Pula,1
+ER8730,Czechia,Olomouc Region,Olomouc,1
+ER8730,Germany,Hamburg,Hamburg,1
+ER8730,Netherlands,North Holland,Amsterdam,1
+ER8730,Spain,Valencian Community,Port de Sagunt,1
+ER8730,United Kingdom,England,Plymouth,1
+ER8730,United States,California,Fort Irwin,1
+ER8730,United States,Florida,New Port Richey,1
+ER8730,United States,Idaho,Boise,1
+ER8730,United States,Washington,(not set),1
+ER8731,United States,Washington,(not set),1
+ER8732,United States,Maine,Bath,1
+ER8732,United States,New Jersey,Paterson,1
+ER8732,United States,Ohio,Finneytown,1
+ER8733,United States,Texas,Dallas,1
+ER8734,United States,Missouri,Brookfield,1
+ER8734,United States,Oregon,Estacada,1
+ER8734,United States,Oregon,Springfield,1
+ER8735,United States,Iowa,Audubon,1
+ER8736,United States,Illinois,Chicago,1
+ER8736,United States,Maine,Bath,1
+ER8736,United States,New Jersey,Lawrence Township,1
+ER8736,United States,New Jersey,Paterson,1
+ER8736,United States,New York,Orchard Park,1
+ER9470,France,Ile-de-France,Paris,1
+ER9480,Germany,Baden-Wurttemberg,Sandhausen,1
+ER9480,Germany,Bremen,Bremerhaven,1
+ER9480,Germany,Hessen,Frankfurt,1
+ER9480,Germany,Schleswig-Holstein,Lubeck,1
+ET 3045,Germany,Lower Saxony,Cloppenburg,1
+ET1831,Czechia,Central Bohemian Region,Kladno,1
+ET2838,France,Auvergne-Rhone-Alpes,Thonon-les-Bains,1
+ET3045,Germany,Baden-Wurttemberg,Donaueschingen,1
+ET3045,Germany,Brandenburg,Oranienburg,1
+ET3045,Germany,Hessen,Frankfurt,1
+ET3045,Germany,Mecklenburg-Vorpommern,Rostock,1
+ET3045,Germany,Thuringia,Gera,1
+ET3045,Malaysia,Selangor,Petaling Jaya,1
+ET3620,Czechia,Prague,Prague,1
+ET3620,France,Provence-Alpes-Cote d'Azur,Marseille,1
+ET3620,Germany,Bavaria,Passau,1
+ET3674,Denmark,Capital Region of Denmark,Copenhagen,1
+ET3674,Germany,Bavaria,Munich,1
+ET3674,Germany,Hessen,Morfelden-Walldorf,1
+ET3674,Netherlands,North Holland,Den Burg,1
+ET6956,Netherlands,South Holland,Vlaardingen,1
+ET7205,Italy,Lazio,Rome,1
+ET7205,Italy,Lombardy,Milan,1
+ET8885,United Kingdom,England,London,1
+ET8885,United Kingdom,England,Norwich,1
+ET8885,United Kingdom,Scotland,Edinburgh,1
+ET8885-L659,Germany,Bavaria,Kitzingen,1
+ET8885-L670,Germany,Bavaria,Kitzingen,1
+ET8885/V1193,Germany,Bavaria,Kitzingen,1
+ET888S,Germany,Bavaria,Kitzingen,1
+EW 0186,United States,California,Santa Clara,1
+EW0117,United States,Kentucky,Mount Vernon,1
+EW0128,United States,California,Vallejo,1
+EW0150,United States,California,Santa Clara,1
+EW0150,United States,Colorado,Buena Vista,1
+EW0150,United States,Colorado,Denver,1
+EW0150,United States,Georgia,Marietta,1
+EW0151,United States,Ohio,Waverly,1
+EW0153,United States,Colorado,Lafayette,1
+EW0153,United States,Georgia,Atlanta,1
+EW0153,United States,Wisconsin,Watertown,1
+EW0161,United States,Ohio,Finneytown,1
+EW0162,United States,California,Los Angeles,1
+EW0162%,United States,California,Los Angeles,1
+EW0164,United States,California,Ceres,1
+EW0164,United States,Montana,Helena,1
+EW0167,United States,New York,New York,1
+EW0168,United States,Illinois,Chicago,1
+EW0168,United States,Massachusetts,Attleboro,1
+EW0168,United States,Michigan,Lawton,1
+EW0169,United States,California,Santa Clara,1
+EW0169,United States,Florida,Palm Bay,1
+EW0170,United States,North Carolina,Lincolnton,1
+EW0171,United States,California,Ceres,1
+EW0171,United States,California,Vallejo,1
+EW0172,United States,Missouri,Brookfield,1
+EW0172,United States,New York,Fairport,1
+EW0172,United States,North Carolina,Williamston,1
+EW0172,United States,Ohio,Waverly,1
+EW0172,United States,Virginia,Ashburn,1
+EW0173,United States,Colorado,Lafayette,1
+EW0173,United States,Indiana,Greensburg,1
+EW0173,United States,Ohio,Waverly,1
+EW0173,United States,Virginia,Ashburn,1
+EW0176,United States,Oklahoma,Oklahoma City,1
+EW0177,United States,Colorado,Buena Vista,1
+EW0177,United States,Missouri,St. Louis,1
+EW0177,United States,New York,Oyster Bay,1
+EW0177,United States,South Dakota,Eagle Butte,1
+EW0178,United States,Illinois,Chicago,1
+EW0178,United States,Kansas,Lenora,1
+EW0179,United States,Florida,Palm Bay,1
+EW0179,United States,New York,Oyster Bay,1
+EW0180,United States,Kentucky,Mount Vernon,1
+EW0180,United States,Washington,Federal Way,1
+EW0182,United States,California,Arcata,1
+EW0182,United States,North Carolina,Garner,1
+EW0183,Spain,Community of Madrid,Madrid,1
+EW0183,United States,Washington,Wenatchee,1
+EW0186,United States,Michigan,Forest Hills,1
+EW0186,United States,Ohio,Waverly,1
+EW0187,United States,Georgia,Conyers,1
+EW0187,United States,Hawaii,Honolulu,1
+EW0191,United States,Hawaii,Kula,1
+EW0191,United States,Louisiana,Crowley,1
+EW0193,Canada,British Columbia,Salmon Arm,1
+EW0193,Canada,British Columbia,Vancouver,1
+EW0193,Canada,Nova Scotia,Halifax Regional Municipality,1
+EW0193,Canada,Prince Edward Island,Charlottetown,1
+EW0195,Peru,Lima Province,(not set),1
+EW0196,Spain,Community of Madrid,Madrid,1
+EW0196,United States,Illinois,Chicago,1
+EW0196,United States,New York,Albany,1
+EW0196,United States,Washington,Wenatchee,1
+EW0198,Malaysia,Selangor,Shah Alam,1
+EW0206,Peru,Lima Province,(not set),1
+EW0207,Japan,Tokyo,Koto City,1
+EW0216,Canada,Nova Scotia,Halifax Regional Municipality,1
+EW0216,Canada,Ontario,Markham,1
+EW0216,Canada,Quebec,Montreal,1
+EW0221,Canada,British Columbia,Kelowna,1
+EW0221,Canada,British Columbia,Sidney,1
+EW0812,United States,Michigan,,1
+EW1053,United States,Missouri,Brookfield,1
+EW1058,United States,Ohio,London,1
+EW1077,United States,Missouri,Brookfield,1
+EW1078,United States,Virginia,Ashburn,1
+EW1079,United States,California,Los Angeles,1
+EW161,United States,Michigan,Battle Creek,1
+EW182,United States,Utah,Vernal,1
+EW2239,Austria,Vienna,Vienna,1
+EW2239,Czechia,Central Bohemian Region,Kladno,1
+EW2239,France,Occitanie,Canet-en-Roussillon,1
+EW2239,Norway,(not set),(not set),1
+EW2246,Czechia,Prague,Prague,1
+EW2246,France,Ile-de-France,Paris,1
+EW3143,Germany,Bavaria,Kitzingen,1
+EW3413,United States,Colorado,Lafayette,1
+EW3924,Germany,Schleswig-Holstein,Lubeck,1
+EW4019,United Kingdom,England,Ellesmere Port,1
+EW4109,United Kingdom,England,Chelmsford,1
+EW4811,Japan,Ishikawa,Kaga,1
+EW4815,Norway,(not set),(not set),1
+EW6126,Germany,Bavaria,Selb,1
+EW6326,Spain,Catalonia,Barcelona,1
+EW8904,France,Occitanie,09350,1
+EW8904,Germany,Baden-Wurttemberg,Stuttgart,1
+EW8904,Germany,Bavaria,Maxhutte-Haidhof,1
+EW8904,Germany,Brandenburg,Brandenburg,1
+EW8904,Germany,Hamburg,Hamburg,1
+EW8904,Germany,Hessen,Frankfurt,1
+EW8904,Germany,North Rhine-Westphalia,Cologne,1
+EW8904,Germany,Saxony,Chemnitz,1
+EW8904,Germany,Saxony,Leipzig,1
+EW8904,Switzerland,Zurich,Zurich,1
+EW9127,Bulgaria,Sofia City Province,Sofia,1
+EWO162,United States,Montana,Stevensville,1
+EWO175,United States,Montana,Stevensville,1
+EWO181,United States,Virginia,Petersburg,1
+EWO199,Canada,British Columbia,Vancouver,1
+EWO202,Philippines,Metro Manila,Quezon City,1
+EWO217,United States,Virginia,Petersburg,1
+EX 3599,Germany,Saxony,Leipzig,1
+EX 3599,Germany,Saxony-Anhalt,Querfurt,1
+EX 8679,Germany,Baden-Wurttemberg,Bad Saulgau,1
+EX 8679,Germany,Lower Saxony,Hann. Munden,1
+EX0438,Canada,Quebec,Joliette,1
+EX0893,Austria,Upper Austria,Linz,1
+EX0893,Italy,Lazio,Rome,1
+EX2405,France,Ile-de-France,Paris,1
+EX2405,Malaysia,Selangor,Petaling Jaya,1
+EX3510,Germany,Hamburg,Hamburg,1
+EX3510,Poland,Masovian Voivodeship,Warsaw,1
+EX3599,Bulgaria,Sofia City Province,Sofia,1
+EX3599,Germany,Hessen,Frankfurt,1
+EX3599,Germany,North Rhine-Westphalia,Bielefeld,1
+EX3599,Germany,North Rhine-Westphalia,Stolberg (Rhineland),1
+EX3599,Germany,Saxony-Anhalt,(not set),1
+EX3617,Japan,Hokkaido,Muroran,1
+EX3617,Japan,Tokyo,(not set),1
+EX7389,Italy,Tuscany,Florence,1
+EX7398,Italy,Lombardy,Milan,1
+EX7823,Germany,Baden-Wurttemberg,Albbruck,1
+EX7823,Germany,Baden-Wurttemberg,Reutlingen,1
+EX7823,Germany,Bavaria,Munich,1
+EX7823,Germany,North Rhine-Westphalia,Bad Oeynhausen,1
+EX7823,Netherlands,Limburg,Sint Odilienberg,1
+EX8660,Germany,Thuringia,Gera,1
+EX8679,Argentina,Buenos Aires,Buenos Aires,1
+EX8679,Austria,Vienna,Vienna,1
+EX8679,Germany,Baden-Wurttemberg,(not set),1
+EX8679,Germany,Baden-Wurttemberg,Crailsheim,1
+EX8679,Germany,Baden-Wurttemberg,Herrenberg,1
+EX8679,Germany,Baden-Wurttemberg,Sandhausen,1
+EX8679,Germany,Baden-Wurttemberg,Sinsheim,1
+EX8679,Germany,Baden-Wurttemberg,Stuttgart,1
+EX8679,Germany,Bavaria,Bayreuth,1
+EX8679,Germany,Bavaria,Ingolstadt,1
+EX8679,Germany,Bavaria,Nuremberg,1
+EX8679,Germany,Berlin,Berlin,1
+EX8679,Germany,Hessen,Frankfurt,1
+EX8679,Germany,Hessen,Morfelden-Walldorf,1
+EX8679,Germany,Lower Saxony,(not set),1
+EX8679,Germany,Lower Saxony,Hann. Munden,1
+EX8679,Germany,Lower Saxony,Lehrte,1
+EX8679,Germany,Mecklenburg-Vorpommern,Waren,1
+EX8679,Germany,North Rhine-Westphalia,Dortmund,1
+EX8679,Germany,North Rhine-Westphalia,Gelsenkirchen,1
+EX8679,Germany,Thuringia,Gera,1
+EX8679,Indonesia,Jambi,37173,1
+EX8679,Luxembourg,(not set),Luxembourg,1
+EX8680,Germany,Baden-Wurttemberg,Donaueschingen,1
+EX8680,Germany,Baden-Wurttemberg,Stuttgart,1
+EX8680,Germany,Brandenburg,Luckenwalde,1
+EX8680,Germany,Mecklenburg-Vorpommern,Parchim,1
+EX8680,Germany,North Rhine-Westphalia,Tonisvorst,1
+EX8680,Germany,Saxony,Chemnitz,1
+EX8680,Germany,Saxony,Leipzig,1
+EX8680,Germany,Schleswig-Holstein,Lubeck,1
+EY0578,Canada,Ontario,(not set),1
+EY0578,Canada,Ontario,North Bay,1
+EY0578,Canada,Ontario,Toronto,1
+EY0581,South Africa,Free State,Bethlehem,1
+EY0582,South Africa,Free State,Bethlehem,1
+EY0582,South Africa,Gauteng,Krugersdorp,1
+EY0582,South Africa,Western Cape,Cape Town,1
+EY0584,Malaysia,Selangor,Banting,1
+EY0585,Canada,Ontario,Hamilton,1
+EY2172,Germany,North Rhine-Westphalia,Cologne,1
+EY2172,Germany,North Rhine-Westphalia,Monchengladbach,1
+EY4825,Canada,Ontario,Peterborough,1
+EY4825,United Arab Emirates,Dubai,Dubai,1
+EY7065,Italy,Lombardy,Gallarate,1
+F10007,Germany,Baden-Wurttemberg,Esslingen,1
+F56369,United States,Virginia,Ashburn,1
+F63527,United States,Virginia,Petersburg,1
+FA1027,United Kingdom,England,London,1
+FA2027,Philippines,Metro Manila,Quezon City,1
+FA4598,Austria,Vienna,Vienna,1
+FA5765,United States,Texas,Dallas,1
+FA5829,France,Auvergne-Rhone-Alpes,Annemasse,1
+FA5833,Australia,Western Australia,Perth,1
+FA5833,Germany,Berlin,Berlin,1
+FA5833,Germany,Brandenburg,Schwedt,1
+FA5833,Germany,North Rhine-Westphalia,(not set),1
+FA6780,United States,California,Rancho Palos Verdes,1
+FA6780,United States,North Carolina,Shelby,1
+FA6780,United States,Texas,Lewisville,1
+FA7458,Belgium,Flanders,Bilzen,1
+FA7484,United States,Pennsylvania,York,1
+FA7485,Austria,Vienna,Vienna,1
+FA7485,Canada,British Columbia,Vancouver,1
+FA7485,Canada,Nova Scotia,Truro,1
+FA7485,Croatia,Istria County,Pula,1
+FA7485,Italy,Sardinia,Cagliari,1
+FA7485,Netherlands,North Holland,Amsterdam,1
+FA7485,United Kingdom,England,London,1
+FA7485,United States,Connecticut,Norwich,1
+FA7485,United States,Idaho,Boise,1
+FA7485,United States,Illinois,Chicago,1
+FA7485,United States,South Carolina,Cheraw,1
+FA7485,United States,Virginia,Ashburn,1
+FA7842,Poland,Masovian Voivodeship,Warsaw,1
+FA8721,Australia,New South Wales,Sydney,1
+FA8721,Canada,British Columbia,Colwood,1
+FA8721,Canada,Ontario,Mississauga,1
+FA8721,Peru,La Libertad,Trujillo,1
+FA9091,Canada,Quebec,Joliette,1
+FA9093,Canada,Ontario,Toronto,1
+FA9094,Brazil,State of Parana,Curitiba,1
+FA9094,Canada,Alberta,Taber,1
+FA9094,Canada,Nova Scotia,Halifax Regional Municipality,1
+FA9094,Canada,Ontario,Sarnia,1
+FA9094,Canada,Prince Edward Island,Charlottetown,1
+FA9099,Canada,Alberta,Edson,1
+FA9099,Canada,Nova Scotia,Halifax Regional Municipality,1
+FA9099,Canada,Ontario,Bowmanville,1
+FA9099,Canada,Prince Edward Island,Charlottetown,1
+FA9099,Canada,Quebec,Montreal,1
+FA9099,Canada,Saskatchewan,Regina,1
+FC 1440,Spain,Community of Madrid,Madrid,1
+FC 8889,Germany,Lower Saxony,Cloppenburg,1
+FC0681,Austria,Vienna,Vienna,1
+FC0681,Finland,Uusimaa,Helsinki,1
+FC0681,France,Auvergne-Rhone-Alpes,Annemasse,1
+FC1400,Spain,Community of Madrid,Madrid,1
+FC1433,Ireland,County Dublin,Dublin,1
+FC1433,Spain,Community of Madrid,Madrid,1
+FC1436,Germany,Hessen,Frankfurt,1
+FC1436,Germany,Saxony,Crimmitschau,1
+FC1436,Spain,Community of Madrid,Madrid,1
+FC1439,Spain,Community of Madrid,Madrid,1
+FC1440,Germany,Baden-Wurttemberg,Reutlingen,1
+FC1440,Germany,Hessen,(not set),1
+FC1440,Germany,Hessen,Frankfurt,1
+FC1440,Germany,North Rhine-Westphalia,Cologne,1
+FC1526,Italy,Lombardy,Bergamo,1
+FC2090,Belgium,Flanders,Antwerp,1
+FC2229,Italy,Tuscany,Florence,1
+FC2336,Denmark,Capital Region of Denmark,Ballerup,1
+FC2473,Austria,Upper Austria,Linz,1
+FC3095,Germany,Lower Saxony,Lehrte,1
+FC3095,Germany,Lower Saxony,Soltau,1
+FC3095,Germany,North Rhine-Westphalia,Gelsenkirchen,1
+FC3095,Germany,Schleswig-Holstein,(not set),1
+FC3098,Finland,Uusimaa,Helsinki,1
+FC3098,Italy,Lombardy,Gallarate,1
+FC3098,Netherlands,Limburg,Sint Odilienberg,1
+FC3098,Netherlands,North Holland,Haarlem,1
+FC3128,United States,Connecticut,Madison,1
+FC3130,United States,Connecticut,Madison,1
+FC3143,Netherlands,South Holland,The Hague,1
+FC3180,United States,Illinois,Chicago,1
+FC3180,United States,Wisconsin,Wauwatosa,1
+FC3181,Mexico,Jalisco,Guadalajara,1
+FC3181,United States,Connecticut,Groton,1
+FC3181,United States,South Carolina,Cheraw,1
+FC3182,France,Auvergne-Rhone-Alpes,Annemasse,1
+FC3182,United States,Illinois,Belleville,1
+FC3182,United States,New Jersey,Tenafly,1
+FC3183,United States,California,,1
+FC3183,United States,Florida,Palm Beach Gardens,1
+FC3183,United States,Louisiana,Crowley,1
+FC3184,United States,California,,1
+FC3184,United States,North Carolina,Shelby,1
+FC3184,United States,Texas,Lewisville,1
+FC3184,United States,Washington,Seattle,1
+FC3193,United States,Illinois,Chicago,1
+FC3661,Germany,Bavaria,Selb,1
+FC3661,Japan,Hokkaido,Muroran,1
+FC5089,Italy,Lombardy,Milan,1
+FC5436,Poland,Masovian Voivodeship,Warsaw,1
+FC5947,Japan,Tokyo,(not set),1
+FC8736,Croatia,City of Zagreb,Zagreb,1
+FC8736,Croatia,Zadar County,(not set),1
+FC8736,Italy,Lombardy,Como,1
+FC8889,Germany,North Rhine-Westphalia,Duisburg,1
+FCO681,Germany,North Rhine-Westphalia,Bielefeld,1
+FD 7958,Germany,Baden-Wurttemberg,Donaueschingen,1
+FD 7958,Germany,Lower Saxony,Sarstedt,1
+FD0168,Germany,Lower Saxony,Melle,1
+FD0168F,Germany,Lower Saxony,Melle,1
+FD0350,Philippines,Calabarzon,Bacoor,1
+FD0350,Switzerland,Solothurn,(not set),1
+FD0785,Belgium,Flanders,Turnhout,1
+FD0785,Spain,Asturias,Gijon,1
+FD0809,Canada,Quebec,Amos,1
+FD0810,Canada,British Columbia,Delta,1
+FD0810,Canada,British Columbia,Kelowna,1
+FD0810,Canada,British Columbia,Sidney,1
+FD0810,Canada,Nova Scotia,Halifax Regional Municipality,1
+FD0810,Canada,Ontario,Markham,1
+FD0810,Canada,Ontario,Vaughan,1
+FD0810,Canada,Saskatchewan,Regina,1
+FD0927,Peru,La Libertad,Trujillo,1
+FD0927,South Africa,Gauteng,Johannesburg,1
+FD0932,Denmark,Capital Region of Denmark,Ballerup,1
+FD0932,Poland,Lower Silesian Voivodeship,Wroclaw,1
+FD1921,Czechia,Central Bohemian Region,Kladno,1
+FD1921,Czechia,Central Bohemian Region,Kolin,1
+FD1921,Germany,Hessen,(not set),1
+FD1921F,United Kingdom,Scotland,Glasgow,1
+FD4500,Austria,Vienna,Vienna,1
+FD4555,Canada,Alberta,Redwood Meadows,1
+FD4555,Czechia,Central Bohemian Region,Kolin,1
+FD4555,Finland,Pirkanmaa,Tampere,1
+FD5613,United States,Delaware,Bridgeville,1
+FD5996,Philippines,Calabarzon,Bacoor,1
+FD5996,Philippines,Calabarzon,General Trias,1
+FD5996,Philippines,Metro Manila,Paranaque,1
+FD6840,Austria,Vienna,Vienna,1
+FD6840,Czechia,South Moravian Region,Brno,1
+FD6840,Germany,Baden-Wurttemberg,Stuttgart,1
+FD6840,Netherlands,South Holland,The Hague,1
+FD6840F,Czechia,South Moravian Region,Brno,1
+FD7204,Canada,British Columbia,(not set),1
+FD7204,Canada,British Columbia,Vancouver,1
+FD7204,Canada,Ontario,Mississauga,1
+FD7204,Canada,Ontario,North Bay,1
+FD7204,Canada,Saskatchewan,Regina,1
+FD7206,Canada,British Columbia,Colwood,1
+FD7958,Germany,Baden-Wurttemberg,Donaueschingen,1
+FD7958,Germany,Lower Saxony,Achim,1
+FD7958,Germany,Mecklenburg-Vorpommern,Hagenow,1
+FD7958,Germany,North Rhine-Westphalia,Tonisvorst,1
+FD7958,Germany,Saxony,Leipzig,1
+FD7958,Germany,Schleswig-Holstein,Lubeck,1
+FD7958,Netherlands,(not set),(not set),1
+FD8448,United States,California,Los Angeles,1
+FD8448,United States,North Carolina,Lincolnton,1
+FD8448,United States,Oregon,Central Point,1
+FD8813,United Kingdom,England,Plymouth,1
+FD9234,Argentina,Buenos Aires,Buenos Aires,1
+FD9234,Germany,Berlin,Berlin,1
+FD9234,Germany,Brandenburg,Luckenwalde,1
+FD9234,Germany,Hessen,Morfelden-Walldorf,1
+FD9234,Germany,Mecklenburg-Vorpommern,Parchim,1
+FD9234,Germany,North Rhine-Westphalia,Dusseldorf,1
+FD9234,Germany,North Rhine-Westphalia,Krefeld,1
+FD9234,Hungary,Budapest,Budapest,1
+FE 2090,Belgium,Flanders,Antwerp,1
+FE 6975,Germany,Hessen,Frankfurt,1
+FE 9174,Germany,Bavaria,Marktoberdorf,1
+FE1248,Spain,Asturias,Gijon,1
+FE1510,United Kingdom,England,Peterborough,1
+FE2296,Czechia,Central Bohemian Region,Kladno,1
+FE2296,France,Auvergne-Rhone-Alpes,Annemasse,1
+FE2625,Netherlands,North Brabant,Eindhoven,1
+FE2707,Italy,Lombardy,Como,1
+FE3064,South Africa,Western Cape,Cape Town,1
+FE3065,Italy,Lombardy,Como,1
+FE3380,United States,Georgia,Atlanta,1
+FE3430,Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,1
+FE3590,Austria,Vienna,Vienna,1
+FE3590,Spain,Community of Madrid,Madrid,1
+FE3590,United States,California,Los Angeles,1
+FE3591,United States,Florida,Sarasota,1
+FE3592,United States,North Carolina,Garner,1
+FE3594,United States,Connecticut,Madison,1
+FE3594-PFIZER-2,United States,Connecticut,Madison,1
+FE4222,United States,New York,New York,1
+FE6029,Poland,Masovian Voivodeship,Warsaw,1
+FE620,Canada,Ontario,Windsor,1
+FE6208,Austria,Tyrol,Ehrwald,1
+FE6208,Canada,British Columbia,Coquitlam,1
+FE6208,Canada,Ontario,Burlington,1
+FE6208,Croatia,Zadar County,(not set),1
+FE6208,Germany,Bavaria,Regensburg,1
+FE6208,Germany,Rhineland-Palatinate,Bad Kreuznach,1
+FE6208,Germany,Saxony,Grimma,1
+FE6208,Netherlands,South Holland,The Hague,1
+FE6208,Norway,(not set),(not set),1
+FE6280,Canada,Ontario,Windsor,1
+FE6840,Germany,Baden-Wurttemberg,Reutlingen,1
+FE6975,Germany,Brandenburg,Cottbus,1
+FE6975,Germany,Brandenburg,Oranienburg,1
+FE6975,Germany,Hessen,Frankfurt,1
+FE6975,Germany,North Rhine-Westphalia,Lippstadt,1
+FE6975,Germany,Saxony-Anhalt,Wernigerode,1
+FE6975,Germany,Thuringia,Erfurt,1
+FE7010,Belgium,Flanders,Turnhout,1
+FE7010,Netherlands,South Holland,The Hague,1
+FE7011,Austria,Styria,Bad Radkersburg,1
+FE7011,Germany,Baden-Wurttemberg,,1
+FE7011,Germany,Bavaria,Roth,1
+FE7011,Germany,Lower Saxony,Meppen,1
+FE7011,Germany,Saxony,Oschatz,1
+FE7051,Austria,Carinthia,Klagenfurt am Worthersee,1
+FE7051,Austria,Tyrol,Innsbruck,1
+FE8087,Lebanon,Beirut Governorate,Beirut,1
+FE8087,United Kingdom,England,Peterborough,1
+FE8087,United Kingdom,Scotland,Edinburgh,1
+FE8087,United Kingdom,Wales,Cardiff,1
+FE8163,Australia,New South Wales,Sydney,1
+FE8235,Switzerland,Solothurn,(not set),1
+FE8244,France,Occitanie,Toulouse,1
+FE8405,Germany,Hessen,(not set),1
+FE8405,Germany,Mecklenburg-Vorpommern,Rostock,1
+FE8405,Germany,Saxony-Anhalt,Magdeburg,1
+FE8841,United States,Illinois,Chicago,1
+FE9170,Germany,Hessen,Morfelden-Walldorf,1
+FE9174,Germany,Baden-Wurttemberg,Markgroningen,1
+FE9174,Germany,Hessen,Fulda,1
+FE9174,Germany,Hessen,Morfelden-Walldorf,1
+FE9174,Indonesia,Jakarta,Jakarta,1
+FF 2587,United States,Florida,Brandon,1
+FF 2832,Denmark,Capital Region of Denmark,Brondby,1
+FF0680,Austria,Tyrol,Ehrwald,1
+FF0680,Italy,Lombardy,Milan,1
+FF0688,Italy,Sardinia,(not set),1
+FF0688,Netherlands,Gelderland,Eibergen,1
+FF0688,Netherlands,North Holland,Haarlem,1
+FF0884,Ireland,County Dublin,Dublin,1
+FF0900,Germany,Bavaria,Starnberg,1
+FF0900,Germany,Hessen,Frankfurt,1
+FF0900,Germany,Lower Saxony,Achim,1
+FF0900,Germany,North Rhine-Westphalia,Krefeld,1
+FF0900,Germany,Saxony,Grimma,1
+FF2153,United Kingdom,England,Taunton,1
+FF2154,Canada,New Brunswick,Miramichi,1
+FF2154,United Arab Emirates,Ajman,Ajman,1
+FF2587,United States,Georgia,Conyers,1
+FF2587,United States,North Carolina,Wallace,1
+FF2588,United States,Connecticut,Madison,1
+FF2588,United States,Illinois,Belleville,1
+FF2588,United States,New York,New York,1
+FF2588,United States,North Carolina,Wallace,1
+FF2589,United States,Colorado,Denver,1
+FF2590,United States,Michigan,Portage,1
+FF2593,United States,Virginia,Luray,1
+FF2595,Canada,Alberta,Okotoks,1
+FF2595,Canada,Alberta,Provost,1
+FF2832,Finland,Uusimaa,Helsinki,1
+FF3318,Czechia,Prague,Prague,1
+FF3620,Japan,Tokyo,(not set),1
+FF4204,Japan,Tokyo,Koto City,1
+FF4206,New Zealand,Canterbury,Christchurch,1
+FF4206,New Zealand,Manawatu-Wanganui,Palmerston North,1
+FF4213,Netherlands,Utrecht,Leerdam,1
+FF5109,Mexico,Jalisco,Guadalajara,1
+FF5111,South Africa,Western Cape,Cape Town,1
+FF680,Canada,Ontario,Burlington,1
+FF8111,Lebanon,Beirut Governorate,Beirut,1
+FF8222,United Kingdom,England,Croydon,1
+FF8840,Italy,Lombardy,(not set),1
+FF8841,United States,Michigan,Wixom,1
+FF8871,New Zealand,Manawatu-Wanganui,Palmerston North,1
+FG 4509,Netherlands,Utrecht,Leerdam,1
+FG 6431,United Kingdom,England,London,1
+FG1620,Canada,New Brunswick,Miramichi,1
+FG1657,United Arab Emirates,Abu Dhabi,Abu Dhabi,1
+FG3527,United States,Georgia,Marietta,1
+FG3530,Brazil,State of Parana,Curitiba,1
+FG3712,United Kingdom,England,London,1
+FG3716,Norway,Oslo,Oslo Municipality,1
+FG3739,Italy,Lombardy,Como,1
+FG4493,France,Auvergne-Rhone-Alpes,Annemasse,1
+FG4493,France,Pays de la Loire,Nantes,1
+FG4509,Austria,Tyrol,Innsbruck,1
+FG4509,Finland,Uusimaa,Helsinki,1
+FG4509,Netherlands,North Brabant,Eindhoven,1
+FG6270,Italy,Lombardy,Como,1
+FG6270,Italy,Lombardy,Milan,1
+FG6270,Italy,Tuscany,Florence,1
+FG6272,Malaysia,Terengganu,Kuala Dungun,1
+FG6273,Netherlands,(not set),(not set),1
+FG6431,United Kingdom,England,London,1
+FG7372,Australia,Western Australia,Perth,1
+FG7372,Norway,Oslo,Oslo Municipality,1
+FG7898,Norway,Vestland,Bergen Municipality,1
+FG7911,France,Auvergne-Rhone-Alpes,Cluses,1
+FG7911,France,Centre-Val de Loire,Blois,1
+FG8643,South Africa,Western Cape,Cape Town,1
+FG9019,Germany,Bremen,Bremerhaven,1
+FG9019,United Arab Emirates,Dubai,Dubai,1
+FH0114,Netherlands,South Holland,Rotterdam,1
+FH0161,Finland,Uusimaa,Helsinki,1
+FH3023,Australia,Victoria,Melbourne,1
+FH3023,Japan,Tokyo,(not set),1
+FH3219,Germany,Bremen,Bremerhaven,1
+FH3219,New Zealand,Auckland,Auckland,1
+FH3219,New Zealand,Waikato,Hamilton,1
+FH3220,United Kingdom,Wales,(not set),1
+FH3220,United States,Georgia,Atlanta,1
+FH3253,Australia,Victoria,Melbourne,1
+FH4092,Australia,New South Wales,Sydney,1
+FH4751,United Kingdom,England,London,1
+FH4751,United Kingdom,England,Milton Keynes,1
+FH4752,New Zealand,Canterbury,(not set),1
+FH4752,New Zealand,Canterbury,Christchurch,1
+FH8020,United States,Illinois,Chicago,1
+FH8027,United States,Maryland,Ballenger Creek,1
+FH8028,United States,Illinois,Robinson,1
+FH8028,United States,Michigan,Wixom,1
+FH8030,United States,New York,Huntington,1
+FH8469,United Kingdom,England,Birmingham,1
+FH8469,United Kingdom,England,Watford,1
+FH8773,Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,1
+FH9678,Germany,North Rhine-Westphalia,Stolberg (Rhineland),1
+FH9678,New Zealand,Auckland,Auckland,1
+FH9678,New Zealand,Waikato,Hamilton,1
+FH9951,Austria,Vienna,Vienna,1
+FJ1611,United States,Virginia,Radford,1
+FJ1620,United States,Virginia,Spotsylvania Courthouse,1
+FJ1620-PFIZER-2,United States,Virginia,Spotsylvania Courthouse,1
+FJ4989,United States,Idaho,Boise,1
+FJ4991,United States,Maryland,Columbia,1
+FJ4991,United States,New York,New York,1
+FJ5682,United States,California,Los Angeles,1
+FJ5973,Australia,Western Australia,Perth,1
+FJ5973,Austria,Styria,Graz,1
+FJ5973,Austria,Vienna,Vienna,1
+FJ5973,Malaysia,Selangor,Puchong,1
+FJ6369,United States,Kentucky,Mount Vernon,1
+FJ8041,Austria,Vienna,Vienna,1
+FJ8757,United States,Illinois,Chicago,1
+FJ8757,United States,Texas,Dallas,1
+FJ8762,United States,Virginia,Spotsylvania Courthouse,1
+FJ8765,Peru,La Libertad,Trujillo,1
+FJ9943,United States,South Carolina,(not set),1
+FK0112,Australia,Western Australia,Perth,1
+FK0112,Denmark,Capital Region of Denmark,Ishoj,1
+FK0112,Germany,North Rhine-Westphalia,Rheinberg,1
+FK0112,United Kingdom,England,Milton Keynes,1
+FK0112,United Kingdom,England,Stoke-on-Trent,1
+FK0112,United States,California,(not set),1
+FK0112,United States,Georgia,Atlanta,1
+FK0115,New Zealand,Auckland,Auckland,1
+FK0396,New Zealand,Auckland,Auckland,1
+FK0594,France,Occitanie,Canet-en-Roussillon,1
+FK0596,United Kingdom,England,Croydon,1
+FK0723,Germany,Berlin,Berlin,1
+FK5127,United States,Arizona,Peoria,1
+FK5475,Austria,Tyrol,Ehrwald,1
+FK6268,Australia,New South Wales,Sydney,1
+FK6268,Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,1
+FK6268,Switzerland,Canton of Bern,Aarwangen,1
+FK6302,Japan,Tokyo,(not set),1
+FK6303,Austria,Lower Austria,Bruck an der Leitha,1
+FK6303,Austria,Vienna,Vienna,1
+FK6304,Germany,Lower Saxony,Braunschweig,1
+FK6304,Italy,Lombardy,Gallarate,1
+FK6858,Malaysia,Kelantan,Kota Bharu,1
+FK6858,Malaysia,Perak,(not set),1
+FK8562,Japan,Tokyo,(not set),1
+FK9706,Slovakia,Bratislava Region,Bratislava,1
+FK9729,United States,New Jersey,Tenafly,1
+FK9894,United States,Idaho,Boise,1
+FKO112,United Kingdom,England,Hindhead,1
+FL0007,Japan,Ibaraki,Tsukuba,1
+FL3196,Brazil,State of Parana,Curitiba,1
+FL3209,United States,Colorado,Lafayette,1
+FL3209,United States,Texas,Arlington,1
+FL3209-PFIZER-2,United States,Ohio,Parma,1
+FL3209-PFIZER-2,United States,Texas,Arlington,1
+FL3210,Canada,Ontario,Toronto,1
+FL4210,Germany,Lower Saxony,Soltau,1
+FL4213,Austria,Upper Austria,Linz,1
+FL5324,Austria,Lower Austria,Bruck an der Leitha,1
+FL5324,Austria,Styria,Graz,1
+FL5324,Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,1
+FL8094,United States,Idaho,Boise,1
+FM 0698,United States,California,Tehachapi,1
+FM0698,United States,California,San Diego,1
+FM0698,United States,New York,New York,1
+FM2952,Canada,Alberta,Taber,1
+FM3092,Norway,Oslo,Oslo Municipality,1
+FM3802,United Kingdom,England,Poole,1
+FM9992,United States,New York,New York,1
+FN2034,United Kingdom,England,London,1
+FN2908,Japan,Hyogo,Amagasaki,1
+FN2908,United Kingdom,England,London,1
+FN2908,United States,Florida,Winter Haven,1
+FN2908,United States,Idaho,Boise,1
+FN2908,United States,Iowa,Cedar Rapids,1
+FN2908,United States,New York,New York,1
+FN2908,United States,Oklahoma,Oklahoma City,1
+FN2908,United States,Texas,Austin,1
+FN3543,France,Auvergne-Rhone-Alpes,(not set),1
+FN3543,Poland,Lublin Voivodeship,(not set),1
+FN3731,Denmark,Capital Region of Denmark,Ballerup,1
+FN3731,Germany,Bremen,Bremerhaven,1
+FN4365,Philippines,Metro Manila,Paranaque,1
+FN5254,United Kingdom,England,Taunton,1
+FN5430,France,Auvergne-Rhone-Alpes,(not set),1
+FN5519,Germany,Bremen,Bremerhaven,1
+FP1965,Norway,Vestland,Bergen Municipality,1
+FP1972,Germany,Baden-Wurttemberg,(not set),1
+FP1972,Germany,Hessen,Frankfurt,1
+FP1972,Germany,Saxony-Anhalt,Magdeburg,1
+FP7134,Spain,Valencian Community,Port de Sagunt,1
+FP7135,Czechia,Liberec Region,Liberec,1
+FP7135,Czechia,Prague,Prague,1
+FP7135,Germany,Baden-Wurttemberg,Stuttgart,1
+FP7135,Germany,Hamburg,Hamburg,1
+FP7135,Japan,Shimane,Matsue,1
+FP7135,Norway,,,1
+FP7135,Norway,Viken,Halden Municipality,1
+FP7135,Spain,Valencian Community,Port de Sagunt,1
+FP7135,United States,California,Los Angeles,1
+FP7135,United States,Florida,Plantation,1
+FP7135,United States,Illinois,Chicago,1
+FP7135-PFIZER-2,Australia,Queensland,Mount Isa,1
+FP7135-PFIZER-2,Canada,Quebec,Montreal,1
+FP7135-PFIZER-2,Germany,Baden-Wurttemberg,Karlsruhe,1
+FP7135-PFIZER-2,Japan,Shimane,Matsue,1
+FP7135-PFIZER-2,Norway,Viken,Halden Municipality,1
+FP7135-PFIZER-2,United States,California,Los Angeles,1
+FP8290,Malaysia,Terengganu,Kuala Dungun,1
+FP9359,Ireland,County Dublin,Dublin,1
+FT1551,United States,Wisconsin,Milwaukee,1
+FT9142-PFIZER-2,Austria,Vienna,Vienna,1
+FX8528,Mexico,Quintana Roo,Cancun,1
+GA6772,Mexico,Quintana Roo,Cancun,1
+GD6798,Germany,Lower Saxony,Wilhelmshaven,1
+GE1643,United Kingdom,England,Reading,1
+GE3043,United Kingdom,England,Watford,1
+GE3043,United Kingdom,England,Wolverhampton,1
+GE3043,United Kingdom,Wales,(not set),1
+GE8310,Germany,North Rhine-Westphalia,Munster,1
+GH9693,United States,Colorado,Denver,1
+GH9715,Germany,Bavaria,Munich,1
+GH9715,Germany,Hessen,Frankfurt,1
+GH9715,Germany,Saarland,Saarbrucken,1
+GH9715,Germany,Schleswig-Holstein,Lubeck,1
+GJ1852,Japan,Tokyo,Koto City,1
+GJ2542,Germany,Brandenburg,Luckenwalde,1
+GJ2543,Germany,Hessen,Morfelden-Walldorf,1
+GJ2543,Germany,Lower Saxony,Uelzen,1
+GJ4535,Germany,Berlin,Berlin,1
+GJ4535,Germany,Mecklenburg-Vorpommern,Wolgast,1
+GJ4535,Germany,Thuringia,Eisenach,1
+GJ5342,United States,California,San Diego,1
+GJ6738,United States,Indiana,Greensburg,1
+GJ6742,United States,South Carolina,Seneca,1
+GJ7139,Japan,Fukuoka,Fukuoka,1
+GJ7139,Japan,Tokyo,(not set),1
+GJ7139,Japan,Tokyo,Hachioji,1
+GJ9239,United Kingdom,England,Matlock,1
+GJ9259,United Kingdom,England,Matlock,1
+GK0924,Canada,Ontario,Sarnia,1
+GL0447,United States,North Carolina,Garner,1
+GM8341,United Kingdom,England,London,1
+GR8727,United States,Wisconsin,Hudson,1
+HD9868,Belgium,Brussels,Brussels,1
+HE2391,United States,Indiana,Jasper,1
+HG2252,Sweden,Vastra Gotaland County,Gothenburg,1
+HG2272,United Kingdom,England,London,1
+HG2272,United Kingdom,England,Taunton,1
+HG2292,United Kingdom,England,Eastbourne,1
+HG2649,United States,Virginia,Dale City,1
+HG3108,Germany,Hessen,Bad Homburg,1
+HG4628,United States,New York,New York,1
+HG4633,United States,California,Los Angeles,1
+HG4659,United States,West Virginia,Charles Town,1
+HG4664,United States,Washington,Artondale,1
+HG4680,Canada,Ontario,Toronto,1
+HH1298,United Kingdom,England,London,1
+HH3252,United States,Indiana,Jasper,1
+J&J 1805029,United States,California,San Diego,1
+J&J 202A21A,United States,Rhode Island,Warwick,1
+J07BX03,Austria,Vienna,Vienna,1
+J07BX03,France,Ile-de-France,Colombes,1
+J07BX03,France,Nouvelle-Aquitaine,Pau,1
+J07BX03,Türkiye,Mugla,Marmaris,1
+J202100034,Philippines,Metro Manila,Quezon City,1
+J20210311,Philippines,Metro Manila,Quezon City,1
+J202106033,Philippines,Calabarzon,General Trias,1
+J202106033,Philippines,Metro Manila,Quezon City,1
+J202107048,Philippines,Metro Manila,Quezon City,1
+JANSSEN 042A21A,United States,Michigan,Portage,1
+JANSSEN 202A21A,United States,Rhode Island,Warwick,1
+JANSSEN COVID-1,United States,Arizona,Phoenix,1
+JJ043A21A,United States,New York,Rochester,1
+JO7BX03,France,Auvergne-Rhone-Alpes,Thonon-les-Bains,1
+JOHNSON & JOHNS,Romania,Timis,Timisoara,1
+K003B,Philippines,Calabarzon,General Trias,1
+L202106046,Philippines,Metro Manila,Quezon City,1
+L202106046,Philippines,Western Visayas,Iloilo City,1
+LOT 000076A,Germany,Baden-Wurttemberg,(not set),1
+LOT 000077A,Germany,North Rhine-Westphalia,Tonisvorst,1
+LOT 000109A,Germany,Hessen,Morfelden-Walldorf,1
+LOT 000117A,Germany,Brandenburg,Luckenwalde,1
+LOT 000120A,Germany,Hessen,Morfelden-Walldorf,1
+LOT 000124A,United Kingdom,Northern Ireland,Omagh,1
+LOT 000140A,Germany,Lower Saxony,Sarstedt,1
+LOT 007G21A,Germany,Bavaria,Munich,1
+LOT 092F21A,Germany,Baden-Wurttemberg,Albbruck,1
+LOT 092F21A,Germany,Hessen,Morfelden-Walldorf,1
+LOT 092F21A,Germany,Rhineland-Palatinate,Bitburg,1
+LOT 214008,Germany,North Rhine-Westphalia,(not set),1
+LOT 214015,Italy,Lombardy,Milan,1
+LOT 216045,Germany,Baden-Wurttemberg,Stuttgart,1
+LOT 3001944,Germany,Baden-Wurttemberg,(not set),1
+LOT 3002334,Germany,Berlin,Berlin,1
+LOT 3003609,Germany,Rhineland-Palatinate,Koblenz,1
+LOT 3004235,Germany,North Rhine-Westphalia,Tonisvorst,1
+LOT 3004500,Germany,North Rhine-Westphalia,(not set),1
+LOT 3005237,United Kingdom,England,London,1
+LOT 3005290,Germany,Lower Saxony,Osnabruck,1
+LOT 3005290,Germany,Lower Saxony,Sarstedt,1
+LOT 3005690,Germany,Baden-Wurttemberg,(not set),1
+LOT 3005690,Germany,Mecklenburg-Vorpommern,Wolgast,1
+LOT ABV3374,Germany,Baden-Wurttemberg,Ehingen,1
+LOT000075A,Germany,Lower Saxony,Vechta,1
+LOT000087A,Germany,Lower Saxony,Cloppenburg,1
+LOT000109A,Germany,North Rhine-Westphalia,Munster,1
+LOT000112A,Germany,Brandenburg,Luckenwalde,1
+LOT000114A,Germany,Hessen,Wiesbaden,1
+LOT000120A,Germany,Saxony,Chemnitz,1
+LOT007G21A,Germany,Bavaria,Munich,1
+LOT042G21A,Germany,North Rhine-Westphalia,Gelsenkirchen,1
+LOT045G21A,Germany,Saxony-Anhalt,Magdeburg,1
+LOT214022,Germany,Brandenburg,Cottbus,1
+LOT214022,Germany,Hessen,Frankfurt,1
+LOT3001944,Germany,Bavaria,Munich,1
+LOT3002334,Germany,Saxony,Plauen,1
+LOT3002334,Slovakia,Trencin Region,Prievidza,1
+LOT3002542,Germany,Hessen,Frankfurt,1
+LOT3003609,Germany,Hessen,Frankfurt,1
+LOT3004233,Germany,North Rhine-Westphalia,Bad Oeynhausen,1
+LOT3004500,Netherlands,(not set),(not set),1
+LOT3005290,Germany,Lower Saxony,Lehrte,1
+LOT3005290,Germany,Saxony-Anhalt,Magdeburg,1
+LOT3005291,Germany,Hessen,(not set),1
+LOT3005291,Germany,Hessen,Frankfurt,1
+LOT3005690,Germany,Bavaria,Munich,1
+LOT: XD985,Germany,Bavaria,Munich,1
+M-214022,Italy,Lombardy,Milan,1
+MOD012L20A,United States,Georgia,(not set),1
+MODERNA 030L20A,United States,Oklahoma,Oklahoma City,1
+MRNA-1273,Canada,Saskatchewan,(not set),1
+MT0055,Canada,Ontario,Apsley,1
+NA0079,Mexico,Jalisco,Guadalajara,1
+ORG-100030215,Mauritius,Port Louis District,Port Louis,1
+P-FE2625,Netherlands,South Holland,Rotterdam,1
+P220395,Belgium,Flanders,Antwerp,1
+PA7485,United States,Connecticut,Madison,1
+PCB0003,Germany,Bavaria,(not set),1
+PCB0015,Philippines,Metro Manila,Quezon City,1
+PCB003,Finland,Uusimaa,Helsinki,1
+PFEN6207,United States,Colorado,Buena Vista,1
+PFIZER,Austria,Vienna,Vienna,1
+PFIZER EH9899,Germany,North Rhine-Westphalia,Bad Oeynhausen,1
+PFIZER EK9231,United States,Florida,Havana,1
+PFIZER EK9231,United States,Utah,Salt Lake City,1
+PFIZER EK9231,United States,Virginia,Ashburn,1
+PFIZER EL3249,United States,Utah,Salt Lake City,1
+PFIZER EN5318,United States,Tennessee,Madisonville,1
+PFIZER EN6198,United States,California,Los Angeles,1
+PFIZER EN6199,United States,California,Carlsbad,1
+PFIZER EN6199,United States,California,Sacramento,1
+PFIZER EN6201,Germany,Baden-Wurttemberg,Biberach,1
+PFIZER EN6201,Germany,Brandenburg,Brandenburg,1
+PFIZER EN6201,Italy,Lazio,Rome,1
+PFIZER EN6201,United States,California,Carlsbad,1
+PFIZER EN6201,United States,California,Los Angeles,1
+PFIZER EN6201,United States,Maine,Westbrook,1
+PFIZER EN6202,United States,Michigan,Portage,1
+PFIZER EN6205,United States,Ohio,Parma,1
+PFIZER EN6206,France,Hauts-de-France,59166,1
+PFIZER EN6206,Germany,Baden-Wurttemberg,Biberach,1
+PFIZER EN6206,United States,Florida,(not set),1
+PFIZER EN6207,United States,Colorado,Buena Vista,1
+PFIZER EN6207,United States,New York,Country Knolls,1
+PFIZER EN6207,United States,Washington,Arlington,1
+PFIZER EN6208,United States,Texas,Harlingen,1
+PFIZER EP7533,United States,Illinois,Chicago,1
+PFIZER EP7533,United States,Texas,Harlingen,1
+PFIZER ER2613,Germany,Brandenburg,Brandenburg,1
+PFIZER ER8729,United States,Washington,Arlington,1
+PFIZER ER8730,Canada,British Columbia,Surrey,1
+PFIZER ER8730,Canada,Ontario,Toronto,1
+PFIZER ER8730,Germany,Mecklenburg-Vorpommern,Ribnitz-Damgarten,1
+PFIZER ER8730,Netherlands,South Holland,Rotterdam,1
+PFIZER ER8730,Netherlands,South Holland,The Hague,1
+PFIZER ER8730,United States,Florida,New Port Richey,1
+PFIZER ER8730,United States,Maryland,Baltimore,1
+PFIZER ER8730,United States,Mississippi,Long Beach,1
+PFIZER ER8730,United States,North Carolina,Charlotte,1
+PFIZER ER8730,United States,Tennessee,Morristown,1
+PFIZER ER8732,United States,Florida,(not set),1
+PFIZER ER8732,United States,Ohio,Finneytown,1
+PFIZER ER8733,United States,Texas,Dallas,1
+PFIZER EW0150,United States,Colorado,Buena Vista,1
+PFIZER EW0164,United States,California,Ceres,1
+PFIZER EW0167,United States,Florida,Brandon,1
+PFIZER EW0173,United States,Colorado,Lafayette,1
+PFIZER EW0173,United States,Indiana,Pendleton,1
+PFIZER EW0173,United States,New York,Huntington,1
+PFIZER EW0173,United States,Virginia,Ashburn,1
+PFIZER EW0175,United States,Michigan,Forest Hills,1
+PFIZER EW0177,United States,Missouri,St. Louis,1
+PFIZER EW0178,United States,Kansas,Lenora,1
+PFIZER EW0178,United States,Pennsylvania,Clairton,1
+PFIZER EW0178,United States,Utah,Salt Lake City,1
+PFIZER EW0178,United States,Virginia,Ashburn,1
+PFIZER EW0179,United States,California,Los Angeles,1
+PFIZER EW0179,United States,Utah,Salt Lake City,1
+PFIZER EW0181,United States,New York,New York,1
+PFIZER EW0186,United States,Indiana,Pendleton,1
+PFIZER FA7485,Belgium,Flanders,Bilzen,1
+PFIZER FA7485,Canada,British Columbia,Vancouver,1
+PFIZER FA7485,Canada,Manitoba,Winnipeg,1
+PFIZER FA7485,Canada,Ontario,Hamilton,1
+PFIZER FA7485,United States,California,San Francisco,1
+PFIZER FA7485,United States,Connecticut,Groton,1
+PFIZER FA7485,United States,Florida,Miami,1
+PFIZER FA7485,United States,Illinois,Chicago,1
+PFIZER FA7485,United States,North Carolina,Hickory,1
+PFIZER FA7485,United States,West Virginia,Oak Hill,1
+PFIZER FC3181,Mexico,Jalisco,Guadalajara,1
+PFIZER FC3181,United States,Connecticut,Norwich,1
+PFIZER FD8448,United States,Texas,Dallas,1
+PFIZER FF2588,United States,Connecticut,Madison,1
+PFIZER FG3527,United States,Georgia,Marietta,1
+PFIZER-BIONTECH,Germany,Lower Saxony,(not set),1
+PFIZEREH9899,Germany,Hessen,Frankfurt,1
+PFIZEREP7534,United States,Georgia,Atlanta,1
+PFIZEREW0151,United States,Illinois,Chicago,1
+PFIZEREW0151,United States,Washington,(not set),1
+PV46664,Netherlands,South Holland,Rotterdam,1
+PV46664,United Kingdom,England,London,1
+PV46669,Sweden,Stockholm County,Stockholm,1
+PV46671,Germany,Bavaria,Dachau,1
+PV46671,United Kingdom,England,Manchester,1
+PV46671,United Kingdom,England,Plymouth,1
+PV46672,United Kingdom,England,Newcastle upon Tyne,1
+PV46673,United Kingdom,England,London,1
+PV46674,United Kingdom,England,Norwich,1
+PV46674,United Kingdom,Wales,(not set),1
+PV46677,United Kingdom,England,Birmingham,1
+PV46679,United Kingdom,England,Watford,1
+PV46685,United Kingdom,England,Taunton,1
+PV46688,United Kingdom,England,London,1
+PV46688,United Kingdom,England,Norwich,1
+PV46688,United Kingdom,England,Poole,1
+PV46690,United Kingdom,England,Norwich,1
+PV46693,United Kingdom,England,Yeovil,1
+PV46694,United Kingdom,England,Plymouth,1
+PV46698,United Kingdom,England,London,1
+PV46698,United Kingdom,England,Wolverhampton,1
+PW40008,United Kingdom,England,Manchester,1
+PW40011,United Kingdom,England,London,1
+PW40041,United Kingdom,England,London,1
+PW40041,United Kingdom,England,Newcastle upon Tyne,1
+PW40167,Philippines,Central Visayas,(not set),1
+SC3181,United States,Pennsylvania,York,1
+SCIU6,Germany,Berlin,Berlin,1
+SCKX 7,Germany,Mecklenburg-Vorpommern,Rostock,1
+SCKX7,Germany,Hessen,Frankfurt,1
+SCKX7,Germany,Lower Saxony,Buchholz in der Nordheide,1
+SCPT7,Germany,Bavaria,Burglengenfeld,1
+SCPT7,Germany,Hessen,(not set),1
+SCPT7,Germany,North Rhine-Westphalia,Unna,1
+SCRM8,Germany,Bavaria,Starnberg,1
+SCRP9,Germany,Baden-Wurttemberg,Mannheim,1
+SCRP9,Germany,Bavaria,Burglengenfeld,1
+SCRP9,Germany,Lower Saxony,Cloppenburg,1
+SCRP9,Germany,Lower Saxony,Hanover,1
+SCRP9,Germany,North Rhine-Westphalia,(not set),1
+SCRW2,Germany,Baden-Wurttemberg,Bad Mergentheim,1
+SCRW2,Germany,Baden-Wurttemberg,Ulm,1
+SCRW2,Germany,Bavaria,Roding,1
+SCRW2,Germany,Hessen,Neu-Anspach,1
+SCRW2,Germany,Saxony,Freiberg,1
+SCTJ2,Germany,Mecklenburg-Vorpommern,(not set),1
+SCTJ2,Germany,Schleswig-Holstein,Lubeck,1
+SCTN4,Germany,Lower Saxony,Lingen,1
+SCTN4,Germany,Rhineland-Palatinate,Asbach,1
+SCTN4,Luxembourg,(not set),Luxembourg,1
+SCUD8,France,Auvergne-Rhone-Alpes,Cluses,1
+SCUD8,France,Centre-Val de Loire,Blois,1
+SCUE1,Germany,Baden-Wurttemberg,Stuttgart,1
+SCUE1,Germany,Berlin,Berlin,1
+SCUE1,Germany,Mecklenburg-Vorpommern,Parchim,1
+SCUE1,Germany,Schleswig-Holstein,Elmshorn,1
+SCUL2,Germany,Baden-Wurttemberg,Ehingen,1
+SCUL2,Germany,Bavaria,Munich,1
+SCUL2,Germany,Berlin,Berlin,1
+SCVC6,Germany,Baden-Wurttemberg,Emmendingen,1
+SCVK4,Germany,Baden-Wurttemberg,Achern,1
+SCVT5,Germany,Hessen,Frankfurt,1
+SCVT5,Germany,Schleswig-Holstein,Itzehoe,1
+SCVT5,Germany,Thuringia,Jena,1
+SCVW7,Germany,Baden-Wurttemberg,Esslingen,1
+SCVW7,Germany,North Rhine-Westphalia,,1
+SCVW7,Germany,North Rhine-Westphalia,(not set),1
+SCVW7,Germany,Schleswig-Holstein,Eutin,1
+SCVW7,Netherlands,(not set),(not set),1
+SCVY8,Germany,Mecklenburg-Vorpommern,Wolgast,1
+SCWF3,Germany,Baden-Wurttemberg,Crailsheim,1
+SCWF3,Germany,Bavaria,Rosenheim,1
+SCWF3,Germany,North Rhine-Westphalia,Rheine,1
+SDCH8,Austria,Vienna,Vienna,1
+SDCN1,Poland,Greater Poland Voivodeship,(not set),1
+SDCN1,Poland,Lesser Poland Voivodeship,Krakow,1
+SDEJ8,Germany,Bavaria,Augsburg,1
+SDEJ8,Germany,North Rhine-Westphalia,Dusseldorf,1
+SDEW9,Germany,Bremen,Bremerhaven,1
+SDEW9,Germany,Lower Saxony,Varel,1
+SDEW9,Germany,North Rhine-Westphalia,Dusseldorf,1
+SPIKEVAX,Germany,Lower Saxony,Cloppenburg,1
+SPIKEVAX,United Kingdom,England,London,1
+T202107057,Philippines,Metro Manila,Quezon City,1
+URN:UVCI:01DE/A,Germany,Lower Saxony,Springe,1
+URN:UVCI:01DE/A,Germany,Rhineland-Palatinate,Waldmohr,1
+XD 985,Italy,Tuscany,Florence,1
+XD955,Germany,Baden-Wurttemberg,Albbruck,1
+XD955,Germany,Hessen,Frankfurt,1
+XD974,Italy,Apulia,Francavilla Fontana,1
+XE395,Germany,Brandenburg,Brandenburg,1
+XE423,Germany,North Rhine-Westphalia,,1
+XYZ98765,Germany,Baden-Wurttemberg,Esslingen,1
+Z04AZ1A,United States,Ohio,Parma,1
+,Belgium,Wallonia,Andenne,2
+,Canada,Alberta,Leduc,2
+,Canada,Nova Scotia,Truro,2
+,Croatia,Istria County,Pula,2
+,Germany,Baden-Wurttemberg,Singen,2
+,Germany,Bavaria,Kitzingen,2
+,Germany,Lower Saxony,Bassum,2
+,Germany,Lower Saxony,Goslar,2
+,Germany,Lower Saxony,Seevetal,2
+,Germany,Saarland,Saarlouis,2
+,Germany,Saxony,Dresden,2
+,Italy,Sardinia,Cagliari,2
+,Japan,Gunma,Maebashi,2
+,Norway,,,2
+,Philippines,Metro Manila,Manila,2
+,Poland,Masovian Voivodeship,Warsaw,2
+,Sweden,Ostergotland County,Mjolby,2
+,Switzerland,Canton of Zug,Hunenberg,2
+,Switzerland,Zurich,Zurich,2
+,United Kingdom,England,Taunton,2
+,United States,California,Sacramento,2
+,United States,Florida,Orlando,2
+,United States,Hawaii,Kula,2
+,United States,Kentucky,Liberty,2
+,United States,Maine,Bath,2
+,United States,Massachusetts,Springfield,2
+,United States,Missouri,Smithville,2
+,United States,Oklahoma,Sayre,2
+,United States,Oregon,Medford,2
+,United States,Pennsylvania,Philadelphia,2
+,United States,Virginia,Ashburn,2
+(not set),Australia,Western Australia,Busselton,2
+(not set),Canada,Alberta,Canmore,2
+(not set),Canada,British Columbia,Dawson Creek,2
+(not set),Canada,British Columbia,Langley Township,2
+(not set),Canada,British Columbia,Maple Ridge,2
+(not set),Canada,Ontario,Brockville,2
+(not set),Canada,Ontario,Haliburton,2
+(not set),Canada,Ontario,North Kawartha,2
+(not set),Czechia,Olomouc Region,Olomouc,2
+(not set),France,Auvergne-Rhone-Alpes,Annecy,2
+(not set),France,Bourgogne-Franche-Comte,Nevers,2
+(not set),Germany,Baden-Wurttemberg,Singen,2
+(not set),Germany,Bavaria,Eggolsheim,2
+(not set),Germany,Bavaria,Eschenbach,2
+(not set),Germany,Bavaria,Landau an der Isar,2
+(not set),Germany,Bremen,Bremen,2
+(not set),Germany,Lower Saxony,Garbsen,2
+(not set),Germany,Lower Saxony,Lilienthal,2
+(not set),Germany,Lower Saxony,Schneverdingen,2
+(not set),Germany,Saxony,Bautzen,2
+(not set),Germany,Thuringia,Neuhaus am Rennweg,2
+(not set),Indonesia,Central Java,Kranggan,2
+(not set),Italy,Veneto,Treviso,2
+(not set),Lithuania,Klaipeda County,Klaipeda,2
+(not set),Malaysia,Kelantan,Ketereh,2
+(not set),Mexico,Jalisco,Guadalajara,2
+(not set),Philippines,Central Luzon,Mabalacat,2
+(not set),Romania,Cluj County,Cluj-Napoca,2
+(not set),South Africa,KwaZulu-Natal,Phoenix,2
+(not set),Switzerland,Schaffhausen,Schaffhausen,2
+(not set),Thailand,Chumphon,(not set),2
+(not set),Thailand,Phuket,Phuket,2
+(not set),United Arab Emirates,Sharjah,Sharjah,2
+(not set),United Kingdom,England,Luton,2
+(not set),United States,Arizona,Gilbert,2
+(not set),United States,Arkansas,Brookland,2
+(not set),United States,Arkansas,Wynne,2
+(not set),United States,California,Anderson,2
+(not set),United States,California,Atwater,2
+(not set),United States,California,Avalon,2
+(not set),United States,California,Newman,2
+(not set),United States,California,Portola,2
+(not set),United States,California,Watsonville,2
+(not set),United States,California,Willows,2
+(not set),United States,Florida,Clewiston,2
+(not set),United States,Florida,Daytona Beach,2
+(not set),United States,Florida,Gainesville,2
+(not set),United States,Florida,Palatka,2
+(not set),United States,Georgia,Reidsville,2
+(not set),United States,Illinois,Pittsfield,2
+(not set),United States,Indiana,Auburn,2
+(not set),United States,Indiana,Hebron,2
+(not set),United States,Indiana,Linton,2
+(not set),United States,Indiana,Sheridan,2
+(not set),United States,Iowa,Dumont,2
+(not set),United States,Iowa,Perry,2
+(not set),United States,Kansas,Oberlin,2
+(not set),United States,Kentucky,Louisa,2
+(not set),United States,Maryland,Annapolis,2
+(not set),United States,Massachusetts,Fitchburg,2
+(not set),United States,Michigan,Eaton Rapids,2
+(not set),United States,Mississippi,Booneville,2
+(not set),United States,Nevada,(not set),2
+(not set),United States,Ohio,Lima,2
+(not set),United States,Ohio,Middlefield,2
+(not set),United States,Ohio,Springboro,2
+(not set),United States,Oklahoma,Owasso,2
+(not set),United States,Oklahoma,Tahlequah,2
+(not set),United States,Oregon,Central Point,2
+(not set),United States,Oregon,Medford,2
+(not set),United States,Pennsylvania,Dallas,2
+(not set),United States,Texas,Athens,2
+(not set),United States,Texas,Galveston,2
+(not set),United States,Texas,McCamey,2
+(not set),United States,Virginia,Danville,2
+(not set),United States,Virginia,Louisa,2
+(not set),United States,Washington,Bothell,2
+(not set),United States,Washington,Tacoma,2
+(not set),United States,West Virginia,Elkins,2
+(not set),United States,West Virginia,Petersburg,2
+(not set),United States,Wisconsin,Baldwin,2
+(not set),United States,Wisconsin,Milwaukee,2
+000040A,United Kingdom,England,Taunton,2
+000124A,United Kingdom,Northern Ireland,Omagh,2
+001A21A,United States,California,Los Angeles,2
+001C21A,United States,Minnesota,Minneapolis,2
+002C21A,United States,New Hampshire,Concord,2
+004M204,United States,Louisiana,Gonzales,2
+007G21A,Germany,Bavaria,Munich,2
+012M20A,United States,Oregon,La Grande,2
+016E21A,Canada,British Columbia,Vancouver,2
+016M20A,United States,Montana,Libby,2
+017B21A,United States,Florida,(not set),2
+017C21A,United States,Iowa,Des Moines,2
+018F21A,United States,California,Los Angeles,2
+030G21A,Italy,Lombardy,Milan,2
+031A21A,United States,Tennessee,Lewisburg,2
+031A21A,United States,Texas,Dallas,2
+031H214,United States,Louisiana,Gonzales,2
+032L20A,United States,Oregon,La Grande,2
+037K20A,Australia,Queensland,Brisbane,2
+043A21A,United States,New York,Rochester,2
+043A21A,United States,Oregon,(not set),2
+045A21A,United States,Tennessee,Lewisburg,2
+046621A,Philippines,Cagayan Valley,(not set),2
+046A21A,United States,Arkansas,Brookland,2
+046B21A,United States,Virginia,Ashburn,2
+046L21A,United States,Washington,Seattle,2
+068H21A,United States,Ohio,Parma,2
+085D21A,Canada,Quebec,Labelle,2
+1822809,United States,Connecticut,(not set),2
+1C006A,Germany,North Rhine-Westphalia,(not set),2
+1C007A,Germany,Lower Saxony,Wolfsburg,2
+1C008A,Germany,Bremen,Bremerhaven,2
+1D013A,Germany,North Rhine-Westphalia,Stolberg (Rhineland),2
+1D018A,Germany,Thuringia,Weimar,2
+1D020A,Germany,Bavaria,Vaterstetten,2
+1D020A,Germany,Hessen,Frankfurt,2
+1E021A,Germany,Lower Saxony,Gottingen,2
+1F1021A,Germany,Bavaria,Regensburg,2
+1F1021A,Germany,North Rhine-Westphalia,Unna,2
+1F1022A,Germany,Hessen,Frankfurt,2
+1F1027A,Germany,Hamburg,Hamburg,2
+1F1042A,Germany,Lower Saxony,Bad Essen,2
+1F1042A,Germany,Saxony-Anhalt,(not set),2
+1F1052A,Germany,Schleswig-Holstein,Lubeck,2
+1G040A,Germany,Saxony,Crimmitschau,2
+213C21A,Philippines,Calabarzon,Calamba,2
+214064,Italy,Lombardy,Milan,2
+216047,Germany,Hessen,Bad Hersfeld,2
+21C17-01,Germany,Lower Saxony,Syke,2
+3001651,Germany,Hessen,Bad Homburg,2
+3002543,Italy,Emilia-Romagna,Rimini,2
+30025TB,Germany,Hessen,Bad Homburg,2
+30025TB,Germany,North Rhine-Westphalia,Stolberg (Rhineland),2
+3003184,Canada,British Columbia,Vancouver,2
+3003659,Netherlands,North Holland,Wieringerwerf,2
+3004233,Germany,North Rhine-Westphalia,Bad Oeynhausen,2
+3004233,Germany,North Rhine-Westphalia,Bielefeld,2
+3005294,Italy,Lombardy,Milan,2
+3005704,Finland,Uusimaa,Helsinki,2
+30145BA,United States,Arkansas,Pea Ridge,2
+31101TB,Germany,Brandenburg,Cottbus,2
+32030BD,United States,Pennsylvania,(not set),2
+35035BD,Canada,British Columbia,Kelowna,2
+AB0004,United Kingdom,England,Dunstable,2
+AB0013,United Kingdom,England,Watford,2
+ABV5839,Germany,Hessen,Bad Hersfeld,2
+ABV7279,Philippines,Calabarzon,General Trias,2
+ABX3507,Morocco,Marrakesh-Safi,Marrakesh,2
+ACA5786,Estonia,Harju County,Tallinn,2
+ACA9551,Germany,Lower Saxony,Soltau,2
+ACB4694,Germany,North Rhine-Westphalia,Dusseldorf,2
+ACB5038,Germany,Saxony-Anhalt,Magdeburg,2
+ACB5317,Germany,Saxony,Leipzig,2
+ACB5318,Germany,Bavaria,Regensburg,2
+ACB5318,Germany,Berlin,Berlin,2
+ACB9148,Denmark,Region of Southern Denmark,Odense,2
+ACC0306,Germany,Hessen,Morfelden-Walldorf,2
+ACC1336,Germany,Baden-Wurttemberg,Steinen,2
+ACC1336,Germany,Thuringia,Erfurt,2
+C202105085,Philippines,Metro Manila,Quezon City,2
+CH.-B.: EX3510,Germany,North Rhine-Westphalia,Duisburg,2
+CH.-B.: FD7958,Germany,Lower Saxony,Sarstedt,2
+CH.-B.: SCWF3,Germany,Lower Saxony,Langenhagen,2
+CH.-B.:31043TB,Germany,Mecklenburg-Vorpommern,Greifswald,2
+CH.B.:EX3599,Germany,Bavaria,Nuremberg,2
+CH.B.:EX3599,Germany,Hessen,Frankfurt,2
+EE8492,United Kingdom,England,London,2
+EH9809,Germany,North Rhine-Westphalia,Bad Oeynhausen,2
+EH9899,Germany,Bavaria,Munich,2
+EI9265,United States,Florida,Greater Carrollwood,2
+EJ6134,Germany,Bremen,Bremerhaven,2
+EJ6797,Germany,Berlin,Berlin,2
+EK4243,United Kingdom,Scotland,(not set),2
+EL0142,United States,Maryland,Ballenger Creek,2
+EL1289,Germany,Bavaria,Munich,2
+EL3246,United States,New Jersey,Brick Township,2
+EL8713,United States,Nevada,Las Vegas,2
+EL9266,United States,Missouri,Licking,2
+EM4965,United Kingdom,Scotland,(not set),2
+EM9809,United States,Illinois,Chicago,2
+EN6200,United States,Florida,Greater Carrollwood,2
+EN6201,Germany,Hessen,Frankfurt,2
+EN6207,United States,Colorado,Buena Vista,2
+ENG202,Philippines,Metro Manila,Quezon City,2
+EP2163,Germany,Lower Saxony,Uelzen,2
+EP6955,United States,California,Los Angeles,2
+EP6955,United States,Oklahoma,Oklahoma City,2
+EP9605,Denmark,Capital Region of Denmark,Copenhagen,2
+EP9605,Netherlands,South Holland,Vlaardingen,2
+ER2659,Germany,Bavaria,Ingolstadt,2
+ER7812,Germany,Baden-Wurttemberg,Achern,2
+ER8727,United Kingdom,England,London,2
+ER8730,Germany,Mecklenburg-Vorpommern,Ribnitz-Damgarten,2
+ER8730,United States,North Carolina,Charlotte,2
+ER8731,United States,New York,Orchard Park,2
+ER8734,United States,California,Los Angeles,2
+ER8735,United States,New York,Orchard Park,2
+ER8736,United States,California,Santa Clara,2
+ER9480,Germany,Bavaria,Munich,2
+ER9480,Germany,Saxony,Plauen,2
+ET3045,Germany,Baden-Wurttemberg,Achern,2
+ET3674,Germany,Lower Saxony,Uelzen,2
+ET6956,Czechia,Central Bohemian Region,Kolin,2
+ET8885,Germany,Bavaria,Kitzingen,2
+EW0162,United States,New York,Country Knolls,2
+EW0162,United States,New York,New York,2
+EW0168,United States,Massachusetts,Fall River,2
+EW0175,United States,Michigan,Forest Hills,2
+EW0176,United States,Ohio,Waverly,2
+EW0176,United States,Virginia,Ashburn,2
+EW0178,United States,Virginia,Ashburn,2
+EW0181,United States,Washington,Seattle,2
+EW0183,Australia,New South Wales,Sydney,2
+EW0186,United States,California,Santa Clara,2
+EW0187,United States,New York,New York,2
+EW0187,United States,North Carolina,Burlington,2
+EW0196,Australia,New South Wales,Sydney,2
+EW0196,United States,Washington,Federal Way,2
+EW0198,United States,Illinois,Chicago,2
+EW0217,United States,Washington,Seattle,2
+EW2239,France,Hauts-de-France,Lille,2
+EW2243,Poland,Lower Silesian Voivodeship,Wroclaw,2
+EW4109,United Kingdom,England,London,2
+EW4109,United Kingdom,England,Taunton,2
+EW8904,Poland,Lower Silesian Voivodeship,Wroclaw,2
+EX3599,Germany,Thuringia,Weimar,2
+EX3617,Japan,Hiroshima,Onomichi,2
+EX6537,France,Hauts-de-France,Lille,2
+EX8679,Germany,Brandenburg,Schwedt,2
+EX8679,Germany,North Rhine-Westphalia,Cologne,2
+EX8679,Germany,North Rhine-Westphalia,Tonisvorst,2
+EX8680,Germany,Baden-Wurttemberg,Zell,2
+EY0572,Japan,Tokyo,(not set),2
+EY2172,Germany,North Rhine-Westphalia,(not set),2
+EY5420,United States,Texas,Dallas,2
+EY7015,Czechia,Central Bohemian Region,Kolin,2
+FA4598,Czechia,Prague,Prague,2
+FA5833,Germany,Schleswig-Holstein,Wahlstedt,2
+FA6780,Mexico,Jalisco,Guadalajara,2
+FA6780,United States,Wisconsin,Wauwatosa,2
+FA7338,Japan,Hiroshima,Onomichi,2
+FA7485,United States,Connecticut,Groton,2
+FA8721,Canada,Ontario,Toronto,2
+FA9094,Canada,Ontario,Peterborough,2
+FA9099,Canada,British Columbia,Kelowna,2
+FA9099,Canada,Nova Scotia,Yarmouth,2
+FC0681,Norway,(not set),(not set),2
+FC0681,Poland,Lower Silesian Voivodeship,Wroclaw,2
+FC1436,Germany,North Rhine-Westphalia,Dortmund,2
+FC1526,Germany,Bavaria,Nuremberg,2
+FC3095,Germany,Hessen,Darmstadt,2
+FC3095,Germany,Hessen,Frankfurt,2
+FC3095,Germany,Lower Saxony,Wilhelmshaven,2
+FC3095,Germany,Lower Saxony,Wolfsburg,2
+FC3095,Germany,North Rhine-Westphalia,Bielefeld,2
+FC3095,Germany,North Rhine-Westphalia,Dortmund,2
+FC3095,Sweden,Skane County,Malmo,2
+FC3180,United States,Connecticut,Madison,2
+FC3183,United States,Washington,Seattle,2
+FC3661,Japan,Tokyo,(not set),2
+FC8736,Czechia,Prague,Prague,2
+FD0810,Canada,Nova Scotia,Yarmouth,2
+FD0810,Canada,Prince Edward Island,Charlottetown,2
+FD0810,Canada,Quebec,Pointe-Claire,2
+FD1921,Austria,Vienna,Vienna,2
+FD4555,Austria,Vienna,Vienna,2
+FD4555,Germany,Hessen,Frankfurt,2
+FD4555,United States,Michigan,Caro,2
+FD5996,Malaysia,Selangor,Shah Alam,2
+FD7204,Canada,Ontario,Sarnia,2
+FD7204,Canada,Ontario,Toronto,2
+FD7958,Germany,Hessen,Frankfurt,2
+FD8813,United Kingdom,England,Taunton,2
+FD9234,Germany,Baden-Wurttemberg,Stuttgart,2
+FE6208,Canada,Ontario,Windsor,2
+FE6208,Sweden,Vastra Gotaland County,Lysekil,2
+FE6208F,Canada,Ontario,Windsor,2
+FE6975,Germany,Bavaria,(not set),2
+FE6975,Germany,Hessen,Neu-Anspach,2
+FE6975,Germany,North Rhine-Westphalia,(not set),2
+FE6975,Germany,North Rhine-Westphalia,Tonisvorst,2
+FE7011,Germany,Bavaria,Feldkirchen-Westerham,2
+FE7011,Germany,Lower Saxony,Stadthagen,2
+FE8087,United Kingdom,England,London,2
+FE8163,Australia,Victoria,Melbourne,2
+FE8163,New Zealand,Auckland,Auckland,2
+FE8235,Sweden,Vastra Gotaland County,Lysekil,2
+FE8405,Germany,Bavaria,Kronach,2
+FE8405,Germany,Schleswig-Holstein,Lubeck,2
+FE9174,Germany,Saxony-Anhalt,(not set),2
+FF0884,Australia,Western Australia,Perth,2
+FF0900,Germany,Saxony,Crimmitschau,2
+FF2595,Canada,Alberta,Stettler,2
+FF2595,Canada,British Columbia,Vancouver,2
+FF3318,Germany,Saxony,Bautzen,2
+FF5109,Canada,British Columbia,(not set),2
+FF7416,Lebanon,Beirut Governorate,Beirut,2
+FG1657,Canada,New Brunswick,Miramichi,2
+FG4421,South Africa,Western Cape,Cape Town,2
+FH0114,United Arab Emirates,Dubai,Dubai,2
+FH0161,Austria,Styria,Graz,2
+FH3219,Australia,Victoria,Melbourne,2
+FH4752,Philippines,Calabarzon,Calamba,2
+FJ5973,Australia,Victoria,Melbourne,2
+FJ8372,New Zealand,Canterbury,(not set),2
+FK6302,United States,Texas,Dallas,2
+FK6858,Malaysia,Johor,(not set),2
+FK9414,New Zealand,Auckland,Auckland,2
+FK9712,United Kingdom,England,London,2
+FL0007,United States,Wisconsin,Milwaukee,2
+FL3209-PFIZER-2,United States,Colorado,Lafayette,2
+FL3210,Canada,Ontario,Sarnia,2
+FL3560,Australia,Victoria,Melbourne,2
+FM0173,United States,California,Los Angeles,2
+FM2966,Philippines,Central Visayas,(not set),2
+FN1664,United Kingdom,England,Norwich,2
+FN2716,United Kingdom,Wales,Bangor,2
+FN2908,United States,Pennsylvania,Southampton,2
+FN4072,Germany,Hessen,Frankfurt,2
+FN4072,Germany,North Rhine-Westphalia,Bad Oeynhausen,2
+FN4075,United Kingdom,England,Taunton,2
+FP7135,Canada,Quebec,Montreal,2
+FP7137,United States,California,Orland,2
+GH9715,Germany,Baden-Wurttemberg,(not set),2
+GJ2542,Germany,Schleswig-Holstein,Lubeck,2
+GJ2552,Portugal,Azores,Angra do Heroismo,2
+GJ2639,Ireland,County Dublin,Dublin,2
+GJ9254,United Kingdom,England,Matlock,2
+HG2252,Sweden,Stockholm County,Stockholm,2
+JOHNSON AND JOH,Romania,Timis,Timisoara,2
+LOT 3002620,Germany,Hessen,Bad Homburg,2
+LOT: XD985,Germany,Thuringia,Erfurt,2
+MODERNA,Germany,Bavaria,Klingenberg am Main,2
+PCA0021,Belgium,Flanders,Turnhout,2
+PCB0004,Philippines,Calabarzon,Calamba,2
+PFIZER EN6206,Netherlands,North Brabant,Uden,2
+PFIZER EN6206,United States,Michigan,Portage,2
+PFIZER EP6955,United States,California,Los Angeles,2
+PFIZER EW0171,United States,California,Ceres,2
+PFIZER FA7485,United States,Connecticut,Norwich,2
+PFIZER FC3181,United States,Texas,Houston,2
+PFIZER FC3182,United States,Texas,Houston,2
+PFIZEREP7533,United States,Mississippi,Oxford,2
+PV46662,United Kingdom,England,London,2
+PW40009,United Kingdom,England,Dunstable,2
+SCJU6,Germany,Bavaria,Roding,2
+SCKX7,Germany,Mecklenburg-Vorpommern,Rostock,2
+SCTD6,Germany,Hessen,Frankfurt,2
+SCTJ2,Germany,Lower Saxony,Uelzen,2
+SCUE1,Germany,Saxony-Anhalt,(not set),2
+SCUE1,United States,Missouri,Sparta,2
+SCVK4,Germany,Bavaria,Munich,2
+SCVT5,Germany,Schleswig-Holstein,Lubeck,2
+SCVY8,Germany,Lower Saxony,Meppen,2
+SCVY8,Germany,North Rhine-Westphalia,Eschweiler,2
+SDEJ8,Germany,Hessen,Frankfurt,2
+XD974,Poland,Masovian Voivodeship,Warsaw,2
+XD985,Germany,Bavaria,Munich,2
+XD985,Netherlands,Gelderland,Eibergen,2
+XE395,Germany,Baden-Wurttemberg,Sinsheim,2
+XE423,Germany,Baden-Wurttemberg,Karlsdorf-Neuthard,2
+,Austria,Styria,Graz,3
+,Canada,Alberta,Airdrie,3
+,Canada,Ontario,Ottawa,3
+,Colombia,Antioquia,Medellin,3
+,Czechia,Prague,Prague,3
+,France,,,3
+,France,Provence-Alpes-Cote d'Azur,Marseille,3
+,Germany,Baden-Wurttemberg,Schorndorf,3
+,Germany,Bavaria,Augsburg,3
+,Germany,Bavaria,Ingolstadt,3
+,Germany,Brandenburg,Lubbenau,3
+,Germany,Lower Saxony,Soltau,3
+,Germany,Mecklenburg-Vorpommern,Schwerin,3
+,Germany,North Rhine-Westphalia,Bad Oeynhausen,3
+,Germany,North Rhine-Westphalia,Gelsenkirchen,3
+,Germany,North Rhine-Westphalia,Lippstadt,3
+,Germany,North Rhine-Westphalia,Siegen,3
+,Italy,,,3
+,Italy,Lazio,Rome,3
+,Japan,Hokkaido,Fukagawa,3
+,Japan,Ibaraki,Chikusei,3
+,Japan,Ibaraki,Mito,3
+,Japan,Shimane,Matsue,3
+,Malaysia,Kelantan,Kota Bharu,3
+,Malaysia,Selangor,Petaling Jaya,3
+,Netherlands,North Holland,Amsterdam,3
+,Netherlands,South Holland,Rotterdam,3
+,Poland,Greater Poland Voivodeship,Poznan,3
+,Singapore,,Singapore,3
+,Spain,Community of Madrid,Madrid,3
+,Sweden,Vastra Gotaland County,Gothenburg,3
+,Switzerland,Thurgau,Frauenfeld,3
+,Tanzania,,Dar es Salaam,3
+,United Kingdom,England,Norwich,3
+,United Kingdom,England,Wolverhampton,3
+,United States,California,Monrovia,3
+,United States,California,San Francisco,3
+,United States,Kansas,Abilene,3
+,United States,Massachusetts,Fitchburg,3
+,United States,Minnesota,Inver Grove Heights,3
+,United States,New Jersey,Paterson,3
+,United States,Pennsylvania,Clairton,3
+,United States,South Carolina,Aiken,3
+,United States,Texas,Lakeway,3
+,United States,Virginia,Hampton,3
+,United States,Washington,Clarkston,3
+,United States,West Virginia,Charles Town,3
+,United States,West Virginia,Oak Hill,3
+(not set),Australia,New South Wales,Albury,3
+(not set),Australia,New South Wales,Goulburn,3
+(not set),Australia,New South Wales,Griffith,3
+(not set),Austria,Salzburg,Salzburg,3
+(not set),Canada,British Columbia,Prince George,3
+(not set),Canada,British Columbia,Vanderhoof,3
+(not set),Canada,Nova Scotia,Wolfville,3
+(not set),Canada,Ontario,Hearst,3
+(not set),Canada,Ontario,Oakville,3
+(not set),Canada,Ontario,Petawawa,3
+(not set),Canada,Ontario,Whitchurch-Stouffville,3
+(not set),Canada,Quebec,Quebec City,3
+(not set),Canada,Quebec,Trois-Rivieres,3
+(not set),Croatia,(not set),(not set),3
+(not set),Croatia,Split-Dalmatia County,Split,3
+(not set),France,(not set),(not set),3
+(not set),France,Grand Est,(not set),3
+(not set),Germany,Baden-Wurttemberg,Biberach,3
+(not set),Germany,Baden-Wurttemberg,Freiburg im Breisgau,3
+(not set),Germany,Baden-Wurttemberg,Karlsdorf-Neuthard,3
+(not set),Germany,Baden-Wurttemberg,Kornwestheim,3
+(not set),Germany,Bavaria,Rothenburg ob der Tauber,3
+(not set),Germany,Brandenburg,Eisenhuttenstadt,3
+(not set),Germany,Brandenburg,Frankfurt an der Oder,3
+(not set),Germany,Brandenburg,Potsdam,3
+(not set),Germany,Lower Saxony,Stuhr,3
+(not set),Germany,Mecklenburg-Vorpommern,Neubrandenburg,3
+(not set),Germany,North Rhine-Westphalia,Hamm,3
+(not set),Germany,North Rhine-Westphalia,Moers,3
+(not set),Germany,North Rhine-Westphalia,Voerde,3
+(not set),Germany,Rhineland-Palatinate,Ludwigshafen,3
+(not set),Germany,Saxony,Zittau,3
+(not set),Germany,Saxony-Anhalt,Halberstadt,3
+(not set),Germany,Thuringia,Greiz,3
+(not set),Hungary,Zala County,Nagykanizsa,3
+(not set),Indonesia,Gorontalo,96272,3
+(not set),Indonesia,North Sumatra,Medan,3
+(not set),Italy,Calabria,Cosenza,3
+(not set),Italy,Lombardy,Sesto San Giovanni,3
+(not set),Italy,Tuscany,Lucca,3
+(not set),Italy,Veneto,Villafranca di Verona,3
+(not set),Japan,Gifu,Nakatsugawa,3
+(not set),Japan,Hokkaido,Sapporo,3
+(not set),Japan,Kanagawa,Yokohama,3
+(not set),Japan,Nagano,Ueda,3
+(not set),Japan,Niigata,Murakami,3
+(not set),Japan,Tokyo,Setagaya City,3
+(not set),Luxembourg,(not set),Luxembourg,3
+(not set),Malaysia,Selangor,Kajang,3
+(not set),Malaysia,Selangor,Subang Jaya,3
+(not set),Malaysia,Terengganu,Kuala Terengganu,3
+(not set),New Zealand,Wellington,Wellington,3
+(not set),Philippines,Calabarzon,(not set),3
+(not set),Poland,Warmian-Masurian Voivodeship,Olsztyn,3
+(not set),Slovakia,Nitra Region,Nove Zamky,3
+(not set),South Africa,Gauteng,Johannesburg,3
+(not set),South Africa,Gauteng,Pretoria,3
+(not set),Sweden,Jamtland County,(not set),3
+(not set),Sweden,Jonkoping County,(not set),3
+(not set),Sweden,Skane County,Hassleholm,3
+(not set),Switzerland,Canton of Bern,Lyss,3
+(not set),Switzerland,Valais,Fiesch,3
+(not set),Taiwan,Tainan City,(not set),3
+(not set),Thailand,Bangkok,Bangkok,3
+(not set),Thailand,Chiang Mai,Chiang Mai,3
+(not set),United Kingdom,England,Colchester,3
+(not set),United Kingdom,England,Drayton,3
+(not set),United Kingdom,England,Kingston upon Hull,3
+(not set),United Kingdom,England,Southampton,3
+(not set),United Kingdom,England,Yeovil,3
+(not set),United Kingdom,Wales,Caerphilly,3
+(not set),United States,Alaska,(not set),3
+(not set),United States,Arizona,Marana,3
+(not set),United States,California,Cazadero,3
+(not set),United States,California,Dorris,3
+(not set),United States,California,East Los Angeles,3
+(not set),United States,California,Quincy,3
+(not set),United States,California,Ridgecrest,3
+(not set),United States,California,Vallejo,3
+(not set),United States,California,Yuba City,3
+(not set),United States,Florida,Fort Myers,3
+(not set),United States,Florida,Port Charlotte,3
+(not set),United States,Florida,Tallahassee,3
+(not set),United States,Georgia,Rochelle,3
+(not set),United States,Georgia,Waycross,3
+(not set),United States,Idaho,Rupert,3
+(not set),United States,Illinois,Robinson,3
+(not set),United States,Indiana,Clinton,3
+(not set),United States,Indiana,New Albany,3
+(not set),United States,Iowa,Rockwell City,3
+(not set),United States,Kentucky,Lexington,3
+(not set),United States,Kentucky,Mayfield,3
+(not set),United States,Kentucky,Owenton,3
+(not set),United States,Louisiana,New Orleans,3
+(not set),United States,Maryland,Chestertown,3
+(not set),United States,Massachusetts,Amherst,3
+(not set),United States,Massachusetts,Barnstable,3
+(not set),United States,Massachusetts,Wakefield,3
+(not set),United States,Michigan,Houghton,3
+(not set),United States,Michigan,Lansing,3
+(not set),United States,Michigan,Perry,3
+(not set),United States,Minnesota,Lakeville,3
+(not set),United States,Missouri,Eldon,3
+(not set),United States,Montana,Butte,3
+(not set),United States,Montana,Helena,3
+(not set),United States,Nebraska,Ravenna,3
+(not set),United States,Nevada,Sparks,3
+(not set),United States,New Jersey,South Plainfield,3
+(not set),United States,New Jersey,Woodbridge Township,3
+(not set),United States,New York,Auburn,3
+(not set),United States,New York,East Aurora,3
+(not set),United States,New York,Granville,3
+(not set),United States,New York,Ithaca,3
+(not set),United States,New York,Newburgh,3
+(not set),United States,New York,Old Westbury,3
+(not set),United States,New York,Yonkers,3
+(not set),United States,North Carolina,Lincolnton,3
+(not set),United States,North Carolina,Mayodan,3
+(not set),United States,North Carolina,Newton,3
+(not set),United States,North Carolina,Williamston,3
+(not set),United States,North Carolina,Wilson,3
+(not set),United States,Ohio,(not set),3
+(not set),United States,Ohio,Parma,3
+(not set),United States,Pennsylvania,Bloomsburg,3
+(not set),United States,Pennsylvania,Tyrone,3
+(not set),United States,Pennsylvania,York,3
+(not set),United States,South Carolina,Conway,3
+(not set),United States,South Carolina,Manning,3
+(not set),United States,Texas,Grapevine,3
+(not set),United States,Texas,Pearland,3
+(not set),United States,Utah,Vernal,3
+(not set),United States,Virginia,Arlington,3
+(not set),United States,Virginia,Radford,3
+(not set),United States,Virginia,Virginia Beach,3
+(not set),United States,Washington,Lacey,3
+(not set),United States,West Virginia,Fairmont,3
+(not set),United States,Wisconsin,Wittenberg,3
+023M20A,United States,Arkansas,Brookland,3
+026L20A,United States,Illinois,Peoria,3
+046B21A,United States,California,Los Angeles,3
+1E028A,Germany,Lower Saxony,Gottingen,3
+1F1010A,Germany,Saxony,Dresden,3
+3003655,Italy,Emilia-Romagna,Rimini,3
+4301MF013,Germany,North Rhine-Westphalia,Cologne,3
+ACB5038,Germany,Bavaria,Regensburg,3
+ACB8967,Germany,Rhineland-Palatinate,Mutterstadt,3
+CH.-B.: FD7958,Germany,Hessen,Frankfurt,3
+CH.-B.:FE6975,Germany,Hessen,Frankfurt,3
+EM0477,Germany,Bavaria,Selb,3
+EN6199,United States,California,Carlsbad,3
+EN6200,United States,California,Santa Clara,3
+EN6202,Italy,Lazio,Rome,3
+EP2166,Germany,Bavaria,Passau,3
+ER1741,United Kingdom,England,London,3
+ER7812,Germany,Hamburg,Hamburg,3
+ER8730,United States,Mississippi,Long Beach,3
+EW0162,United States,Ohio,Waverly,3
+EW0179,United States,California,Los Angeles,3
+EW0198,Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,3
+EX3510,Germany,Hessen,Frankfurt,3
+EX3599,Germany,Saxony,Leipzig,3
+EX7389,Italy,Lombardy,Milan,3
+EX8679,Germany,North Rhine-Westphalia,(not set),3
+EY4825,Canada,British Columbia,Kelowna,3
+FA5833,Germany,Hessen,Frankfurt,3
+FA6780,United States,New York,New York,3
+FC1440,Germany,Lower Saxony,Bad Essen,3
+FC1526,Italy,Lombardy,Milan,3
+FE2707,Italy,Lombardy,Milan,3
+FE9174,Belgium,Flanders,Antwerp,3
+FG6272,Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,3
+FH8030,United States,Washington,Sedro-Woolley,3
+FK5618,United States,Wisconsin,Milwaukee,3
+FK6304,Austria,Vienna,Vienna,3
+FK6858,Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,3
+GJ7139,Japan,Osaka,Osaka,3
+SCVK4,Germany,Bavaria,Augsburg,3
+SDEJ8,Germany,Berlin,Berlin,3
+,Brazil,State of Sao Paulo,Campinas,4
+,Canada,British Columbia,Vancouver,4
+,Canada,Nova Scotia,Halifax Regional Municipality,4
+,Canada,Ontario,Hamilton,4
+,Colombia,Bogota,Bogota,4
+,France,Hauts-de-France,Roubaix,4
+,Germany,Baden-Wurttemberg,Heilbronn,4
+,Germany,Lower Saxony,Braunschweig,4
+,Germany,Lower Saxony,Vechta,4
+,Germany,Mecklenburg-Vorpommern,Parchim,4
+,Germany,North Rhine-Westphalia,Duisburg,4
+,Germany,North Rhine-Westphalia,Finnentrop,4
+,Germany,North Rhine-Westphalia,Warburg,4
+,Germany,Schleswig-Holstein,Kiel,4
+,Hungary,Budapest,Budapest,4
+,Indonesia,Jakarta,Jakarta,4
+,Ireland,County Dublin,Dublin,4
+,Italy,Liguria,Genoa,4
+,Japan,Kagoshima,Kagoshima,4
+,Japan,Tokyo,Hachioji,4
+,Nepal,,,4
+,Norway,Viken,Halden Municipality,4
+,Spain,Andalusia,Malaga,4
+,Spain,Valencian Community,Port de Sagunt,4
+,Switzerland,Canton of Bern,Langenthal,4
+,United States,Arizona,Tempe,4
+,United States,California,Beverly Hills,4
+,United States,California,Ceres,4
+,United States,California,Greenfield,4
+,United States,California,Oceanside,4
+,United States,California,Orland,4
+,United States,Florida,Pensacola,4
+,United States,Georgia,Atlanta,4
+,United States,North Carolina,Forest City,4
+,United States,Wisconsin,Marinette,4
+,United States,Wisconsin,West Bend,4
+(not set),Austria,Carinthia,Wolfsberg,4
+(not set),Austria,Upper Austria,Linz,4
+(not set),Austria,Vorarlberg,Bregenz,4
+(not set),Brazil,State of Parana,Paranagua,4
+(not set),Canada,Alberta,Lethbridge,4
+(not set),Canada,Alberta,Medicine Hat,4
+(not set),Canada,Alberta,Taber,4
+(not set),Canada,British Columbia,Ucluelet,4
+(not set),Canada,British Columbia,View Royal,4
+(not set),Canada,Newfoundland and Labrador,(not set),4
+(not set),Canada,Ontario,Apsley,4
+(not set),Canada,Ontario,Bowmanville,4
+(not set),Canada,Ontario,Colborne,4
+(not set),Canada,Ontario,Markham,4
+(not set),Canada,Prince Edward Island,Charlottetown,4
+(not set),China,Beijing,Beijing,4
+(not set),China,Jiangsu,Nantong,4
+(not set),Croatia,Istria County,Pula,4
+(not set),Denmark,North Denmark Region,Hjallerup,4
+(not set),France,Grand Est,Strasbourg,4
+(not set),France,Ile-de-France,Colombes,4
+(not set),France,Occitanie,Canet-en-Roussillon,4
+(not set),France,Occitanie,Toulouse,4
+(not set),France,Provence-Alpes-Cote d'Azur,Toulon,4
+(not set),Germany,Baden-Wurttemberg,Aalen,4
+(not set),Germany,Baden-Wurttemberg,Baden-Baden,4
+(not set),Germany,Baden-Wurttemberg,Ehingen,4
+(not set),Germany,Baden-Wurttemberg,Eislingen,4
+(not set),Germany,Baden-Wurttemberg,Emmendingen,4
+(not set),Germany,Baden-Wurttemberg,Karlsruhe,4
+(not set),Germany,Baden-Wurttemberg,Lichtenau,4
+(not set),Germany,Baden-Wurttemberg,Rottenburg,4
+(not set),Germany,Baden-Wurttemberg,Schorndorf,4
+(not set),Germany,Bavaria,Dinkelsbuhl,4
+(not set),Germany,Bavaria,Nordlingen,4
+(not set),Germany,Bavaria,Roth,4
+(not set),Germany,Bavaria,Vilsbiburg,4
+(not set),Germany,Brandenburg,Blankenfelde-Mahlow,4
+(not set),Germany,Hessen,Kassel,4
+(not set),Germany,Lower Saxony,Hildesheim,4
+(not set),Germany,Lower Saxony,Holzminden,4
+(not set),Germany,Lower Saxony,Langenhagen,4
+(not set),Germany,Lower Saxony,Uelzen,4
+(not set),Germany,Mecklenburg-Vorpommern,Ribnitz-Damgarten,4
+(not set),Germany,North Rhine-Westphalia,Bergisch Gladbach,4
+(not set),Germany,North Rhine-Westphalia,Duisburg,4
+(not set),Germany,North Rhine-Westphalia,Gutersloh,4
+(not set),Germany,North Rhine-Westphalia,Langenfeld,4
+(not set),Germany,North Rhine-Westphalia,Ludenscheid,4
+(not set),Germany,Rhineland-Palatinate,Alzey,4
+(not set),Germany,Rhineland-Palatinate,Asbach,4
+(not set),Germany,Rhineland-Palatinate,Bingen,4
+(not set),Germany,Rhineland-Palatinate,Birkenfeld,4
+(not set),Germany,Rhineland-Palatinate,Worth am Rhein,4
+(not set),Germany,Saxony,Zwickau,4
+(not set),Germany,Saxony-Anhalt,Halle (Saale),4
+(not set),Germany,Schleswig-Holstein,(not set),4
+(not set),Germany,Thuringia,Meiningen,4
+(not set),Hungary,Pest County,Vac,4
+(not set),Indonesia,Bali,Denpasar,4
+(not set),Indonesia,East Java,61473,4
+(not set),Indonesia,East Java,Surabaya,4
+(not set),Indonesia,West Sumatra,Candung,4
+(not set),Ireland,County Limerick,(not set),4
+(not set),Ireland,County Louth,Dundalk,4
+(not set),Japan,Ibaraki,Tsukuba,4
+(not set),Japan,Tokyo,Itabashi City,4
+(not set),Malaysia,Kedah,Sungai Petani,4
+(not set),Mexico,Jalisco,Tesistan,4
+(not set),Mexico,Sonora,San Luis Rio Colorado,4
+(not set),Netherlands,Gelderland,(not set),4
+(not set),Netherlands,Gelderland,Beltrum,4
+(not set),Netherlands,Gelderland,Wageningen,4
+(not set),Netherlands,Groningen,Groningen,4
+(not set),Netherlands,North Holland,Den Burg,4
+(not set),Netherlands,North Holland,IJmuiden,4
+(not set),Norway,Innlandet,Stange Municipality,4
+(not set),Peru,La Libertad,Trujillo,4
+(not set),Philippines,Metro Manila,Pasig,4
+(not set),Poland,Greater Poland Voivodeship,Poznan,4
+(not set),Poland,Kuyavian-Pomeranian Voivodeship,(not set),4
+(not set),Poland,Lesser Poland Voivodeship,Krakow,4
+(not set),Slovenia,Koper,Koper,4
+(not set),South Africa,Free State,Bethlehem,4
+(not set),South Africa,Gauteng,Benoni,4
+(not set),South Africa,Gauteng,Vereeniging,4
+(not set),Spain,Andalusia,Malaga,4
+(not set),Spain,Andalusia,Seville,4
+(not set),Spain,Galicia,Santiago de Compostela,4
+(not set),Spain,Valencian Community,Valencia,4
+(not set),Sri Lanka,Western Province,Colombo,4
+(not set),Sweden,Jamtland County,Ostersund,4
+(not set),Sweden,Jonkoping County,Eksjo,4
+(not set),Sweden,Vastra Gotaland County,Gothenburg,4
+(not set),Switzerland,Basel City,Basel,4
+(not set),Taiwan,(not set),(not set),4
+(not set),Thailand,Nan,(not set),4
+(not set),United Arab Emirates,Ajman,Ajman,4
+(not set),United Kingdom,England,Burnley,4
+(not set),United Kingdom,England,Chelmsford,4
+(not set),United Kingdom,England,Croydon,4
+(not set),United Kingdom,England,Kidlington,4
+(not set),United Kingdom,England,Matlock,4
+(not set),United Kingdom,England,Stroud,4
+(not set),United Kingdom,England,Witney,4
+(not set),United Kingdom,Northern Ireland,Omagh,4
+(not set),United Kingdom,Wales,(not set),4
+(not set),United States,Alabama,Brewton,4
+(not set),United States,Arizona,Buckeye,4
+(not set),United States,Arizona,Peoria,4
+(not set),United States,Arkansas,Russellville,4
+(not set),United States,California,Fresno,4
+(not set),United States,California,Knights Landing,4
+(not set),United States,California,Orland,4
+(not set),United States,Colorado,Fort Morgan,4
+(not set),United States,Delaware,Dover,4
+(not set),United States,Florida,Middleburg,4
+(not set),United States,Florida,Ocoee,4
+(not set),United States,Florida,Satellite Beach,4
+(not set),United States,Florida,Venice,4
+(not set),United States,Georgia,Calhoun,4
+(not set),United States,Georgia,LaFayette,4
+(not set),United States,Hawaii,Kula,4
+(not set),United States,Illinois,Bolingbrook,4
+(not set),United States,Illinois,Springfield,4
+(not set),United States,Indiana,Batesville,4
+(not set),United States,Indiana,Bloomington,4
+(not set),United States,Indiana,Pendleton,4
+(not set),United States,Iowa,Gowrie,4
+(not set),United States,Iowa,Muscatine,4
+(not set),United States,Iowa,Shenandoah,4
+(not set),United States,Kansas,Lenora,4
+(not set),United States,Kansas,Marysville,4
+(not set),United States,Kansas,Overland Park,4
+(not set),United States,Kansas,Sedan,4
+(not set),United States,Kansas,Smith Center,4
+(not set),United States,Kentucky,Ashland,4
+(not set),United States,Kentucky,Hindman,4
+(not set),United States,Kentucky,Morehead,4
+(not set),United States,Kentucky,Mount Vernon,4
+(not set),United States,Maine,Bath,4
+(not set),United States,Maryland,North East,4
+(not set),United States,Massachusetts,Attleboro,4
+(not set),United States,Massachusetts,New Bedford,4
+(not set),United States,Massachusetts,Shrewsbury,4
+(not set),United States,Michigan,Escanaba,4
+(not set),United States,Michigan,Rockford,4
+(not set),United States,Minnesota,Minneapolis,4
+(not set),United States,Minnesota,Rochester,4
+(not set),United States,Minnesota,Warren,4
+(not set),United States,Mississippi,Grenada,4
+(not set),United States,Missouri,Licking,4
+(not set),United States,Montana,Missoula,4
+(not set),United States,Montana,Stevensville,4
+(not set),United States,Nevada,Gerlach,4
+(not set),United States,New Hampshire,Derry,4
+(not set),United States,New Hampshire,Lancaster,4
+(not set),United States,New Hampshire,Londonderry,4
+(not set),United States,New Jersey,Pennsville Township,4
+(not set),United States,New York,Buffalo,4
+(not set),United States,New York,Huntington,4
+(not set),United States,North Carolina,Burnsville,4
+(not set),United States,North Carolina,Forest City,4
+(not set),United States,North Carolina,Lumberton,4
+(not set),United States,North Carolina,Moyock,4
+(not set),United States,Ohio,Boardman,4
+(not set),United States,Ohio,Greenville,4
+(not set),United States,Ohio,Oxford,4
+(not set),United States,Oklahoma,Chickasha,4
+(not set),United States,Oregon,Eugene,4
+(not set),United States,Oregon,Prineville,4
+(not set),United States,Oregon,Salem,4
+(not set),United States,Oregon,Warm Springs,4
+(not set),United States,Pennsylvania,Pittsburgh,4
+(not set),United States,Rhode Island,Coventry,4
+(not set),United States,Rhode Island,Newport,4
+(not set),United States,Rhode Island,Warwick,4
+(not set),United States,South Carolina,Aiken,4
+(not set),United States,South Carolina,Columbia,4
+(not set),United States,South Dakota,Rapid City,4
+(not set),United States,South Dakota,Sioux Falls,4
+(not set),United States,Tennessee,Morristown,4
+(not set),United States,Tennessee,Nashville,4
+(not set),United States,Texas,Canyon Lake,4
+(not set),United States,Texas,Floresville,4
+(not set),United States,Texas,Henderson,4
+(not set),United States,Texas,Santa Anna,4
+(not set),United States,Texas,Southlake,4
+(not set),United States,Texas,Sugar Land,4
+(not set),United States,Virginia,Courtland,4
+(not set),United States,Virginia,Washington,4
+(not set),United States,Washington,Arlington,4
+(not set),United States,Washington,Artondale,4
+(not set),United States,Washington,Bellingham,4
+(not set),United States,Washington,Centralia,4
+(not set),United States,Washington,Eastsound,4
+(not set),United States,Washington,Edmonds,4
+(not set),United States,Washington,Moses Lake,4
+(not set),United States,Washington,Wenatchee,4
+(not set),United States,Wisconsin,Hudson,4
+(not set),United States,Wisconsin,Pulaski,4
+(not set),United States,Wisconsin,Watertown,4
+(not set),United States,Wisconsin,Wautoma,4
+1DO18A,Germany,Saxony,Leipzig,4
+1F036A,Germany,Bavaria,Krumbach,4
+30011TB,Germany,Brandenburg,Cottbus,4
+4301MF009,Germany,North Rhine-Westphalia,Cologne,4
+ACC0681,Germany,North Rhine-Westphalia,Oberhausen,4
+EJ6789,Germany,Berlin,Berlin,4
+EL3302,United States,California,Newport Beach,4
+FC1435,Spain,Community of Madrid,Madrid,4
+FD5996,Germany,Saxony,Dresden,4
+FE9174,Germany,Hessen,Bad Hersfeld,4
+FG8643,Malaysia,Selangor,Shah Alam,4
+HG2272,Ireland,County Dublin,Dublin,4
+,Australia,Victoria,Melbourne,5
+,Austria,Upper Austria,Sankt Florian am Inn,5
+,Canada,Alberta,Calgary,5
+,Canada,Ontario,Toronto,5
+,Colombia,Boyaca,Tunja,5
+,Croatia,Split-Dalmatia County,Split,5
+,Czechia,Liberec Region,Liberec,5
+,Denmark,Capital Region of Denmark,Brondby,5
+,Finland,Pirkanmaa,Tampere,5
+,Finland,Uusimaa,Helsinki,5
+,Germany,Bavaria,Bayreuth,5
+,Germany,Bavaria,Nordlingen,5
+,Germany,Hessen,Darmstadt,5
+,Germany,North Rhine-Westphalia,Mechernich,5
+,Japan,Tokyo,Minato City,5
+,Philippines,Calabarzon,General Trias,5
+,Romania,,,5
+,Slovakia,Bratislava Region,Bratislava,5
+,South Africa,Gauteng,Pretoria,5
+,Spain,Asturias,Gijon,5
+,Sweden,Orebro County,Orebro,5
+,United States,Florida,,5
+,United States,Iowa,Humeston,5
+,United States,North Carolina,Hickory,5
+,United States,North Carolina,Raleigh,5
+,United States,Oregon,Estacada,5
+,United States,South Dakota,Garretson,5
+,United States,Tennessee,Mt. Juliet,5
+,United States,Texas,Temple,5
+,United States,Texas,The Woodlands,5
+,United States,Texas,Trinity,5
+,United States,Utah,Millcreek,5
+(not set),Austria,(not set),(not set),5
+(not set),Austria,Carinthia,Klagenfurt am Worthersee,5
+(not set),Austria,Lower Austria,(not set),5
+(not set),Austria,Lower Austria,Leopoldsdorf,5
+(not set),Austria,Lower Austria,Wiener Neustadt,5
+(not set),Austria,Tyrol,Ehrwald,5
+(not set),Brazil,State of Parana,Curitiba,5
+(not set),Brazil,State of Sao Paulo,Sao Paulo,5
+(not set),Canada,Alberta,Edmonton,5
+(not set),Canada,British Columbia,Delta,5
+(not set),Canada,British Columbia,Richmond,5
+(not set),Canada,British Columbia,Surrey,5
+(not set),Canada,New Brunswick,Moncton,5
+(not set),Canada,Ontario,Bracebridge,5
+(not set),Canada,Ontario,Mississauga,5
+(not set),Canada,Ontario,North Bay,5
+(not set),Canada,Ontario,Sarnia,5
+(not set),Canada,Ontario,St. Catharines,5
+(not set),Canada,Ontario,Whitby,5
+(not set),Canada,Quebec,Amos,5
+(not set),Chile,Maule,Talca,5
+(not set),Chile,Valparaiso,Quilpue,5
+(not set),China,Guangxi,(not set),5
+(not set),China,Jiangsu,Nanjing,5
+(not set),Czechia,Hradec Kralove Region,Hradec Kralove,5
+(not set),Czechia,Pardubice Region,Zamberk,5
+(not set),Dominican Republic,(not set),Santo Domingo,5
+(not set),Egypt,Alexandria Governorate,Alexandria,5
+(not set),France,Auvergne-Rhone-Alpes,Gex,5
+(not set),France,Grand Est,Thionville,5
+(not set),France,Ile-de-France,95450,5
+(not set),France,Ile-de-France,Courbevoie,5
+(not set),France,Nouvelle-Aquitaine,Cenon,5
+(not set),France,Pays de la Loire,Laval,5
+(not set),Germany,Baden-Wurttemberg,Heidelberg,5
+(not set),Germany,Baden-Wurttemberg,Herbolzheim,5
+(not set),Germany,Baden-Wurttemberg,Sandhausen,5
+(not set),Germany,Bavaria,Bamberg,5
+(not set),Germany,Bavaria,Dachau,5
+(not set),Germany,Bavaria,Ingolstadt,5
+(not set),Germany,Bavaria,Kaufbeuren,5
+(not set),Germany,Bavaria,Lohr a. Main,5
+(not set),Germany,Bavaria,Pfaffenhofen an der Ilm,5
+(not set),Germany,Bavaria,Starnberg,5
+(not set),Germany,Bavaria,Treuchtlingen,5
+(not set),Germany,Bavaria,Vilseck,5
+(not set),Germany,Brandenburg,Brieselang,5
+(not set),Germany,Brandenburg,Finsterwalde,5
+(not set),Germany,Brandenburg,Konigs Wusterhausen,5
+(not set),Germany,Hessen,Giessen,5
+(not set),Germany,Lower Saxony,Barsinghausen,5
+(not set),Germany,Lower Saxony,Celle,5
+(not set),Germany,Lower Saxony,Lingen,5
+(not set),Germany,Lower Saxony,Seesen,5
+(not set),Germany,Lower Saxony,Springe,5
+(not set),Germany,Lower Saxony,Wolfsburg,5
+(not set),Germany,Mecklenburg-Vorpommern,Grevesmuhlen,5
+(not set),Germany,Mecklenburg-Vorpommern,Hagenow,5
+(not set),Germany,Mecklenburg-Vorpommern,Waren,5
+(not set),Germany,North Rhine-Westphalia,Bonn,5
+(not set),Germany,North Rhine-Westphalia,Hagen,5
+(not set),Germany,North Rhine-Westphalia,Mechernich,5
+(not set),Germany,North Rhine-Westphalia,Simmerath,5
+(not set),Germany,North Rhine-Westphalia,Winterberg,5
+(not set),Germany,Rhineland-Palatinate,Bad Kreuznach,5
+(not set),Germany,Rhineland-Palatinate,Kirchheimbolanden,5
+(not set),Germany,Saxony,Chemnitz,5
+(not set),Germany,Saxony,Freital,5
+(not set),Germany,Saxony,Plauen,5
+(not set),Germany,Saxony-Anhalt,Blankenburg,5
+(not set),Greece,Decentralized Administration of Thessaly and Central Greece,Larissa,5
+(not set),Guatemala,Guatemala Department,Guatemala City,5
+(not set),Hungary,Baranya,Pecs,5
+(not set),Indonesia,West Papua,Taige,5
+(not set),Iran,Tehran,Tehran,5
+(not set),Italy,Lazio,Ostia,5
+(not set),Italy,Tuscany,Florence,5
+(not set),Japan,Fukuoka,Kurume,5
+(not set),Japan,Hiroshima,Hiroshima,5
+(not set),Japan,Hyogo,Amagasaki,5
+(not set),Japan,Hyogo,Himeji,5
+(not set),Japan,Ishikawa,Kaga,5
+(not set),Japan,Mie,Odai,5
+(not set),Japan,Miyagi,Osaki,5
+(not set),Japan,Tokyo,Edogawa City,5
+(not set),Malaysia,Selangor,Puchong,5
+(not set),Mexico,Hidalgo,Pachuca,5
+(not set),Mexico,Quintana Roo,Cancun,5
+(not set),Netherlands,Limburg,Sint Odilienberg,5
+(not set),Netherlands,Limburg,Weert,5
+(not set),Netherlands,North Brabant,Uden,5
+(not set),Netherlands,South Holland,Maassluis,5
+(not set),Netherlands,Utrecht,Leerdam,5
+(not set),Netherlands,Utrecht,Utrecht,5
+(not set),New Zealand,Manawatu-Wanganui,Palmerston North,5
+(not set),Norway,Vestland,Bergen Municipality,5
+(not set),Norway,Vestland,Kvinnherad Municipality,5
+(not set),Philippines,Calabarzon,Antipolo,5
+(not set),Philippines,Calabarzon,Binan,5
+(not set),Poland,Greater Poland Voivodeship,(not set),5
+(not set),Poland,Greater Poland Voivodeship,Ostrow Wielkopolski,5
+(not set),Poland,Lublin Voivodeship,(not set),5
+(not set),Poland,West Pomeranian Voivodeship,Szczecin,5
+(not set),Portugal,Leiria District,Leiria,5
+(not set),Singapore,(not set),Singapore,5
+(not set),South Africa,Limpopo,Polokwane,5
+(not set),South Korea,Seoul,Seoul,5
+(not set),Switzerland,Canton of Lucerne,Kriens,5
+(not set),Switzerland,Canton of Lucerne,Lucerne,5
+(not set),Switzerland,Geneva,Meyrin,5
+(not set),United Arab Emirates,Abu Dhabi,Abu Dhabi,5
+(not set),United Kingdom,England,Coventry,5
+(not set),United Kingdom,England,Eastbourne,5
+(not set),United Kingdom,England,Gloucester,5
+(not set),United Kingdom,England,Hindhead,5
+(not set),United Kingdom,England,Manchester,5
+(not set),United Kingdom,England,Rochdale,5
+(not set),United States,Alabama,Huntsville,5
+(not set),United States,Arizona,(not set),5
+(not set),United States,Arkansas,Ward,5
+(not set),United States,California,Corona,5
+(not set),United States,California,Encinitas,5
+(not set),United States,California,Monterey,5
+(not set),United States,California,Palo Alto,5
+(not set),United States,California,Riverside,5
+(not set),United States,California,Santa Rosa,5
+(not set),United States,California,Turlock,5
+(not set),United States,Florida,Greater Carrollwood,5
+(not set),United States,Florida,New Port Richey,5
+(not set),United States,Florida,Palm Bay,5
+(not set),United States,Florida,Wildwood,5
+(not set),United States,Florida,Winter Haven,5
+(not set),United States,Georgia,Baxley,5
+(not set),United States,Georgia,Jesup,5
+(not set),United States,Georgia,Marietta,5
+(not set),United States,Illinois,Glenview,5
+(not set),United States,Indiana,Carmel,5
+(not set),United States,Indiana,Jasper,5
+(not set),United States,Indiana,Paoli,5
+(not set),United States,Iowa,Audubon,5
+(not set),United States,Louisiana,Crowley,5
+(not set),United States,Louisiana,Gonzales,5
+(not set),United States,Massachusetts,Natick,5
+(not set),United States,Michigan,Comstock Township,5
+(not set),United States,Michigan,Grand Rapids,5
+(not set),United States,Michigan,Hancock,5
+(not set),United States,Michigan,Leslie,5
+(not set),United States,Michigan,Wixom,5
+(not set),United States,Minnesota,Pipestone,5
+(not set),United States,Montana,Red Lodge,5
+(not set),United States,Nevada,Eureka,5
+(not set),United States,New Jersey,Hamilton Township,5
+(not set),United States,New Jersey,Tenafly,5
+(not set),United States,North Carolina,Burlington,5
+(not set),United States,North Carolina,Shelby,5
+(not set),United States,Ohio,Dayton,5
+(not set),United States,Oklahoma,Idabel,5
+(not set),United States,Oregon,Hermiston,5
+(not set),United States,Pennsylvania,Connellsville,5
+(not set),United States,Pennsylvania,Philadelphia,5
+(not set),United States,Pennsylvania,Washington,5
+(not set),United States,South Carolina,Beaufort,5
+(not set),United States,South Carolina,Fort Mill,5
+(not set),United States,South Dakota,Eagle Butte,5
+(not set),United States,Tennessee,Carthage,5
+(not set),United States,Tennessee,Maryville,5
+(not set),United States,Virginia,Luray,5
+(not set),United States,Virginia,Petersburg,5
+(not set),United States,Virginia,Spotsylvania Courthouse,5
+(not set),United States,West Virginia,Charles Town,5
+(not set),United States,Wisconsin,Adams,5
+EL9261,United States,Illinois,Chicago,5
+EN6198,United States,Washington,Sedro-Woolley,5
+FE8163,Malaysia,Selangor,Shah Alam,5
+FG4493,France,Auvergne-Rhone-Alpes,Thonon-les-Bains,5
+,Czechia,South Bohemian Region,Cesky Krumlov,6
+,Germany,Baden-Wurttemberg,Oberndorf,6
+,Germany,Hessen,Neu-Anspach,6
+,Hong Kong,,,6
+,Japan,Gifu,Gifu,6
+,Malaysia,Terengganu,Kuala Dungun,6
+,New Zealand,Waikato,Hamilton,6
+,Sweden,Stockholm County,Stockholm,6
+,United States,Florida,Palm Harbor,6
+,United States,Florida,Plantation,6
+,United States,Idaho,Boise,6
+,United States,Michigan,,6
+,United States,Oregon,Umatilla,6
+(not set),Australia,Queensland,Rockhampton,6
+(not set),Austria,Lower Austria,Hollabrunn,6
+(not set),Canada,Alberta,Okotoks,6
+(not set),Canada,Alberta,Stettler,6
+(not set),Canada,British Columbia,(not set),6
+(not set),Canada,British Columbia,Cranbrook,6
+(not set),Canada,British Columbia,Salmon Arm,6
+(not set),Canada,Ontario,Kitchener,6
+(not set),Canada,Ontario,Newcastle,6
+(not set),Canada,Ontario,Niagara Falls,6
+(not set),Canada,Quebec,Joliette,6
+(not set),Canada,Saskatchewan,(not set),6
+(not set),Chile,Araucania,Victoria,6
+(not set),China,Shanghai,Shanghai,6
+(not set),Croatia,Zadar County,(not set),6
+(not set),Czechia,(not set),(not set),6
+(not set),France,Centre-Val de Loire,Blois,6
+(not set),Germany,Baden-Wurttemberg,Albbruck,6
+(not set),Germany,Baden-Wurttemberg,Gerstetten,6
+(not set),Germany,Baden-Wurttemberg,Goppingen,6
+(not set),Germany,Brandenburg,Lubbenau,6
+(not set),Germany,Hessen,Limburg,6
+(not set),Germany,Lower Saxony,Bergen,6
+(not set),Germany,Lower Saxony,Peine,6
+(not set),Germany,North Rhine-Westphalia,Solingen,6
+(not set),Germany,North Rhine-Westphalia,Tonisvorst,6
+(not set),Germany,Rhineland-Palatinate,Worms,6
+(not set),Germany,Saxony,Wilsdruff,6
+(not set),Germany,Saxony-Anhalt,Querfurt,6
+(not set),Germany,Thuringia,Sondershausen,6
+(not set),Italy,Apulia,Francavilla Fontana,6
+(not set),Italy,Lombardy,Vigevano,6
+(not set),Japan,Hokkaido,Muroran,6
+(not set),Japan,Tokyo,Minato City,6
+(not set),Morocco,Marrakesh-Safi,Marrakesh,6
+(not set),Netherlands,Utrecht,Zeist,6
+(not set),New Caledonia,(not set),Noumea,6
+(not set),Philippines,Calabarzon,Santa Rosa,6
+(not set),Portugal,Viseu District,Viseu,6
+(not set),Sweden,Vastra Gotaland County,Fargelanda,6
+(not set),Thailand,Nakhon Sawan,Nakhon Sawan,6
+(not set),United Kingdom,England,Slough,6
+(not set),United States,California,Tehachapi,6
+(not set),United States,Florida,Edgewater,6
+(not set),United States,Florida,Miami,6
+(not set),United States,Florida,Palm Beach Gardens,6
+(not set),United States,Hawaii,Honolulu,6
+(not set),United States,Indiana,Fort Wayne,6
+(not set),United States,Kentucky,La Grange,6
+(not set),United States,Maryland,(not set),6
+(not set),United States,Massachusetts,Orange,6
+(not set),United States,Michigan,Caro,6
+(not set),United States,Michigan,East Lansing,6
+(not set),United States,Michigan,Lawton,6
+(not set),United States,Mississippi,Biloxi,6
+(not set),United States,Missouri,Brookfield,6
+(not set),United States,New Jersey,Lawrence Township,6
+(not set),United States,New York,Orchard Park,6
+(not set),United States,North Carolina,Wallace,6
+(not set),United States,Oklahoma,Guthrie,6
+(not set),United States,Oregon,Portland,6
+(not set),United States,Oregon,Springfield,6
+(not set),United States,Texas,Fairfield,6
+(not set),United States,Texas,Lewisville,6
+(not set),United States,Washington,Friday Harbor,6
+(not set),United States,Washington,Kirkland,6
+(not set),United States,Wyoming,Gillette,6
+FE2090,Belgium,Flanders,Antwerp,6
+,France,Hauts-de-France,59166,7
+,France,Nouvelle-Aquitaine,Pau,7
+,Germany,Bavaria,Rosenheim,7
+,Germany,Lower Saxony,Achim,7
+,United Kingdom,England,Reading,7
+,United States,Illinois,Chicago,7
+,United States,North Carolina,,7
+,United States,Ohio,Parma,7
+,United States,Utah,Vernal,7
+(not set),Belgium,Brussels,Brussels,7
+(not set),Bulgaria,Sofia City Province,Sofia,7
+(not set),Canada,Alberta,(not set),7
+(not set),Canada,Ontario,Milton,7
+(not set),Denmark,Capital Region of Denmark,Ishoj,7
+(not set),Finland,Pirkanmaa,Pirkkala,7
+(not set),France,Pays de la Loire,Nantes,7
+(not set),Germany,Baden-Wurttemberg,Weinheim,7
+(not set),Germany,Baden-Wurttemberg,Zell,7
+(not set),Germany,Bavaria,Burglengenfeld,7
+(not set),Germany,Bavaria,Hohenfels,7
+(not set),Germany,Bavaria,Memmingen,7
+(not set),Germany,Hessen,Wiesbaden,7
+(not set),Germany,Lower Saxony,Buchholz in der Nordheide,7
+(not set),Germany,Lower Saxony,Goslar,7
+(not set),Germany,Lower Saxony,Varel,7
+(not set),Germany,North Rhine-Westphalia,Euskirchen,7
+(not set),Germany,Saarland,Saarlouis,7
+(not set),Germany,Saarland,Sankt Ingbert,7
+(not set),Germany,Saarland,Sankt Wendel,7
+(not set),Germany,Saxony,Mulsen,7
+(not set),Germany,Saxony,Oschatz,7
+(not set),Germany,Saxony-Anhalt,Wernigerode,7
+(not set),Germany,Thuringia,Eisenach,7
+(not set),Italy,(not set),(not set),7
+(not set),Italy,Emilia-Romagna,Rimini,7
+(not set),Italy,Lombardy,Brescia,7
+(not set),Japan,Aichi,Okazaki,7
+(not set),Japan,Saitama,Saitama,7
+(not set),Malaysia,Penang,Bukit Mertajam,7
+(not set),Netherlands,North Holland,Wieringerwerf,7
+(not set),North Macedonia,(not set),(not set),7
+(not set),Philippines,Bicol,Virac,7
+(not set),Philippines,Central Visayas,(not set),7
+(not set),Puerto Rico,San Juan,San Juan,7
+(not set),Slovakia,Kosice Region,Kosice,7
+(not set),Spain,Aragon,Zaragoza,7
+(not set),Spain,Canary Islands,(not set),7
+(not set),Spain,Catalonia,Barcelona,7
+(not set),United Kingdom,England,Ellesmere Port,7
+(not set),United States,Arkansas,Pea Ridge,7
+(not set),United States,California,Arcata,7
+(not set),United States,California,Rohnert Park,7
+(not set),United States,California,Sacramento,7
+(not set),United States,California,San Francisco,7
+(not set),United States,California,Sunnyvale,7
+(not set),United States,Colorado,Buena Vista,7
+(not set),United States,Delaware,Bridgeville,7
+(not set),United States,Florida,Palm Coast,7
+(not set),United States,Maine,Westbrook,7
+(not set),United States,Michigan,(not set),7
+(not set),United States,Missouri,Sparta,7
+(not set),United States,New Jersey,(not set),7
+(not set),United States,New Jersey,Medford,7
+(not set),United States,New York,Brookhaven,7
+(not set),United States,New York,Warwick,7
+(not set),United States,North Carolina,Oak Island,7
+(not set),United States,Ohio,Carrollton,7
+(not set),United States,Pennsylvania,Slippery Rock,7
+(not set),United States,Tennessee,Chattanooga,7
+(not set),United States,Texas,Harlingen,7
+(not set),United States,Virginia,Rocky Mount,7
+(not set),United States,Washington,Picnic Point-North Lynnwood,7
+216038,Belgium,Flanders,Antwerp,7
+,Canada,Quebec,Montreal,8
+,Germany,Bavaria,Feldkirchen-Westerham,8
+,Germany,Berlin,Berlin,8
+,Germany,Lower Saxony,,8
+,Germany,North Rhine-Westphalia,Bielefeld,8
+,Greece,Attica,Athens,8
+,Italy,Piedmont,Turin,8
+,Japan,Tokyo,,8
+,Namibia,Khomas Region,Windhoek,8
+,United States,California,,8
+,United States,Texas,Dallas,8
+(not set),Argentina,Buenos Aires,Buenos Aires,8
+(not set),Canada,Alberta,Redwood Meadows,8
+(not set),Canada,Ontario,Brampton,8
+(not set),Chile,Santiago Metropolitan Region,Santiago,8
+(not set),China,Guangdong Province,Guangzhou,8
+(not set),Croatia,City of Zagreb,Zagreb,8
+(not set),Denmark,Central Denmark Region,Allingabro,8
+(not set),Denmark,Region of Southern Denmark,Odense,8
+(not set),France,Provence-Alpes-Cote d'Azur,Marseille,8
+(not set),Germany,Baden-Wurttemberg,Bad Saulgau,8
+(not set),Germany,Baden-Wurttemberg,Esslingen,8
+(not set),Germany,Baden-Wurttemberg,Herrenberg,8
+(not set),Germany,Baden-Wurttemberg,Kirchardt,8
+(not set),Germany,Bavaria,Cham,8
+(not set),Germany,Bavaria,Klingenberg am Main,8
+(not set),Germany,Bavaria,Konigsberg,8
+(not set),Germany,Bavaria,Landsberg am Lech,8
+(not set),Germany,Bavaria,Landshut,8
+(not set),Germany,Bavaria,Marktoberdorf,8
+(not set),Germany,Brandenburg,(not set),8
+(not set),Germany,Brandenburg,Erkner,8
+(not set),Germany,Brandenburg,Oranienburg,8
+(not set),Germany,Hessen,Dietzenbach,8
+(not set),Germany,Lower Saxony,Salzgitter,8
+(not set),Germany,North Rhine-Westphalia,Monchengladbach,8
+(not set),Germany,North Rhine-Westphalia,Unna,8
+(not set),Germany,Saxony,Crimmitschau,8
+(not set),Germany,Saxony,Freiberg,8
+(not set),Germany,Schleswig-Holstein,Eutin,8
+(not set),Germany,Schleswig-Holstein,Flensburg,8
+(not set),Germany,Schleswig-Holstein,Wahlstedt,8
+(not set),Ireland,County Galway,Galway,8
+(not set),Japan,Osaka,Ibaraki,8
+(not set),Malaysia,Selangor,Banting,8
+(not set),Mauritius,Port Louis District,Port Louis,8
+(not set),New Zealand,Canterbury,(not set),8
+(not set),Norway,(not set),(not set),8
+(not set),Philippines,Davao Region,Davao City,8
+(not set),Philippines,Metro Manila,Paranaque,8
+(not set),Poland,Lower Silesian Voivodeship,Wroclaw,8
+(not set),Poland,Masovian Voivodeship,Pruszkow,8
+(not set),Portugal,Azores,Angra do Heroismo,8
+(not set),Slovakia,Trencin Region,Prievidza,8
+(not set),South Africa,Gauteng,Krugersdorp,8
+(not set),Thailand,Chon Buri,Pattaya City,8
+(not set),Türkiye,Antalya,Alanya,8
+(not set),United Kingdom,England,Liverpool,8
+(not set),United Kingdom,England,Milton Keynes,8
+(not set),United Kingdom,England,Peterborough,8
+(not set),United Kingdom,England,Stoke-on-Trent,8
+(not set),United Kingdom,England,Taunton,8
+(not set),United States,California,Cypress,8
+(not set),United States,California,Julian,8
+(not set),United States,Colorado,Englewood,8
+(not set),United States,Colorado,Grand Junction,8
+(not set),United States,Colorado,Lafayette,8
+(not set),United States,Georgia,Conyers,8
+(not set),United States,Georgia,Pine Mountain,8
+(not set),United States,Illinois,Belleville,8
+(not set),United States,Illinois,Elk Grove Village,8
+(not set),United States,Illinois,Metropolis,8
+(not set),United States,Illinois,Peoria,8
+(not set),United States,Indiana,(not set),8
+(not set),United States,Indiana,Greensburg,8
+(not set),United States,Iowa,Denison,8
+(not set),United States,Kansas,Coffeyville,8
+(not set),United States,Kentucky,Russell Springs,8
+(not set),United States,Maryland,Ballenger Creek,8
+(not set),United States,Massachusetts,Fall River,8
+(not set),United States,Michigan,Forest Hills,8
+(not set),United States,Michigan,Portage,8
+(not set),United States,Michigan,Three Rivers,8
+(not set),United States,Missouri,Rogersville,8
+(not set),United States,New Hampshire,Hampton,8
+(not set),United States,New Jersey,Clifton,8
+(not set),United States,New York,Latham,8
+(not set),United States,Ohio,Columbus,8
+(not set),United States,Pennsylvania,Harrisburg,8
+(not set),United States,Pennsylvania,Southampton,8
+(not set),United States,South Carolina,(not set),8
+(not set),United States,South Carolina,Cheraw,8
+(not set),United States,Texas,New Caney,8
+(not set),United States,Utah,Salt Lake City,8
+(not set),United States,Virginia,Dale City,8
+,Japan,Fukuoka,Fukuoka,9
+,Mexico,Jalisco,Guadalajara,9
+,Netherlands,Flevoland,Dronten,9
+,United States,Florida,Miami,9
+(not set),Australia,Australian Capital Territory,Canberra,9
+(not set),Canada,British Columbia,Sidney,9
+(not set),Canada,Nova Scotia,Halifax Regional Municipality,9
+(not set),Canada,Quebec,(not set),9
+(not set),Germany,Baden-Wurttemberg,Markgroningen,9
+(not set),Germany,Baden-Wurttemberg,Ulm,9
+(not set),Germany,Bavaria,Maxhutte-Haidhof,9
+(not set),Germany,Lower Saxony,Bad Essen,9
+(not set),Germany,Lower Saxony,Lehrte,9
+(not set),Germany,Lower Saxony,Osnabruck,9
+(not set),Germany,Mecklenburg-Vorpommern,Greifswald,9
+(not set),Germany,Mecklenburg-Vorpommern,Parchim,9
+(not set),Germany,North Rhine-Westphalia,Lippstadt,9
+(not set),Germany,North Rhine-Westphalia,Rheine,9
+(not set),Germany,Saarland,Saarbrucken,9
+(not set),Japan,Hokkaido,Asahikawa,9
+(not set),Japan,Hokkaido,Fukagawa,9
+(not set),Japan,Hyogo,Kobe,9
+(not set),Japan,Osaka,Higashiosaka,9
+(not set),Mexico,Mexico City,Mexico City,9
+(not set),Netherlands,Friesland,Wolvega,9
+(not set),Slovakia,Zilina Region,(not set),9
+(not set),Switzerland,Zurich,Wadenswil,9
+(not set),Taiwan,New Taipei City,(not set),9
+(not set),United Kingdom,England,Poole,9
+(not set),United Kingdom,England,Sheffield,9
+(not set),United States,Colorado,Denver,9
+(not set),United States,Florida,Lehigh Acres,9
+(not set),United States,Indiana,Indianapolis,9
+(not set),United States,Mississippi,Oxford,9
+(not set),United States,New Jersey,Brick Township,9
+(not set),United States,New York,Rochester,9
+,Australia,Western Australia,Perth,10
+,Germany,Baden-Wurttemberg,,10
+,New Zealand,Canterbury,Christchurch,10
+,Switzerland,Canton of Bern,Aarwangen,10
+,United Arab Emirates,Dubai,Dubai,10
+,United States,California,Newport Beach,10
+(not set),Belgium,Flanders,Turnhout,10
+(not set),Canada,Ontario,Amherstburg,10
+(not set),Canada,Saskatchewan,Regina,10
+(not set),Germany,Bavaria,Bad Neustadt an der Saale,10
+(not set),Germany,Bavaria,Wurzburg,10
+(not set),Germany,Brandenburg,Schwedt,10
+(not set),Germany,Rhineland-Palatinate,Herxheim bei Landau/Pfalz,10
+(not set),Germany,Rhineland-Palatinate,Mutterstadt,10
+(not set),Germany,Schleswig-Holstein,Kiel,10
+(not set),Hungary,Tolna County,7135,10
+(not set),Israel,Tel Aviv District,Tel Aviv-Yafo,10
+(not set),Italy,Emilia-Romagna,Bologna,10
+(not set),Lebanon,Beirut Governorate,Beirut,10
+(not set),Netherlands,North Holland,Amsterdam,10
+(not set),Philippines,Cagayan Valley,(not set),10
+(not set),Philippines,Metro Manila,Manila,10
+(not set),Türkiye,Mugla,Marmaris,10
+(not set),United Kingdom,England,Barnsley,10
+(not set),United Kingdom,England,Dunstable,10
+(not set),United Kingdom,Wales,Cardiff,10
+(not set),United States,Florida,Jacksonville,10
+(not set),United States,Florida,Tampa,10
+(not set),United States,Iowa,Brooklyn,10
+(not set),United States,Maryland,Columbia,10
+(not set),United States,Nebraska,Omaha,10
+(not set),United States,Ohio,London,10
+(not set),United States,South Carolina,Seneca,10
+(not set),United States,Tennessee,Dickson,10
+(not set),United States,Texas,Arlington,10
+(not set),United States,Texas,Pipe Creek,10
+(not set),United States,Washington,Gig Harbor,10
+(not set),United States,Washington,Roslyn,10
+,France,Occitanie,09350,11
+,Japan,Osaka,Osaka,11
+(not set),Argentina,Buenos Aires Province,Mar del Plata,11
+(not set),Australia,Tasmania,Hobart,11
+(not set),Austria,Styria,Bad Radkersburg,11
+(not set),Brazil,State of Alagoas,57309,11
+(not set),Canada,Ontario,Peterborough,11
+(not set),Canada,Ontario,Vaughan,11
+(not set),Estonia,Harju County,Tallinn,11
+(not set),France,Grand Est,Saint-Dizier,11
+(not set),Germany,Bavaria,Bayreuth,11
+(not set),Germany,Hessen,Morfelden-Walldorf,11
+(not set),Germany,Lower Saxony,Hann. Munden,11
+(not set),Germany,North Rhine-Westphalia,Rheinberg,11
+(not set),Germany,North Rhine-Westphalia,Schalksmuhle,11
+(not set),Germany,Saxony-Anhalt,Wittenberg,11
+(not set),Germany,Schleswig-Holstein,Elmshorn,11
+(not set),Germany,Schleswig-Holstein,Norderstedt,11
+(not set),Germany,Thuringia,Nordhausen,11
+(not set),Hong Kong,(not set),(not set),11
+(not set),Indonesia,Jambi,37173,11
+(not set),Poland,Opole Voivodeship,Praszka,11
+(not set),Singapore,(not set),(not set),11
+(not set),Slovakia,Bratislava Region,Bratislava,11
+(not set),Sweden,Vastra Gotaland County,Lysekil,11
+(not set),Trinidad & Tobago,Tunapuna/Piarco Regional Corporation,(not set),11
+(not set),United Kingdom,England,Watford,11
+(not set),United Kingdom,England,Wolverhampton,11
+(not set),United States,Arizona,Mesa,11
+(not set),United States,California,Newport Beach,11
+(not set),United States,California,San Luis Obispo,11
+(not set),United States,Connecticut,Madison,11
+(not set),United States,New York,Albany,11
+(not set),United States,New York,Fairport,11
+(not set),United States,North Carolina,Garner,11
+(not set),United States,North Carolina,Raleigh,11
+(not set),United States,Oklahoma,Edmond,11
+092F21A,Germany,Rhineland-Palatinate,Bitburg,11
+,Italy,Emilia-Romagna,Bologna,12
+(not set),Austria,Lower Austria,Baden bei Wien,12
+(not set),Canada,New Brunswick,Miramichi,12
+(not set),Canada,Quebec,Labelle,12
+(not set),Denmark,Capital Region of Denmark,Ballerup,12
+(not set),France,Auvergne-Rhone-Alpes,(not set),12
+(not set),Germany,Baden-Wurttemberg,Achern,12
+(not set),Germany,Bavaria,Krumbach,12
+(not set),Germany,Bremen,Bremerhaven,12
+(not set),Germany,Mecklenburg-Vorpommern,(not set),12
+(not set),Germany,North Rhine-Westphalia,Bochum,12
+(not set),Germany,North Rhine-Westphalia,Krefeld,12
+(not set),Germany,Thuringia,Jena,12
+(not set),Philippines,Calabarzon,General Trias,12
+(not set),Sweden,Norrbotten County,Lulea,12
+(not set),Sweden,Vastmanland County,Vasteras,12
+(not set),United Kingdom,England,Plymouth,12
+(not set),United States,Iowa,Cedar Rapids,12
+(not set),United States,Michigan,Battle Creek,12
+(not set),United States,Michigan,Detroit,12
+(not set),United States,Montana,Libby,12
+(not set),United States,Nevada,Las Vegas,12
+(not set),United States,New Mexico,Las Cruces,12
+(not set),United States,Oregon,(not set),12
+(not set),United States,Texas,(not set),12
+(not set),United States,Wisconsin,Wauwatosa,12
+,Colombia,Valle del Cauca,Cali,13
+,United Kingdom,England,London,13
+,United States,California,Rancho Palos Verdes,13
+,United States,California,San Diego,13
+(not set),Canada,British Columbia,Coquitlam,13
+(not set),China,Guangdong Province,Shenzhen,13
+(not set),Czechia,Central Bohemian Region,Kladno,13
+(not set),France,Auvergne-Rhone-Alpes,Cluses,13
+(not set),France,Hauts-de-France,Lille,13
+(not set),Germany,Bavaria,Roding,13
+(not set),Germany,Lower Saxony,Stadthagen,13
+(not set),Germany,Mecklenburg-Vorpommern,Schwerin,13
+(not set),Germany,Mecklenburg-Vorpommern,Wolgast,13
+(not set),Germany,North Rhine-Westphalia,Rahden,13
+(not set),Germany,Saxony-Anhalt,38899,13
+(not set),Germany,Schleswig-Holstein,Itzehoe,13
+(not set),Hungary,Zala County,Zalaegerszeg,13
+(not set),Italy,Sardinia,(not set),13
+(not set),Malaysia,Perak,(not set),13
+(not set),United States,California,San Diego,13
+(not set),United States,Kentucky,Prestonsburg,13
+(not set),United States,Massachusetts,Boston,13
+(not set),United States,North Carolina,Pittsboro,13
+(not set),United States,Washington,Federal Way,13
+(not set),Vietnam,Ho Chi Minh City,Ho Chi Minh City,13
+,France,Auvergne-Rhone-Alpes,Annemasse,14
+,Germany,Baden-Wurttemberg,Stuttgart,14
+(not set),Canada,Alberta,Calgary,14
+(not set),Canada,Ontario,(not set),14
+(not set),Canada,Quebec,Montreal,14
+(not set),Canada,Quebec,Pointe-Claire,14
+(not set),Finland,Uusimaa,Hanko,14
+(not set),Germany,Baden-Wurttemberg,Backnang,14
+(not set),Germany,Lower Saxony,Soltau,14
+(not set),Germany,Lower Saxony,Wilhelmshaven,14
+(not set),Germany,North Rhine-Westphalia,Aachen,14
+(not set),Germany,North Rhine-Westphalia,Essen,14
+(not set),Germany,North Rhine-Westphalia,Gelsenkirchen,14
+(not set),Germany,Thuringia,Gera,14
+(not set),Japan,Tokyo,Koto City,14
+(not set),Philippines,Central Luzon,Angeles,14
+(not set),Portugal,Lisbon,Lisbon,14
+(not set),Slovakia,Presov Region,(not set),14
+(not set),United States,Connecticut,(not set),14
+(not set),United States,Connecticut,Norwich,14
+(not set),United States,North Dakota,Fargo,14
+(not set),United States,Ohio,Waverly,14
+(not set),United States,Washington,(not set),14
+(not set),Australia,South Australia,Adelaide,15
+(not set),Canada,Ontario,Ottawa,15
+(not set),Czechia,South Moravian Region,Brno,15
+(not set),Germany,Bavaria,Kronach,15
+(not set),Germany,Hessen,Bad Homburg,15
+(not set),Germany,Lower Saxony,Kalefeld,15
+(not set),Germany,North Rhine-Westphalia,Bad Oeynhausen,15
+(not set),Germany,North Rhine-Westphalia,Munster,15
+(not set),Germany,Saxony,Wurzen,15
+(not set),Germany,Thuringia,Weimar,15
+(not set),Japan,Hiroshima,Onomichi,15
+(not set),Netherlands,South Holland,The Hague,15
+(not set),Peru,Lima Province,(not set),15
+(not set),Romania,Timis,Timisoara,15
+(not set),United Kingdom,England,Birmingham,15
+(not set),United States,Georgia,(not set),15
+(not set),United States,New York,Country Knolls,15
+(not set),United States,Texas,San Antonio,15
+(not set),United States,Wisconsin,West Bend,15
+,New Zealand,Auckland,Auckland,16
+,United States,Ohio,Finneytown,16
+(not set),Austria,Styria,Graz,16
+(not set),Germany,Baden-Wurttemberg,Donaueschingen,16
+(not set),Germany,Baden-Wurttemberg,Reutlingen,16
+(not set),Germany,Bavaria,Illertissen,16
+(not set),Germany,Bavaria,Vaterstetten,16
+(not set),Germany,Thuringia,Erfurt,16
+(not set),Italy,Lombardy,Como,16
+(not set),Philippines,(not set),(not set),16
+(not set),United Kingdom,England,Newcastle upon Tyne,16
+(not set),United States,California,Carlsbad,16
+(not set),United States,California,Manteca,16
+(not set),United States,Florida,Sarasota,16
+(not set),United States,Pennsylvania,(not set),16
+,Canada,Manitoba,Winnipeg,17
+,Germany,Hamburg,Hamburg,17
+,Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,17
+,United States,Mississippi,Long Beach,17
+(not set),Germany,Baden-Wurttemberg,Sulz,17
+(not set),Germany,Hessen,Fulda,17
+(not set),Germany,Lower Saxony,Braunschweig,17
+(not set),Netherlands,North Brabant,Eindhoven,17
+(not set),Switzerland,Solothurn,(not set),17
+(not set),United States,Connecticut,Groton,17
+(not set),United States,Florida,Orlando,17
+(not set),United States,Missouri,St. Louis,17
+(not set),China,(not set),(not set),18
+(not set),Germany,Hessen,Bad Hersfeld,18
+(not set),Germany,Lower Saxony,Luneburg,18
+(not set),Germany,Lower Saxony,Melle,18
+(not set),Germany,Lower Saxony,Meppen,18
+(not set),Germany,Lower Saxony,Sarstedt,18
+(not set),Germany,Lower Saxony,Syke,18
+(not set),Germany,Mecklenburg-Vorpommern,Rostock,18
+(not set),Netherlands,North Holland,Haarlem,18
+(not set),South Africa,Western Cape,Cape Town,18
+(not set),United Kingdom,Scotland,(not set),18
+(not set),United States,California,Santa Clara,18
+(not set),United States,Maryland,Baltimore,18
+,United States,California,Los Angeles,19
+,United States,New York,New York,19
+(not set),Canada,British Columbia,Kelowna,19
+(not set),Canada,Ontario,Burlington,19
+(not set),France,Hauts-de-France,59234,19
+(not set),Germany,Baden-Wurttemberg,Bad Mergentheim,19
+(not set),Germany,Lower Saxony,Achim,19
+(not set),Germany,North Rhine-Westphalia,Eschweiler,19
+(not set),Germany,Saxony,Grimma,19
+(not set),Japan,Tokyo,Shinjuku City,19
+(not set),Malaysia,Kelantan,Kota Bharu,19
+(not set),United States,Michigan,Garfield Township,19
+(not set),United States,Oregon,La Grande,19
+,Germany,Bavaria,Munich,20
+,Netherlands,Gelderland,Eibergen,20
+(not set),Australia,Queensland,Brisbane,20
+(not set),Canada,British Columbia,Colwood,20
+(not set),Germany,Baden-Wurttemberg,Steinen,20
+(not set),Malaysia,Pahang,Kuantan,20
+(not set),Philippines,Bicol,(not set),20
+(not set),Philippines,Western Visayas,Iloilo City,20
+(not set),Spain,Valencian Community,Port de Sagunt,20
+(not set),Sweden,Skane County,Malmo,20
+(not set),United Kingdom,England,Sutton-in-Ashfield,20
+,Italy,Lombardy,Milan,21
+(not set),Austria,Lower Austria,Bruck an der Leitha,21
+(not set),Austria,Tyrol,Innsbruck,21
+(not set),Czechia,Central Bohemian Region,Kolin,21
+(not set),Germany,Hessen,Kaufungen,21
+(not set),Japan,Osaka,Osaka,21
+(not set),Philippines,Calabarzon,Bacoor,21
+(not set),United States,Colorado,Highlands Ranch,21
+,Germany,North Rhine-Westphalia,,22
+(not set),Canada,Alberta,St. Albert,22
+(not set),Germany,Bavaria,Burgthann,22
+(not set),United Kingdom,Scotland,Edinburgh,22
+(not set),United Kingdom,Scotland,Glasgow,22
+(not set),United States,Iowa,Des Moines,22
+(not set),United States,North Carolina,(not set),22
+(not set),United States,Virginia,(not set),22
+(not set),Australia,Western Australia,Perth,23
+(not set),Germany,Hessen,Frankenberg (Eder),23
+(not set),Germany,North Rhine-Westphalia,Stolberg (Rhineland),23
+(not set),United Kingdom,England,(not set),23
+(not set),United States,Texas,Austin,23
+(not set),Netherlands,(not set),(not set),24
+(not set),United States,Idaho,Boise,24
+(not set),Canada,Ontario,Windsor,25
+(not set),Germany,Baden-Wurttemberg,Crailsheim,25
+(not set),Germany,Baden-Wurttemberg,Mannheim,25
+(not set),Germany,Baden-Wurttemberg,Tubingen,25
+(not set),Germany,Bavaria,Schwabach,25
+(not set),Germany,Bavaria,Selb,25
+(not set),Germany,Lower Saxony,Cloppenburg,25
+(not set),United Kingdom,Wales,Bangor,25
+(not set),Germany,Brandenburg,Cottbus,26
+(not set),Germany,Rhineland-Palatinate,(not set),26
+,Australia,New South Wales,Sydney,27
+,Germany,Hessen,Frankfurt,27
+(not set),Canada,Nova Scotia,Yarmouth,27
+(not set),Germany,Saxony-Anhalt,(not set),27
+(not set),Germany,Schleswig-Holstein,Lubeck,27
+(not set),Netherlands,South Holland,Vlaardingen,27
+(not set),United States,Texas,Houston,27
+(not set),Belgium,Flanders,Antwerp,28
+(not set),Germany,Bavaria,(not set),28
+(not set),Malaysia,Johor,(not set),28
+(not set),Sweden,Stockholm County,Stockholm,28
+(not set),United States,Arizona,Phoenix,28
+(not set),United States,Connecticut,Greenwich,28
+(not set),Germany,Bavaria,Regensburg,29
+(not set),Germany,Bavaria,Rosenheim,29
+(not set),Italy,Lombardy,(not set),29
+(not set),Philippines,Metro Manila,Quezon City,29
+(not set),United States,California,Thousand Oaks,29
+(not set),Germany,Brandenburg,Brandenburg,30
+(not set),Germany,Lower Saxony,Gottingen,30
+(not set),Italy,Lombardy,Bergamo,30
+(not set),United States,North Carolina,Charlotte,30
+(not set),United States,Tennessee,Lewisburg,30
+,Austria,Vienna,Vienna,31
+(not set),Italy,Piedmont,Turin,31
+(not set),Germany,Bavaria,Augsburg,32
+(not set),Germany,Bavaria,Kitzingen,32
+(not set),Germany,North Rhine-Westphalia,Dortmund,32
+(not set),United States,California,(not set),32
+(not set),Switzerland,Zurich,Zurich,33
+(not set),Denmark,Capital Region of Denmark,Copenhagen,34
+(not set),Finland,Uusimaa,Helsinki,34
+(not set),France,Ile-de-France,Paris,34
+(not set),Germany,North Rhine-Westphalia,Bielefeld,34
+(not set),Germany,North Rhine-Westphalia,Oberhausen,34
+(not set),Netherlands,South Holland,Rotterdam,35
+(not set),Romania,Bucharest,Bucharest,35
+(not set),Germany,North Rhine-Westphalia,Dusseldorf,36
+,Philippines,Calabarzon,Calamba,37
+(not set),United Kingdom,England,Norwich,38
+(not set),France,Auvergne-Rhone-Alpes,Thonon-les-Bains,39
+(not set),Germany,Bavaria,Nuremberg,39
+(not set),Germany,Bavaria,Passau,39
+(not set),Czechia,Prague,Prague,40
+(not set),Germany,Lower Saxony,Hanover,40
+(not set),Germany,Brandenburg,Luckenwalde,41
+(not set),Germany,Hessen,(not set),41
+(not set),Germany,Baden-Wurttemberg,(not set),42
+(not set),Germany,Saxony,Dresden,42
+(not set),France,Occitanie,09350,43
+(not set),Germany,Saxony-Anhalt,Magdeburg,43
+(not set),United States,Oklahoma,Oklahoma City,44
+(not set),United States,Washington,Seattle,44
+(not set),Australia,Victoria,Melbourne,46
+(not set),United States,(not set),(not set),47
+(not set),United States,Florida,(not set),49
+(not set),Ireland,County Dublin,Dublin,51
+(not set),Japan,Osaka,Hirakata,51
+(not set),New Zealand,Auckland,Auckland,53
+(not set),United States,Georgia,Atlanta,53
+(not set),United States,California,San Jose,57
+(not set),Germany,Lower Saxony,(not set),61
+(not set),Canada,British Columbia,Vancouver,62
+(not set),Germany,Saxony,Leipzig,63
+(not set),Spain,Community of Madrid,Madrid,64
+(not set),Germany,Baden-Wurttemberg,Sinsheim,67
+(not set),United States,Washington,Sedro-Woolley,68
+(not set),Malaysia,Selangor,Shah Alam,70
+(not set),Poland,Masovian Voivodeship,Warsaw,70
+(not set),Germany,Rhineland-Palatinate,Bitburg,75
+(not set),Italy,Lazio,Rome,81
+(not set),Germany,Hamburg,Hamburg,85
+(not set),Canada,Ontario,Toronto,88
+(not set),United States,Virginia,Ashburn,88
+(not set),Germany,North Rhine-Westphalia,(not set),93
+(not set),United States,Texas,Dallas,93
+(not set),Germany,North Rhine-Westphalia,Cologne,101
+(not set),Malaysia,Federal Territory of Kuala Lumpur,Kuala Lumpur,105
+(not set),Japan,Tokyo,(not set),115
+(not set),United States,New York,New York,115
+(not set),Germany,Baden-Wurttemberg,Stuttgart,134
+(not set),United States,Illinois,Chicago,136
+(not set),Australia,New South Wales,Sydney,137
+(not set),Germany,Bavaria,Munich,140
+(not set),Italy,Lombardy,Milan,153
+(not set),United States,California,Los Angeles,159
+(not set),Austria,Vienna,Vienna,181
+(not set),Germany,Berlin,Berlin,252
+(not set),United Kingdom,England,London,261
+(not set),Germany,Hessen,Frankfurt,404
+
