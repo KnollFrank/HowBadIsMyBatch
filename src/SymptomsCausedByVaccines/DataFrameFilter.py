@@ -6,12 +6,14 @@ class DataFrameFilter:
         
     @staticmethod
     def _withoutZeroRows(dataFrame):
-        return dataFrame.loc[~DataFrameFilter._isZeroRow(dataFrame)]
-
-    @staticmethod
-    def _isZeroRow(dataFrame):
-        return (dataFrame == 0.0).all(axis = 'columns')
+        isZeroRow = DataFrameFilter._isAllZero(dataFrame, 'columns')
+        return dataFrame.loc[~isZeroRow]
 
     @staticmethod
     def _withoutZeroColumns(dataFrame):
-        return dataFrame.loc[:, (dataFrame != 0.0).any(axis = 'index')]
+        isZeroColumn = DataFrameFilter._isAllZero(dataFrame, 'index')
+        return dataFrame.loc[:, ~isZeroColumn]
+    
+    @staticmethod
+    def _isAllZero(dataFrame, axis):
+        return (dataFrame == 0.0).all(axis = axis)
