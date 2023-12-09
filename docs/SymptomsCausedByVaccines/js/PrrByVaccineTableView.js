@@ -19,7 +19,7 @@ class PrrByVaccineTableView {
             tableElement: tableElement,
             keyColumnName: 'Vaccine',
             prrColumnName: 'Lower Confidence Limit of Proportional Reporting Ratio',
-            shallMarkRowIfPrrTooHigh: false
+            shallMarkRowIfPrrTooHigh: true
         });
     }
 }
