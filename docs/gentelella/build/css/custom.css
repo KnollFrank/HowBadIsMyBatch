@@ -4935,3 +4935,7 @@ table.dataTable.display tbody tr.prrTooHigh {
 .downloadButton {
     margin-top: 10px;
 }
+
+a:link.underline, a:visited.underline, a:hover.underline, a:active.underline {
+    text-decoration: underline;
+}
