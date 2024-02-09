@@ -34,6 +34,8 @@ update howbadismybatch-venv:
 conda activate howbadismybatch-venv
 conda env update --file environment.yml --prune
 
+conda remove -n howbadismybatch-venv --all
+
 www.HowBadIsMyBatch.info
 /etc/apache2/sites-available/HowBadIsMyBatch.conf
 

@@ -16,8 +16,8 @@ class FilesProviderTest(unittest.TestCase):
         self.assertEqual(
             files,
             [
-                dataDir + '/CountryByBatchcode 20230730-20230929.csv',
-                dataDir + '/CountryByBatchcode 20230929-20230930.csv'
+                dataDir + '/CountryByBatchcode 20230929-20230930.csv',
+                dataDir + '/CountryByBatchcode 20230730-20230929.csv'
             ])
 
     def test_getFilesHavingCountryResolution(self):
