@@ -1,12 +1,12 @@
 name: howbadismybatch-venv
 channels:
   - defaults
-  # - conda-forge
+  - conda-forge
 dependencies:
   - python=3.9
   - ipykernel
   - numpy
-  - pandas
+  - pandas=1.4.0
   - urllib3
   - requests
   - bs4
@@ -18,8 +18,8 @@ dependencies:
   - openpyxl
   - tqdm
   - simplejson
-  # - python-decouple
-  # - selenium
-  # - webdriver-manager
-  # - pycountry
-prefix: /home/frankknoll/anaconda3/envs/howbadismybatch-venv
+  - python-decouple
+  - selenium
+  - webdriver-manager
+  - pycountry
+prefix: /home/frank/miniconda3/envs/howbadismybatch-venv
