@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Pfizer Vaccine Distribution by ZIP Code</title>
-<link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css"/>
-<link href="batchCodeTable.css" rel="stylesheet" type="text/css"/>
-<link href="forkMeOnGitHub.css" rel="stylesheet" type="text/css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js" type="text/javascript"></script>
-<script src="./Utils.js"></script>
-<script src="./UIUtils.js"></script>
-<script src="./DataTablesFilter.js"></script>
-<script src="./VaccineDistributionByZipcodeTableInitializer.js"></script>
-<script>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Pfizer Vaccine Distribution by ZIP Code</title>
+    <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+    <link href="batchCodeTable.css" rel="stylesheet" type="text/css" />
+    <link href="forkMeOnGitHub.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"
+        type="text/javascript"></script>
+    <script src="./Utils.js"></script>
+    <script src="./UIUtils.js"></script>
+    <script src="./DataTablesFilter.js"></script>
+    <script src="./VaccineDistributionByZipcodeTableInitializer.js"></script>
+    <script>
         $(document).ready(function () {
             const tableInitializer =
                 new VaccineDistributionByZipcodeTableInitializer(
@@ -24,28 +26,31 @@
         });
     </script>
 </head>
+
 <body>
-<span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
-<h1>Pfizer Vaccine Distribution by ZIP Code</h1>
-<table class="display" id="vaccineDistributionByZipcodeTable">
-<thead>
-<tr>
-<th>Provider</th>
-<th>ZIP Code</th>
-<th>Lot Number</th>
-<th>Doses Shipped</th>
-<th>Statistical Number of Adverse Reaction Reports</th>
-<th>Statistical Number of Adverse Reaction Reports (per 100,000)</th>
-</tr>
-</thead>
-</table>
-<dl>
-<dt>Data Sources:</dt>
-<dd><a href="https://vaers.hhs.gov/data/datasets.html" target="_blank">Vaccine Adverse Event Reporting System
+    <span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch">Fork me on GitHub</a></span>
+    <h1>Pfizer Vaccine Distribution by ZIP Code</h1>
+    <table class="display" id="vaccineDistributionByZipcodeTable">
+        <thead>
+            <tr>
+                <th>Provider</th>
+                <th>ZIP Code</th>
+                <th>Lot Number</th>
+                <th>Doses Shipped</th>
+                <th>Statistical Number of Adverse Reaction Reports</th>
+                <th>Statistical Number of Adverse Reaction Reports (per 100,000)</th>
+            </tr>
+        </thead>
+    </table>
+    <dl>
+        <dt>Data Sources:</dt>
+        <dd><a href="https://vaers.hhs.gov/data/datasets.html" target="_blank">Vaccine Adverse Event Reporting System
                 (VAERS)</a></dd>
-<dd><a href="https://icandecide.org/wp-content/uploads/2022/09/Amended-22-01962-Pfizer-2022-0426-pulled-2022-0823.xlsx" target="_blank">Vaccine Distribution by Zipcode</a></dd>
-<dt>Last updated:</dt>
-<dd id="last_updated">February 02, 2024</dd>
-</dl>
+        <dd><a href="https://icandecide.org/wp-content/uploads/2022/09/Amended-22-01962-Pfizer-2022-0426-pulled-2022-0823.xlsx"
+                target="_blank">Vaccine Distribution by Zipcode</a></dd>
+        <dt>Last updated:</dt>
+        <dd id="last_updated">March 01, 2024</dd>
+    </dl>
 </body>
+
 </html>
