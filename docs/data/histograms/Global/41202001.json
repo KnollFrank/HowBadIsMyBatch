@@ -1,1 +1,1 @@
-{"batchcode": "41202001", "histogram": {"Fatigue": 4, "Headache": 2, "SARS-CoV-2 test": 2, "Chills": 1, "Nasopharyngitis": 1, "Nausea": 1, "Pyrexia": 1}, "Deaths": 0, "Disabilities": 0, "Adverse Reaction Reports": 30, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 3}
+{"batchcode": "41202001", "histogram": {"Fatigue": 4, "Headache": 2, "SARS-CoV-2 test": 2, "Chills": 1, "Nasopharyngitis": 1, "Nausea": 1, "Pyrexia": 1}, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 3, "Disabilities": 0, "Adverse Reaction Reports": 30}

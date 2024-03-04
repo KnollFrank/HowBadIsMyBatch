@@ -1,5 +1,6 @@
 Local:
 - http://www.howbadismybatch.info/batchCodeTable.html
+- http://www.howbadismybatch.info/batchCodes.html?showCountriesColumn=yes&showDataTablesFilter=yes
 - http://www.howbadismybatch.info/VaccineDistributionByZipcode.html
 - http://www.howbadismybatch.info/SymptomsCausedByVaccines/index.html
   http://www.howbadismybatch.info/SymptomsCausedByVaccines/test/index.test.html
@@ -8,6 +9,7 @@ Local:
 
 Live:
 - https://knollfrank.github.io/HowBadIsMyBatch/batchCodeTable.html
+- https://knollfrank.github.io/HowBadIsMyBatch/batchCodes.html?showCountriesColumn=yes&showDataTablesFilter=yes
 - https://knollfrank.github.io/HowBadIsMyBatch/VaccineDistributionByZipcode.html
 - https://knollfrank.github.io/HowBadIsMyBatch/SymptomsCausedByVaccines/index.html
   https://knollfrank.github.io/HowBadIsMyBatch/SymptomsCausedByVaccines/test/index.test.html
