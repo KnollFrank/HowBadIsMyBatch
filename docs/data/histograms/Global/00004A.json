@@ -1,1 +1,1 @@
-{"batchcode": "00004A", "histogram": {"Head discomfort": 1, "Myocarditis": 1, "Pain": 1, "Tachycardia": 1}, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1, "Adverse Reaction Reports": 4}
+{"batchcode": "00004A", "histogram": {"Body temperature": 1, "Head discomfort": 1, "Hyperpyrexia": 1, "Incontinence": 1, "Myocarditis": 1, "Pain": 1, "Parkinson's disease": 1, "Tachycardia": 1, "Tremor": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 2, "Life Threatening Illnesses": 0}
