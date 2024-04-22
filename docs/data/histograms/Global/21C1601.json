@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "21C1601", "histogram": {"COVID-19": 1, "Drug ineffective": 1, "Dyspnoea": 1, "Headache": 1, "Herpes zoster": 1, "Paraesthesia": 1, "Vaccination failure": 1, "Visual impairment": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "21C1601", "histogram": {"COVID-19": 1, "Drug ineffective": 1, "Dyspnoea": 1, "Headache": 1, "Herpes zoster": 1, "Paraesthesia": 1, "Vaccination failure": 1, "Visual impairment": 1}, "Adverse Reaction Reports": 3, "Company": "JANSSEN", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "21C1601", "histogram": {"COVID-19": 1, "Drug ineffective": 1, "Dyspnoea": 1, "Headache": 1, "Herpes zoster": 1, "Paraesthesia": 1, "Vaccination failure": 1, "Visual impairment": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}

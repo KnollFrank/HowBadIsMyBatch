@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "044921A", "histogram": {"Accidental overdose": 2, "Immunisation reaction": 2, "Death": 1, "Intracranial aneurysm": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 1, "Disabilities": 1, "Life Threatening Illnesses": 1}
-=======
-{"batchcode": "044921A", "histogram": {"Accidental overdose": 2, "Immunisation reaction": 2, "Death": 1, "Intracranial aneurysm": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 1, "Life Threatening Illnesses": 1, "Disabilities": 1}
->>>>>>> main
+{"batchcode": "044921A", "histogram": {"Accidental overdose": 2, "Immunisation reaction": 2, "Death": 1, "Intracranial aneurysm": 1}, "Adverse Reaction Reports": 3, "Deaths": 1, "Disabilities": 1, "Company": "MODERNA", "Life Threatening Illnesses": 1}

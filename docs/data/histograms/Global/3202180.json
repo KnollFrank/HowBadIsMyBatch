@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "3202180", "histogram": {"Abdominal pain lower": 1, "COVID-19": 1, "Dizziness": 1, "Drug ineffective": 1, "SARS-CoV-2 test": 1, "Syncope": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "3202180", "histogram": {"Abdominal pain lower": 1, "COVID-19": 1, "Dizziness": 1, "Drug ineffective": 1, "SARS-CoV-2 test": 1, "Syncope": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "3202180", "histogram": {"Abdominal pain lower": 1, "COVID-19": 1, "Dizziness": 1, "Drug ineffective": 1, "SARS-CoV-2 test": 1, "Syncope": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

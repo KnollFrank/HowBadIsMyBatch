@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "EC9269", "histogram": {"Arthralgia": 1, "Body temperature": 1, "Chills": 1, "Headache": 1, "Joint swelling": 1, "Oedema": 1, "Pyrexia": 1, "Sinus disorder": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "EC9269", "histogram": {"Arthralgia": 1, "Body temperature": 1, "Chills": 1, "Headache": 1, "Joint swelling": 1, "Oedema": 1, "Pyrexia": 1, "Sinus disorder": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1}
->>>>>>> main
+{"batchcode": "EC9269", "histogram": {"Arthralgia": 1, "Body temperature": 1, "Chills": 1, "Headache": 1, "Joint swelling": 1, "Oedema": 1, "Pyrexia": 1, "Sinus disorder": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

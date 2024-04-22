@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "ET8885-L659", "histogram": {"Guillain-Barre syndrome": 1, "Headache": 1, "Malaise": 1, "Presyncope": 1, "Syncope": 1, "Vaccination site pain": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "ET8885-L659", "histogram": {"Guillain-Barre syndrome": 1, "Headache": 1, "Malaise": 1, "Presyncope": 1, "Syncope": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "ET8885-L659", "histogram": {"Guillain-Barre syndrome": 1, "Headache": 1, "Malaise": 1, "Presyncope": 1, "Syncope": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

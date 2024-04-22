@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "ABX3519", "histogram": {"Death": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 10, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "ABX3519", "histogram": {"Death": 1}, "Adverse Reaction Reports": 10, "Company": "PFIZER\\BIONTECH", "Deaths": 1, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "ABX3519", "histogram": {"Death": 1}, "Adverse Reaction Reports": 10, "Deaths": 1, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

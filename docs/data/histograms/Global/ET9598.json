@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "ET9598", "histogram": {"Blood pressure measurement": 1, "Chest pain": 1, "Coronary artery disease": 1, "Electromyogram": 1, "Hypertension": 1, "Hypotonic-hyporesponsive episode": 1, "Insomnia": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Neuralgia": 1, "Paraesthesia": 1, "Presyncope": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 1}
-=======
-{"batchcode": "ET9598", "histogram": {"Blood pressure measurement": 1, "Chest pain": 1, "Coronary artery disease": 1, "Electromyogram": 1, "Hypertension": 1, "Hypotonic-hyporesponsive episode": 1, "Insomnia": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Neuralgia": 1, "Paraesthesia": 1, "Presyncope": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 1, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "ET9598", "histogram": {"Blood pressure measurement": 1, "Chest pain": 1, "Coronary artery disease": 1, "Electromyogram": 1, "Hypertension": 1, "Hypotonic-hyporesponsive episode": 1, "Insomnia": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Neuralgia": 1, "Paraesthesia": 1, "Presyncope": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 1}

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "040321A", "histogram": {"Muscle spasms": 1, "Pain in extremity": 1, "Skin discolouration": 1, "Vaccination site induration": 1, "Vaccination site mass": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1, "Vaccination site warmth": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "040321A", "histogram": {"Muscle spasms": 1, "Pain in extremity": 1, "Skin discolouration": 1, "Vaccination site induration": 1, "Vaccination site mass": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1, "Vaccination site warmth": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "040321A", "histogram": {"Muscle spasms": 1, "Pain in extremity": 1, "Skin discolouration": 1, "Vaccination site induration": 1, "Vaccination site mass": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1, "Vaccination site warmth": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

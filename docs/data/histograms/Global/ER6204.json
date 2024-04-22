@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "ER6204", "histogram": {"Tinnitus": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 1, "Disabilities": 1, "Life Threatening Illnesses": 1}
-=======
-{"batchcode": "ER6204", "histogram": {"Tinnitus": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 1, "Life Threatening Illnesses": 1, "Disabilities": 1}
->>>>>>> main
+{"batchcode": "ER6204", "histogram": {"Tinnitus": 1}, "Adverse Reaction Reports": 3, "Deaths": 1, "Disabilities": 1, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 1}

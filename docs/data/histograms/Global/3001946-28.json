@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "3001946-28", "histogram": {"Colitis ulcerative": 1, "Diarrhoea haemorrhagic": 1, "Full blood count normal": 1, "Lipase": 1, "Lymphadenopathy": 1, "Neuropathy peripheral": 1, "Testicular swelling": 1, "Ultrasound scan": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "3001946-28", "histogram": {"Colitis ulcerative": 1, "Diarrhoea haemorrhagic": 1, "Full blood count normal": 1, "Lipase": 1, "Lymphadenopathy": 1, "Neuropathy peripheral": 1, "Testicular swelling": 1, "Ultrasound scan": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "3001946-28", "histogram": {"Colitis ulcerative": 1, "Diarrhoea haemorrhagic": 1, "Full blood count normal": 1, "Lipase": 1, "Lymphadenopathy": 1, "Neuropathy peripheral": 1, "Testicular swelling": 1, "Ultrasound scan": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

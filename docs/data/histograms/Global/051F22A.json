@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "051F22A", "histogram": {"Immunisation reaction": 2, "Constipation": 1, "Delirium": 1, "Gait disturbance": 1, "Product administered to patient of inappropriate age": 1, "Sinusitis": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "051F22A", "histogram": {"Immunisation reaction": 2, "Constipation": 1, "Delirium": 1, "Gait disturbance": 1, "Product administered to patient of inappropriate age": 1, "Sinusitis": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "051F22A", "histogram": {"Immunisation reaction": 2, "Constipation": 1, "Delirium": 1, "Gait disturbance": 1, "Product administered to patient of inappropriate age": 1, "Sinusitis": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

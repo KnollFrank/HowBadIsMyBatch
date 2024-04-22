@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "LOTXE393", "histogram": {"COVID-19": 7, "SARS-CoV-2 test": 7, "Vaccination failure": 7}, "Company": "JANSSEN", "Adverse Reaction Reports": 7, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "LOTXE393", "histogram": {"COVID-19": 7, "SARS-CoV-2 test": 7, "Vaccination failure": 7}, "Adverse Reaction Reports": 7, "Company": "JANSSEN", "Deaths": 1, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "LOTXE393", "histogram": {"COVID-19": 7, "SARS-CoV-2 test": 7, "Vaccination failure": 7}, "Adverse Reaction Reports": 7, "Deaths": 1, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}

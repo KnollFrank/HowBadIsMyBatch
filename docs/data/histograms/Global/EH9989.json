@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "EH9989", "histogram": {"Balance disorder": 1, "Hyperhidrosis": 1, "Hypotension": 1, "Lymphadenopathy": 1, "Neurological symptom": 1, "Pallor": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "EH9989", "histogram": {"Balance disorder": 1, "Hyperhidrosis": 1, "Hypotension": 1, "Lymphadenopathy": 1, "Neurological symptom": 1, "Pallor": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1}
->>>>>>> main
+{"batchcode": "EH9989", "histogram": {"Balance disorder": 1, "Hyperhidrosis": 1, "Hypotension": 1, "Lymphadenopathy": 1, "Neurological symptom": 1, "Pallor": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

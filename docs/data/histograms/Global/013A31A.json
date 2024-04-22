@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "013A31A", "histogram": {"Carotid artery thrombosis": 1, "Carotid endarterectomy": 1, "Headache": 1, "Mental status changes": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "013A31A", "histogram": {"Carotid artery thrombosis": 1, "Carotid endarterectomy": 1, "Headache": 1, "Mental status changes": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "013A31A", "histogram": {"Carotid artery thrombosis": 1, "Carotid endarterectomy": 1, "Headache": 1, "Mental status changes": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

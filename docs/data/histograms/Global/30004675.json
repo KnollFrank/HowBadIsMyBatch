@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "30004675", "histogram": {"SARS-CoV-2 test": 5, "Arthralgia": 2, "Chills": 1, "Hypoaesthesia": 1, "Influenza": 1, "Muscle spasms": 1, "Musculoskeletal stiffness": 1, "Nerve compression": 1, "Neuralgia": 1, "Palpitations": 1, "Paraesthesia": 1, "Rash": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "30004675", "histogram": {"SARS-CoV-2 test": 5, "Arthralgia": 2, "Chills": 1, "Hypoaesthesia": 1, "Influenza": 1, "Muscle spasms": 1, "Musculoskeletal stiffness": 1, "Nerve compression": 1, "Neuralgia": 1, "Palpitations": 1, "Paraesthesia": 1, "Rash": 1}, "Adverse Reaction Reports": 5, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "30004675", "histogram": {"SARS-CoV-2 test": 5, "Arthralgia": 2, "Chills": 1, "Hypoaesthesia": 1, "Influenza": 1, "Muscle spasms": 1, "Musculoskeletal stiffness": 1, "Nerve compression": 1, "Neuralgia": 1, "Palpitations": 1, "Paraesthesia": 1, "Rash": 1}, "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

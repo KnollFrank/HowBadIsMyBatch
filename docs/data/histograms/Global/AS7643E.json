@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "AS7643E", "histogram": {"Ataxia": 1, "Basal ganglia stroke": 1, "Cerebrovascular accident": 1, "Chills": 1, "Hypotension": 1, "Small intestinal obstruction": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "AS7643E", "histogram": {"Ataxia": 1, "Basal ganglia stroke": 1, "Cerebrovascular accident": 1, "Chills": 1, "Hypotension": 1, "Small intestinal obstruction": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "AS7643E", "histogram": {"Ataxia": 1, "Basal ganglia stroke": 1, "Cerebrovascular accident": 1, "Chills": 1, "Hypotension": 1, "Small intestinal obstruction": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

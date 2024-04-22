@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "061M20A", "histogram": {"No adverse event": 4, "Product storage error": 4, "Nausea": 2, "Abdominal discomfort": 1, "COVID-19": 1, "Dizziness postural": 1, "Fatigue": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "SARS-CoV-2 test positive": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 10, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "061M20A", "histogram": {"No adverse event": 4, "Product storage error": 4, "Nausea": 2, "Abdominal discomfort": 1, "COVID-19": 1, "Dizziness postural": 1, "Fatigue": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "SARS-CoV-2 test positive": 1}, "Adverse Reaction Reports": 10, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "061M20A", "histogram": {"No adverse event": 4, "Product storage error": 4, "Nausea": 2, "Abdominal discomfort": 1, "COVID-19": 1, "Dizziness postural": 1, "Fatigue": 1, "Headache": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "SARS-CoV-2 test positive": 1}, "Adverse Reaction Reports": 10, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

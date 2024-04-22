@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "0113L20A", "histogram": {"Pyrexia": 3, "Chills": 2, "Muscle spasms": 2, "Pain": 2, "Arthralgia": 1, "Asthenia": 1, "Headache": 1, "Laboratory test abnormal": 1, "Myalgia": 1, "Thyroiditis subacute": 1, "Tremor": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "0113L20A", "histogram": {"Pyrexia": 3, "Chills": 2, "Muscle spasms": 2, "Pain": 2, "Arthralgia": 1, "Asthenia": 1, "Headache": 1, "Laboratory test abnormal": 1, "Myalgia": 1, "Thyroiditis subacute": 1, "Tremor": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "0113L20A", "histogram": {"Pyrexia": 3, "Chills": 2, "Muscle spasms": 2, "Pain": 2, "Arthralgia": 1, "Asthenia": 1, "Headache": 1, "Laboratory test abnormal": 1, "Myalgia": 1, "Thyroiditis subacute": 1, "Tremor": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

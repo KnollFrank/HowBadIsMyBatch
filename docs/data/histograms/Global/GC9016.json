@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "GC9016", "histogram": {"Rash macular": 2, "Blood test": 1, "Diarrhoea": 1, "Headache": 1, "Hypersensitivity": 1, "Investigation": 1, "Irritability": 1, "Lip swelling": 1, "Pain": 1, "Peripheral swelling": 1, "Pruritus": 1, "Speech disorder": 1, "Stool analysis": 1, "Urticaria": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "GC9016", "histogram": {"Rash macular": 2, "Blood test": 1, "Diarrhoea": 1, "Headache": 1, "Hypersensitivity": 1, "Investigation": 1, "Irritability": 1, "Lip swelling": 1, "Pain": 1, "Peripheral swelling": 1, "Pruritus": 1, "Speech disorder": 1, "Stool analysis": 1, "Urticaria": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "GC9016", "histogram": {"Rash macular": 2, "Blood test": 1, "Diarrhoea": 1, "Headache": 1, "Hypersensitivity": 1, "Investigation": 1, "Irritability": 1, "Lip swelling": 1, "Pain": 1, "Peripheral swelling": 1, "Pruritus": 1, "Speech disorder": 1, "Stool analysis": 1, "Urticaria": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

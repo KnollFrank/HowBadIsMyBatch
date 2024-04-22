@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "4675", "histogram": {"SARS-CoV-2 test": 3, "Fatigue": 2, "Headache": 2, "Pyrexia": 2, "Cytomegalovirus infection reactivation": 1, "Dizziness": 1, "Myocarditis": 1, "Sciatica": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 3, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "4675", "histogram": {"SARS-CoV-2 test": 3, "Fatigue": 2, "Headache": 2, "Pyrexia": 2, "Cytomegalovirus infection reactivation": 1, "Dizziness": 1, "Myocarditis": 1, "Sciatica": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 3}
->>>>>>> main
+{"batchcode": "4675", "histogram": {"SARS-CoV-2 test": 3, "Fatigue": 2, "Headache": 2, "Pyrexia": 2, "Cytomegalovirus infection reactivation": 1, "Dizziness": 1, "Myocarditis": 1, "Sciatica": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 3, "Company": "MODERNA", "Life Threatening Illnesses": 0}

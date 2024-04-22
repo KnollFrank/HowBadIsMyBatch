@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "D25A21A", "histogram": {"Pruritus": 2, "Dizziness": 1, "Erythema": 1, "Hyperhidrosis": 1, "Mass": 1, "Pallor": 1, "Paraesthesia": 1, "Peripheral swelling": 1, "Presyncope": 1, "Skin warm": 1, "Vaccination site erythema": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "D25A21A", "histogram": {"Pruritus": 2, "Dizziness": 1, "Erythema": 1, "Hyperhidrosis": 1, "Mass": 1, "Pallor": 1, "Paraesthesia": 1, "Peripheral swelling": 1, "Presyncope": 1, "Skin warm": 1, "Vaccination site erythema": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "D25A21A", "histogram": {"Pruritus": 2, "Dizziness": 1, "Erythema": 1, "Hyperhidrosis": 1, "Mass": 1, "Pallor": 1, "Paraesthesia": 1, "Peripheral swelling": 1, "Presyncope": 1, "Skin warm": 1, "Vaccination site erythema": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

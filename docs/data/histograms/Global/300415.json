@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "300415", "histogram": {"Arrhythmia": 3, "Psychogenic pseudosyncope": 2, "Fall": 1, "Syncope": 1, "Wound": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "300415", "histogram": {"Arrhythmia": 3, "Psychogenic pseudosyncope": 2, "Fall": 1, "Syncope": 1, "Wound": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "300415", "histogram": {"Arrhythmia": 3, "Psychogenic pseudosyncope": 2, "Fall": 1, "Syncope": 1, "Wound": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

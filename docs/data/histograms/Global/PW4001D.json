@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "PW4001D", "histogram": {"Heavy menstrual bleeding": 1, "Menstruation irregular": 1, "Polymenorrhoea": 1}, "Company": "UNKNOWN MANUFACTURER", "Adverse Reaction Reports": 6, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "PW4001D", "histogram": {"Heavy menstrual bleeding": 1, "Menstruation irregular": 1, "Polymenorrhoea": 1}, "Adverse Reaction Reports": 6, "Company": "UNKNOWN MANUFACTURER", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "PW4001D", "histogram": {"Heavy menstrual bleeding": 1, "Menstruation irregular": 1, "Polymenorrhoea": 1}, "Adverse Reaction Reports": 6, "Deaths": 0, "Disabilities": 0, "Company": "UNKNOWN MANUFACTURER", "Life Threatening Illnesses": 0}

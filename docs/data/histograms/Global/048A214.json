@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "048A214", "histogram": {"Epistaxis": 1, "Injection site erythema": 1, "Injection site haemorrhage": 1, "Platelet count": 1, "Vaccination complication": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "048A214", "histogram": {"Epistaxis": 1, "Injection site erythema": 1, "Injection site haemorrhage": 1, "Platelet count": 1, "Vaccination complication": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "048A214", "histogram": {"Epistaxis": 1, "Injection site erythema": 1, "Injection site haemorrhage": 1, "Platelet count": 1, "Vaccination complication": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

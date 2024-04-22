@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "AR5186", "histogram": {"Incorrect product formulation administered": 2, "No adverse event": 1, "Wrong product administered": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "AR5186", "histogram": {"Incorrect product formulation administered": 2, "No adverse event": 1, "Wrong product administered": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "AR5186", "histogram": {"Incorrect product formulation administered": 2, "No adverse event": 1, "Wrong product administered": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

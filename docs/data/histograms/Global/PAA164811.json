@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "PAA164811", "histogram": {"Asthenia": 3, "Aggression": 1, "Cerebral haemorrhage": 1, "Confusional state": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Rectal haemorrhage": 1, "Somnolence": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 4, "Deaths": 1, "Disabilities": 2, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "PAA164811", "histogram": {"Asthenia": 3, "Aggression": 1, "Cerebral haemorrhage": 1, "Confusional state": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Rectal haemorrhage": 1, "Somnolence": 1}, "Adverse Reaction Reports": 4, "Company": "PFIZER\\BIONTECH", "Deaths": 1, "Life Threatening Illnesses": 0, "Disabilities": 2}
->>>>>>> main
+{"batchcode": "PAA164811", "histogram": {"Asthenia": 3, "Aggression": 1, "Cerebral haemorrhage": 1, "Confusional state": 1, "Diarrhoea": 1, "Dizziness": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Rectal haemorrhage": 1, "Somnolence": 1}, "Adverse Reaction Reports": 4, "Deaths": 1, "Disabilities": 2, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

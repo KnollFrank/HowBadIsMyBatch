@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "207F23A", "histogram": {"Arthralgia": 1, "Dyspnoea": 1, "Hypoaesthesia": 1, "Injected limb mobility decreased": 1, "Limb discomfort": 1, "Muscular weakness": 1, "Peripheral swelling": 1, "Pyrexia": 1, "Rash": 1, "Tongue discomfort": 1, "Tremor": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "207F23A", "histogram": {"Arthralgia": 1, "Dyspnoea": 1, "Hypoaesthesia": 1, "Injected limb mobility decreased": 1, "Limb discomfort": 1, "Muscular weakness": 1, "Peripheral swelling": 1, "Pyrexia": 1, "Rash": 1, "Tongue discomfort": 1, "Tremor": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "207F23A", "histogram": {"Arthralgia": 1, "Dyspnoea": 1, "Hypoaesthesia": 1, "Injected limb mobility decreased": 1, "Limb discomfort": 1, "Muscular weakness": 1, "Peripheral swelling": 1, "Pyrexia": 1, "Rash": 1, "Tongue discomfort": 1, "Tremor": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

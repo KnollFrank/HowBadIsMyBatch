@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "GJ2824", "histogram": {"COVID-19": 2, "Drug ineffective": 2, "SARS-CoV-2 test": 2, "Chills": 1, "Pain": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "GJ2824", "histogram": {"COVID-19": 2, "Drug ineffective": 2, "SARS-CoV-2 test": 2, "Chills": 1, "Pain": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "GJ2824", "histogram": {"COVID-19": 2, "Drug ineffective": 2, "SARS-CoV-2 test": 2, "Chills": 1, "Pain": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

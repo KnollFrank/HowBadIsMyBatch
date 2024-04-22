@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "007M20X", "histogram": {"Fatigue": 2, "Headache": 2, "Myalgia": 2, "Pyrexia": 2, "Vaccination site pruritus": 2, "Chills": 1, "Cough": 1, "Rash macular": 1, "Respiratory tract congestion": 1, "Rhinorrhoea": 1, "Swelling": 1, "Vaccination complication": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "007M20X", "histogram": {"Fatigue": 2, "Headache": 2, "Myalgia": 2, "Pyrexia": 2, "Vaccination site pruritus": 2, "Chills": 1, "Cough": 1, "Rash macular": 1, "Respiratory tract congestion": 1, "Rhinorrhoea": 1, "Swelling": 1, "Vaccination complication": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "007M20X", "histogram": {"Fatigue": 2, "Headache": 2, "Myalgia": 2, "Pyrexia": 2, "Vaccination site pruritus": 2, "Chills": 1, "Cough": 1, "Rash macular": 1, "Respiratory tract congestion": 1, "Rhinorrhoea": 1, "Swelling": 1, "Vaccination complication": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

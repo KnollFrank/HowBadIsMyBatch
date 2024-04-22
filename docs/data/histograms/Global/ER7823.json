@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "ER7823", "histogram": {"Angina pectoris": 1, "Arthralgia": 1, "Electroencephalogram": 1, "Epilepsy": 1, "Fatigue": 1, "Gait disturbance": 1, "Heart rate": 1, "Inappropriate schedule of product administration": 1, "Myalgia": 1, "Postmenopausal haemorrhage": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "ER7823", "histogram": {"Angina pectoris": 1, "Arthralgia": 1, "Electroencephalogram": 1, "Epilepsy": 1, "Fatigue": 1, "Gait disturbance": 1, "Heart rate": 1, "Inappropriate schedule of product administration": 1, "Myalgia": 1, "Postmenopausal haemorrhage": 1}, "Adverse Reaction Reports": 4, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "ER7823", "histogram": {"Angina pectoris": 1, "Arthralgia": 1, "Electroencephalogram": 1, "Epilepsy": 1, "Fatigue": 1, "Gait disturbance": 1, "Heart rate": 1, "Inappropriate schedule of product administration": 1, "Myalgia": 1, "Postmenopausal haemorrhage": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0}

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "013421A", "histogram": {"Fatigue": 2, "Myalgia": 2, "Pain in extremity": 2, "Pyrexia": 2, "Rash": 2, "Body temperature": 1, "Eyelid rash": 1, "Immunisation reaction": 1, "Injection site rash": 1, "Insomnia": 1, "Pruritus": 1, "Rash erythematous": 1, "Vaccine positive rechallenge": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "013421A", "histogram": {"Fatigue": 2, "Myalgia": 2, "Pain in extremity": 2, "Pyrexia": 2, "Rash": 2, "Body temperature": 1, "Eyelid rash": 1, "Immunisation reaction": 1, "Injection site rash": 1, "Insomnia": 1, "Pruritus": 1, "Rash erythematous": 1, "Vaccine positive rechallenge": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "013421A", "histogram": {"Fatigue": 2, "Myalgia": 2, "Pain in extremity": 2, "Pyrexia": 2, "Rash": 2, "Body temperature": 1, "Eyelid rash": 1, "Immunisation reaction": 1, "Injection site rash": 1, "Insomnia": 1, "Pruritus": 1, "Rash erythematous": 1, "Vaccine positive rechallenge": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

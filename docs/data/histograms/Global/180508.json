@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "180508", "histogram": {"Abdominal pain upper": 1, "Arthralgia": 1, "COVID-19": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Paraesthesia": 1, "Pyrexia": 1, "Retching": 1, "SARS-CoV-2 test positive": 1, "Urticaria": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "180508", "histogram": {"Abdominal pain upper": 1, "Arthralgia": 1, "COVID-19": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Paraesthesia": 1, "Pyrexia": 1, "Retching": 1, "SARS-CoV-2 test positive": 1, "Urticaria": 1}, "Adverse Reaction Reports": 4, "Company": "JANSSEN", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "180508", "histogram": {"Abdominal pain upper": 1, "Arthralgia": 1, "COVID-19": 1, "Fatigue": 1, "Headache": 1, "Nausea": 1, "Paraesthesia": 1, "Pyrexia": 1, "Retching": 1, "SARS-CoV-2 test positive": 1, "Urticaria": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "JANSSEN", "Life Threatening Illnesses": 0}

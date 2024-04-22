@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "001B21", "histogram": {"Cerebrovascular accident": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Injection site pain": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Pain": 1, "Visual impairment": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "001B21", "histogram": {"Cerebrovascular accident": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Injection site pain": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Pain": 1, "Visual impairment": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "001B21", "histogram": {"Cerebrovascular accident": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Injection site pain": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Pain": 1, "Visual impairment": 1}, "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

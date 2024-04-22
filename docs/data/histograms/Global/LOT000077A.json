@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "LOT000077A", "histogram": {"Dizziness": 1, "Headache": 1, "Hypertension": 1, "Magnetic resonance imaging head": 1, "Magnetic resonance imaging neck": 1, "Palpitations": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
-=======
-{"batchcode": "LOT000077A", "histogram": {"Dizziness": 1, "Headache": 1, "Hypertension": 1, "Magnetic resonance imaging head": 1, "Magnetic resonance imaging neck": 1, "Palpitations": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
->>>>>>> main
+{"batchcode": "LOT000077A", "histogram": {"Dizziness": 1, "Headache": 1, "Hypertension": 1, "Magnetic resonance imaging head": 1, "Magnetic resonance imaging neck": 1, "Palpitations": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Company": "MODERNA", "Life Threatening Illnesses": 0}

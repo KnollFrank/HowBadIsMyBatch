@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"batchcode": "WANTED", "histogram": {"Drug reaction with eosinophilia and systemic symptoms": 1, "Fatigue": 1, "Urinary tract inflammation": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 1}
-=======
-{"batchcode": "WANTED", "histogram": {"Drug reaction with eosinophilia and systemic symptoms": 1, "Fatigue": 1, "Urinary tract inflammation": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 1, "Disabilities": 1}
->>>>>>> main
+{"batchcode": "WANTED", "histogram": {"Drug reaction with eosinophilia and systemic symptoms": 1, "Fatigue": 1, "Urinary tract inflammation": 1}, "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Company": "MODERNA", "Life Threatening Illnesses": 1}
