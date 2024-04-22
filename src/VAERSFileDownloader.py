@@ -16,34 +16,34 @@ from captcha.CaptchaShape import CaptchaShape
     
 def updateVAERSFiles(years, workingDirectory):
     for year in years:
-        downloadVAERSFileAndUnzip(f'{year}VAERSData.zip', workingDirectory)
-    downloadVAERSFileAndUnzip('NonDomesticVAERSData.zip', workingDirectory)
+        _downloadVAERSFileAndUnzip(f'{year}VAERSData.zip', workingDirectory)
+    _downloadVAERSFileAndUnzip('NonDomesticVAERSData.zip', workingDirectory)
     
-def downloadVAERSFileAndUnzip(file, workingDirectory):
-    downloadedFile = downloadVAERSFile(file, workingDirectory + "/VAERS/tmp")
+def _downloadVAERSFileAndUnzip(file, workingDirectory):
+    downloadedFile = _downloadVAERSFile(file, workingDirectory + "/VAERS/tmp")
     unzipAndRemove(
         zipFile = downloadedFile,
         dstDir = workingDirectory + '/VAERS/')
 
-def downloadVAERSFile(file, downloadDir):
-    driver = getWebDriver(downloadDir, isHeadless = False)
-    downloadedFile = downloadFile(
+def _downloadVAERSFile(file, downloadDir):
+    driver = getWebDriver(downloadDir, isHeadless = True)
+    downloadedFile = _downloadFile(
         absoluteFile = downloadDir + "/" + file,
         driver = driver,
         maxTries = None)
     driver.quit()
     return downloadedFile
 
-def downloadFile(absoluteFile, driver, maxTries):
+def _downloadFile(absoluteFile, driver, maxTries):
     captchaReader = _createCaptchaReader()
-    def _downloadFile():
+    def downloadFile():
         driver.get('https://vaers.hhs.gov/eSubDownload/index.jsp?fn=' + os.path.basename(absoluteFile))
-        solveCaptchaAndStartFileDownload(driver, captchaReader, 'captchaImage.jpeg')
+        _solveCaptchaAndStartFileDownload(driver, captchaReader, 'captchaImage.jpeg')
 
     numTries = 1
-    _downloadFile()
+    downloadFile()
     while(not isCaptchaSolved(driver) and (maxTries is None or numTries < maxTries)):
-        _downloadFile()
+        downloadFile()
         numTries = numTries + 1
 
     if isCaptchaSolved(driver):
@@ -57,7 +57,7 @@ def _createCaptchaReader():
     return CaptchaReader(modelFilepath = f'{working_directory}/captcha/MobileNetV3Small',
                          captchaShape = CaptchaShape())
 
-def solveCaptchaAndStartFileDownload(driver, captchaReader, captchaImageFile):
+def _solveCaptchaAndStartFileDownload(driver, captchaReader, captchaImageFile):
     saveCaptchaImageAs(driver, captchaImageFile)
     textInCaptchaImage = captchaReader.getTextInCaptchaImage(captchaImageFile)
     print('textInCaptchaImage:', textInCaptchaImage)

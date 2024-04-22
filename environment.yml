@@ -9,6 +9,8 @@ dependencies:
   - pandas=1.4.0
   - urllib3
   - requests
+  - gdown
+  - py7zr
   - bs4
   - lxml
   - jupyter

@@ -6,7 +6,8 @@ from selenium.webdriver.common.by import By
 
 def _getOptions(downloadDir, isHeadless):
     options = Options()
-    options.headless = isHeadless
+    if isHeadless:
+        options.add_argument('--headless=new')
     options.add_experimental_option("prefs", {"download.default_directory" : downloadDir})
     return options
 
