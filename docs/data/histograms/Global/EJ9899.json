@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EJ9899", "histogram": {"Injection site rash": 1, "Pain in extremity": 1, "Rash pruritic": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "EJ9899", "histogram": {"Injection site rash": 1, "Pain in extremity": 1, "Rash pruritic": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

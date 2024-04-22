@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "GL9264", "histogram": {"Lymph node pain": 1, "Lymphadenopathy": 1, "Tinnitus": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "GL9264", "histogram": {"Lymph node pain": 1, "Lymphadenopathy": 1, "Tinnitus": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

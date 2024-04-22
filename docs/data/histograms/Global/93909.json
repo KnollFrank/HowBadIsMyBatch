@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "93909", "histogram": {"COVID-19": 1, "Product administered to patient of inappropriate age": 1, "Swelling of eyelid": 1, "Vaccination site pain": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "93909", "histogram": {"COVID-19": 1, "Product administered to patient of inappropriate age": 1, "Swelling of eyelid": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

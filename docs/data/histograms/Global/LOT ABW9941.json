@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "LOT ABW9941", "histogram": {"Diarrhoea": 1, "Eye haemorrhage": 1, "Optic atrophy": 1}, "Company": "UNKNOWN MANUFACTURER", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "LOT ABW9941", "histogram": {"Diarrhoea": 1, "Eye haemorrhage": 1, "Optic atrophy": 1}, "Adverse Reaction Reports": 3, "Company": "UNKNOWN MANUFACTURER", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "PA5843", "histogram": {"SARS-CoV-2 test": 3, "Diarrhoea": 1, "Dysmenorrhoea": 1, "Feeling hot": 1, "Headache": 1, "Heavy menstrual bleeding": 1, "Nausea": 1, "Pruritus": 1, "Skin swelling": 1, "Swelling": 1, "Vaginal haemorrhage": 1, "Vomiting": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "PA5843", "histogram": {"SARS-CoV-2 test": 3, "Diarrhoea": 1, "Dysmenorrhoea": 1, "Feeling hot": 1, "Headache": 1, "Heavy menstrual bleeding": 1, "Nausea": 1, "Pruritus": 1, "Skin swelling": 1, "Swelling": 1, "Vaginal haemorrhage": 1, "Vomiting": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

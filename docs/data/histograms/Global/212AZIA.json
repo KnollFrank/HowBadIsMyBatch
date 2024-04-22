@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "212AZIA", "histogram": {"Arthralgia": 1, "Contusion": 1, "Feeling abnormal": 1, "Myalgia": 1, "Pain": 1, "Rash": 1, "Suspected counterfeit product": 1, "Thrombosis": 1, "Vaccination site pain": 1, "Vasodilatation": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "212AZIA", "histogram": {"Arthralgia": 1, "Contusion": 1, "Feeling abnormal": 1, "Myalgia": 1, "Pain": 1, "Rash": 1, "Suspected counterfeit product": 1, "Thrombosis": 1, "Vaccination site pain": 1, "Vasodilatation": 1}, "Adverse Reaction Reports": 3, "Company": "JANSSEN", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

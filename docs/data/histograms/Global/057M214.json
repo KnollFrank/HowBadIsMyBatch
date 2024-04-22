@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "057M214", "histogram": {"Headache": 3, "COVID-19": 2, "Cough": 2, "Rhinorrhoea": 2, "SARS-CoV-2 test positive": 2, "Ageusia": 1, "Anosmia": 1, "Computerised tomogram head normal": 1, "Drainage": 1, "Fatigue": 1, "Feeling abnormal": 1, "Pain": 1, "Pyrexia": 1, "Respiratory tract congestion": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "057M214", "histogram": {"Headache": 3, "COVID-19": 2, "Cough": 2, "Rhinorrhoea": 2, "SARS-CoV-2 test positive": 2, "Ageusia": 1, "Anosmia": 1, "Computerised tomogram head normal": 1, "Drainage": 1, "Fatigue": 1, "Feeling abnormal": 1, "Pain": 1, "Pyrexia": 1, "Respiratory tract congestion": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

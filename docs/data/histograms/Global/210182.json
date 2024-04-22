@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "210182", "histogram": {"Chills": 1, "Feeling cold": 1, "Headache": 1, "Myalgia": 1, "Pyrexia": 1, "Tremor": 1}, "Company": "UNKNOWN MANUFACTURER", "Adverse Reaction Reports": 22, "Deaths": 9, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "210182", "histogram": {"Chills": 1, "Feeling cold": 1, "Headache": 1, "Myalgia": 1, "Pyrexia": 1, "Tremor": 1}, "Adverse Reaction Reports": 22, "Company": "UNKNOWN MANUFACTURER", "Deaths": 9, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "GL0739", "histogram": {"SARS-CoV-2 test": 2, "Asthenia": 1, "Diarrhoea": 1, "Fatigue": 1, "Influenza": 1, "Somnolence": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "GL0739", "histogram": {"SARS-CoV-2 test": 2, "Asthenia": 1, "Diarrhoea": 1, "Fatigue": 1, "Influenza": 1, "Somnolence": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1}
+>>>>>>> main

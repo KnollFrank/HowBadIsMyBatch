@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "014M2DA", "histogram": {"Fatigue": 2, "Nausea": 2, "Pain in extremity": 2, "Arthralgia": 1, "Chest pain": 1, "Chills": 1, "Headache": 1, "Impaired work ability": 1, "Inflammation": 1, "Injected limb mobility decreased": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Pyrexia": 1, "Vaccination site pain": 1, "Vaccination site warmth": 1, "X-ray": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "014M2DA", "histogram": {"Fatigue": 2, "Nausea": 2, "Pain in extremity": 2, "Arthralgia": 1, "Chest pain": 1, "Chills": 1, "Headache": 1, "Impaired work ability": 1, "Inflammation": 1, "Injected limb mobility decreased": 1, "Magnetic resonance imaging": 1, "Myalgia": 1, "Pyrexia": 1, "Vaccination site pain": 1, "Vaccination site warmth": 1, "X-ray": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1}
+>>>>>>> main

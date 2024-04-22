@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "LOT3002545", "histogram": {"COVID-19": 16, "SARS-CoV-2 test": 16, "Vaccination failure": 16}, "Company": "MODERNA", "Adverse Reaction Reports": 16, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "LOT3002545", "histogram": {"COVID-19": 16, "SARS-CoV-2 test": 16, "Vaccination failure": 16}, "Adverse Reaction Reports": 16, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

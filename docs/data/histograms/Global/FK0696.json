@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FK0696", "histogram": {"Immunisation": 1, "Interchange of vaccine products": 1, "Off label use": 1, "Postmenopausal haemorrhage": 1, "Uterine haemorrhage": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "FK0696", "histogram": {"Immunisation": 1, "Interchange of vaccine products": 1, "Off label use": 1, "Postmenopausal haemorrhage": 1, "Uterine haemorrhage": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

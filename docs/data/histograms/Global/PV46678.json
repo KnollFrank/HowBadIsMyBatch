@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "PV46678", "histogram": {"Arthralgia": 1, "Asthenia": 1, "Paraesthesia": 1}, "Company": "UNKNOWN MANUFACTURER", "Adverse Reaction Reports": 32, "Deaths": 0, "Disabilities": 5, "Life Threatening Illnesses": 3}
+=======
+{"batchcode": "PV46678", "histogram": {"Arthralgia": 1, "Asthenia": 1, "Paraesthesia": 1}, "Adverse Reaction Reports": 32, "Company": "UNKNOWN MANUFACTURER", "Deaths": 0, "Life Threatening Illnesses": 3, "Disabilities": 5}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "33030BD-PFIZER-", "histogram": {"Acute myocardial infarction": 2, "Acute respiratory failure": 1, "Cerebellar syndrome": 1, "Epilepsy": 1, "Lacunar stroke": 1, "Metabolic encephalopathy": 1, "Myocardial infarction": 1, "Neuropathy peripheral": 1, "Obstructive sleep apnoea syndrome": 1, "Polyneuropathy": 1, "Pulmonary embolism": 1, "Symptom recurrence": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 8, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "33030BD-PFIZER-", "histogram": {"Acute myocardial infarction": 2, "Acute respiratory failure": 1, "Cerebellar syndrome": 1, "Epilepsy": 1, "Lacunar stroke": 1, "Metabolic encephalopathy": 1, "Myocardial infarction": 1, "Neuropathy peripheral": 1, "Obstructive sleep apnoea syndrome": 1, "Polyneuropathy": 1, "Pulmonary embolism": 1, "Symptom recurrence": 1}, "Adverse Reaction Reports": 8, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

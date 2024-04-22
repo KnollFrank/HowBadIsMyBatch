@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "1EO28A", "histogram": {"Angina pectoris": 2, "Blood creatine phosphokinase": 1, "Blood creatine phosphokinase MB": 1, "Colitis ulcerative": 1, "Diarrhoea": 1, "Diarrhoea haemorrhagic": 1, "Electrocardiogram": 1, "Inappropriate schedule of product administration": 1, "Myocarditis": 1, "Nausea": 1, "Syncope": 1, "Troponin T": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 8, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "1EO28A", "histogram": {"Angina pectoris": 2, "Blood creatine phosphokinase": 1, "Blood creatine phosphokinase MB": 1, "Colitis ulcerative": 1, "Diarrhoea": 1, "Diarrhoea haemorrhagic": 1, "Electrocardiogram": 1, "Inappropriate schedule of product administration": 1, "Myocarditis": 1, "Nausea": 1, "Syncope": 1, "Troponin T": 1}, "Adverse Reaction Reports": 8, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

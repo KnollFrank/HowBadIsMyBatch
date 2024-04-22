@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "19", "histogram": {"Blood test": 2, "Headache": 2, "Malaise": 2, "Pyrexia": 2, "Abnormal faeces": 1, "Blood pressure decreased": 1, "Cardiac flutter": 1, "Carditis": 1, "Chest pain": 1, "Chills": 1, "Decreased appetite": 1, "Dizziness": 1, "Hyperhidrosis": 1, "Hypersomnia": 1, "Movement disorder": 1, "Night sweats": 1, "Pain in extremity": 1, "Palpitations": 1, "Sleep disorder": 1, "Stress": 1, "Syncope": 1, "X-ray": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "19", "histogram": {"Blood test": 2, "Headache": 2, "Malaise": 2, "Pyrexia": 2, "Abnormal faeces": 1, "Blood pressure decreased": 1, "Cardiac flutter": 1, "Carditis": 1, "Chest pain": 1, "Chills": 1, "Decreased appetite": 1, "Dizziness": 1, "Hyperhidrosis": 1, "Hypersomnia": 1, "Movement disorder": 1, "Night sweats": 1, "Pain in extremity": 1, "Palpitations": 1, "Sleep disorder": 1, "Stress": 1, "Syncope": 1, "X-ray": 1}, "Adverse Reaction Reports": 3, "Company": "JANSSEN", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "028I20A", "histogram": {"Injection site pain": 2, "Amnesia": 1, "Cerebral infarction": 1, "Cerebral small vessel ischaemic disease": 1, "Expired product administered": 1, "Injection site pruritus": 1, "Injection site rash": 1, "Magnetic resonance imaging head abnormal": 1, "Mobility decreased": 1, "Pain in extremity": 1, "Rash": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 6, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "028I20A", "histogram": {"Injection site pain": 2, "Amnesia": 1, "Cerebral infarction": 1, "Cerebral small vessel ischaemic disease": 1, "Expired product administered": 1, "Injection site pruritus": 1, "Injection site rash": 1, "Magnetic resonance imaging head abnormal": 1, "Mobility decreased": 1, "Pain in extremity": 1, "Rash": 1}, "Adverse Reaction Reports": 6, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EW0717", "histogram": {"Angiogram normal": 1, "Blood pressure increased": 1, "Blood test normal": 1, "Chest pain": 1, "Computerised tomogram thorax abnormal": 1, "Dizziness": 1, "Dyspnoea": 1, "Lip swelling": 1, "Magnetic resonance imaging normal": 1, "Myocardial necrosis marker increased": 1, "Nausea": 1, "Pulmonary thrombosis": 1, "Rash": 1, "Rash pruritic": 1, "Urticaria": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "EW0717", "histogram": {"Angiogram normal": 1, "Blood pressure increased": 1, "Blood test normal": 1, "Chest pain": 1, "Computerised tomogram thorax abnormal": 1, "Dizziness": 1, "Dyspnoea": 1, "Lip swelling": 1, "Magnetic resonance imaging normal": 1, "Myocardial necrosis marker increased": 1, "Nausea": 1, "Pulmonary thrombosis": 1, "Rash": 1, "Rash pruritic": 1, "Urticaria": 1}, "Adverse Reaction Reports": 5, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

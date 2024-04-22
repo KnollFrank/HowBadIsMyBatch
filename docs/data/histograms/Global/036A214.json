@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "036A214", "histogram": {"Flushing": 1, "Headache": 1, "Injection site erythema": 1, "Injection site induration": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "Myalgia": 1, "Pruritus": 1, "Pyrexia": 1, "Vaccination complication": 1, "Vaccination site pain": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "036A214", "histogram": {"Flushing": 1, "Headache": 1, "Injection site erythema": 1, "Injection site induration": 1, "Injection site pruritus": 1, "Injection site warmth": 1, "Myalgia": 1, "Pruritus": 1, "Pyrexia": 1, "Vaccination complication": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

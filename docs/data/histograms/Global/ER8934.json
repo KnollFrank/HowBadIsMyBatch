@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "ER8934", "histogram": {"Ageusia": 1, "Angular cheilitis": 1, "Aphthous ulcer": 1, "Limb discomfort": 1, "Lip swelling": 1, "Muscular weakness": 1, "Musculoskeletal discomfort": 1, "Skin exfoliation": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "ER8934", "histogram": {"Ageusia": 1, "Angular cheilitis": 1, "Aphthous ulcer": 1, "Limb discomfort": 1, "Lip swelling": 1, "Muscular weakness": 1, "Musculoskeletal discomfort": 1, "Skin exfoliation": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

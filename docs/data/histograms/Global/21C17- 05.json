@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "21C17- 05", "histogram": {"Vaccination failure": 25, "SARS-CoV-2 test": 23, "Drug ineffective": 14, "COVID-19": 3}, "Company": "JANSSEN", "Adverse Reaction Reports": 39, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "21C17- 05", "histogram": {"Vaccination failure": 25, "SARS-CoV-2 test": 23, "Drug ineffective": 14, "COVID-19": 3}, "Adverse Reaction Reports": 39, "Company": "JANSSEN", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

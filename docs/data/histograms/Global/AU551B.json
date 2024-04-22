@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "AU551B", "histogram": {"Underdose": 3, "Incorrect dose administered": 1, "No adverse event": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "Vaccination error": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 7, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "AU551B", "histogram": {"Underdose": 3, "Incorrect dose administered": 1, "No adverse event": 1, "Pyrexia": 1, "Rhinorrhoea": 1, "Vaccination error": 1}, "Adverse Reaction Reports": 7, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

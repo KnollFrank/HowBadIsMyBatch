@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "59267-0304-01", "histogram": {"COVID-19": 2, "Drug ineffective": 2, "Chills": 1, "Diarrhoea": 1, "Laboratory test": 1, "Retching": 1, "Tinnitus": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "59267-0304-01", "histogram": {"COVID-19": 2, "Drug ineffective": 2, "Chills": 1, "Diarrhoea": 1, "Laboratory test": 1, "Retching": 1, "Tinnitus": 1}, "Adverse Reaction Reports": 4, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

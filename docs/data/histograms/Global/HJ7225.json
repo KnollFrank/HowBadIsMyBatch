@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "HJ7225", "histogram": {"Expired product administered": 6, "Lip swelling": 1, "Swollen tongue": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 7, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "HJ7225", "histogram": {"Expired product administered": 6, "Lip swelling": 1, "Swollen tongue": 1}, "Adverse Reaction Reports": 7, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

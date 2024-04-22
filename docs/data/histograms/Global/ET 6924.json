@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "ET 6924", "histogram": {"Cough": 1, "Dyspnoea": 1, "Headache": 1, "Oropharyngeal pain": 1, "Paraesthesia": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 3, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "ET 6924", "histogram": {"Cough": 1, "Dyspnoea": 1, "Headache": 1, "Oropharyngeal pain": 1, "Paraesthesia": 1}, "Adverse Reaction Reports": 5, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 3}
+>>>>>>> main

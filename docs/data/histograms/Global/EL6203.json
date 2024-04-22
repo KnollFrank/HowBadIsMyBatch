@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EL6203", "histogram": {"Condition aggravated": 1, "Gastric disorder": 1, "Headache": 1, "Incorrect route of product administration": 1, "Vaccination site pain": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 1, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "EL6203", "histogram": {"Condition aggravated": 1, "Gastric disorder": 1, "Headache": 1, "Incorrect route of product administration": 1, "Vaccination site pain": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 1, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

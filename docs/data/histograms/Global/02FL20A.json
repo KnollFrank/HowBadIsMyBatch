@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "02FL20A", "histogram": {"Arthralgia": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site reaction": 1, "Injection site warmth": 1, "Rash": 1, "Rash macular": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "02FL20A", "histogram": {"Arthralgia": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Injection site reaction": 1, "Injection site warmth": 1, "Rash": 1, "Rash macular": 1, "Vaccination site pain": 1, "Vaccination site swelling": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

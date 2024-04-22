@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "937024197/50PFL", "histogram": {"Blindness": 1, "Herpes zoster": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "937024197/50PFL", "histogram": {"Blindness": 1, "Herpes zoster": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "03OL20A", "histogram": {"Chills": 2, "Pyrexia": 2, "Abdominal discomfort": 1, "Arthralgia": 1, "Axillary pain": 1, "COVID-19": 1, "Chest pain": 1, "Diarrhoea": 1, "Dyspnoea": 1, "Eructation": 1, "Herpes zoster": 1, "Injection site erythema": 1, "Pain": 1, "Rash erythematous": 1, "Rash pruritic": 1, "SARS-CoV-2 test positive": 1, "Testicular pain": 1, "Tinnitus": 1, "Tremor": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 6, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "03OL20A", "histogram": {"Chills": 2, "Pyrexia": 2, "Abdominal discomfort": 1, "Arthralgia": 1, "Axillary pain": 1, "COVID-19": 1, "Chest pain": 1, "Diarrhoea": 1, "Dyspnoea": 1, "Eructation": 1, "Herpes zoster": 1, "Injection site erythema": 1, "Pain": 1, "Rash erythematous": 1, "Rash pruritic": 1, "SARS-CoV-2 test positive": 1, "Testicular pain": 1, "Tinnitus": 1, "Tremor": 1}, "Adverse Reaction Reports": 6, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "022H20A", "histogram": {"Arthralgia": 2, "Vaccination site pain": 2, "Breast pain": 1, "Headache": 1, "Joint range of motion decreased": 1, "Neck pain": 1, "Pain in extremity": 1, "Periarthritis": 1, "Sleep disorder": 1, "Vaccination site movement impairment": 1, "Vaccination site swelling": 1, "X-ray normal": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "022H20A", "histogram": {"Arthralgia": 2, "Vaccination site pain": 2, "Breast pain": 1, "Headache": 1, "Joint range of motion decreased": 1, "Neck pain": 1, "Pain in extremity": 1, "Periarthritis": 1, "Sleep disorder": 1, "Vaccination site movement impairment": 1, "Vaccination site swelling": 1, "X-ray normal": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FC3100", "histogram": {"SARS-CoV-2 test": 2, "Axillary pain": 1, "Burning sensation": 1, "COVID-19": 1, "Condition aggravated": 1, "Drug ineffective": 1, "Headache": 1, "Malaise": 1, "Sinusitis": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "FC3100", "histogram": {"SARS-CoV-2 test": 2, "Axillary pain": 1, "Burning sensation": 1, "COVID-19": 1, "Condition aggravated": 1, "Drug ineffective": 1, "Headache": 1, "Malaise": 1, "Sinusitis": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

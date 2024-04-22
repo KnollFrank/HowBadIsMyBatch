@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "ABV 5443", "histogram": {"Arrhythmia": 1, "Cardiac discomfort": 1, "Dyspnoea": 1, "Fatigue": 1, "Inflammation": 1, "Pyrexia": 1, "Skin haemorrhage": 1}, "Company": "UNKNOWN MANUFACTURER", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "ABV 5443", "histogram": {"Arrhythmia": 1, "Cardiac discomfort": 1, "Dyspnoea": 1, "Fatigue": 1, "Inflammation": 1, "Pyrexia": 1, "Skin haemorrhage": 1}, "Adverse Reaction Reports": 3, "Company": "UNKNOWN MANUFACTURER", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

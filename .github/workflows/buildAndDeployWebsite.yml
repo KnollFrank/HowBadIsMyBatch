@@ -25,19 +25,20 @@ jobs:
       - name: Installing Google Chrome
         shell: bash -el {0}
         run: |
+          conda activate howbadismybatch-venv
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo dpkg -i google-chrome-stable_current_amd64.deb
           sudo apt install google-chrome-stable
-          pip install selenium webdriver-manager
-          pip install pycountry
-          pip install python-decouple
+          pip install --upgrade selenium webdriver-manager
       - name: Installing ipython kernel
         shell: bash -el {0}
         run: |
+          conda activate howbadismybatch-venv
           ipython kernel install --user --name=howbadismybatch-venv-kernel
       - name: Executing HowBadIsMyBatch.ipynb
         shell: bash -el {0}
         run: |
+          conda activate howbadismybatch-venv
           cd src
           jupyter nbconvert --to script HowBadIsMyBatch.ipynb
           python ./HowBadIsMyBatch.py          

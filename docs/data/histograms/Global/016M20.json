@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "016M20", "histogram": {"Burning sensation": 1, "Irritability postvaccinal": 1, "Pruritus": 1, "Rash erythematous": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "016M20", "histogram": {"Burning sensation": 1, "Irritability postvaccinal": 1, "Pruritus": 1, "Rash erythematous": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

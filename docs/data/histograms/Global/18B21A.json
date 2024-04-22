@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "18B21A", "histogram": {"Anxiety": 1, "Axillary pain": 1, "Blood test": 1, "Cardiac monitoring": 1, "Cerebrovascular accident": 1, "Chills": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Pain in extremity": 1, "Peripheral swelling": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "18B21A", "histogram": {"Anxiety": 1, "Axillary pain": 1, "Blood test": 1, "Cardiac monitoring": 1, "Cerebrovascular accident": 1, "Chills": 1, "Computerised tomogram": 1, "Echocardiogram": 1, "Injection site erythema": 1, "Injection site pruritus": 1, "Pain in extremity": 1, "Peripheral swelling": 1}, "Adverse Reaction Reports": 5, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FD1922", "histogram": {"COVID-19": 4, "SARS-CoV-2 test": 4, "Drug ineffective": 3, "Vaccination failure": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "FD1922", "histogram": {"COVID-19": 4, "SARS-CoV-2 test": 4, "Drug ineffective": 3, "Vaccination failure": 1}, "Adverse Reaction Reports": 4, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

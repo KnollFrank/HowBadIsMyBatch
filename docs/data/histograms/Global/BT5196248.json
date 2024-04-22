@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "BT5196248", "histogram": {"Arthralgia": 1, "Blood test": 1, "Burning sensation": 1, "COVID-19": 1, "Computerised tomogram": 1, "Erythema": 1, "Flank pain": 1, "Herpes zoster": 1, "Injection site pain": 1, "Injection site swelling": 1, "Lipase increased": 1, "Neck pain": 1, "Pancreatitis": 1, "SARS-CoV-2 test": 1, "Swelling": 1, "Urine analysis": 1, "Vaccination failure": 1, "Varicella virus test": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "BT5196248", "histogram": {"Arthralgia": 1, "Blood test": 1, "Burning sensation": 1, "COVID-19": 1, "Computerised tomogram": 1, "Erythema": 1, "Flank pain": 1, "Herpes zoster": 1, "Injection site pain": 1, "Injection site swelling": 1, "Lipase increased": 1, "Neck pain": 1, "Pancreatitis": 1, "SARS-CoV-2 test": 1, "Swelling": 1, "Urine analysis": 1, "Vaccination failure": 1, "Varicella virus test": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

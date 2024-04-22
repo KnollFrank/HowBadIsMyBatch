@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "O83B22A", "histogram": {"Incorrect product formulation administered": 9, "No adverse event": 9, "Incorrect dose administered": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 10, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "O83B22A", "histogram": {"Incorrect product formulation administered": 9, "No adverse event": 9, "Incorrect dose administered": 1}, "Adverse Reaction Reports": 10, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

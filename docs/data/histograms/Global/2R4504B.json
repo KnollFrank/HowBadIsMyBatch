@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "2R4504B", "histogram": {"Incorrect product formulation administered": 3}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "2R4504B", "histogram": {"Incorrect product formulation administered": 3}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EK7530", "histogram": {"Injection site pain": 1, "SARS-CoV-2 test positive": 1, "Tinnitus": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "EK7530", "histogram": {"Injection site pain": 1, "SARS-CoV-2 test positive": 1, "Tinnitus": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

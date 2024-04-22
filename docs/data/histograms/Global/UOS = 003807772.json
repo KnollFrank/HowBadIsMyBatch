@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "UOS = 003807772", "histogram": {"Anxiety": 3, "Hypertension": 2, "Tachycardia": 2, "Throat irritation": 2, "Dizziness": 1, "Joint instability": 1, "Malaise": 1, "Tremor": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "UOS = 003807772", "histogram": {"Anxiety": 3, "Hypertension": 2, "Tachycardia": 2, "Throat irritation": 2, "Dizziness": 1, "Joint instability": 1, "Malaise": 1, "Tremor": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

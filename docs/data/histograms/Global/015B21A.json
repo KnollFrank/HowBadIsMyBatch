@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "015B21A", "histogram": {"COVID-19": 1, "Death": 1, "Product administered to patient of inappropriate age": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 3, "Deaths": 2, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "015B21A", "histogram": {"COVID-19": 1, "Death": 1, "Product administered to patient of inappropriate age": 1}, "Adverse Reaction Reports": 3, "Company": "MODERNA", "Deaths": 2, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

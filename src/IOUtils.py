@@ -1,5 +1,8 @@
 import os
+from pathlib import Path
+import shutil
 import simplejson as json
+
 
 class IOUtils:
 
@@ -13,19 +16,19 @@ class IOUtils:
         IOUtils.ensurePath(file)
         dataFrame.to_html(
             file,
-            index = False,
-            table_id = 'batchCodeTable',
-            classes = 'display',
-            justify = 'unset',
-            border = 0)
+            index=False,
+            table_id='batchCodeTable',
+            classes='display',
+            justify='unset',
+            border=0)
 
     @staticmethod
     def saveDataFrameAsJson(dataFrame, file):
         IOUtils.ensurePath(file)
         dataFrame.to_json(
             file,
-            orient = "split",
-            index = False)
+            orient="split",
+            index=False)
 
     @staticmethod
     def saveDictAsJson(dict, file):
@@ -38,3 +41,11 @@ class IOUtils:
         directory = os.path.dirname(file)
         if not os.path.exists(directory):
             os.makedirs(directory)
+
+    @staticmethod
+    def silentlyRemoveFile(file):
+        Path(file).unlink(missing_ok=True)
+
+    @staticmethod
+    def silentlyRemoveFolder(folder):
+        shutil.rmtree(folder, ignore_errors=True)

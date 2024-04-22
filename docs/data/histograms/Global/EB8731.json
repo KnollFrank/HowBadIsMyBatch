@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EB8731", "histogram": {"Ageusia": 1, "Chromaturia": 1, "Diarrhoea": 1, "Fatigue": 1, "Lymphadenopathy": 1, "Pain in extremity": 1, "Rhinorrhoea": 1, "Therapeutic response unexpected": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "EB8731", "histogram": {"Ageusia": 1, "Chromaturia": 1, "Diarrhoea": 1, "Fatigue": 1, "Lymphadenopathy": 1, "Pain in extremity": 1, "Rhinorrhoea": 1, "Therapeutic response unexpected": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1}
+>>>>>>> main

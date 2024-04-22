@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "209F23-2A", "histogram": {"Dysgeusia": 1, "Feeling hot": 1, "Hypoaesthesia": 1, "Immediate post-injection reaction": 1, "Impaired work ability": 1, "Injection site bruising": 1, "Pain": 1, "Photopsia": 1, "Rash": 1, "Wrong product administered": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 5, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "209F23-2A", "histogram": {"Dysgeusia": 1, "Feeling hot": 1, "Hypoaesthesia": 1, "Immediate post-injection reaction": 1, "Impaired work ability": 1, "Injection site bruising": 1, "Pain": 1, "Photopsia": 1, "Rash": 1, "Wrong product administered": 1}, "Adverse Reaction Reports": 5, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

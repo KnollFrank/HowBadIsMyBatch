@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "025 L20A", "histogram": {"Blood test": 1, "Dizziness": 1, "Dysstasia": 1, "Erythema": 1, "Flushing": 1, "Gait disturbance": 1, "Injection site pain": 1, "Injection site warmth": 1, "Magnetic resonance imaging head": 1, "Nausea": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Vertigo": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "025 L20A", "histogram": {"Blood test": 1, "Dizziness": 1, "Dysstasia": 1, "Erythema": 1, "Flushing": 1, "Gait disturbance": 1, "Injection site pain": 1, "Injection site warmth": 1, "Magnetic resonance imaging head": 1, "Nausea": 1, "Pain in extremity": 1, "Peripheral swelling": 1, "Vertigo": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

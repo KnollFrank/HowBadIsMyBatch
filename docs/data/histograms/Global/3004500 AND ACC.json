@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "3004500 AND ACC", "histogram": {"Headache": 1, "Tinnitus": 1}, "Company": "MODERNA", "Adverse Reaction Reports": 4, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "3004500 AND ACC", "histogram": {"Headache": 1, "Tinnitus": 1}, "Adverse Reaction Reports": 4, "Company": "MODERNA", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

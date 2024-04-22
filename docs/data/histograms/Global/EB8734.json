@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "EB8734", "histogram": {"Ear discomfort": 1, "Ear pain": 1, "Head discomfort": 1, "Hyperacusis": 1, "Hypoacusis": 1, "Middle ear effusion": 1, "Pain in extremity": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "EB8734", "histogram": {"Ear discomfort": 1, "Ear pain": 1, "Head discomfort": 1, "Hyperacusis": 1, "Hypoacusis": 1, "Middle ear effusion": 1, "Pain in extremity": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

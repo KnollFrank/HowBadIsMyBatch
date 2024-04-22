@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "1855794", "histogram": {"Headache": 2, "Pain": 2, "Chest pain": 1, "Decreased appetite": 1, "Disturbance in attention": 1, "Electrocardiogram normal": 1, "Fatigue": 1, "Feeling of body temperature change": 1, "Heart rate increased": 1, "Hypertension": 1, "Insomnia": 1, "Irritability": 1, "Muscle spasms": 1, "Pyrexia": 1, "Syncope": 1, "Vision blurred": 1}, "Company": "JANSSEN", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 0, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "1855794", "histogram": {"Headache": 2, "Pain": 2, "Chest pain": 1, "Decreased appetite": 1, "Disturbance in attention": 1, "Electrocardiogram normal": 1, "Fatigue": 1, "Feeling of body temperature change": 1, "Heart rate increased": 1, "Hypertension": 1, "Insomnia": 1, "Irritability": 1, "Muscle spasms": 1, "Pyrexia": 1, "Syncope": 1, "Vision blurred": 1}, "Adverse Reaction Reports": 3, "Company": "JANSSEN", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 0}
+>>>>>>> main

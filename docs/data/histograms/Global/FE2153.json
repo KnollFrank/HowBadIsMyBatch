@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"batchcode": "FE2153", "histogram": {"SARS-CoV-2 test": 2, "Arthritis": 1, "Blood test": 1, "Off label use": 1, "Paraesthesia oral": 1, "Product use issue": 1, "Pruritus": 1, "Rash": 1, "Rectal haemorrhage": 1, "Skin discolouration": 1}, "Company": "PFIZER\\BIONTECH", "Adverse Reaction Reports": 3, "Deaths": 0, "Disabilities": 1, "Life Threatening Illnesses": 0}
+=======
+{"batchcode": "FE2153", "histogram": {"SARS-CoV-2 test": 2, "Arthritis": 1, "Blood test": 1, "Off label use": 1, "Paraesthesia oral": 1, "Product use issue": 1, "Pruritus": 1, "Rash": 1, "Rectal haemorrhage": 1, "Skin discolouration": 1}, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH", "Deaths": 0, "Life Threatening Illnesses": 0, "Disabilities": 1}
+>>>>>>> main
