@@ -1,1 +1,1 @@
-{"batchcode": "PCA009", "histogram": {"Foetal death": 2, "Cough": 1, "Dizziness": 1, "Nasopharyngitis": 1, "Pyrexia": 1, "Seizure": 1}, "Disabilities": 0, "Deaths": 1, "Life Threatening Illnesses": 1, "Adverse Reaction Reports": 3, "Company": "PFIZER\\BIONTECH"}
+{"batchcode": "PCA009", "histogram": {"Foetal death": 2, "Cough": 1, "Dizziness": 1, "Nasopharyngitis": 1, "Pyrexia": 1, "Seizure": 1}, "Hospitalizations": 1, "Deaths": 1, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 1, "Adverse Reaction Reports": 3, "Disabilities": 0}

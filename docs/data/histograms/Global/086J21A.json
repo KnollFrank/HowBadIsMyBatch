@@ -1,1 +1,1 @@
-{"batchcode": "086J21A", "histogram": {"Pyrexia": 2, "Abdominal pain": 1, "Dyspnoea": 1, "Epistaxis": 1, "Fatigue": 1, "Headache": 1, "Platelet count": 1}, "Disabilities": 0, "Deaths": 7, "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 11, "Company": "MODERNA"}
+{"batchcode": "086J21A", "histogram": {"Pyrexia": 2, "Abdominal pain": 1, "Dyspnoea": 1, "Epistaxis": 1, "Fatigue": 1, "Headache": 1, "Platelet count": 1}, "Hospitalizations": 10, "Deaths": 7, "Company": "MODERNA", "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 11, "Disabilities": 0}

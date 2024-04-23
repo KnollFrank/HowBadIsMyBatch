@@ -1,1 +1,1 @@
-{"batchcode": "ABX3507", "histogram": {"COVID-19": 2, "Drug ineffective": 1, "Vaccination failure": 1}, "Disabilities": 0, "Deaths": 1, "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 10, "Company": "JANSSEN"}
+{"batchcode": "ABX3507", "histogram": {"COVID-19": 2, "Drug ineffective": 1, "Vaccination failure": 1}, "Hospitalizations": 5, "Deaths": 1, "Company": "JANSSEN", "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 10, "Disabilities": 0}

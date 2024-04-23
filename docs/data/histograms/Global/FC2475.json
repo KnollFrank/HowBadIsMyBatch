@@ -1,1 +1,1 @@
-{"batchcode": "FC2475", "histogram": {"COVID-19": 6, "SARS-CoV-2 test": 6, "Vaccination failure": 5, "Drug ineffective": 1}, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 6, "Company": "PFIZER\\BIONTECH"}
+{"batchcode": "FC2475", "histogram": {"COVID-19": 6, "SARS-CoV-2 test": 6, "Vaccination failure": 5, "Drug ineffective": 1}, "Hospitalizations": 0, "Deaths": 0, "Company": "PFIZER\\BIONTECH", "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 6, "Disabilities": 0}
