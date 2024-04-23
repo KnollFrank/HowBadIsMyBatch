@@ -8,7 +8,8 @@ class SummationTableFactory:
             **{
                 'Deaths':                     pd.NamedAgg(column = 'DIED',     aggfunc = 'sum'),
                 'Adverse Reaction Reports':   pd.NamedAgg(column = 'DIED',     aggfunc = 'size'),
-                'Life Threatening Illnesses': pd.NamedAgg(column = 'L_THREAT', aggfunc = 'sum'), 
+                'Life Threatening Illnesses': pd.NamedAgg(column = 'L_THREAT', aggfunc = 'sum'),
+                'Hospitalization':            pd.NamedAgg(column = 'HOSPITAL', aggfunc = 'sum'),
                 'Disabilities':               pd.NamedAgg(column = 'DISABLE',  aggfunc = 'sum'),
                 'Severities':                 pd.NamedAgg(column = 'SEVERE',   aggfunc = 'sum')
             })
@@ -20,6 +21,7 @@ class SummationTableFactory:
                 'Deaths',
                 'Disabilities',
                 'Life Threatening Illnesses',
+                'Hospitalization',
                 'Severe reports',
                 'Lethality'
             ]]
