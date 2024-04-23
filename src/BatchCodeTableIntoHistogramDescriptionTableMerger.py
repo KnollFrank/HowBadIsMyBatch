@@ -27,7 +27,7 @@ class BatchCodeTableIntoHistogramDescriptionTableMerger:
                 'Adverse Reaction Reports',
                 'Deaths',
                 'Disabilities',
-                'Life Threatening Illnesses',
+                'Life-Threatening Illnesses',
                 'Hospitalizations',
                 'Company'
             ]]
