@@ -1,1 +1,1 @@
-{"batchcode": "FD-5996", "histogram": {"Blood pressure increased": 5, "Blood pressure measurement": 5, "Pneumonia": 1}, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 6, "Company": "PFIZER\\BIONTECH"}
+{"batchcode": "FD-5996", "histogram": {"Blood pressure increased": 5, "Blood pressure measurement": 5, "Pneumonia": 1}, "Disabilities": 0, "Adverse Reaction Reports": 6, "Hospitalizations": 0, "Life-Threatening Illnesses": 0, "Company": "PFIZER\\BIONTECH", "Deaths": 0}

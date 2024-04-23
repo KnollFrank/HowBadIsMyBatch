@@ -1,1 +1,1 @@
-{"batchcode": "30045000", "histogram": {"Pulmonary embolism": 4, "Thrombosis": 2, "Chest pain": 1, "Pneumonia": 1}, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 2, "Adverse Reaction Reports": 4, "Company": "MODERNA"}
+{"batchcode": "30045000", "histogram": {"Pulmonary embolism": 4, "Thrombosis": 2, "Chest pain": 1, "Pneumonia": 1}, "Disabilities": 0, "Adverse Reaction Reports": 4, "Hospitalizations": 4, "Life-Threatening Illnesses": 2, "Company": "MODERNA", "Deaths": 0}

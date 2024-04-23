@@ -1,1 +1,1 @@
-{"batchcode": "ABV5811", "histogram": {"Blood pressure decreased": 1, "Loss of consciousness": 1, "Nausea": 1, "Pyrexia": 1, "Vomiting": 1}, "Disabilities": 0, "Deaths": 0, "Life Threatening Illnesses": 0, "Adverse Reaction Reports": 8, "Company": "MODERNA"}
+{"batchcode": "ABV5811", "histogram": {"Blood pressure decreased": 1, "Loss of consciousness": 1, "Nausea": 1, "Pyrexia": 1, "Vomiting": 1}, "Disabilities": 0, "Adverse Reaction Reports": 8, "Hospitalizations": 5, "Life-Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
