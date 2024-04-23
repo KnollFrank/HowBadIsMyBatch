@@ -21,7 +21,7 @@ class BatchCodeTableFactory:
                 'Deaths',
                 'Disabilities',
                 'Life Threatening Illnesses',
-                'Hospitalization',
+                'Hospitalizations',
                 'Company',
                 'Severe reports',
                 'Lethality'

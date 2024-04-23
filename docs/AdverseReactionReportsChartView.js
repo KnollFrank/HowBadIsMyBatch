@@ -33,7 +33,7 @@ class AdverseReactionReportsChartView {
                 'Deaths',
                 'Disabilities',
                 'Life Threatening Illnesses',
-                'Hospitalization',
+                'Hospitalizations',
                 'Other Adverse Events'
             ],
             datasets: [{
@@ -43,8 +43,8 @@ class AdverseReactionReportsChartView {
                     ADRDescr['Deaths'],
                     ADRDescr['Disabilities'],
                     ADRDescr['Life Threatening Illnesses'],
-                    ADRDescr['Hospitalization'],
-                    ADRDescr['Adverse Reaction Reports'] - (ADRDescr['Deaths'] + ADRDescr['Disabilities'] + ADRDescr['Life Threatening Illnesses'] + ADRDescr['Hospitalization'])
+                    ADRDescr['Hospitalizations'],
+                    ADRDescr['Adverse Reaction Reports'] - (ADRDescr['Deaths'] + ADRDescr['Disabilities'] + ADRDescr['Life Threatening Illnesses'] + ADRDescr['Hospitalizations'])
                 ],
                 backgroundColor: '#1a73e8'
             }]

@@ -21,23 +21,6 @@ jupyter notebook
 FK-FIXME:
 
 FK-TODO:
-- add HOSPITAL, 'Hospitalization':
-  see: L_THREAT, 'Life Threatening Illnesses'
-  + BatchCodeTableFactoryTest
-  + DataFrameFilterTest
-  + SevereColumnAdder
-  + SummationTableFactory
-  + VaersDescrReaderTest
-  + VaersDescrReader
-
-  + AdverseReactionReportsChartView
-  + batchCodes.html
-  + BatchCodeTableInitializer
-  + BatchCodeTableFactory
-  + BatchCodeTableIntoHistogramDescriptionTableMergerTest
-  + BatchCodeTableIntoHistogramDescriptionTableMerger
-  + BatchCodeTablePersister.py
-
 
 anacron job:
 sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
