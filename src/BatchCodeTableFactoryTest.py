@@ -28,9 +28,9 @@ class BatchCodeTableFactoryTest(unittest.TestCase):
 
         # Then
         assert_frame_equal(
-            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality']],
+            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life-Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality']],
             TestHelper.createDataFrame(
-                columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality'],
+                columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life-Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality'],
                 data = [  [2,                          1,        2,              2,                            0,                  'MODERNA', 2/2 * 100,        1/2 * 100],
                           [1,                          0,        0,              0,                            1,                  'MODERNA', 0/1 * 100,        0/1 * 100]],
                 index = pd.Index(
@@ -62,9 +62,9 @@ class BatchCodeTableFactoryTest(unittest.TestCase):
 
         # Then
         assert_frame_equal(
-            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality']],
+            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life-Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality']],
             TestHelper.createDataFrame(
-                columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Hospitalizations', 'Company',         'Severe reports', 'Lethality'],
+                columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life-Threatening Illnesses', 'Hospitalizations', 'Company',         'Severe reports', 'Lethality'],
                 data = [  [1,                          1,        0,              0,                            0,                  'PFIZER\BIONTECH', 1/1 * 100,        1/1 * 100],
                           [2,                          1,        2,              2,                            2,                  'MODERNA',         2/2 * 100,        1/2 * 100],
                           [1,                          0,        0,              0,                            0,                  'MODERNA',         0/1 * 100,        0/1 * 100]],
@@ -98,9 +98,9 @@ class BatchCodeTableFactoryTest(unittest.TestCase):
 
         # Then
         assert_frame_equal(
-            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality']],
+            batchCodeTable[['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life-Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality']],
             TestHelper.createDataFrame(
-                columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality'],
+                columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life-Threatening Illnesses', 'Hospitalizations', 'Company', 'Severe reports', 'Lethality'],
                 data = [  ],
                 index = pd.Index([], name = 'VAX_LOT')),
             check_dtype = False)

@@ -20,7 +20,7 @@ class BatchCodeTableFactory:
                 'Adverse Reaction Reports',
                 'Deaths',
                 'Disabilities',
-                'Life Threatening Illnesses',
+                'Life-Threatening Illnesses',
                 'Hospitalizations',
                 'Company',
                 'Severe reports',
