@@ -24,11 +24,11 @@ FK-TODO:
 - add HOSPITAL, 'Hospitalization':
   see: L_THREAT, 'Life Threatening Illnesses'
   + BatchCodeTableFactoryTest
-  - DataFrameFilterTest
+  + DataFrameFilterTest
   - SevereColumnAdder
   + SummationTableFactory
-  - VaersDescrReaderTest
-  - VaersDescrReader
+  + VaersDescrReaderTest
+  + VaersDescrReader
 
   - AdverseReactionReportsChartView
   - batchCodes.html

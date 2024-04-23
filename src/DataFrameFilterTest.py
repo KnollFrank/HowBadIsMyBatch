@@ -12,9 +12,9 @@ class DataFrameFilterTest(unittest.TestCase):
             [
                 {
                     'VAERSDATA': TestHelper.createDataFrame(
-                        columns = ['DIED', 'L_THREAT', 'DISABLE'],
-                        data = [  [1,      0,          0],
-                                  [0,      0,          1]],
+                        columns = ['DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL'],
+                        data = [  [1,      0,          0,         1],
+                                  [0,      0,          1,         0]],
                         index = [
                             "0916600",
                             "0916601"]),
@@ -29,9 +29,9 @@ class DataFrameFilterTest(unittest.TestCase):
                 },
                 {
                     'VAERSDATA': TestHelper.createDataFrame(
-                        columns = ['DIED', 'L_THREAT', 'DISABLE'],
-                        data = [  [0,       0,         0],
-                                  [0,       0,         1]],
+                        columns = ['DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL'],
+                        data = [  [0,       0,         0,         0],
+                                  [0,       0,         1,         0]],
                             index = [
                             "1996873",
                             "1996874"]),
@@ -52,10 +52,10 @@ class DataFrameFilterTest(unittest.TestCase):
         
         # Then
         dataFrameExpected = TestHelper.createDataFrame(
-            columns = ['DIED', 'L_THREAT', 'DISABLE', 'VAX_TYPE', 'VAX_MANU', 'VAX_LOT', 'VAX_DOSE_SERIES'],
-            data = [  [1,       0,         0,         'COVID19',  'MODERNA',  '037K20A', '1'],
-                      [0,       0,         1,         'COVID19',  'MODERNA',  '025L20A', '1'],
-                      [0,       0,         1,         'COVID19',  'MODERNA',  '025L20A', '1']],
+            columns = ['DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL', 'VAX_TYPE', 'VAX_MANU', 'VAX_LOT', 'VAX_DOSE_SERIES'],
+            data = [  [1,       0,         0,         1,          'COVID19',  'MODERNA',  '037K20A', '1'],
+                      [0,       0,         1,         0,          'COVID19',  'MODERNA',  '025L20A', '1'],
+                      [0,       0,         1,         0,          'COVID19',  'MODERNA',  '025L20A', '1']],
             index = [
                 "0916600",
                 "0916601",
