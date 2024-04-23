@@ -1,1 +1,1 @@
-{"batchcode": "20007A", "histogram": {"Headache": 1, "Malaise": 1, "Pyrexia": 1, "SARS-CoV-2 test": 1}, "Life Threatening Illnesses": 0, "Company": "MODERNA", "Disabilities": 3, "Adverse Reaction Reports": 4, "Hospitalizations": 0, "Deaths": 0}
+{"batchcode": "20007A", "histogram": {"Headache": 1, "Malaise": 1, "Pyrexia": 1, "SARS-CoV-2 test": 1}, "Disabilities": 3, "Adverse Reaction Reports": 4, "Hospitalizations": 0, "Life-Threatening Illnesses": 0, "Company": "MODERNA", "Deaths": 0}
