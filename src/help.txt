@@ -25,7 +25,7 @@ FK-TODO:
   see: L_THREAT, 'Life Threatening Illnesses'
   + BatchCodeTableFactoryTest
   + DataFrameFilterTest
-  - SevereColumnAdder
+  + SevereColumnAdder
   + SummationTableFactory
   + VaersDescrReaderTest
   + VaersDescrReader
@@ -34,8 +34,8 @@ FK-TODO:
   - batchCodes.html
   - BatchCodeTableInitializer
   + BatchCodeTableFactory
-  - BatchCodeTableIntoHistogramDescriptionTableMergerTest
-  - BatchCodeTableIntoHistogramDescriptionTableMerger
+  + BatchCodeTableIntoHistogramDescriptionTableMergerTest
+  + BatchCodeTableIntoHistogramDescriptionTableMerger
   - BatchCodeTablePersister.py
 
 

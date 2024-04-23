@@ -28,6 +28,7 @@ class BatchCodeTableIntoHistogramDescriptionTableMerger:
                 'Deaths',
                 'Disabilities',
                 'Life Threatening Illnesses',
+                'Hospitalization',
                 'Company'
             ]]
 

@@ -33,8 +33,8 @@ class BatchCodeTableIntoHistogramDescriptionTableMergerTest(unittest.TestCase):
                     data = ['1808982']))
         
         batchCodeTable = TestHelper.createDataFrame(
-                columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Company', 'Severe reports', 'Lethality'],
-                data = [  [2,                          1,        2,              2,                            'MODERNA', 2/2 * 100,        np.nan]],
+                columns = ['Adverse Reaction Reports', 'Deaths', 'Disabilities', 'Life Threatening Illnesses', 'Hospitalization', 'Company', 'Severe reports', 'Lethality'],
+                data = [  [2,                          1,        2,              2,                            3,                 'MODERNA', 2/2 * 100,        np.nan]],
                 index = pd.Index(
                     name = 'VAX_LOT',
                     data = ['1808982']))
@@ -54,6 +54,7 @@ class BatchCodeTableIntoHistogramDescriptionTableMergerTest(unittest.TestCase):
                                 'Deaths': 1,
                                 'Disabilities': 2,
                                 'Life Threatening Illnesses': 2,
+                                'Hospitalization': 3,
                                 'Company': 'MODERNA',
                                 'histograms': [
                                     {
