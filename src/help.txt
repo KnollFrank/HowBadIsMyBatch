@@ -30,13 +30,13 @@ FK-TODO:
   + VaersDescrReaderTest
   + VaersDescrReader
 
-  - AdverseReactionReportsChartView
-  - batchCodes.html
-  - BatchCodeTableInitializer
+  + AdverseReactionReportsChartView
+  + batchCodes.html
+  + BatchCodeTableInitializer
   + BatchCodeTableFactory
   + BatchCodeTableIntoHistogramDescriptionTableMergerTest
   + BatchCodeTableIntoHistogramDescriptionTableMerger
-  - BatchCodeTablePersister.py
+  + BatchCodeTablePersister.py
 
 
 anacron job:

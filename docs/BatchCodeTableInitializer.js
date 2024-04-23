@@ -50,6 +50,7 @@ class BatchCodeTableInitializer {
                                 this.#getColumnIndex('Deaths'),
                                 this.#getColumnIndex('Disabilities'),
                                 this.#getColumnIndex('Life Threatening Illnesses'),
+                                this.#getColumnIndex('Hospitalization'),
                                 this.#getColumnIndex('Severe reports'),
                                 this.#getColumnIndex('Lethality')
                             ]
@@ -109,14 +110,16 @@ class BatchCodeTableInitializer {
                 return 3;
             case 'Life Threatening Illnesses':
                 return 4;
-            case 'Company':
+            case 'Hospitalization':
                 return 5;
-            case 'Severe reports':
+            case 'Company':
                 return 6;
-            case 'Lethality':
+            case 'Severe reports':
                 return 7;
-            case 'Countries':
+            case 'Lethality':
                 return 8;
+            case 'Countries':
+                return 9;
         }
     }
 

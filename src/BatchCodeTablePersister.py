@@ -17,6 +17,7 @@ def createGlobalBatchCodeTable(deleteEntriesWithADRsLessThanOrEqual, minADRsForL
             'Deaths',
             'Disabilities',
             'Life Threatening Illnesses',
+            'Hospitalization',
             'Company',
             'Severe reports',
             'Lethality'
