@@ -34,7 +34,7 @@ class IOUtils:
     def saveDictAsJson(dict, file):
         IOUtils.ensurePath(file)
         with open(file, 'w') as outfile:
-            json.dump(dict, outfile, ignore_nan=True)
+            json.dump(dict, outfile, ignore_nan=True, sort_keys=True)
 
     @staticmethod
     def ensurePath(file):
