@@ -1,8 +1,8 @@
 class CompanyByBatchcodeProvider {
 
     static getCompany(batchcode) {
-        return fetch(`data/histograms/Global/${batchcode}.json`)
-            .then(response => response.json())
+        return HistoDescrsProvider
+            .getHistoDescrs(batchcode)
             .then(histoDescrs => histoDescrs.Company);
     }
 }
