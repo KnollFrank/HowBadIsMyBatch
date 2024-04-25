@@ -3,7 +3,6 @@ import VaersReader
 import pandas as pd
 from VaersDescrReader import VaersDescrReader
 from CountryColumnAdder import CountryColumnAdder
-from GoogleDriveDownloader import GoogleDriveDownloader
 
 def getInternationalVaersCovid19(dataDir, years):
     internationalVaers = pd.concat(
@@ -15,11 +14,8 @@ def getInternationalVaersCovid19(dataDir, years):
     return internationalVaersCovid19
 
 
-def getInternationalVaersCovid19BeforeDeletion():
-    GoogleDriveDownloader.downloadSevenZipFileAndExtract(
-        remoteSevenZipSrcFile = "https://drive.google.com/file/d/1Rb-lfxNxw_WwvRDVLEhvqOyv_a2f8ern/view?usp=drive_link",
-        localSevenZipDstFile = 'VAERS/VAERSBeforeDeletion.7z')
-    return getInternationalVaersCovid19(dataDir = 'VAERS/VAERSBeforeDeletion', years = [2020, 2021, 2022])
+def getInternationalVaersCovid19BeforeDeletion(dataDir):
+    return getInternationalVaersCovid19(dataDir = dataDir, years = [2020, 2021, 2022])
 
 def get_international_VAERSVAX_VAERSSYMPTOMS_Covid19(years):
     VAERSDATA, VAERSVAX, VAERSSYMPTOMS = _get_VAERSDATA_VAERSVAX_VAERSSYMPTOMS(years)
