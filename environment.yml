@@ -10,7 +10,6 @@ dependencies:
   - urllib3
   - requests
   - gdown
-  - py7zr
   - bs4
   - lxml
   - jupyter

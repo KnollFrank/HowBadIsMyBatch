@@ -3,14 +3,14 @@ from InternationalVaersCovid19Provider import getInternationalVaersCovid19Before
 from CountryCountsByBatchcodeTablesMerger import CountryCountsByBatchcodeTablesMerger
 
 
-def getCountryCountsByBatchcodeTable():
+def getCountryCountsByBatchcodeTable(vaersBeforeDeletionDataDir):
     return _combineCountryCountsByBatchcodeTables(
         countryCountsByClickedBatchcode = CountryCountsByBatchcodeTablesMerger.getCountryCountsByClickedBatchcodeTable(),
-        countryCountsByBatchcodeBeforeDeletion = _getCountryCountsByBatchcodeBeforeDeletion())
+        countryCountsByBatchcodeBeforeDeletion = _getCountryCountsByBatchcodeBeforeDeletion(vaersBeforeDeletionDataDir))
 
 
-def _getCountryCountsByBatchcodeBeforeDeletion():
-    return (getInternationalVaersCovid19BeforeDeletion()
+def _getCountryCountsByBatchcodeBeforeDeletion(vaersBeforeDeletionDataDir):
+    return (getInternationalVaersCovid19BeforeDeletion(vaersBeforeDeletionDataDir)
             .groupby('VAX_LOT')
             ['COUNTRY'].value_counts()
             .to_frame(name = 'COUNTRY_COUNT_BY_VAX_LOT'))
