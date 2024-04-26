@@ -20,7 +20,7 @@ dependencies:
   - tqdm
   - simplejson
   - python-decouple
-  - selenium
-  - webdriver-manager
+  - selenium=4.19.*
+  - webdriver-manager=4.0.*
   - pycountry
 prefix: /home/frank/miniconda3/envs/howbadismybatch-venv
