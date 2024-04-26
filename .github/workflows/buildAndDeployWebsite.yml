@@ -15,8 +15,8 @@ jobs:
           token: ${{ secrets.HOW_BAD_IS_MY_BATCH_ACCESS_TOKEN }}
       - name: Configuring git
         run: |
-          git config --global user.email "Knoll_Frank@web.de"
-          git config --global user.name "FK"
+          git config --global user.email "<>"
+          git config --global user.name "no name"
       - name: Installing dependencies
         uses: conda-incubator/setup-miniconda@v2
         with:
