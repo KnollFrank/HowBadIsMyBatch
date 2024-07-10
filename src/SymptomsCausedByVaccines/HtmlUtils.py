@@ -1,3 +1,5 @@
+import html
+
 def getVaccineOptions(vaccines, defaultOptionText):
     return _getOptionsWithDefaultOption(defaultOptionText = defaultOptionText, values = vaccines)
 
@@ -15,4 +17,4 @@ def _getOptions(values):
 
 
 def _getOption(value):
-    return '<option value="{value}">{value}</option>'.format(value=value)
+    return '<option value="{value}">{value}</option>'.format(value = html.escape(value))
