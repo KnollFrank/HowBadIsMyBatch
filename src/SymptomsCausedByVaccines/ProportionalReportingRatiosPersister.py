@@ -7,6 +7,7 @@ def saveProportionalReportingRatios(prrBySymptomByDrug, directory):
     i = 0
     for drug, prrBySymptom in prrBySymptomByDrug.items():
         i += 1
-        drugByFilename[f'{i}.json'] = drug
-        IOUtils.saveDictAsJson(prrBySymptom, f'{directory}/{i}.json')
+        filename = f'{i}.json'
+        drugByFilename[filename] = drug
+        IOUtils.saveDictAsJson(prrBySymptom, f'{directory}/{filename}')
     IOUtils.saveDictAsJson(drugByFilename, f'{directory}/drugByFilename.json')    
