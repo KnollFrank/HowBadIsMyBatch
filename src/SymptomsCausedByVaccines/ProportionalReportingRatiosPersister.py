@@ -10,4 +10,4 @@ def saveProportionalReportingRatios(prrBySymptomByDrug, directory):
         filename = f'{i}.json'
         filenameByDrug[drug] = filename
         IOUtils.saveDictAsJson(prrBySymptom, f'{directory}/{filename}')
-    IOUtils.saveDictAsJson(filenameByDrug, f'{directory}/filenameByDrug.json')    
+    return filenameByDrug    

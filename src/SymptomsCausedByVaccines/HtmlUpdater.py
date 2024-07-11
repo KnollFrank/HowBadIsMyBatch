@@ -5,14 +5,19 @@ from SymptomsCausedByVaccines.HtmlUtils import getSymptomOptions, getVaccineOpti
 from SymptomsCausedByVaccines.OptionsSetter import OptionsSetter
 
 
-def updateHtmlFile(symptoms, vaccines, htmlFile, defaultSelectVaccineOptionText = 'Select Vaccine'):
+def updateHtmlFile(symptomsDescr, vaccinesDescr, htmlFile, defaultSelectVaccineOptionText = 'Select Vaccine'):
     _saveOptions(
-        options = getSymptomOptions(symptoms),
+        options = getSymptomOptions(
+            symptoms = symptomsDescr['symptoms'],
+            filenameBySymptom = symptomsDescr['filenameBySymptom']),
         htmlFile = htmlFile,
         selectElementId = 'symptomSelect')
     
     _saveOptions(
-        options = getVaccineOptions(vaccines, defaultSelectVaccineOptionText),
+        options = getVaccineOptions(
+            vaccines = vaccinesDescr['vaccines'],
+            filenameByDrug = vaccinesDescr['filenameByDrug'],
+            defaultOptionText = defaultSelectVaccineOptionText),
         htmlFile = htmlFile,
         selectElementId = 'vaccineSelect')
 

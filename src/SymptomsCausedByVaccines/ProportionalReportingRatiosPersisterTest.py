@@ -18,16 +18,14 @@ class ProportionalReportingRatiosPersisterTest(unittest.TestCase):
         directory = 'src/tmp/vaccines'
         
         # When
-        saveProportionalReportingRatios(prrBySymptomByDrug, directory)
+        filenameByDrug = saveProportionalReportingRatios(prrBySymptomByDrug, directory)
         
         # Then
         drugFilename = '1.json'
         self.assertDictEqual(
             ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/{drugFilename}'),
             prrBySymptom)
-        self.assertDictEqual(
-            ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/filenameByDrug.json'),
-            { drug: drugFilename })
+        self.assertDictEqual(filenameByDrug, { drug: drugFilename })
 
     @staticmethod
     def readJsonFile(file):
