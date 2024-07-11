@@ -26,8 +26,8 @@ class ProportionalReportingRatiosPersisterTest(unittest.TestCase):
             ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/{drugFilename}'),
             prrBySymptom)
         self.assertDictEqual(
-            ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/drugByFilename.json'),
-            { drugFilename: drug })
+            ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/filenameByDrug.json'),
+            { drug: drugFilename })
 
     @staticmethod
     def readJsonFile(file):
