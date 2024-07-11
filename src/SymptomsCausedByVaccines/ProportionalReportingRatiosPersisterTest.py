@@ -10,19 +10,24 @@ class ProportionalReportingRatiosPersisterTest(unittest.TestCase):
 
     def test_saveProportionalReportingRatios(self):
         # Given
-        prrBySymptom = {'Sepsis ': 366.3084378480811}
+        drug = '"GENERIC COLD ACID" '
+        prrBySymptom = { 'Sepsis ': 366.3084378480811 }
         prrBySymptomByDrug = TestHelper.createSeries(
                 indexName = 'DRUG',
-                data = {
-                    '"GENERIC COLD ACID" ': prrBySymptom
-                })
+                data = { drug: prrBySymptom })
+        directory = 'src/tmp/vaccines'
         
         # When
-        saveProportionalReportingRatios(prrBySymptomByDrug, 'src/tmp/vaccines')
+        saveProportionalReportingRatios(prrBySymptomByDrug, directory)
         
         # Then
-        data = ProportionalReportingRatiosPersisterTest.readJsonFile('src/tmp/vaccines/"GENERIC COLD ACID" .json')
-        self.assertDictEqual(data, prrBySymptom)
+        drugFilename = '1.json'
+        self.assertDictEqual(
+            ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/{drugFilename}'),
+            prrBySymptom)
+        self.assertDictEqual(
+            ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/drugByFilename.json'),
+            { drugFilename: drug })
 
     @staticmethod
     def readJsonFile(file):
