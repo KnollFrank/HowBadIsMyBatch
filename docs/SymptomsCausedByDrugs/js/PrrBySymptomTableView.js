@@ -6,12 +6,12 @@ class PrrBySymptomTableView {
         this.#delegate = new PrrByKeyTableView(
             this.#createPrrBySymptomTable(prrBySymptomTableElement),
             downloadPrrBySymptomTableButton,
-            'Vaccine',
+            'Drug',
             PrrByVaccineProvider.getPrrBySymptom);
     }
 
-    displayPrrBySymptomTable4Vaccine(vaccine) {
-        this.#delegate.displayPrrByKeyTable4Value(vaccine);
+    displayPrrBySymptomTable4Vaccine(id, text) {
+        this.#delegate.displayPrrByKeyTable4Value(id, text);
     }
 
     #createPrrBySymptomTable(tableElement) {

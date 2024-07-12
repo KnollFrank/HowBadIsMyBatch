@@ -10,14 +10,14 @@ class PrrByVaccineTableView {
             PrrByVaccineProvider.getPrrByVaccine);
     }
 
-    displayPrrByVaccineTable4Symptom(symptom) {
-        this.#delegate.displayPrrByKeyTable4Value(symptom);
+    displayPrrByVaccineTable4Symptom(id, text) {
+        this.#delegate.displayPrrByKeyTable4Value(id, text);
     }
 
     #createPrrByVaccineTable(tableElement) {
         return new PrrByKeyTable({
             tableElement: tableElement,
-            keyColumnName: 'Vaccine',
+            keyColumnName: 'Drug',
             prrColumnName: 'Lower Confidence Limit of Proportional Reporting Ratio',
             shallMarkRowIfPrrTooHigh: true
         });
