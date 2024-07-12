@@ -25,4 +25,4 @@ def _getOptions(values, filenameByValue):
 def _getOption(filename, displayValue):
     return '<option value="{value}">{displayValue}</option>'.format(
         value = filename,
-        displayValue = html.escape(displayValue))
+        displayValue = html.escape(str(displayValue)))
