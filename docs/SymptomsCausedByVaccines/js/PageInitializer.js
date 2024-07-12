@@ -10,8 +10,8 @@ class PageInitializer {
         PageInitializer.#initializeSelectElement(
             {
                 selectElement: symptomSelectElement,
-                onValueSelected: symptom => prrByVaccineTableView.displayPrrByVaccineTable4Symptom(symptom),
-                minimumInputLength: 4
+                onValueSelected: (id, text) => prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text),
+                minimumInputLength: 0
             });
     }
 
@@ -20,7 +20,7 @@ class PageInitializer {
         PageInitializer.#initializeSelectElement(
             {
                 selectElement: vaccineSelectElement,
-                onValueSelected: vaccine => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(vaccine),
+                onValueSelected: (id, text) => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id ,text),
                 minimumInputLength: 0
             });
     }
@@ -30,8 +30,9 @@ class PageInitializer {
         selectElement.on(
             'select2:select',
             function (event) {
-                const value = event.params.data.id;
-                onValueSelected(value);
+                const id = event.params.data.id;
+                const text = event.params.data.text;
+                onValueSelected(id, text);
             });
     }
 }

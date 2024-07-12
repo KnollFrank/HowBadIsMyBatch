@@ -10,8 +10,8 @@ class PrrByVaccineTableView {
             PrrByVaccineProvider.getPrrByVaccine);
     }
 
-    displayPrrByVaccineTable4Symptom(symptom) {
-        this.#delegate.displayPrrByKeyTable4Value(symptom);
+    displayPrrByVaccineTable4Symptom(id, text) {
+        this.#delegate.displayPrrByKeyTable4Value(id, text);
     }
 
     #createPrrByVaccineTable(tableElement) {

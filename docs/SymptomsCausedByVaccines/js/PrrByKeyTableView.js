@@ -2,7 +2,7 @@ class PrrByKeyTableView {
 
     #prrByKeyTable;
     #downloadPrrByKeyTableButton;
-    #value;
+    #text;
     #valueName;
     #prrByKeyProvider;
 
@@ -14,11 +14,11 @@ class PrrByKeyTableView {
         this.#prrByKeyProvider = prrByKeyProvider;
     }
 
-    displayPrrByKeyTable4Value(value) {
+    displayPrrByKeyTable4Value(id, text) {
         UIUtils.disableButton(this.#downloadPrrByKeyTableButton);
-        this.#prrByKeyProvider(value)
+        this.#prrByKeyProvider(id)
             .then(prrByKey => {
-                this.#value = value;
+                this.#text = text;
                 this.#prrByKeyTable.display(prrByKey);
                 UIUtils.enableButton(this.#downloadPrrByKeyTableButton);
             });
@@ -36,9 +36,8 @@ class PrrByKeyTableView {
         UIUtils.downloadUrlAsFilename(
             window.URL.createObjectURL(
                 new Blob(
-                    [this.#prrByKeyTable.getDisplayedTableAsCsv(`# ${this.#valueName}: ${this.#value}`)],
+                    [this.#prrByKeyTable.getDisplayedTableAsCsv(`# ${this.#valueName}: ${this.#text}`)],
                     { type: 'text/csv' })),
-            this.#value
-        );
+            this.#text);
     }
 }
