@@ -21,9 +21,9 @@ class ProportionalReportingRatiosPersisterTest(unittest.TestCase):
         filenameByDrug = saveProportionalReportingRatios(prrBySymptomByDrug, directory)
         
         # Then
-        drugFilename = '1.json'
+        drugFilename = '1'
         self.assertDictEqual(
-            ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/{drugFilename}'),
+            ProportionalReportingRatiosPersisterTest.readJsonFile(f'{directory}/{drugFilename}.json'),
             prrBySymptom)
         self.assertDictEqual(filenameByDrug, { drug: drugFilename })
 
