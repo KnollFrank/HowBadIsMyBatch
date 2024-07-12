@@ -2,11 +2,11 @@ class PrrBySymptomTableView {
 
     #delegate;
 
-    constructor(prrBySymptomTableElement, downloadPrrBySymptomTableButton) {
+    constructor(prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName) {
         this.#delegate = new PrrByKeyTableView(
             this.#createPrrBySymptomTable(prrBySymptomTableElement),
             downloadPrrBySymptomTableButton,
-            'Vaccine',
+            valueName,
             PrrByVaccineProvider.getPrrBySymptom);
     }
 

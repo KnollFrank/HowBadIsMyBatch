@@ -5,8 +5,8 @@ class PageInitializer {
         PageInitializer.#configureVaccine(vaccine);
     }
 
-    static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement, downloadPrrByVaccineTableButton }) {
-        const prrByVaccineTableView = new PrrByVaccineTableView(prrByVaccineTableElement, downloadPrrByVaccineTableButton);
+    static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
+        const prrByVaccineTableView = new PrrByVaccineTableView(prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName);
         PageInitializer.#initializeSelectElement(
             {
                 selectElement: symptomSelectElement,
@@ -15,8 +15,8 @@ class PageInitializer {
             });
     }
 
-    static #configureVaccine({ vaccineSelectElement, prrBySymptomTableElement, downloadPrrBySymptomTableButton }) {
-        const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement, downloadPrrBySymptomTableButton);
+    static #configureVaccine({ vaccineSelectElement, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
+        const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName);
         PageInitializer.#initializeSelectElement(
             {
                 selectElement: vaccineSelectElement,
