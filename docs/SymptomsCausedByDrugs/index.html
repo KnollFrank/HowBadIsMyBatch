@@ -28,7 +28,6 @@
   <script src="../Utils.js"></script>
   <script src="../UIUtils.js"></script>
   <script src="../NumberWithBarElementFactory.js"></script>
-  <!-- FK-TODO: link to the js files in ../SymptomsCausedByVaccines/js folder -->
   <script src="./js/PrrByKey2CsvConverter.js"></script>
   <script src="./js/PageInitializer.js"></script>
   <script src="./js/PrrByVaccineProvider.js"></script>
@@ -86,7 +85,7 @@
             <div class="col-xs-12 col-sm-6">
               <div class="x_panel">
                 <div class="x_title">
-                  <h3>Worst Vaccines</h3>
+                  <h3>Worst Drugs</h3>
                   <div class="clearfix"></div>
                 </div>
                 <div class="x_content">
@@ -94,52 +93,49 @@
                     <label>Select Symptom:</label>
                     <select id="symptomSelect" name="symptom">
                       <option disabled="" hidden="" selected="" value="">Select Symptom</option>
-                      <option value="Abdominal pain lower ">Abdominal pain lower </option>
-                      <option value="Abdominal pain upper ">Abdominal pain upper </option>
-                      <option value="Accidental exposure to product ">Accidental exposure to product </option>
-                      <option value="Agitation ">Agitation </option>
-                      <option value="Anal cancer ">Anal cancer </option>
-                      <option value="Bowel movement irregularity ">Bowel movement irregularity </option>
-                      <option value="Carcinoembryonic antigen increased ">Carcinoembryonic antigen increased </option>
-                      <option value="Chest discomfort ">Chest discomfort </option>
-                      <option value="Colon cancer ">Colon cancer </option>
-                      <option value="Completed suicide ">Completed suicide </option>
-                      <option value="Confusional state ">Confusional state </option>
-                      <option value="Constipation ">Constipation </option>
-                      <option value="Diarrhoea ">Diarrhoea </option>
-                      <option value="Drug abuse ">Drug abuse </option>
-                      <option value="Dysphagia ">Dysphagia </option>
-                      <option value="Eye pruritus ">Eye pruritus </option>
-                      <option value="Gastrointestinal disorder ">Gastrointestinal disorder </option>
-                      <option value="Gastrointestinal tract mucosal pigmentation ">Gastrointestinal tract mucosal
-                        pigmentation </option>
-                      <option value="Haematochezia ">Haematochezia </option>
-                      <option value="Haemorrhoids ">Haemorrhoids </option>
-                      <option value="Hallucination, visual ">Hallucination, visual </option>
-                      <option value="Insomnia ">Insomnia </option>
-                      <option value="Intentional overdose ">Intentional overdose </option>
-                      <option value="Interstitial lung disease ">Interstitial lung disease </option>
-                      <option value="Nausea ">Nausea </option>
-                      <option value="Product use in unapproved indication ">Product use in unapproved indication
-                      </option>
-                      <option value="Rectal cancer ">Rectal cancer </option>
-                      <option value="Rectosigmoid cancer ">Rectosigmoid cancer </option>
-                      <option value="Sepsis ">Sepsis </option>
-                      <option value="Somnolence ">Somnolence </option>
-                      <option value="Swelling ">Swelling </option>
-                      <option value="Syncope ">Syncope </option>
-                      <option value="Thrombocytopenic purpura ">Thrombocytopenic purpura </option>
-                      <option value="Tonic convulsion ">Tonic convulsion </option>
-                      <option value="Urinary tract infection ">Urinary tract infection </option>
-                      <option value="Vomiting ">Vomiting </option>
-                      <option value="Wrong technique in product usage process ">Wrong technique in product usage process
-                      </option>
+                      <option value="1">Abdominal pain lower </option>
+                      <option value="2">Abdominal pain upper </option>
+                      <option value="3">Accidental exposure to product </option>
+                      <option value="4">Agitation </option>
+                      <option value="5">Anal cancer </option>
+                      <option value="6">Bowel movement irregularity </option>
+                      <option value="7">Carcinoembryonic antigen increased </option>
+                      <option value="8">Chest discomfort </option>
+                      <option value="9">Colon cancer </option>
+                      <option value="10">Completed suicide </option>
+                      <option value="11">Confusional state </option>
+                      <option value="12">Constipation </option>
+                      <option value="13">Diarrhoea </option>
+                      <option value="14">Drug abuse </option>
+                      <option value="15">Dysphagia </option>
+                      <option value="16">Eye pruritus </option>
+                      <option value="17">Gastrointestinal disorder </option>
+                      <option value="18">Gastrointestinal tract mucosal pigmentation </option>
+                      <option value="19">Haematochezia </option>
+                      <option value="20">Haemorrhoids </option>
+                      <option value="21">Hallucination, visual </option>
+                      <option value="22">Insomnia </option>
+                      <option value="23">Intentional overdose </option>
+                      <option value="24">Interstitial lung disease </option>
+                      <option value="25">Nausea </option>
+                      <option value="26">Product use in unapproved indication </option>
+                      <option value="27">Rectal cancer </option>
+                      <option value="28">Rectosigmoid cancer </option>
+                      <option value="29">Sepsis </option>
+                      <option value="30">Somnolence </option>
+                      <option value="31">Swelling </option>
+                      <option value="32">Syncope </option>
+                      <option value="33">Thrombocytopenic purpura </option>
+                      <option value="34">Tonic convulsion </option>
+                      <option value="35">Urinary tract infection </option>
+                      <option value="36">Vomiting </option>
+                      <option value="37">Wrong technique in product usage process </option>
                     </select>
                   </div>
                   <table class="display" id="prrByVaccineTable">
                     <thead>
                       <tr>
-                        <th>Vaccine</th>
+                        <th>Drug</th>
                         <th>Lower Confidence Limit of Proportional Reporting Ratio</th>
                       </tr>
                     </thead>
@@ -156,21 +152,19 @@
                 </div>
                 <div class="x_content">
                   <div style="margin-bottom: 20px;">
-                    <label>Select Vaccine:</label>
+                    <label>Select Drug:</label>
                     <select id="vaccineSelect" name="vaccine">
                       <option disabled="" hidden="" selected="" value="">Select Vaccine</option>
-                      <option value='"A BUNCH OF OTHER MEDICATIONS" '>"A BUNCH OF OTHER MEDICATIONS" </option>
-                      <option value='"BETA BLOCKER" '>"BETA BLOCKER" </option>
-                      <option value='"BLOOD PRESSURE" MEDICATION '>"BLOOD PRESSURE" MEDICATION </option>
-                      <option
-                        value="&quot;CHLORO-2&quot;&quot; PHENYL-3' METHYL-5' ISOXAZOLYL-(1') PENICILLINE,SEL DE BENZATHINE&quot; ">
-                        "CHLORO-2"" PHENYL-3' METHYL-5' ISOXAZOLYL-(1') PENICILLINE,SEL DE BENZATHINE" </option>
-                      <option value='"DIPHENHYDRAMINE CLEANER (ANIONIC/NONIONIC)" '>"DIPHENHYDRAMINE CLEANER
-                        (ANIONIC/NONIONIC)" </option>
-                      <option value='"DRAIN CLEANER" '>"DRAIN CLEANER" </option>
-                      <option value='"DRUG, UNKNOWN" '>"DRUG, UNKNOWN" </option>
-                      <option value="&quot;FRED'S LAXATIVE&quot; ">"FRED'S LAXATIVE" </option>
-                      <option value='"GENERIC COLD ACID" '>"GENERIC COLD ACID" </option>
+                      <option value="1">"A BUNCH OF OTHER MEDICATIONS" </option>
+                      <option value="2">"BETA BLOCKER" </option>
+                      <option value="3">"BLOOD PRESSURE" MEDICATION </option>
+                      <option value="4">"CHLORO-2"" PHENYL-3' METHYL-5' ISOXAZOLYL-(1') PENICILLINE,SEL DE BENZATHINE"
+                      </option>
+                      <option value="5">"DIPHENHYDRAMINE CLEANER (ANIONIC/NONIONIC)" </option>
+                      <option value="6">"DRAIN CLEANER" </option>
+                      <option value="7">"DRUG, UNKNOWN" </option>
+                      <option value="8">"FRED'S LAXATIVE" </option>
+                      <option value="9">"GENERIC COLD ACID" </option>
                     </select>
                   </div>
                   <table class="display" id="prrBySymptomTable">
