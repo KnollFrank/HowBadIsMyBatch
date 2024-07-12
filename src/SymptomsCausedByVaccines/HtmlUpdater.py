@@ -21,19 +21,6 @@ def updateHtmlFile(symptomsDescr, vaccinesDescr, htmlFile, defaultSelectVaccineO
         htmlFile = htmlFile,
         selectElementId = 'vaccineSelect')
 
-def updateHtmlFile4SymptomsCausedByCOVIDLots(symptoms, batches, htmlFile):
-    symptomOptions = getSymptomOptions(symptoms)
-    for selectElementId in ['symptomSelect', 'symptomSelectX', 'symptomSelectY']:
-        _saveOptions(
-            options = symptomOptions,
-            htmlFile = htmlFile,
-            selectElementId = selectElementId)
-
-    _saveOptions(
-        options = getVaccineOptions(batches, 'Select Batch'),
-        htmlFile = htmlFile,
-        selectElementId = 'vaccineSelect')
-
 def _saveOptions(options, htmlFile, selectElementId):
     HtmlTransformerUtil().applySoupTransformerToFile(
         file=htmlFile,
