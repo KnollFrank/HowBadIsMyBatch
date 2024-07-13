@@ -40,13 +40,12 @@
     document.addEventListener(
       "DOMContentLoaded",
       event => {
-        const urlSearchParams = new URLSearchParams(window.location.search);
         const name = 'Drug';
         PageInitializer.initializePage(
           {
             symptom: {
               symptomSelectElement: $('#symptomSelect'),
-              selectSymptom: UIUtils.getSearchParam(urlSearchParams, 'symptom', null),
+              selectSymptom: UIUtils.getSearchParamOfCurrentUrl('symptom'),
               onSymptomSelected: symptom => UIUtils.setSearchParamOfCurrentUrl('symptom', symptom),
               prrByVaccineTableElement: $('#prrByVaccineTable'),
               downloadPrrByVaccineTableButton: document.querySelector("#downloadPrrByVaccineTable"),
@@ -54,7 +53,7 @@
             },
             vaccine: {
               vaccineSelectElement: $('#vaccineSelect'),
-              selectVaccine: UIUtils.getSearchParam(urlSearchParams, 'vaccine', null),
+              selectVaccine: UIUtils.getSearchParamOfCurrentUrl('vaccine'),
               onVaccineSelected: vaccine => UIUtils.setSearchParamOfCurrentUrl('vaccine', vaccine),
               prrBySymptomTableElement: $('#prrBySymptomTable'),
               downloadPrrBySymptomTableButton: document.querySelector("#downloadPrrBySymptomTable"),

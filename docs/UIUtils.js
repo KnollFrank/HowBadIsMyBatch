@@ -38,6 +38,11 @@ class UIUtils {
         return UIUtils.getSearchParam(urlParams, searchParam, 'NO').toUpperCase() == 'YES';
     }
 
+    static getSearchParamOfCurrentUrl(searchParam) {
+        const urlSearchParams = new URLSearchParams(window.location.search);
+        return UIUtils.getSearchParam(urlSearchParams, searchParam, null)
+    }
+
     static setSearchParamOfCurrentUrl(nameOfSearchParam, valueOfSearchParam) {
         const url = new URL(window.location.href);
         url.searchParams.set(nameOfSearchParam, valueOfSearchParam);
