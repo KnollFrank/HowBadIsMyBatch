@@ -45,14 +45,6 @@ jobs:
           # jupyter nbconvert --to html HowBadIsMyBatch.nbconvert.ipynb
           git add -A
           git diff-index --quiet HEAD || git commit -m "updating data for batch codes"
-      - name: Executing Intensivstationen.ipynb
-        shell: bash -el {0}
-        run: |
-          cd src/intensivstationen
-          DATAWRAPPER_API_TOKEN=${{ secrets.DATAWRAPPER_API_TOKEN }} jupyter nbconvert --ExecutePreprocessor.kernel_name="howbadismybatch-venv-kernel" --to notebook --allow-errors --execute Intensivstationen.ipynb
-          jupyter nbconvert --to html Intensivstationen.nbconvert.ipynb
-          git add -A
-          git diff-index --quiet HEAD || git commit -m "updating data for Intensivstationen"
       - name: Pushing changes to GitHub Pages
         shell: bash -el {0}
         run: |

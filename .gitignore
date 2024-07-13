@@ -1,7 +1,4 @@
 src/VAERS/
-src/intensivstationen/zeitreihe-tagesdaten.csv
-src/intensivstationen/geckodriver.log
-src/intensivstationen/Intensivstationen.nbconvert.html
 .ipynb_checkpoints/
 .history/
 src/tmp/
@@ -12,7 +9,6 @@ docs/data/*.html
 src/captchaImage.jpeg
 src/HowBadIsMyBatch.nbconvert.html
 src/__pycache__/
-src/intensivstationen/__pycache__/
 google-chrome-stable_current_amd64*
 src/captcha/__pycache__
 src/GoogleAnalytics/__pycache__
