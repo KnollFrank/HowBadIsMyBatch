@@ -22,9 +22,6 @@ FK-FIXME:
 
 FK-TODO:
 
-anacron job:
-sudo cp src/intensivstationen_howbadismybatch.sh /etc/cron.daily/intensivstationen_howbadismybatch
-
 conda create --name howbadismybatch-venv python=3.9
 conda activate howbadismybatch-venv
 ipython kernel install --user --name=howbadismybatch-venv-kernel
@@ -57,3 +54,5 @@ from pstats import SortKey
 
 p = pstats.Stats('tmp/restats')
 p.strip_dirs().sort_stats(SortKey.CUMULATIVE).print_stats()
+
+tfiltered.csv = eudra-grouped-by-symptoms.csv: (row, column) = (Drug/Vaccine, Symptom)  = prrByVaccineAndSymptom, prrByDrugAndSymptom
