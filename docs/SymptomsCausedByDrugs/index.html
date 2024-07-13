@@ -35,26 +35,29 @@
   <script src="./js/PrrByKeyTableView.js"></script>
   <script src="./js/PrrByVaccineTableView.js"></script>
   <script src="./js/PrrBySymptomTableView.js"></script>
+  <script src="./js/SearchParam.js"></script>
   <script src="./js/Select2.js"></script>
   <script>
     document.addEventListener(
       "DOMContentLoaded",
       event => {
         const name = 'Drug';
+        const symptomSearchParam = new SearchParam('symptom');
+        const vaccineSearchParam = new SearchParam('vaccine');
         PageInitializer.initializePage(
           {
             symptom: {
               symptomSelectElement: $('#symptomSelect'),
-              selectSymptom: UIUtils.getSearchParamOfCurrentUrl('symptom'),
-              onSymptomSelected: symptom => UIUtils.setSearchParamOfCurrentUrl('symptom', symptom),
+              selectSymptom: symptomSearchParam.get(),
+              onSymptomSelected: symptom => symptomSearchParam.set(symptom),
               prrByVaccineTableElement: $('#prrByVaccineTable'),
               downloadPrrByVaccineTableButton: document.querySelector("#downloadPrrByVaccineTable"),
               keyColumnName: name
             },
             vaccine: {
               vaccineSelectElement: $('#vaccineSelect'),
-              selectVaccine: UIUtils.getSearchParamOfCurrentUrl('vaccine'),
-              onVaccineSelected: vaccine => UIUtils.setSearchParamOfCurrentUrl('vaccine', vaccine),
+              selectVaccine: vaccineSearchParam.get(),
+              onVaccineSelected: vaccine => vaccineSearchParam.set(vaccine),
               prrBySymptomTableElement: $('#prrBySymptomTable'),
               downloadPrrBySymptomTableButton: document.querySelector("#downloadPrrBySymptomTable"),
               valueName: name
