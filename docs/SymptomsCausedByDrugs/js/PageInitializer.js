@@ -11,7 +11,12 @@ class PageInitializer {
             {
                 selectElement: symptomSelectElement,
                 textOfOption2Select: selectSymptom,
-                onValueSelected: (id, text) => prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text),
+                onValueSelected: (id, text) => {
+                    prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text);
+                    const url = new URL(window.location.href);
+                    url.searchParams.set('symptom', text);
+                    window.history.replaceState(null, "", url);
+                },
                 minimumInputLength: 0
             });
     }
@@ -22,7 +27,12 @@ class PageInitializer {
             {
                 selectElement: vaccineSelectElement,
                 textOfOption2Select: selectVaccine,
-                onValueSelected: (id, text) => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id, text),
+                onValueSelected: (id, text) => {
+                    prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id, text);
+                    const url = new URL(window.location.href);
+                    url.searchParams.set('vaccine', text);
+                    window.history.replaceState(null, "", url);
+                },
                 minimumInputLength: 0
             });
     }
