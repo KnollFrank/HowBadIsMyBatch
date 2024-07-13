@@ -47,6 +47,7 @@
             symptom: {
               symptomSelectElement: $('#symptomSelect'),
               selectSymptom: UIUtils.getSearchParam(urlSearchParams, 'symptom', null),
+              onSymptomSelected: symptom => UIUtils.setSearchParamOfCurrentUrl('symptom', symptom),
               prrByVaccineTableElement: $('#prrByVaccineTable'),
               downloadPrrByVaccineTableButton: document.querySelector("#downloadPrrByVaccineTable"),
               keyColumnName: name
@@ -54,6 +55,7 @@
             vaccine: {
               vaccineSelectElement: $('#vaccineSelect'),
               selectVaccine: UIUtils.getSearchParam(urlSearchParams, 'vaccine', null),
+              onVaccineSelected: vaccine => UIUtils.setSearchParamOfCurrentUrl('vaccine', vaccine),
               prrBySymptomTableElement: $('#prrBySymptomTable'),
               downloadPrrBySymptomTableButton: document.querySelector("#downloadPrrBySymptomTable"),
               valueName: name

@@ -38,6 +38,12 @@ class UIUtils {
         return UIUtils.getSearchParam(urlParams, searchParam, 'NO').toUpperCase() == 'YES';
     }
 
+    static setSearchParamOfCurrentUrl(nameOfSearchParam, valueOfSearchParam) {
+        const url = new URL(window.location.href);
+        url.searchParams.set(nameOfSearchParam, valueOfSearchParam);
+        window.history.replaceState(null, "", url);
+    }
+
     static downloadUrlAsFilename(url, filename) {
         const a = document.createElement('a');
         a.setAttribute('href', url);
