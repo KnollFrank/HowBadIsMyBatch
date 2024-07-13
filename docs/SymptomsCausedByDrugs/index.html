@@ -14314,6 +14314,28 @@
         <a class="a2a_button_mastodon"></a>
         <a class="a2a_button_email"></a>
       </div>
+      <script>
+        // adapted from https://www.addtoany.com/buttons/customize/events#modify-share
+        function my_addtoany_onshare(share_data) {
+          const hash_pi = '#3.1459';
+          const old_url = share_data.url;
+          let new_url = old_url;
+          if (old_url.indexOf(hash_pi, old_url.length - hash_pi.length) === -1) {
+            new_url = old_url + hash_pi;
+          }
+          if (new_url != old_url) {
+            return {
+              url: new_url,
+            };
+          }
+        }
+
+        var a2a_config = a2a_config || {};
+        a2a_config.callbacks = a2a_config.callbacks || [];
+        a2a_config.callbacks.push({
+          share: my_addtoany_onshare,
+        });
+      </script>
       <script async src="https://static.addtoany.com/menu/page.js"></script>
       <!-- AddToAny END -->
       <br />
