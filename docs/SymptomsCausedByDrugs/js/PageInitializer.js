@@ -11,7 +11,7 @@ class PageInitializer {
             {
                 selectElement: symptomSelectElement,
                 textOfOption2Select: searchParam.get(),
-                onValueSelected: (id, text) => {
+                onSelectOptionHavingValueAndText: (id, text) => {
                     prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text);
                     searchParam.set(text);
                 },
@@ -25,7 +25,7 @@ class PageInitializer {
             {
                 selectElement: vaccineSelectElement,
                 textOfOption2Select: searchParam.get(),
-                onValueSelected: (id, text) => {
+                onSelectOptionHavingValueAndText: (id, text) => {
                     prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id, text);
                     searchParam.set(text);
                 },

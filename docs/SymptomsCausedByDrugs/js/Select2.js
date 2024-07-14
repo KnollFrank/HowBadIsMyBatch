@@ -1,14 +1,19 @@
 class Select2 {
 
-    // FK-TODO: rename onValueSelected to onSelectOptionHavingValueAndText
-    static initializeSelectElement({ selectElement, textOfOption2Select, onValueSelected, minimumInputLength }) {
+    static initializeSelectElement(
+        {
+            selectElement,
+            textOfOption2Select,
+            onSelectOptionHavingValueAndText,
+            minimumInputLength
+        }) {
         selectElement.select2({ minimumInputLength: minimumInputLength });
         selectElement.on(
             'select2:select',
             function (event) {
                 const id = event.params.data.id;
                 const text = event.params.data.text;
-                onValueSelected(id, text);
+                onSelectOptionHavingValueAndText(id, text);
             });
         Select2.#selectOptionHavingText(selectElement, textOfOption2Select);
     }
