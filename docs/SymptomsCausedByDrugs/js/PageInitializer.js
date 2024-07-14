@@ -5,34 +5,31 @@ class PageInitializer {
         PageInitializer.#configureVaccine(vaccine);
     }
 
-    static #configureSymptom({ symptomSelectElement, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
+    static #configureSymptom({ symptomSelectElement, searchParam, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
         const prrByVaccineTableView = new PrrByVaccineTableView(prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName);
-        PageInitializer.#initializeSelectElement(
+        Select2.initializeSelectElement(
             {
                 selectElement: symptomSelectElement,
-                onValueSelected: (id, text) => prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text),
+                textOfOption2Select: searchParam.get(),
+                onSelectOptionHavingValueAndText: (id, text) => {
+                    prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text);
+                    searchParam.set(text);
+                },
                 minimumInputLength: 0
             });
     }
 
-    static #configureVaccine({ vaccineSelectElement, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
+    static #configureVaccine({ vaccineSelectElement, searchParam, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
         const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName);
-        PageInitializer.#initializeSelectElement(
+        Select2.initializeSelectElement(
             {
                 selectElement: vaccineSelectElement,
-                onValueSelected: (id, text) => prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id ,text),
+                textOfOption2Select: searchParam.get(),
+                onSelectOptionHavingValueAndText: (id, text) => {
+                    prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id, text);
+                    searchParam.set(text);
+                },
                 minimumInputLength: 0
-            });
-    }
-
-    static #initializeSelectElement({ selectElement, onValueSelected, minimumInputLength }) {
-        selectElement.select2({ minimumInputLength: minimumInputLength });
-        selectElement.on(
-            'select2:select',
-            function (event) {
-                const id = event.params.data.id;
-                const text = event.params.data.text;
-                onValueSelected(id, text);
             });
     }
 }
