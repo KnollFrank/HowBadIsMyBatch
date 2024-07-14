@@ -1,17 +1,21 @@
 class BatchCodeSelectInitializer {
 
-    static initialize({ batchCodeSelectElement, batchCodeDetailsElement, batchCodeHeadingElement }) {
+    static initialize({ batchCodeSelectElement, urlSearchParam, batchCodeDetailsElement, batchCodeHeadingElement }) {
         const batchCodeDetailsView = new BatchCodeDetailsView(batchCodeDetailsElement);
-        batchCodeSelectElement.select2({ minimumInputLength: 4 });
-        batchCodeSelectElement.on(
-            'select2:select',
-            function (event) {
-                BatchCodeSelectInitializer.#onBatchCodeSelected(
-                    {
-                        batchcode: event.params.data.id,
-                        batchCodeHeadingElement: batchCodeHeadingElement,
-                        batchCodeDetailsView: batchCodeDetailsView
-                    });
+        Select2.initializeSelectElement(
+            {
+                selectElement: batchCodeSelectElement,
+                textOfOption2Select: urlSearchParam.get(),
+                onSelectOptionHavingValueAndText: (id, text) => {
+                    BatchCodeSelectInitializer.#onBatchCodeSelected(
+                        {
+                            batchcode: id,
+                            batchCodeHeadingElement: batchCodeHeadingElement,
+                            batchCodeDetailsView: batchCodeDetailsView
+                        });
+                    urlSearchParam.set(text);
+                },
+                minimumInputLength: 4
             });
         batchCodeSelectElement.select2('open');
     }
