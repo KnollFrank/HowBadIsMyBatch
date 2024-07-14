@@ -10,12 +10,12 @@ class PageInitializer {
         Select2.initializeSelectElement(
             {
                 selectElement: symptomSelectElement,
+                minimumInputLength: 0,
                 textOfOption2Select: urlSearchParam.get(),
                 onSelectOptionHavingValueAndText: (id, text) => {
                     prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text);
                     urlSearchParam.set(text);
-                },
-                minimumInputLength: 0
+                }
             });
     }
 

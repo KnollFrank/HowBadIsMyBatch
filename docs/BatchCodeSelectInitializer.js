@@ -5,6 +5,7 @@ class BatchCodeSelectInitializer {
         Select2.initializeSelectElement(
             {
                 selectElement: batchCodeSelectElement,
+                minimumInputLength: 4,
                 textOfOption2Select: urlSearchParam.get(),
                 onSelectOptionHavingValueAndText: (id, text) => {
                     BatchCodeSelectInitializer.#onBatchCodeSelected(
@@ -14,8 +15,7 @@ class BatchCodeSelectInitializer {
                             batchCodeDetailsView: batchCodeDetailsView
                         });
                     urlSearchParam.set(text);
-                },
-                minimumInputLength: 4
+                }
             });
         batchCodeSelectElement.select2('open');
     }
