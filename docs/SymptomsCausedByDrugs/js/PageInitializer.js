@@ -5,29 +5,29 @@ class PageInitializer {
         PageInitializer.#configureVaccine(vaccine);
     }
 
-    static #configureSymptom({ symptomSelectElement, selectSymptom, onSymptomSelected, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
+    static #configureSymptom({ symptomSelectElement, searchParam, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
         const prrByVaccineTableView = new PrrByVaccineTableView(prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName);
         Select2.initializeSelectElement(
             {
                 selectElement: symptomSelectElement,
-                textOfOption2Select: selectSymptom,
+                textOfOption2Select: searchParam.get(),
                 onValueSelected: (id, text) => {
                     prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text);
-                    onSymptomSelected(text);
+                    searchParam.set(text);
                 },
                 minimumInputLength: 0
             });
     }
 
-    static #configureVaccine({ vaccineSelectElement, selectVaccine, onVaccineSelected, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
+    static #configureVaccine({ vaccineSelectElement, searchParam, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
         const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName);
         Select2.initializeSelectElement(
             {
                 selectElement: vaccineSelectElement,
-                textOfOption2Select: selectVaccine,
+                textOfOption2Select: searchParam.get(),
                 onValueSelected: (id, text) => {
                     prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id, text);
-                    onVaccineSelected(text);
+                    searchParam.set(text);
                 },
                 minimumInputLength: 0
             });

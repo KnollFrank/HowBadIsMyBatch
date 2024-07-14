@@ -27,6 +27,7 @@
   <link href="../forkMeOnGitHub.css" rel="stylesheet" type="text/css" />
   <script src="../Utils.js"></script>
   <script src="../UIUtils.js"></script>
+  <script src="../UrlUtils.js"></script>
   <script src="../NumberWithBarElementFactory.js"></script>
   <script src="./js/PrrByKey2CsvConverter.js"></script>
   <script src="./js/PageInitializer.js"></script>
@@ -42,22 +43,18 @@
       "DOMContentLoaded",
       event => {
         const name = 'Drug';
-        const symptomSearchParam = new SearchParam('symptom');
-        const vaccineSearchParam = new SearchParam('vaccine');
         PageInitializer.initializePage(
           {
             symptom: {
               symptomSelectElement: $('#symptomSelect'),
-              selectSymptom: symptomSearchParam.get(),
-              onSymptomSelected: symptom => symptomSearchParam.set(symptom),
+              searchParam: new SearchParam('symptom'),
               prrByVaccineTableElement: $('#prrByVaccineTable'),
               downloadPrrByVaccineTableButton: document.querySelector("#downloadPrrByVaccineTable"),
               keyColumnName: name
             },
             vaccine: {
               vaccineSelectElement: $('#vaccineSelect'),
-              selectVaccine: vaccineSearchParam.get(),
-              onVaccineSelected: vaccine => vaccineSearchParam.set(vaccine),
+              searchParam: new SearchParam('vaccine'),
               prrBySymptomTableElement: $('#prrBySymptomTable'),
               downloadPrrBySymptomTableButton: document.querySelector("#downloadPrrBySymptomTable"),
               valueName: name

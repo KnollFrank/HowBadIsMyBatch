@@ -7,10 +7,10 @@ class SearchParam {
     }
 
     get() {
-        return UIUtils.getSearchParamOfCurrentUrl(this.#name);
+        return UrlUtils.getSearchParamOfCurrentUrl(this.#name);
     }
 
     set(value) {
-        UIUtils.setSearchParamOfCurrentUrl(this.#name, value);
+        UrlUtils.setSearchParamOfCurrentUrl(this.#name, value);
     }
 }

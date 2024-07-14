@@ -30,6 +30,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.0/dist/chart.umd.min.js"></script>
   <script src="./Utils.js"></script>
   <script src="./UIUtils.js"></script>
+  <script src="./UrlUtils.js"></script>
   <script src="./DataTablesFilter.js"></script>
   <script src="./ColumnSearch.js"></script>
   <script src="./BatchCodeTableInitializer.js"></script>
@@ -41,8 +42,8 @@
       new BatchCodeTableInitializer().initialize(
         {
           batchCodeTableElement: $('#batchCodeTable'),
-          showCountriesColumn: UIUtils.isSearchParamYES(urlSearchParams, 'showCountriesColumn'),
-          showDataTablesFilter: UIUtils.isSearchParamYES(urlSearchParams, 'showDataTablesFilter'),
+          showCountriesColumn: UrlUtils.isSearchParamYES(urlSearchParams, 'showCountriesColumn'),
+          showDataTablesFilter: UrlUtils.isSearchParamYES(urlSearchParams, 'showDataTablesFilter'),
         });
     });
   </script>

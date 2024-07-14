@@ -33,7 +33,7 @@ class PrrByKeyTableView {
     }
 
     #downloadPrrByKey() {
-        UIUtils.downloadUrlAsFilename(
+        UrlUtils.downloadUrlAsFilename(
             window.URL.createObjectURL(
                 new Blob(
                     [this.#prrByKeyTable.getDisplayedTableAsCsv(`# ${this.#valueName}: ${this.#text}`)],
