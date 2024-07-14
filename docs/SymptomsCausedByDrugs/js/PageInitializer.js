@@ -5,29 +5,29 @@ class PageInitializer {
         PageInitializer.#configureVaccine(vaccine);
     }
 
-    static #configureSymptom({ symptomSelectElement, searchParam, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
+    static #configureSymptom({ symptomSelectElement, urlSearchParam, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
         const prrByVaccineTableView = new PrrByVaccineTableView(prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName);
         Select2.initializeSelectElement(
             {
                 selectElement: symptomSelectElement,
-                textOfOption2Select: searchParam.get(),
+                textOfOption2Select: urlSearchParam.get(),
                 onSelectOptionHavingValueAndText: (id, text) => {
                     prrByVaccineTableView.displayPrrByVaccineTable4Symptom(id, text);
-                    searchParam.set(text);
+                    urlSearchParam.set(text);
                 },
                 minimumInputLength: 0
             });
     }
 
-    static #configureVaccine({ vaccineSelectElement, searchParam, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
+    static #configureVaccine({ vaccineSelectElement, urlSearchParam, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
         const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName);
         Select2.initializeSelectElement(
             {
                 selectElement: vaccineSelectElement,
-                textOfOption2Select: searchParam.get(),
+                textOfOption2Select: urlSearchParam.get(),
                 onSelectOptionHavingValueAndText: (id, text) => {
                     prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id, text);
-                    searchParam.set(text);
+                    urlSearchParam.set(text);
                 },
                 minimumInputLength: 0
             });

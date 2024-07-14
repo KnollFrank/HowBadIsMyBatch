@@ -1,4 +1,4 @@
-class SearchParam {
+class URLSearchParam {
 
     #name;
 
