@@ -1,13 +1,13 @@
 class UrlUtils {
 
-    static isSearchParamYES(urlParams, searchParam) {
-        return UrlUtils.#getSearchParam(urlParams, searchParam, 'NO').toUpperCase() == 'YES';
+    static isSearchParamYES(urlParams, urlSearchParam) {
+        return UrlUtils.#getSearchParam(urlParams, urlSearchParam, 'NO').toUpperCase() == 'YES';
     }
 
-    static getSearchParamOfCurrentUrl(searchParam) {
+    static getSearchParamOfCurrentUrl(urlSearchParam) {
         return UrlUtils.#getSearchParam(
             new URLSearchParams(window.location.search), 
-            searchParam, 
+            urlSearchParam, 
             null)
     }
 
@@ -25,9 +25,9 @@ class UrlUtils {
         a.click();
     }
 
-    static #getSearchParam(urlParams, searchParam, defaultValue) {
-        return urlParams.has(searchParam) ?
-            urlParams.get(searchParam) :
+    static #getSearchParam(urlParams, urlSearchParam, defaultValue) {
+        return urlParams.has(urlSearchParam) ?
+            urlParams.get(urlSearchParam) :
             defaultValue;
     }
 
