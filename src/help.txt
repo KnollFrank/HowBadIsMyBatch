@@ -4,6 +4,7 @@ Local:
 - http://www.howbadismybatch.info/VaccineDistributionByZipcode.html
 - http://www.howbadismybatch.info/SymptomsCausedByVaccines/index.html
   http://www.howbadismybatch.info/SymptomsCausedByVaccines/test/index.test.html
+- http://www.howbadismybatch.info/SymptomsCausedByDrugs/index.html
 
 Live:
 - https://knollfrank.github.io/HowBadIsMyBatch/batchCodeTable.html
@@ -11,6 +12,7 @@ Live:
 - https://knollfrank.github.io/HowBadIsMyBatch/VaccineDistributionByZipcode.html
 - https://knollfrank.github.io/HowBadIsMyBatch/SymptomsCausedByVaccines/index.html
   https://knollfrank.github.io/HowBadIsMyBatch/SymptomsCausedByVaccines/test/index.test.html
+- https://knollfrank.github.io/HowBadIsMyBatch/SymptomsCausedByDrugs/index.html
 
 jupyter notebook
 
