@@ -1,8 +1,9 @@
 class PageInitializer {
 
-    static initializePage({ symptom, vaccine }) {
+    static initializePage({ symptom, vaccine, pdfButton }) {
         PageInitializer.#configureSymptom(symptom);
         PageInitializer.#configureVaccine(vaccine);
+        PageInitializer.#configurePDFButton(pdfButton);
     }
 
     static #configureSymptom({ symptomSelectElement, urlSearchParam, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
@@ -31,5 +32,11 @@ class PageInitializer {
                 },
                 minimumInputLength: 0
             });
+    }
+
+    static #configurePDFButton(pdfButton) {
+        pdfButton.addEventListener(
+            'click',
+            () => PdfCreator.createPdf().open());
     }
 }

@@ -25,6 +25,14 @@
   <!-- Custom Theme Style -->
   <link href="../gentelella/build/css/custom.css" rel="stylesheet" />
   <link href="../forkMeOnGitHub.css" rel="stylesheet" type="text/css" />
+  <!-- FK-TODO: use pdfmake.min.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/pdfmake.js"
+    integrity="sha512-4kR+uTNZljL4J4SJ/1+p2c9P78rYzK7TIk4eg/KHUkb6zqr7ykxvK+XrXybmHWfkfLAHPKVHpJwatxjrygZ+uQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--FK-TODO: use vfs_fonts.min.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/vfs_fonts.js"
+    integrity="sha512-nNkHPz+lD0Wf0eFGO0ZDxr+lWiFalFutgVeGkPdVgrG4eXDYUnhfEj9Zmg1QkrJFLC0tGs8ZExyU/1mjs4j93w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../Utils.js"></script>
   <script src="../UIUtils.js"></script>
   <script src="../UrlUtils.js"></script>
@@ -33,6 +41,7 @@
   <script src="../NumberWithBarElementFactory.js"></script>
   <script src="./js/PrrByKey2CsvConverter.js"></script>
   <script src="./js/PageInitializer.js"></script>
+  <script src="./js/PdfCreator.js"></script>
   <script src="./js/PrrByVaccineProvider.js"></script>
   <script src="./js/PrrByKeyTable.js"></script>
   <script src="./js/PrrByKeyTableView.js"></script>
@@ -58,7 +67,8 @@
               prrBySymptomTableElement: $('#prrBySymptomTable'),
               downloadPrrBySymptomTableButton: document.querySelector("#downloadPrrBySymptomTable"),
               valueName: name
-            }
+            },
+            pdfButton: document.querySelector("#PDF")
           }
         );
       });
@@ -14305,6 +14315,7 @@
     <!-- page content -->
     <!-- footer content -->
     <footer>
+      <button class="a2a_button" id="PDF">PDF</button>
       <!-- AddToAny BEGIN -->
       <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-title="EU Safety Signal (All drugs)">
         <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
