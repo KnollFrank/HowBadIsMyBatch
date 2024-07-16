@@ -3,18 +3,22 @@ class PdfCreator {
     static createPdf({ symptom, vaccine, heading, valueName }) {
         const documentDefinition = {
             content: [
-                {
-                    text: heading,
-                    fontSize: 18,
-                    alignment: 'center',
-                    margin: [0, 0, 0, 20],
-                    bold: true
-                },
+                PdfCreator.#getPageHeading(heading),
                 ...PdfCreator.#getWorstDrugsSection(symptom, valueName),
                 ...PdfCreator.#getStrongestSymptoms(vaccine)
             ]
         }
         return pdfMake.createPdf(documentDefinition);
+    }
+
+    static #getPageHeading(heading) {
+        return {
+            text: heading,
+            fontSize: 18,
+            alignment: 'center',
+            margin: [0, 0, 0, 20],
+            bold: true
+        };
     }
 
     static #getWorstDrugsSection({ selectElement, table }, valueName) {
