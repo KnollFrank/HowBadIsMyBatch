@@ -9,7 +9,8 @@ class PdfCreator {
             content: [
                 PdfCreator.#getPageHeading(heading),
                 ...PdfCreator.#getWorstDrugsSection(symptom, valueName),
-                ...PdfCreator.#getStrongestSymptomsSection(vaccine)
+                ...PdfCreator.#getStrongestSymptomsSection(vaccine),
+                PdfCreator.#link2Origin()
             ]
         };
     }
@@ -112,5 +113,21 @@ class PdfCreator {
             fillColor: '#FF0000',
             fillOpacity: 0.1,
         };
+    }
+
+    static #link2Origin() {
+        return {
+            text:
+                [
+                    'Origin: ',
+                    {
+                        text: window.location.href,
+                        color: 'blue',
+                        decoration: 'underline',
+                        link: window.location.href
+                    }
+                ],
+            margin: [0, 10]
+        }
     }
 }
