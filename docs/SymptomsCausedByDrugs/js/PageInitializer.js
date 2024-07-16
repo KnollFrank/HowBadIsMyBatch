@@ -1,11 +1,11 @@
 class PageInitializer {
 
-    static initializePage({ symptom, vaccine, pdfButton }) {
+    static initializePage({ symptom, vaccine, pdf }) {
         const prrByVaccineTableView = PageInitializer.#configureSymptom(symptom);
         const prrBySymptomTableView = PageInitializer.#configureVaccine(vaccine);
         PageInitializer.#configurePDFButton(
             {
-                pdfButton,
+                pdf,
                 symptom: {
                     selectElement: symptom.symptomSelectElement,
                     table: prrByVaccineTableView.getTable()
@@ -47,11 +47,11 @@ class PageInitializer {
         return prrBySymptomTableView;
     }
 
-    static #configurePDFButton({ pdfButton, symptom, vaccine }) {
+    static #configurePDFButton({ pdf: { pdfButton, valueName }, symptom, vaccine }) {
         pdfButton.addEventListener(
             'click',
             () => PdfCreator
-                .createPdf({ symptom, vaccine })
+                .createPdf({ symptom, vaccine, valueName })
                 .open());
     }
 }

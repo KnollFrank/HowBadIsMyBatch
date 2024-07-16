@@ -1,6 +1,6 @@
 class PdfCreator {
 
-    static createPdf({ symptom, vaccine }) {
+    static createPdf({ symptom, vaccine, valueName }) {
         const documentDefinition = {
             content: [
                 {
@@ -10,23 +10,23 @@ class PdfCreator {
                     margin: [0, 0, 0, 20],
                     bold: true
                 },
-                ...PdfCreator.#getWorstDrugsSection(symptom),
+                ...PdfCreator.#getWorstDrugsSection(symptom, valueName),
                 ...PdfCreator.#getStrongestSymptoms(vaccine)
             ]
         }
         return pdfMake.createPdf(documentDefinition);
     }
 
-    static #getWorstDrugsSection({ selectElement, table }) {
+    static #getWorstDrugsSection({ selectElement, table }, valueName) {
         return [
-            PdfCreator.#getHeading(`Worst Drugs for ${PdfCreator.#getSelection(selectElement)}`),
+            PdfCreator.#getHeading(`Worst ${valueName} for "${PdfCreator.#getSelection(selectElement)}"`),
             PdfCreator.#getTable(table)
         ];
     }
 
     static #getStrongestSymptoms({ selectElement, table }) {
         return [
-            PdfCreator.#getHeading(`Strongest Symptoms for ${PdfCreator.#getSelection(selectElement)}`),
+            PdfCreator.#getHeading(`Strongest Symptoms for "${PdfCreator.#getSelection(selectElement)}"`),
             PdfCreator.#getTable(table)
         ];
     }
