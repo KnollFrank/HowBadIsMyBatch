@@ -37,6 +37,10 @@ class PrrByKeyTable {
             });
     }
 
+    getTable() {
+        return this.#table;
+    }
+
     #createEmptyTable() {
         return this.#tableElement.DataTable(
             {

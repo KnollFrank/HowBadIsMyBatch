@@ -24,6 +24,10 @@ class PrrByKeyTableView {
             });
     }
 
+    getTable() {
+        return this.#prrByKeyTable.getTable();
+    }
+
     #initializeButton(downloadPrrByKeyTableButton) {
         this.#downloadPrrByKeyTableButton = downloadPrrByKeyTableButton;
         UIUtils.disableButton(downloadPrrByKeyTableButton);

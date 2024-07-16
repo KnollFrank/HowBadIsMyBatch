@@ -14,6 +14,10 @@ class PrrBySymptomTableView {
         this.#delegate.displayPrrByKeyTable4Value(id, text);
     }
 
+    getTable() {
+        return this.#delegate.getTable();
+    }
+
     #createPrrBySymptomTable(tableElement) {
         return new PrrByKeyTable({
             tableElement: tableElement,

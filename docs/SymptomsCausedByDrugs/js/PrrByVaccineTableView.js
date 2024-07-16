@@ -14,6 +14,10 @@ class PrrByVaccineTableView {
         this.#delegate.displayPrrByKeyTable4Value(id, text);
     }
 
+    getTable() {
+        return this.#delegate.getTable();
+    }
+
     #createPrrByVaccineTable(tableElement, keyColumnName) {
         return new PrrByKeyTable({
             tableElement: tableElement,

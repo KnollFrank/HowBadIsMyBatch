@@ -1,9 +1,20 @@
 class PageInitializer {
 
     static initializePage({ symptom, vaccine, pdfButton }) {
-        PageInitializer.#configureSymptom(symptom);
-        PageInitializer.#configureVaccine(vaccine);
-        PageInitializer.#configurePDFButton(pdfButton);
+        const prrByVaccineTableView = PageInitializer.#configureSymptom(symptom);
+        const prrBySymptomTableView = PageInitializer.#configureVaccine(vaccine);
+        PageInitializer.#configurePDFButton(
+            {
+                pdfButton,
+                symptom: {
+                    selectElement: symptom.symptomSelectElement,
+                    table: prrByVaccineTableView.getTable()
+                },
+                vaccine: {
+                    selectElement: vaccine.vaccineSelectElement,
+                    table: prrBySymptomTableView.getTable()
+                }
+            });
     }
 
     static #configureSymptom({ symptomSelectElement, urlSearchParam, prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName }) {
@@ -18,6 +29,7 @@ class PageInitializer {
                     urlSearchParam.set(text);
                 }
             });
+        return prrByVaccineTableView;
     }
 
     static #configureVaccine({ vaccineSelectElement, urlSearchParam, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
@@ -32,11 +44,14 @@ class PageInitializer {
                 },
                 minimumInputLength: 0
             });
+        return prrBySymptomTableView;
     }
 
-    static #configurePDFButton(pdfButton) {
+    static #configurePDFButton({ pdfButton, symptom, vaccine }) {
         pdfButton.addEventListener(
             'click',
-            () => PdfCreator.createPdf().open());
+            () => PdfCreator
+                .createPdf({ symptom, vaccine })
+                .open());
     }
 }
