@@ -5,7 +5,7 @@ class PdfCreator {
             content: [
                 PdfCreator.#getPageHeading(heading),
                 ...PdfCreator.#getWorstDrugsSection(symptom, valueName),
-                ...PdfCreator.#getStrongestSymptoms(vaccine)
+                ...PdfCreator.#getStrongestSymptomsSection(vaccine)
             ]
         }
         return pdfMake.createPdf(documentDefinition);
@@ -28,7 +28,7 @@ class PdfCreator {
         ];
     }
 
-    static #getStrongestSymptoms({ selectElement, table }) {
+    static #getStrongestSymptomsSection({ selectElement, table }) {
         return [
             PdfCreator.#getHeading(`Strongest Symptoms for "${PdfCreator.#getSelection(selectElement)}"`),
             PdfCreator.#getTable(table)
