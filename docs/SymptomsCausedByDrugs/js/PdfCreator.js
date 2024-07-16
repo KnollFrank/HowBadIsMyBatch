@@ -1,10 +1,10 @@
 class PdfCreator {
 
-    static createPdf({ symptom, vaccine, valueName }) {
+    static createPdf({ symptom, vaccine, heading, valueName }) {
         const documentDefinition = {
             content: [
                 {
-                    text: 'EU Safety Signal (All drugs)',
+                    text: heading,
                     fontSize: 18,
                     alignment: 'center',
                     margin: [0, 0, 0, 20],

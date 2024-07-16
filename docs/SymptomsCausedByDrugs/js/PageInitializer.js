@@ -47,11 +47,11 @@ class PageInitializer {
         return prrBySymptomTableView;
     }
 
-    static #configurePDFButton({ pdf: { pdfButton, valueName }, symptom, vaccine }) {
+    static #configurePDFButton({ pdf: { pdfButton, heading, valueName }, symptom, vaccine }) {
         pdfButton.addEventListener(
             'click',
             () => PdfCreator
-                .createPdf({ symptom, vaccine, valueName })
+                .createPdf({ symptom, vaccine, heading, valueName })
                 .open());
     }
 }

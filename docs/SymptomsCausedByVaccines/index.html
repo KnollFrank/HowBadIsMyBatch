@@ -70,6 +70,7 @@
             },
             pdf: {
               pdfButton: document.querySelector("#PDF"),
+              heading: document.querySelector("#heading").textContent,
               valueName: 'Vaccines'
             }
           }
@@ -90,7 +91,7 @@
         <div>
           <div class="page-title">
             <div class="title_left">
-              <h1>VAERS Safety Signal</h1>
+              <h1 id="heading">VAERS Safety Signal</h1>
               <div class="alert alert-danger alert-dismissible" role="alert">
                 <button aria-label="Close" class="close" data-dismiss="alert" type="button">
                   <span aria-hidden="true">×</span>
