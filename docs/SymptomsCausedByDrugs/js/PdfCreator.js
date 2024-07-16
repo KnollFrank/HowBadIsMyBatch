@@ -1,14 +1,17 @@
 class PdfCreator {
 
-    static createPdf({ symptom, vaccine, heading, valueName }) {
-        const documentDefinition = {
+    static createPdf(pdf) {
+        return pdfMake.createPdf(PdfCreator.#createDocumentDefinition(pdf));
+    }
+
+    static #createDocumentDefinition({ symptom, vaccine, heading, valueName }) {
+        return {
             content: [
                 PdfCreator.#getPageHeading(heading),
                 ...PdfCreator.#getWorstDrugsSection(symptom, valueName),
                 ...PdfCreator.#getStrongestSymptomsSection(vaccine)
             ]
-        }
-        return pdfMake.createPdf(documentDefinition);
+        };
     }
 
     static #getPageHeading(heading) {
