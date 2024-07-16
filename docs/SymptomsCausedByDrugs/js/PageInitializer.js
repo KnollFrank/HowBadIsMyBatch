@@ -52,6 +52,6 @@ class PageInitializer {
             'click',
             () => PdfCreator
                 .createPdf({ symptom, vaccine, heading, valueName })
-                .open());
+                .download(heading));
     }
 }
