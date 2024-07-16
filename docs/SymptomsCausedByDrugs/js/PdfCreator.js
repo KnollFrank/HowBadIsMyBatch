@@ -49,6 +49,7 @@ class PdfCreator {
         return selectElement.select2('data')[0].text;
     }
 
+    // FK-TODO: add red background to some rows
     static #getTable(table) {
         const headers = PdfCreator.#getTableHeaders(table);
         const rows = table.rows({ search: 'applied' }).data().toArray();
