@@ -4932,6 +4932,7 @@ table.dataTable.display tbody tr.prrTooHigh {
     max-width: 100%;
 }
 
+/* FK-TODO: remove this class: */
 .downloadButton {
     margin-top: 10px;
     display: none;
