@@ -2,16 +2,14 @@ class PrrByVaccineTableView {
 
     #delegate;
 
-    constructor(prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName) {
+    constructor(prrByVaccineTableElement, keyColumnName) {
         this.#delegate = new PrrByKeyTableView(
             this.#createPrrByVaccineTable(prrByVaccineTableElement, keyColumnName),
-            downloadPrrByVaccineTableButton,
-            'Symptom',
             PrrByVaccineProvider.getPrrByVaccine);
     }
 
-    displayPrrByVaccineTable4Symptom(id, text) {
-        this.#delegate.displayPrrByKeyTable4Value(id, text);
+    displayPrrByVaccineTable4Symptom(id) {
+        this.#delegate.displayPrrByKeyTable4Value(id);
     }
 
     getTable() {

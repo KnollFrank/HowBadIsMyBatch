@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -4932,10 +4933,9 @@ table.dataTable.display tbody tr.prrTooHigh {
     max-width: 100%;
 }
 
-.downloadButton {
-    margin-top: 10px;
-}
-
-a:link.underline, a:visited.underline, a:hover.underline, a:active.underline {
+a:link.underline,
+a:visited.underline,
+a:hover.underline,
+a:active.underline {
     text-decoration: underline;
 }
