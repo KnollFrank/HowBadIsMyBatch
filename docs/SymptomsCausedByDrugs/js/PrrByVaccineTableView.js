@@ -2,8 +2,7 @@ class PrrByVaccineTableView {
 
     #delegate;
 
-    // FK-TODO: remove downloadPrrByVaccineTableButton
-    constructor(prrByVaccineTableElement, downloadPrrByVaccineTableButton, keyColumnName) {
+    constructor(prrByVaccineTableElement, keyColumnName) {
         this.#delegate = new PrrByKeyTableView(
             this.#createPrrByVaccineTable(prrByVaccineTableElement, keyColumnName),
             PrrByVaccineProvider.getPrrByVaccine);
