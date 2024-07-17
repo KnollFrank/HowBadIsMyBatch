@@ -9,8 +9,7 @@ class PrrByKeyTableView {
         this.#prrByKeyProvider = prrByKeyProvider;
     }
 
-    // FK-TODO: remove parameter text
-    displayPrrByKeyTable4Value(id, text) {
+    displayPrrByKeyTable4Value(id) {
         this.#prrByKeyProvider(id)
             .then(prrByKey => this.#prrByKeyTable.display(prrByKey));
     }
