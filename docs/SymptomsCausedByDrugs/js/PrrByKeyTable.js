@@ -3,7 +3,6 @@ class PrrByKeyTable {
     #tableElement;
     #table;
     #sumPrrs;
-    #prrByKey;
     #keyColumnName;
     #prrColumnName;
     #shallMarkRowIfPrrTooHigh;
@@ -20,21 +19,8 @@ class PrrByKeyTable {
     }
 
     display(prrByKey) {
-        this.#prrByKey = prrByKey;
         const key_prr_pairs = Object.entries(prrByKey);
         this.#setTableRows(key_prr_pairs);
-    }
-
-    getDisplayedTableAsCsv(heading) {
-        return PrrByKey2CsvConverter.convertPrrByKey2Csv(
-            {
-                heading: heading,
-                columns: {
-                    keyColumn: this.#keyColumnName,
-                    prrColumn: this.#prrColumnName
-                },
-                prrByKey: this.#prrByKey
-            });
     }
 
     getTable() {
