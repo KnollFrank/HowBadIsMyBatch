@@ -8,8 +8,7 @@ class PrrByVaccineTableView {
             PrrByVaccineProvider.getPrrByVaccine);
     }
 
-    // FK-TODO: remove parameter text
-    displayPrrByVaccineTable4Symptom(id, text) {
+    displayPrrByVaccineTable4Symptom(id) {
         this.#delegate.displayPrrByKeyTable4Value(id);
     }
 
