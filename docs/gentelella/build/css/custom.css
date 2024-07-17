@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -4932,12 +4933,9 @@ table.dataTable.display tbody tr.prrTooHigh {
     max-width: 100%;
 }
 
-/* FK-TODO: remove this class: */
-.downloadButton {
-    margin-top: 10px;
-    display: none;
-}
-
-a:link.underline, a:visited.underline, a:hover.underline, a:active.underline {
+a:link.underline,
+a:visited.underline,
+a:hover.underline,
+a:active.underline {
     text-decoration: underline;
 }
