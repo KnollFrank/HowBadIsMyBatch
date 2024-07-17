@@ -39,7 +39,7 @@ class PageInitializer {
                 selectElement: vaccineSelectElement,
                 textOfOption2Select: urlSearchParam.get(),
                 onSelectOptionHavingValueAndText: (id, text) => {
-                    prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id, text);
+                    prrBySymptomTableView.displayPrrBySymptomTable4Vaccine(id);
                     urlSearchParam.set(text);
                 },
                 minimumInputLength: 0
