@@ -3,13 +3,13 @@ class PrrByKeyTableView {
     #prrByKeyTable;
     #prrByKeyProvider;
 
-    // FK-TODO: remove downloadPrrByKeyTableButton and valueName
-    constructor(prrByKeyTable, downloadPrrByKeyTableButton, valueName, prrByKeyProvider) {
+    constructor(prrByKeyTable, prrByKeyProvider) {
         this.#prrByKeyTable = prrByKeyTable;
         this.#prrByKeyTable.initialize();
         this.#prrByKeyProvider = prrByKeyProvider;
     }
 
+    // FK-TODO: remove parameter text
     displayPrrByKeyTable4Value(id, text) {
         this.#prrByKeyProvider(id)
             .then(prrByKey => this.#prrByKeyTable.display(prrByKey));
