@@ -49,6 +49,7 @@
     document.addEventListener(
       "DOMContentLoaded",
       event => {
+        // FK-TODO: inline name
         const name = 'Vaccine';
         PageInitializer.initializePage(
           {
@@ -62,8 +63,7 @@
               vaccineSelectElement: $('#vaccineSelect'),
               urlSearchParam: new URLSearchParam('vaccine'),
               prrBySymptomTableElement: $('#prrBySymptomTable'),
-              downloadPrrBySymptomTableButton: document.querySelector("#downloadPrrBySymptomTable"),
-              valueName: name
+              // FK-TODO: remove downloadPrrBySymptomTable html element
             },
             pdf: {
               pdfButton: document.querySelector("#PDF"),
