@@ -49,15 +49,13 @@
     document.addEventListener(
       "DOMContentLoaded",
       event => {
-        // FK-TODO: inline variable
-        const name = 'Drug';
         PageInitializer.initializePage(
           {
             symptom: {
               symptomSelectElement: $('#symptomSelect'),
               urlSearchParam: new URLSearchParam('symptom'),
               prrByVaccineTableElement: $('#prrByVaccineTable'),
-              keyColumnName: name
+              keyColumnName: 'Drug'
             },
             vaccine: {
               vaccineSelectElement: $('#vaccineSelect'),
