@@ -32,8 +32,9 @@ class PageInitializer {
         return prrByVaccineTableView;
     }
 
+    // FK-TODO: remove downloadPrrBySymptomTableButton, valueName
     static #configureVaccine({ vaccineSelectElement, urlSearchParam, prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName }) {
-        const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName);
+        const prrBySymptomTableView = new PrrBySymptomTableView(prrBySymptomTableElement);
         Select2.initializeSelectElement(
             {
                 selectElement: vaccineSelectElement,

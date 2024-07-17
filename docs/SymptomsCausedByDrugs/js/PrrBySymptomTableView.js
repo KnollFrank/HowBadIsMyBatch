@@ -2,8 +2,7 @@ class PrrBySymptomTableView {
 
     #delegate;
 
-    // FK-TODO: remove downloadPrrBySymptomTableButton, valueName
-    constructor(prrBySymptomTableElement, downloadPrrBySymptomTableButton, valueName) {
+    constructor(prrBySymptomTableElement) {
         this.#delegate = new PrrByKeyTableView(
             this.#createPrrBySymptomTable(prrBySymptomTableElement),
             PrrByVaccineProvider.getPrrBySymptom);
