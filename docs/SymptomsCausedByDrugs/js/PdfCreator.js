@@ -10,7 +10,7 @@ class PdfCreator {
                 PdfCreator.#getPageHeading(heading),
                 ...PdfCreator.#getWorstDrugsSection(symptom, valueName),
                 ...PdfCreator.#getStrongestSymptomsSection(vaccine),
-                PdfCreator.#link2Origin()
+                PdfCreator.#link2Origin(heading)
             ]
         };
     }
@@ -115,13 +115,13 @@ class PdfCreator {
         };
     }
 
-    static #link2Origin() {
+    static #link2Origin(text) {
         return {
             text:
                 [
                     'Origin: ',
                     {
-                        text: window.location.href,
+                        text: text,
                         color: 'blue',
                         decoration: 'underline',
                         link: window.location.href
