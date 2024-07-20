@@ -8,6 +8,7 @@ class PdfCreator {
         return {
             content: [
                 PdfCreator.#getPageHeading(heading),
+                { text: 'By Craig Paardekooper', alignment: 'center', margin: [0, 0, 0, 20] },
                 ...PdfCreator.#getWorstDrugsSection(symptom, valueName),
                 ...PdfCreator.#getStrongestSymptomsSection(vaccine),
                 PdfCreator.#link2Origin(heading)
@@ -20,7 +21,7 @@ class PdfCreator {
             text: heading,
             fontSize: 18,
             alignment: 'center',
-            margin: [0, 0, 0, 20],
+            margin: [0, 0, 0, 10],
             bold: true
         };
     }
