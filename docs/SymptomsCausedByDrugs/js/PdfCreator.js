@@ -4,12 +4,12 @@ class PdfCreator {
         return pdfMake.createPdf(PdfCreator.#createDocumentDefinition(pdf));
     }
 
-    static #createDocumentDefinition({ symptom, vaccine, heading, valueName }) {
+    static #createDocumentDefinition({ symptom, vaccine, heading, subheading }) {
         return {
             content: [
                 PdfCreator.#getPageHeading(heading),
                 { text: 'By Craig Paardekooper', alignment: 'center', margin: [0, 0, 0, 20] },
-                ...PdfCreator.#getAssociatedDrugsSection(symptom, valueName),
+                ...PdfCreator.#getAssociatedDrugsSection(symptom, subheading),
                 ...PdfCreator.#getStrongestSymptomsSection(vaccine),
                 PdfCreator.#link2Origin(heading)
             ]
@@ -26,9 +26,9 @@ class PdfCreator {
         };
     }
 
-    static #getAssociatedDrugsSection({ selectElement, table }, valueName) {
+    static #getAssociatedDrugsSection({ selectElement, table }, subheading) {
         return [
-            PdfCreator.#getHeading(`${valueName} for "${PdfCreator.#getSelection(selectElement)}"`),
+            PdfCreator.#getHeading(`${subheading} for "${PdfCreator.#getSelection(selectElement)}"`),
             PdfCreator.#getTable(table, true)
         ];
     }
