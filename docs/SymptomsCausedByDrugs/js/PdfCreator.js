@@ -9,7 +9,7 @@ class PdfCreator {
             content: [
                 PdfCreator.#getPageHeading(heading),
                 { text: 'By Craig Paardekooper', alignment: 'center', margin: [0, 0, 0, 20] },
-                ...PdfCreator.#getWorstDrugsSection(symptom, valueName),
+                ...PdfCreator.#getAssociatedDrugsSection(symptom, valueName),
                 ...PdfCreator.#getStrongestSymptomsSection(vaccine),
                 PdfCreator.#link2Origin(heading)
             ]
@@ -26,9 +26,9 @@ class PdfCreator {
         };
     }
 
-    static #getWorstDrugsSection({ selectElement, table }, valueName) {
+    static #getAssociatedDrugsSection({ selectElement, table }, valueName) {
         return [
-            PdfCreator.#getHeading(`Worst ${valueName} for "${PdfCreator.#getSelection(selectElement)}"`),
+            PdfCreator.#getHeading(`Associated ${valueName} for "${PdfCreator.#getSelection(selectElement)}"`),
             PdfCreator.#getTable(table, true)
         ];
     }
