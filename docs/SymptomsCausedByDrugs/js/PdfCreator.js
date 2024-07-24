@@ -28,7 +28,7 @@ class PdfCreator {
 
     static #getAssociatedDrugsSection({ selectElement, table }, valueName) {
         return [
-            PdfCreator.#getHeading(`Associated ${valueName} for "${PdfCreator.#getSelection(selectElement)}"`),
+            PdfCreator.#getHeading(`${valueName} for "${PdfCreator.#getSelection(selectElement)}"`),
             PdfCreator.#getTable(table, true)
         ];
     }

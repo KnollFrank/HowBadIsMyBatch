@@ -64,7 +64,7 @@
             pdf: {
               pdfButton: document.querySelector("#PDF"),
               heading: document.querySelector("#heading").textContent,
-              valueName: 'Drugs'
+              valueName: document.querySelector("#subheading").textContent
             }
           }
         );
@@ -103,7 +103,7 @@
             <div class="col-xs-12 col-sm-6">
               <div class="x_panel">
                 <div class="x_title">
-                  <h3>Associated Drugs</h3>
+                  <h3 id="subheading">Associated Drugs</h3>
                   <div class="alert alert-info alert-dismissible" role="alert">
                     <button aria-label="Close" class="close" data-dismiss="alert" type="button">
                       <span aria-hidden="true">×</span>
