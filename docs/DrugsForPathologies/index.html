@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Drugs for Pathologies</title>
+  <!-- FK-TODO: reactivate GA: -->
+  <!-- Google tag (gtag.js) -->
+  <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ERHYDH4P64');
+  </script> -->
+  <!-- Bootstrap -->
+  <link href="../gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+  <!-- Font Awesome -->
+  <link href="../gentelella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom Theme Style -->
+  <link href="../gentelella/build/css/custom.css" rel="stylesheet" />
+  <link href="../forkMeOnGitHub.css" rel="stylesheet" type="text/css" />
+  <script crossorigin="anonymous"
+    integrity="sha512-w61kvDEdEhJPJLSAJpuL+RWp1+zTBUUpgPaP+6pcqCk78wQkOaExjnGWrVbovojeisWGQS7XZKz+gr3L+GPYLg=="
+    referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/pdfmake.min.js"></script>
+  <script crossorigin="anonymous"
+    integrity="sha512-EFlschXPq/G5zunGPRSYqazR1CMKj0cQc8v6eMrQwybxgIbhsfoO5NAMQX3xFDQIbFlViv53o7Hy+yCWw6iZxA=="
+    referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/vfs_fonts.min.js"></script>
+  <script>
+    document.addEventListener(
+      "DOMContentLoaded",
+      event => {
+      });
+  </script>
+</head>
+
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <!-- top navigation -->
+      <div class="top_nav">
+      </div>
+      <!-- top navigation -->
+      <!-- page content -->
+      <div class="right_col" role="main">
+        <div>
+          <div class="page-title">
+            <div class="title_left">
+              <h1 id="heading">Drugs for Pathologies</h1>
+              <p>
+                By Craig Paardekooper
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h3 id="subheading">Associated Drugs</h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <div style="margin-bottom: 20px;">
+                    <label>Select Pathology:</label>
+                    <select id=pPathologySelect" name="pathology">
+                      <option disabled="" hidden="" selected="" value="">Select Pathology</option>
+                    </select>
+                  </div>
+                  <table class="display" id="prrByVaccineTable">
+                    <thead>
+                      <tr>
+                        <th>Drug</th>
+                        <th>Lower Confidence Limit of Proportional Reporting Ratio</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- page content -->
+    <!-- footer content -->
+    <footer>
+      <!-- AddToAny BEGIN -->
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-title="EU Safety Signal (All drugs)">
+        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_whatsapp"></a>
+        <a class="a2a_button_telegram"></a>
+        <a class="a2a_button_email"></a>
+        <button class="btn" id="PDF">PDF</button>
+      </div>
+      <script>
+        var a2a_config = a2a_config || {};
+        a2a_config.callbacks = a2a_config.callbacks || [];
+        a2a_config.callbacks.push({
+          share: _ => ({ url: window.location.href }),
+        });
+      </script>
+      <script async="" src="https://static.addtoany.com/menu/page.js"></script>
+      <!-- AddToAny END -->
+      <br />
+      <p>
+        <a href="https://howbad.info/essd.zip" target="_blank">Data Source <i aria-hidden="true"
+            class="fa fa-external-link"></i>
+        </a>
+      </p>
+      <span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch" target="_blank">Fork me on
+          GitHub <i aria-hidden="true" class="fa fa-external-link"></i>
+        </a></span>
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+  <template id="template-number-with-bar">
+    <div>
+      <div class="number"></div>
+      <div class="bar"></div>
+    </div>
+  </template>
+  <!-- jQuery -->
+  <script src="../gentelella/vendors/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../gentelella/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.0/dist/chart.umd.min.js"></script>
+  <script charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"
+    type="text/javascript"></script>
+  <script
+    src=" https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js "></script>
+  <!-- FastClick -->
+  <script src="../gentelella/vendors/fastclick/lib/fastclick.js"></script>
+  <!-- Custom Theme Scripts -->
+  <script src="../gentelella/build/js/custom.js"></script>
+</body>
+
+</html>
