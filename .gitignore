@@ -15,3 +15,5 @@ src/GoogleAnalytics/__pycache__
 src/SymptomsCausedByVaccines/__pycache__
 src/HowBadIsMyBatch.py
 src/data/prrByDrugAndSymptom-EudraVigilance.csv
+src/DrugsForPathologies/__pycache__
+
