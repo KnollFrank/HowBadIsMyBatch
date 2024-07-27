@@ -31,16 +31,22 @@ class DrugsChartView {
         return {
             labels: drugDescr['DRUG'],
             datasets: [{
-                label: 'FATAL',
-                data: drugDescr['FATAL'],
+                label: 'Fatal',
+                data: this.#divide(drugDescr['FATAL'], drugDescr['CASES']),
                 backgroundColor: '#FF0000'
             },
             {
-                label: 'RECOVERED',
-                data: drugDescr['RECOVERED'],
+                label: 'Recovered',
+                data: this.#divide(drugDescr['RECOVERED'], drugDescr['CASES']),
                 backgroundColor: '#00FF00'
             }]
         };
+    }
+
+    #divide(dividends, divisors) {
+        return Utils
+            .zip([dividends, divisors])
+            .map(([dividend, divisor]) => dividend / divisor);
     }
 
     #getOptions() {
