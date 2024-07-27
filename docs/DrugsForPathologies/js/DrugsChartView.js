@@ -1,0 +1,71 @@
+class DrugsChartView {
+
+    #canvas;
+    #chart;
+
+    constructor(canvas) {
+        this.#canvas = canvas;
+    }
+
+    displayChart(drugDescr) {
+        if (this.#chart != null) {
+            this.#chart.destroy();
+        }
+        this.#chart = new Chart(
+            this.#canvas,
+            {
+                type: 'bar',
+                plugins: [ChartDataLabels],
+                data: this.#getData(drugDescr),
+                options: this.#getOptions()
+            });
+    }
+
+    setData(histoDescr) {
+        const data = this.#getData(histoDescr);
+        this.#chart.config.data = data;
+        this.#chart.update();
+    }
+
+    #getData(drugDescr) {
+        return {
+            labels: drugDescr['DRUG'],
+            datasets: [{
+                label: 'FATAL',
+                data: drugDescr['FATAL'],
+                backgroundColor: '#FF0000'
+            },
+            {
+                label: 'RECOVERED',
+                data: drugDescr['RECOVERED'],
+                backgroundColor: '#00FF00'
+            }]
+        };
+    }
+
+    #getOptions() {
+        return {
+            plugins: {
+                datalabels: {
+                    anchor: 'end',
+                    align: 'top'
+                }
+            },
+            title: {
+                display: true,
+                position: 'top'
+            },
+            scales: {
+                y: {
+                    ticks: {
+                        precision: 0
+                    },
+                    title: {
+                        display: true,
+                        text: 'Frequency'
+                    }
+                }
+            }
+        };
+    }
+}

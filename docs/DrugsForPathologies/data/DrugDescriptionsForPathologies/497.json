@@ -1,0 +1,1 @@
+{"CASES": [100, 441, 239, 216, 304, 228], "DRUG": ["TRODELVY", "RIBOCICLIB", "IBRANCE", "ALPELISIB", "KISQALI", "FULVESTRANT"], "FATAL": [4, 17, 8, 6, 4, 2], "PATHOLOGY": "hormone receptor positive her2 negative breast cancer", "RECOVERED": [18, 60, 24, 23, 53, 38]}

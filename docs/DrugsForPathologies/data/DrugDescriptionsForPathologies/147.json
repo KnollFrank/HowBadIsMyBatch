@@ -1,0 +1,1 @@
+{"CASES": [114, 229, 258, 172, 113, 117], "DRUG": ["APIDRA", "JARDIANCE", "JANUVIA", "LANTUS", "GALVUS", "FORXIGA"], "FATAL": [8, 8, 7, 2, 1, 1], "PATHOLOGY": "blood glucose abnormal", "RECOVERED": [32, 47, 49, 74, 12, 23]}

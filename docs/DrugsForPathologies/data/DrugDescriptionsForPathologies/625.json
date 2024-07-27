@@ -1,0 +1,1 @@
+{"CASES": [509, 162, 498, 116, 248, 182], "DRUG": ["MEKINIST", "DABRAFENIB", "KEYTRUDA", "COTELLIC", "PEMBROLIZUMAB", "IPILIMUMAB"], "FATAL": [80, 18, 33, 6, 6, 2], "PATHOLOGY": "malignant melanoma stage iv", "RECOVERED": [72, 29, 69, 59, 28, 47]}
