@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-  <!-- Meta, title, CSS, favicons, etc. -->
-  <meta charset="utf-8" />
-  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Drugs for the Treatment of Pathologies</title>
-  <!-- Google tag (gtag.js) -->
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
-  <script>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Drugs for the Treatment of Pathologies</title>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
+<script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-ERHYDH4P64');
   </script>
-  <!-- Bootstrap -->
-  <link href="../gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
-  <!-- Font Awesome -->
-  <link href="../gentelella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom Theme Style -->
-  <link href="../gentelella/build/css/custom.css" rel="stylesheet" />
-  <link href="../forkMeOnGitHub.css" rel="stylesheet" type="text/css" />
-  <script src="./js/PageInitializer.js"></script>
-  <script src="./js/DrugsChartView.js"></script>
-  <script src="../Utils.js"></script>
-  <script src="../UrlUtils.js"></script>
-  <script src="../URLSearchParam.js"></script>
-  <script src="../Select2.js"></script>
-  <script>
+<!-- Bootstrap -->
+<link href="../gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css"/>
+<!-- Font Awesome -->
+<link href="../gentelella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+<!-- Custom Theme Style -->
+<link href="../gentelella/build/css/custom.css" rel="stylesheet"/>
+<link href="../forkMeOnGitHub.css" rel="stylesheet" type="text/css"/>
+<script src="./js/PageInitializer.js"></script>
+<script src="./js/DrugsChartView.js"></script>
+<script src="../Utils.js"></script>
+<script src="../UrlUtils.js"></script>
+<script src="../URLSearchParam.js"></script>
+<script src="../Select2.js"></script>
+<script>
     document.addEventListener(
       "DOMContentLoaded",
       event => {
@@ -45,1135 +44,90 @@
       });
   </script>
 </head>
-
 <body class="nav-md">
-  <div class="container body">
-    <div class="main_container">
-      <!-- top navigation -->
-      <div class="top_nav">
-      </div>
-      <!-- top navigation -->
-      <!-- page content -->
-      <div class="right_col" role="main">
-        <div>
-          <div class="page-title">
-            <div class="title_left">
-              <h1 id="heading">Drugs for the Treatment of Pathologies</h1>
-              <h2>By Craig Paardekooper</h2>
-            </div>
-          </div>
-          <div class="clearfix"></div>
-          <div class="row">
-            <div class="col">
-              <div class="x_panel">
-                <div class="x_content">
-                  <div style="margin-bottom: 20px;">
-                    <label>Select a Pathology:</label>
-                    <select id="pathologySelect" name="pathology">
-                      <option disabled="" hidden="" selected="" value="">Select Pathology</option>
-                      <option value="1">abdominal discomfort</option>
-                      <option value="2">abdominal pain</option>
-                      <option value="3">abortion</option>
-                      <option value="4">abortion induced</option>
-                      <option value="5">abscess</option>
-                      <option value="6">accidental exposure to product</option>
-                      <option value="7">accidental exposure to product by child</option>
-                      <option value="8">acinetobacter infection</option>
-                      <option value="9">acquired haemophilia</option>
-                      <option value="10">acquired immunodeficiency syndrome</option>
-                      <option value="11">acquired immunodeficiency syndrome, hiv infection</option>
-                      <option value="12">acromegaly</option>
-                      <option value="13">actinic keratosis</option>
-                      <option value="14">acute coronary syndrome</option>
-                      <option value="15">acute graft versus host disease</option>
-                      <option value="16">acute leukaemia</option>
-                      <option value="17">acute lymphocytic leukaemia</option>
-                      <option value="18">acute lymphocytic leukaemia recurrent</option>
-                      <option value="19">acute lymphocytic leukaemia refractory</option>
-                      <option value="20">acute monocytic leukaemia</option>
-                      <option value="21">acute myeloid leukaemia</option>
-                      <option value="22">acute myeloid leukaemia recurrent</option>
-                      <option value="23">acute myeloid leukaemia refractory</option>
-                      <option value="24">acute myocardial infarction</option>
-                      <option value="25">acute promyelocytic leukaemia</option>
-                      <option value="26">acute psychosis</option>
-                      <option value="27">acute sinusitis</option>
-                      <option value="28">adenocarcinoma</option>
-                      <option value="29">adenocarcinoma gastric</option>
-                      <option value="30">adenocarcinoma of colon</option>
-                      <option value="31">adenocarcinoma pancreas</option>
-                      <option value="32">adenovirus infection</option>
-                      <option value="33">adjuvant therapy</option>
-                      <option value="34">adrenal gland cancer</option>
-                      <option value="35">adrenal insufficiency</option>
-                      <option value="36">adrenocortical carcinoma</option>
-                      <option value="37">adult t-cell lymphoma/leukaemia</option>
-                      <option value="38">advanced systemic mastocytosis</option>
-                      <option value="39">adverse drug reaction</option>
-                      <option value="40">affective disorder</option>
-                      <option value="41">age-related macular degeneration</option>
-                      <option value="42">aggression</option>
-                      <option value="43">agitation</option>
-                      <option value="44">agranulocytosis</option>
-                      <option value="45">alcoholism</option>
-                      <option value="46">allogenic bone marrow transplantation therapy</option>
-                      <option value="47">allogenic stem cell transplantation</option>
-                      <option value="48">allogenic stem cell transplantation, bone marrow conditioning regimen</option>
-                      <option value="49">alopecia</option>
-                      <option value="50">alveolar rhabdomyosarcoma</option>
-                      <option value="51">alveolar soft part sarcoma</option>
-                      <option value="52">amyloidosis</option>
-                      <option value="53">amyotrophic lateral sclerosis</option>
-                      <option value="54">anaemia</option>
-                      <option value="55">anaemia of malignant disease</option>
-                      <option value="56">anaesthesia</option>
-                      <option value="57">anaesthesia procedure</option>
-                      <option value="58">analgesic therapy</option>
-                      <option value="59">anaplastic large cell lymphoma t- and null-cell types</option>
-                      <option value="60">anaplastic thyroid cancer</option>
-                      <option value="61">androgen replacement therapy</option>
-                      <option value="62">anger</option>
-                      <option value="63">angina pectoris</option>
-                      <option value="64">angina unstable</option>
-                      <option value="65">angiocentric lymphoma</option>
-                      <option value="66">angioedema</option>
-                      <option value="67">angiogram</option>
-                      <option value="68">angiomyolipoma</option>
-                      <option value="69">angiopathy</option>
-                      <option value="70">angioplasty</option>
-                      <option value="71">angiosarcoma</option>
-                      <option value="72">ankylosing spondylitis</option>
-                      <option value="73">anogenital warts</option>
-                      <option value="74">anti-infective therapy</option>
-                      <option value="75">antibiotic prophylaxis</option>
-                      <option value="76">antibiotic therapy</option>
-                      <option value="77">anticoagulant therapy</option>
-                      <option value="78">antidepressant therapy</option>
-                      <option value="79">antiemetic supportive care</option>
-                      <option value="80">antifungal prophylaxis</option>
-                      <option value="81">antifungal treatment</option>
-                      <option value="82">antiphospholipid syndrome</option>
-                      <option value="83">antiplatelet therapy</option>
-                      <option value="84">antipsychotic therapy</option>
-                      <option value="85">antiretroviral therapy</option>
-                      <option value="86">antiviral prophylaxis</option>
-                      <option value="87">antiviral treatment</option>
-                      <option value="88">anxiety</option>
-                      <option value="89">anxiety disorder</option>
-                      <option value="90">anxiety, depression</option>
-                      <option value="91">aplasia pure red cell</option>
-                      <option value="92">aplastic anaemia</option>
-                      <option value="93">appendix cancer</option>
-                      <option value="94">arrhythmia</option>
-                      <option value="95">arterial disorder</option>
-                      <option value="96">arterial occlusive disease</option>
-                      <option value="97">arteriosclerosis</option>
-                      <option value="98">arteriosclerosis coronary artery</option>
-                      <option value="99">arthralgia</option>
-                      <option value="100">arthritis</option>
-                      <option value="101">arthritis bacterial</option>
-                      <option value="102">arthritis infective</option>
-                      <option value="103">arthritis, rheumatoid arthritis</option>
-                      <option value="104">arthropathy</option>
-                      <option value="105">aspergilloma</option>
-                      <option value="106">aspergillus infection</option>
-                      <option value="107">assisted reproductive technology</option>
-                      <option value="108">asthenia</option>
-                      <option value="109">asthma</option>
-                      <option value="110">asthma, chronic obstructive pulmonary disease</option>
-                      <option value="111">asthma, eosinophilic granulomatosis with polyangiitis</option>
-                      <option value="112">astrocytoma</option>
-                      <option value="113">astrocytoma malignant</option>
-                      <option value="114">astrocytoma, low grade</option>
-                      <option value="115">atrial fibrillation</option>
-                      <option value="116">atrial fibrillation, cerebrovascular accident prophylaxis, thrombosis
-                        prophylaxis</option>
-                      <option value="117">atrial flutter</option>
-                      <option value="118">atypical haemolytic uraemic syndrome</option>
-                      <option value="119">atypical mycobacterial infection</option>
-                      <option value="120">autism spectrum disorder</option>
-                      <option value="121">autoimmune disorder</option>
-                      <option value="122">autoimmune haemolytic anaemia</option>
-                      <option value="123">autoimmune hepatitis</option>
-                      <option value="124">autologous haematopoietic stem cell transplant</option>
-                      <option value="125">axial spondyloarthritis</option>
-                      <option value="126">b precursor type acute leukaemia</option>
-                      <option value="127">b-cell lymphoma</option>
-                      <option value="128">b-cell small lymphocytic lymphoma</option>
-                      <option value="129">b-cell type acute leukaemia</option>
-                      <option value="130">back pain</option>
-                      <option value="131">bacteraemia</option>
-                      <option value="132">bacterial infection</option>
-                      <option value="133">basal cell carcinoma</option>
-                      <option value="134">behaviour disorder</option>
-                      <option value="135">behcet's syndrome</option>
-                      <option value="136">benign prostatic hyperplasia</option>
-                      <option value="137">bile duct cancer</option>
-                      <option value="138">bipolar disorder</option>
-                      <option value="139">bipolar i disorder</option>
-                      <option value="140">bipolar ii disorder</option>
-                      <option value="141">bladder cancer</option>
-                      <option value="142">bladder disorder</option>
-                      <option value="143">bladder transitional cell carcinoma</option>
-                      <option value="144">blast crisis in myelogenous leukaemia</option>
-                      <option value="145">blood disorder</option>
-                      <option value="146">blood glucose</option>
-                      <option value="147">blood glucose abnormal</option>
-                      <option value="148">blood glucose decreased</option>
-                      <option value="149">blood glucose increased</option>
-                      <option value="150">blood iron increased</option>
-                      <option value="151">blood potassium increased</option>
-                      <option value="152">blood pressure abnormal</option>
-                      <option value="153">blood pressure increased</option>
-                      <option value="154">blood pressure measurement</option>
-                      <option value="155">blood testosterone decreased</option>
-                      <option value="156">blood uric acid increased</option>
-                      <option value="157">bone cancer</option>
-                      <option value="158">bone disorder</option>
-                      <option value="159">bone marrow conditioning regimen</option>
-                      <option value="160">bone marrow transplant</option>
-                      <option value="161">bone pain</option>
-                      <option value="162">borderline personality disorder</option>
-                      <option value="163">bradycardia</option>
-                      <option value="164">braf gene mutation</option>
-                      <option value="165">brain neoplasm</option>
-                      <option value="166">brain neoplasm malignant</option>
-                      <option value="167">brain oedema</option>
-                      <option value="168">breakthrough pain</option>
-                      <option value="169">breast cancer</option>
-                      <option value="170">breast cancer female</option>
-                      <option value="171">breast cancer female, breast cancer metastatic</option>
-                      <option value="172">breast cancer male</option>
-                      <option value="173">breast cancer metastatic</option>
-                      <option value="174">breast cancer recurrent</option>
-                      <option value="175">breast cancer stage i</option>
-                      <option value="176">breast cancer stage ii</option>
-                      <option value="177">breast cancer stage iii</option>
-                      <option value="178">breast cancer stage iv</option>
-                      <option value="179">breast neoplasm</option>
-                      <option value="180">bronchial carcinoma</option>
-                      <option value="181">bronchitis</option>
-                      <option value="182">bronchitis chronic</option>
-                      <option value="183">bronchopulmonary aspergillosis</option>
-                      <option value="184">bronchopulmonary aspergillosis allergic</option>
-                      <option value="185">bronchopulmonary dysplasia</option>
-                      <option value="186">burkitt's lymphoma</option>
-                      <option value="187">c3 glomerulopathy</option>
-                      <option value="188">cancer pain</option>
-                      <option value="189">candida infection</option>
-                      <option value="190">carcinoid syndrome</option>
-                      <option value="191">carcinoid tumour</option>
-                      <option value="192">carcinoid tumour pulmonary</option>
-                      <option value="193">cardiac amyloidosis</option>
-                      <option value="194">cardiac disorder</option>
-                      <option value="195">cardiac failure</option>
-                      <option value="196">cardiac failure chronic</option>
-                      <option value="197">cardiac failure congestive</option>
-                      <option value="198">cardiac failure, diabetes mellitus</option>
-                      <option value="199">cardiac failure, type 2 diabetes mellitus</option>
-                      <option value="200">cardiac operation</option>
-                      <option value="201">cardiac pacemaker insertion</option>
-                      <option value="202">cardiac stress test</option>
-                      <option value="203">cardiac ventricular thrombosis</option>
-                      <option value="204">cardiomyopathy</option>
-                      <option value="205">cardiovascular disorder</option>
-                      <option value="206">cardiovascular event prophylaxis</option>
-                      <option value="207">carotid artery occlusion</option>
-                      <option value="208">carotid artery stenosis</option>
-                      <option value="209">castleman's disease</option>
-                      <option value="210">cataplexy</option>
-                      <option value="211">cataract</option>
-                      <option value="212">cataract operation</option>
-                      <option value="213">catatonia</option>
-                      <option value="214">catheterisation cardiac</option>
-                      <option value="215">cellulitis</option>
-                      <option value="216">central nervous system lymphoma</option>
-                      <option value="217">cerebral infarction</option>
-                      <option value="218">cerebral ischaemia</option>
-                      <option value="219">cerebrovascular accident</option>
-                      <option value="220">cerebrovascular accident prophylaxis</option>
-                      <option value="221">cerebrovascular disorder</option>
-                      <option value="222">cervix carcinoma</option>
-                      <option value="223">cervix carcinoma stage iv</option>
-                      <option value="224">chelation therapy</option>
-                      <option value="225">chemotherapy</option>
-                      <option value="226">chest pain</option>
-                      <option value="227">cholangitis</option>
-                      <option value="228">choriocarcinoma</option>
-                      <option value="229">choroid melanoma</option>
-                      <option value="230">choroidal neovascularisation</option>
-                      <option value="231">choroidal neovascularisation, neovascular age-related macular degeneration
-                      </option>
-                      <option value="232">chronic graft versus host disease</option>
-                      <option value="233">chronic hepatitis</option>
-                      <option value="234">chronic hepatitis b</option>
-                      <option value="235">chronic hepatitis c</option>
-                      <option value="236">chronic inflammatory demyelinating polyradiculoneuropathy</option>
-                      <option value="237">chronic kidney disease</option>
-                      <option value="238">chronic kidney disease, type 2 diabetes mellitus</option>
-                      <option value="239">chronic lymphocytic leukaemia</option>
-                      <option value="240">chronic lymphocytic leukaemia recurrent</option>
-                      <option value="241">chronic lymphocytic leukaemia refractory</option>
-                      <option value="242">chronic myeloid leukaemia</option>
-                      <option value="243">chronic myeloid leukaemia transformation</option>
-                      <option value="244">chronic myelomonocytic leukaemia</option>
-                      <option value="245">chronic obstructive pulmonary disease</option>
-                      <option value="246">chronic obstructive pulmonary disease, emphysema</option>
-                      <option value="247">chronic rhinosinusitis with nasal polyps</option>
-                      <option value="248">chronic sinusitis</option>
-                      <option value="249">chronic spontaneous urticaria</option>
-                      <option value="250">chronic spontaneous urticaria, urticaria</option>
-                      <option value="251">clear cell renal cell carcinoma</option>
-                      <option value="252">clostridium difficile colitis</option>
-                      <option value="253">clostridium difficile infection</option>
-                      <option value="254">cluster headache</option>
-                      <option value="255">coagulopathy</option>
-                      <option value="256">colitis</option>
-                      <option value="257">colitis microscopic</option>
-                      <option value="258">colitis ulcerative</option>
-                      <option value="259">colitis ulcerative, crohn's disease</option>
-                      <option value="260">colitis ulcerative, rheumatoid arthritis</option>
-                      <option value="261">colon cancer</option>
-                      <option value="262">colon cancer metastatic</option>
-                      <option value="263">colon cancer recurrent</option>
-                      <option value="264">colon cancer stage iii</option>
-                      <option value="265">colon cancer stage iv</option>
-                      <option value="266">colon cancer, metastases to liver</option>
-                      <option value="267">colorectal adenocarcinoma</option>
-                      <option value="268">colorectal cancer</option>
-                      <option value="269">colorectal cancer metastatic</option>
-                      <option value="270">colorectal cancer recurrent</option>
-                      <option value="271">colorectal cancer stage iv</option>
-                      <option value="272">combined immunodeficiency</option>
-                      <option value="273">complex regional pain syndrome</option>
-                      <option value="274">complications of transplant surgery</option>
-                      <option value="275">computerised tomogram</option>
-                      <option value="276">congenital aplastic anaemia</option>
-                      <option value="277">congenital cytomegalovirus infection</option>
-                      <option value="278">connective tissue disorder</option>
-                      <option value="279">contraception</option>
-                      <option value="280">controlled ovarian stimulation</option>
-                      <option value="281">cor pulmonale chronic</option>
-                      <option value="282">cord blood transplant therapy</option>
-                      <option value="283">coronary angioplasty</option>
-                      <option value="284">coronary arterial stent insertion</option>
-                      <option value="285">coronary artery bypass</option>
-                      <option value="286">coronary artery disease</option>
-                      <option value="287">coronavirus infection</option>
-                      <option value="288">cough</option>
-                      <option value="289">covid-19</option>
-                      <option value="290">covid-19 immunisation</option>
-                      <option value="291">covid-19 pneumonia</option>
-                      <option value="292">covid-19 prophylaxis</option>
-                      <option value="293">crohn's disease</option>
-                      <option value="294">cushing's syndrome</option>
-                      <option value="295">cutaneous t-cell lymphoma</option>
-                      <option value="296">cystic fibrosis</option>
-                      <option value="297">cystitis</option>
-                      <option value="298">cystitis interstitial</option>
-                      <option value="299">cystoid macular oedema</option>
-                      <option value="300">cytokine release syndrome</option>
-                      <option value="301">cytomegalovirus chorioretinitis</option>
-                      <option value="302">cytomegalovirus colitis</option>
-                      <option value="303">cytomegalovirus infection</option>
-                      <option value="304">cytomegalovirus infection reactivation</option>
-                      <option value="305">cytomegalovirus viraemia</option>
-                      <option value="306">deep vein thrombosis</option>
-                      <option value="307">deep vein thrombosis, pulmonary embolism</option>
-                      <option value="308">delirium</option>
-                      <option value="309">delusion</option>
-                      <option value="310">delusional disorder, unspecified type</option>
-                      <option value="311">dementia</option>
-                      <option value="312">dementia alzheimer's type</option>
-                      <option value="313">demyelinating polyneuropathy</option>
-                      <option value="314">dependence</option>
-                      <option value="315">depressed mood</option>
-                      <option value="316">depression</option>
-                      <option value="317">depressive symptom</option>
-                      <option value="318">dermatitis</option>
-                      <option value="319">dermatitis atopic</option>
-                      <option value="320">dermatomyositis</option>
-                      <option value="321">desmoplastic small round cell tumour</option>
-                      <option value="322">device related infection</option>
-                      <option value="323">diabetes mellitus</option>
-                      <option value="324">diabetes mellitus inadequate control</option>
-                      <option value="325">diabetes mellitus management</option>
-                      <option value="326">diabetic foot</option>
-                      <option value="327">diabetic neuropathy</option>
-                      <option value="328">diabetic retinal oedema</option>
-                      <option value="329">diabetic retinopathy</option>
-                      <option value="330">dialysis</option>
-                      <option value="331">diarrhoea</option>
-                      <option value="332">diffuse large b-cell lymphoma</option>
-                      <option value="333">diffuse large b-cell lymphoma recurrent</option>
-                      <option value="334">diffuse large b-cell lymphoma refractory</option>
-                      <option value="335">diffuse large b-cell lymphoma stage ii</option>
-                      <option value="336">diffuse large b-cell lymphoma stage iii</option>
-                      <option value="337">diffuse large b-cell lymphoma stage iv</option>
-                      <option value="338">dilated cardiomyopathy</option>
-                      <option value="339">disseminated intravascular coagulation</option>
-                      <option value="340">disseminated tuberculosis</option>
-                      <option value="341">diuretic therapy</option>
-                      <option value="342">drug abuse</option>
-                      <option value="343">drug dependence</option>
-                      <option value="344">drug therapy</option>
-                      <option value="345">drug use disorder</option>
-                      <option value="346">drug withdrawal maintenance therapy</option>
-                      <option value="347">drug withdrawal syndrome</option>
-                      <option value="348">ductal adenocarcinoma of pancreas</option>
-                      <option value="349">dupuytren's contracture</option>
-                      <option value="350">dyspnoea</option>
-                      <option value="351">dysuria</option>
-                      <option value="352">eczema</option>
-                      <option value="353">egfr gene mutation</option>
-                      <option value="354">embolism</option>
-                      <option value="355">embolism venous</option>
-                      <option value="356">emphysema</option>
-                      <option value="357">encephalitis</option>
-                      <option value="358">encephalitis autoimmune</option>
-                      <option value="359">encephalopathy</option>
-                      <option value="360">end stage renal disease</option>
-                      <option value="361">endocarditis</option>
-                      <option value="362">endocarditis staphylococcal</option>
-                      <option value="363">endometrial adenocarcinoma</option>
-                      <option value="364">endometrial cancer</option>
-                      <option value="365">endometrial cancer metastatic</option>
-                      <option value="366">endometrial cancer recurrent</option>
-                      <option value="367">endometrial cancer stage iv</option>
-                      <option value="368">endophthalmitis</option>
-                      <option value="369">endotracheal intubation</option>
-                      <option value="370">enteritis</option>
-                      <option value="371">enterococcal infection</option>
-                      <option value="372">eosinophilia</option>
-                      <option value="373">eosinophilic granulomatosis with polyangiitis</option>
-                      <option value="374">epidural anaesthesia</option>
-                      <option value="375">epidural analgesia</option>
-                      <option value="376">epilepsy</option>
-                      <option value="377">epilepsy, partial seizures</option>
-                      <option value="378">epilepsy, seizure</option>
-                      <option value="379">epileptic encephalopathy</option>
-                      <option value="380">epstein-barr virus infection</option>
-                      <option value="381">erectile dysfunction</option>
-                      <option value="382">erythema</option>
-                      <option value="383">erythrodermic psoriasis</option>
-                      <option value="384">essential hypertension</option>
-                      <option value="385">essential thrombocythaemia</option>
-                      <option value="386">ewing's sarcoma</option>
-                      <option value="387">ex-tobacco user</option>
-                      <option value="388">exposure during pregnancy</option>
-                      <option value="389">extrapulmonary tuberculosis</option>
-                      <option value="390">extrapyramidal disorder</option>
-                      <option value="391">fabry's disease</option>
-                      <option value="392">factor vii deficiency</option>
-                      <option value="393">factor viii deficiency</option>
-                      <option value="394">failed back surgery syndrome</option>
-                      <option value="395">fallopian tube cancer</option>
-                      <option value="396">febrile neutropenia</option>
-                      <option value="397">fibromyalgia</option>
-                      <option value="398">focal dyscognitive seizures</option>
-                      <option value="399">focal segmental glomerulosclerosis</option>
-                      <option value="400">foetal exposure during pregnancy</option>
-                      <option value="401">follicular lymphoma</option>
-                      <option value="402">follicular thyroid cancer</option>
-                      <option value="403">fracture</option>
-                      <option value="404">frontal lobe epilepsy</option>
-                      <option value="405">fungal infection</option>
-                      <option value="406">fusarium infection</option>
-                      <option value="407">gait disturbance</option>
-                      <option value="408">gallbladder cancer</option>
-                      <option value="409">gastric cancer</option>
-                      <option value="410">gastric cancer stage iv</option>
-                      <option value="411">gastritis</option>
-                      <option value="412">gastroenteritis</option>
-                      <option value="413">gastroenteropancreatic neuroendocrine tumour disease</option>
-                      <option value="414">gastrointestinal cancer metastatic</option>
-                      <option value="415">gastrointestinal carcinoma</option>
-                      <option value="416">gastrointestinal disorder</option>
-                      <option value="417">gastrointestinal haemorrhage</option>
-                      <option value="418">gastrointestinal stromal tumour</option>
-                      <option value="419">gastrooesophageal reflux disease</option>
-                      <option value="420">gaucher's disease</option>
-                      <option value="421">gene mutation</option>
-                      <option value="422">general anaesthesia</option>
-                      <option value="423">generalised anxiety disorder</option>
-                      <option value="424">generalised tonic-clonic seizure</option>
-                      <option value="425">gestational diabetes</option>
-                      <option value="426">gestational trophoblastic tumour</option>
-                      <option value="427">giant cell arteritis</option>
-                      <option value="428">gingival cancer</option>
-                      <option value="429">glaucoma</option>
-                      <option value="430">glioblastoma</option>
-                      <option value="431">glioblastoma multiforme</option>
-                      <option value="432">glioma</option>
-                      <option value="433">glomerulonephritis</option>
-                      <option value="434">glomerulonephritis membranoproliferative</option>
-                      <option value="435">glomerulonephritis membranous</option>
-                      <option value="436">glucose tolerance impaired</option>
-                      <option value="437">gout</option>
-                      <option value="438">graft versus host disease</option>
-                      <option value="439">graft versus host disease in gastrointestinal tract</option>
-                      <option value="440">graft versus host disease in skin</option>
-                      <option value="441">granulomatosis with polyangiitis</option>
-                      <option value="442">growth hormone deficiency</option>
-                      <option value="443">growth retardation</option>
-                      <option value="444">guillain-barre syndrome</option>
-                      <option value="445">h1n1 influenza</option>
-                      <option value="446">haemangioma</option>
-                      <option value="447">haematoma</option>
-                      <option value="448">haematopoietic stem cell mobilisation</option>
-                      <option value="449">haemochromatosis</option>
-                      <option value="450">haemoglobin decreased</option>
-                      <option value="451">haemolytic anaemia</option>
-                      <option value="452">haemolytic uraemic syndrome</option>
-                      <option value="453">haemophagocytic lymphohistiocytosis</option>
-                      <option value="454">haemophilia</option>
-                      <option value="455">haemophilia a with anti factor viii</option>
-                      <option value="456">haemophilia a without inhibitors</option>
-                      <option value="457">haemorrhage</option>
-                      <option value="458">haemosiderosis</option>
-                      <option value="459">hairy cell leukaemia</option>
-                      <option value="460">hallucination</option>
-                      <option value="461">head and neck cancer</option>
-                      <option value="462">headache</option>
-                      <option value="463">heart disease congenital</option>
-                      <option value="464">heart failure with preserved ejection fraction</option>
-                      <option value="465">heart failure with reduced ejection fraction</option>
-                      <option value="466">heart transplant</option>
-                      <option value="467">heavy menstrual bleeding</option>
-                      <option value="468">hepatic cancer</option>
-                      <option value="469">hepatic cancer metastatic</option>
-                      <option value="470">hepatic cirrhosis</option>
-                      <option value="471">hepatic cirrhosis, hepatitis c</option>
-                      <option value="472">hepatic neoplasm</option>
-                      <option value="473">hepatitis</option>
-                      <option value="474">hepatitis b</option>
-                      <option value="475">hepatitis c</option>
-                      <option value="476">hepatitis c virus test</option>
-                      <option value="477">hepatitis c virus test positive</option>
-                      <option value="478">hepatitis viral</option>
-                      <option value="479">hepato-lenticular degeneration</option>
-                      <option value="480">hepatocellular carcinoma</option>
-                      <option value="481">her2 negative breast cancer</option>
-                      <option value="482">her2 positive breast cancer</option>
-                      <option value="483">hereditary angioedema</option>
-                      <option value="484">hereditary angioedema with c1 esterase inhibitor deficiency</option>
-                      <option value="485">hereditary angioedema, prophylaxis</option>
-                      <option value="486">herpes zoster</option>
-                      <option value="487">herpes zoster immunisation</option>
-                      <option value="488">hidradenitis</option>
-                      <option value="489">high-grade b-cell lymphoma</option>
-                      <option value="490">hip arthroplasty</option>
-                      <option value="491">hiv infection</option>
-                      <option value="492">hiv infection, hepatitis b</option>
-                      <option value="493">hiv infection, prophylaxis against hiv infection</option>
-                      <option value="494">hiv test positive</option>
-                      <option value="495">hodgkin's disease</option>
-                      <option value="496">hormone receptor positive breast cancer</option>
-                      <option value="497">hormone receptor positive her2 negative breast cancer</option>
-                      <option value="498">hormone suppression therapy</option>
-                      <option value="499">hormone therapy</option>
-                      <option value="500">hormone-dependent prostate cancer</option>
-                      <option value="501">hormone-refractory prostate cancer</option>
-                      <option value="502">hormone-refractory prostate cancer, metastases to bone</option>
-                      <option value="503">humoral immune defect</option>
-                      <option value="504">hypercalcaemia</option>
-                      <option value="505">hypercalcaemia of malignancy</option>
-                      <option value="506">hypereosinophilic syndrome</option>
-                      <option value="507">hyperglycaemia</option>
-                      <option value="508">hyperkalaemia</option>
-                      <option value="509">hyperlipidaemia</option>
-                      <option value="510">hyperparathyroidism</option>
-                      <option value="511">hyperparathyroidism primary</option>
-                      <option value="512">hyperparathyroidism secondary</option>
-                      <option value="513">hypersensitivity</option>
-                      <option value="514">hypertension</option>
-                      <option value="515">hyperthyroidism</option>
-                      <option value="516">hypertonic bladder</option>
-                      <option value="517">hyperuricaemia</option>
-                      <option value="518">hypoaesthesia</option>
-                      <option value="519">hypogammaglobulinaemia</option>
-                      <option value="520">hypoglobulinaemia</option>
-                      <option value="521">hypoglycaemia</option>
-                      <option value="522">hypogonadism</option>
-                      <option value="523">hypomania</option>
-                      <option value="524">hypopharyngeal cancer</option>
-                      <option value="525">hypopituitarism</option>
-                      <option value="526">idiopathic pulmonary fibrosis</option>
-                      <option value="527">idiopathic pulmonary fibrosis, interstitial lung disease</option>
-                      <option value="528">idiopathic urticaria</option>
-                      <option value="529">ill-defined disorder</option>
-                      <option value="530">illness</option>
-                      <option value="531">imaging procedure</option>
-                      <option value="532">immune thrombocytopenia</option>
-                      <option value="533">immunisation</option>
-                      <option value="534">immunodeficiency</option>
-                      <option value="535">immunodeficiency common variable</option>
-                      <option value="536">immunosuppressant drug therapy</option>
-                      <option value="537">immunosuppression</option>
-                      <option value="538">in vitro fertilisation</option>
-                      <option value="539">incontinence</option>
-                      <option value="540">induction and maintenance of anaesthesia</option>
-                      <option value="541">induction of anaesthesia</option>
-                      <option value="542">infantile haemangioma</option>
-                      <option value="543">infantile spasms</option>
-                      <option value="544">infarction</option>
-                      <option value="545">infection</option>
-                      <option value="546">infection prophylaxis</option>
-                      <option value="547">infertility</option>
-                      <option value="548">inflammation</option>
-                      <option value="549">inflammatory bowel disease</option>
-                      <option value="550">influenza</option>
-                      <option value="551">influenza immunisation</option>
-                      <option value="552">influenza like illness</option>
-                      <option value="553">initial insomnia</option>
-                      <option value="554">insomnia</option>
-                      <option value="555">insulin-requiring type 2 diabetes mellitus</option>
-                      <option value="556">intentional overdose</option>
-                      <option value="557">intentional product misuse</option>
-                      <option value="558">intentional product use issue</option>
-                      <option value="559">interstitial lung disease</option>
-                      <option value="560">intervertebral discitis</option>
-                      <option value="561">intestinal ulcer</option>
-                      <option value="562">invasive breast carcinoma</option>
-                      <option value="563">invasive ductal breast carcinoma</option>
-                      <option value="564">invasive lobular breast carcinoma</option>
-                      <option value="565">iron metabolism disorder</option>
-                      <option value="566">iron overload</option>
-                      <option value="567">ischaemic cardiomyopathy</option>
-                      <option value="568">ischaemic heart disease prophylaxis</option>
-                      <option value="569">ischaemic stroke</option>
-                      <option value="570">juvenile idiopathic arthritis</option>
-                      <option value="571">juvenile myoclonic epilepsy</option>
-                      <option value="572">kaposi's sarcoma</option>
-                      <option value="573">kawasaki's disease</option>
-                      <option value="574">keratitis</option>
-                      <option value="575">kidney transplant rejection</option>
-                      <option value="576">klebsiella infection</option>
-                      <option value="577">knee arthroplasty</option>
-                      <option value="578">lacunar infarction</option>
-                      <option value="579">langerhans' cell histiocytosis</option>
-                      <option value="580">laryngeal cancer</option>
-                      <option value="581">latent autoimmune diabetes in adults</option>
-                      <option value="582">left ventricular failure</option>
-                      <option value="583">leiomyoma</option>
-                      <option value="584">leiomyosarcoma</option>
-                      <option value="585">leiomyosarcoma metastatic</option>
-                      <option value="586">lennox-gastaut syndrome</option>
-                      <option value="587">leukaemia</option>
-                      <option value="588">leukopenia</option>
-                      <option value="589">lip and/or oral cavity cancer</option>
-                      <option value="590">liposarcoma</option>
-                      <option value="591">liver transplant</option>
-                      <option value="592">local anaesthesia</option>
-                      <option value="593">lower respiratory tract infection</option>
-                      <option value="594">lung adenocarcinoma</option>
-                      <option value="595">lung adenocarcinoma recurrent</option>
-                      <option value="596">lung adenocarcinoma stage iii</option>
-                      <option value="597">lung adenocarcinoma stage iv</option>
-                      <option value="598">lung cancer metastatic</option>
-                      <option value="599">lung carcinoma cell type unspecified stage 0</option>
-                      <option value="600">lung carcinoma cell type unspecified stage iv</option>
-                      <option value="601">lung disorder</option>
-                      <option value="602">lung neoplasm</option>
-                      <option value="603">lung neoplasm malignant</option>
-                      <option value="604">lung squamous cell carcinoma metastatic</option>
-                      <option value="605">lung squamous cell carcinoma stage iii</option>
-                      <option value="606">lung squamous cell carcinoma stage iv</option>
-                      <option value="607">lung transplant</option>
-                      <option value="608">lupus nephritis</option>
-                      <option value="609">lymphocytic leukaemia</option>
-                      <option value="610">lymphoma</option>
-                      <option value="611">lymphoproliferative disorder</option>
-                      <option value="612">macular degeneration</option>
-                      <option value="613">macular oedema</option>
-                      <option value="614">macular oedema, retinal vein occlusion</option>
-                      <option value="615">magnetic resonance imaging</option>
-                      <option value="616">magnetic resonance imaging abdominal</option>
-                      <option value="617">magnetic resonance imaging head</option>
-                      <option value="618">maintenance of anaesthesia</option>
-                      <option value="619">major depression</option>
-                      <option value="620">malignant connective tissue neoplasm</option>
-                      <option value="621">malignant connective tissue neoplasm, soft tissue sarcoma</option>
-                      <option value="622">malignant glioma</option>
-                      <option value="623">malignant melanoma</option>
-                      <option value="624">malignant melanoma stage iii</option>
-                      <option value="625">malignant melanoma stage iv</option>
-                      <option value="626">malignant neoplasm of islets of langerhans</option>
-                      <option value="627">malignant neoplasm of renal pelvis</option>
-                      <option value="628">malignant neoplasm of thymus</option>
-                      <option value="629">malignant neoplasm progression</option>
-                      <option value="630">malignant peritoneal neoplasm</option>
-                      <option value="631">malignant urinary tract neoplasm</option>
-                      <option value="632">mania</option>
-                      <option value="633">mantle cell lymphoma</option>
-                      <option value="634">mantle cell lymphoma stage iv</option>
-                      <option value="635">marginal zone lymphoma</option>
-                      <option value="636">mastocytosis</option>
-                      <option value="637">maternal exposure timing unspecified</option>
-                      <option value="638">maternal therapy to enhance foetal lung maturity</option>
-                      <option value="639">medullary thyroid cancer</option>
-                      <option value="640">medulloblastoma</option>
-                      <option value="641">meningioma</option>
-                      <option value="642">meningitis</option>
-                      <option value="643">meningitis tuberculous</option>
-                      <option value="644">meningococcal immunisation</option>
-                      <option value="645">mental disorder</option>
-                      <option value="646">mesothelioma</option>
-                      <option value="647">mesothelioma malignant</option>
-                      <option value="648">metastases to bone</option>
-                      <option value="649">metastases to central nervous system</option>
-                      <option value="650">metastases to liver</option>
-                      <option value="651">metastases to lung</option>
-                      <option value="652">metastases to lymph nodes</option>
-                      <option value="653">metastases to peritoneum</option>
-                      <option value="654">metastasis</option>
-                      <option value="655">metastatic carcinoid tumour</option>
-                      <option value="656">metastatic gastric cancer</option>
-                      <option value="657">metastatic malignant melanoma</option>
-                      <option value="658">metastatic neoplasm</option>
-                      <option value="659">metastatic renal cell carcinoma</option>
-                      <option value="660">micturition urgency</option>
-                      <option value="661">migraine</option>
-                      <option value="662">migraine prophylaxis</option>
-                      <option value="663">migraine without aura</option>
-                      <option value="664">mixed anxiety and depressive disorder</option>
-                      <option value="665">motor neurone disease</option>
-                      <option value="666">mucopolysaccharidosis vi</option>
-                      <option value="667">mucormycosis</option>
-                      <option value="668">multifocal motor neuropathy</option>
-                      <option value="669">multiple sclerosis</option>
-                      <option value="670">multiple sclerosis relapse</option>
-                      <option value="671">multiple sclerosis, relapsing-remitting multiple sclerosis</option>
-                      <option value="672">myalgia</option>
-                      <option value="673">myasthenia gravis</option>
-                      <option value="674">myasthenic syndrome</option>
-                      <option value="675">mycobacterial infection</option>
-                      <option value="676">mycobacterium abscessus infection</option>
-                      <option value="677">mycobacterium avium complex infection</option>
-                      <option value="678">myelodysplastic syndrome</option>
-                      <option value="679">myelofibrosis</option>
-                      <option value="680">myeloid leukaemia</option>
-                      <option value="681">myeloproliferative neoplasm</option>
-                      <option value="682">myocardial infarction</option>
-                      <option value="683">myocardial infarction, stent placement</option>
-                      <option value="684">myocardial ischaemia</option>
-                      <option value="685">myoclonic epilepsy</option>
-                      <option value="686">myoclonus</option>
-                      <option value="687">myositis</option>
-                      <option value="688">narcolepsy</option>
-                      <option value="689">nasal polyps</option>
-                      <option value="690">nasopharyngeal cancer</option>
-                      <option value="691">nasopharyngitis</option>
-                      <option value="692">nausea</option>
-                      <option value="693">nausea, vomiting</option>
-                      <option value="694">neoplasm</option>
-                      <option value="695">neoplasm progression</option>
-                      <option value="696">neoplasm prostate</option>
-                      <option value="697">neovascular age-related macular degeneration</option>
-                      <option value="698">nephrogenic anaemia</option>
-                      <option value="699">nephropathy</option>
-                      <option value="700">nephrotic syndrome</option>
-                      <option value="701">nerve block</option>
-                      <option value="702">neuralgia</option>
-                      <option value="703">neuroblastoma</option>
-                      <option value="704">neuroblastoma recurrent</option>
-                      <option value="705">neuroendocrine carcinoma</option>
-                      <option value="706">neuroendocrine carcinoma metastatic</option>
-                      <option value="707">neuroendocrine carcinoma of the skin</option>
-                      <option value="708">neuroendocrine tumour</option>
-                      <option value="709">neuroendocrine tumour of the lung</option>
-                      <option value="710">neuromuscular blockade</option>
-                      <option value="711">neuromuscular blockade reversal</option>
-                      <option value="712">neuromyelitis optica spectrum disorder</option>
-                      <option value="713">neuropathy peripheral</option>
-                      <option value="714">neutropenia</option>
-                      <option value="715">nicotine dependence</option>
-                      <option value="716">niemann-pick disease</option>
-                      <option value="717">non-hodgkin's lymphoma</option>
-                      <option value="718">non-small cell lung cancer</option>
-                      <option value="719">non-small cell lung cancer metastatic</option>
-                      <option value="720">non-small cell lung cancer recurrent</option>
-                      <option value="721">non-small cell lung cancer stage iv</option>
-                      <option value="722">obesity</option>
-                      <option value="723">obsessive-compulsive disorder</option>
-                      <option value="724">oedema</option>
-                      <option value="725">oesophageal adenocarcinoma</option>
-                      <option value="726">oesophageal cancer metastatic</option>
-                      <option value="727">oesophageal carcinoma</option>
-                      <option value="728">oesophageal carcinoma recurrent</option>
-                      <option value="729">oesophageal squamous cell carcinoma</option>
-                      <option value="730">oesophageal squamous cell carcinoma stage iv</option>
-                      <option value="731">off label use</option>
-                      <option value="732">off label use, status epilepticus</option>
-                      <option value="733">oligodendroglioma</option>
-                      <option value="734">organ transplant</option>
-                      <option value="735">oropharyngeal cancer</option>
-                      <option value="736">osteoarthritis</option>
-                      <option value="737">osteoarthritis, rheumatoid arthritis</option>
-                      <option value="738">osteomyelitis</option>
-                      <option value="739">osteopenia</option>
-                      <option value="740">osteoporosis</option>
-                      <option value="741">osteoporosis postmenopausal</option>
-                      <option value="742">osteoporosis prophylaxis</option>
-                      <option value="743">osteoporotic fracture</option>
-                      <option value="744">osteosarcoma</option>
-                      <option value="745">otitis media</option>
-                      <option value="746">ovarian cancer</option>
-                      <option value="747">ovarian cancer metastatic</option>
-                      <option value="748">ovarian cancer recurrent</option>
-                      <option value="749">ovarian cancer stage iii</option>
-                      <option value="750">ovarian epithelial cancer</option>
-                      <option value="751">ovarian neoplasm</option>
-                      <option value="752">overdose</option>
-                      <option value="753">overweight</option>
-                      <option value="754">pain</option>
-                      <option value="755">pain in extremity</option>
-                      <option value="756">pain management</option>
-                      <option value="757">pancreas transplant</option>
-                      <option value="758">pancreatic carcinoma</option>
-                      <option value="759">pancreatic carcinoma metastatic</option>
-                      <option value="760">pancreatic carcinoma stage iv</option>
-                      <option value="761">pancreatic neuroendocrine tumour</option>
-                      <option value="762">pancreatic neuroendocrine tumour metastatic</option>
-                      <option value="763">pancytopenia</option>
-                      <option value="764">papillary renal cell carcinoma</option>
-                      <option value="765">papillary thyroid cancer</option>
-                      <option value="766">paraganglion neoplasm</option>
-                      <option value="767">paranoia</option>
-                      <option value="768">parkinson's disease</option>
-                      <option value="769">parkinsonism</option>
-                      <option value="770">paroxysmal nocturnal haemoglobinuria</option>
-                      <option value="771">partial seizures</option>
-                      <option value="772">partial seizures with secondary generalisation</option>
-                      <option value="773">pemphigoid</option>
-                      <option value="774">pemphigus</option>
-                      <option value="775">percutaneous coronary intervention</option>
-                      <option value="776">pericarditis</option>
-                      <option value="777">peripheral arterial occlusive disease</option>
-                      <option value="778">peripheral vascular disorder</option>
-                      <option value="779">peritonitis</option>
-                      <option value="780">personality disorder</option>
-                      <option value="781">petit mal epilepsy</option>
-                      <option value="782">phaeochromocytoma</option>
-                      <option value="783">pharyngitis</option>
-                      <option value="784">phenylketonuria</option>
-                      <option value="785">philadelphia positive acute lymphocytic leukaemia</option>
-                      <option value="786">philadelphia positive chronic myeloid leukaemia</option>
-                      <option value="787">phlebitis</option>
-                      <option value="788">pituitary tumour</option>
-                      <option value="789">pituitary-dependent cushing's syndrome</option>
-                      <option value="790">plasma cell leukaemia</option>
-                      <option value="791">plasma cell myeloma</option>
-                      <option value="792">plasma cell myeloma in remission</option>
-                      <option value="793">plasma cell myeloma refractory</option>
-                      <option value="794">plasmablastic lymphoma</option>
-                      <option value="795">platelet aggregation inhibition</option>
-                      <option value="796">platelet aggregation test</option>
-                      <option value="797">pleural mesothelioma</option>
-                      <option value="798">pleural mesothelioma malignant</option>
-                      <option value="799">pneumonia</option>
-                      <option value="800">pneumonia aspiration</option>
-                      <option value="801">pneumonia bacterial</option>
-                      <option value="802">pneumonia fungal</option>
-                      <option value="803">pneumonia legionella</option>
-                      <option value="804">pneumonitis</option>
-                      <option value="805">pollakiuria</option>
-                      <option value="806">polyarthritis</option>
-                      <option value="807">polycythaemia</option>
-                      <option value="808">polycythaemia vera</option>
-                      <option value="809">polymyalgia rheumatica</option>
-                      <option value="810">polymyositis</option>
-                      <option value="811">polyneuropathy</option>
-                      <option value="812">polypoidal choroidal vasculopathy</option>
-                      <option value="813">portopulmonary hypertension</option>
-                      <option value="814">post coital contraception</option>
-                      <option value="815">post herpetic neuralgia</option>
-                      <option value="816">post procedural haemorrhage</option>
-                      <option value="817">post transplant lymphoproliferative disorder</option>
-                      <option value="818">post-traumatic epilepsy</option>
-                      <option value="819">post-traumatic stress disorder</option>
-                      <option value="820">postoperative analgesia</option>
-                      <option value="821">postoperative care</option>
-                      <option value="822">postoperative wound infection</option>
-                      <option value="823">postpartum haemorrhage</option>
-                      <option value="824">prader-willi syndrome</option>
-                      <option value="825">precursor b-lymphoblastic lymphoma</option>
-                      <option value="826">precursor t-lymphoblastic lymphoma/leukaemia</option>
-                      <option value="827">pregnancy</option>
-                      <option value="828">premature baby</option>
-                      <option value="829">premature labour</option>
-                      <option value="830">premedication</option>
-                      <option value="831">primary amyloidosis</option>
-                      <option value="832">primary biliary cholangitis</option>
-                      <option value="833">primary immunodeficiency syndrome</option>
-                      <option value="834">primary mediastinal large b-cell lymphoma</option>
-                      <option value="835">primary myelofibrosis</option>
-                      <option value="836">primary progressive multiple sclerosis</option>
-                      <option value="837">procedural pain</option>
-                      <option value="838">procoagulant therapy</option>
-                      <option value="839">prophylaxis</option>
-                      <option value="840">prophylaxis against gastrointestinal ulcer</option>
-                      <option value="841">prophylaxis against graft versus host disease</option>
-                      <option value="842">prophylaxis against hiv infection</option>
-                      <option value="843">prophylaxis against transplant rejection</option>
-                      <option value="844">prophylaxis of nausea and vomiting</option>
-                      <option value="845">prophylaxis, routine health maintenance</option>
-                      <option value="846">prostate cancer</option>
-                      <option value="847">prostate cancer metastatic</option>
-                      <option value="848">prostate cancer stage iv</option>
-                      <option value="849">prostatitis</option>
-                      <option value="850">pruritus</option>
-                      <option value="851">pseudomonas infection</option>
-                      <option value="852">psoriasis</option>
-                      <option value="853">psoriasis, psoriatic arthropathy</option>
-                      <option value="854">psoriatic arthropathy</option>
-                      <option value="855">psoriatic arthropathy, rheumatoid arthritis</option>
-                      <option value="856">psychiatric symptom</option>
-                      <option value="857">psychomotor hyperactivity</option>
-                      <option value="858">psychotic disorder</option>
-                      <option value="859">psychotic symptom</option>
-                      <option value="860">pulmonary arterial hypertension</option>
-                      <option value="861">pulmonary arterial hypertension, pulmonary hypertension</option>
-                      <option value="862">pulmonary embolism</option>
-                      <option value="863">pulmonary fibrosis</option>
-                      <option value="864">pulmonary hypertension</option>
-                      <option value="865">pulmonary mass</option>
-                      <option value="866">pulmonary tuberculosis</option>
-                      <option value="867">pustular psoriasis</option>
-                      <option value="868">pyelonephritis</option>
-                      <option value="869">pyoderma gangrenosum</option>
-                      <option value="870">pyrexia</option>
-                      <option value="871">radiotherapy</option>
-                      <option value="872">raynaud's phenomenon</option>
-                      <option value="873">rectal adenocarcinoma</option>
-                      <option value="874">rectal cancer</option>
-                      <option value="875">rectal cancer metastatic</option>
-                      <option value="876">rectal cancer recurrent</option>
-                      <option value="877">rectal cancer stage iii</option>
-                      <option value="878">rectal cancer stage iv</option>
-                      <option value="879">rectosigmoid cancer</option>
-                      <option value="880">relapsing multiple sclerosis</option>
-                      <option value="881">relapsing-remitting multiple sclerosis</option>
-                      <option value="882">renal and pancreas transplant</option>
-                      <option value="883">renal cancer</option>
-                      <option value="884">renal cancer metastatic</option>
-                      <option value="885">renal cancer stage iv</option>
-                      <option value="886">renal cell carcinoma</option>
-                      <option value="887">renal cell carcinoma stage iii</option>
-                      <option value="888">renal cell carcinoma stage iv</option>
-                      <option value="889">renal disorder</option>
-                      <option value="890">renal failure</option>
-                      <option value="891">renal impairment</option>
-                      <option value="892">renal neoplasm</option>
-                      <option value="893">renal transplant</option>
-                      <option value="894">respiratory syncytial virus infection</option>
-                      <option value="895">respiratory tract infection</option>
-                      <option value="896">restless legs syndrome</option>
-                      <option value="897">retinal vein occlusion</option>
-                      <option value="898">retinoblastoma</option>
-                      <option value="899">rhabdomyosarcoma</option>
-                      <option value="900">rheumatic disorder</option>
-                      <option value="901">rheumatoid arthritis</option>
-                      <option value="902">rheumatoid arthritis, systemic lupus erythematosus</option>
-                      <option value="903">rhinitis</option>
-                      <option value="904">rhinitis allergic</option>
-                      <option value="905">rhinorrhoea</option>
-                      <option value="906">richter's syndrome</option>
-                      <option value="907">routine health maintenance</option>
-                      <option value="908">salivary gland cancer</option>
-                      <option value="909">sarcoidosis</option>
-                      <option value="910">sarcoma</option>
-                      <option value="911">sarcoma metastatic</option>
-                      <option value="912">scan</option>
-                      <option value="913">scan myocardial perfusion</option>
-                      <option value="914">scedosporium infection</option>
-                      <option value="915">schizoaffective disorder</option>
-                      <option value="916">schizophrenia</option>
-                      <option value="917">sciatica</option>
-                      <option value="918">scleroderma</option>
-                      <option value="919">scleroderma associated digital ulcer</option>
-                      <option value="920">secondary immunodeficiency</option>
-                      <option value="921">secondary progressive multiple sclerosis</option>
-                      <option value="922">sedation</option>
-                      <option value="923">sedative therapy</option>
-                      <option value="924">seizure</option>
-                      <option value="925">seizure prophylaxis</option>
-                      <option value="926">selective igg subclass deficiency</option>
-                      <option value="927">sepsis</option>
-                      <option value="928">serum ferritin increased</option>
-                      <option value="929">severe myoclonic epilepsy of infancy</option>
-                      <option value="930">sexual dysfunction</option>
-                      <option value="931">short stature</option>
-                      <option value="932">short-bowel syndrome</option>
-                      <option value="933">sickle cell anaemia</option>
-                      <option value="934">sickle cell disease</option>
-                      <option value="935">sinusitis</option>
-                      <option value="936">skin cancer</option>
-                      <option value="937">skin ulcer</option>
-                      <option value="938">sleep disorder therapy</option>
-                      <option value="939">small cell lung cancer</option>
-                      <option value="940">small intestine carcinoma</option>
-                      <option value="941">smoking cessation therapy</option>
-                      <option value="942">soft tissue sarcoma</option>
-                      <option value="943">spinal anaesthesia</option>
-                      <option value="944">spinal compression fracture</option>
-                      <option value="945">spinal muscular atrophy</option>
-                      <option value="946">spinal osteoarthritis</option>
-                      <option value="947">splenomegaly</option>
-                      <option value="948">spondylitis</option>
-                      <option value="949">squamous cell carcinoma</option>
-                      <option value="950">squamous cell carcinoma of head and neck</option>
-                      <option value="951">squamous cell carcinoma of lung</option>
-                      <option value="952">squamous cell carcinoma of skin</option>
-                      <option value="953">squamous cell carcinoma of the cervix</option>
-                      <option value="954">staphylococcal bacteraemia</option>
-                      <option value="955">staphylococcal infection</option>
-                      <option value="956">staphylococcal sepsis</option>
-                      <option value="957">status epilepticus</option>
-                      <option value="958">stem cell transplant</option>
-                      <option value="959">stent placement</option>
-                      <option value="960">still's disease</option>
-                      <option value="961">stress</option>
-                      <option value="962">substance abuse</option>
-                      <option value="963">suicide attempt</option>
-                      <option value="964">supportive care</option>
-                      <option value="965">surgery</option>
-                      <option value="966">surgical preconditioning</option>
-                      <option value="967">synovial sarcoma</option>
-                      <option value="968">systemic candida</option>
-                      <option value="969">systemic lupus erythematosus</option>
-                      <option value="970">systemic mastocytosis</option>
-                      <option value="971">systemic mycosis</option>
-                      <option value="972">systemic scleroderma</option>
-                      <option value="973">t-cell lymphoma</option>
-                      <option value="974">t-cell prolymphocytic leukaemia</option>
-                      <option value="975">t-cell type acute leukaemia</option>
-                      <option value="976">tachycardia</option>
-                      <option value="977">targeted cancer therapy</option>
-                      <option value="978">temporal lobe epilepsy</option>
-                      <option value="979">thalassaemia</option>
-                      <option value="980">thalassaemia beta</option>
-                      <option value="981">thermal burn</option>
-                      <option value="982">thrombocytopenia</option>
-                      <option value="983">thrombosis</option>
-                      <option value="984">thrombosis prophylaxis</option>
-                      <option value="985">thrombotic microangiopathy</option>
-                      <option value="986">thymoma</option>
-                      <option value="987">thyroid cancer</option>
-                      <option value="988">thyroid cancer metastatic</option>
-                      <option value="989">tobacco user</option>
-                      <option value="990">tocolysis</option>
-                      <option value="991">tongue neoplasm malignant stage unspecified</option>
-                      <option value="992">toxic epidermal necrolysis</option>
-                      <option value="993">toxicity to various agents</option>
-                      <option value="994">transient ischaemic attack</option>
-                      <option value="995">transitional cell cancer of the renal pelvis and ureter</option>
-                      <option value="996">transitional cell carcinoma</option>
-                      <option value="997">transitional cell carcinoma metastatic</option>
-                      <option value="998">transplant</option>
-                      <option value="999">transplant rejection</option>
-                      <option value="1000">tremor</option>
-                      <option value="1001">trigeminal neuralgia</option>
-                      <option value="1002">triple negative breast cancer</option>
-                      <option value="1003">tuberculosis</option>
-                      <option value="1004">tumour lysis syndrome</option>
-                      <option value="1005">turner's syndrome</option>
-                      <option value="1006">type 1 diabetes mellitus</option>
-                      <option value="1007">type 2 diabetes mellitus</option>
-                      <option value="1008">type 2 lepra reaction</option>
-                      <option value="1009">ulcer</option>
-                      <option value="1010">upper respiratory tract infection</option>
-                      <option value="1011">ureteric cancer</option>
-                      <option value="1012">urge incontinence</option>
-                      <option value="1013">urinary incontinence</option>
-                      <option value="1014">urinary tract infection</option>
-                      <option value="1015">urticaria</option>
-                      <option value="1016">urticaria chronic</option>
-                      <option value="1017">uterine cancer</option>
-                      <option value="1018">uterine leiomyoma</option>
-                      <option value="1019">uterine leiomyosarcoma</option>
-                      <option value="1020">uveitis</option>
-                      <option value="1021">vascular graft</option>
-                      <option value="1022">vasculitis</option>
-                      <option value="1023">venoocclusive disease</option>
-                      <option value="1024">venoocclusive liver disease</option>
-                      <option value="1025">venous thrombosis</option>
-                      <option value="1026">viral infection</option>
-                      <option value="1027">vitreous adhesions</option>
-                      <option value="1028">vomiting</option>
-                      <option value="1029">von willebrand's disease</option>
-                      <option value="1030">waldenstrom's macroglobulinaemia</option>
-                      <option value="1031">weight control</option>
-                      <option value="1032">weight decreased</option>
-                      <option value="1033">wheezing</option>
-                      <option value="1034">white blood cell count decreased</option>
-                      <option value="1035">withdrawal syndrome</option>
-                      <option value="1036">wound</option>
-                      <option value="1037">wound infection</option>
-                      <option value="1038">wrong product administered</option>
-                    </select>
-                  </div>
-                  <div>
-                    <canvas id="drugsChartView"></canvas>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-      </div>
-    </div>
-    <!-- page content -->
-    <!-- footer content -->
-    <footer>
-      <!-- AddToAny BEGIN -->
-      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-title="Drugs for the Treatment of Pathologies">
-        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-        <a class="a2a_button_facebook"></a>
-        <a class="a2a_button_twitter"></a>
-        <a class="a2a_button_whatsapp"></a>
-        <a class="a2a_button_telegram"></a>
-        <a class="a2a_button_email"></a>
-      </div>
-      <script>
+<div class="container body">
+<div class="main_container">
+<!-- top navigation -->
+<div class="top_nav">
+</div>
+<!-- top navigation -->
+<!-- page content -->
+<div class="right_col" role="main">
+<div>
+<div class="page-title">
+<div class="title_left">
+<h1 id="heading">Drugs for the Treatment of Pathologies</h1>
+<h2>By Craig Paardekooper</h2>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="row">
+<div class="col">
+<div class="x_panel">
+<div class="x_content">
+<div style="margin-bottom: 20px;">
+<label>Select a Pathology:</label>
+<select id="pathologySelect" name="pathology"><option disabled="" hidden="" selected="" value="">Select Pathology</option><option value="1">abdominal discomfort</option><option value="2">abdominal pain</option><option value="3">abortion</option><option value="4">abortion induced</option><option value="5">abscess</option><option value="6">accidental exposure to product</option><option value="7">accidental exposure to product by child</option><option value="8">acinetobacter infection</option><option value="9">acquired haemophilia</option><option value="10">acquired immunodeficiency syndrome</option><option value="11">acquired immunodeficiency syndrome, hiv infection</option><option value="12">acromegaly</option><option value="13">actinic keratosis</option><option value="14">acute coronary syndrome</option><option value="15">acute graft versus host disease</option><option value="16">acute leukaemia</option><option value="17">acute lymphocytic leukaemia</option><option value="18">acute lymphocytic leukaemia recurrent</option><option value="19">acute lymphocytic leukaemia refractory</option><option value="20">acute monocytic leukaemia</option><option value="21">acute myeloid leukaemia</option><option value="22">acute myeloid leukaemia recurrent</option><option value="23">acute myeloid leukaemia refractory</option><option value="24">acute myocardial infarction</option><option value="25">acute promyelocytic leukaemia</option><option value="26">acute psychosis</option><option value="27">acute sinusitis</option><option value="28">adenocarcinoma</option><option value="29">adenocarcinoma gastric</option><option value="30">adenocarcinoma of colon</option><option value="31">adenocarcinoma pancreas</option><option value="32">adenovirus infection</option><option value="33">adjuvant therapy</option><option value="34">adrenal gland cancer</option><option value="35">adrenal insufficiency</option><option value="36">adrenocortical carcinoma</option><option value="37">adult t-cell lymphoma/leukaemia</option><option value="38">advanced systemic mastocytosis</option><option value="39">adverse drug reaction</option><option value="40">affective disorder</option><option value="41">age-related macular degeneration</option><option value="42">aggression</option><option value="43">agitation</option><option value="44">agranulocytosis</option><option value="45">alcoholism</option><option value="46">allogenic bone marrow transplantation therapy</option><option value="47">allogenic stem cell transplantation</option><option value="48">allogenic stem cell transplantation, bone marrow conditioning regimen</option><option value="49">alopecia</option><option value="50">alveolar rhabdomyosarcoma</option><option value="51">alveolar soft part sarcoma</option><option value="52">amyloidosis</option><option value="53">amyotrophic lateral sclerosis</option><option value="54">anaemia</option><option value="55">anaemia of malignant disease</option><option value="56">anaesthesia</option><option value="57">anaesthesia procedure</option><option value="58">analgesic therapy</option><option value="59">anaplastic large cell lymphoma t- and null-cell types</option><option value="60">anaplastic thyroid cancer</option><option value="61">androgen replacement therapy</option><option value="62">anger</option><option value="63">angina pectoris</option><option value="64">angina unstable</option><option value="65">angiocentric lymphoma</option><option value="66">angioedema</option><option value="67">angiogram</option><option value="68">angiomyolipoma</option><option value="69">angiopathy</option><option value="70">angioplasty</option><option value="71">angiosarcoma</option><option value="72">ankylosing spondylitis</option><option value="73">anogenital warts</option><option value="74">anti-infective therapy</option><option value="75">antibiotic prophylaxis</option><option value="76">antibiotic therapy</option><option value="77">anticoagulant therapy</option><option value="78">antidepressant therapy</option><option value="79">antiemetic supportive care</option><option value="80">antifungal prophylaxis</option><option value="81">antifungal treatment</option><option value="82">antiphospholipid syndrome</option><option value="83">antiplatelet therapy</option><option value="84">antipsychotic therapy</option><option value="85">antiretroviral therapy</option><option value="86">antiviral prophylaxis</option><option value="87">antiviral treatment</option><option value="88">anxiety</option><option value="89">anxiety disorder</option><option value="90">anxiety, depression</option><option value="91">aplasia pure red cell</option><option value="92">aplastic anaemia</option><option value="93">appendix cancer</option><option value="94">arrhythmia</option><option value="95">arterial disorder</option><option value="96">arterial occlusive disease</option><option value="97">arteriosclerosis</option><option value="98">arteriosclerosis coronary artery</option><option value="99">arthralgia</option><option value="100">arthritis</option><option value="101">arthritis bacterial</option><option value="102">arthritis infective</option><option value="103">arthritis, rheumatoid arthritis</option><option value="104">arthropathy</option><option value="105">aspergilloma</option><option value="106">aspergillus infection</option><option value="107">assisted reproductive technology</option><option value="108">asthenia</option><option value="109">asthma</option><option value="110">asthma, chronic obstructive pulmonary disease</option><option value="111">asthma, eosinophilic granulomatosis with polyangiitis</option><option value="112">astrocytoma</option><option value="113">astrocytoma malignant</option><option value="114">astrocytoma, low grade</option><option value="115">atrial fibrillation</option><option value="116">atrial fibrillation, cerebrovascular accident prophylaxis, thrombosis prophylaxis</option><option value="117">atrial flutter</option><option value="118">atypical haemolytic uraemic syndrome</option><option value="119">atypical mycobacterial infection</option><option value="120">autism spectrum disorder</option><option value="121">autoimmune disorder</option><option value="122">autoimmune haemolytic anaemia</option><option value="123">autoimmune hepatitis</option><option value="124">autologous haematopoietic stem cell transplant</option><option value="125">axial spondyloarthritis</option><option value="126">b precursor type acute leukaemia</option><option value="127">b-cell lymphoma</option><option value="128">b-cell small lymphocytic lymphoma</option><option value="129">b-cell type acute leukaemia</option><option value="130">back pain</option><option value="131">bacteraemia</option><option value="132">bacterial infection</option><option value="133">basal cell carcinoma</option><option value="134">behaviour disorder</option><option value="135">behcet's syndrome</option><option value="136">benign prostatic hyperplasia</option><option value="137">bile duct cancer</option><option value="138">bipolar disorder</option><option value="139">bipolar i disorder</option><option value="140">bipolar ii disorder</option><option value="141">bladder cancer</option><option value="142">bladder disorder</option><option value="143">bladder transitional cell carcinoma</option><option value="144">blast crisis in myelogenous leukaemia</option><option value="145">blood disorder</option><option value="146">blood glucose</option><option value="147">blood glucose abnormal</option><option value="148">blood glucose decreased</option><option value="149">blood glucose increased</option><option value="150">blood iron increased</option><option value="151">blood potassium increased</option><option value="152">blood pressure abnormal</option><option value="153">blood pressure increased</option><option value="154">blood pressure measurement</option><option value="155">blood testosterone decreased</option><option value="156">blood uric acid increased</option><option value="157">bone cancer</option><option value="158">bone disorder</option><option value="159">bone marrow conditioning regimen</option><option value="160">bone marrow transplant</option><option value="161">bone pain</option><option value="162">borderline personality disorder</option><option value="163">bradycardia</option><option value="164">braf gene mutation</option><option value="165">brain neoplasm</option><option value="166">brain neoplasm malignant</option><option value="167">brain oedema</option><option value="168">breakthrough pain</option><option value="169">breast cancer</option><option value="170">breast cancer female</option><option value="171">breast cancer female, breast cancer metastatic</option><option value="172">breast cancer male</option><option value="173">breast cancer metastatic</option><option value="174">breast cancer recurrent</option><option value="175">breast cancer stage i</option><option value="176">breast cancer stage ii</option><option value="177">breast cancer stage iii</option><option value="178">breast cancer stage iv</option><option value="179">breast neoplasm</option><option value="180">bronchial carcinoma</option><option value="181">bronchitis</option><option value="182">bronchitis chronic</option><option value="183">bronchopulmonary aspergillosis</option><option value="184">bronchopulmonary aspergillosis allergic</option><option value="185">bronchopulmonary dysplasia</option><option value="186">burkitt's lymphoma</option><option value="187">c3 glomerulopathy</option><option value="188">cancer pain</option><option value="189">candida infection</option><option value="190">carcinoid syndrome</option><option value="191">carcinoid tumour</option><option value="192">carcinoid tumour pulmonary</option><option value="193">cardiac amyloidosis</option><option value="194">cardiac disorder</option><option value="195">cardiac failure</option><option value="196">cardiac failure chronic</option><option value="197">cardiac failure congestive</option><option value="198">cardiac failure, diabetes mellitus</option><option value="199">cardiac failure, type 2 diabetes mellitus</option><option value="200">cardiac operation</option><option value="201">cardiac pacemaker insertion</option><option value="202">cardiac stress test</option><option value="203">cardiac ventricular thrombosis</option><option value="204">cardiomyopathy</option><option value="205">cardiovascular disorder</option><option value="206">cardiovascular event prophylaxis</option><option value="207">carotid artery occlusion</option><option value="208">carotid artery stenosis</option><option value="209">castleman's disease</option><option value="210">cataplexy</option><option value="211">cataract</option><option value="212">cataract operation</option><option value="213">catatonia</option><option value="214">catheterisation cardiac</option><option value="215">cellulitis</option><option value="216">central nervous system lymphoma</option><option value="217">cerebral infarction</option><option value="218">cerebral ischaemia</option><option value="219">cerebrovascular accident</option><option value="220">cerebrovascular accident prophylaxis</option><option value="221">cerebrovascular disorder</option><option value="222">cervix carcinoma</option><option value="223">cervix carcinoma stage iv</option><option value="224">chelation therapy</option><option value="225">chemotherapy</option><option value="226">chest pain</option><option value="227">cholangitis</option><option value="228">choriocarcinoma</option><option value="229">choroid melanoma</option><option value="230">choroidal neovascularisation</option><option value="231">choroidal neovascularisation, neovascular age-related macular degeneration</option><option value="232">chronic graft versus host disease</option><option value="233">chronic hepatitis</option><option value="234">chronic hepatitis b</option><option value="235">chronic hepatitis c</option><option value="236">chronic inflammatory demyelinating polyradiculoneuropathy</option><option value="237">chronic kidney disease</option><option value="238">chronic kidney disease, type 2 diabetes mellitus</option><option value="239">chronic lymphocytic leukaemia</option><option value="240">chronic lymphocytic leukaemia recurrent</option><option value="241">chronic lymphocytic leukaemia refractory</option><option value="242">chronic myeloid leukaemia</option><option value="243">chronic myeloid leukaemia transformation</option><option value="244">chronic myelomonocytic leukaemia</option><option value="245">chronic obstructive pulmonary disease</option><option value="246">chronic obstructive pulmonary disease, emphysema</option><option value="247">chronic rhinosinusitis with nasal polyps</option><option value="248">chronic sinusitis</option><option value="249">chronic spontaneous urticaria</option><option value="250">chronic spontaneous urticaria, urticaria</option><option value="251">clear cell renal cell carcinoma</option><option value="252">clostridium difficile colitis</option><option value="253">clostridium difficile infection</option><option value="254">cluster headache</option><option value="255">coagulopathy</option><option value="256">colitis</option><option value="257">colitis microscopic</option><option value="258">colitis ulcerative</option><option value="259">colitis ulcerative, crohn's disease</option><option value="260">colitis ulcerative, rheumatoid arthritis</option><option value="261">colon cancer</option><option value="262">colon cancer metastatic</option><option value="263">colon cancer recurrent</option><option value="264">colon cancer stage iii</option><option value="265">colon cancer stage iv</option><option value="266">colon cancer, metastases to liver</option><option value="267">colorectal adenocarcinoma</option><option value="268">colorectal cancer</option><option value="269">colorectal cancer metastatic</option><option value="270">colorectal cancer recurrent</option><option value="271">colorectal cancer stage iv</option><option value="272">combined immunodeficiency</option><option value="273">complex regional pain syndrome</option><option value="274">complications of transplant surgery</option><option value="275">computerised tomogram</option><option value="276">congenital aplastic anaemia</option><option value="277">congenital cytomegalovirus infection</option><option value="278">connective tissue disorder</option><option value="279">contraception</option><option value="280">controlled ovarian stimulation</option><option value="281">cor pulmonale chronic</option><option value="282">cord blood transplant therapy</option><option value="283">coronary angioplasty</option><option value="284">coronary arterial stent insertion</option><option value="285">coronary artery bypass</option><option value="286">coronary artery disease</option><option value="287">coronavirus infection</option><option value="288">cough</option><option value="289">covid-19</option><option value="290">covid-19 immunisation</option><option value="291">covid-19 pneumonia</option><option value="292">covid-19 prophylaxis</option><option value="293">crohn's disease</option><option value="294">cushing's syndrome</option><option value="295">cutaneous t-cell lymphoma</option><option value="296">cystic fibrosis</option><option value="297">cystitis</option><option value="298">cystitis interstitial</option><option value="299">cystoid macular oedema</option><option value="300">cytokine release syndrome</option><option value="301">cytomegalovirus chorioretinitis</option><option value="302">cytomegalovirus colitis</option><option value="303">cytomegalovirus infection</option><option value="304">cytomegalovirus infection reactivation</option><option value="305">cytomegalovirus viraemia</option><option value="306">deep vein thrombosis</option><option value="307">deep vein thrombosis, pulmonary embolism</option><option value="308">delirium</option><option value="309">delusion</option><option value="310">delusional disorder, unspecified type</option><option value="311">dementia</option><option value="312">dementia alzheimer's type</option><option value="313">demyelinating polyneuropathy</option><option value="314">dependence</option><option value="315">depressed mood</option><option value="316">depression</option><option value="317">depressive symptom</option><option value="318">dermatitis</option><option value="319">dermatitis atopic</option><option value="320">dermatomyositis</option><option value="321">desmoplastic small round cell tumour</option><option value="322">device related infection</option><option value="323">diabetes mellitus</option><option value="324">diabetes mellitus inadequate control</option><option value="325">diabetes mellitus management</option><option value="326">diabetic foot</option><option value="327">diabetic neuropathy</option><option value="328">diabetic retinal oedema</option><option value="329">diabetic retinopathy</option><option value="330">dialysis</option><option value="331">diarrhoea</option><option value="332">diffuse large b-cell lymphoma</option><option value="333">diffuse large b-cell lymphoma recurrent</option><option value="334">diffuse large b-cell lymphoma refractory</option><option value="335">diffuse large b-cell lymphoma stage ii</option><option value="336">diffuse large b-cell lymphoma stage iii</option><option value="337">diffuse large b-cell lymphoma stage iv</option><option value="338">dilated cardiomyopathy</option><option value="339">disseminated intravascular coagulation</option><option value="340">disseminated tuberculosis</option><option value="341">diuretic therapy</option><option value="342">drug abuse</option><option value="343">drug dependence</option><option value="344">drug therapy</option><option value="345">drug use disorder</option><option value="346">drug withdrawal maintenance therapy</option><option value="347">drug withdrawal syndrome</option><option value="348">ductal adenocarcinoma of pancreas</option><option value="349">dupuytren's contracture</option><option value="350">dyspnoea</option><option value="351">dysuria</option><option value="352">eczema</option><option value="353">egfr gene mutation</option><option value="354">embolism</option><option value="355">embolism venous</option><option value="356">emphysema</option><option value="357">encephalitis</option><option value="358">encephalitis autoimmune</option><option value="359">encephalopathy</option><option value="360">end stage renal disease</option><option value="361">endocarditis</option><option value="362">endocarditis staphylococcal</option><option value="363">endometrial adenocarcinoma</option><option value="364">endometrial cancer</option><option value="365">endometrial cancer metastatic</option><option value="366">endometrial cancer recurrent</option><option value="367">endometrial cancer stage iv</option><option value="368">endophthalmitis</option><option value="369">endotracheal intubation</option><option value="370">enteritis</option><option value="371">enterococcal infection</option><option value="372">eosinophilia</option><option value="373">eosinophilic granulomatosis with polyangiitis</option><option value="374">epidural anaesthesia</option><option value="375">epidural analgesia</option><option value="376">epilepsy</option><option value="377">epilepsy, partial seizures</option><option value="378">epilepsy, seizure</option><option value="379">epileptic encephalopathy</option><option value="380">epstein-barr virus infection</option><option value="381">erectile dysfunction</option><option value="382">erythema</option><option value="383">erythrodermic psoriasis</option><option value="384">essential hypertension</option><option value="385">essential thrombocythaemia</option><option value="386">ewing's sarcoma</option><option value="387">ex-tobacco user</option><option value="388">exposure during pregnancy</option><option value="389">extrapulmonary tuberculosis</option><option value="390">extrapyramidal disorder</option><option value="391">fabry's disease</option><option value="392">factor vii deficiency</option><option value="393">factor viii deficiency</option><option value="394">failed back surgery syndrome</option><option value="395">fallopian tube cancer</option><option value="396">febrile neutropenia</option><option value="397">fibromyalgia</option><option value="398">focal dyscognitive seizures</option><option value="399">focal segmental glomerulosclerosis</option><option value="400">foetal exposure during pregnancy</option><option value="401">follicular lymphoma</option><option value="402">follicular thyroid cancer</option><option value="403">fracture</option><option value="404">frontal lobe epilepsy</option><option value="405">fungal infection</option><option value="406">fusarium infection</option><option value="407">gait disturbance</option><option value="408">gallbladder cancer</option><option value="409">gastric cancer</option><option value="410">gastric cancer stage iv</option><option value="411">gastritis</option><option value="412">gastroenteritis</option><option value="413">gastroenteropancreatic neuroendocrine tumour disease</option><option value="414">gastrointestinal cancer metastatic</option><option value="415">gastrointestinal carcinoma</option><option value="416">gastrointestinal disorder</option><option value="417">gastrointestinal haemorrhage</option><option value="418">gastrointestinal stromal tumour</option><option value="419">gastrooesophageal reflux disease</option><option value="420">gaucher's disease</option><option value="421">gene mutation</option><option value="422">general anaesthesia</option><option value="423">generalised anxiety disorder</option><option value="424">generalised tonic-clonic seizure</option><option value="425">gestational diabetes</option><option value="426">gestational trophoblastic tumour</option><option value="427">giant cell arteritis</option><option value="428">gingival cancer</option><option value="429">glaucoma</option><option value="430">glioblastoma</option><option value="431">glioblastoma multiforme</option><option value="432">glioma</option><option value="433">glomerulonephritis</option><option value="434">glomerulonephritis membranoproliferative</option><option value="435">glomerulonephritis membranous</option><option value="436">glucose tolerance impaired</option><option value="437">gout</option><option value="438">graft versus host disease</option><option value="439">graft versus host disease in gastrointestinal tract</option><option value="440">graft versus host disease in skin</option><option value="441">granulomatosis with polyangiitis</option><option value="442">growth hormone deficiency</option><option value="443">growth retardation</option><option value="444">guillain-barre syndrome</option><option value="445">h1n1 influenza</option><option value="446">haemangioma</option><option value="447">haematoma</option><option value="448">haematopoietic stem cell mobilisation</option><option value="449">haemochromatosis</option><option value="450">haemoglobin decreased</option><option value="451">haemolytic anaemia</option><option value="452">haemolytic uraemic syndrome</option><option value="453">haemophagocytic lymphohistiocytosis</option><option value="454">haemophilia</option><option value="455">haemophilia a with anti factor viii</option><option value="456">haemophilia a without inhibitors</option><option value="457">haemorrhage</option><option value="458">haemosiderosis</option><option value="459">hairy cell leukaemia</option><option value="460">hallucination</option><option value="461">head and neck cancer</option><option value="462">headache</option><option value="463">heart disease congenital</option><option value="464">heart failure with preserved ejection fraction</option><option value="465">heart failure with reduced ejection fraction</option><option value="466">heart transplant</option><option value="467">heavy menstrual bleeding</option><option value="468">hepatic cancer</option><option value="469">hepatic cancer metastatic</option><option value="470">hepatic cirrhosis</option><option value="471">hepatic cirrhosis, hepatitis c</option><option value="472">hepatic neoplasm</option><option value="473">hepatitis</option><option value="474">hepatitis b</option><option value="475">hepatitis c</option><option value="476">hepatitis c virus test</option><option value="477">hepatitis c virus test positive</option><option value="478">hepatitis viral</option><option value="479">hepato-lenticular degeneration</option><option value="480">hepatocellular carcinoma</option><option value="481">her2 negative breast cancer</option><option value="482">her2 positive breast cancer</option><option value="483">hereditary angioedema</option><option value="484">hereditary angioedema with c1 esterase inhibitor deficiency</option><option value="485">hereditary angioedema, prophylaxis</option><option value="486">herpes zoster</option><option value="487">herpes zoster immunisation</option><option value="488">hidradenitis</option><option value="489">high-grade b-cell lymphoma</option><option value="490">hip arthroplasty</option><option value="491">hiv infection</option><option value="492">hiv infection, hepatitis b</option><option value="493">hiv infection, prophylaxis against hiv infection</option><option value="494">hiv test positive</option><option value="495">hodgkin's disease</option><option value="496">hormone receptor positive breast cancer</option><option value="497">hormone receptor positive her2 negative breast cancer</option><option value="498">hormone suppression therapy</option><option value="499">hormone therapy</option><option value="500">hormone-dependent prostate cancer</option><option value="501">hormone-refractory prostate cancer</option><option value="502">hormone-refractory prostate cancer, metastases to bone</option><option value="503">humoral immune defect</option><option value="504">hypercalcaemia</option><option value="505">hypercalcaemia of malignancy</option><option value="506">hypereosinophilic syndrome</option><option value="507">hyperglycaemia</option><option value="508">hyperkalaemia</option><option value="509">hyperlipidaemia</option><option value="510">hyperparathyroidism</option><option value="511">hyperparathyroidism primary</option><option value="512">hyperparathyroidism secondary</option><option value="513">hypersensitivity</option><option value="514">hypertension</option><option value="515">hyperthyroidism</option><option value="516">hypertonic bladder</option><option value="517">hyperuricaemia</option><option value="518">hypoaesthesia</option><option value="519">hypogammaglobulinaemia</option><option value="520">hypoglobulinaemia</option><option value="521">hypoglycaemia</option><option value="522">hypogonadism</option><option value="523">hypomania</option><option value="524">hypopharyngeal cancer</option><option value="525">hypopituitarism</option><option value="526">idiopathic pulmonary fibrosis</option><option value="527">idiopathic pulmonary fibrosis, interstitial lung disease</option><option value="528">idiopathic urticaria</option><option value="529">ill-defined disorder</option><option value="530">illness</option><option value="531">imaging procedure</option><option value="532">immune thrombocytopenia</option><option value="533">immunisation</option><option value="534">immunodeficiency</option><option value="535">immunodeficiency common variable</option><option value="536">immunosuppressant drug therapy</option><option value="537">immunosuppression</option><option value="538">in vitro fertilisation</option><option value="539">incontinence</option><option value="540">induction and maintenance of anaesthesia</option><option value="541">induction of anaesthesia</option><option value="542">infantile haemangioma</option><option value="543">infantile spasms</option><option value="544">infarction</option><option value="545">infection</option><option value="546">infection prophylaxis</option><option value="547">infertility</option><option value="548">inflammation</option><option value="549">inflammatory bowel disease</option><option value="550">influenza</option><option value="551">influenza immunisation</option><option value="552">influenza like illness</option><option value="553">initial insomnia</option><option value="554">insomnia</option><option value="555">insulin-requiring type 2 diabetes mellitus</option><option value="556">intentional overdose</option><option value="557">intentional product misuse</option><option value="558">intentional product use issue</option><option value="559">interstitial lung disease</option><option value="560">intervertebral discitis</option><option value="561">intestinal ulcer</option><option value="562">invasive breast carcinoma</option><option value="563">invasive ductal breast carcinoma</option><option value="564">invasive lobular breast carcinoma</option><option value="565">iron metabolism disorder</option><option value="566">iron overload</option><option value="567">ischaemic cardiomyopathy</option><option value="568">ischaemic heart disease prophylaxis</option><option value="569">ischaemic stroke</option><option value="570">juvenile idiopathic arthritis</option><option value="571">juvenile myoclonic epilepsy</option><option value="572">kaposi's sarcoma</option><option value="573">kawasaki's disease</option><option value="574">keratitis</option><option value="575">kidney transplant rejection</option><option value="576">klebsiella infection</option><option value="577">knee arthroplasty</option><option value="578">lacunar infarction</option><option value="579">langerhans' cell histiocytosis</option><option value="580">laryngeal cancer</option><option value="581">latent autoimmune diabetes in adults</option><option value="582">left ventricular failure</option><option value="583">leiomyoma</option><option value="584">leiomyosarcoma</option><option value="585">leiomyosarcoma metastatic</option><option value="586">lennox-gastaut syndrome</option><option value="587">leukaemia</option><option value="588">leukopenia</option><option value="589">lip and/or oral cavity cancer</option><option value="590">liposarcoma</option><option value="591">liver transplant</option><option value="592">local anaesthesia</option><option value="593">lower respiratory tract infection</option><option value="594">lung adenocarcinoma</option><option value="595">lung adenocarcinoma recurrent</option><option value="596">lung adenocarcinoma stage iii</option><option value="597">lung adenocarcinoma stage iv</option><option value="598">lung cancer metastatic</option><option value="599">lung carcinoma cell type unspecified stage 0</option><option value="600">lung carcinoma cell type unspecified stage iv</option><option value="601">lung disorder</option><option value="602">lung neoplasm</option><option value="603">lung neoplasm malignant</option><option value="604">lung squamous cell carcinoma metastatic</option><option value="605">lung squamous cell carcinoma stage iii</option><option value="606">lung squamous cell carcinoma stage iv</option><option value="607">lung transplant</option><option value="608">lupus nephritis</option><option value="609">lymphocytic leukaemia</option><option value="610">lymphoma</option><option value="611">lymphoproliferative disorder</option><option value="612">macular degeneration</option><option value="613">macular oedema</option><option value="614">macular oedema, retinal vein occlusion</option><option value="615">magnetic resonance imaging</option><option value="616">magnetic resonance imaging abdominal</option><option value="617">magnetic resonance imaging head</option><option value="618">maintenance of anaesthesia</option><option value="619">major depression</option><option value="620">malignant connective tissue neoplasm</option><option value="621">malignant connective tissue neoplasm, soft tissue sarcoma</option><option value="622">malignant glioma</option><option value="623">malignant melanoma</option><option value="624">malignant melanoma stage iii</option><option value="625">malignant melanoma stage iv</option><option value="626">malignant neoplasm of islets of langerhans</option><option value="627">malignant neoplasm of renal pelvis</option><option value="628">malignant neoplasm of thymus</option><option value="629">malignant neoplasm progression</option><option value="630">malignant peritoneal neoplasm</option><option value="631">malignant urinary tract neoplasm</option><option value="632">mania</option><option value="633">mantle cell lymphoma</option><option value="634">mantle cell lymphoma stage iv</option><option value="635">marginal zone lymphoma</option><option value="636">mastocytosis</option><option value="637">maternal exposure timing unspecified</option><option value="638">maternal therapy to enhance foetal lung maturity</option><option value="639">medullary thyroid cancer</option><option value="640">medulloblastoma</option><option value="641">meningioma</option><option value="642">meningitis</option><option value="643">meningitis tuberculous</option><option value="644">meningococcal immunisation</option><option value="645">mental disorder</option><option value="646">mesothelioma</option><option value="647">mesothelioma malignant</option><option value="648">metastases to bone</option><option value="649">metastases to central nervous system</option><option value="650">metastases to liver</option><option value="651">metastases to lung</option><option value="652">metastases to lymph nodes</option><option value="653">metastases to peritoneum</option><option value="654">metastasis</option><option value="655">metastatic carcinoid tumour</option><option value="656">metastatic gastric cancer</option><option value="657">metastatic malignant melanoma</option><option value="658">metastatic neoplasm</option><option value="659">metastatic renal cell carcinoma</option><option value="660">micturition urgency</option><option value="661">migraine</option><option value="662">migraine prophylaxis</option><option value="663">migraine without aura</option><option value="664">mixed anxiety and depressive disorder</option><option value="665">motor neurone disease</option><option value="666">mucopolysaccharidosis vi</option><option value="667">mucormycosis</option><option value="668">multifocal motor neuropathy</option><option value="669">multiple sclerosis</option><option value="670">multiple sclerosis relapse</option><option value="671">multiple sclerosis, relapsing-remitting multiple sclerosis</option><option value="672">myalgia</option><option value="673">myasthenia gravis</option><option value="674">myasthenic syndrome</option><option value="675">mycobacterial infection</option><option value="676">mycobacterium abscessus infection</option><option value="677">mycobacterium avium complex infection</option><option value="678">myelodysplastic syndrome</option><option value="679">myelofibrosis</option><option value="680">myeloid leukaemia</option><option value="681">myeloproliferative neoplasm</option><option value="682">myocardial infarction</option><option value="683">myocardial infarction, stent placement</option><option value="684">myocardial ischaemia</option><option value="685">myoclonic epilepsy</option><option value="686">myoclonus</option><option value="687">myositis</option><option value="688">narcolepsy</option><option value="689">nasal polyps</option><option value="690">nasopharyngeal cancer</option><option value="691">nasopharyngitis</option><option value="692">nausea</option><option value="693">nausea, vomiting</option><option value="694">neoplasm</option><option value="695">neoplasm progression</option><option value="696">neoplasm prostate</option><option value="697">neovascular age-related macular degeneration</option><option value="698">nephrogenic anaemia</option><option value="699">nephropathy</option><option value="700">nephrotic syndrome</option><option value="701">nerve block</option><option value="702">neuralgia</option><option value="703">neuroblastoma</option><option value="704">neuroblastoma recurrent</option><option value="705">neuroendocrine carcinoma</option><option value="706">neuroendocrine carcinoma metastatic</option><option value="707">neuroendocrine carcinoma of the skin</option><option value="708">neuroendocrine tumour</option><option value="709">neuroendocrine tumour of the lung</option><option value="710">neuromuscular blockade</option><option value="711">neuromuscular blockade reversal</option><option value="712">neuromyelitis optica spectrum disorder</option><option value="713">neuropathy peripheral</option><option value="714">neutropenia</option><option value="715">nicotine dependence</option><option value="716">niemann-pick disease</option><option value="717">non-hodgkin's lymphoma</option><option value="718">non-small cell lung cancer</option><option value="719">non-small cell lung cancer metastatic</option><option value="720">non-small cell lung cancer recurrent</option><option value="721">non-small cell lung cancer stage iv</option><option value="722">obesity</option><option value="723">obsessive-compulsive disorder</option><option value="724">oedema</option><option value="725">oesophageal adenocarcinoma</option><option value="726">oesophageal cancer metastatic</option><option value="727">oesophageal carcinoma</option><option value="728">oesophageal carcinoma recurrent</option><option value="729">oesophageal squamous cell carcinoma</option><option value="730">oesophageal squamous cell carcinoma stage iv</option><option value="731">off label use</option><option value="732">off label use, status epilepticus</option><option value="733">oligodendroglioma</option><option value="734">organ transplant</option><option value="735">oropharyngeal cancer</option><option value="736">osteoarthritis</option><option value="737">osteoarthritis, rheumatoid arthritis</option><option value="738">osteomyelitis</option><option value="739">osteopenia</option><option value="740">osteoporosis</option><option value="741">osteoporosis postmenopausal</option><option value="742">osteoporosis prophylaxis</option><option value="743">osteoporotic fracture</option><option value="744">osteosarcoma</option><option value="745">otitis media</option><option value="746">ovarian cancer</option><option value="747">ovarian cancer metastatic</option><option value="748">ovarian cancer recurrent</option><option value="749">ovarian cancer stage iii</option><option value="750">ovarian epithelial cancer</option><option value="751">ovarian neoplasm</option><option value="752">overdose</option><option value="753">overweight</option><option value="754">pain</option><option value="755">pain in extremity</option><option value="756">pain management</option><option value="757">pancreas transplant</option><option value="758">pancreatic carcinoma</option><option value="759">pancreatic carcinoma metastatic</option><option value="760">pancreatic carcinoma stage iv</option><option value="761">pancreatic neuroendocrine tumour</option><option value="762">pancreatic neuroendocrine tumour metastatic</option><option value="763">pancytopenia</option><option value="764">papillary renal cell carcinoma</option><option value="765">papillary thyroid cancer</option><option value="766">paraganglion neoplasm</option><option value="767">paranoia</option><option value="768">parkinson's disease</option><option value="769">parkinsonism</option><option value="770">paroxysmal nocturnal haemoglobinuria</option><option value="771">partial seizures</option><option value="772">partial seizures with secondary generalisation</option><option value="773">pemphigoid</option><option value="774">pemphigus</option><option value="775">percutaneous coronary intervention</option><option value="776">pericarditis</option><option value="777">peripheral arterial occlusive disease</option><option value="778">peripheral vascular disorder</option><option value="779">peritonitis</option><option value="780">personality disorder</option><option value="781">petit mal epilepsy</option><option value="782">phaeochromocytoma</option><option value="783">pharyngitis</option><option value="784">phenylketonuria</option><option value="785">philadelphia positive acute lymphocytic leukaemia</option><option value="786">philadelphia positive chronic myeloid leukaemia</option><option value="787">phlebitis</option><option value="788">pituitary tumour</option><option value="789">pituitary-dependent cushing's syndrome</option><option value="790">plasma cell leukaemia</option><option value="791">plasma cell myeloma</option><option value="792">plasma cell myeloma in remission</option><option value="793">plasma cell myeloma refractory</option><option value="794">plasmablastic lymphoma</option><option value="795">platelet aggregation inhibition</option><option value="796">platelet aggregation test</option><option value="797">pleural mesothelioma</option><option value="798">pleural mesothelioma malignant</option><option value="799">pneumonia</option><option value="800">pneumonia aspiration</option><option value="801">pneumonia bacterial</option><option value="802">pneumonia fungal</option><option value="803">pneumonia legionella</option><option value="804">pneumonitis</option><option value="805">pollakiuria</option><option value="806">polyarthritis</option><option value="807">polycythaemia</option><option value="808">polycythaemia vera</option><option value="809">polymyalgia rheumatica</option><option value="810">polymyositis</option><option value="811">polyneuropathy</option><option value="812">polypoidal choroidal vasculopathy</option><option value="813">portopulmonary hypertension</option><option value="814">post coital contraception</option><option value="815">post herpetic neuralgia</option><option value="816">post procedural haemorrhage</option><option value="817">post transplant lymphoproliferative disorder</option><option value="818">post-traumatic epilepsy</option><option value="819">post-traumatic stress disorder</option><option value="820">postoperative analgesia</option><option value="821">postoperative care</option><option value="822">postoperative wound infection</option><option value="823">postpartum haemorrhage</option><option value="824">prader-willi syndrome</option><option value="825">precursor b-lymphoblastic lymphoma</option><option value="826">precursor t-lymphoblastic lymphoma/leukaemia</option><option value="827">pregnancy</option><option value="828">premature baby</option><option value="829">premature labour</option><option value="830">premedication</option><option value="831">primary amyloidosis</option><option value="832">primary biliary cholangitis</option><option value="833">primary immunodeficiency syndrome</option><option value="834">primary mediastinal large b-cell lymphoma</option><option value="835">primary myelofibrosis</option><option value="836">primary progressive multiple sclerosis</option><option value="837">procedural pain</option><option value="838">procoagulant therapy</option><option value="839">prophylaxis</option><option value="840">prophylaxis against gastrointestinal ulcer</option><option value="841">prophylaxis against graft versus host disease</option><option value="842">prophylaxis against hiv infection</option><option value="843">prophylaxis against transplant rejection</option><option value="844">prophylaxis of nausea and vomiting</option><option value="845">prophylaxis, routine health maintenance</option><option value="846">prostate cancer</option><option value="847">prostate cancer metastatic</option><option value="848">prostate cancer stage iv</option><option value="849">prostatitis</option><option value="850">pruritus</option><option value="851">pseudomonas infection</option><option value="852">psoriasis</option><option value="853">psoriasis, psoriatic arthropathy</option><option value="854">psoriatic arthropathy</option><option value="855">psoriatic arthropathy, rheumatoid arthritis</option><option value="856">psychiatric symptom</option><option value="857">psychomotor hyperactivity</option><option value="858">psychotic disorder</option><option value="859">psychotic symptom</option><option value="860">pulmonary arterial hypertension</option><option value="861">pulmonary arterial hypertension, pulmonary hypertension</option><option value="862">pulmonary embolism</option><option value="863">pulmonary fibrosis</option><option value="864">pulmonary hypertension</option><option value="865">pulmonary mass</option><option value="866">pulmonary tuberculosis</option><option value="867">pustular psoriasis</option><option value="868">pyelonephritis</option><option value="869">pyoderma gangrenosum</option><option value="870">pyrexia</option><option value="871">radiotherapy</option><option value="872">raynaud's phenomenon</option><option value="873">rectal adenocarcinoma</option><option value="874">rectal cancer</option><option value="875">rectal cancer metastatic</option><option value="876">rectal cancer recurrent</option><option value="877">rectal cancer stage iii</option><option value="878">rectal cancer stage iv</option><option value="879">rectosigmoid cancer</option><option value="880">relapsing multiple sclerosis</option><option value="881">relapsing-remitting multiple sclerosis</option><option value="882">renal and pancreas transplant</option><option value="883">renal cancer</option><option value="884">renal cancer metastatic</option><option value="885">renal cancer stage iv</option><option value="886">renal cell carcinoma</option><option value="887">renal cell carcinoma stage iii</option><option value="888">renal cell carcinoma stage iv</option><option value="889">renal disorder</option><option value="890">renal failure</option><option value="891">renal impairment</option><option value="892">renal neoplasm</option><option value="893">renal transplant</option><option value="894">respiratory syncytial virus infection</option><option value="895">respiratory tract infection</option><option value="896">restless legs syndrome</option><option value="897">retinal vein occlusion</option><option value="898">retinoblastoma</option><option value="899">rhabdomyosarcoma</option><option value="900">rheumatic disorder</option><option value="901">rheumatoid arthritis</option><option value="902">rheumatoid arthritis, systemic lupus erythematosus</option><option value="903">rhinitis</option><option value="904">rhinitis allergic</option><option value="905">rhinorrhoea</option><option value="906">richter's syndrome</option><option value="907">routine health maintenance</option><option value="908">salivary gland cancer</option><option value="909">sarcoidosis</option><option value="910">sarcoma</option><option value="911">sarcoma metastatic</option><option value="912">scan</option><option value="913">scan myocardial perfusion</option><option value="914">scedosporium infection</option><option value="915">schizoaffective disorder</option><option value="916">schizophrenia</option><option value="917">sciatica</option><option value="918">scleroderma</option><option value="919">scleroderma associated digital ulcer</option><option value="920">secondary immunodeficiency</option><option value="921">secondary progressive multiple sclerosis</option><option value="922">sedation</option><option value="923">sedative therapy</option><option value="924">seizure</option><option value="925">seizure prophylaxis</option><option value="926">selective igg subclass deficiency</option><option value="927">sepsis</option><option value="928">serum ferritin increased</option><option value="929">severe myoclonic epilepsy of infancy</option><option value="930">sexual dysfunction</option><option value="931">short stature</option><option value="932">short-bowel syndrome</option><option value="933">sickle cell anaemia</option><option value="934">sickle cell disease</option><option value="935">sinusitis</option><option value="936">skin cancer</option><option value="937">skin ulcer</option><option value="938">sleep disorder therapy</option><option value="939">small cell lung cancer</option><option value="940">small intestine carcinoma</option><option value="941">smoking cessation therapy</option><option value="942">soft tissue sarcoma</option><option value="943">spinal anaesthesia</option><option value="944">spinal compression fracture</option><option value="945">spinal muscular atrophy</option><option value="946">spinal osteoarthritis</option><option value="947">splenomegaly</option><option value="948">spondylitis</option><option value="949">squamous cell carcinoma</option><option value="950">squamous cell carcinoma of head and neck</option><option value="951">squamous cell carcinoma of lung</option><option value="952">squamous cell carcinoma of skin</option><option value="953">squamous cell carcinoma of the cervix</option><option value="954">staphylococcal bacteraemia</option><option value="955">staphylococcal infection</option><option value="956">staphylococcal sepsis</option><option value="957">status epilepticus</option><option value="958">stem cell transplant</option><option value="959">stent placement</option><option value="960">still's disease</option><option value="961">stress</option><option value="962">substance abuse</option><option value="963">suicide attempt</option><option value="964">supportive care</option><option value="965">surgery</option><option value="966">surgical preconditioning</option><option value="967">synovial sarcoma</option><option value="968">systemic candida</option><option value="969">systemic lupus erythematosus</option><option value="970">systemic mastocytosis</option><option value="971">systemic mycosis</option><option value="972">systemic scleroderma</option><option value="973">t-cell lymphoma</option><option value="974">t-cell prolymphocytic leukaemia</option><option value="975">t-cell type acute leukaemia</option><option value="976">tachycardia</option><option value="977">targeted cancer therapy</option><option value="978">temporal lobe epilepsy</option><option value="979">thalassaemia</option><option value="980">thalassaemia beta</option><option value="981">thermal burn</option><option value="982">thrombocytopenia</option><option value="983">thrombosis</option><option value="984">thrombosis prophylaxis</option><option value="985">thrombotic microangiopathy</option><option value="986">thymoma</option><option value="987">thyroid cancer</option><option value="988">thyroid cancer metastatic</option><option value="989">tobacco user</option><option value="990">tocolysis</option><option value="991">tongue neoplasm malignant stage unspecified</option><option value="992">toxic epidermal necrolysis</option><option value="993">toxicity to various agents</option><option value="994">transient ischaemic attack</option><option value="995">transitional cell cancer of the renal pelvis and ureter</option><option value="996">transitional cell carcinoma</option><option value="997">transitional cell carcinoma metastatic</option><option value="998">transplant</option><option value="999">transplant rejection</option><option value="1000">tremor</option><option value="1001">trigeminal neuralgia</option><option value="1002">triple negative breast cancer</option><option value="1003">tuberculosis</option><option value="1004">tumour lysis syndrome</option><option value="1005">turner's syndrome</option><option value="1006">type 1 diabetes mellitus</option><option value="1007">type 2 diabetes mellitus</option><option value="1008">type 2 lepra reaction</option><option value="1009">ulcer</option><option value="1010">upper respiratory tract infection</option><option value="1011">ureteric cancer</option><option value="1012">urge incontinence</option><option value="1013">urinary incontinence</option><option value="1014">urinary tract infection</option><option value="1015">urticaria</option><option value="1016">urticaria chronic</option><option value="1017">uterine cancer</option><option value="1018">uterine leiomyoma</option><option value="1019">uterine leiomyosarcoma</option><option value="1020">uveitis</option><option value="1021">vascular graft</option><option value="1022">vasculitis</option><option value="1023">venoocclusive disease</option><option value="1024">venoocclusive liver disease</option><option value="1025">venous thrombosis</option><option value="1026">viral infection</option><option value="1027">vitreous adhesions</option><option value="1028">vomiting</option><option value="1029">von willebrand's disease</option><option value="1030">waldenstrom's macroglobulinaemia</option><option value="1031">weight control</option><option value="1032">weight decreased</option><option value="1033">wheezing</option><option value="1034">white blood cell count decreased</option><option value="1035">withdrawal syndrome</option><option value="1036">wound</option><option value="1037">wound infection</option><option value="1038">wrong product administered</option></select>
+</div>
+<div>
+<canvas id="drugsChartView"></canvas>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<!-- page content -->
+<!-- footer content -->
+<footer>
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-title="Drugs for the Treatment of Pathologies">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_telegram"></a>
+<a class="a2a_button_email"></a>
+</div>
+<script>
         var a2a_config = a2a_config || {};
         a2a_config.callbacks = a2a_config.callbacks || [];
         a2a_config.callbacks.push({
           share: _ => ({ url: window.location.href }),
         });
       </script>
-      <script async="" src="https://static.addtoany.com/menu/page.js"></script>
-      <!-- AddToAny END -->
-      <br />
-      <p>
-        <a href="https://howbad.info/essd.zip" target="_blank">Data Source <i aria-hidden="true"
-            class="fa fa-external-link"></i>
-        </a>
-      </p>
-      <span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch" target="_blank">Fork me on
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+<br/>
+<p>
+<a href="https://howbad.info/essd.zip" target="_blank">Data Source <i aria-hidden="true" class="fa fa-external-link"></i>
+</a>
+</p>
+<span id="forkongithub"><a href="https://github.com/KnollFrank/HowBadIsMyBatch" target="_blank">Fork me on
           GitHub <i aria-hidden="true" class="fa fa-external-link"></i>
-        </a></span>
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-  <template id="template-number-with-bar">
-    <div>
-      <div class="number"></div>
-      <div class="bar"></div>
-    </div>
-  </template>
-  <!-- jQuery -->
-  <script src="../gentelella/vendors/jquery/dist/jquery.min.js"></script>
-  <!-- Bootstrap -->
-  <script src="../gentelella/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
-  <!-- FastClick -->
-  <script src="../gentelella/vendors/fastclick/lib/fastclick.js"></script>
-  <!-- Custom Theme Scripts -->
-  <script src="../gentelella/build/js/custom.js"></script>
+</a></span>
+<div class="clearfix"></div>
+</footer>
+</div>
+<template id="template-number-with-bar">
+<div>
+<div class="number"></div>
+<div class="bar"></div>
+</div>
+</template>
+<!-- jQuery -->
+<script src="../gentelella/vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../gentelella/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<!-- FastClick -->
+<script src="../gentelella/vendors/fastclick/lib/fastclick.js"></script>
+<!-- Custom Theme Scripts -->
+<script src="../gentelella/build/js/custom.js"></script>
 </body>
-
 </html>
