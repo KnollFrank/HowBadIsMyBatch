@@ -15,31 +15,26 @@ class DrugsChartView {
             this.#canvas,
             {
                 type: 'bar',
-                plugins: [ChartDataLabels],
                 data: this.#getData(drugDescr),
                 options: this.#getOptions()
             });
     }
 
-    setData(histoDescr) {
-        const data = this.#getData(histoDescr);
-        this.#chart.config.data = data;
-        this.#chart.update();
-    }
-
     #getData(drugDescr) {
         return {
             labels: drugDescr['DRUG'],
-            datasets: [{
-                label: 'Fatal',
-                data: this.#divide(drugDescr['FATAL'], drugDescr['CASES']),
-                backgroundColor: '#FF0000'
-            },
-            {
-                label: 'Recovered',
-                data: this.#divide(drugDescr['RECOVERED'], drugDescr['CASES']),
-                backgroundColor: '#00FF00'
-            }]
+            datasets: [
+                {
+                    label: 'Recovered',
+                    data: this.#divide(drugDescr['RECOVERED'], drugDescr['CASES']),
+                    backgroundColor: '#00FF00'
+                },
+                {
+                    label: 'Fatal',
+                    data: this.#divide(drugDescr['FATAL'], drugDescr['CASES']),
+                    backgroundColor: '#FF0000'
+                }
+            ]
         };
     }
 
@@ -51,24 +46,26 @@ class DrugsChartView {
 
     #getOptions() {
         return {
-            plugins: {
-                datalabels: {
-                    anchor: 'end',
-                    align: 'top'
-                }
-            },
             title: {
                 display: true,
                 position: 'top'
             },
             scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Drug'
+                    }
+                },
                 y: {
                     ticks: {
-                        precision: 0
+                        format: {
+                            style: 'percent'
+                        }
                     },
                     title: {
                         display: true,
-                        text: 'Frequency'
+                        text: 'percentage of reports'
                     }
                 }
             }
