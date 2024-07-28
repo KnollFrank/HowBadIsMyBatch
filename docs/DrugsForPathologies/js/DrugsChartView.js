@@ -22,7 +22,7 @@ class DrugsChartView {
 
     #getData(drugDescr) {
         return {
-            labels: drugDescr['DRUG'],
+            labels: this.#addNumberOfReports2EachDrug(drugDescr['DRUG'], drugDescr['CASES']),
             datasets: [
                 {
                     label: 'Recovered',
@@ -36,6 +36,12 @@ class DrugsChartView {
                 }
             ]
         };
+    }
+
+    #addNumberOfReports2EachDrug(drugList, numberOfReportsList) {
+        return Utils
+            .zip([drugList, numberOfReportsList])
+            .map(([drug, numberOfReports]) => `${drug} (${numberOfReports} reports)`);
     }
 
     #divide(dividends, divisors) {
@@ -65,7 +71,7 @@ class DrugsChartView {
                     },
                     title: {
                         display: true,
-                        text: 'percentage of reports'
+                        text: 'Percentage of reports'
                     }
                 }
             }
