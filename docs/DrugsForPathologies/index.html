@@ -7,17 +7,16 @@
   <meta charset="utf-8" />
   <meta content="IE=edge" http-equiv="X-UA-Compatible" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Drugs for Pathologies</title>
-  <!-- FK-TODO: reactivate GA: -->
+  <title>Drugs for the Treatment of Pathologies</title>
   <!-- Google tag (gtag.js) -->
-  <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ERHYDH4P64"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-ERHYDH4P64');
-  </script> -->
+  </script>
   <!-- Bootstrap -->
   <link href="../gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
@@ -29,6 +28,8 @@
   <script src="./js/PageInitializer.js"></script>
   <script src="./js/DrugsChartView.js"></script>
   <script src="../Utils.js"></script>
+  <script src="../UrlUtils.js"></script>
+  <script src="../URLSearchParam.js"></script>
   <script src="../Select2.js"></script>
   <script>
     document.addEventListener(
@@ -37,7 +38,8 @@
         PageInitializer.initializePage(
           {
             pathologySelectElement: $('#pathologySelect'),
-            drugsChartViewElement: document.querySelector("#drugsChartView")
+            drugsChartViewElement: document.querySelector("#drugsChartView"),
+            urlSearchParam: new URLSearchParam('pathology'),
           }
         );
       });
@@ -56,10 +58,8 @@
         <div>
           <div class="page-title">
             <div class="title_left">
-              <h1 id="heading">Drugs for Treatment of Pathologies</h1>
-              <p>
-                By Craig Paardekooper
-              </p>
+              <h1 id="heading">Drugs for the Treatment of Pathologies</h1>
+              <h2 >By Craig Paardekooper</h2>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -68,7 +68,7 @@
               <div class="x_panel">
                 <div class="x_content">
                   <div style="margin-bottom: 20px;">
-                    <label>Select Pathology:</label>
+                    <label>Select a Pathology:</label>
                     <select id="pathologySelect" name="pathology">
                       <option disabled="" hidden="" selected="" value="">Select Pathology</option>
                       <option value="1">abdominal discomfort</option>
@@ -1128,7 +1128,7 @@
     <!-- footer content -->
     <footer>
       <!-- AddToAny BEGIN -->
-      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-title="EU Safety Signal (All drugs)">
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-title="Drugs for the Treatment of Pathologies">
         <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
         <a class="a2a_button_facebook"></a>
         <a class="a2a_button_twitter"></a>
