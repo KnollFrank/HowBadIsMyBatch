@@ -1,20 +1,20 @@
 import html
 
 def getVaccineOptions(vaccines, filenameByDrug, defaultOptionText):
-    return _getOptionsWithDefaultOption(
+    return getOptionsWithDefaultOption(
         defaultOptionText = defaultOptionText,
         values = vaccines,
         filenameByValue = filenameByDrug)
 
 
 def getSymptomOptions(symptoms, filenameBySymptom):
-    return _getOptionsWithDefaultOption(
+    return getOptionsWithDefaultOption(
         defaultOptionText = 'Select Symptom',
         values = symptoms,
         filenameByValue = filenameBySymptom)
 
 
-def _getOptionsWithDefaultOption(defaultOptionText, values, filenameByValue):
+def getOptionsWithDefaultOption(defaultOptionText, values, filenameByValue):
     return ['<option hidden disabled selected value>{defaultOptionText}</option>'.format(defaultOptionText = defaultOptionText)] + _getOptions(values, filenameByValue)
 
 

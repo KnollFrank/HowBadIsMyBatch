@@ -1,0 +1,1 @@
+{"CASES": [231, 244, 174, 189, 383, 525], "DRUG": ["APIDRA", "JANUVIA", "JANUMET", "INSULIN GLARGINE", "LANTUS", "HUMALOG"], "FATAL": [8, 3, 2, 2, 4, 1], "PATHOLOGY": "blood glucose increased", "RECOVERED": [61, 31, 40, 39, 72, 81]}

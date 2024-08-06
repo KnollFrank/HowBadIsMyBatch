@@ -1,0 +1,1 @@
+{"CASES": [143, 469, 203, 281, 225, 338, 305], "DRUG": ["JANUMET", "LANTUS", "NOVORAPID FLEXPEN", "BYETTA", "LEVEMIR", "LEVEMIR FLEXPEN", "HUMALOG"], "FATAL": [9, 21, 9, 12, 7, 5, 2], "PATHOLOGY": "insulin-requiring type 2 diabetes mellitus", "RECOVERED": [43, 332, 111, 89, 141, 193, 166]}
