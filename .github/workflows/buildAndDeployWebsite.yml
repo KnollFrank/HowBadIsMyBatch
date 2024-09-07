@@ -45,6 +45,7 @@ jobs:
           python ./HowBadIsMyBatch.py          
           # jupyter nbconvert --ExecutePreprocessor.kernel_name="howbadismybatch-venv-kernel" --to notebook --allow-errors --execute HowBadIsMyBatch.ipynb
           # jupyter nbconvert --to html HowBadIsMyBatch.nbconvert.ipynb
+          git status
           git add -A
           git diff-index --quiet HEAD || git commit -m "updating data for batch codes"
       - name: Pushing changes to GitHub Pages
