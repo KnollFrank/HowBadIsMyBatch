@@ -27,7 +27,7 @@ jobs:
         run: |
           conda activate howbadismybatch-venv
           wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_127.0.6533.119-1_amd64.deb
-          sudo dpkg -i google-chrome-stable_current_amd64.deb
+          sudo dpkg -i google-chrome-stable_127.0.6533.119-1_amd64.deb
           sudo apt install google-chrome-stable
       - name: Installing ipython kernel
         shell: bash -el {0}
