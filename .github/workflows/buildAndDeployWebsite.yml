@@ -26,6 +26,8 @@ jobs:
         shell: bash -el {0}
         run: |
           conda activate howbadismybatch-venv
+          mkdir src/tmp
+          cd src/tmp
           wget http://archive.ubuntu.com/ubuntu/pool/main/libu/libu2f-host/libu2f-udev_1.1.4-1_all.deb
           sudo dpkg -i libu2f-udev_1.1.4-1_all.deb
           wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_127.0.6533.119-1_amd64.deb
