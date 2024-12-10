@@ -6,9 +6,9 @@ from GoogleAnalytics.Resolution import Resolution
 class CityCountsByBatchcodeTablesMerger:
 
     @staticmethod
-    def getCityCountsByClickedBatchcode(dataDir):
+    def getCityCountsByClickedBatchcode(dataDir, includeDateRange = False):
         files = FilesProvider(dataDir).getFilesHavingResolution(Resolution.CITY)
-        cityCountsByClickedBatchcodeTables = [RegionCountsByClickedBatchcodeProvider._getCityCountsByClickedBatchcode(file) for file in files]
+        cityCountsByClickedBatchcodeTables = [RegionCountsByClickedBatchcodeProvider._getCityCountsByClickedBatchcode(file, includeDateRange) for file in files]
         table = pd.concat(cityCountsByClickedBatchcodeTables)
         return CityCountsByBatchcodeTablesMerger._getCityCountsByClickedBatchcodeFromTable(table)
 

@@ -11,4 +11,4 @@ class GoogleAnalyticsReaderTest(unittest.TestCase):
         dateRange = GoogleAnalyticsReader.getDateRange(dataDir = 'src/testdata/GoogleAnalytics')
         
         # Then
-        self.assertEqual(dateRange, (date(2023, 3, 2), date(2023, 9, 29)))
+        self.assertEqual(dateRange, (date(2023, 3, 2), date(2023, 9, 30)))
