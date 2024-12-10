@@ -5,33 +5,38 @@ from datetime import datetime
 
 class GoogleAnalyticsReader:
 
-    def __init__(self, dataDir):
-        self.dataDir = dataDir
+    @staticmethod
+    def getDateRange(dataDir):
+        return GoogleAnalyticsReader._getMinMaxDateRange(GoogleAnalyticsReader._getDateRanges(dataDir))
 
-    def getDateRange(self):
-        return self._getMinMaxDateRange(self._getDateRanges())
+    @staticmethod
+    def _getDateRanges(dataDir):
+        return [GoogleAnalyticsReader._getDateRange(file) for file in GoogleAnalyticsReader._getFiles(dataDir)]
 
-    def _getDateRanges(self):
-        return [self._getDateRange(file) for file in self._getFiles()]
+    @staticmethod
+    def _getFiles(dataDir):
+        return glob.glob(dataDir + '/*')
 
-    def _getFiles(self):
-        return glob.glob(self.dataDir + '/*')
-
-    def _getDateRange(self, file):
+    @staticmethod
+    def _getDateRange(file):
         dateRangeLine = linecache.getline(file, 4)
         startDate, endDate = dateRangeLine[2:10], dateRangeLine[11:19]
-        return self._str2Date(startDate), self._str2Date(endDate)
+        return GoogleAnalyticsReader._str2Date(startDate), GoogleAnalyticsReader._str2Date(endDate)
 
-    def _str2Date(self, str):
+    @staticmethod
+    def _str2Date(str):
         return datetime.strptime(str, '%Y%m%d').date()
     
-    def _getMinMaxDateRange(self, dateRanges):
-        minStartDate = min([self._getStartDate(dateRange) for dateRange in dateRanges])
-        maxEndDate = max([self._getEndDate(dateRange) for dateRange in dateRanges])
+    @staticmethod
+    def _getMinMaxDateRange(dateRanges):
+        minStartDate = min([GoogleAnalyticsReader._getStartDate(dateRange) for dateRange in dateRanges])
+        maxEndDate = max([GoogleAnalyticsReader._getEndDate(dateRange) for dateRange in dateRanges])
         return minStartDate, maxEndDate
     
-    def _getStartDate(self, dateRange):
+    @staticmethod
+    def _getStartDate(dateRange):
         return dateRange[0]
 
-    def _getEndDate(self, dateRange):
+    @staticmethod
+    def _getEndDate(dateRange):
         return dateRange[1]
