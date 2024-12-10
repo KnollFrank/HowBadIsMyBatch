@@ -6,10 +6,9 @@ class GoogleAnalyticsReaderTest(unittest.TestCase):
 
     def test_getDateRange(self):
         # Given
-        googleAnalyticsReader = GoogleAnalyticsReader(dataDir = 'src/testdata/GoogleAnalytics')
             
         # When
-        dateRange = googleAnalyticsReader.getDateRange()
+        dateRange = GoogleAnalyticsReader.getDateRange(dataDir = 'src/testdata/GoogleAnalytics')
         
         # Then
-        self.assertEqual(dateRange, (date(2023, 3, 2), date(2023, 9, 29)))
+        self.assertEqual(dateRange, (date(2023, 3, 2), date(2023, 9, 30)))

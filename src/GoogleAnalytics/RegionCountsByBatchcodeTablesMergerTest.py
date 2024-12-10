@@ -18,7 +18,7 @@ class RegionCountsByBatchcodeTablesMergerTest(unittest.TestCase):
             TestHelper.createDataFrame(
                 columns = ['REGION_COUNT_BY_VAX_LOT'],
                 data = [  [100       + 200],
-                          [(10 + 20) + (20 + 40)]],
+                          [(10 + 20) + (20 + 40 + 400)]],
                 index = pd.MultiIndex.from_tuples(
                             names =   ['VAX_LOT',  'COUNTRY',       'REGION'],
                             tuples = [['#003B21A', 'United States', 'California'],

@@ -11,4 +11,4 @@ class FilesProvider:
         return [file for file in self._getFiles() if ResolutionProvider.getResolution(file) == resolution]
 
     def _getFiles(self):
-        return glob.glob(self.dataDir + '/*')
+        return sorted(glob.glob(self.dataDir + '/*'))
