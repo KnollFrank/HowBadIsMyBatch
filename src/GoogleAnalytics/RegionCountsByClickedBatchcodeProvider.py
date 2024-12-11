@@ -19,7 +19,6 @@ class RegionCountsByClickedBatchcodeProvider:
                 'Event count': 'CITY_COUNT_BY_VAX_LOT'
             },
             index_columns = ['COUNTRY', 'REGION', 'CITY'],
-            # FK-TODO: inline {'startDate' : 'START_DATE', 'endDate': 'END_DATE'} ?
             dateRangeIndexColumns = {'startDate' : 'START_DATE', 'endDate': 'END_DATE'} if includeDateRange else None)
 
     @staticmethod
