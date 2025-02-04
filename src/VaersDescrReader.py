@@ -27,8 +27,8 @@ class VaersDescrReader:
     def _readVAERSDATA(self, file):
         VAERSDATA = self._read_csv(
             file = file,
-            usecols = ['VAERS_ID', 'RECVDATE', 'DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL', 'ER_VISIT', 'SPLTTYPE'],
-            parse_dates = ['RECVDATE'],
+            usecols = ['VAERS_ID', 'RECVDATE', 'DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL', 'ER_VISIT', 'VAX_DATE', 'SPLTTYPE'],
+            parse_dates = ['RECVDATE', 'VAX_DATE'],
             date_parser = lambda dateStr: pd.to_datetime(dateStr, format = '%m/%d/%Y'))
         DataFrameNormalizer._convertColumnsOfDataFrame_Y_to_1_else_0(
             VAERSDATA,

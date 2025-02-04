@@ -18,8 +18,8 @@ class VaersDescrReaderTest(unittest.TestCase):
         assert_frame_equal(
                 vaersDescr['VAERSDATA'],
                 TestHelper.createDataFrame(
-                    columns = ['RECVDATE',                                          'DIED', 'L_THREAT', 'ER_VISIT', 'HOSPITAL', 'DISABLE', 'SPLTTYPE'],
-                    data = [  [pd.to_datetime('01/01/2023', format = "%m/%d/%Y"),   0,      0,          0,          0,          0,         np.nan]],
+                    columns = ['RECVDATE',                                        'DIED', 'L_THREAT', 'ER_VISIT', 'HOSPITAL', 'DISABLE', 'VAX_DATE',                                        'SPLTTYPE'],
+                    data = [  [pd.to_datetime('01/01/2023', format = "%m/%d/%Y"), 0,      0,          0,          0,          0,         pd.to_datetime('04/06/2021', format = "%m/%d/%Y"), np.nan]],
                     index = pd.Index(
                             name = 'VAERS_ID',
                             data = [2547730])))
