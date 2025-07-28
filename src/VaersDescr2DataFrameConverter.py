@@ -10,7 +10,7 @@ class VaersDescr2DataFrameConverter:
                 how = 'left',
                 left_index = True,
                 right_index = True,
-                validate = 'one_to_many')
+                validate = 'many_to_many')
 
     @staticmethod
     def createDataFrameFromDescrs(vaersDescrs):
