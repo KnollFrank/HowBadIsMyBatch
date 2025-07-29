@@ -1,6 +1,6 @@
 from CountryColumnAdder import CountryColumnAdder
 from VaersDescrReader import VaersDescrReader
-from VaersDescr2DataFrameConverter import VaersDescr2DataFrameConverter
+from DataFrameJoinAndDeduplicate import DataFrameJoinAndDeduplicate
 from SevereColumnAdder import SevereColumnAdder
 
 def getVaersForYears(dataDir, years):
@@ -18,7 +18,10 @@ def getNonDomesticVaers(dataDir):
         addCountryColumn = lambda dataFrame: CountryColumnAdder(dataFrame).addCountryColumn(dataFrame))
 
 def _getVaers(vaersDescrs, addCountryColumn):
-    dataFrame = VaersDescr2DataFrameConverter.createDataFrameFromDescrs(vaersDescrs)
+    dataFrame = DataFrameJoinAndDeduplicate.mergeListOfDataframesAndDeduplicateByIndex(_as_VAERSDATA_VAERSVAX_Pairs(vaersDescrs))
     dataFrame = addCountryColumn(dataFrame)
     dataFrame = SevereColumnAdder.addSevereColumn(dataFrame)
     return dataFrame
+
+def _as_VAERSDATA_VAERSVAX_Pairs(vaersDescrs):
+    return [(vaersDescr['VAERSDATA'], vaersDescr['VAERSVAX']) for vaersDescr in vaersDescrs]
