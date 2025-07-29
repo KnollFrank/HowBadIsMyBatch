@@ -2,14 +2,11 @@ import unittest
 from pandas.testing import assert_frame_equal
 from VaersDescr2DataFrameConverter import VaersDescr2DataFrameConverter
 from TestHelper import TestHelper
-import pandas as pd
 
 class VaersDescr2DataFrameConverterTest(unittest.TestCase):
 
     def test_createDataFrameFromDescr(self):
         # Given
-        pd.set_option('display.max_rows', 100)
-        pd.set_option('display.max_columns', None)
         vaersDescr = {
                     'VAERSDATA': TestHelper.createDataFrame(
                         columns = ['DIED', 'L_THREAT', 'DISABLE', 'HOSPITAL'],
@@ -34,7 +31,6 @@ class VaersDescr2DataFrameConverterTest(unittest.TestCase):
             
         # When
         dataFrame = VaersDescr2DataFrameConverter.createDataFrameFromDescr(vaersDescr)
-        print(dataFrame)
         
         # Then
         dataFrameExpected = TestHelper.createDataFrame(

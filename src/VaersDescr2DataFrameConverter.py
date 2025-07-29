@@ -10,6 +10,7 @@ class VaersDescr2DataFrameConverter:
                 how = 'left',
                 left_index = True,
                 right_index = True,
+                # FK-TODO: use one_to_one
                 validate = 'many_to_many')
 
     @staticmethod
